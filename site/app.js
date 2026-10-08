@@ -292,7 +292,7 @@ function appStatus(app, gi){
     const q = qs.find(x => x.id === qid); if (!q) continue;
     const real = sel.map(i => q.options[i]).filter(o => !o.any); if (!real.length) continue;
     const hit = real.filter(o => optMatch(o, app));
-    if (hit.length){ yes++; hits.push(...hit.map(o => o.label)); } else { unk++; misses.push(real.map(o => o.label).join(' / ')); }
+    if (hit.length){ yes++; hits.push(hit.map(o => o.label).join(' / ')); } else { unk++; misses.push(real.map(o => o.label).join(' / ')); }
   }
   return {yes, unk, hits, misses};
 }
@@ -410,7 +410,7 @@ function iconHtml(a, big){ const ch = esc((a.n || '?').trim()[0] || '?');
   return `<span class="icon">${a.ic ? `<img src="${esc(a.ic)}" alt="" loading="lazy" onerror="this.replaceWith(document.createTextNode('${ch}'))">` : ch}</span>`; }
 function appCard(a, st){
   const total = st ? st.yes + st.unk : 0;
-  const hits = st ? [...new Set(st.hits)].slice(0, 3) : [];
+  const hits = st ? [...new Set(st.hits)] : [];
   const fit = total ? `<div class="hits"><span class="score${st.unk ? '' : ' all'}">Matches ${st.yes} of ${total}</span>${hits.map(h => `<span class="hit">✓ ${esc(h)}</span>`).join('')}${st.misses.map(m => `<span class="hit unk">Not mentioned: ${esc(m)}</span>`).join('')}</div>` : '';
   return `<button class="app" data-i="${a.i}">${iconHtml(a)}<span style="min-width:0"><div class="nm">${esc(a.n)}</div><div class="pb">${esc(a.p)}${a.t !== 'process' ? ' · ' + esc(SHAPES[a.t] || a.t) : ''}</div><div class="sm">${esc(a.s)}</div>${fit}</span><span class="arrow">›</span></button>`;
 }
@@ -427,7 +427,7 @@ function openApp(i, gi){
   $('#drawer-body').innerHTML = `
     <div class="dhead">${iconHtml(a, true)}<div><h2 id="d-title">${esc(a.n)}</h2><div class="quiet">${esc(a.p)}</div></div></div>
     <p>${esc(a.s)}</p>
-    ${st && (st.hits.length || st.misses.length) ? `<div class="why">${st.hits.length ? `<div><b>The listing mentions:</b> ${esc([...new Set(st.hits)].join(', '))}</div>` : ''}${st.misses.length ? `<div style="margin-top:4px">Not mentioned in the listing: ${esc(st.misses.join('; '))}</div>` : ''}</div>` : ''}
+    ${st && (st.hits.length || st.misses.length) ? `<div class="why">${st.hits.length ? `<div><b>The listing mentions:</b> ${esc([...new Set(st.hits)].join('; '))}</div>` : ''}${st.misses.length ? `<div style="margin-top:4px">Not mentioned in the listing: ${esc(st.misses.join('; '))}</div>` : ''}</div>` : ''}
     <dl class="facts">
       <dt>Good for</dt><dd>${esc(needs.join(' · ') || '—')}</dd>
       ${a.x.length ? `<dt>Works with</dt><dd>${esc(a.x.join(', '))}</dd>` : ''}
