@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.posone365.com/pos365",
     "sourceHash": "sha256:4a20797e1ba6ef525de6ae1563abcd842f4be438d59cdc98ed8536825fdd7f8a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4a20797e1ba6ef525de6ae1563abcd842f4be438d59cdc98ed8536825fdd7f8a",

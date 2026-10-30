@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/ic-automation-business-central/",
     "sourceHash": "sha256:3d0f6b4c7f2ad2b020d46c52b38c89be702406cdc96ec0bf55f3ae2ca29a499c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3d0f6b4c7f2ad2b020d46c52b38c89be702406cdc96ec0bf55f3ae2ca29a499c",

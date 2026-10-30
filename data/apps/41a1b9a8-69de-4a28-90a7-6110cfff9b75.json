@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://imeprocurement.help.im-projects.com/",
     "sourceHash": "sha256:eecf26c25072b235051faef2f1a97776165ec1449bd20226c9a2c624e89f9b72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:eecf26c25072b235051faef2f1a97776165ec1449bd20226c9a2c624e89f9b72",

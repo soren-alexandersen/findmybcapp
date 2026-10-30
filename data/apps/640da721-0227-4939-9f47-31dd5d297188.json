@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/delivery-route-planner.html",
     "sourceHash": "sha256:bab941d505e890e280e254b1fe4a617f8011a844219df9a1c3a4547b7acc1895",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bab941d505e890e280e254b1fe4a617f8011a844219df9a1c3a4547b7acc1895",

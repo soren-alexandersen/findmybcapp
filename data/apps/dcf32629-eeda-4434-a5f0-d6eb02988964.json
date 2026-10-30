@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/Navtilus-ScanX-Guide",
     "sourceHash": "sha256:63b014e61b36c51334e2f293241d438f092c5f9cfabc53ad13293871396d3eb1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:63b014e61b36c51334e2f293241d438f092c5f9cfabc53ad13293871396d3eb1",

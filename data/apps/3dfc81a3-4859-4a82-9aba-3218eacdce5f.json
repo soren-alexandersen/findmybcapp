@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.centralpath.com/dimensionpath/",
     "sourceHash": "sha256:44a507bf3786111363dd5a61d3c318619b1c968afbfed1cbb5ad1967761bf9de",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:44a507bf3786111363dd5a61d3c318619b1c968afbfed1cbb5ad1967761bf9de",

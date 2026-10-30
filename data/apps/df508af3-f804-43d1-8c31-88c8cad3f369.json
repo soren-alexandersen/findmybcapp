@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-orders-for-tegossuite/",
     "sourceHash": "sha256:77e2f8305742c8df58bc169ee33d41727e4aad25d8924954af2944dfe28e3a06",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:77e2f8305742c8df58bc169ee33d41727e4aad25d8924954af2944dfe28e3a06",

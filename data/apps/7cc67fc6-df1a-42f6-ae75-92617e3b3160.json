@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.innoviogroup.com/software/app/document-management",
     "sourceHash": "sha256:ca00d8650d593f46f82cc995b7659292d967f6c278d7e87d753e81ae0245ab05",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca00d8650d593f46f82cc995b7659292d967f6c278d7e87d753e81ae0245ab05",

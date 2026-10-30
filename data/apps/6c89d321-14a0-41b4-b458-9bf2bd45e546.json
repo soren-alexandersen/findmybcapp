@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcility.com/about-us/",
     "sourceHash": "sha256:24e8ab62200d8b527ba0fdf83545d45924d8339c2e851e2bd6812166061a7c55",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:24e8ab62200d8b527ba0fdf83545d45924d8339c2e851e2bd6812166061a7c55",

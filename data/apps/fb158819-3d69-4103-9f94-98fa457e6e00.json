@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://www.logosoft.ba/Microsoft-Dynamics-BC",
     "sourceHash": "sha256:3d23643d596329d3d467e17842c04e9796771082cee5958e1c9364393b390fd5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3d23643d596329d3d467e17842c04e9796771082cee5958e1c9364393b390fd5",

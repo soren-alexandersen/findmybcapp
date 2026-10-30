@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.bc365.no/",
     "sourceHash": "sha256:11ef60e7b0c039160a6e3abe81ddb958b7793dd0096669203a987b4f10b2589f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:11ef60e7b0c039160a6e3abe81ddb958b7793dd0096669203a987b4f10b2589f",

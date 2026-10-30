@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/workinghours/index.html",
     "sourceHash": "sha256:573679c5b21dc738355994a8bae1c5729921ca96c8307afbec23d6969beba53e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:573679c5b21dc738355994a8bae1c5729921ca96c8307afbec23d6969beba53e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.wise.is/ams/uppsetningarasto",
     "sourceHash": "sha256:2800eb88e1a5270ba9f443457fe6253c4c6133ee62f4a57eb1dffede06307a4f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2800eb88e1a5270ba9f443457fe6253c4c6133ee62f4a57eb1dffede06307a4f",

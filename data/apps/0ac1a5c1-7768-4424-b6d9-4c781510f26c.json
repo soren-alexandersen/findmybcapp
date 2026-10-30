@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/item-planning-review/product-help/",
     "sourceHash": "sha256:04882aa503b7fdafd9e074d72d16d26baabc842426e722e7742e8e922837addb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:04882aa503b7fdafd9e074d72d16d26baabc842426e722e7742e8e922837addb",

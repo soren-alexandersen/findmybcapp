@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/flexi-wms/",
     "sourceHash": "sha256:0e0974c274a3f187f7aba5db085c7fffb59f7e57dec6e778e66970e93981c795",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0e0974c274a3f187f7aba5db085c7fffb59f7e57dec6e778e66970e93981c795",

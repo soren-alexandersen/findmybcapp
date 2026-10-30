@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navitec.cz/navitec-digitoo-bridge",
     "sourceHash": "sha256:d3992a9d59b9a445291e4ba7803de3442f18856eacc5fb5d3cc77bf0da0285a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d3992a9d59b9a445291e4ba7803de3442f18856eacc5fb5d3cc77bf0da0285a5",

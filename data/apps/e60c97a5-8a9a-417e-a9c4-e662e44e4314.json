@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dedomind.com/docs/simple-restore/",
     "sourceHash": "sha256:2306780bf77b8760950f999843de17a25c9e4afe2b1f4cf54a5bc6f8d2b4a486",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2306780bf77b8760950f999843de17a25c9e4afe2b1f4cf54a5bc6f8d2b4a486",

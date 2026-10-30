@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/business-central-apps/container-planner/",
     "sourceHash": "sha256:6bc96792d938c87c7929833154c6d1453ceab8c6f03e67addf4d7cf5550c493b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6bc96792d938c87c7929833154c6d1453ceab8c6f03e67addf4d7cf5550c493b",

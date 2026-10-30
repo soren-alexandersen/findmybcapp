@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bemea.com/contact-us/?utm_source=appsource&utm_medium=marketplace&utm_campaign=microsoft_appsource_leads&utm_content=listing_cta",
     "sourceHash": "sha256:1bb6006f382f6436c6546342cd4eae2ccb1cfdbbc30533b5c71d3a2560f036e3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1bb6006f382f6436c6546342cd4eae2ccb1cfdbbc30533b5c71d3a2560f036e3",

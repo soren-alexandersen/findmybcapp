@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/sales-container/#userguide",
     "sourceHash": "sha256:50a8f61b50fa734e0079df0112e9e504174de1e75e10afae591ebbe111008785",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:50a8f61b50fa734e0079df0112e9e504174de1e75e10afae591ebbe111008785",

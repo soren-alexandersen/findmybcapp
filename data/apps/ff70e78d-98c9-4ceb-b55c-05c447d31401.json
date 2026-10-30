@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://www.inforolot.com/finish-orders/",
     "sourceHash": "sha256:892f54b477df510563dcbf8ba50d5ce5db1f1a655a457e46271c37600827a356",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:892f54b477df510563dcbf8ba50d5ce5db1f1a655a457e46271c37600827a356",

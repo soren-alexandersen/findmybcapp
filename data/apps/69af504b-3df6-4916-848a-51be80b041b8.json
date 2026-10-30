@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://goprowe.com/harvestconnect/docs/intro.html",
     "sourceHash": "sha256:6a6f175ddaa6dbd97be7379af74c7a7432532b109ae3acec27031d56bb97087e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6a6f175ddaa6dbd97be7379af74c7a7432532b109ae3acec27031d56bb97087e",

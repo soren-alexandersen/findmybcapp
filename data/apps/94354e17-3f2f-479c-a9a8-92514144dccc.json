@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://elmosolutions.com/cad-erp-integration-faqs/",
     "sourceHash": "sha256:47e2f8af8e41df40b254be4dee4de9f9356e8c2a719dcd61c20a98d0d229e891",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:47e2f8af8e41df40b254be4dee4de9f9356e8c2a719dcd61c20a98d0d229e891",

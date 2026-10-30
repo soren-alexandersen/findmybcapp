@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.matchbusinesscentral.com/pages/bankstatementimporthome",
     "sourceHash": "sha256:c72a69bdfeb6fa77fcec4d2044585ffc28de17707168fc4a32163295387a5190",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c72a69bdfeb6fa77fcec4d2044585ffc28de17707168fc4a32163295387a5190",

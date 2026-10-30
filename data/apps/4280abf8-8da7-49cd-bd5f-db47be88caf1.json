@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-equipment-tool",
     "sourceHash": "sha256:838d4c4f95ed046cbbb07862c4ea930482a167bffccd361fecd95713a28e038d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:838d4c4f95ed046cbbb07862c4ea930482a167bffccd361fecd95713a28e038d",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/nShift",
     "sourceHash": "sha256:7e4e9d3d342abf140c9ee85dc941afe7ef6ab178c33496ff9c6bfcd2127b5091",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7e4e9d3d342abf140c9ee85dc941afe7ef6ab178c33496ff9c6bfcd2127b5091",

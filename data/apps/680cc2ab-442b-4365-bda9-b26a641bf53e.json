@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://static.comsol.ag/multinavmail/docu/",
     "sourceHash": "sha256:21495ddccb41f452bc5b35ac34c43b7fe7d553db6d021c0a4b24c38cc251aee4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:21495ddccb41f452bc5b35ac34c43b7fe7d553db6d021c0a4b24c38cc251aee4",

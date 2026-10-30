@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/agicap-connector/",
     "sourceHash": "sha256:306fd7f5a7040832fc240631b0283c296af8dcf4ce08f3520401df0ce40f4adf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:306fd7f5a7040832fc240631b0283c296af8dcf4ce08f3520401df0ce40f4adf",

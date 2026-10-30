@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicpoint.com/expense-reimbursement/",
     "sourceHash": "sha256:088b380c428f90d766ec74ebb34526781dd24acf68593d73d187dc3341fb4e11",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:088b380c428f90d766ec74ebb34526781dd24acf68593d73d187dc3341fb4e11",

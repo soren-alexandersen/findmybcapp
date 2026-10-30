@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/easy_item_finder",
     "sourceHash": "sha256:85cb79dc6eca8882c5a0ba47536df53311289b51dacdf9097dbf0b6b5ed36da1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:85cb79dc6eca8882c5a0ba47536df53311289b51dacdf9097dbf0b6b5ed36da1",

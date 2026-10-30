@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://quadira.com/advanced-forms-for-business-central/",
     "sourceHash": "sha256:ebc69a9e435ee08a2ee3c70e443c88ee6263ec7f402981644a168639d01cda0e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ebc69a9e435ee08a2ee3c70e443c88ee6263ec7f402981644a168639d01cda0e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advance-payment/",
     "sourceHash": "sha256:cb31f5fe0e454e864d599f21b021a2ce0816d3a90c05db55eae7c8d04b139ac9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cb31f5fe0e454e864d599f21b021a2ce0816d3a90c05db55eae7c8d04b139ac9",

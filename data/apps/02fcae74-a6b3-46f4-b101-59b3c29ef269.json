@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/POS%20Base%20W1/",
     "sourceHash": "sha256:3096e3133be3561f272e78f36a830b1d39a2a0767e343e954805e561c012ac1d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3096e3133be3561f272e78f36a830b1d39a2a0767e343e954805e561c012ac1d",

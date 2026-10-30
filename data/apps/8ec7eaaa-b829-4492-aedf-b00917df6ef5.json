@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://le-configurateur-des-industriels.com/faq-configurateur-cpq/",
     "sourceHash": "sha256:df29e56530fab58cff9f96d4663d9a3eee5b242287693417d1238ff6864f5deb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df29e56530fab58cff9f96d4663d9a3eee5b242287693417d1238ff6864f5deb",

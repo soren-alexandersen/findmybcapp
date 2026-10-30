@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/support",
     "sourceHash": "sha256:543eaecfbd9ea8579d81f326d6a1d7683e5cd2035f2d9f8dd91f44511eb3b8dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:543eaecfbd9ea8579d81f326d6a1d7683e5cd2035f2d9f8dd91f44511eb3b8dd",

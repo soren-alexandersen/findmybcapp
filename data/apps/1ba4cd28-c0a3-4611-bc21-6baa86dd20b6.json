@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/invoice-and-statement-delivery",
     "sourceHash": "sha256:0a87643f9856f84c4c284c6a7ad37b01dfb5c57365ff8e2f8e31cc93343e74f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0a87643f9856f84c4c284c6a7ad37b01dfb5c57365ff8e2f8e31cc93343e74f3",

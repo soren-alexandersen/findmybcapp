@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.q-teamsolutions.com/product/dynamics-dossier/",
     "sourceHash": "sha256:02e491755e053c17c689b6487bd712e343144f7ef63724466e2e9966d9eec713",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:02e491755e053c17c689b6487bd712e343144f7ef63724466e2e9966d9eec713",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://cdm-it.de/appsource/ai-requirements-bridge/help",
     "sourceHash": "sha256:376aace98231aacf59e1d45864423f8478db503fd7c4c90505ed2c15c59fb9ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:376aace98231aacf59e1d45864423f8478db503fd7c4c90505ed2c15c59fb9ec",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/activity-stack",
     "sourceHash": "sha256:539f431d8b7a0eff0e48e4298ff20c64c77adb514856d3d6c76463bd4d89bcf9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:539f431d8b7a0eff0e48e4298ff20c64c77adb514856d3d6c76463bd4d89bcf9",

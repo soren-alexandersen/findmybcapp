@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.focu.biz/support",
     "sourceHash": "sha256:3697dc8b7318303a2653d20b8b57a4b48be2e94aaa27610c2fea142ce834fc82",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3697dc8b7318303a2653d20b8b57a4b48be2e94aaa27610c2fea142ce834fc82",

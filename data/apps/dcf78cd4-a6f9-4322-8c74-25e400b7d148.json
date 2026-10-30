@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.niftypm.com/en/articles/10842643-nifty-microsoft-teams-integration",
     "sourceHash": "sha256:ec86c738ebc64a82c99cb1b1e4c23faa90d2c289136ad92e7a8ee9c1200d7083",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec86c738ebc64a82c99cb1b1e4c23faa90d2c289136ad92e7a8ee9c1200d7083",

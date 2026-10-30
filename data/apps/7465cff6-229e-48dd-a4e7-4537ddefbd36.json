@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iteffect.dk/hjaelp-til-udvidet-finansbudget/",
     "sourceHash": "sha256:5c2d3a4abf5ad1c0e6518caaec7367c7785292203bb44e05c78d8387a962f5ff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c2d3a4abf5ad1c0e6518caaec7367c7785292203bb44e05c78d8387a962f5ff",

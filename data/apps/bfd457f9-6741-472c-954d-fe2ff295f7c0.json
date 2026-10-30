@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.allium.eu/en/contact",
     "sourceHash": "sha256:8c5221c4f9375c9e667705ed41f813b71c2a150024939ce8385611b8ccd23a92",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8c5221c4f9375c9e667705ed41f813b71c2a150024939ce8385611b8ccd23a92",

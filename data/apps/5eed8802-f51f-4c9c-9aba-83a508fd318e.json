@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/promotions_actions",
     "sourceHash": "sha256:44a98d69e2676d5428374e3a4e8719e0870746d11996016d5a8e4902fb24b57e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:44a98d69e2676d5428374e3a4e8719e0870746d11996016d5a8e4902fb24b57e",

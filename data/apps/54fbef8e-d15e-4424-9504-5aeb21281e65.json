@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials",
     "sourceHash": "sha256:52601c756c20f51260a346fadde24d109d69d39b8fa4d731c0362b015c614160",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:52601c756c20f51260a346fadde24d109d69d39b8fa4d731c0362b015c614160",

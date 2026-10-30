@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://jemel.lv/docs/latvian-salary",
     "sourceHash": "sha256:b603aa368ebf84cd22eb5e572818740bdb2938630aa563920d140441e01c8456",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b603aa368ebf84cd22eb5e572818740bdb2938630aa563920d140441e01c8456",

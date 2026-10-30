@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/mobdisp/index.html",
     "sourceHash": "sha256:5f5477ac75816f86f0781b57ad045f280c5e37915360579be5d61fe07e4ac401",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f5477ac75816f86f0781b57ad045f280c5e37915360579be5d61fe07e4ac401",

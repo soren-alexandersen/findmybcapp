@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://charon-inc.co.jp/product/business-central/cbex-japan-national-tax-agency-api-connection/",
     "sourceHash": "sha256:902af0b4e1378cd54044cc87714274fd535f314b4f435de34c62a299462fa940",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:902af0b4e1378cd54044cc87714274fd535f314b4f435de34c62a299462fa940",

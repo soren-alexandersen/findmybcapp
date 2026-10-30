@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://jemel.lv/docs/latvian-edi",
     "sourceHash": "sha256:cffa2608807d8c02cf9d6e5438b0257d2e92a02105222e5aadba8f46aff96e02",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cffa2608807d8c02cf9d6e5438b0257d2e92a02105222e5aadba8f46aff96e02",

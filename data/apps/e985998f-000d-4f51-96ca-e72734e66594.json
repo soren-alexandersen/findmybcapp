@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-nbt_edi/",
     "sourceHash": "sha256:d2296ce1f1b2f98f2ec5fb3f9f75b16b2840e0dd6162aa4282d769ca83ea8b2b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d2296ce1f1b2f98f2ec5fb3f9f75b16b2840e0dd6162aa4282d769ca83ea8b2b",

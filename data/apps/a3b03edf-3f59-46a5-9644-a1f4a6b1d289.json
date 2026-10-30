@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.projectpro365.com/contact-us/",
     "sourceHash": "sha256:6f04361f3baa495a51d6168e0c30b0dfc66ede2a1a93384d4b62ac8ad1caad66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6f04361f3baa495a51d6168e0c30b0dfc66ede2a1a93384d4b62ac8ad1caad66",

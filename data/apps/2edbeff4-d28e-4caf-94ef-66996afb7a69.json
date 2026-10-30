@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/487162037/Expense+Recovery",
     "sourceHash": "sha256:2cd317332a040580e914c6bdfc455ee34dc2226a96cfd260022b195edbe8250a",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2cd317332a040580e914c6bdfc455ee34dc2226a96cfd260022b195edbe8250a",

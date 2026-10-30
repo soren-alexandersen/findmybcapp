@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/deductions-ar-disputes-billbacks-business-central/",
     "sourceHash": "sha256:3c45a2f300c999ed10741b12a8f989dfbf48d870e3e060f51a48c37c753cd41e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3c45a2f300c999ed10741b12a8f989dfbf48d870e3e060f51a48c37c753cd41e",

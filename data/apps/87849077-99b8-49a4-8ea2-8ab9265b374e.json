@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Blue-Freight-Calculator-Manual.pdf",
     "sourceHash": "sha256:9cb220cf4648daf444afd0ce64a115da85d6bbe91b4e43e36393e86dbc13e597",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9cb220cf4648daf444afd0ce64a115da85d6bbe91b4e43e36393e86dbc13e597",

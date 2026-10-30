@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Portal-Integration",
     "sourceHash": "sha256:63baac1a124d2f9e7f15fe5fe08437b947c4191077804d4fc1e007c7e9337a8e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:63baac1a124d2f9e7f15fe5fe08437b947c4191077804d4fc1e007c7e9337a8e",

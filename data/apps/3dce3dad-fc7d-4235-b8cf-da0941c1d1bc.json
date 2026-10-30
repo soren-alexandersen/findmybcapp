@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/budget-pro-for-advanced-general-ledger/",
     "sourceHash": "sha256:4556098b8656fcc3436acfba328a859c81250de0acb77d797f683a0fac506c48",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4556098b8656fcc3436acfba328a859c81250de0acb77d797f683a0fac506c48",

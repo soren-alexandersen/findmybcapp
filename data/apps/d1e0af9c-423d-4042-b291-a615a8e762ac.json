@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-currency-rate-from-lb/",
     "sourceHash": "sha256:8b595c694ecc4001201bce5630ff887dc033c98beecd1877b3806a7b4a5827b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8b595c694ecc4001201bce5630ff887dc033c98beecd1877b3806a7b4a5827b1",

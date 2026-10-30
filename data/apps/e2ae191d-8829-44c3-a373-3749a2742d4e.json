@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-setup-digital-vouchers",
     "sourceHash": "sha256:8adfe632e41a31ba708fb1e947d36746b1447cdd56839b77cc5d182abd087ba2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8adfe632e41a31ba708fb1e947d36746b1447cdd56839b77cc5d182abd087ba2",

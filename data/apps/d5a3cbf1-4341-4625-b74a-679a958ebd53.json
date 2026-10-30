@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-document-multiple-discount",
     "sourceHash": "sha256:ac28c8d3c29e2292de2e6fff8f2165e13197bb45f0d3d55a4bafdbcef695e689",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ac28c8d3c29e2292de2e6fff8f2165e13197bb45f0d3d55a4bafdbcef695e689",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/rcp/",
     "sourceHash": "sha256:170f96e52e1e377ec1668cab7259a45f228e8201aa8aa5e67e450a5aac4f4f53",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:170f96e52e1e377ec1668cab7259a45f228e8201aa8aa5e67e450a5aac4f4f53",

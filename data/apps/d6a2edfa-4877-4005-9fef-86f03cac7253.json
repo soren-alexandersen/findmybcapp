@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.boyum-it.com/hc/en-us/sections/29000468109597-Netronic-Manufacturing-products-for-Microsoft-Dynamics-365-Business-Central",
     "sourceHash": "sha256:ad1772180dccca1cef91ca1ab382fca95adc6c2f07814379b8d0c077621dc23c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ad1772180dccca1cef91ca1ab382fca95adc6c2f07814379b8d0c077621dc23c",

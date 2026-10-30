@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/en/financials/index.html",
     "sourceHash": "sha256:354bf164e2bc8dfa8e3179180b5eee57d646053ad347a77602cb8a168728a41d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:354bf164e2bc8dfa8e3179180b5eee57d646053ad347a77602cb8a168728a41d",

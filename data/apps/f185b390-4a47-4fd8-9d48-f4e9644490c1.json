@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://telosteam.dk/apps/glp/#helppage",
     "sourceHash": "sha256:298a42587edcb5e17ef6968ff9e0b1246c89e9ca10dd3df7c51a5924920f2067",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:298a42587edcb5e17ef6968ff9e0b1246c89e9ca10dd3df7c51a5924920f2067",

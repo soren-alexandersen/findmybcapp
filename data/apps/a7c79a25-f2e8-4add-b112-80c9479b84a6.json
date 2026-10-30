@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/uniconta-edi-integration/",
     "sourceHash": "sha256:8aed9a2ea2328665ffbc5d8f96db9b1af020f9d84ff9d0dba7582454977a91c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8aed9a2ea2328665ffbc5d8f96db9b1af020f9d84ff9d0dba7582454977a91c0",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.crmjetty.com/contacts",
     "sourceHash": "sha256:218e01563cb6579ecc66a166f6038bad25b90684318eff3b7704a902ed262250",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:218e01563cb6579ecc66a166f6038bad25b90684318eff3b7704a902ed262250",

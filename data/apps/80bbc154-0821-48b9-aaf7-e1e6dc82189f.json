@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://builddynamics.com.au/support/",
     "sourceHash": "sha256:5c94c90f2fadf9c6738d1e0a5ad6f8a18836e5f3650b441dc08946c0001b50b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c94c90f2fadf9c6738d1e0a5ad6f8a18836e5f3650b441dc08946c0001b50b5",

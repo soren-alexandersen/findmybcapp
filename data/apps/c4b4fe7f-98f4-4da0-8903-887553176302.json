@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/dynamics-365-business-central-product-configurator/",
     "sourceHash": "sha256:5f0f61518d98b5951ad53faf3b130bccc5a0b105cecc015c9f0a3f0bb9e1b673",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f0f61518d98b5951ad53faf3b130bccc5a0b105cecc015c9f0a3f0bb9e1b673",

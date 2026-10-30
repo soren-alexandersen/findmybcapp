@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/RMA",
     "sourceHash": "sha256:e6ab7ccf10c5b77419fafe6e88d1b64d4df2d19c18a2c0840ec50447f33d7b25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e6ab7ccf10c5b77419fafe6e88d1b64d4df2d19c18a2c0840ec50447f33d7b25",

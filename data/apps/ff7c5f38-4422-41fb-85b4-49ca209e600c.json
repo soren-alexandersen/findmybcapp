@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.craftwaretech.com/docs/cds",
     "sourceHash": "sha256:0e756d23dd114f363f7caf8a8df7eae04e1801c6ddacbfcb779858890a7b7fc8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0e756d23dd114f363f7caf8a8df7eae04e1801c6ddacbfcb779858890a7b7fc8",

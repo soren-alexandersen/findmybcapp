@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://simcrest.com/simcrest-apps/ebank-reconciliation",
     "sourceHash": "sha256:7f9351d310b85084ddc0b7f4ee651c039db956844fd8e27efd77de8d1a0cb6ee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f9351d310b85084ddc0b7f4ee651c039db956844fd8e27efd77de8d1a0cb6ee",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-nav-addons/visionsecurity",
     "sourceHash": "sha256:f14a97cb602ccf918d71ae94b74b28c6b48a04ffd5b336de960cbb59f43bce76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f14a97cb602ccf918d71ae94b74b28c6b48a04ffd5b336de960cbb59f43bce76",

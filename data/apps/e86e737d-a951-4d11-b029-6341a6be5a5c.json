@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://immanufacturing.help.im-projects.com/",
     "sourceHash": "sha256:5c2e06ced5ce9c87fe3d795f544f79a0526ff571f9c22d76b4304ca92117357f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c2e06ced5ce9c87fe3d795f544f79a0526ff571f9c22d76b4304ca92117357f",

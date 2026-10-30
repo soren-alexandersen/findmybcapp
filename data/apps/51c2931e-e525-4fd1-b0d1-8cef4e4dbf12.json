@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/staff-loans",
     "sourceHash": "sha256:ec8e124464b3abd11665ac9661d6f6afa3cd742623fefdadd514361d045136aa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec8e124464b3abd11665ac9661d6f6afa3cd742623fefdadd514361d045136aa",

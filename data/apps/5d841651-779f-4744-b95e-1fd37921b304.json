@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/CommunicationCenter/en/",
     "sourceHash": "sha256:01380546a5449c0e6d9673a7174c329ae0433d797998f35e904668936b89e3be",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:01380546a5449c0e6d9673a7174c329ae0433d797998f35e904668936b89e3be",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://connect.logtrade.se/bc-shopify/",
     "sourceHash": "sha256:ac3bc566862d366665846c4f5eb506c039617830de9a0b6d6619320a8f68e91a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac3bc566862d366665846c4f5eb506c039617830de9a0b6d6619320a8f68e91a",

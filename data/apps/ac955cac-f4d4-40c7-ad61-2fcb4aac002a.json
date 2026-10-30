@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://tvision.tech/add-ons/tvt/generic-table-import",
     "sourceHash": "sha256:9b45b8d9a8048a8621f239ee4904ccecffb09ab8c9a77f6db191aad60bf5411e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9b45b8d9a8048a8621f239ee4904ccecffb09ab8c9a77f6db191aad60bf5411e",

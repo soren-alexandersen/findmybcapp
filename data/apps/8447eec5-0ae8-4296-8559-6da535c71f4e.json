@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.login.ee/webpage-viewer/",
     "sourceHash": "sha256:6b1f023454d3fb4b804ceb052a2914fac807101218f10636ac025f0aaf4f3ef9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6b1f023454d3fb4b804ceb052a2914fac807101218f10636ac025f0aaf4f3ef9",

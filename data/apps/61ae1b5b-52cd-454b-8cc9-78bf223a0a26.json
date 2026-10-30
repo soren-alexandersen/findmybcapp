@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.signupsoftware.com/tem",
     "sourceHash": "sha256:f4082a0c7d0750e92c20dedc336073398e995a329dc74d4e4702b600d698c9b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f4082a0c7d0750e92c20dedc336073398e995a329dc74d4e4702b600d698c9b0",

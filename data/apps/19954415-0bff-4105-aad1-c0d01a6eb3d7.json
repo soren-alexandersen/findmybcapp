@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ha-consultancy.com/wp-content/uploads/2024/09/Zatca.pdf",
     "sourceHash": "sha256:913743a14485a0c5150114ba3f4d5e4384104863e5a243de17cd68a5c79a17e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:913743a14485a0c5150114ba3f4d5e4384104863e5a243de17cd68a5c79a17e8",

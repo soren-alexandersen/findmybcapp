@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.samadhanindia.com/microsoft-dynamics-nav-support.html",
     "sourceHash": "sha256:17003e05f8b409fa440742a9e77f91cea07b2ace9a43dc5eaf1aaf4a2997338e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:17003e05f8b409fa440742a9e77f91cea07b2ace9a43dc5eaf1aaf4a2997338e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://redocap.fi/redoflow-taloushallinto/",
     "sourceHash": "sha256:94d573cd4166e15262680addff154bd8fa525d74ce5ba54b5791ceec99125a28",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94d573cd4166e15262680addff154bd8fa525d74ce5ba54b5791ceec99125a28",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.rutter.com/",
     "sourceHash": "sha256:af9c27efe8f662c94b72b618530f4ce2709556287c3a337d80311c5a5c5880f4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:af9c27efe8f662c94b72b618530f4ce2709556287c3a337d80311c5a5c5880f4",

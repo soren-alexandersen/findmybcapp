@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://incentea-core.com/en/contacts/",
     "sourceHash": "sha256:fad9e9302e3cec6d3891dccb26791f94efd8f6148a4b84a0123ca79605c91499",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fad9e9302e3cec6d3891dccb26791f94efd8f6148a4b84a0123ca79605c91499",

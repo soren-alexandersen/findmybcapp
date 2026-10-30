@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.de/de/modules/eudr",
     "sourceHash": "sha256:dd7b13b62d594e89cd0729352f5b317b955c1b802a28fc8dbad453f1389d7942",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd7b13b62d594e89cd0729352f5b317b955c1b802a28fc8dbad453f1389d7942",

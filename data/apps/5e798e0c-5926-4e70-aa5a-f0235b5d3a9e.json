@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.q-teamsolutions.com/product/ocrdocs/",
     "sourceHash": "sha256:a3cc751469583ad9686b61832caafd5491567f5474b9fe7aaf5b156d6a5ac5cb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a3cc751469583ad9686b61832caafd5491567f5474b9fe7aaf5b156d6a5ac5cb",

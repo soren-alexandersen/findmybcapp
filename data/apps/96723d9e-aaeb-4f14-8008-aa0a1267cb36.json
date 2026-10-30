@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/simpleagentdesigner",
     "sourceHash": "sha256:3bd3faec0e043902b1a3ed04a36e594b6b7b98607979593005485cb4a3c061d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3bd3faec0e043902b1a3ed04a36e594b6b7b98607979593005485cb4a3c061d9",

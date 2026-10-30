@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://stibbrptaddindev.z20.web.core.windows.net/support.html",
     "sourceHash": "sha256:cdaf2f29b083bef38195a23737e4deca4f7041655813beffbbf758c5ba87a1ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cdaf2f29b083bef38195a23737e4deca4f7041655813beffbbf758c5ba87a1ec",

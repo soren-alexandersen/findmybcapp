@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-time-registration-astr",
     "sourceHash": "sha256:8a6b947ff3402ebcfe24131803ca0438df4299616a071b4c14035ceb575083ff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8a6b947ff3402ebcfe24131803ca0438df4299616a071b4c14035ceb575083ff",

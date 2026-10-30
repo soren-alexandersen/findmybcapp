@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.katrori-its.com/help",
     "sourceHash": "sha256:8b72a17d831ec25a3063607bf556ee38dfbbda8a713cca30ad893e711d19d3e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8b72a17d831ec25a3063607bf556ee38dfbbda8a713cca30ad893e711d19d3e9",

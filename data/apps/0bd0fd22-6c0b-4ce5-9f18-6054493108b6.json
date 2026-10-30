@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://gadgetindustries.com/contact-us/",
     "sourceHash": "sha256:1dffa0c7a3c6e1d1083ab80376e416f6cb8bf045db948776ae8c1831e175e18d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1dffa0c7a3c6e1d1083ab80376e416f6cb8bf045db948776ae8c1831e175e18d",

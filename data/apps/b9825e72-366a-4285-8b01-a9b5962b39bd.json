@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.illumera.se/apps/docstatus/",
     "sourceHash": "sha256:07b37fdce798ce2a54056e121b4b9239615a381cc2d2c75d20bc0ae2ba5e3f40",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:07b37fdce798ce2a54056e121b4b9239615a381cc2d2c75d20bc0ae2ba5e3f40",

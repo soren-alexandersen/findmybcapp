@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/post-dated-cheque-for-microsoft-dynamics/",
     "sourceHash": "sha256:587ae30baa54c75b22adb708fa697be12ef5c09a1796d8be4351ca06a6e3d2eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:587ae30baa54c75b22adb708fa697be12ef5c09a1796d8be4351ca06a6e3d2eb",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/permissions",
     "sourceHash": "sha256:2b4f4760f281ee6914b36838dd6477a0b4df88f1ef778ef7927b78df3b6d2cab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2b4f4760f281ee6914b36838dd6477a0b4df88f1ef778ef7927b78df3b6d2cab",

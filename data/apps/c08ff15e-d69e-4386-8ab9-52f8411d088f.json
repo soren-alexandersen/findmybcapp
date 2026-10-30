@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eonesolutions.github.io/eone-bc-integration/",
     "sourceHash": "sha256:c912eaabd64e28bdc95d49ca04689a84a1739e5554a51a44f89677b1d611a61e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c912eaabd64e28bdc95d49ca04689a84a1739e5554a51a44f89677b1d611a61e",

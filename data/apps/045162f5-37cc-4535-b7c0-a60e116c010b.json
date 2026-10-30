@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.strategix.uk/document-mailing-app-within-business-central/",
     "sourceHash": "sha256:0ccfbd6eb2c57521fed56608315d612b8ab37fcd572e4850ca89e92c42976da8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0ccfbd6eb2c57521fed56608315d612b8ab37fcd572e4850ca89e92c42976da8",

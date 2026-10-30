@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ktc.de/bc/app/cnp",
     "sourceHash": "sha256:8acee15521c7dfb44a5952b4d3b2594b12fb8d01fc0df52ea34f850437f8a01d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8acee15521c7dfb44a5952b4d3b2594b12fb8d01fc0df52ea34f850437f8a01d",

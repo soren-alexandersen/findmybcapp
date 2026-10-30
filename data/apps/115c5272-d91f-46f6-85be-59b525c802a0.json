@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/tradeinrecordsearchbridge/index.html",
     "sourceHash": "sha256:09f26e993d351771da1e63ec8fe3ccd6f8cfdec53479d2cf57d155e0a66649dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:09f26e993d351771da1e63ec8fe3ccd6f8cfdec53479d2cf57d155e0a66649dd",

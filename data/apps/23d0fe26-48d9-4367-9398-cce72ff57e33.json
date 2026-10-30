@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/TicketSystem",
     "sourceHash": "sha256:1ade2c10afa399b41d796fac8528319e2503ab44a6bf9b53004ff7a02ce01c95",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1ade2c10afa399b41d796fac8528319e2503ab44a6bf9b53004ff7a02ce01c95",

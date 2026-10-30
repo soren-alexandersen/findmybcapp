@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/qrs/",
     "sourceHash": "sha256:0e84bd29ea57559d232d57c3b096584249eb143eafb8b49e15032be842777c3d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0e84bd29ea57559d232d57c3b096584249eb143eafb8b49e15032be842777c3d",

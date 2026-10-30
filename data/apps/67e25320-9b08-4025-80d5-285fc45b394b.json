@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.solutioo.de/dpd-businesscentral-hilfe/",
     "sourceHash": "sha256:0cae0361b05a73b7e6bbc6d5c40a69a3a6544ecb517bbd29a42628a430fb46e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0cae0361b05a73b7e6bbc6d5c40a69a3a6544ecb517bbd29a42628a430fb46e8",

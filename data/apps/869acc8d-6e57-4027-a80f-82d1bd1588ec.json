@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/elevatelabels",
     "sourceHash": "sha256:e8cfa9c68f241f5d860d117d10e64c929dda829d4b834c7b32d72f9cdfc0eb83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e8cfa9c68f241f5d860d117d10e64c929dda829d4b834c7b32d72f9cdfc0eb83",

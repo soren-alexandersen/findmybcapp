@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2026/05/Blue-Delivery-Manual.pdf",
     "sourceHash": "sha256:d8b6a863d0661644df7cd0905c7692551f6aa2c3d030b6c5f4730bd138ead652",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d8b6a863d0661644df7cd0905c7692551f6aa2c3d030b6c5f4730bd138ead652",

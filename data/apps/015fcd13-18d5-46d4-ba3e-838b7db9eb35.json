@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynasol.tech/squarespace-integration-with-dynamics-365-business-central-addon-app/",
     "sourceHash": "sha256:04122b605ddaff04f5143adaa69bd1e7b9e2df79eb848e779d093cc1f91336d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:04122b605ddaff04f5143adaa69bd1e7b9e2df79eb848e779d093cc1f91336d5",

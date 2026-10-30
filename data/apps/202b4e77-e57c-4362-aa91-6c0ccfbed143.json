@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-invoicing-enhance/user-guide-invoicing-enhance/about-invoicing-enhance",
     "sourceHash": "sha256:67e8b5b4fa12a86a50e68d3c3e43ac348366a0ed894804cff9de57fd0e591a23",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:67e8b5b4fa12a86a50e68d3c3e43ac348366a0ed894804cff9de57fd0e591a23",

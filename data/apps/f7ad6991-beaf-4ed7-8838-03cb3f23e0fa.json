@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.accessorange.com/en-us/article/accessorange-language-pack-chinese-traditional-taiwan-for-microsoft-dynamics-365-business-central-1l9jr7l/?bust=1758888516262",
     "sourceHash": "sha256:0bdd8bf7b8c62b8be371a0addb1e30101e32b42c9ac2f7f9c0f44eaa4a0a3940",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0bdd8bf7b8c62b8be371a0addb1e30101e32b42c9ac2f7f9c0f44eaa4a0a3940",

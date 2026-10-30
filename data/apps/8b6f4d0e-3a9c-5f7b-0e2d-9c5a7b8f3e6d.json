@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.novaterrae.nl/process-mining-installation/",
     "sourceHash": "sha256:2bdf995bc803d1c9a98a937167866d630d36367da19c96d5265bc3561189019c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2bdf995bc803d1c9a98a937167866d630d36367da19c96d5265bc3561189019c",

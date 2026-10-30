@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsdevsolutions.co.uk/Apps/#MigrationManager",
     "sourceHash": "sha256:de6c51a702494c62cc6fd35a4c0ace801efdda2f903c118e7807d09c470ce08c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:de6c51a702494c62cc6fd35a4c0ace801efdda2f903c118e7807d09c470ce08c",

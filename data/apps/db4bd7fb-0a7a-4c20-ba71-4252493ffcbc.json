@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/variable-capacity-cost",
     "sourceHash": "sha256:c1e46722f47dd74f362421eba64ac48e6f902408dae70322de4f0d53b55c83aa",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1e46722f47dd74f362421eba64ac48e6f902408dae70322de4f0d53b55c83aa",

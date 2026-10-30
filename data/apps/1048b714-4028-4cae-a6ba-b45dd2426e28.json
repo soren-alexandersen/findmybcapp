@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/delivery-reminders-pdr.html",
     "sourceHash": "sha256:45b2a4ecc23f4297e4a8240ba4de239230eb721645524ab710bcdcc90d9ebcb7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:45b2a4ecc23f4297e4a8240ba4de239230eb721645524ab710bcdcc90d9ebcb7",

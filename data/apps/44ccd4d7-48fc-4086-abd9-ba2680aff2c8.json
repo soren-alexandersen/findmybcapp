@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innoqubit.com/es-ES/IQeSignePDF/Introduction/",
     "sourceHash": "sha256:875d989c87d96b4198b3fb5a743172801383bf3b6d29ed88ac1636390a6967dc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:875d989c87d96b4198b3fb5a743172801383bf3b6d29ed88ac1636390a6967dc",

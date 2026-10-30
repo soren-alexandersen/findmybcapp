@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/shopfloor/index.html",
     "sourceHash": "sha256:3a07a79f9533aa075b688ac12d367518a7b40d83500a018f82ba2d0e4ee277b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3a07a79f9533aa075b688ac12d367518a7b40d83500a018f82ba2d0e4ee277b5",

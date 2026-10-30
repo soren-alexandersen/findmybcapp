@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://intelisenseit.com/contact-us",
     "sourceHash": "sha256:6c1ed30d6af39b35e32f3f40b427edde6aea9adda24f10be1e74b962d70fc046",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c1ed30d6af39b35e32f3f40b427edde6aea9adda24f10be1e74b962d70fc046",

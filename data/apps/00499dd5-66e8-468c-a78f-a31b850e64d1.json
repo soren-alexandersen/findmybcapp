@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dimomaint.com/cmms-selection/mx-store/connector/erp-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:9a03e2a05113226b48fbcd9ba02a9cb0672b9c79c0bb1cce3ccc6d7887c1672e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9a03e2a05113226b48fbcd9ba02a9cb0672b9c79c0bb1cce3ccc6d7887c1672e",

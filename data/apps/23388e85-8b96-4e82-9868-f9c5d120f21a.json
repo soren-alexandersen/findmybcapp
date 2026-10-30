@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/insightman/",
     "sourceHash": "sha256:92d95abc12e6fc22d0bb8a55fa7fbd3f95c2a0f0dbf802d8092846b5b693025c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:92d95abc12e6fc22d0bb8a55fa7fbd3f95c2a0f0dbf802d8092846b5b693025c",

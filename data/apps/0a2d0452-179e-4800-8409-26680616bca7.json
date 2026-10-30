@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.knk.com/",
     "sourceHash": "sha256:7d12b7b09f335a39a2ac13338ad943e2dfe2ca6ece784553e16778c3d21f9da0",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d12b7b09f335a39a2ac13338ad943e2dfe2ca6ece784553e16778c3d21f9da0",

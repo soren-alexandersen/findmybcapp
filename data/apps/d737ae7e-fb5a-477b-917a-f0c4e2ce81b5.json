@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.omnilogicsolutions.com/",
     "sourceHash": "sha256:71acf0558cc06ea4e9f67657f6c73c94a2e52e540cc3d0569846cbe5df167dca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:71acf0558cc06ea4e9f67657f6c73c94a2e52e540cc3d0569846cbe5df167dca",

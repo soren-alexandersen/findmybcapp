@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/cleaning-services",
     "sourceHash": "sha256:4ab74ea3cab7cf0b487d587403c10ec4a823048069038a3ab625d9ff07fd2b73",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ab74ea3cab7cf0b487d587403c10ec4a823048069038a3ab625d9ff07fd2b73",

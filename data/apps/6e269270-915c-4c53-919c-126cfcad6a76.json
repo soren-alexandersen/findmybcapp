@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/inventory-availability-indicators/",
     "sourceHash": "sha256:fa463849b918c38b42561ba3082720791df9ca5be605492b32673524a4cf4263",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fa463849b918c38b42561ba3082720791df9ca5be605492b32673524a4cf4263",

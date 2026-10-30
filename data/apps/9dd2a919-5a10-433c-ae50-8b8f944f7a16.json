@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.korcomptenz.com/quality-control-for-dynamics-365-business-central/",
     "sourceHash": "sha256:ce5b882b794b4b35bd9f334174c456fb57ba471c0036ba3f838331e9d2d35753",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ce5b882b794b4b35bd9f334174c456fb57ba471c0036ba3f838331e9d2d35753",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-approvals/docs",
     "sourceHash": "sha256:cb0ab44783b18f022dc88751afe14a4e572373d3218210609e5b092de9ae3bc3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cb0ab44783b18f022dc88751afe14a4e572373d3218210609e5b092de9ae3bc3",

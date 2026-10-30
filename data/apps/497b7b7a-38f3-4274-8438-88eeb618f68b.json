@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.evidi.com/support",
     "sourceHash": "sha256:327d144b3f4aac2df933cab55f9992bfe1b6dff5772e6f114901f9567317a2fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:327d144b3f4aac2df933cab55f9992bfe1b6dff5772e6f114901f9567317a2fd",

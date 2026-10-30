@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.business-central.app/public/app365fleet_help.pdf",
     "sourceHash": "sha256:5abfbf6579ba081c7ba23e053c64d77d552003af2c7623d142141989bd35a923",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5abfbf6579ba081c7ba23e053c64d77d552003af2c7623d142141989bd35a923",

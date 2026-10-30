@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infotech-inc.com/infotech-commissions",
     "sourceHash": "sha256:4d68b888d036c79b15024b2651ca172f0fa6c605efaf3e35fcf8c8d7fc98003e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4d68b888d036c79b15024b2651ca172f0fa6c605efaf3e35fcf8c8d7fc98003e",

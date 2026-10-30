@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/mobile-wms-add-in/",
     "sourceHash": "sha256:a90dd89dc632657f902ed303b542eb7c380c6396edaa948ad99de7a10f582542",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a90dd89dc632657f902ed303b542eb7c380c6396edaa948ad99de7a10f582542",

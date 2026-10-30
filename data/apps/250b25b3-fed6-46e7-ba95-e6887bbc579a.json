@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://advaiya.com/contact/",
     "sourceHash": "sha256:1aa50cfbd2f459272094dd550e01dc4a98c9341785d5cb56941cf2e22c2f27fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1aa50cfbd2f459272094dd550e01dc4a98c9341785d5cb56941cf2e22c2f27fd",

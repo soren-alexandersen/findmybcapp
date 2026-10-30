@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.steigauf.de/business-central/",
     "sourceHash": "sha256:334ce38ea0e7b1a156ff979eda6eada381d60ef23392c1eb39afbacabc14ae58",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:334ce38ea0e7b1a156ff979eda6eada381d60ef23392c1eb39afbacabc14ae58",

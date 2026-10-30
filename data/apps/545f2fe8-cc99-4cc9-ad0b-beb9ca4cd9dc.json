@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.lighthouseexperts.com/payment-journal-import-help",
     "sourceHash": "sha256:4516da280274bf380329ed2752c45ae600b44270f857dbd8e0fe256d877dc556",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4516da280274bf380329ed2752c45ae600b44270f857dbd8e0fe256d877dc556",

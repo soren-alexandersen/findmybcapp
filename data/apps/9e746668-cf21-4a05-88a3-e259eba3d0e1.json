@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCpleo",
     "sourceHash": "sha256:83d435547e8836bc8b152b8ad907e864beb30cfbe46e2189d81270a21cf1ebdf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:83d435547e8836bc8b152b8ad907e864beb30cfbe46e2189d81270a21cf1ebdf",

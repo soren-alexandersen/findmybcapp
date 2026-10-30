@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/ZebraZPL/",
     "sourceHash": "sha256:5ebb33dba4f921b6b607c34dcad329b4f5365482d0d4ce9ac2cf6889b778ace5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ebb33dba4f921b6b607c34dcad329b4f5365482d0d4ce9ac2cf6889b778ace5",

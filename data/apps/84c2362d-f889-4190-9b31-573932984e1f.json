@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://helpservice.nxm.dk/Start",
     "sourceHash": "sha256:c6df3fad5e2ddcdeab84a7b726975d3a1d21e3d2fe550399f82f9934fb1e362f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c6df3fad5e2ddcdeab84a7b726975d3a1d21e3d2fe550399f82f9934fb1e362f",

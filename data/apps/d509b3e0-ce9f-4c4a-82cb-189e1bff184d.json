@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.sievers-group.com/sievers-datev-buchungsdatenservice/docs/de-DE/setup.html",
     "sourceHash": "sha256:9c2448ec964d3c9c036bcbfe6e30e2b1b95ad17434d40c3634ab0373e0ec4d4f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9c2448ec964d3c9c036bcbfe6e30e2b1b95ad17434d40c3634ab0373e0ec4d4f",

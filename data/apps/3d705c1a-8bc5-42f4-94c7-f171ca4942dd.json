@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.opmetrix.com/en/",
     "sourceHash": "sha256:8b053bf05b6784d128174ee9b71c82764ab53986d994c92e222b471ad7f67022",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8b053bf05b6784d128174ee9b71c82764ab53986d994c92e222b471ad7f67022",

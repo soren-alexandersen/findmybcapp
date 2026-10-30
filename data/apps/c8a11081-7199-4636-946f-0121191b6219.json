@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://sncdocumentations.blob.core.windows.net/products/SNC%20Mobile_documentation_en-US.html",
     "sourceHash": "sha256:2549eab10171f2453371d8b327620390a51f9d997ccab3bd8cd32f6ecff670de",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2549eab10171f2453371d8b327620390a51f9d997ccab3bd8cd32f6ecff670de",

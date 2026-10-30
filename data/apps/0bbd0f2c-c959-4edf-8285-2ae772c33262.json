@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Direct-Debit",
     "sourceHash": "sha256:f91bd96cdc014774786a35d93601c4d366210595457ce929bb067041178f3251",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f91bd96cdc014774786a35d93601c4d366210595457ce929bb067041178f3251",

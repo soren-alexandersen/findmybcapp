@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/app-subscription-rental",
     "sourceHash": "sha256:f24ebddedacd104f4a638a259368d8adda1591b6333d64ac0112c003bf8107fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f24ebddedacd104f4a638a259368d8adda1591b6333d64ac0112c003bf8107fa",

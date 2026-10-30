@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nmierp.pl/en-us/preliminary-quotes/introduction.html",
     "sourceHash": "sha256:7f644ea411f34cf6686562ac95a0db852c860f3e97f63d513673af09bc5c45a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f644ea411f34cf6686562ac95a0db852c860f3e97f63d513673af09bc5c45a8",

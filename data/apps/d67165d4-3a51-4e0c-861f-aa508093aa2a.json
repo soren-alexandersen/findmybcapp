@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://cepheo.com/support/",
     "sourceHash": "sha256:e02181e513422ef2188a03a88fe50d30825fab26923d8edbc61545e98ba5ca28",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e02181e513422ef2188a03a88fe50d30825fab26923d8edbc61545e98ba5ca28",

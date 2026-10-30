@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SUL/",
     "sourceHash": "sha256:9e53f1f63513075e6f2e083d826c3b96b8e84d9d2399e525e89c2e11e450b579",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e53f1f63513075e6f2e083d826c3b96b8e84d9d2399e525e89c2e11e450b579",

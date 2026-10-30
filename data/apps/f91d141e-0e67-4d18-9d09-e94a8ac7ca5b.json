@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://navtech.net/info/app-source",
     "sourceHash": "sha256:feb112a9a8ed67c923f81e7949c500cf51f0b271577d3d8de2302d6702fc4197",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:feb112a9a8ed67c923f81e7949c500cf51f0b271577d3d8de2302d6702fc4197",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://chemdis.dynamate.be/",
     "sourceHash": "sha256:b57d90cb6aaae8dfe3c64a2640727db04ce56558c0a17d265c67c532b4b85c4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b57d90cb6aaae8dfe3c64a2640727db04ce56558c0a17d265c67c532b4b85c4c",

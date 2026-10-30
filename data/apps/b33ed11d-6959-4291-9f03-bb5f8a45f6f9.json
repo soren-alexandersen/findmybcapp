@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://risika.com/knowledge/help/business-central-integration-features/",
     "sourceHash": "sha256:70fb13aae10f189c682e0900912d027f2e6a8232095411b49e1c50df550f9a9f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:70fb13aae10f189c682e0900912d027f2e6a8232095411b49e1c50df550f9a9f",

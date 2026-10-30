@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://curabis.dk/eng/vax-transfer-365-app/",
     "sourceHash": "sha256:b834525e05f6d820fb2abc2356c5a18bd5e7ea13d51d00a089d418dc7eb5cf36",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b834525e05f6d820fb2abc2356c5a18bd5e7ea13d51d00a089d418dc7eb5cf36",

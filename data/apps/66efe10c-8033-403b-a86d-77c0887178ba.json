@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://aka.ms/ExpenseAgentDocs",
     "sourceHash": "sha256:1d65baac837b36b2bc9ff4538dfc9f29d46a17ec859133ceb386a55c28b4dd29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1d65baac837b36b2bc9ff4538dfc9f29d46a17ec859133ceb386a55c28b4dd29",

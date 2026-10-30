@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/e-document-connector-universal-hub/manuale-e-document-connector-universal-hub",
     "sourceHash": "sha256:95818b2b532dff37607e1e6484e520eb165a343c66cd5eb6be89074182d5d293",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:95818b2b532dff37607e1e6484e520eb165a343c66cd5eb6be89074182d5d293",

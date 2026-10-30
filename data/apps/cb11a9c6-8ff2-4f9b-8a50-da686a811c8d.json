@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/CAP/",
     "sourceHash": "sha256:9bf245298dd0a980dc947425cced5ef8561ccea2d905a1dcf2356afe087f7ae3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9bf245298dd0a980dc947425cced5ef8561ccea2d905a1dcf2356afe087f7ae3",

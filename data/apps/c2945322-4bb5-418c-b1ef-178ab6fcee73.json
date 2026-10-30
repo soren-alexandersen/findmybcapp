@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartean/documentation/",
     "sourceHash": "sha256:94ff68aec9f1461eb106a0961d12abb3822c5323c0eac868a3bd0dc7112c74a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94ff68aec9f1461eb106a0961d12abb3822c5323c0eac868a3bd0dc7112c74a7",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://app.ivisol.com:8889/plugins/servlet/share/content/823762e8-5a2b-4b21-b8d3-bd0b7075bcf8",
     "sourceHash": "sha256:2c011c5d1487addba8563718ca30853601885ff9014b87bfc5cf42d16e0bed9a",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2c011c5d1487addba8563718ca30853601885ff9014b87bfc5cf42d16e0bed9a",

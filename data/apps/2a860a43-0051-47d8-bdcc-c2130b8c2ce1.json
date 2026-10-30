@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mdi-master-data-intercompany.html",
     "sourceHash": "sha256:5b20f9812f06a210850cf8780ef1d8af51919bf4a90de137253fad66b30f2027",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5b20f9812f06a210850cf8780ef1d8af51919bf4a90de137253fad66b30f2027",

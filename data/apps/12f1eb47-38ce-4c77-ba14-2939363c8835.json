@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/documentsendingservice",
     "sourceHash": "sha256:a19ebfec53f823d363e18050e13142746efa81d0479b64f57d581941014fa0b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a19ebfec53f823d363e18050e13142746efa81d0479b64f57d581941014fa0b8",

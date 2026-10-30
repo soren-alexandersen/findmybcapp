@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://erpgruppen.dk/loesninger/apps-og-tillaegsloesninger/udvidet-producentansvar/",
     "sourceHash": "sha256:12a1efe4a740273d3bcf8e2402614a8d9bed52d8348e74a961d4948ed8d0afa5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:12a1efe4a740273d3bcf8e2402614a8d9bed52d8348e74a961d4948ed8d0afa5",

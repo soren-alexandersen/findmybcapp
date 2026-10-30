@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-payment-management",
     "sourceHash": "sha256:460e2f4ae77f3493505f234b0e7eb8c13a3d889bdf44bfc727b32407b0f25c68",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:460e2f4ae77f3493505f234b0e7eb8c13a3d889bdf44bfc727b32407b0f25c68",

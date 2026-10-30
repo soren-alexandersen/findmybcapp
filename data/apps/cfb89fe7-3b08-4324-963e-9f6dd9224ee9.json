@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/relationships",
     "sourceHash": "sha256:9c9c3c442878446f28cbf81a63c9ca50067934c3674105492e2c503cfd3e1486",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9c9c3c442878446f28cbf81a63c9ca50067934c3674105492e2c503cfd3e1486",

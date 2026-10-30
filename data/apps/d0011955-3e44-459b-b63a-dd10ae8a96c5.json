@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://zebon.dk/en/bc-integration-documentation/",
     "sourceHash": "sha256:aec6b871f0b93bac3bbcb41a4b5371009c3e493876fab684d39a19e385d36635",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aec6b871f0b93bac3bbcb41a4b5371009c3e493876fab684d39a19e385d36635",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://extentions.soak.dk/soak-monitor-business-central-documentation/",
     "sourceHash": "sha256:09b0f4af0d2f9c50d64c63b4da160e198b023cc6a71a86b69841da262eb34368",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:09b0f4af0d2f9c50d64c63b4da160e198b023cc6a71a86b69841da262eb34368",

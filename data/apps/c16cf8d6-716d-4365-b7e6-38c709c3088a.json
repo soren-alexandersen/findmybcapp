@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/rental",
     "sourceHash": "sha256:765f16191f58b3edcd5e3da2839f1616b891e9eb15db756abd9ae2ea3b349507",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:765f16191f58b3edcd5e3da2839f1616b891e9eb15db756abd9ae2ea3b349507",

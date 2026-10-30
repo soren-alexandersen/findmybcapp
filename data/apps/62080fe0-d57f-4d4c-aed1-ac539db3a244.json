@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/barcode-generator/product-help/",
     "sourceHash": "sha256:28626139fb602009a21473ebe13a3f2dc2d42d42b6b899f8879fe71d32a8fb7e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:28626139fb602009a21473ebe13a3f2dc2d42d42b6b899f8879fe71d32a8fb7e",

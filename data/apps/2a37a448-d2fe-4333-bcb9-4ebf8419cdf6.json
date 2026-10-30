@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.truecommerce.com/integrations/erp/microsoft-dynamics-365-business-central/?utm_campaign=channel+microsoft&utm_source=appsource.microsoft.com&utm_medium=referral",
     "sourceHash": "sha256:8c07bddcd7d58ae764a44115a2821357cd5b64ada6345175c59dce3135704ce7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8c07bddcd7d58ae764a44115a2821357cd5b64ada6345175c59dce3135704ce7",

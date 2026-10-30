@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://ktc.de/spp",
     "sourceHash": "sha256:ab1a7745c302206a27566bd357a857a61a7cbaf61372f0de7da2bc54e4940651",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ab1a7745c302206a27566bd357a857a61a7cbaf61372f0de7da2bc54e4940651",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://anvaigo.cc/edi-userguide",
     "sourceHash": "sha256:72d79539a5e189888cd041dfc14181c8a2b7d7d2a6f1ce690d957d6f49167557",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:72d79539a5e189888cd041dfc14181c8a2b7d7d2a6f1ce690d957d6f49167557",

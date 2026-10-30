@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://grupoactive.es/es/productos-microsoft/erp-microsoft-dynamics-nav/factura-electronica-facturae-nav",
     "sourceHash": "sha256:135cba07a7bb7a27fa727e20dcb870b21ed28528dad38818a99df4d49692eb7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:135cba07a7bb7a27fa727e20dcb870b21ed28528dad38818a99df4d49692eb7c",

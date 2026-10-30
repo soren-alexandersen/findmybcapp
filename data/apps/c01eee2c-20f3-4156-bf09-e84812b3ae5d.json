@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/extended-power-bi-api/",
     "sourceHash": "sha256:7115a11e89381059229f62c3c51fbd80ee42f0199ab2c858b053b3ce536f989e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7115a11e89381059229f62c3c51fbd80ee42f0199ab2c858b053b3ce536f989e",

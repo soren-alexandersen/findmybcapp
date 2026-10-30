@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Item_and_Price_import_Manual.pdf",
     "sourceHash": "sha256:7cd07c4eb4b99f1ba5042ed4b572dbf93dada991677e8a070c74d1fbb116b26f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7cd07c4eb4b99f1ba5042ed4b572dbf93dada991677e8a070c74d1fbb116b26f",

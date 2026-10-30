@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.agic.it/",
     "sourceHash": "sha256:ce550486f3ef42c949653c6088a2e50e996079527ce4525fcd5f070b4815fc9a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ce550486f3ef42c949653c6088a2e50e996079527ce4525fcd5f070b4815fc9a",

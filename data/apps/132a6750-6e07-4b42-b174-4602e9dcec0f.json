@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-e-despatch",
     "sourceHash": "sha256:f2541901e94610fbc262edcefc8ce93c9b2de6c35d41b7e3c90536691b7599ea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f2541901e94610fbc262edcefc8ce93c9b2de6c35d41b7e3c90536691b7599ea",

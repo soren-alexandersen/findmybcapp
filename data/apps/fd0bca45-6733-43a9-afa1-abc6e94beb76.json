@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-catch-weight",
     "sourceHash": "sha256:ca59d95691283cd340c8b1b6953246c2384caee5ee98356c754a5b8a4f8c9300",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca59d95691283cd340c8b1b6953246c2384caee5ee98356c754a5b8a4f8c9300",

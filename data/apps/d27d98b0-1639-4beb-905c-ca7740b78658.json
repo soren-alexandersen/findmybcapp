@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/it_IT/core",
     "sourceHash": "sha256:3132fa2bd5a8c23070c57bd5536e40d4b41c2375f6014aa626cb92e25af68ee6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3132fa2bd5a8c23070c57bd5536e40d4b41c2375f6014aa626cb92e25af68ee6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/universal-inventory/docs",
     "sourceHash": "sha256:3b7c15703e984bc3a35aac4e453a0ea3f7e217b5da9700f317ad3c39fc9575cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3b7c15703e984bc3a35aac4e453a0ea3f7e217b5da9700f317ad3c39fc9575cf",

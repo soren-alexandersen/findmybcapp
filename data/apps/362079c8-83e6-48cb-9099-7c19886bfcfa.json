@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/openrates",
     "sourceHash": "sha256:fd75d7f97fd84f3454a32d1f39b89a3641ff5d93c4e344c37e01127d90240c54",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fd75d7f97fd84f3454a32d1f39b89a3641ff5d93c4e344c37e01127d90240c54",

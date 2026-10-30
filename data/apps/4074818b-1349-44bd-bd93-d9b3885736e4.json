@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/smfee-billing/",
     "sourceHash": "sha256:0183e2be60a8cac5fae949350ac0fb0514bd4e963b4c2e2cbd4e589930430823",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0183e2be60a8cac5fae949350ac0fb0514bd4e963b4c2e2cbd4e589930430823",

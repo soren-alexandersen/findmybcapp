@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/finance",
     "sourceHash": "sha256:9754b1630f8143ad79b8cd9faf7001117d6ce8744f9b9ded0d539eb596760e8d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9754b1630f8143ad79b8cd9faf7001117d6ce8744f9b9ded0d539eb596760e8d",

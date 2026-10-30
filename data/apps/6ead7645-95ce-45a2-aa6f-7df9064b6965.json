@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/inventory-valuation-and-costing.html",
     "sourceHash": "sha256:cd635a66f5243b71635c6721dbd332f40720352888ebb47d8ecc71ec9429a8f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cd635a66f5243b71635c6721dbd332f40720352888ebb47d8ecc71ec9429a8f9",

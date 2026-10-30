@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/vendor-rating/",
     "sourceHash": "sha256:3e0562a93be83996f5c2156a1acf60a5e34f4ae07f995e2d73be5a4c2bf86d8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e0562a93be83996f5c2156a1acf60a5e34f4ae07f995e2d73be5a4c2bf86d8c",

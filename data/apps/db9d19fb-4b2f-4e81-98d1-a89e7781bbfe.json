@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
     "sourceHash": "sha256:304a0ee0fabb78058da6431bc5df7b1aac27a4ee558d2baf67ba88bfe8d52029",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:304a0ee0fabb78058da6431bc5df7b1aac27a4ee558d2baf67ba88bfe8d52029",

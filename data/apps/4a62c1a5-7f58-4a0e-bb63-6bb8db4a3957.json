@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://info.canaryit.com.au/support-services",
     "sourceHash": "sha256:5b14ed21dfce189441c2ccfbec8c95adfb694bade3a28624b3fafb980d22a5d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b14ed21dfce189441c2ccfbec8c95adfb694bade3a28624b3fafb980d22a5d8",

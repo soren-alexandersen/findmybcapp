@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.pinetworks.net/qa-health-monitor",
     "sourceHash": "sha256:3ea18b32b0509ec7ea212100b76c0163330dccf00866d2bd2196a72c97ded9c1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3ea18b32b0509ec7ea212100b76c0163330dccf00866d2bd2196a72c97ded9c1",

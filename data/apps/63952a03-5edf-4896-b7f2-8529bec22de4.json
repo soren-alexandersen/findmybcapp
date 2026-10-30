@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.curabis.dk/en/contact/",
     "sourceHash": "sha256:1b15fe63df931b2b09aa95a8d89c8a1a67792771f08e23e06bcc0c6c0a088f2b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1b15fe63df931b2b09aa95a8d89c8a1a67792771f08e23e06bcc0c6c0a088f2b",

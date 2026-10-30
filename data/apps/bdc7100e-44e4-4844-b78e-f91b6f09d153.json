@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.visionpeople.dk/help/bdc7100e-44e4-4844-b78e-f91b6f09d153/index",
     "sourceHash": "sha256:17daa974ff231883107c91dcce178a1b497e8f76aa13e3c6e9d0847c6e5f0b25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:17daa974ff231883107c91dcce178a1b497e8f76aa13e3c6e9d0847c6e5f0b25",

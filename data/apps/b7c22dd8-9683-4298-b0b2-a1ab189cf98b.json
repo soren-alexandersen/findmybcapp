@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://shreejisoftinfo.com/shreeji-no-code-workbook/",
     "sourceHash": "sha256:ea040217686cd4cf051e55e59ef6e120b5793dc8ccce1778869c75b2df2b939f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ea040217686cd4cf051e55e59ef6e120b5793dc8ccce1778869c75b2df2b939f",

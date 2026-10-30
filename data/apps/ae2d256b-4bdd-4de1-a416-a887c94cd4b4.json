@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.debicontroller.nl/help/",
     "sourceHash": "sha256:e3871bb364e04cd3e0681f23c28bfa2aa45895178f7b4cd747d922b28d02426e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e3871bb364e04cd3e0681f23c28bfa2aa45895178f7b4cd747d922b28d02426e",

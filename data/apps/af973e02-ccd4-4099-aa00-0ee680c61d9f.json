@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://builddynamics.com.au/extensions/email/",
     "sourceHash": "sha256:2b656b8aa092ab1e50f8a9bae71278b8ba020b405b4d86a6081f7d593e1f5a8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2b656b8aa092ab1e50f8a9bae71278b8ba020b405b4d86a6081f7d593e1f5a8c",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://atradiuscollections.com/global/flowcollect#contactform",
     "sourceHash": "sha256:9af86a63b068c385a200173b5218216cf74febcc4a030b195e296fff9272c79d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9af86a63b068c385a200173b5218216cf74febcc4a030b195e296fff9272c79d",

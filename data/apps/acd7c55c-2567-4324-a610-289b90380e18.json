@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://logosconsult.dk/udvidet-emballageansvar/",
     "sourceHash": "sha256:86810d513e44395e3bf5093477388dd9a60f3910c039192b13fff20afb8ba341",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86810d513e44395e3bf5093477388dd9a60f3910c039192b13fff20afb8ba341",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicpoint.com/easyap365/",
     "sourceHash": "sha256:4cc5018f22dfaf001ab7174a4f75046226a48b76e05d354d5580c2761172ae70",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4cc5018f22dfaf001ab7174a4f75046226a48b76e05d354d5580c2761172ae70",

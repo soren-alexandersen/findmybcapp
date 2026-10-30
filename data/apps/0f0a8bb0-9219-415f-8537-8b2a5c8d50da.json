@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://shreejisoftinfo.com/shreeji-document-editor",
     "sourceHash": "sha256:8dd9ec5ed1ec0d0b6267250b412fabfaa01159a70bb526516c5b7bede0b738c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dd9ec5ed1ec0d0b6267250b412fabfaa01159a70bb526516c5b7bede0b738c0",

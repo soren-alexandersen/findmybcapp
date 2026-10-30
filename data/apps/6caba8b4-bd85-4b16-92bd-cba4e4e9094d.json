@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/pda/index.html",
     "sourceHash": "sha256:672f3c3aa5f0379d3112477e23ffc800868495e7ef45a1d86678c7c557ae207e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:672f3c3aa5f0379d3112477e23ffc800868495e7ef45a1d86678c7c557ae207e",

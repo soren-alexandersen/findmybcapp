@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.qbuildsoftware.com/support/",
     "sourceHash": "sha256:b6c18c65ae916f72042741501805761216e0e41ff89ac5756851828dfe80428e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b6c18c65ae916f72042741501805761216e0e41ff89ac5756851828dfe80428e",

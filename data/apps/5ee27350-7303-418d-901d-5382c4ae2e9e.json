@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://apps.ibs-al.com/item-scanner.html",
     "sourceHash": "sha256:4be1aa1600a7c8380e47290a13c5b329f9fc382ca1f18b11e20696a6738cba21",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4be1aa1600a7c8380e47290a13c5b329f9fc382ca1f18b11e20696a6738cba21",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/knowledge-base/bluefort-tapp-payment-automation-for-microsoft-dynamics-365-business-central-deployment/",
     "sourceHash": "sha256:80e72276d11c6b6eecad1303d5606a7e06eec1b8f771e69cebbecde0d00b900a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:80e72276d11c6b6eecad1303d5606a7e06eec1b8f771e69cebbecde0d00b900a",

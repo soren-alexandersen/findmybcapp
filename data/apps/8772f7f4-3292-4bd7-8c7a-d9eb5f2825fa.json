@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/danske-fragtmaend/#howto",
     "sourceHash": "sha256:02b97015305cdae91bf972ab3dbc678790712c389d9d3c996e112bb132487a55",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:02b97015305cdae91bf972ab3dbc678790712c389d9d3c996e112bb132487a55",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://www.costcontrolsoftware.com/quality-control/",
     "sourceHash": "sha256:0e648070555547df4bd6cfc1ee324a4c9f38e8a2b6fd67223f13b9ddcb8567c5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0e648070555547df4bd6cfc1ee324a4c9f38e8a2b6fd67223f13b9ddcb8567c5",

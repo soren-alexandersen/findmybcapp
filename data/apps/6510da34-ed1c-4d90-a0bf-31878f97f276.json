@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/word-wrap-comments/",
     "sourceHash": "sha256:a8500eeec6b8d070fd113d26ce9f1ade502193ca9fc5d7b61cface41f6c4255b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a8500eeec6b8d070fd113d26ce9f1ade502193ca9fc5d7b61cface41f6c4255b",

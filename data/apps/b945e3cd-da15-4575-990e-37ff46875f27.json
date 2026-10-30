@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/rental/",
     "sourceHash": "sha256:93b5bc0a578f87c1280a561f1f2b7919dc40bf66b2aaf7e9a3eb39272ef649b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:93b5bc0a578f87c1280a561f1f2b7919dc40bf66b2aaf7e9a3eb39272ef649b5",

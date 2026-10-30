@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-Intercompany/",
     "sourceHash": "sha256:1830f593848e98edd6ac073190a53bbe8190e885879fbe0476e51fbd6ce8e2b6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1830f593848e98edd6ac073190a53bbe8190e885879fbe0476e51fbd6ce8e2b6",

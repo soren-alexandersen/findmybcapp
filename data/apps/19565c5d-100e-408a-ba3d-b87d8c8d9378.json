@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-bank-list",
     "sourceHash": "sha256:92508ddf78506fd3f04e7eb23ebc95ed6a9df8d96e45cfc2ef1099711a870097",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:92508ddf78506fd3f04e7eb23ebc95ed6a9df8d96e45cfc2ef1099711a870097",

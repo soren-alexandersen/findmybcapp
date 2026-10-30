@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/business-central/intelligent-order-routing/",
     "sourceHash": "sha256:b43906a2b62f9f3d996dbc1d82cd82cee570d88a28296c88cb252f2704632e50",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b43906a2b62f9f3d996dbc1d82cd82cee570d88a28296c88cb252f2704632e50",

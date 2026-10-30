@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/bc-apps/projectplus/",
     "sourceHash": "sha256:d4f96076a2a0d8cacb082fbda50b7f2da675427f0ebe9cfd554c4d1faa352a02",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d4f96076a2a0d8cacb082fbda50b7f2da675427f0ebe9cfd554c4d1faa352a02",

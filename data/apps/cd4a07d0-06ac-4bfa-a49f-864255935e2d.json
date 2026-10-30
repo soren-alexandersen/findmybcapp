@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simple-simon.net/en/contact/",
     "sourceHash": "sha256:d627cb914165ab756e7a1775dbb7305649b0743be010c323aabeda537a652038",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d627cb914165ab756e7a1775dbb7305649b0743be010c323aabeda537a652038",

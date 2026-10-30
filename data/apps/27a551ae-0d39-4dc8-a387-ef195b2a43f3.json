@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://semine.com/en/integrations/microsoft-dynamics-bc",
     "sourceHash": "sha256:f7f7e7c73c3530a3e939f21925230f7382c0fd5ee15bd8bcc5e3d611920de5d7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f7f7e7c73c3530a3e939f21925230f7382c0fd5ee15bd8bcc5e3d611920de5d7",

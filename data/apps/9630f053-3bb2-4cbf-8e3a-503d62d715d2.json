@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://splashdev.at/romanian-vat-validation-anaf-for-business-central/",
     "sourceHash": "sha256:608b434bbc7a244bb70324cff9baad99a2561a41c0ee6c168ef8877b0d56fc0e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:608b434bbc7a244bb70324cff9baad99a2561a41c0ee6c168ef8877b0d56fc0e",

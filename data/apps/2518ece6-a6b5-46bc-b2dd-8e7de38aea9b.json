@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://panachetechnohub.co.ke/contact",
     "sourceHash": "sha256:e435ee0e0415d8745bc4d2d6921f3dbea6d08f0fabaf4e61674f3d12c6d56655",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e435ee0e0415d8745bc4d2d6921f3dbea6d08f0fabaf4e61674f3d12c6d56655",

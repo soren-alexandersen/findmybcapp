@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-wms-mobile",
     "sourceHash": "sha256:d0d92debaf567744b9f7ad49cbd0947d1bd0b72ce291d13f320eb938e74b0028",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d0d92debaf567744b9f7ad49cbd0947d1bd0b72ce291d13f320eb938e74b0028",

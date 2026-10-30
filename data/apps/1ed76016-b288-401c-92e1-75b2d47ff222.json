@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/posted-data-administration-tool.html",
     "sourceHash": "sha256:75d3a986a712622de9d3077371409ffad9a42140dd2524d405b739ae8283bddc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:75d3a986a712622de9d3077371409ffad9a42140dd2524d405b739ae8283bddc",

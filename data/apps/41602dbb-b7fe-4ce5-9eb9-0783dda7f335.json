@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://mprise-agriware.document360.io/v1/en",
     "sourceHash": "sha256:6d388e95163d919fe46ceadb7d6608ff3561ac37449a5a5cbf95cb7ef16895aa",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6d388e95163d919fe46ceadb7d6608ff3561ac37449a5a5cbf95cb7ef16895aa",

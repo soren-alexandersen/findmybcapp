@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.gung.se/integrationer/business-central",
     "sourceHash": "sha256:74be10d3b8006ee525ca601f140675b8c5c154f9ffd95e2d6f0badedeeb6e291",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74be10d3b8006ee525ca601f140675b8c5c154f9ffd95e2d6f0badedeeb6e291",

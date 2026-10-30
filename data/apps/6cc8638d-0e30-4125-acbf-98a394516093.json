@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://businesscomputing.freshdesk.com/support/home",
     "sourceHash": "sha256:8e3047a4950e96822885c29e92d71787af1b91ff6ccd978ffdb6409a213084f0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8e3047a4950e96822885c29e92d71787af1b91ff6ccd978ffdb6409a213084f0",

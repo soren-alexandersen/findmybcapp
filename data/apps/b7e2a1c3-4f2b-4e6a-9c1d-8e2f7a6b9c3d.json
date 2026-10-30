@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://erpgruppen.dk/",
     "sourceHash": "sha256:9e5cab428624e739432e5c62d899233c821eb27a57e16ffa97aef7d2f46aead3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e5cab428624e739432e5c62d899233c821eb27a57e16ffa97aef7d2f46aead3",

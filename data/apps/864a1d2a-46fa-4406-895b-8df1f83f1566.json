@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-availability/docs/",
     "sourceHash": "sha256:34c92f7a9405910ff4532c1afb88ac317d39745c6efbd7ecd9196942c71cbf95",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:34c92f7a9405910ff4532c1afb88ac317d39745c6efbd7ecd9196942c71cbf95",

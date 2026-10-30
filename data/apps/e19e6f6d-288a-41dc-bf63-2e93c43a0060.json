@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/easy-item-tracking/docs",
     "sourceHash": "sha256:f7234c11d001bd8a4dcb92e1c7559229b53564ede5c14fea8ceb985ddb2c0918",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f7234c11d001bd8a4dcb92e1c7559229b53564ede5c14fea8ceb985ddb2c0918",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-document-pack/",
     "sourceHash": "sha256:0372578c33e93c258033fef01a3a6bba12271833aa128528d2a4f256c06f1fe7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0372578c33e93c258033fef01a3a6bba12271833aa128528d2a4f256c06f1fe7",

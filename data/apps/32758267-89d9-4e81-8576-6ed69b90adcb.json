@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/tradein/index.html",
     "sourceHash": "sha256:18a8987f7ed11759519c550c09ea469589d790eea7dd77a941a6d543c9f0df97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18a8987f7ed11759519c550c09ea469589d790eea7dd77a941a6d543c9f0df97",

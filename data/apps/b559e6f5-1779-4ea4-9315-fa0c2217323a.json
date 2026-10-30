@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Units_Manual.pdf",
     "sourceHash": "sha256:b5d49ee7cd64085cf6b06302305771e9b75588a2c6df240833cc59937a347df4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b5d49ee7cd64085cf6b06302305771e9b75588a2c6df240833cc59937a347df4",

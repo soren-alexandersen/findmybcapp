@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.bosch-data.de/screenman/",
     "sourceHash": "sha256:89747f71ec0798fb69c0f004a75716f918a3bd8e3277ce1b13473d9179067dc1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:89747f71ec0798fb69c0f004a75716f918a3bd8e3277ce1b13473d9179067dc1",

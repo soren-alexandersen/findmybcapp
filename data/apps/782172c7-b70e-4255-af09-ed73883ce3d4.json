@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/bc-apps/invoicelink/",
     "sourceHash": "sha256:43b985c9e12bfd8e243dd4334b3a8c629378e5c6de98d66c6ce43aacd1c9d5ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:43b985c9e12bfd8e243dd4334b3a8c629378e5c6de98d66c6ce43aacd1c9d5ab",

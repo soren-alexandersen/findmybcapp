@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naveksa.com/itemplanning-365",
     "sourceHash": "sha256:62b7b7621a8095d41f6a7ffb565d68ddbc586a1eac3f69fd7c33967b4f2298f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:62b7b7621a8095d41f6a7ffb565d68ddbc586a1eac3f69fd7c33967b4f2298f9",

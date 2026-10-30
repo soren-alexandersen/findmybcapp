@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/pss",
     "sourceHash": "sha256:8f1b513e6617e52b567b4a7ffb4ac3ce005ed81358f1c02c59aaa611531f9078",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8f1b513e6617e52b567b4a7ffb4ac3ce005ed81358f1c02c59aaa611531f9078",

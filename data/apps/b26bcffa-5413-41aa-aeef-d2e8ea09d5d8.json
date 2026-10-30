@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iteffect.dk/produkter/mobil-timeregistrering/",
     "sourceHash": "sha256:7d70d4810b029584d5b1e0ea307b8e8a58f39215ae1c403bdcaaee2c6fdfd192",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d70d4810b029584d5b1e0ea307b8e8a58f39215ae1c403bdcaaee2c6fdfd192",

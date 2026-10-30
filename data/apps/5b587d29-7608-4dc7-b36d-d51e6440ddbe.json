@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/fundmanagement/",
     "sourceHash": "sha256:423ec471789c542d1bfc3cddafbb5307f2045d0af350a899da6ed9e95a07a2ad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:423ec471789c542d1bfc3cddafbb5307f2045d0af350a899da6ed9e95a07a2ad",

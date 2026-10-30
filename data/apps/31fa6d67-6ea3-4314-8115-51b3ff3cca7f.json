@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-prepayments/docs",
     "sourceHash": "sha256:b83acbfa4075a74f61046003b245dfd1718f29cfb9ecadd56b782a648031d52e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b83acbfa4075a74f61046003b245dfd1718f29cfb9ecadd56b782a648031d52e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/master-data-sync/docs/en-US/help.html",
     "sourceHash": "sha256:f5d5932d78ad3f76942aed2c75c0b23907046ad6f5fe2963cad6e331e39878c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f5d5932d78ad3f76942aed2c75c0b23907046ad6f5fe2963cad6e331e39878c2",

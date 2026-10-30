@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/AdvancedProductConfigurator/index.html",
     "sourceHash": "sha256:4dc6cca5dea2f9ffc8057576fceb72684d46961f0a7c1a00e7b7c28e9a866feb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4dc6cca5dea2f9ffc8057576fceb72684d46961f0a7c1a00e7b7c28e9a866feb",

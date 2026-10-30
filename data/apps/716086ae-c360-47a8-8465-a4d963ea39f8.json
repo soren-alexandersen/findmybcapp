@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PRS/",
     "sourceHash": "sha256:29abcfd564de4af44636f7cc7a3f39d64ac04677bb62746d94225a5ea36d6ce8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:29abcfd564de4af44636f7cc7a3f39d64ac04677bb62746d94225a5ea36d6ce8",

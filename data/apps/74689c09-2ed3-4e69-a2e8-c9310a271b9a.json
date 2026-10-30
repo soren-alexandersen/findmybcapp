@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/manual-en",
     "sourceHash": "sha256:be73693e8e1ba96d13f64f11ef2bdba766c302878c737d9615b0d7901943781f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:be73693e8e1ba96d13f64f11ef2bdba766c302878c737d9615b0d7901943781f",

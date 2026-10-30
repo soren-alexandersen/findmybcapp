@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.conscoo.com/support",
     "sourceHash": "sha256:aa2d79e2d6f89b777822dd699c6a7587f61ca41897b037dfeb6b370543fc94e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aa2d79e2d6f89b777822dd699c6a7587f61ca41897b037dfeb6b370543fc94e8",

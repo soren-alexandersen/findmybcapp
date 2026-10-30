@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.go4logistics.be/en/help/",
     "sourceHash": "sha256:fbb80eae89947cd1a1a2f8810a3e40de9281fcd2e272712f8b35665bf971d9ee",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fbb80eae89947cd1a1a2f8810a3e40de9281fcd2e272712f8b35665bf971d9ee",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/storypoint/",
     "sourceHash": "sha256:e8af72317f2d1c5eee67b5275d664418f665bd6c27e2c1112a3201c8896107d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e8af72317f2d1c5eee67b5275d664418f665bd6c27e2c1112a3201c8896107d2",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docin.plus/bc-app/help/",
     "sourceHash": "sha256:19145be3a1ae56f006da8e739a7803560998e2b994bf03ad2447d79fc5360278",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:19145be3a1ae56f006da8e739a7803560998e2b994bf03ad2447d79fc5360278",

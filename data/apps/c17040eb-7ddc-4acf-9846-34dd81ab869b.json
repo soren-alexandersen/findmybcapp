@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nubetech.helpjuice.com/en_US/ordini-di-dis-assemblaggio",
     "sourceHash": "sha256:027b2c8a3ca7b9233be85ae9b95f5abb068b48b77877dfea9758a23272886cd0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:027b2c8a3ca7b9233be85ae9b95f5abb068b48b77877dfea9758a23272886cd0",

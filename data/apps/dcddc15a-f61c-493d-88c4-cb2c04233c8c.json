@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/ncm/",
     "sourceHash": "sha256:8cff220753c55c1364f31497e9a04c46d49103062d0d47793cd47061d83f6dd5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8cff220753c55c1364f31497e9a04c46d49103062d0d47793cd47061d83f6dd5",

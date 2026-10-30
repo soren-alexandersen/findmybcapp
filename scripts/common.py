@@ -3,6 +3,7 @@
 Paths, ID parsing, slugs and stable JSON writing. Standard library only.
 """
 import hashlib
+import html
 import json
 import re
 import unicodedata
@@ -122,6 +123,34 @@ def mentions_bc(raw):
     return bool(BC_MENTION.search(text))
 
 
+# Listing says the app works wherever Business Central is sold ("Supported countries: All
+# countries where Business Central is available"). Stored as a yes/no fact, never as text.
+_COUNTRY_HEAD = re.compile(r"supported\s+(?:countr(?:y|ies)|regions|markets)(?:\s*(?:/|and)\s*regions?)?|\b(?:countries|availability)\s*:", re.I)
+_ALL_WORD = re.compile(r"\b(?:all|every|any)\b(?!\s+(?:of\s+)?(?:the\s+)?(?:following|listed|below))", re.I)
+_ALL_COUNTRIES = re.compile(
+    r"\b(?:all|every|any)\s+(?:the\s+)?(?:countries|countries/regions|countries\s+and\s+regions|regions|markets|localizations|localisations)\b"
+    r"[^.]{0,80}?(?:business\s+central|\bbc\b|d365|dynamics\s+365)"
+    r"|\bavailable\s+(?:in|for|to)\s*:?\s+all\s+(?:countries|regions|markets)\b"
+    r"(?![^.]{0,40}\bwhere\b(?![^.]{0,60}(?:business\s+central|\bbc\b|dynamics)))"
+    r"|\ball\s+(?:microsoft\s+)?(?:dynamics\s+365\s+)?(?:business\s+central|bc)\s+(?:countries|localizations|localisations|markets)\b", re.I)
+
+
+def _plain(text):
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", html.unescape(text)).strip()
+
+
+def all_countries(raw):
+    """True when the listing says it works in every country where Business Central is available."""
+    text = _plain(" ".join(str(raw.get(k) or "") for k in ("longSummary", "description")))
+    for m in _COUNTRY_HEAD.finditer(text):
+        seg = text[m.end():m.end() + 120]
+        stop = re.search(r"supported\s+(?:languages?|editions?)", seg, re.I)
+        if _ALL_WORD.search(seg[:stop.start()] if stop else seg):
+            return True
+    return bool(_ALL_COUNTRIES.search(text))
+
+
 def source_fields(raw):
     """The factual source zone of an app file, from one raw catalog record."""
     return {
@@ -136,6 +165,7 @@ def source_fields(raw):
         "helpLink": attr(raw, "HelpLink") or None,
         "sourceHash": source_hash(raw),
         "mentionsBC": mentions_bc(raw),
+        "allCountries": all_countries(raw),
     }
 
 

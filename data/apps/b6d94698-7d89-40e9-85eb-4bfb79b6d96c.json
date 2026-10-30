@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Maintenance%20and%20Service%20Management/Index/",
     "sourceHash": "sha256:956f0bc64b5d8a52353e175b0783a2f1a359e6fa280f28e043a0391726fecabd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:956f0bc64b5d8a52353e175b0783a2f1a359e6fa280f28e043a0391726fecabd",

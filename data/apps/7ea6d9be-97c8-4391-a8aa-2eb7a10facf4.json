@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/purchasing-restrictions",
     "sourceHash": "sha256:970f14ec68e46467b854c40186469d17cc4120ec8bfb5c5076a60a6154d6b19e",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:970f14ec68e46467b854c40186469d17cc4120ec8bfb5c5076a60a6154d6b19e",

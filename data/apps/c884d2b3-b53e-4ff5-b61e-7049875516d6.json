@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ebt-me.com/wp-content/uploads/2026/07/EBT-Enterprise-Data-Management-User-Manual.pdf",
     "sourceHash": "sha256:c4af800be0ddc766ce5cab27716772955c3db517fb253a03efd08c5c84054c56",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c4af800be0ddc766ce5cab27716772955c3db517fb253a03efd08c5c84054c56",

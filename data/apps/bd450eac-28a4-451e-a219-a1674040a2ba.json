@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ixzal.com/link/?rdappname=BCA21038&rdpname=usage-help",
     "sourceHash": "sha256:9d15a14ebc17af36da217c4e261ad5abf9014fc890629dd996fed7d3d7981046",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9d15a14ebc17af36da217c4e261ad5abf9014fc890629dd996fed7d3d7981046",

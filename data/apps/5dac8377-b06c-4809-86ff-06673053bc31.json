@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.scaptify.com/en/scaptifyPlus/index.html",
     "sourceHash": "sha256:89c55adde64d4eeeae76345e21709faace2f3cd65e56ed7949be717d58568d45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:89c55adde64d4eeeae76345e21709faace2f3cd65e56ed7949be717d58568d45",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/healthCare",
     "sourceHash": "sha256:f38963911519f79a174b2d740c71930b7388ea8dee0d5abc2c61b0ee6cc7bee9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f38963911519f79a174b2d740c71930b7388ea8dee0d5abc2c61b0ee6cc7bee9",

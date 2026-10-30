@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apcdynamics.com/business-central-add-ons/progress-payments/",
     "sourceHash": "sha256:d5b378e352e3b5f25eedbbdf1ae36f55f790168291b1258070f205d730eb4185",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d5b378e352e3b5f25eedbbdf1ae36f55f790168291b1258070f205d730eb4185",

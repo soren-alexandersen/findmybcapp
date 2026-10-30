@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.server4.business/TextEditor.pdf",
     "sourceHash": "sha256:59c009b06eaac7d5da99700554eb65f57d3377aa53721e9e7200fec7fc31b959",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:59c009b06eaac7d5da99700554eb65f57d3377aa53721e9e7200fec7fc31b959",

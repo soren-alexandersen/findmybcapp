@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/NCF/",
     "sourceHash": "sha256:859d2e964fb79868929066a76d5cdbe189cf848b046685843fdee639fef126bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:859d2e964fb79868929066a76d5cdbe189cf848b046685843fdee639fef126bb",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/suggest-document-lines-with-ai/",
     "sourceHash": "sha256:10d46cd5489019c8ae6598401d74768705fa12e89559d4e28fd3cebf8ff2ab77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:10d46cd5489019c8ae6598401d74768705fa12e89559d4e28fd3cebf8ff2ab77",

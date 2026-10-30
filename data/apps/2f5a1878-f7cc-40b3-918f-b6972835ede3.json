@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://itm8.dk/forretningssystemer/erp/addons/microbizz-connector/",
     "sourceHash": "sha256:aa73531efa682fbd417bbb4524458f2dd02107c58d22bb03e3e4578c8d051447",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aa73531efa682fbd417bbb4524458f2dd02107c58d22bb03e3e4578c8d051447",

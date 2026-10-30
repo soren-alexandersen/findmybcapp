@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/spa/",
     "sourceHash": "sha256:fb6d0a56346913d2a84dd3eb420c5e80d780d57cd361eac4445e4d8d3fc30726",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fb6d0a56346913d2a84dd3eb420c5e80d780d57cd361eac4445e4d8d3fc30726",

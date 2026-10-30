@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/product-configurator/product-help/",
     "sourceHash": "sha256:70260daf955d3fc394b8dafa0860c529d1cfeefd3fa4d7a9fc089eb7448dce45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:70260daf955d3fc394b8dafa0860c529d1cfeefd3fa4d7a9fc089eb7448dce45",

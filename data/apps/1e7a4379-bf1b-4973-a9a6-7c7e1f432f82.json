@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.risika.dk/microsoft-bc",
     "sourceHash": "sha256:3e85c9f452adc4e7acd953b4fbfa61eba4a57fe551f0d5ce50e299a3a1e26de5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e85c9f452adc4e7acd953b4fbfa61eba4a57fe551f0d5ce50e299a3a1e26de5",

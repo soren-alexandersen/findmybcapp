@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ksinform.com/bc/HelpDocumentation_KSFin.pdf",
     "sourceHash": "sha256:3506e1e78b7ca15afd6511ec361a0bda082c81c804ab6b1b74bc2bda2c7ed704",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3506e1e78b7ca15afd6511ec361a0bda082c81c804ab6b1b74bc2bda2c7ed704",

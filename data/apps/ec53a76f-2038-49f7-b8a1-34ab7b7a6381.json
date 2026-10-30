@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.techventuresglobal.com/payroll/",
     "sourceHash": "sha256:a528f06e4a072e2252befd886cbc6bda9a7bd5aee061b5adcd0f442702b9c7ed",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a528f06e4a072e2252befd886cbc6bda9a7bd5aee061b5adcd0f442702b9c7ed",

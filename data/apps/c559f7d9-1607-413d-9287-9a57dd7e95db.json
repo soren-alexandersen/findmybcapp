@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://econsupport.experlogix.com/a/solutions/articles/12000085054?lang=en&portalId=5000041896",
     "sourceHash": "sha256:591544866ae3c35ae10534737b6500f16ca7de0caf53fa85f44ba81411aaef0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:591544866ae3c35ae10534737b6500f16ca7de0caf53fa85f44ba81411aaef0f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/es/verifactu/first-steps.html",
     "sourceHash": "sha256:4068f836a44514a8f8902f25f11a1c61f0ef7dadc5b589ec5183eaee1a00c3cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4068f836a44514a8f8902f25f11a1c61f0ef7dadc5b589ec5183eaee1a00c3cd",

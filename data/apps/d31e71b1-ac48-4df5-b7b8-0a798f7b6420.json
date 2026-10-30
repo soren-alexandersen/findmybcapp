@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/OUP/",
     "sourceHash": "sha256:e1dd4f4e283cb7fb8a7442f694e8373609aa04bf0bd713224d620baccde0b59d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e1dd4f4e283cb7fb8a7442f694e8373609aa04bf0bd713224d620baccde0b59d",

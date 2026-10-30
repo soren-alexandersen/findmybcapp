@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dinit.dk/",
     "sourceHash": "sha256:746517dfe20fc6919c5e55dfbeec0a20a2d741cfcead4649f1ebee90faf413f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:746517dfe20fc6919c5e55dfbeec0a20a2d741cfcead4649f1ebee90faf413f6",

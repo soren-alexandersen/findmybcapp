@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.illumera.se/apps/itemplanner/",
     "sourceHash": "sha256:682df499c95f00e0f181eee3120dab06177b9621e32096207c97d5dab1f76621",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:682df499c95f00e0f181eee3120dab06177b9621e32096207c97d5dab1f76621",

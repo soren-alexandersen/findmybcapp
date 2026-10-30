@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/shop-floor-execution/docs",
     "sourceHash": "sha256:8485cd7b82854e5cbbbefd69dbf975a83b865c61cdef0e987a525ba7db8ae680",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8485cd7b82854e5cbbbefd69dbf975a83b865c61cdef0e987a525ba7db8ae680",

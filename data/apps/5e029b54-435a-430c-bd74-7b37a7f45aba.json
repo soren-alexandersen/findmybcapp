@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-FNA/en-US/FNA/index.html",
     "sourceHash": "sha256:2f0c8fd6dc0d3a96527124e5655d7ed1a08f052b9a01647e400761fc2ba35cf3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2f0c8fd6dc0d3a96527124e5655d7ed1a08f052b9a01647e400761fc2ba35cf3",

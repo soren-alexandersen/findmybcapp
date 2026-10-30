@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-mobile-physical-inventory",
     "sourceHash": "sha256:66d41d6c5496bf3b1eaa35ccb98a838a95040520d05128c73e7402a99d8e03ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66d41d6c5496bf3b1eaa35ccb98a838a95040520d05128c73e7402a99d8e03ec",

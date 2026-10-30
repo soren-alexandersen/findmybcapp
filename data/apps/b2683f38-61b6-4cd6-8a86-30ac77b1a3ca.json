@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.signupsoftware.com/",
     "sourceHash": "sha256:d9bc7e936e7e0a4e74396913dd38f737f1f45392dea78b1f0e589fb2117d06dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d9bc7e936e7e0a4e74396913dd38f737f1f45392dea78b1f0e589fb2117d06dd",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/business-intelligence-reporting/docs/",
     "sourceHash": "sha256:ffac1ee2632951f1b1f5f01b857103d79997a84567b880fe24407579ef15cbc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ffac1ee2632951f1b1f5f01b857103d79997a84567b880fe24407579ef15cbc4",

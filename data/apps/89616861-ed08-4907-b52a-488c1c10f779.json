@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-data-and-gdpr-manager/",
     "sourceHash": "sha256:dd8af45eb9b628dfcae73b4c9296641d0a0f0b318a1c6bdd3af4ee7786201a38",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd8af45eb9b628dfcae73b4c9296641d0a0f0b318a1c6bdd3af4ee7786201a38",

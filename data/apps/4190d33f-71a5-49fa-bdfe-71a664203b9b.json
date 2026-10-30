@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/clever-packing-and-despatch/user-guide",
     "sourceHash": "sha256:f3b69f6691104ddd233ac9350eea3dfdecac7c737c4d7a64a09d0d862bddde91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f3b69f6691104ddd233ac9350eea3dfdecac7c737c4d7a64a09d0d862bddde91",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/external-document-no-for-lithuania/",
     "sourceHash": "sha256:189962db098fac01eee05b1e47082faaca9e0d80df7a2ead4d2c9d3f3307160c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:189962db098fac01eee05b1e47082faaca9e0d80df7a2ead4d2c9d3f3307160c",

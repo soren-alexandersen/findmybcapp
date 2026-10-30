@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Work%20Registration%20-%20Production/Index/",
     "sourceHash": "sha256:55745ca2795c66f961e6a76ef0f1fb79adfd8bad4e8cab2fe59857c75956ea37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55745ca2795c66f961e6a76ef0f1fb79adfd8bad4e8cab2fe59857c75956ea37",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://seerdynamics.com/scales-license.html",
     "sourceHash": "sha256:a71394cca02bf47f04eda3488f9a76066d2fc78f767132ef0db2e30a1955a6af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a71394cca02bf47f04eda3488f9a76066d2fc78f767132ef0db2e30a1955a6af",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.cosmosdatatech.com/",
     "sourceHash": "sha256:57407d1bd2d97d78766da48377d75b350ad7cb27fadb7381a50c17f79f8b7a7b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:57407d1bd2d97d78766da48377d75b350ad7cb27fadb7381a50c17f79f8b7a7b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.staedean.com/products/connectivity-studio-microsoft-dynamics-bc/",
     "sourceHash": "sha256:955d31d9924af3533ce3426524fe05fd038575fd61f54c5b3a3a976da7258a3d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:955d31d9924af3533ce3426524fe05fd038575fd61f54c5b3a3a976da7258a3d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-inflation-accounting",
     "sourceHash": "sha256:17bd8bbcb086a2d7c03c3ee449e8d23ef53164c537311b57436630dd250a2d78",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:17bd8bbcb086a2d7c03c3ee449e8d23ef53164c537311b57436630dd250a2d78",

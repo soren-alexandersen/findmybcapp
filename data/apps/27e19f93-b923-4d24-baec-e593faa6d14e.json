@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Guaranty-Management-Help.pdf",
     "sourceHash": "sha256:7a51626d3d9dfba05a8392c9952e786b18e5d37748e47fbd7a58a63c708097d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7a51626d3d9dfba05a8392c9952e786b18e5d37748e47fbd7a58a63c708097d9",

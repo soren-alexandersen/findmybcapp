@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vinya.com.tr/en/microsoft-appsource/vrent-rental-property-management-for-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:754b5a27ca225e553c14fab86a245ebb933066a9075dcab2549e1e3f5b51c2ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:754b5a27ca225e553c14fab86a245ebb933066a9075dcab2549e1e3f5b51c2ec",

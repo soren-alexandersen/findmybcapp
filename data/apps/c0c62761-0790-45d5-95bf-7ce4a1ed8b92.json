@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.econix.ca/econix-e-fax/",
     "sourceHash": "sha256:9a68594e7a9d2c26b1de22058d7856f206bf793f53f3b4218d8616b0532adba7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9a68594e7a9d2c26b1de22058d7856f206bf793f53f3b4218d8616b0532adba7",

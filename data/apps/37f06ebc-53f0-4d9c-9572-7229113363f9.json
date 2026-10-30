@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/einvoice-sender-for-microsoft-dynamics-365-bc-de-de",
     "sourceHash": "sha256:879fd1be886b91b8e727ae687e6ebbf176f0cd0f06aded555e72c559c6acdd16",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:879fd1be886b91b8e727ae687e6ebbf176f0cd0f06aded555e72c559c6acdd16",

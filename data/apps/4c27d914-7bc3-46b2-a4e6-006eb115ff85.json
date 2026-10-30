@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.formpipe.com/",
     "sourceHash": "sha256:8947226e26e087193c66c9743dfff1f8ecf384e3f569df1c3ed9c543a3700bb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8947226e26e087193c66c9743dfff1f8ecf384e3f569df1c3ed9c543a3700bb8",

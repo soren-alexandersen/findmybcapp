@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Braintree-by-Vox/Signatures-and-Imaging",
     "sourceHash": "sha256:4810c410a78c508ec65f327ab2d86618859cb0550599915f43872139d49f3260",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4810c410a78c508ec65f327ab2d86618859cb0550599915f43872139d49f3260",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://syssolutionsllc.com/user-guides/customer-payment-portal-for-d365-business-central/",
     "sourceHash": "sha256:3f3b463ca791e5d723cfcbcb0de27eca51525bbd0c13aa32fcd0217b7628fa8a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3f3b463ca791e5d723cfcbcb0de27eca51525bbd0c13aa32fcd0217b7628fa8a",

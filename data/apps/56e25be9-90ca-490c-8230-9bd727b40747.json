@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/Health-Tracks",
     "sourceHash": "sha256:a1d60d9b9e350daff61b3a6a1dfc424630dd4c1e83cf72225760157c11ee272d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a1d60d9b9e350daff61b3a6a1dfc424630dd4c1e83cf72225760157c11ee272d",

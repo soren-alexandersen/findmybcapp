@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dogmagroup.co.uk/contact-us/",
     "sourceHash": "sha256:e0bc9ee9423b3a062fb33491829b3345454bbb4ab5e0d70b70ac20011b5da3d3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e0bc9ee9423b3a062fb33491829b3345454bbb4ab5e0d70b70ac20011b5da3d3",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/peppol720",
     "sourceHash": "sha256:182d83e35aeb3a7810968af018b3b8384a8180d49dff6f276446116f58d2c008",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:182d83e35aeb3a7810968af018b3b8384a8180d49dff6f276446116f58d2c008",

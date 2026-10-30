@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-dynamics-addons/visionforecast",
     "sourceHash": "sha256:131b67b4e99530e1672627b42a44a8a3d4a272520b79e204e081840358f7a91c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:131b67b4e99530e1672627b42a44a8a3d4a272520b79e204e081840358f7a91c",

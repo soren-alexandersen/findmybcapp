@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.xe.com/hc/en-gb/articles/9436217976593-How-to-set-up-Xe-s-API-connection",
     "sourceHash": "sha256:3a983e58464758bbb272eabf41c417f61680c0ee810922ba85649d46ed27105c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3a983e58464758bbb272eabf41c417f61680c0ee810922ba85649d46ed27105c",

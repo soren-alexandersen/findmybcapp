@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/easy-weighbridge-for-tegossuite/",
     "sourceHash": "sha256:e35e3c050c005982a4be50301a14c09ae217bd5dc3ad048ba8cc61407172b829",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e35e3c050c005982a4be50301a14c09ae217bd5dc3ad048ba8cc61407172b829",

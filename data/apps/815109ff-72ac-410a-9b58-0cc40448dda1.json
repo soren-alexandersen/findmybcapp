@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav-x.com/en/business-central/search/index.html",
     "sourceHash": "sha256:68b759c475e26ec4eb0dfc68f8acf1d2099b3a442a51a64a9377feabd22d9d35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:68b759c475e26ec4eb0dfc68f8acf1d2099b3a442a51a64a9377feabd22d9d35",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://gmsoftdynamics.com/apps/free/inventory-health-check/docs/",
     "sourceHash": "sha256:86c6e3007011046e9534e53760daeb0841e5b45b45704a6f71a439cff2d04201",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86c6e3007011046e9534e53760daeb0841e5b45b45704a6f71a439cff2d04201",

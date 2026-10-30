@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.etribezacademy.com/",
     "sourceHash": "sha256:e2e30a396f44d886b48ba14af9b243759128a37d82360242c02b86eec804a871",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e2e30a396f44d886b48ba14af9b243759128a37d82360242c02b86eec804a871",

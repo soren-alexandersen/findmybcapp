@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-GSR/en-US/index.html",
     "sourceHash": "sha256:885f5f460bb6c5262406753330bbd38ed0fe2858bd0b37fff1a6251205aa7c5a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:885f5f460bb6c5262406753330bbd38ed0fe2858bd0b37fff1a6251205aa7c5a",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.modusconsult.de/d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b/M365dox42DocumentAutomation/",
     "sourceHash": "sha256:cbe514eb1bea510b0a7de1d3b79d1462425dc115fe646a01812b6dbcc1825017",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cbe514eb1bea510b0a7de1d3b79d1462425dc115fe646a01812b6dbcc1825017",

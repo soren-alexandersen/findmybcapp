@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://elva-d365-bc.github.io/FixedAssetKeeper/en-US/articles/fixed_asset_keeper/overview.html",
     "sourceHash": "sha256:042678914a237432dc61894dddc1736171e18a0103fa54e7413028859c2af023",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:042678914a237432dc61894dddc1736171e18a0103fa54e7413028859c2af023",

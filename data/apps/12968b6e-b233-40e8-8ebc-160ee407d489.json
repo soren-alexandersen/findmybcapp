@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/shop-floor-insight/product-help/",
     "sourceHash": "sha256:92301307f40e77104eb5abb6d8e01c959c5b3f189ffeed092245253e78181cda",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:92301307f40e77104eb5abb6d8e01c959c5b3f189ffeed092245253e78181cda",

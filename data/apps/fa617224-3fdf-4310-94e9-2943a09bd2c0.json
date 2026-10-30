@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-temporary-item/",
     "sourceHash": "sha256:5a29526616d9b2e88afd26851ca2496d299700397ecf39134b9843dbf0aba5e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5a29526616d9b2e88afd26851ca2496d299700397ecf39134b9843dbf0aba5e8",

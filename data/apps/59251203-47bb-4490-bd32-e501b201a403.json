@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d4bsolutions.com/ficha-de-producto/revisionEsquema/",
     "sourceHash": "sha256:c3dd00ee46a86ac988efbad3b36f67fb83c3ef2849eefede307dc12df784c9fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c3dd00ee46a86ac988efbad3b36f67fb83c3ef2849eefede307dc12df784c9fc",

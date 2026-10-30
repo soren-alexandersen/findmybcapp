@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/inventory-essentials/",
     "sourceHash": "sha256:792c5ae2064de7c1ae59f1a71694fdefafceb19db2c844d27472408b4dc2f249",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:792c5ae2064de7c1ae59f1a71694fdefafceb19db2c844d27472408b4dc2f249",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.credithoundcloud.com/docs/connecting-to-business-central",
     "sourceHash": "sha256:c3d2d7c24f350dc48a89b38315a7561bdadd89923044f9a4f42daf0c2ee48963",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c3d2d7c24f350dc48a89b38315a7561bdadd89923044f9a4f42daf0c2ee48963",

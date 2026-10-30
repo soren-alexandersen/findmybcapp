@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/mci/",
     "sourceHash": "sha256:516f321abdbf3e69d2e4a8c7a0e478c09247163be4fe35e17bb2e53211b94757",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:516f321abdbf3e69d2e4a8c7a0e478c09247163be4fe35e17bb2e53211b94757",

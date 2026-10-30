@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/Cue-Wizard/",
     "sourceHash": "sha256:41941b7d3eba8f6c202013b82b79db4c628681b144b8e101a762ff5fa050e64f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:41941b7d3eba8f6c202013b82b79db4c628681b144b8e101a762ff5fa050e64f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/currency-exchange-rate-services-setup",
     "sourceHash": "sha256:40f6d52fd95126a519dca9c3e1f6b88557a77243a695a5d57b19beade6c17f24",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:40f6d52fd95126a519dca9c3e1f6b88557a77243a695a5d57b19beade6c17f24",

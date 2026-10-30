@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Advanced-Inventory/",
     "sourceHash": "sha256:3e79a7cf85073672d4e079955e23bcfea37cb642c04548c416cb2a353e916320",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3e79a7cf85073672d4e079955e23bcfea37cb642c04548c416cb2a353e916320",

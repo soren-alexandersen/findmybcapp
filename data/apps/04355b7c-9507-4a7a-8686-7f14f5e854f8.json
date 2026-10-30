@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ienigmatech.in/ysr-approval-workflow-builder.html",
     "sourceHash": "sha256:fba053097ea87c7aebc9bbff06ffb1a384add88c61ecd448bf154a32d2c65db9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fba053097ea87c7aebc9bbff06ffb1a384add88c61ecd448bf154a32d2c65db9",

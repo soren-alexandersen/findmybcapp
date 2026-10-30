@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://insightsoftware.com/support/product-support/",
     "sourceHash": "sha256:be5bf14797bccbf0e8b5adfb222daa6b51da53e7b0884134f43709e18d488ae7",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:be5bf14797bccbf0e8b5adfb222daa6b51da53e7b0884134f43709e18d488ae7",

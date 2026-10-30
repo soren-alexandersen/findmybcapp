@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.business-central.app/public/app365fideuram_help.pdf",
     "sourceHash": "sha256:d538cdb405299e513c8cd087fcfae8fd5c93c6d6e95844b7e1262d735a9bef94",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d538cdb405299e513c8cd087fcfae8fd5c93c6d6e95844b7e1262d735a9bef94",

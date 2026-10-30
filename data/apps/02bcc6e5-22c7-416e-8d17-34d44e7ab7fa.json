@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/maintenance-manager/product-help/",
     "sourceHash": "sha256:918f04499c7923c302d3bf0c3008bba763103d86d3402e89520d93019c4cb452",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:918f04499c7923c302d3bf0c3008bba763103d86d3402e89520d93019c4cb452",

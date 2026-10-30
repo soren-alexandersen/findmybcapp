@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-omnichannel/",
     "sourceHash": "sha256:cf20639acb6d98b5a427849a1a04a9a02fae6314d9bb1107675635a165d4659a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cf20639acb6d98b5a427849a1a04a9a02fae6314d9bb1107675635a165d4659a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/",
     "sourceHash": "sha256:e3c9ce29dbd768a6defcfe057bee69a67c3340517efbae76276cbc292f239cec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e3c9ce29dbd768a6defcfe057bee69a67c3340517efbae76276cbc292f239cec",

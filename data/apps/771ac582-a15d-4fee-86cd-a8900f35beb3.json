@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-budgeting-and-forecasting/docs",
     "sourceHash": "sha256:93346c79753e91d6ffa63b1a28a24cbae6569f1ca9f167e20770c9f04898fc26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:93346c79753e91d6ffa63b1a28a24cbae6569f1ca9f167e20770c9f04898fc26",

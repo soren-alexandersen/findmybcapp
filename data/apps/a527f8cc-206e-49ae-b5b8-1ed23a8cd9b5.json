@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.findity.com/",
     "sourceHash": "sha256:b061de660f30816b341411acd916c0f2311d2a52861c7c0a9890e3755b47f688",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b061de660f30816b341411acd916c0f2311d2a52861c7c0a9890e3755b47f688",

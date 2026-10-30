@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/ix-connector/",
     "sourceHash": "sha256:a0e9a1fa94b6a53f80a994c72f07890d0c6d6addb722ceaac04807c3c9d482f2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a0e9a1fa94b6a53f80a994c72f07890d0c6d6addb722ceaac04807c3c9d482f2",

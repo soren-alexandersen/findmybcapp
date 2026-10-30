@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-BCSync",
     "sourceHash": "sha256:e0feb2705fbee5f7de1fa17c4f0cce02fc03b40653fd4a3544b72b449d598593",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e0feb2705fbee5f7de1fa17c4f0cce02fc03b40653fd4a3544b72b449d598593",

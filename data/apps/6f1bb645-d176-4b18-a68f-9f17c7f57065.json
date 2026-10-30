@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://globalsourcedynamics.com/globalfilestorage",
     "sourceHash": "sha256:f215cf31f4b4bb3d115df8a0644de6bd3abdf7db3d80e580ba6f3fb522d8ddb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f215cf31f4b4bb3d115df8a0644de6bd3abdf7db3d80e580ba6f3fb522d8ddb8",

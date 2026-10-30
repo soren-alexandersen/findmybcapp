@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.tinx-it.com/",
     "sourceHash": "sha256:2be2bedc541cc5566f0b4f3d9b926aa11b80dc61bd26ece57b3a2768bf693539",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2be2bedc541cc5566f0b4f3d9b926aa11b80dc61bd26ece57b3a2768bf693539",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.lessor.dk/om-lessor/support/",
     "sourceHash": "sha256:0fde2dd84c38e5488c984658e6ef05599de789c5ae555458e4a28e4696935e16",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0fde2dd84c38e5488c984658e6ef05599de789c5ae555458e4a28e4696935e16",

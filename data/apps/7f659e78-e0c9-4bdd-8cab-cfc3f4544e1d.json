@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.pleo.io/en/support/solutions/folders/103000653337",
     "sourceHash": "sha256:56b8d7ce54068775649e0ade2c11b91b9f93887a4a80532d22180139da716d5d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:56b8d7ce54068775649e0ade2c11b91b9f93887a4a80532d22180139da716d5d",

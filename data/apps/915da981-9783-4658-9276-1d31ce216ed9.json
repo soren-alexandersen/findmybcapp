@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/blue-water/#howto",
     "sourceHash": "sha256:c44961a14a7c6d12fd7d585111d7562b1117b9d86fc0ccc76dad2110d0eff3ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c44961a14a7c6d12fd7d585111d7562b1117b9d86fc0ccc76dad2110d0eff3ab",

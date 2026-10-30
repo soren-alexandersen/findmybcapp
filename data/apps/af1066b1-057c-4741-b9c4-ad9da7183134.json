@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.softera.lt/en/softera-factory-data-capture-help/",
     "sourceHash": "sha256:7484f196883a1d32e52df1de8b379cb01bfe9ed72cfd1d1de422ce08136e8218",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7484f196883a1d32e52df1de8b379cb01bfe9ed72cfd1d1de422ce08136e8218",

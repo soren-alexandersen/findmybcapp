@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jemel.lv/docs/asset-pro",
     "sourceHash": "sha256:b1b41ba47642bd8b2cf8b990dafcac9f4f8e353eebf9d5d2e3102366f420ea11",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b1b41ba47642bd8b2cf8b990dafcac9f4f8e353eebf9d5d2e3102366f420ea11",

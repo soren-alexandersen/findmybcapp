@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/mep",
     "sourceHash": "sha256:df761e2bfef5292d1a6d700bbb45039dba2577819796446539d217fa451084bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df761e2bfef5292d1a6d700bbb45039dba2577819796446539d217fa451084bd",

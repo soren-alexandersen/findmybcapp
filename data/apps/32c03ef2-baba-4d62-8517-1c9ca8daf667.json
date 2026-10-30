@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/bigcommerce-edi-integration/",
     "sourceHash": "sha256:ec81b2740f37574fd1ad01f33810cdefb948220e4198809859a5f0d68dd687dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec81b2740f37574fd1ad01f33810cdefb948220e4198809859a5f0d68dd687dd",

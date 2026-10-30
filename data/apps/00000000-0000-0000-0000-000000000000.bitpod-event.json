@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://bitpod-eventynedi.bitpod.io/admin/docs/HelpCenter",
     "sourceHash": "sha256:1d9e01e228045dd89dd8788ca961355fedb1480866f9c73a94dc4faca89a9dc2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1d9e01e228045dd89dd8788ca961355fedb1480866f9c73a94dc4faca89a9dc2",

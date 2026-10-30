@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/breeze-interface-for-dynamics-365-bc-de-de",
     "sourceHash": "sha256:db1bb7fae32638e1d58e0cef49a4723bf76d70cff57962e57b4a3ad147d87d64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:db1bb7fae32638e1d58e0cef49a4723bf76d70cff57962e57b4a3ad147d87d64",

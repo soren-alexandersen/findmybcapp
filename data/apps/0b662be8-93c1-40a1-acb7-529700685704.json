@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/TMT/",
     "sourceHash": "sha256:1fd5bc1a50b13647dd4f88925a751aaccf5a6d5c042329107455386f37d45ea6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1fd5bc1a50b13647dd4f88925a751aaccf5a6d5c042329107455386f37d45ea6",

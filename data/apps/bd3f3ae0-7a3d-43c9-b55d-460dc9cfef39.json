@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mydigicode.com/privacy-policy-appsource/",
     "sourceHash": "sha256:0dc046ade6629f93fd4bc20f5656815063550ac58ae73caeabae580ebca3c0a1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0dc046ade6629f93fd4bc20f5656815063550ac58ae73caeabae580ebca3c0a1",

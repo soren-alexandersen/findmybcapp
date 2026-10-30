@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ic-innovative.de/ic/de/contact/",
     "sourceHash": "sha256:94436c65c7107cc394a63a9a6a39dceb5bb29bf658b98beb67cb1edcb2094538",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94436c65c7107cc394a63a9a6a39dceb5bb29bf658b98beb67cb1edcb2094538",

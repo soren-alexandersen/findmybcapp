@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/planning-parameter-worksheet/",
     "sourceHash": "sha256:634e431826e73b0f7633e2d10c3881f1b50e1c16757be3f1e984428e5e43cdb0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:634e431826e73b0f7633e2d10c3881f1b50e1c16757be3f1e984428e5e43cdb0",

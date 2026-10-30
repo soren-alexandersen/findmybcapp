@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://gem365.ca/solutions/gem365-business-central-extensions/",
     "sourceHash": "sha256:05c5e6cece2153e3a0112e7c17b8e589be0ed1a4f7bbdcdcb9e0e0ee4e550bfd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:05c5e6cece2153e3a0112e7c17b8e589be0ed1a4f7bbdcdcb9e0e0ee4e550bfd",

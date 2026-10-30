@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://shippingconnector365.com/help",
     "sourceHash": "sha256:42e6a49ed7f9e6a403e4e5b2eabf4c4d86d572867ad9eea4abaae1fceebf9943",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:42e6a49ed7f9e6a403e4e5b2eabf4c4d86d572867ad9eea4abaae1fceebf9943",

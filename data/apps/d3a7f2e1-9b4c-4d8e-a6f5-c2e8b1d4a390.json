@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/clousAI",
     "sourceHash": "sha256:4af541314d48fe0d4f28e6495381fb8a7a9192c832dc8c0ace363e3d4f7fe043",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4af541314d48fe0d4f28e6495381fb8a7a9192c832dc8c0ace363e3d4f7fe043",

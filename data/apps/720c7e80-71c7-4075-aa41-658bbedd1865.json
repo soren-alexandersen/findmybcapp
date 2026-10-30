@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tvision.tech/add-ons/tvt",
     "sourceHash": "sha256:15dd810f5990ca111b67db48de1657861e3156f18be03c4d2c5e72ac2c198545",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:15dd810f5990ca111b67db48de1657861e3156f18be03c4d2c5e72ac2c198545",

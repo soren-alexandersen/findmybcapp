@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/shipmondo/#howto",
     "sourceHash": "sha256:37c3331ffb4bf67c7194fcb8cc2c288b2324c3ef7341b68a21ce2409e4c48c70",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:37c3331ffb4bf67c7194fcb8cc2c288b2324c3ef7341b68a21ce2409e4c48c70",

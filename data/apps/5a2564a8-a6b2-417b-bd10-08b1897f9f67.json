@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eazystock.com/wp-content/uploads/2022/07/set-up-guide-implementation-eazystock-bc-saas-connector-version-20.1.2022060300.pdf",
     "sourceHash": "sha256:ceb979751ac469b5f0ae9421ec4e6cb80c13d7c7a25f3b0cfc81ce90effb8dbc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ceb979751ac469b5f0ae9421ec4e6cb80c13d7c7a25f3b0cfc81ce90effb8dbc",

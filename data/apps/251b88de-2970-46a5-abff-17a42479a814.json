@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/branche/erhvervsvirksomheder/miljoe-affald/",
     "sourceHash": "sha256:6125169e3125c3d4bcc2b14bfc0dc796512e6fe1c7dfff7b3056dcb9432567d6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6125169e3125c3d4bcc2b14bfc0dc796512e6fe1c7dfff7b3056dcb9432567d6",

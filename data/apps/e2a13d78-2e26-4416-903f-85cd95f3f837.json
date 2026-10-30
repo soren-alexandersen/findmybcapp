@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.kmd.dk/loesninger-og-services/loesninger/energi/kmd-figuras",
     "sourceHash": "sha256:a6e3b6d04bb327b4b54d287b28dfb7499f8396055af87addd771caa6cf5d528a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6e3b6d04bb327b4b54d287b28dfb7499f8396055af87addd771caa6cf5d528a",

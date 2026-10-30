@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/multientitymanagement/overview",
     "sourceHash": "sha256:7ff935ba5a1584c13f9dfc56ab8ffd823c6d13ba1ee490d3e5a3174465468d3b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7ff935ba5a1584c13f9dfc56ab8ffd823c6d13ba1ee490d3e5a3174465468d3b",

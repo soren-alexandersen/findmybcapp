@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/article-categories/lisa-business-contract-agent/",
     "sourceHash": "sha256:d81e139b12093a7af0f9c3f2813ab3c3877c27765ed753866bb3475fee3cebf0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d81e139b12093a7af0f9c3f2813ab3c3877c27765ed753866bb3475fee3cebf0",

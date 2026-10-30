@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/edx/",
     "sourceHash": "sha256:688a7d829ce28ecfbefb35c6afd9755d183ee251eefc9d600e1cac92de088e74",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:688a7d829ce28ecfbefb35c6afd9755d183ee251eefc9d600e1cac92de088e74",

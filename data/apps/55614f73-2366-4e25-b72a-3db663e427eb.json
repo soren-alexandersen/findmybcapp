@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/elevateattachments",
     "sourceHash": "sha256:9de647cee3a7aa855bc47a81408281f6776e3847aca4004ef3bcd1b8d7f30e9e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9de647cee3a7aa855bc47a81408281f6776e3847aca4004ef3bcd1b8d7f30e9e",

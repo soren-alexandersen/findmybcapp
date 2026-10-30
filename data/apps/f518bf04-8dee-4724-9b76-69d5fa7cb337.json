@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://help.accessorange.com/en-us/",
     "sourceHash": "sha256:1a307556daa3fc52c3cc9d0a840f284527e105c4261f79842132d738c3af86c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1a307556daa3fc52c3cc9d0a840f284527e105c4261f79842132d738c3af86c0",

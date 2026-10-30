@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://nav-vision.dk/advanced-power-bi-connector-for-bc/",
     "sourceHash": "sha256:23b77d5589f98909e9989208cbb07203b974b979f88c5683a5370d3a3452e411",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:23b77d5589f98909e9989208cbb07203b974b979f88c5683a5370d3a3452e411",

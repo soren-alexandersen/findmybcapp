@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/443383899/Email+Attachments",
     "sourceHash": "sha256:711ee1df1b41ca0250396c593380a92dfd62f14304b4c8675e51145d75998272",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:711ee1df1b41ca0250396c593380a92dfd62f14304b4c8675e51145d75998272",

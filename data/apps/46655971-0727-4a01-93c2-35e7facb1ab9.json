@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bizapps-acs.de/articles/de-de/simpleEDI/overview.html",
     "sourceHash": "sha256:30ea46807b9edaf454dcae434974cd947cdf49dad8fadef65ca2b40d680f836d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:30ea46807b9edaf454dcae434974cd947cdf49dad8fadef65ca2b40d680f836d",

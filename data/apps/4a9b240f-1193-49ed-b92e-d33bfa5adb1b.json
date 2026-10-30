@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/sub-ledger-consistency",
     "sourceHash": "sha256:468440633ddd62510496f208746d95b16a6c40a1a91b97cb05d7b32db5be944b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:468440633ddd62510496f208746d95b16a6c40a1a91b97cb05d7b32db5be944b",

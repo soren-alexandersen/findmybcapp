@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Payment%20Provider%20Service%20App%20-%20Manual.pdf",
     "sourceHash": "sha256:80882ec5bb35ff5d2b1048c5841a3e0afd4a39cb035630585042719c0802ec58",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:80882ec5bb35ff5d2b1048c5841a3e0afd4a39cb035630585042719c0802ec58",

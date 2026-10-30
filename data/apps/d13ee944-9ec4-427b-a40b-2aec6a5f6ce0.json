@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/expense720",
     "sourceHash": "sha256:54e953f9fb09f7b388a7259977773545631ae11f38259223a80846fb1d64a4bf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:54e953f9fb09f7b388a7259977773545631ae11f38259223a80846fb1d64a4bf",

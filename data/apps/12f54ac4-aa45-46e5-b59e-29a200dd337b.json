@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/copilot-inventory-queries/",
     "sourceHash": "sha256:3b9da62fa426ed813834202b12cb1919091f02ef70ae9a1de6981f72dc1e86c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3b9da62fa426ed813834202b12cb1919091f02ef70ae9a1de6981f72dc1e86c8",

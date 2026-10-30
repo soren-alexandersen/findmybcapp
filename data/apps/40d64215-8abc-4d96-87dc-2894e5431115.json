@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/denmark/denmark-local-functionality",
     "sourceHash": "sha256:1b87d8b780c05e4ffc6947e4f11e6050d16347e509d6c47d833d9db4457eda1d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1b87d8b780c05e4ffc6947e4f11e6050d16347e509d6c47d833d9db4457eda1d",

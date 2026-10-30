@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/CAW",
     "sourceHash": "sha256:f82cb971d8bbc2008c0009b7ddcb763ce4970a113c9509ffcaeec93ee36d1ead",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f82cb971d8bbc2008c0009b7ddcb763ce4970a113c9509ffcaeec93ee36d1ead",

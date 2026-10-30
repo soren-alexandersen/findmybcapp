@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fiftytwo.com/contact",
     "sourceHash": "sha256:8d8b9126654a8f9410872f3302fa6159d310252d95ccc3f7a7c3eab4d68f4e7f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8d8b9126654a8f9410872f3302fa6159d310252d95ccc3f7a7c3eab4d68f4e7f",

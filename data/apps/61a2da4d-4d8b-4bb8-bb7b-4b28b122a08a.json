@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Budget-Management",
     "sourceHash": "sha256:912b3067230855a1f66c4e07ea495a2a3d7f6e69d184cb325ffcac4ffe8d40a2",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:912b3067230855a1f66c4e07ea495a2a3d7f6e69d184cb325ffcac4ffe8d40a2",

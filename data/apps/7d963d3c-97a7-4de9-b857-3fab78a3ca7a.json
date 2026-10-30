@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PSG/",
     "sourceHash": "sha256:2e34b6cb0893f64abf21e9442d61f0f75ddc308bad1c4322a1267c51cba7654c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2e34b6cb0893f64abf21e9442d61f0f75ddc308bad1c4322a1267c51cba7654c",

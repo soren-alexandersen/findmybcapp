@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/zero-amount-invoices-zai.html",
     "sourceHash": "sha256:be32c1d351c74cf367d75973f8f375238eb68eeb0662bf66e704e2810dba22c9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:be32c1d351c74cf367d75973f8f375238eb68eeb0662bf66e704e2810dba22c9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/shortage-on-demand-orders/#userguide",
     "sourceHash": "sha256:f1e2e30280e4d0e2e7218273cad008c477746e39896a0a754bd3cc14d4846be8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f1e2e30280e4d0e2e7218273cad008c477746e39896a0a754bd3cc14d4846be8",

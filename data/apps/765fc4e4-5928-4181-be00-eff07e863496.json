@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicssolution.com/contact-us/",
     "sourceHash": "sha256:00fbefdd0f47c2215edbc89c7b803ed84f47a5c52ea761af5f0c6b652d2daa85",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:00fbefdd0f47c2215edbc89c7b803ed84f47a5c52ea761af5f0c6b652d2daa85",

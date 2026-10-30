@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-rebates/user-guide-rebates/about-rebates",
     "sourceHash": "sha256:4ba5082ee529c129eaf44d03ca89a3be5ee07e7f3c1737de5e01a4de66e81edd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ba5082ee529c129eaf44d03ca89a3be5ee07e7f3c1737de5e01a4de66e81edd",

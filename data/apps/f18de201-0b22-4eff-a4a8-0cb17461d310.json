@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.farpay.io/",
     "sourceHash": "sha256:3c5088527f74e45f634bbf778fa0d22a8d089378f8458bf553cf928c7641d55b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3c5088527f74e45f634bbf778fa0d22a8d089378f8458bf553cf928c7641d55b",

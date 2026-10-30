@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/internalnotes/index.html",
     "sourceHash": "sha256:6f4c3b2507265a30bd576c28a1c93a5d54953d28353790ee3eefa54b27bb8e25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6f4c3b2507265a30bd576c28a1c93a5d54953d28353790ee3eefa54b27bb8e25",

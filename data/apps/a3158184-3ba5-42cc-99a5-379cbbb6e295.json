@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.novaterrae.nl/bap-installation-guide",
     "sourceHash": "sha256:d69e0226289aa6de668862a1aa044be1b6c97a0c575bf0f7d455ebe7c34e2f20",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d69e0226289aa6de668862a1aa044be1b6c97a0c575bf0f7d455ebe7c34e2f20",

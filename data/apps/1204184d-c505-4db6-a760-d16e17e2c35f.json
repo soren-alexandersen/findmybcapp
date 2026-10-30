@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/dmscsp/en",
     "sourceHash": "sha256:0694e5ebae6cfb0b5582c71ab5ea45f569f0ba18e3ce22b5e23b159ad8dc5b5a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0694e5ebae6cfb0b5582c71ab5ea45f569f0ba18e3ce22b5e23b159ad8dc5b5a",

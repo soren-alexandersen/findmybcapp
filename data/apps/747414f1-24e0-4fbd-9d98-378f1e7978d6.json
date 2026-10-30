@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.drink-it.com/support",
     "sourceHash": "sha256:178d893238d342a91a50a3ccc5f4b9025b0515385ed8847e7bca3193f757da77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:178d893238d342a91a50a3ccc5f4b9025b0515385ed8847e7bca3193f757da77",

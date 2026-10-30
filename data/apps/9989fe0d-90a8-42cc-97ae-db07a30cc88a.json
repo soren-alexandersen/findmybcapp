@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Lightspeed-Integration",
     "sourceHash": "sha256:07eddac250d0673d2c7831501b554010057b0f1ede21190ef34be6ef90a76ecb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:07eddac250d0673d2c7831501b554010057b0f1ede21190ef34be6ef90a76ecb",

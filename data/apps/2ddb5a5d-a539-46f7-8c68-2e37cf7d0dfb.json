@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.365businessdev.com/en-us/365-business-banking/",
     "sourceHash": "sha256:867542559d16f0d3e3ad2b1d71eb9887c52d61a6f974e7a283a01f19894d0b72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:867542559d16f0d3e3ad2b1d71eb9887c52d61a6f974e7a283a01f19894d0b72",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/project_administration",
     "sourceHash": "sha256:06ea97e90e385941ae4259b8f5fe5271f168692fced52380282c0600ab2b0eee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:06ea97e90e385941ae4259b8f5fe5271f168692fced52380282c0600ab2b0eee",

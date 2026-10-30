@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-services-rendered-for-tegossuite/",
     "sourceHash": "sha256:ce2b3e8b8a69086bf48496356139846b70cc63d82dacf63dcd9ca8fa14cd7528",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ce2b3e8b8a69086bf48496356139846b70cc63d82dacf63dcd9ca8fa14cd7528",

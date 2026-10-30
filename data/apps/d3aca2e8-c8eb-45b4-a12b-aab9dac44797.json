@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/foodchainid-connector",
     "sourceHash": "sha256:98d38fecab847c63a848d1a7a0810a5bf54fd7eeb6f0354725ae6603dbe2bf2f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98d38fecab847c63a848d1a7a0810a5bf54fd7eeb6f0354725ae6603dbe2bf2f",

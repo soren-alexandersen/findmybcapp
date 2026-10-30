@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.i95dev.com/integrated-ecommerce/ecommerce-for-business-central/?utm_source=egebcappsource&utm_medium=longdesc&utm_campaign=appsourcelisting&utm_content=help",
     "sourceHash": "sha256:64c749e1064652bf615a42e3c71709ef5dffe629d5d3a14a29d839128618f461",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:64c749e1064652bf615a42e3c71709ef5dffe629d5d3a14a29d839128618f461",

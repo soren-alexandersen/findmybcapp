@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/595394562/Business+Hub",
     "sourceHash": "sha256:fac7a763772c310a2b33fde9580937e618257b3a7e336d98584c2c8c53455c01",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fac7a763772c310a2b33fde9580937e618257b3a7e336d98584c2c8c53455c01",

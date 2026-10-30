@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bcapps.mementoas.com/en-US/apps/GlobalExchangeRates/intro.html",
     "sourceHash": "sha256:253c4b56e995b2702d263ce2e3ea0b10b88307025d12eb2ee276b104f234df9d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:253c4b56e995b2702d263ce2e3ea0b10b88307025d12eb2ee276b104f234df9d",

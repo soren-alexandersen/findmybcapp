@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Promotions_Manual.pdf",
     "sourceHash": "sha256:fe88b5d6db29ba2dedf857366d181a1fbc7daa26c6253f6236699023411bf2f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fe88b5d6db29ba2dedf857366d181a1fbc7daa26c6253f6236699023411bf2f1",

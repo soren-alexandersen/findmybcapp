@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.quantumquad.in/contacttoquantumquad",
     "sourceHash": "sha256:a23c59ad3cb455c1c88f5c1f53ba09ba6a3658eb438a74b23d1c7955aa42d514",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a23c59ad3cb455c1c88f5c1f53ba09ba6a3658eb438a74b23d1c7955aa42d514",

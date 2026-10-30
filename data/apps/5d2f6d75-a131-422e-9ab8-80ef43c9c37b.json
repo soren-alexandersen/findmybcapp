@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/moniroo-time-management/",
     "sourceHash": "sha256:1454b83d2214d98d04aa505e08681b105b2b06ee53056cdc7233a8dcbd5c63d0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1454b83d2214d98d04aa505e08681b105b2b06ee53056cdc7233a8dcbd5c63d0",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-project-tracker/",
     "sourceHash": "sha256:c03151d6655f785f342330e13d19a1e69fdeeea588ae28e9a2d6a61364529097",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c03151d6655f785f342330e13d19a1e69fdeeea588ae28e9a2d6a61364529097",

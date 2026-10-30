@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://companial.com/localization-for-ireland-support/",
     "sourceHash": "sha256:2105760c735a5002627dfd86a44fc6bfcb07365c3721758f39bd4bd95eb3c9ce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2105760c735a5002627dfd86a44fc6bfcb07365c3721758f39bd4bd95eb3c9ce",

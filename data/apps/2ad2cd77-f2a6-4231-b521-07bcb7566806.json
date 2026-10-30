@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.autoflow365.app/",
     "sourceHash": "sha256:07737b4920c33341aaec00c701207f0883e003f6443227f821c59ab6e8bf5bc0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:07737b4920c33341aaec00c701207f0883e003f6443227f821c59ab6e8bf5bc0",

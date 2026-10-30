@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://woongjin.com/customer/contact.do",
     "sourceHash": "sha256:2f0c70bd26515e4067ed7f7069729d2b7ca2d5393273f8a0d3065f4597f2e263",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2f0c70bd26515e4067ed7f7069729d2b7ca2d5393273f8a0d3065f4597f2e263",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://syssolutionsllc.com/user-guides/",
     "sourceHash": "sha256:501f5744b598f0a528ea1739a88ece7678937e546e0e6d2e08c21c49788cbd62",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:501f5744b598f0a528ea1739a88ece7678937e546e0e6d2e08c21c49788cbd62",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://gem365.ca/visual-calendar-view-interactive-production-planning-interface/",
     "sourceHash": "sha256:5b071a83ef5a8db7c3004a2920f85faa21b363132532bc4d26a6ef7e972cf1b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b071a83ef5a8db7c3004a2920f85faa21b363132532bc4d26a6ef7e972cf1b7",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/inventory-restrictions",
     "sourceHash": "sha256:b0708db50a04cc187bb0fac555c81354e0be60f588260cb7a2323867da1274c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b0708db50a04cc187bb0fac555c81354e0be60f588260cb7a2323867da1274c0",

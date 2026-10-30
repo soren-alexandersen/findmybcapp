@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://soft4spaces.com/faq",
     "sourceHash": "sha256:7c95dd5c1e183f28563dbda82ce186dad66c6b56e8dd2128bee41858aadf782b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7c95dd5c1e183f28563dbda82ce186dad66c6b56e8dd2128bee41858aadf782b",

@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://www.strategix.co.za/job-queue-autostart/",
     "sourceHash": "sha256:2217b0640bac0f4c3b72d60b992c4cce534b38ffd670fff178e41b0035f95b3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2217b0640bac0f4c3b72d60b992c4cce534b38ffd670fff178e41b0035f95b3a",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.northerndynamic.de/RunAnything/",
     "sourceHash": "sha256:74a868f94ebcb5162550dae9e2b2df9539ddc2aefca85726b5458e5dc8cb1103",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74a868f94ebcb5162550dae9e2b2df9539ddc2aefca85726b5458e5dc8cb1103",

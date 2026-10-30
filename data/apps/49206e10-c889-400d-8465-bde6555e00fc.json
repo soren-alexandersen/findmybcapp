@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oseberg.atlassian.net/wiki/spaces/OE/pages/1051099193/Oseberg+E-invoice+PEPPOL+BIS+User+Manual+-+Start+Up",
     "sourceHash": "sha256:de83dcc60d878ba097c6ef94239a2069de3188ddaec11ad1374fa465c3ed7663",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:de83dcc60d878ba097c6ef94239a2069de3188ddaec11ad1374fa465c3ed7663",

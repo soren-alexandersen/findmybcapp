@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicswest.com/dw-license-snapshot/",
     "sourceHash": "sha256:47236d77554b75140c26d9ed353deef71a4c7b5774824059bef32cca31805a5c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:47236d77554b75140c26d9ed353deef71a4c7b5774824059bef32cca31805a5c",

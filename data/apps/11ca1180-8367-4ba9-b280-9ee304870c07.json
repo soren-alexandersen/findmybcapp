@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-crm-enhancements/",
     "sourceHash": "sha256:722abdb08efaa4528316d7577166dfb96b718c7ef67ab3421b2f83e636fce7fe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:722abdb08efaa4528316d7577166dfb96b718c7ef67ab3421b2f83e636fce7fe",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://plus.live/support/",
     "sourceHash": "sha256:8dac2d00eab5dabbf129f70a9ce599446be5861833cb21c762e5599b0366ab2c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dac2d00eab5dabbf129f70a9ce599446be5861833cb21c762e5599b0366ab2c",

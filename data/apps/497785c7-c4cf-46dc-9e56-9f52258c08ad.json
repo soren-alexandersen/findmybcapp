@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://drive.google.com/file/d/1I6b-mKsPuHJwioLxBPivj9dhI6ocQgPe/view?usp=drive_link",
     "sourceHash": "sha256:0f41a5f25ef87e7c67d7cc753a2323ff3e8616bdf2c94f4119e3fcdf3eb44947",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0f41a5f25ef87e7c67d7cc753a2323ff3e8616bdf2c94f4119e3fcdf3eb44947",

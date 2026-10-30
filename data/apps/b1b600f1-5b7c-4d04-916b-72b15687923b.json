@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.congruentsoft.com/dynamics-365/file-viewer.aspx",
     "sourceHash": "sha256:0b034f5f9f3ca659f6e18c9b17fe1ac5ab29acb0d945f2c7bf7bcdd7c82a3212",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0b034f5f9f3ca659f6e18c9b17fe1ac5ab29acb0d945f2c7bf7bcdd7c82a3212",

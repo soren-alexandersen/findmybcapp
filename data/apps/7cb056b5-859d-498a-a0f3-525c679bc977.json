@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-substitutes-posting-groups/",
     "sourceHash": "sha256:d59779055edc30cb955710dcf5d8f2ad15f8ed6d9ff0355ada4d4ee7ffca8dde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d59779055edc30cb955710dcf5d8f2ad15f8ed6d9ff0355ada4d4ee7ffca8dde",

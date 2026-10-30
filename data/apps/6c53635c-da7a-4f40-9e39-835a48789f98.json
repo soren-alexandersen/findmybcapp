@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elva-dms.gitbook.io/elva-dms-docs/",
     "sourceHash": "sha256:edc1db25f84de5787ff58ceaf3ed05e03c5b290132a97ebfbd0c6c1411b3de81",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:edc1db25f84de5787ff58ceaf3ed05e03c5b290132a97ebfbd0c6c1411b3de81",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
     "sourceHash": "sha256:6c994ef35fe91d753d09aeb6912cecfaad890966fe6b25e9801a380c872956d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c994ef35fe91d753d09aeb6912cecfaad890966fe6b25e9801a380c872956d5",

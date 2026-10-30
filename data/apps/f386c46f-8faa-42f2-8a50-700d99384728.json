@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://awara-it.com/contacts/",
     "sourceHash": "sha256:7785916b817065390497baca1c488eaf4ccceb5df2114fc6f7ef80538ec0420d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7785916b817065390497baca1c488eaf4ccceb5df2114fc6f7ef80538ec0420d",

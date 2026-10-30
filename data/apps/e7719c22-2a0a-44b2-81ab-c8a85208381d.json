@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.talosco.com/contact-5",
     "sourceHash": "sha256:8026fb5d7c515a328210000e6db74dc73bb7a58f1de859da268e03c50838252f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8026fb5d7c515a328210000e6db74dc73bb7a58f1de859da268e03c50838252f",

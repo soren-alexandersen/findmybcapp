@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Core-Reports-Manufacturing/",
     "sourceHash": "sha256:176fde006720d30f2119ca220b9c8db1645c127f920cf75e7144bd26f4e51233",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:176fde006720d30f2119ca220b9c8db1645c127f920cf75e7144bd26f4e51233",

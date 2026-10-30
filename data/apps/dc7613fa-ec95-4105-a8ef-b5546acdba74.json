@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/recordsearchattributesbridge/index.html",
     "sourceHash": "sha256:fddd4d18cad3b7aab9a66a431a087dcf4fdca73dd1e313ab58149f977ad228ef",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fddd4d18cad3b7aab9a66a431a087dcf4fdca73dd1e313ab58149f977ad228ef",

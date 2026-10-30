@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/contract-management/docs/en-US/help.html",
     "sourceHash": "sha256:897ec48353394374b15c97a4b0c72a2b399f123daa10bb61d8ecb33ee0e386f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:897ec48353394374b15c97a4b0c72a2b399f123daa10bb61d8ecb33ee0e386f9",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://imwear.help.im-projects.com/",
     "sourceHash": "sha256:65436357bf68245e303ba16520348e4ef4883eaceb0715c9a50476e1f80492ee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:65436357bf68245e303ba16520348e4ef4883eaceb0715c9a50476e1f80492ee",

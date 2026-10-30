@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://syssolutionsllc.com/user-guides/pricing-tools-for-d365-business-central/",
     "sourceHash": "sha256:1f03af83ae80b90beff63ea9c10cf64c36303a69dd2ef07f2f9aa50424893306",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1f03af83ae80b90beff63ea9c10cf64c36303a69dd2ef07f2f9aa50424893306",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://contents-fbpbc.fujifilm.com/resource",
     "sourceHash": "sha256:cb881fab6767cbc0848926530674b5fd8d17ef97e634c0a7b905a4183b3d8fa9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cb881fab6767cbc0848926530674b5fd8d17ef97e634c0a7b905a4183b3d8fa9",

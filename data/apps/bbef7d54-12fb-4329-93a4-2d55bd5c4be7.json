@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/IPM/docs/Introduction",
     "sourceHash": "sha256:c96685f3f43bb672fbb1994c69bd864fc76df3e84f9d5a69ffd449d1d33fe704",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c96685f3f43bb672fbb1994c69bd864fc76df3e84f9d5a69ffd449d1d33fe704",

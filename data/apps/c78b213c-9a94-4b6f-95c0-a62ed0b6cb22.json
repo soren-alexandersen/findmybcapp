@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bossinfo.com/",
     "sourceHash": "sha256:36cd2f0aad9eccdaadb58f05ca0a6eb3d945cdeebae4d3055bf2953414c8a514",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:36cd2f0aad9eccdaadb58f05ca0a6eb3d945cdeebae4d3055bf2953414c8a514",

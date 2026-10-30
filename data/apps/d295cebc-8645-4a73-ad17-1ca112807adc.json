@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://documents.wise.is/help/wnrl/Wise_Approvals_AppSourceHelp_IS.pdf",
     "sourceHash": "sha256:e7308b0f58bd1317cbf2cdf3267203ac66848cc898a7b00b3f79d2254bc8c56d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e7308b0f58bd1317cbf2cdf3267203ac66848cc898a7b00b3f79d2254bc8c56d",

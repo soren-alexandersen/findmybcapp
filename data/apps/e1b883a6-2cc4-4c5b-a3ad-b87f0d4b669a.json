@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.retailrealm.com/documentation/MAXPAY365/bc/",
     "sourceHash": "sha256:f71dc4ccbcd4eea05ce38aca821c4c1b5cc3b0fb469c2f06c760a0f8a9fbc6f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f71dc4ccbcd4eea05ce38aca821c4c1b5cc3b0fb469c2f06c760a0f8a9fbc6f3",

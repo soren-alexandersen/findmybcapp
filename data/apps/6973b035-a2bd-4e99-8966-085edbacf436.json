@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.navtilus.dk/epr-packaging/introduction/",
     "sourceHash": "sha256:f1d7e0e61493ba0834a0b07d2d30629b012aa7aec7cf52df0adb708945a526a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1d7e0e61493ba0834a0b07d2d30629b012aa7aec7cf52df0adb708945a526a3",

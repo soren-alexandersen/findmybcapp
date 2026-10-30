@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/AdvancedPurchaseQuote",
     "sourceHash": "sha256:a350f7a82599295f1d88373dec13c457edd11d6cc05d1473c4fe746a39aeb03d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a350f7a82599295f1d88373dec13c457edd11d6cc05d1473c4fe746a39aeb03d",

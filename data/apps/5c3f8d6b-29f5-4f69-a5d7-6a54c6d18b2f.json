@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://binarylab.co.za/panels-and-cues",
     "sourceHash": "sha256:527ccb9099bf26ab43cb8c2e4e35d80230e754b4be36860bfed1ee6ecb09e6da",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:527ccb9099bf26ab43cb8c2e4e35d80230e754b4be36860bfed1ee6ecb09e6da",

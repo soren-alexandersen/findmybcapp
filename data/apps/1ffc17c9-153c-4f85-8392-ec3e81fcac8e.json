@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/print-it-with-doc-origin/docs/",
     "sourceHash": "sha256:178188146a5edaa08e16b02b473b7e6ee16b5a46ac157baefc8444bc05804e51",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:178188146a5edaa08e16b02b473b7e6ee16b5a46ac157baefc8444bc05804e51",

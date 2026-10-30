@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.inventio.it/smart/smartwizard",
     "sourceHash": "sha256:a82d21fe706f322615e88aa1a2214bddbd402c58be4357803dde688dbe0d4f4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a82d21fe706f322615e88aa1a2214bddbd402c58be4357803dde688dbe0d4f4d",

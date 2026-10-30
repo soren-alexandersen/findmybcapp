@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/csvimport",
     "sourceHash": "sha256:18fd7ac4baec33e8a46df2461ed696c477d7d4e3e10af817a015399dea25ed4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:18fd7ac4baec33e8a46df2461ed696c477d7d4e3e10af817a015399dea25ed4d",

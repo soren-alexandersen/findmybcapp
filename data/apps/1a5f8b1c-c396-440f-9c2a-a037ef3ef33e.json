@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/solutions/einvoicing-solution-provider/",
     "sourceHash": "sha256:fa0d8f856711c8e1fd11283b66231865919a843500e6a79c97f3c41e5925baa6",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fa0d8f856711c8e1fd11283b66231865919a843500e6a79c97f3c41e5925baa6",

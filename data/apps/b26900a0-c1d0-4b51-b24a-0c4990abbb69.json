@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.easy-cloud.de/EFD365IC/en-US/5125020.html",
     "sourceHash": "sha256:7f5469dac03c023865dec88f5d8ae34fbbb1193575f076e964a99a169ecd7125",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7f5469dac03c023865dec88f5d8ae34fbbb1193575f076e964a99a169ecd7125",

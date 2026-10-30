@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/kiwdkp4g16-e-conomic-export-customer-invoices",
     "sourceHash": "sha256:d16c71eca055431f846da7401753b8d2f694a17ae81f336657dd9cf7fd36baab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d16c71eca055431f846da7401753b8d2f694a17ae81f336657dd9cf7fd36baab",

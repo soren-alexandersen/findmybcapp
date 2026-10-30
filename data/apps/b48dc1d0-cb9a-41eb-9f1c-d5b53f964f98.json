@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/trade/clever-promotions/user-guide",
     "sourceHash": "sha256:34ca15dd9d49c9a666b9c072e6b313d77064baa97049c52ab06b4805f79b0e75",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:34ca15dd9d49c9a666b9c072e6b313d77064baa97049c52ab06b4805f79b0e75",

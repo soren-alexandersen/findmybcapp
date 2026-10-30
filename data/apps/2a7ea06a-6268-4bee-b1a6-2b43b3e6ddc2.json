@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/friendlybanking",
     "sourceHash": "sha256:11742345f0fa3b54d03db9d5ffcead616cea4de7f19f0561bf42a3e07c2816a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:11742345f0fa3b54d03db9d5ffcead616cea4de7f19f0561bf42a3e07c2816a7",

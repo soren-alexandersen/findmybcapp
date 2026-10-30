@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bifrost.origo.is/en-us/warehouse/",
     "sourceHash": "sha256:729a44f8167e67a7d37f869a982fa287b77f6b2f9e79fe00876150d7ca76ad8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:729a44f8167e67a7d37f869a982fa287b77f6b2f9e79fe00876150d7ca76ad8c",

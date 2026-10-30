@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tietoevry.com/en/tech-services/enterprise-applications/microsoft-dynamics-365/",
     "sourceHash": "sha256:ff0cfbcbb0e3eed1af8dd950fcb5efd8145eedb9a12cd41a191514b4626d8fa7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ff0cfbcbb0e3eed1af8dd950fcb5efd8145eedb9a12cd41a191514b4626d8fa7",

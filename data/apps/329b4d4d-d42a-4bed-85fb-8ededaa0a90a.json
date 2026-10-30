@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/483950604/Pack+for+Power+Automate",
     "sourceHash": "sha256:06ca6e393b68544717a6d4cb638742ad3b44f674a73c090a0e7d22d54066cd36",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:06ca6e393b68544717a6d4cb638742ad3b44f674a73c090a0e7d22d54066cd36",

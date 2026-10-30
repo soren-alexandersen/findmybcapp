@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
     "sourceHash": "sha256:57ef32b41cd514e6a266076b02d58747cb22306c55f3f6cda9ac87884979be53",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:57ef32b41cd514e6a266076b02d58747cb22306c55f3f6cda9ac87884979be53",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://apps.ventoo.com/en-US/pages/cloud-print",
     "sourceHash": "sha256:a488aa7f8e37435d393aa13a5ff8ddb9ff03918d9f8c804867bd8f69d21f2cdb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a488aa7f8e37435d393aa13a5ff8ddb9ff03918d9f8c804867bd8f69d21f2cdb",

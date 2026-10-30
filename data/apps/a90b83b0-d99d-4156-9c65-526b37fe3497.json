@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/SK/sk-language.html",
     "sourceHash": "sha256:d8d8b66cfc3a2ffb581dcd9669b5d21c685ee5b5b95d6a3e75c003704a1fbaff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d8d8b66cfc3a2ffb581dcd9669b5d21c685ee5b5b95d6a3e75c003704a1fbaff",

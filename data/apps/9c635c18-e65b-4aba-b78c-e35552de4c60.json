@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/field-security/docs/",
     "sourceHash": "sha256:cb9c84790f85fbde59160f2586df9a9b27e98e3a19c1ee458f6619093c10a2d1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cb9c84790f85fbde59160f2586df9a9b27e98e3a19c1ee458f6619093c10a2d1",

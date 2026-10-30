@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navitec.cz/navitec-sharepoint-documents",
     "sourceHash": "sha256:91de337dc7b8d1f8f18d1a70e87bcdd78fe7afdf72911d66932725cccd939cd2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:91de337dc7b8d1f8f18d1a70e87bcdd78fe7afdf72911d66932725cccd939cd2",

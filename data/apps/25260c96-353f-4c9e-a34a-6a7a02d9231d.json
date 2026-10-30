@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://sumango.no/hjelp",
     "sourceHash": "sha256:1149729b92d06f8bd4738158694ffa9b5ba92a425d8142dad89b609e18bbac02",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1149729b92d06f8bd4738158694ffa9b5ba92a425d8142dad89b609e18bbac02",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bs-concepts.com/master-company-documents-informations/",
     "sourceHash": "sha256:241f3da10c80a69210a3d1abd59b6abbb1b2af2903ba24077a61d37553c33ff2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:241f3da10c80a69210a3d1abd59b6abbb1b2af2903ba24077a61d37553c33ff2",

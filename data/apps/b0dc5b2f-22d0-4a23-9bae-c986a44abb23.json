@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://erpdocs.apteancloud.com/bc/docs/SUR",
     "sourceHash": "sha256:a051d5470f53ba21694b4956b2e20acf68604377a7138aa00aa94da0d55c1049",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a051d5470f53ba21694b4956b2e20acf68604377a7138aa00aa94da0d55c1049",

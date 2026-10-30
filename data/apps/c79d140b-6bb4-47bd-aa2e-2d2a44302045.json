@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/business720",
     "sourceHash": "sha256:ad3e6080ca307c86ad226371e67bfd0aff29997d9bdbcfdbd24b2ae72ea8ac65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ad3e6080ca307c86ad226371e67bfd0aff29997d9bdbcfdbd24b2ae72ea8ac65",

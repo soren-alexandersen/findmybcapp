@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/direct_print",
     "sourceHash": "sha256:6d6d0dca49fb3a4b3fabc59fc5e69a9a9b795e45145210c6d021640040c22ff7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6d6d0dca49fb3a4b3fabc59fc5e69a9a9b795e45145210c6d021640040c22ff7",

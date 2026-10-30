@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/apps/toolpack-one/",
     "sourceHash": "sha256:df56c951c9eca74b9c825efbc8823e7c50b8b93b6aa62bdaf836a99405488d36",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:df56c951c9eca74b9c825efbc8823e7c50b8b93b6aa62bdaf836a99405488d36",

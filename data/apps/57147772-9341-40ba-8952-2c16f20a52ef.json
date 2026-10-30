@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/CHECK-FIELD-MANAGEMENT-HELP.pdf",
     "sourceHash": "sha256:a10bc2b9503e21b3261cfaa8f98e8b4ad50c885c7d2404bba1b117a4b7d15656",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a10bc2b9503e21b3261cfaa8f98e8b4ad50c885c7d2404bba1b117a4b7d15656",

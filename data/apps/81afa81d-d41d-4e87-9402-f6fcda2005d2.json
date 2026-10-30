@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.skybill.info/article-categories/skybill-utility-billing/",
     "sourceHash": "sha256:8e9522ad2f7bb1fca1264c7774174baf49aaa750c7eacf94aec4cd3b059db698",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8e9522ad2f7bb1fca1264c7774174baf49aaa750c7eacf94aec4cd3b059db698",

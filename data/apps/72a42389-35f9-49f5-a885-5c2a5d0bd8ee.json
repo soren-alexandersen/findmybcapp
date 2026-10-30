@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.vjld.de/onemessenger",
     "sourceHash": "sha256:fe8819b41259cb22cbd5720a34c1801b5ada8d9496cf8452c8773376fa2f7645",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fe8819b41259cb22cbd5720a34c1801b5ada8d9496cf8452c8773376fa2f7645",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.korcomptenz.com/microsoft-dynamics-365/microsoft-dynamics-365-business-central-product-configurator",
     "sourceHash": "sha256:5e3ed3edc1b6367495c7157f46ff5a9ac63a3d2dc89a561022cc9b70030c5516",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5e3ed3edc1b6367495c7157f46ff5a9ac63a3d2dc89a561022cc9b70030c5516",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/bonded-inventory/",
     "sourceHash": "sha256:d22981e9e2572c241fdb7393fd1297a4d90d31417ada1c0c646f55865c902674",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d22981e9e2572c241fdb7393fd1297a4d90d31417ada1c0c646f55865c902674",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/dimension-correction-tool/docs/en-US/help",
     "sourceHash": "sha256:df8cadc61f56d91d38d7cdd7b1a4ed1394e1835f011846273c3e0d29bbcf3337",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:df8cadc61f56d91d38d7cdd7b1a4ed1394e1835f011846273c3e0d29bbcf3337",

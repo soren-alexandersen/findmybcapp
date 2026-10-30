@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/support/",
     "sourceHash": "sha256:83b07004ade0ce16a5b595fa65ed3d58d4df684fe03b1b088e5fe4acb90dc375",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:83b07004ade0ce16a5b595fa65ed3d58d4df684fe03b1b088e5fe4acb90dc375",

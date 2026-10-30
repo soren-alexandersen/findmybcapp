@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/easy-batch",
     "sourceHash": "sha256:b8e65d86e2c0a721484faaa0e9df5df7171e0ab243766d398ce073d256af74a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b8e65d86e2c0a721484faaa0e9df5df7171e0ab243766d398ce073d256af74a5",

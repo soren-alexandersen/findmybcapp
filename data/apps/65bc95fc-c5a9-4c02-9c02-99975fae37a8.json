@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/factoringhelp/",
     "sourceHash": "sha256:3f173a75b57415fe262094a9b9ac843aa83d8bd8e5a2819fc5b324c41c4c828f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3f173a75b57415fe262094a9b9ac843aa83d8bd8e5a2819fc5b324c41c4c828f",

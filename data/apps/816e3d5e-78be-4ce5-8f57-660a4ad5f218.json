@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://autoscan.app/",
     "sourceHash": "sha256:d248d1d81ed82163ef45dd15ffecc32b3e527e7120a26d984bfef5167574295e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d248d1d81ed82163ef45dd15ffecc32b3e527e7120a26d984bfef5167574295e",

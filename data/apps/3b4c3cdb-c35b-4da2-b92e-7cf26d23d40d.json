@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://imposforretail.help.im-projects.com/",
     "sourceHash": "sha256:23e9d7c0f19e5f172462d4cef0075b577d9b587d67a82390f575278e7d7beb21",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:23e9d7c0f19e5f172462d4cef0075b577d9b587d67a82390f575278e7d7beb21",

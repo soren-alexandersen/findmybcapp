@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://catalogartifact.azureedge.net/publicartifacts/softera_baltic.softera_extended_localization-4ce1ef15-9d0a-41b7-be3c-449e0a572caf/Artifacts/Documents/SofteraExtendedLocalization.pdf",
     "sourceHash": "sha256:9144f4ba60eba9c5cd857c1b389b2ad7a1303515ca3fc4f6fc3cfb9e8afeeb6c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9144f4ba60eba9c5cd857c1b389b2ad7a1303515ca3fc4f6fc3cfb9e8afeeb6c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://business-central.refined.site/",
     "sourceHash": "sha256:d901c8e3628122ba43f433f4b3c9bd6fa5dcfa2c02e414bde56613e91d328b77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d901c8e3628122ba43f433f4b3c9bd6fa5dcfa2c02e414bde56613e91d328b77",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/businesscentralapps/BingMaps.AppSource",
     "sourceHash": "sha256:44417f057d05b42f0ca83ec673fdb52f0c04cb91eac2aacaeaf74d2ce8f01ba1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:44417f057d05b42f0ca83ec673fdb52f0c04cb91eac2aacaeaf74d2ce8f01ba1",

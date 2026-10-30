@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-flexible-commissions-r1/",
     "sourceHash": "sha256:53fe24d8ea541b71100db4ff29f57b4e3b33631c99ac3109c0bc43be33d62136",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:53fe24d8ea541b71100db4ff29f57b4e3b33631c99ac3109c0bc43be33d62136",

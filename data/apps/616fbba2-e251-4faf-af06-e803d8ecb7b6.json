@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://pargesoft.com/AppsourceHelpDocuments/Configurable-BOMs-User-Guide-EN.pdf",
     "sourceHash": "sha256:9704e0a6e5f73c4f0c431632eb8e24200e78d94948a9099f4666da113ddf1738",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9704e0a6e5f73c4f0c431632eb8e24200e78d94948a9099f4666da113ddf1738",

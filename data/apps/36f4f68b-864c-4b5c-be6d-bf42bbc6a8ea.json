@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/Bookings",
     "sourceHash": "sha256:e134d15b797897eaa122675df01fb3bd054a54318a79efb528e6023cec2aa561",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e134d15b797897eaa122675df01fb3bd054a54318a79efb528e6023cec2aa561",

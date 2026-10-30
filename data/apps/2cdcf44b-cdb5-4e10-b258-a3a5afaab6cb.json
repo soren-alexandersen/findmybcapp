@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/removalofremains/index.html",
     "sourceHash": "sha256:50a0790b4c529352b677f6dea4b284d7cb3011cfc58286c552a558a32102b351",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:50a0790b4c529352b677f6dea4b284d7cb3011cfc58286c552a558a32102b351",

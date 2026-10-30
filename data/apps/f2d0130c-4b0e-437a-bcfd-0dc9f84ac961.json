@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/ai/ai-agent-playground",
     "sourceHash": "sha256:5cda69f3ccd462b40916ede921921b7a21f22bec8e1c237abb7f471a8715d89b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5cda69f3ccd462b40916ede921921b7a21f22bec8e1c237abb7f471a8715d89b",

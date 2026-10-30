@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Phone-Validation_Manual.pdf",
     "sourceHash": "sha256:63453809bb3279351e3d65c39e98220925ea2741f2339f1271e66e52c2dd6e7b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:63453809bb3279351e3d65c39e98220925ea2741f2339f1271e66e52c2dd6e7b",

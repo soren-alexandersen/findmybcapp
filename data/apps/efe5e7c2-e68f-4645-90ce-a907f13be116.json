@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-add-ons/-be-terna-reactor-mobile-inventory",
     "sourceHash": "sha256:9fea91ddeac8f65d68e1e849544d1a4c894b32124d793e06797b0b3d09b071f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9fea91ddeac8f65d68e1e849544d1a4c894b32124d793e06797b0b3d09b071f3",

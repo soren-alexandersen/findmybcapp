@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://rhythmsoft-global.com/contact-us/",
     "sourceHash": "sha256:f65a1d7e7f065365a29ebc6017098124a6ca268784e454e23446f7423150a1cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f65a1d7e7f065365a29ebc6017098124a6ca268784e454e23446f7423150a1cc",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.business-central-app.it/en/tempo-zero-worldwide/help/",
     "sourceHash": "sha256:6c25d0b1bee8af07877006f5729e6f850552246f6130448ebab443af68bb1cc3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c25d0b1bee8af07877006f5729e6f850552246f6130448ebab443af68bb1cc3",

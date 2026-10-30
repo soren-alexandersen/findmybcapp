@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": null,
     "sourceHash": "sha256:6a35a5ccf083a15ab9305c678542564bbb319c7ce69363abeb1b51212663d825",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6a35a5ccf083a15ab9305c678542564bbb319c7ce69363abeb1b51212663d825",

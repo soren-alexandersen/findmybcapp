@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/prepayment-management/docs/en-US/help",
     "sourceHash": "sha256:8dfc94915d84085868434e66f7504b1e1f589785b82fd30ecdc13b70533d549b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8dfc94915d84085868434e66f7504b1e1f589785b82fd30ecdc13b70533d549b",

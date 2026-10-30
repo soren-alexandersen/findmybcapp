@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infostudi.it/extendend-text/help",
     "sourceHash": "sha256:3327e37486bcaf2b0a2bdebf4eca2e0fd30086ee7eec6d64447578690f12e0a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3327e37486bcaf2b0a2bdebf4eca2e0fd30086ee7eec6d64447578690f12e0a4",

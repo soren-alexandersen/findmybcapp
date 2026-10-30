@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://printvis.com/about-printvis/help/",
     "sourceHash": "sha256:027aa31f08c6ae800f8ee8f3f96141ee2d38d952e642b8e4d43538802e554739",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:027aa31f08c6ae800f8ee8f3f96141ee2d38d952e642b8e4d43538802e554739",

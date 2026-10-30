@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/open-in-view-mode/",
     "sourceHash": "sha256:99c7c17916334c2bb6ce05c48f186f759fded26f71d5f862f0a8021f9a56b445",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:99c7c17916334c2bb6ce05c48f186f759fded26f71d5f862f0a8021f9a56b445",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mse-group.com/documents/mse_framework_manual_de.pdf",
     "sourceHash": "sha256:49a5d69f6c8c8cfbd41b62ca8e7b61fb4b4d906f7b5d430bd58ca453d2b31bc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:49a5d69f6c8c8cfbd41b62ca8e7b61fb4b4d906f7b5d430bd58ca453d2b31bc4",

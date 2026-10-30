@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-commissions/help",
     "sourceHash": "sha256:3e7fa8e050d1236f819cb16246227799785a86c553c12f41039e1f5335a403a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e7fa8e050d1236f819cb16246227799785a86c553c12f41039e1f5335a403a6",

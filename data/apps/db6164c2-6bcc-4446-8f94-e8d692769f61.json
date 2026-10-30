@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/accounting-layout",
     "sourceHash": "sha256:b4dced8222b66381462980a80c9c88ec917348c30fcfac1a0e20c7ef72a5100b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b4dced8222b66381462980a80c9c88ec917348c30fcfac1a0e20c7ef72a5100b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCDD",
     "sourceHash": "sha256:ed23b153009903636e71609b8ee2b42639046375010fc4ea87384f16c6b7d58d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ed23b153009903636e71609b8ee2b42639046375010fc4ea87384f16c6b7d58d",

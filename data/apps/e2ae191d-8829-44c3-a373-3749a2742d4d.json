@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-setup-use-service-declaration",
     "sourceHash": "sha256:8513aa6c02aabaebdc9fbbdfd624c49796546e57662c656cd7ede58210e12593",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8513aa6c02aabaebdc9fbbdfd624c49796546e57662c656cd7ede58210e12593",

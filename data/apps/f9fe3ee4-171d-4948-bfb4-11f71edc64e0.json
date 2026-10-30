@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtFinance",
     "sourceHash": "sha256:0f09d3229b8ba7003dff085f38d96f546f27333d3beb790477cdc0c965f30541",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0f09d3229b8ba7003dff085f38d96f546f27333d3beb790477cdc0c965f30541",

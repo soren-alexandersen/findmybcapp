@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/manufacturergrouptype/index.html",
     "sourceHash": "sha256:e24d7c4e3aa6282a0df3ab528f15b00fc7c0083c33a59465b7a150a59454cb87",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e24d7c4e3aa6282a0df3ab528f15b00fc7c0083c33a59465b7a150a59454cb87",

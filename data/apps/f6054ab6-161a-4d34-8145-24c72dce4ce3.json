@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/handling-units-management.html",
     "sourceHash": "sha256:3f50412b6fb71a5b03c214fce10c41e96950cc92fb996079e280d0692d659cee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3f50412b6fb71a5b03c214fce10c41e96950cc92fb996079e280d0692d659cee",

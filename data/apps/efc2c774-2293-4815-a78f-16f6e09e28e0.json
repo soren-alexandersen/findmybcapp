@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-fixed-asset-history/",
     "sourceHash": "sha256:c35e9867b7759cae5aba1044a548d7d5bf3b359fcedb3a8682b7b5e4b1b71351",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c35e9867b7759cae5aba1044a548d7d5bf3b359fcedb3a8682b7b5e4b1b71351",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/e-documents-validator/",
     "sourceHash": "sha256:a8920a0413d4978a247b50479b2f2aaad344ec4269729e58f77ae25481896bc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a8920a0413d4978a247b50479b2f2aaad344ec4269729e58f77ae25481896bc4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.extensions-lab.com/vfta-help",
     "sourceHash": "sha256:08c4d5533ca264b7a9d2822b63703e103442da9230db3da01f3229080aff703a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:08c4d5533ca264b7a9d2822b63703e103442da9230db3da01f3229080aff703a",

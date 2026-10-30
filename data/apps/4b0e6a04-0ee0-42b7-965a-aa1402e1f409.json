@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-sales-advancedcommissions/user-guide.html",
     "sourceHash": "sha256:51b38fb7b8191f150f93a6175e8c96e8b5ca1bc51988093af4176ab4b5382e4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:51b38fb7b8191f150f93a6175e8c96e8b5ca1bc51988093af4176ab4b5382e4c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/HappyAPI",
     "sourceHash": "sha256:70b95d748c702e1368113a6fdc6fdbb6da45c8ee2c0c07f96534b0cd408ea5c5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:70b95d748c702e1368113a6fdc6fdbb6da45c8ee2c0c07f96534b0cd408ea5c5",

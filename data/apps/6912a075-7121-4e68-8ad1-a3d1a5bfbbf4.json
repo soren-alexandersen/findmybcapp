@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.gurusoft.no/integrasjon-erp-systemer?parent=10091",
     "sourceHash": "sha256:96b24a2e926ed34be919d1d377725d1b4285976b56ed02146127b654ad63875c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:96b24a2e926ed34be919d1d377725d1b4285976b56ed02146127b654ad63875c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-payment-plan",
     "sourceHash": "sha256:432c11f9844b383cf3af297678ed5b9d891a18ae58580f56e6b49f7e49a68421",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:432c11f9844b383cf3af297678ed5b9d891a18ae58580f56e6b49f7e49a68421",

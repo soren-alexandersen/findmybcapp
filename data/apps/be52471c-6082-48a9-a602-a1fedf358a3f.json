@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/softera-gpais-funkcionalumo-apzvalga",
     "sourceHash": "sha256:c0e15715df4876dad4c8f539e6f3f66afb6d26a89f0ecd67b2c3b465b88e734d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c0e15715df4876dad4c8f539e6f3f66afb6d26a89f0ecd67b2c3b465b88e734d",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-foundation-app/help",
     "sourceHash": "sha256:80c25d646c413088244b1f9626ace0fcb2252d0a6518281f46e908d9874f2b06",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:80c25d646c413088244b1f9626ace0fcb2252d0a6518281f46e908d9874f2b06",

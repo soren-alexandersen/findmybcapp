@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apcdynamics.com/contact-us/",
     "sourceHash": "sha256:da7afd963dfaefbc7c7ccce543a28b35e78dbad43aad9ff212bdd4595f1759b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:da7afd963dfaefbc7c7ccce543a28b35e78dbad43aad9ff212bdd4595f1759b1",

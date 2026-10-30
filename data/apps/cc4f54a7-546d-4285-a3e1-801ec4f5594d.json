@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/foundation-pack/",
     "sourceHash": "sha256:13990ec1a98ad0a1379176c420b3ed8c3e6619a246a8bcb1ad87874f00697bee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:13990ec1a98ad0a1379176c420b3ed8c3e6619a246a8bcb1ad87874f00697bee",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.difference.team/",
     "sourceHash": "sha256:a6e1e74412244018e0b4020613bb0a57e3599d2eca9368c9e5f71b58b981f8a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a6e1e74412244018e0b4020613bb0a57e3599d2eca9368c9e5f71b58b981f8a3",

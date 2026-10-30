@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innoqubit.com/es-ES/DocutenConnect/Introduction/",
     "sourceHash": "sha256:02b4a5b477f43d0392fc8a8f4f58a03f6840ff92cb5b0717b6927448a40221dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:02b4a5b477f43d0392fc8a8f4f58a03f6840ff92cb5b0717b6927448a40221dd",

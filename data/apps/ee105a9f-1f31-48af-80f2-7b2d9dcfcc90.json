@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://boyumcloud.elevio.help/en",
     "sourceHash": "sha256:4c27f67dce73b126cc0cb5ffdb4696b7c8de4dc432b5c1bd8d4674beadcab658",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c27f67dce73b126cc0cb5ffdb4696b7c8de4dc432b5c1bd8d4674beadcab658",

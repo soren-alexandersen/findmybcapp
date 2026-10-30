@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/workflow/",
     "sourceHash": "sha256:2d1c68b7ebf52e7adb1629f26d40969820ef552e51decf599ec713af2574d4e4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2d1c68b7ebf52e7adb1629f26d40969820ef552e51decf599ec713af2574d4e4",

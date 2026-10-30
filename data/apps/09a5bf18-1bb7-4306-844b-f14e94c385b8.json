@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/data-everywhere",
     "sourceHash": "sha256:ef31f35b497482a58b66640c09ecd3f49c972c48636ae2986c26476d118eded0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ef31f35b497482a58b66640c09ecd3f49c972c48636ae2986c26476d118eded0",

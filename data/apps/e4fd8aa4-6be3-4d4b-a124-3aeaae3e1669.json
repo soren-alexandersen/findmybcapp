@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/dokumentationen/posting-information-app-de",
     "sourceHash": "sha256:48b29b0a2eba2237009027575959175c5b620e2dc41c0079f67557bcd0b21a00",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:48b29b0a2eba2237009027575959175c5b620e2dc41c0079f67557bcd0b21a00",

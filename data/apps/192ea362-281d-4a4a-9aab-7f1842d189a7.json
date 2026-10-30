@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/datatrim/",
     "sourceHash": "sha256:522bed5b30eb26e40a5954b7fc50044b30995ed3c031f38fcc981ebbd44e9ec8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:522bed5b30eb26e40a5954b7fc50044b30995ed3c031f38fcc981ebbd44e9ec8",

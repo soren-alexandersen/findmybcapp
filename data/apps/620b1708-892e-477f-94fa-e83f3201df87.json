@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://jcd.dk/microsoft-dynamics/business-central-app-deferral-description/#help",
     "sourceHash": "sha256:4578bcf88162d5681d2e0b3b1e750ce10b9a025efa2b00484f00d672bf6cb4e9",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4578bcf88162d5681d2e0b3b1e750ce10b9a025efa2b00484f00d672bf6cb4e9",

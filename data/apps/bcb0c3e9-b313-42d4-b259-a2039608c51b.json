@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jemel.lv/docs/currency-rates-import",
     "sourceHash": "sha256:05a473278a1ae1139e16870472a10a1c4372d089992fed1cb468842a817f3016",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:05a473278a1ae1139e16870472a10a1c4372d089992fed1cb468842a817f3016",

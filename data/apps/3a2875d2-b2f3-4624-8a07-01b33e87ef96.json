@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://galarux.com/productos/galaruxgantt/guia-usuario.html",
     "sourceHash": "sha256:43323dbe7a20e728769f0a0fc3f21e4fd1395235560567816f06581523468876",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:43323dbe7a20e728769f0a0fc3f21e4fd1395235560567816f06581523468876",

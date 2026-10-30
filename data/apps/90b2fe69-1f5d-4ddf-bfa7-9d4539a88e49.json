@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/TAE/docs/Introduction",
     "sourceHash": "sha256:47c34185f6e9e363500ec3d7fc459858e8a0eca2af66b94e950c1029b4ddb36f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:47c34185f6e9e363500ec3d7fc459858e8a0eca2af66b94e950c1029b4ddb36f",

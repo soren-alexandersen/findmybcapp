@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.manda.gmbh/easyflow/",
     "sourceHash": "sha256:2718ee97067d4257cbf9ede679c21c85e0c6a26feb60e7d7083f73ec041172fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2718ee97067d4257cbf9ede679c21c85e0c6a26feb60e7d7083f73ec041172fc",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-order-book-dashboard/",
     "sourceHash": "sha256:562670a8927eb08a496606c1b2cece0ef6a7a0433622bd5e1888c14900f9ee03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:562670a8927eb08a496606c1b2cece0ef6a7a0433622bd5e1888c14900f9ee03",

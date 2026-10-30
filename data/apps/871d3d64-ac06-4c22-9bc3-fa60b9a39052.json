@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/resource-scheduling-board/",
     "sourceHash": "sha256:7e2448c0fbca172a158e5c363b767a686a3d1e7d0a2f342cca051102094513a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7e2448c0fbca172a158e5c363b767a686a3d1e7d0a2f342cca051102094513a2",

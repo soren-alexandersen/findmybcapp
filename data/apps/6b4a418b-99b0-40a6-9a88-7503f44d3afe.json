@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-essentials/clever-printnode-integration/user-guide/about",
     "sourceHash": "sha256:9fa42926731b22584a508effaff36e88d230917b812d19a0436748f7910b70fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9fa42926731b22584a508effaff36e88d230917b812d19a0436748f7910b70fd",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/VIC/",
     "sourceHash": "sha256:3400878430e1c1bef286870a99a28404406f312e16e0f446b99bad3d0f4c60be",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3400878430e1c1bef286870a99a28404406f312e16e0f446b99bad3d0f4c60be",

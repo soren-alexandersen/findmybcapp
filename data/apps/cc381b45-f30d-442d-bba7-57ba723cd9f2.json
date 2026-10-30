@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-mobile-manufacturing",
     "sourceHash": "sha256:0c049e864b24839140212e211d7ba45d4927940311b8ab6c3450cf5272414193",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0c049e864b24839140212e211d7ba45d4927940311b8ab6c3450cf5272414193",

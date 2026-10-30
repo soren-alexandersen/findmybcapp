@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-pim/",
     "sourceHash": "sha256:9ddd4590ede4033edb8b0250dbcdc0422e6ca272ed8dcbbe607647edbde7d006",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9ddd4590ede4033edb8b0250dbcdc0422e6ca272ed8dcbbe607647edbde7d006",

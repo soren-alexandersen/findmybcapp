@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://datasponge.dk/faq/",
     "sourceHash": "sha256:d82b7b34eed1f62c78917a16d5db221d8b95f0d1ef760b5e8349d2dc1c7e9a03",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d82b7b34eed1f62c78917a16d5db221d8b95f0d1ef760b5e8349d2dc1c7e9a03",

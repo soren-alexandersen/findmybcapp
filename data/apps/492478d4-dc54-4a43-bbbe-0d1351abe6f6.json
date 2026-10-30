@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynasol.tech/change-log-notification-system-dynamics-365-business-central-addon/",
     "sourceHash": "sha256:3041064c67fa488808d3c265e327aef9783e1986e6f2adf251592af36b9d48eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3041064c67fa488808d3c265e327aef9783e1986e6f2adf251592af36b9d48eb",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/easy-document-pin/",
     "sourceHash": "sha256:2da01e9e41615f95cb54cd078df3845558e566406391bd776902c2653059e5bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2da01e9e41615f95cb54cd078df3845558e566406391bd776902c2653059e5bd",

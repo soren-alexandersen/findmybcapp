@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-finance-parafiscal-taxes/",
     "sourceHash": "sha256:deedde850294eb0d0fc6dc1eaf03446f38bbee74c652cf58d21bfc8c6aeb0049",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:deedde850294eb0d0fc6dc1eaf03446f38bbee74c652cf58d21bfc8c6aeb0049",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/upselling-spares/",
     "sourceHash": "sha256:1549357020139cee37dd7e17eebb81e7b2a2f3a03a3c8d0c9c057d7a1d371eb5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1549357020139cee37dd7e17eebb81e7b2a2f3a03a3c8d0c9c057d7a1d371eb5",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
     "sourceHash": "sha256:a63a7e43f25383a5da3e31167c4457532ff7e30ad540cabb58c1a49c92cc92fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a63a7e43f25383a5da3e31167c4457532ff7e30ad540cabb58c1a49c92cc92fa",

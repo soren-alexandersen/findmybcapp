@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/material-staging",
     "sourceHash": "sha256:1e4fc77c93ebbf689fdfe05678cfb3ad2a9257adc165d7099bf4a9149e2d267b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1e4fc77c93ebbf689fdfe05678cfb3ad2a9257adc165d7099bf4a9149e2d267b",

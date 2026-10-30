@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/smart-dimensions/",
     "sourceHash": "sha256:3b41beaebd74b1f1ba9ea4f284c30610bc99d0d4ea939f00e4e1530a93329f85",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3b41beaebd74b1f1ba9ea4f284c30610bc99d0d4ea939f00e4e1530a93329f85",

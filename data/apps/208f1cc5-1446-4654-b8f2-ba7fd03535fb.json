@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://hortusdigital.com/kontakti/",
     "sourceHash": "sha256:5b9bc7cb81170a34e0011d28ae79f8c4fca6ea031d1288ec8a39a3a33d45da6f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b9bc7cb81170a34e0011d28ae79f8c4fca6ea031d1288ec8a39a3a33d45da6f",

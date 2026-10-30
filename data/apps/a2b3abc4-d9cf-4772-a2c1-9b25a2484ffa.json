@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/",
     "sourceHash": "sha256:2851801caa532dc1f4d16ff10bba934e597c9cbb2d3d643551bc4f15f4f2a042",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2851801caa532dc1f4d16ff10bba934e597c9cbb2d3d643551bc4f15f4f2a042",

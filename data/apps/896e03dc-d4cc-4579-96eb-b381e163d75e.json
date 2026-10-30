@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://imsizeandcolorconnector.help.im-projects.com/",
     "sourceHash": "sha256:05b5d2d90d13ebaa578e8a3d4fedf26637a05b351796f7820823542f4b99b00a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:05b5d2d90d13ebaa578e8a3d4fedf26637a05b351796f7820823542f4b99b00a",

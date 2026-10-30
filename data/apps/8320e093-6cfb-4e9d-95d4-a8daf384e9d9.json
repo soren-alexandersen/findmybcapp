@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ebt-me.com/wp-content/uploads/2025/06/EBT-Custom-Workflow-Approval-V1-1.pdf",
     "sourceHash": "sha256:44b5255b2965c01d2a2cc1a7ebbf56526b692242a7bb1bb27cc18a4da67471c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:44b5255b2965c01d2a2cc1a7ebbf56526b692242a7bb1bb27cc18a4da67471c8",

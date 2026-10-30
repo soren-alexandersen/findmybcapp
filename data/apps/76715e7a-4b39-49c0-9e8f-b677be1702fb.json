@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ALA/",
     "sourceHash": "sha256:a5f7435af51eb16bd599d0b89bf9c136e1d543f86898f290a8de081e1726aca2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a5f7435af51eb16bd599d0b89bf9c136e1d543f86898f290a8de081e1726aca2",

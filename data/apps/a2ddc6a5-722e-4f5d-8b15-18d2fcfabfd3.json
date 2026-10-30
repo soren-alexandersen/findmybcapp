@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-long-term-agreements/",
     "sourceHash": "sha256:bf8bb99723447727b0901e66f63baa95a0456a71eb74e3ae842db52c02674215",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bf8bb99723447727b0901e66f63baa95a0456a71eb74e3ae842db52c02674215",

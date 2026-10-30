@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/data-integrator-for-cloud-storage/docs",
     "sourceHash": "sha256:e0a63776ea1640b57b3d7635bcc05a48bf5d4f8942cf3804e717d47d18e52508",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e0a63776ea1640b57b3d7635bcc05a48bf5d4f8942cf3804e717d47d18e52508",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/azure-secret-expiration.html",
     "sourceHash": "sha256:9dca19e68fcc5ad78b2b52023aae9daaeaba1322b5e2bbaf4e58c50dc112ede5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9dca19e68fcc5ad78b2b52023aae9daaeaba1322b5e2bbaf4e58c50dc112ede5",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d4bsolutions.com/ficha-de-producto/Registropordefecto/",
     "sourceHash": "sha256:4834dd86cc9f89af255dec600544061f829e164c7e860c153054a0e99437008a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4834dd86cc9f89af255dec600544061f829e164c7e860c153054a0e99437008a",

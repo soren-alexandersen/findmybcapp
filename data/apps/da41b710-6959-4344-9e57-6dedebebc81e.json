@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/bonusman/",
     "sourceHash": "sha256:00b53bebaf6f4d7c41c77a66448b64df44a77544667a08b4163acb68f954a69f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:00b53bebaf6f4d7c41c77a66448b64df44a77544667a08b4163acb68f954a69f",

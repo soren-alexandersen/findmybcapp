@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infotech-inc.com/infotech-project-scheduler",
     "sourceHash": "sha256:8dca4da8ff97f87df08d553cd16e04055857e98cf2cd076028c33cdc53eb597c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dca4da8ff97f87df08d553cd16e04055857e98cf2cd076028c33cdc53eb597c",

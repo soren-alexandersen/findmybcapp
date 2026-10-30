@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-masterdata-workflow/",
     "sourceHash": "sha256:567efbad9489336c919d63de07cf7f181fc70acd011e8fd4fa37c2caef8ab98c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:567efbad9489336c919d63de07cf7f181fc70acd011e8fd4fa37c2caef8ab98c",

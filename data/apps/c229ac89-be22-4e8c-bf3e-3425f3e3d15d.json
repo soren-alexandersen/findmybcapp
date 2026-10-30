@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/rob-ex/#howto",
     "sourceHash": "sha256:28ec58b40bac72152dd056f97ba8fc26324139f145ddbf3aa58c1e7cece2edac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:28ec58b40bac72152dd056f97ba8fc26324139f145ddbf3aa58c1e7cece2edac",

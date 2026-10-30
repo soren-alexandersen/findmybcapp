@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/cargo-import/docs",
     "sourceHash": "sha256:7067811d77f5cf76c41f611c02401b340ae563b4fb32628798816123a96dab8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7067811d77f5cf76c41f611c02401b340ae563b4fb32628798816123a96dab8f",

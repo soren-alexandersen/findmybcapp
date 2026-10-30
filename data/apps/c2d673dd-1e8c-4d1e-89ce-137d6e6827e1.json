@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://sncdocumentations.blob.core.windows.net/products/SIEVERS%20WMS_documentation_de-DE.html",
     "sourceHash": "sha256:bd21f31dcf38b7a596353907b4a9e465b488ebef1a4a95ad27a12511f4d1edb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bd21f31dcf38b7a596353907b4a9e465b488ebef1a4a95ad27a12511f4d1edb8",

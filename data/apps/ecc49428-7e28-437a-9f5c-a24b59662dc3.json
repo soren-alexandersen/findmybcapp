@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/advanced-document-reporting.html",
     "sourceHash": "sha256:d112f53184a20fb5b48d97a66f99d5260c84f3f4c3ad82d21cb3f02a65bff1f5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d112f53184a20fb5b48d97a66f99d5260c84f3f4c3ad82d21cb3f02a65bff1f5",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/forecastx-connector",
     "sourceHash": "sha256:8024e4b4fea2454dd5f899dcd0c37d9872ef01be5007d4c4ac5c7aa4e93c69a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8024e4b4fea2454dd5f899dcd0c37d9872ef01be5007d4c4ac5c7aa4e93c69a6",

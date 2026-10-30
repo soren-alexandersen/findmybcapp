@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://nav2day.com/docs/nav2day-access-management/",
     "sourceHash": "sha256:e0fdf97f8f345d42b472c3139049bf8d75a21aab1659b7ec6dca5210d879009d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e0fdf97f8f345d42b472c3139049bf8d75a21aab1659b7ec6dca5210d879009d",

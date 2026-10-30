@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/en/shipperHQ/index.html",
     "sourceHash": "sha256:cbf20af3ef6ce392f1ff33f5b8539597e0767a64f258b5d12de894a75c1b0a58",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cbf20af3ef6ce392f1ff33f5b8539597e0767a64f258b5d12de894a75c1b0a58",

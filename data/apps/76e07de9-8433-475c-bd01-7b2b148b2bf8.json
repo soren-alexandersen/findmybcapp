@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-flexible-contract-payments-summary/",
     "sourceHash": "sha256:b85a14cfbaabdd785f1a86e5518d89d1e030ae69993058b2e20315deb9993297",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b85a14cfbaabdd785f1a86e5518d89d1e030ae69993058b2e20315deb9993297",

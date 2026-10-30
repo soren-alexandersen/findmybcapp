@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-e-invoice",
     "sourceHash": "sha256:7479aa664ac7887617917ed70e258f4f7c291ca48efd0cc5357e5ab3751c757e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7479aa664ac7887617917ed70e258f4f7c291ca48efd0cc5357e5ab3751c757e",

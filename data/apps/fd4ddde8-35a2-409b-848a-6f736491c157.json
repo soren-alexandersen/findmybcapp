@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.amjs-consulting.com/evolve-master-solution/",
     "sourceHash": "sha256:f878af1e06149be9ba7f4e1e314090bc019faa2ef23aa6d7d971477d6d1ac23e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f878af1e06149be9ba7f4e1e314090bc019faa2ef23aa6d7d971477d6d1ac23e",

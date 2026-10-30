@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.timetrackcentral.com/en/tools/calcdate",
     "sourceHash": "sha256:1f69dab95d8a975172fffc91af65cfcf1af667990af6f0c0a996b62858175b4e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1f69dab95d8a975172fffc91af65cfcf1af667990af6f0c0a996b62858175b4e",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gmsoftdynamics.com/apps/coproduct-costing/",
     "sourceHash": "sha256:8044b453d60ddf6e68ec09a8730959035ca24e86f7f78a67063948a7e7217cce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8044b453d60ddf6e68ec09a8730959035ca24e86f7f78a67063948a7e7217cce",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralReports/HelpV5/Help",
     "sourceHash": "sha256:fc4e4c8ee2e294b4877d99edf5d8fbc6b278a08d9ef28ba2b3d2c0a29dc263d0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fc4e4c8ee2e294b4877d99edf5d8fbc6b278a08d9ef28ba2b3d2c0a29dc263d0",

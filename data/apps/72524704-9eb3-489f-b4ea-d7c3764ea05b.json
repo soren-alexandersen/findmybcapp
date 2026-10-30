@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pimics.com/",
     "sourceHash": "sha256:7e0d4b63b36a2543d257e5a23d6ee015903fda4181f4c095ef3efda20e870c45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7e0d4b63b36a2543d257e5a23d6ee015903fda4181f4c095ef3efda20e870c45",

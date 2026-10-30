@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/LPL/",
     "sourceHash": "sha256:510650a60c2ee604a8b48b3c324fb3df765c69ae6a50ced2c0deb73901b0cb73",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:510650a60c2ee604a8b48b3c324fb3df765c69ae6a50ced2c0deb73901b0cb73",

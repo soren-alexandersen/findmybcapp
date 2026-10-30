@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-document-currency",
     "sourceHash": "sha256:51f4d48b2f2f9fe3c57c581206de462bae9489481c6861f8b1eebb55cb604b4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:51f4d48b2f2f9fe3c57c581206de462bae9489481c6861f8b1eebb55cb604b4d",

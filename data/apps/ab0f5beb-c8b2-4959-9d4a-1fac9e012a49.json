@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralGoCardless/Help",
     "sourceHash": "sha256:86b129d671d4b08dfddee66168019b5f0094a9174c00051af87c75fe829ce636",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86b129d671d4b08dfddee66168019b5f0094a9174c00051af87c75fe829ce636",

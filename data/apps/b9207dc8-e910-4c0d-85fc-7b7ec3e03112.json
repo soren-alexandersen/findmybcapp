@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/handheld/user-guide",
     "sourceHash": "sha256:2ec3797af8fd16666e71890c09415161980caac5c26e3465c6ec4b499dec4c3d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2ec3797af8fd16666e71890c09415161980caac5c26e3465c6ec4b499dec4c3d",

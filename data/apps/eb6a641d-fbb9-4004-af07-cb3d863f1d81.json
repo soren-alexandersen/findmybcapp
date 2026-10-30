@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/rejoose/#howto",
     "sourceHash": "sha256:bb5141d0ccb75d49bd81ded84667dd9d693e356a7264dfa7f2d967d02bc0c075",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bb5141d0ccb75d49bd81ded84667dd9d693e356a7264dfa7f2d967d02bc0c075",

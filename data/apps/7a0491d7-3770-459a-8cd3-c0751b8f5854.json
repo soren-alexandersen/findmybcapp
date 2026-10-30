@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.alna.lt/business/en/solutions/alna-document-import",
     "sourceHash": "sha256:5c69a2158a151a5ef88a4b2df83cffbec04f017916e568741412a397412d1711",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5c69a2158a151a5ef88a4b2df83cffbec04f017916e568741412a397412d1711",

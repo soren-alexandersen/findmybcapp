@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/multiple-entity-operations/docs",
     "sourceHash": "sha256:8675dcec6e849a3889080f8feca1313cc46d5a0370a44c3a5192bb2ee143721d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8675dcec6e849a3889080f8feca1313cc46d5a0370a44c3a5192bb2ee143721d",

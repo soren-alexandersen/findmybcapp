@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/printnode-connector/support/",
     "sourceHash": "sha256:4e0e0a0ae4a715b1fc36c4a2fac84f9480c72965ef0ee68257528f8b3f936d65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4e0e0a0ae4a715b1fc36c4a2fac84f9480c72965ef0ee68257528f8b3f936d65",

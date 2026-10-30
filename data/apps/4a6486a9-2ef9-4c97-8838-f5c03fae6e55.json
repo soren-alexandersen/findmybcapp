@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bemea.com/",
     "sourceHash": "sha256:137cf37d6ac1a0d3257c9e288c29a2e859fe8d6fc53627bd358792a84fe399d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:137cf37d6ac1a0d3257c9e288c29a2e859fe8d6fc53627bd358792a84fe399d5",

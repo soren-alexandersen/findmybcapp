@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://syssolutionsllc.com/user-guides/",
     "sourceHash": "sha256:95fa227406c3c016e73a0b27113ea612daac7624f2928dd6813d26f533a69f39",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:95fa227406c3c016e73a0b27113ea612daac7624f2928dd6813d26f533a69f39",

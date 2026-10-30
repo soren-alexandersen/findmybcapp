@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://portal.equerra.com/docs/elevate-documents/overview",
     "sourceHash": "sha256:8109d9d644e2e2f0ef90a9319f6ae527cc4ecdf4650343f18194dab7f75c1095",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8109d9d644e2e2f0ef90a9319f6ae527cc4ecdf4650343f18194dab7f75c1095",

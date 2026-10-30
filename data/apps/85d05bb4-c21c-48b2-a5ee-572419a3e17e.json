@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/mercurius-ip/commitment-accounting-for-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:cffc31a5a885ecc6502a396dc37142262b692afebea8425bcd1d48c70ad2a986",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cffc31a5a885ecc6502a396dc37142262b692afebea8425bcd1d48c70ad2a986",

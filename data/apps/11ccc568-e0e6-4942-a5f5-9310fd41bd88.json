@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/packing-list-pck.html",
     "sourceHash": "sha256:ab5baabed8ba55192ae3aa997172b0ed10af6b6d0e45e6850a278b1b4ec292e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ab5baabed8ba55192ae3aa997172b0ed10af6b6d0e45e6850a278b1b4ec292e2",

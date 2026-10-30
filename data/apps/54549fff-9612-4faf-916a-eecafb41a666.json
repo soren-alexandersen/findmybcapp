@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/posteddimensioneditor",
     "sourceHash": "sha256:7ddaee7f6353fcd2a81e3a65f6d90ff9bb295e5275cb3e11e35a068c1fb0a903",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7ddaee7f6353fcd2a81e3a65f6d90ff9bb295e5275cb3e11e35a068c1fb0a903",

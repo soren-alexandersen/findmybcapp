@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2025/07/MDMUserManual.pdf",
     "sourceHash": "sha256:7f2d7cbfc27a88525bd966aab79d3afe53fd14936a5272fc713884bbe079853d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f2d7cbfc27a88525bd966aab79d3afe53fd14936a5272fc713884bbe079853d",

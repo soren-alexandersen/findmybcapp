@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://d365.global/help",
     "sourceHash": "sha256:be8371b618760dc79c26229cd00786a6de5c695e215861fbd6057be4a2435271",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:be8371b618760dc79c26229cd00786a6de5c695e215861fbd6057be4a2435271",

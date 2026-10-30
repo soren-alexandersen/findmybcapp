@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://cloudperform.com/",
     "sourceHash": "sha256:d5e3eeab27bb952eb3eef2a04edb5b546032da21bbcca53cba3e0e66f118f350",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5e3eeab27bb952eb3eef2a04edb5b546032da21bbcca53cba3e0e66f118f350",

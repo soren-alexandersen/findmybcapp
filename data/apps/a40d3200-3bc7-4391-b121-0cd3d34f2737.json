@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.trestria.co.uk/health-check/free-business-health-check",
     "sourceHash": "sha256:f53fb7fbca1b7313a788a55ef26da1f2113a42eb882f1a6c946591df4bb5e95c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f53fb7fbca1b7313a788a55ef26da1f2113a42eb882f1a6c946591df4bb5e95c",

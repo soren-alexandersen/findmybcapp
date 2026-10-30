@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://vinya.com.tr/en/microsoft-appsource/visit/",
     "sourceHash": "sha256:b499ec91db1d4e02f0356b36e59a80b01fcabf5587d25b6b52497822689e3e83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b499ec91db1d4e02f0356b36e59a80b01fcabf5587d25b6b52497822689e3e83",

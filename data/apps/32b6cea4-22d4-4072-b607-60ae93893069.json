@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.clear.in/s/contact-us",
     "sourceHash": "sha256:9cd51d978e9f214aad22ca79689cbe7e92ea0635bf741cfcf3b82338f499eb5e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9cd51d978e9f214aad22ca79689cbe7e92ea0635bf741cfcf3b82338f499eb5e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/dns-updater",
     "sourceHash": "sha256:2f0cc43d0d6eceb0f202cc6b6ab3b83e2b27e859dca2e8af0eccb67914b4c860",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2f0cc43d0d6eceb0f202cc6b6ab3b83e2b27e859dca2e8af0eccb67914b4c860",

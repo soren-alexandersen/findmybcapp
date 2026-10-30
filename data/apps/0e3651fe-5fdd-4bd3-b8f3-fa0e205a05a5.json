@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://immealassembly.help.im-projects.com/",
     "sourceHash": "sha256:fe78bba60168d744cb80811be736ad19cb7dba130da813c062e2f7e738c02485",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fe78bba60168d744cb80811be736ad19cb7dba130da813c062e2f7e738c02485",

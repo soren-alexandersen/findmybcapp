@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.robo-soft.com/wp-content/uploads/2024/01/DealManagement.pdf",
     "sourceHash": "sha256:fc7ca635127fb92a4f9d18695ffb0324b5eab2aac3e60283d83b6362012f132e",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc7ca635127fb92a4f9d18695ffb0324b5eab2aac3e60283d83b6362012f132e",

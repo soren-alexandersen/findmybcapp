@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://anvaigo.cc/docs-app",
     "sourceHash": "sha256:1ed9e232da4869c3df6418fe1234124c4b80be41e2830a9d46cad3d8047b189e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1ed9e232da4869c3df6418fe1234124c4b80be41e2830a9d46cad3d8047b189e",

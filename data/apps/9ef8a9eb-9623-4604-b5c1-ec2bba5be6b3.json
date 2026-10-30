@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sepolo.app/help",
     "sourceHash": "sha256:32b7f6ae5cfe417782c017b4af7519f8f201a011bfd627d67a4ad1d4c4feb23d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:32b7f6ae5cfe417782c017b4af7519f8f201a011bfd627d67a4ad1d4c4feb23d",

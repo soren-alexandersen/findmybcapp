@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.idyamsolutions.com/enhancements/idyamextensions/",
     "sourceHash": "sha256:9013e24f4a7972ffb64b17d1f1a9d0f1b939946624b0d5e92f7e0d4d288a1b8d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9013e24f4a7972ffb64b17d1f1a9d0f1b939946624b0d5e92f7e0d4d288a1b8d",

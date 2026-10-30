@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://portable-intelligence.com/wp-content/uploads/RF-Plus-BC-SOP.pdf",
     "sourceHash": "sha256:baee790c6d1b3bf74abbad88ca68b6622d80cc5a8c87908c9d3c35aea9acdf9c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:baee790c6d1b3bf74abbad88ca68b6622d80cc5a8c87908c9d3c35aea9acdf9c",

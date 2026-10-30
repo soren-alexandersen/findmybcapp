@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.adfocom.nl/helpdesk/",
     "sourceHash": "sha256:69059bec86dce92e29289c0ba484d0355ab31e51e985a6f7143738b9b99a10a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:69059bec86dce92e29289c0ba484d0355ab31e51e985a6f7143738b9b99a10a4",

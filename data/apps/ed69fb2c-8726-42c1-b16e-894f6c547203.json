@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ornith.de/adpmanual",
     "sourceHash": "sha256:a7617abd11cf7be5d162274cb76021e6be482507e2cc308dc4ae6c0742d880cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a7617abd11cf7be5d162274cb76021e6be482507e2cc308dc4ae6c0742d880cc",

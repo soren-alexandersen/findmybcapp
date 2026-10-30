@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://dynamicspartners.lt/help-lithuanian-language/",
     "sourceHash": "sha256:00c0268b08e3c0485b4de33c0feef6fd4357a93e3dc67bc6fca3c4ff0464ac0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:00c0268b08e3c0485b4de33c0feef6fd4357a93e3dc67bc6fca3c4ff0464ac0f",

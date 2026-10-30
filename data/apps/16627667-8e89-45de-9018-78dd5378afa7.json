@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/IVC/",
     "sourceHash": "sha256:c58609bd7ed355062af4ff9bea458825cc2026e4a9d8a4396cb6be51fbc6017b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c58609bd7ed355062af4ff9bea458825cc2026e4a9d8a4396cb6be51fbc6017b",

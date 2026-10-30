@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bcadvanced.de/",
     "sourceHash": "sha256:0d56ce62e6a9016fd45de6b842e6703428a8d60e0f3b2ec52f4022fcd04da799",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0d56ce62e6a9016fd45de6b842e6703428a8d60e0f3b2ec52f4022fcd04da799",

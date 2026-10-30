@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://3ktechnologies.com/wp-content/uploads/2025/11/Multiple-payment-terms-in-BC.pdf",
     "sourceHash": "sha256:956f5be33d9546481b1d36f871adec87c2bd69bccbf0a8366e85052b7ab90bee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:956f5be33d9546481b1d36f871adec87c2bd69bccbf0a8366e85052b7ab90bee",

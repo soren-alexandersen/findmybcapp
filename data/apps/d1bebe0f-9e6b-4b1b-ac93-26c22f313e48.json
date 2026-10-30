@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.connamix.com/cxestimation/",
     "sourceHash": "sha256:455b35f7d11a803944df3614fbac8c0bcca74a578c2e9d373e9c641789d613ca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:455b35f7d11a803944df3614fbac8c0bcca74a578c2e9d373e9c641789d613ca",

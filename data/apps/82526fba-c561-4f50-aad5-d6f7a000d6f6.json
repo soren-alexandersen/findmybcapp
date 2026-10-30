@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/payment-plan/user-guide-payment-plans/about-payment-plans",
     "sourceHash": "sha256:aeace313ad79bd10cd532c967c1310d3929f2d9eab0fb4d88b257f0993cd2c03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aeace313ad79bd10cd532c967c1310d3929f2d9eab0fb4d88b257f0993cd2c03",

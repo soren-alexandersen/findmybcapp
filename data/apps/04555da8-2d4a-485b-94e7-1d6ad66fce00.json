@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-WKF/en-US/WKF/index.html",
     "sourceHash": "sha256:f9a0182cd95b032f4c2e8bb908125dd02904ef6a96e1c668b5cb9defbfebbf0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f9a0182cd95b032f4c2e8bb908125dd02904ef6a96e1c668b5cb9defbfebbf0f",

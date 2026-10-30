@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tegos-group.com/documentation/Driver%20App%20Operations%20Worksheet/tegossuite-Driverapp.html",
     "sourceHash": "sha256:fdc7502a8940ef37866ee81d68a484edde5ea5a0ab875bd0b6d368283a12193d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fdc7502a8940ef37866ee81d68a484edde5ea5a0ab875bd0b6d368283a12193d",

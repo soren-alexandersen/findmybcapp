@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-power-bi-mis",
     "sourceHash": "sha256:ecce720416ee25c4b17de63d9513506a4b11684989a37cf8f8f934a1043b45d1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ecce720416ee25c4b17de63d9513506a4b11684989a37cf8f8f934a1043b45d1",

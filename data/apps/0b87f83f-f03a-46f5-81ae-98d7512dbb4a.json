@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aqoola.com/da/aqoola-workflow-365-help",
     "sourceHash": "sha256:5a67fe2ffa1d26c09273ecef4402cddb2ba7b37b19fcf083f43846e65f05d3c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5a67fe2ffa1d26c09273ecef4402cddb2ba7b37b19fcf083f43846e65f05d3c2",

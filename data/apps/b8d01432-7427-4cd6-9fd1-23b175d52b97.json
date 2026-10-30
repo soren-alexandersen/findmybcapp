@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://skc.lu/apps/fisqal/incognito",
     "sourceHash": "sha256:81f815159052704bbf9ac2bd0e77e020dc5bbd8ad3dd59ba567ea824ad5e7590",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:81f815159052704bbf9ac2bd0e77e020dc5bbd8ad3dd59ba567ea824ad5e7590",

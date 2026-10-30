@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/commission/",
     "sourceHash": "sha256:e21fed75ab77cc2946bf29ff86ce9be6855785c9849fdfe98c4a88bf88ca02f2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e21fed75ab77cc2946bf29ff86ce9be6855785c9849fdfe98c4a88bf88ca02f2",

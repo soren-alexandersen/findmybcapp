@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/autostore/",
     "sourceHash": "sha256:b3de4715510cd5a4644ccb17f57efb6dbfe5cd00a922e0ba774de30abc9316c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3de4715510cd5a4644ccb17f57efb6dbfe5cd00a922e0ba774de30abc9316c4",

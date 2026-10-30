@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eonesolutions.com/help-articles/?product=SmartConnect",
     "sourceHash": "sha256:561932aa58e8bdbc6f387452d5c8ed44a88cf031d5a66dcecce3407578ba4afc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:561932aa58e8bdbc6f387452d5c8ed44a88cf031d5a66dcecce3407578ba4afc",

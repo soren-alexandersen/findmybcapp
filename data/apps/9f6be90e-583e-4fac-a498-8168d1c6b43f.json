@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://helpdesk.onetech.eu/",
     "sourceHash": "sha256:3856c1d9c72b76981e6bbf01e2ffa7aaa8b36e8bb5712c58e803add7785795bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3856c1d9c72b76981e6bbf01e2ffa7aaa8b36e8bb5712c58e803add7785795bd",

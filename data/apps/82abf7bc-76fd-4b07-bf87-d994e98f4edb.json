@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtendedIC",
     "sourceHash": "sha256:cbb9e3907e464657a36ec91f818defc69b2b7d9402e53c18c432a3e19d95db7b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cbb9e3907e464657a36ec91f818defc69b2b7d9402e53c18c432a3e19d95db7b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naveksa.com/cadconnect",
     "sourceHash": "sha256:86dd9db03d551b0a74c4fcf18f39ff68b2a432b1b4e5c67fd5fc0e638a612618",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:86dd9db03d551b0a74c4fcf18f39ff68b2a432b1b4e5c67fd5fc0e638a612618",

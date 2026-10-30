@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://verso-logistics.com/knowledge-base/",
     "sourceHash": "sha256:a50df40320c9140a776c22d2bd356434b2807ab187243cc09ee29136b7a56a5e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a50df40320c9140a776c22d2bd356434b2807ab187243cc09ee29136b7a56a5e",

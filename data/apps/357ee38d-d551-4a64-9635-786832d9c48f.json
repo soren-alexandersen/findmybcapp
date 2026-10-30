@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.banqr.io/fraud-prevention-365",
     "sourceHash": "sha256:e27ff1355ac6d4244ff4ed49750a2988713fca58a2f640c34b09115f64933469",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e27ff1355ac6d4244ff4ed49750a2988713fca58a2f640c34b09115f64933469",

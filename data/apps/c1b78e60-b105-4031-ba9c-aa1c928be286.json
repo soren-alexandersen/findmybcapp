@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.theil-it.dk/docs/products/marketradar/help-overview",
     "sourceHash": "sha256:1b535c6fba9a1fb2abe292f70d262a3906138144eb7fc977f44c5f33a368b98a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1b535c6fba9a1fb2abe292f70d262a3906138144eb7fc977f44c5f33a368b98a",

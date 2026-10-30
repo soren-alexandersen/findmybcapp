@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.siriusapp.co.uk/apps/siriustimesheet365-job-module-in-business-central/",
     "sourceHash": "sha256:e6991f024ae63c71f24f0a8ccd921594f96799f0e841bfde98e770842dda6269",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e6991f024ae63c71f24f0a8ccd921594f96799f0e841bfde98e770842dda6269",

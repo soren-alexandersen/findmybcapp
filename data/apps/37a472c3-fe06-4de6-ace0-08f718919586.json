@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.shippingcentral.net/",
     "sourceHash": "sha256:df3fbc649369a671c39f5e300f3e21ba8c14534f5eebf46b21843a47a48268a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df3fbc649369a671c39f5e300f3e21ba8c14534f5eebf46b21843a47a48268a5",

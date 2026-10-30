@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-guarantee-management",
     "sourceHash": "sha256:bac215b2f4f58f85cd365ffb7ee4b5ba4bab54065aa1095f6af4da935e6385d1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bac215b2f4f58f85cd365ffb7ee4b5ba4bab54065aa1095f6af4da935e6385d1",

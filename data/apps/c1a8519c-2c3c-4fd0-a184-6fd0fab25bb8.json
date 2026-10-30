@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/ebanking/direct-debit-becs/docs",
     "sourceHash": "sha256:ca69372bf7335b72d8bc75426da2f0819e95fc4c5a4e4d8450f2af0152d63ed4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ca69372bf7335b72d8bc75426da2f0819e95fc4c5a4e4d8450f2af0152d63ed4",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://app.dmsiworks.com/enhanced-forecasting-worksheet/product-help/",
     "sourceHash": "sha256:6c23b1706ce0a268999d36ef791609e62fae8d0d40e9503d281c7ae985ce17d6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6c23b1706ce0a268999d36ef791609e62fae8d0d40e9503d281c7ae985ce17d6",

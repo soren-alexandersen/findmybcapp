@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
     "sourceHash": "sha256:613fad2a83d19c68cb4e592e6eb5091ebb8a26180f274342548b889d5e25178d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:613fad2a83d19c68cb4e592e6eb5091ebb8a26180f274342548b889d5e25178d",

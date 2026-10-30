@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iteffect.dk/hjaelp-til-dokumenthaandtering/",
     "sourceHash": "sha256:68adc7a7f5ecb77da40f97e2bd2f1594876f70950d70fc85a6b2f0a766709b1f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:68adc7a7f5ecb77da40f97e2bd2f1594876f70950d70fc85a6b2f0a766709b1f",

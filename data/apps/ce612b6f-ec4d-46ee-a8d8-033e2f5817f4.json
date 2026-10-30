@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PSC/",
     "sourceHash": "sha256:88f4374a5b988b8e5c3a52d95bb8231c023935ad5daca7b740a4a13c17f2ac4b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:88f4374a5b988b8e5c3a52d95bb8231c023935ad5daca7b740a4a13c17f2ac4b",

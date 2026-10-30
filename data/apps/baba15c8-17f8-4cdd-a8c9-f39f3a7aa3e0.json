@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/expense-reports/docs/en-US/help",
     "sourceHash": "sha256:25da250e3e56672e06941674e8dc7002201f668dc26f37b7a2b8166ec47f3612",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:25da250e3e56672e06941674e8dc7002201f668dc26f37b7a2b8166ec47f3612",

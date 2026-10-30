@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/vidensbank/wiki/business-central/",
     "sourceHash": "sha256:7afc6862b3cecb947a483e6932d33c4335a0635456cab8d9f904f8d1d66f2e4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7afc6862b3cecb947a483e6932d33c4335a0635456cab8d9f904f8d1d66f2e4c",

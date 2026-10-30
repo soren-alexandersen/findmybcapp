@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.northerndynamic.de/Northern%20Dynamic%20Datev%20Connector/",
     "sourceHash": "sha256:8168d8a6113589d4598082aded2ac7df25342300ad2b71011a39598f5737e9aa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8168d8a6113589d4598082aded2ac7df25342300ad2b71011a39598f5737e9aa",

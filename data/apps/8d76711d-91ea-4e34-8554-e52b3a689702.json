@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PCR/",
     "sourceHash": "sha256:18349c69c7e47573787190a1813ff9b1a8c1798aa8d0ceb09986e9263794c896",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18349c69c7e47573787190a1813ff9b1a8c1798aa8d0ceb09986e9263794c896",

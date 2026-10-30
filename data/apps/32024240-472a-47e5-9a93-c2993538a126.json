@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://business-central.refined.site/space/EDEA",
     "sourceHash": "sha256:f5cf9cb50be5e34e73cff2528644be22c191df3c36aa54c2b4f1b3c66ec90bd4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f5cf9cb50be5e34e73cff2528644be22c191df3c36aa54c2b4f1b3c66ec90bd4",

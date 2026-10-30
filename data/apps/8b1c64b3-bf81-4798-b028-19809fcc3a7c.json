@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.datacourage.com/support",
     "sourceHash": "sha256:edc409c9511fb949a2510e624890bb01e9a394ea6e03cdd33e5ed93e71fe699d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:edc409c9511fb949a2510e624890bb01e9a394ea6e03cdd33e5ed93e71fe699d",

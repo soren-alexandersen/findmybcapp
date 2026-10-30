@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/digital-service/cosmo2go/pm-plastics2go-essential.html",
     "sourceHash": "sha256:d0523bfc8a697377408134ff953bef9641b4756d59e1dea6a6c1811db1707bd1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d0523bfc8a697377408134ff953bef9641b4756d59e1dea6a6c1811db1707bd1",

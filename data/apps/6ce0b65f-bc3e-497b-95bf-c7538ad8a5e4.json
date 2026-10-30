@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Business%20Case/",
     "sourceHash": "sha256:87dc39c6b117cf22a097bbc9f99dadffcdc5732dde9367c77f8ebae3828a6100",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:87dc39c6b117cf22a097bbc9f99dadffcdc5732dde9367c77f8ebae3828a6100",

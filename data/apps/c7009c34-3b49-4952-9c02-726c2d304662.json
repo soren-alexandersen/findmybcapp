@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsapplab.com/apps",
     "sourceHash": "sha256:5fea7f6eda32ea1ef32e5a1e335f4b25b752502fb0f06b8849d97763732976a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5fea7f6eda32ea1ef32e5a1e335f4b25b752502fb0f06b8849d97763732976a4",

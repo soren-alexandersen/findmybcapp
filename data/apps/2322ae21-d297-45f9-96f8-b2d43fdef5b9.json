@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/business-central-apps/intercompany-app/",
     "sourceHash": "sha256:e55eb4790c8c3b7dc07f160c5fb069ea94402ec73789afff84a92dcd75138c10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e55eb4790c8c3b7dc07f160c5fb069ea94402ec73789afff84a92dcd75138c10",

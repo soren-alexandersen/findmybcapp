@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/shipment-management/user-guide",
     "sourceHash": "sha256:d3badafc662e4aeaa9dbee2fa2b3d3df4655f503a3093ced2157160df9db6f43",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d3badafc662e4aeaa9dbee2fa2b3d3df4655f503a3093ced2157160df9db6f43",

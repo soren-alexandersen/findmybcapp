@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://rinnovacion.com/index.php/contacto/",
     "sourceHash": "sha256:aa7fa3ac82eb3c27874e3267a8a791a98bc944a7b8b102d140cf10477290a98f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aa7fa3ac82eb3c27874e3267a8a791a98bc944a7b8b102d140cf10477290a98f",

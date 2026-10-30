@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/NPR_POS_Connector_Manual.pdf",
     "sourceHash": "sha256:10e08516b3c0f4cf1c1e44b01e9b422aa407378089bc82e971d34e8b285a6feb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:10e08516b3c0f4cf1c1e44b01e9b422aa407378089bc82e971d34e8b285a6feb",

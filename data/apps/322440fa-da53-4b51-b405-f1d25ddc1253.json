@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://quadira.com/business-central/",
     "sourceHash": "sha256:626621bd06c60db95110e2a4ee2156d3c6ea723b6d1ac3661969d66f9802363a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:626621bd06c60db95110e2a4ee2156d3c6ea723b6d1ac3661969d66f9802363a",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-sales-dynamicextendedtexts/user-guide.html",
     "sourceHash": "sha256:c1a03bb9dc6eb5a7b6fe5b5854221303b7917096ba83f06e794b238b4384319e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1a03bb9dc6eb5a7b6fe5b5854221303b7917096ba83f06e794b238b4384319e",

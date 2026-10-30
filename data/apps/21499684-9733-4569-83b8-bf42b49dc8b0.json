@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/BOR/",
     "sourceHash": "sha256:55aac417fbd84bc49459b8b188112f07926581c1bcfd02c34242ca39217ea094",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:55aac417fbd84bc49459b8b188112f07926581c1bcfd02c34242ca39217ea094",

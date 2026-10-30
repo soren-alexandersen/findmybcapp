@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navisionsupportonline.com/dimension-correction-tool-and-automation/",
     "sourceHash": "sha256:aad8af1476fca1444bada1fc73f7c55ba5260d5f9a0df38f17d532e8ff5bade0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aad8af1476fca1444bada1fc73f7c55ba5260d5f9a0df38f17d532e8ff5bade0",

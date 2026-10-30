@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-integrate-field-service",
     "sourceHash": "sha256:7f4687ca51de0d0bd764ddc874142e82484a212d4e8552b796073f4d927ee773",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7f4687ca51de0d0bd764ddc874142e82484a212d4e8552b796073f4d927ee773",

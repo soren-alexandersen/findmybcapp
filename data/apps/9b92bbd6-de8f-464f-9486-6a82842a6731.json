@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/commission/commission-demo-data/commission-demo-data-overview.html",
     "sourceHash": "sha256:b074dd245be4f315201e1ad4aa6ade1f7d14dd95365feebb3dcc20f0fa471d78",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b074dd245be4f315201e1ad4aa6ade1f7d14dd95365feebb3dcc20f0fa471d78",

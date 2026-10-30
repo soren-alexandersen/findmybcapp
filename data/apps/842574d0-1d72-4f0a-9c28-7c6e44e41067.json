@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://punjabbulls.com/",
     "sourceHash": "sha256:c95497438802a86226b1cc48f6f94b368e545e3ba6370c1d73fededae40f8e49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c95497438802a86226b1cc48f6f94b368e545e3ba6370c1d73fededae40f8e49",

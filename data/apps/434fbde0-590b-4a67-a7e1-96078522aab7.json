@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/QPR/",
     "sourceHash": "sha256:a6b6850bd188afcfbf83d8d43fb037781ffb1f956eb0b7babd0b83f527d62e72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6b6850bd188afcfbf83d8d43fb037781ffb1f956eb0b7babd0b83f527d62e72",

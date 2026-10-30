@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynavision.app/contact-sales/",
     "sourceHash": "sha256:873a706f08b4cae931c8b6de55b6a087f9d7f85e27292ea4e99ea15e0fc3ee46",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:873a706f08b4cae931c8b6de55b6a087f9d7f85e27292ea4e99ea15e0fc3ee46",

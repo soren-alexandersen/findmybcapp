@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://taskletfactory.atlassian.net/wiki/x/QZS0B",
     "sourceHash": "sha256:21d06f182bf6595b2bfc50a6b06e0ab62348d73a6609c19f2c2a8c899abc7f20",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:21d06f182bf6595b2bfc50a6b06e0ab62348d73a6609c19f2c2a8c899abc7f20",

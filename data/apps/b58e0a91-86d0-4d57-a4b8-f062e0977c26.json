@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/MUHelp/MU.htm",
     "sourceHash": "sha256:2290bd4aacc2c41f03eecbc377ecf5d428ebb25c37935c7cf2f8b7bc9c9d0744",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2290bd4aacc2c41f03eecbc377ecf5d428ebb25c37935c7cf2f8b7bc9c9d0744",

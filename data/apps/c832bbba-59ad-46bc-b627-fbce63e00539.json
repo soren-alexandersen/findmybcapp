@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tegos-group.com/documentation",
     "sourceHash": "sha256:c49dad7098d179241ee2ef4ac4c6b06eebf58ea5893d2d830c21a2b226d019a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c49dad7098d179241ee2ef4ac4c6b06eebf58ea5893d2d830c21a2b226d019a4",

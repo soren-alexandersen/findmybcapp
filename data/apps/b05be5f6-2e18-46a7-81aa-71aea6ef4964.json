@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://syssolutionsllc.com/user-guides/loyaltylion-shopify-rewards-for-d365-business-central/",
     "sourceHash": "sha256:ff3522be8e1adc4b20d5b36d53325b38d25b514dd062c019057190b8342b544d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ff3522be8e1adc4b20d5b36d53325b38d25b514dd062c019057190b8342b544d",

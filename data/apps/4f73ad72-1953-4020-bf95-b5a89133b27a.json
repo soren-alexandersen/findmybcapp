@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/pdf/",
     "sourceHash": "sha256:c8e028ed2a4290e740e34c3161f4a55cb53fdb3dc166f3018be9c82fdb5735a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c8e028ed2a4290e740e34c3161f4a55cb53fdb3dc166f3018be9c82fdb5735a4",

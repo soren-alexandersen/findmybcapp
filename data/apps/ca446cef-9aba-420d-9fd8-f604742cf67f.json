@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/easydispatch/docs/",
     "sourceHash": "sha256:b844c28f1ad1253cfbb17bf501450eee5022cad882e96b47eb69e68ae395a38a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b844c28f1ad1253cfbb17bf501450eee5022cad882e96b47eb69e68ae395a38a",

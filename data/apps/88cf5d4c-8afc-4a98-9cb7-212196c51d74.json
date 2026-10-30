@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-opplus",
     "sourceHash": "sha256:2c0a3350bc1d69c2c37d075b28ba5ea83e2ecb680acc571930943ecd44115ea5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2c0a3350bc1d69c2c37d075b28ba5ea83e2ecb680acc571930943ecd44115ea5",

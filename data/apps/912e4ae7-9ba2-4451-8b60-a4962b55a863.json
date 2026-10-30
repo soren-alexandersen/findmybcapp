@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aonflow.com/documentation/",
     "sourceHash": "sha256:e08d20872554e4494806b031de65dccb45eba2d7f63a8d7108ff470763f81097",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e08d20872554e4494806b031de65dccb45eba2d7f63a8d7108ff470763f81097",

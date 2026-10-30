@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Spare-Brained-Community/SBI-DataBraider/issues",
     "sourceHash": "sha256:b2dd9c2d691f7424ce1ea236049a43e4d0a1bcf6180e9cf141519f6e3fa5823e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b2dd9c2d691f7424ce1ea236049a43e4d0a1bcf6180e9cf141519f6e3fa5823e",

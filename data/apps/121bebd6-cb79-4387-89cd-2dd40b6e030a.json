@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.seagullsoftware.com/hc/en-us",
     "sourceHash": "sha256:5f38d6a1fe5864e8dc301386ed18c7fe81dba31452dcc9e388cb59ae92a527c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f38d6a1fe5864e8dc301386ed18c7fe81dba31452dcc9e388cb59ae92a527c6",

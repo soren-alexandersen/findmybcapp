@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.one-core.com/onecore-apps-docs/oc-financial-leasing-app-functionality",
     "sourceHash": "sha256:95f491aec0eea6bc8a87e883c4d2387cbfa5d60b4f7f68e13f0ef00fc52ed244",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:95f491aec0eea6bc8a87e883c4d2387cbfa5d60b4f7f68e13f0ef00fc52ed244",

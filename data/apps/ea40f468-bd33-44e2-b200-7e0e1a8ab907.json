@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://curabis.dk/support-paa-business-central/",
     "sourceHash": "sha256:015affef09c0c4f5058c367f5936fa319deebb12575c27957164784081da01d4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:015affef09c0c4f5058c367f5936fa319deebb12575c27957164784081da01d4",

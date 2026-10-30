@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-Pricing/",
     "sourceHash": "sha256:590a5aec391d08180e488819bfe550d0e7e8bdc378705d98c4390cc43ce15a29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:590a5aec391d08180e488819bfe550d0e7e8bdc378705d98c4390cc43ce15a29",

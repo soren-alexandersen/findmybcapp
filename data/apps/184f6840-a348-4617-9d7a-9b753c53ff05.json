@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.staedean.com/products/project-control-suite-microsoft-dynamics-bc/",
     "sourceHash": "sha256:c2fe7dfc74fa3b48083c4e4996b2a7eeb8a2c22ccd5fe90e19ee1d68246a91c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2fe7dfc74fa3b48083c4e4996b2a7eeb8a2c22ccd5fe90e19ee1d68246a91c8",

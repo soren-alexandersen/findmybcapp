@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/direct-cloud-print/",
     "sourceHash": "sha256:d9fe3607a3bd7935e98c80ac732478e1007fbad934a757aab3449fc4f221d125",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d9fe3607a3bd7935e98c80ac732478e1007fbad934a757aab3449fc4f221d125",

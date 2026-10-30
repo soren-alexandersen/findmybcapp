@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://alistar.net/nl/support/",
     "sourceHash": "sha256:6aadc29c3d598abb7027fad9b828aa52c9a9d6071dc6c4cbbeddd0b5cb976458",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6aadc29c3d598abb7027fad9b828aa52c9a9d6071dc6c4cbbeddd0b5cb976458",

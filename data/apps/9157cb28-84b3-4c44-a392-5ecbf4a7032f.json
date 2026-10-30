@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-intrastat-reporting/",
     "sourceHash": "sha256:a717c704eaf84fc528aa057289176f35a6075e9b1cd1529a7e99f42c0f0dfae8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a717c704eaf84fc528aa057289176f35a6075e9b1cd1529a7e99f42c0f0dfae8",

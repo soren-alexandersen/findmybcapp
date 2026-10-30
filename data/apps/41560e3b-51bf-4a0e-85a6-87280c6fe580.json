@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365businessdev.com/en-US/365-business-sanction-screen/",
     "sourceHash": "sha256:cac539232638ca947990817b4fe1a5b1885aa660f1381ecb63d99f481f07b9b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cac539232638ca947990817b4fe1a5b1885aa660f1381ecb63d99f481f07b9b3",

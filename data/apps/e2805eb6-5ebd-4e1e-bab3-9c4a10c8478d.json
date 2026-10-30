@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/wizard-default-dimensions/",
     "sourceHash": "sha256:e7fffc2697df925243c498cd7d18d4297b4d3f591619ad6e9e0bfd6871a4788b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e7fffc2697df925243c498cd7d18d4297b4d3f591619ad6e9e0bfd6871a4788b",

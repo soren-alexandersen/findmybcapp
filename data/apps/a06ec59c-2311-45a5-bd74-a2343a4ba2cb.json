@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.emce.fi/businesscentral-apps-contractinvoicing-help/",
     "sourceHash": "sha256:19afcee272785118ced96c73d4bfb30b4713f7dfb20da3209c4acbde8cd8e4ae",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:19afcee272785118ced96c73d4bfb30b4713f7dfb20da3209c4acbde8cd8e4ae",

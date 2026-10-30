@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Third-Party-Transactions",
     "sourceHash": "sha256:ec2c8b1e456d939934fb97121462eba9378e726ee49aa489682c3b1ba051d20a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec2c8b1e456d939934fb97121462eba9378e726ee49aa489682c3b1ba051d20a",

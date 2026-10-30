@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.flowwa.io/",
     "sourceHash": "sha256:56c39d0dc22fd3923da789e388eb39f7fd560108f8c57d65e7ae324f14de6c4b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:56c39d0dc22fd3923da789e388eb39f7fd560108f8c57d65e7ae324f14de6c4b",

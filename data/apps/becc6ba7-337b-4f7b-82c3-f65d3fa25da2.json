@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/data-sync",
     "sourceHash": "sha256:477c40f0b294a50a384753cca08647fef44bc6a3e1aa86c896411d2ddb86ae45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:477c40f0b294a50a384753cca08647fef44bc6a3e1aa86c896411d2ddb86ae45",

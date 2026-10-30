@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wise.is/en/contact-us/",
     "sourceHash": "sha256:e8cea51e78dd6c2110b47a7f93024b84842b7890ff11d4cf3e896b6da72f67af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e8cea51e78dd6c2110b47a7f93024b84842b7890ff11d4cf3e896b6da72f67af",

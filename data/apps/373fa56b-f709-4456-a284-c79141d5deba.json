@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics365-apps.com/getting-started-with-flow-text/",
     "sourceHash": "sha256:bf05617c1341e0dd3c34cee53bceae3b2918a3b77ac19bcd3db1d2b6545a51fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bf05617c1341e0dd3c34cee53bceae3b2918a3b77ac19bcd3db1d2b6545a51fa",

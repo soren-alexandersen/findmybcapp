@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app-az.hexasync.com/login",
     "sourceHash": "sha256:e7f7b66c2c6867b0cba39703d1e742638208c30517eb303dde1dfae5eb3ef417",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e7f7b66c2c6867b0cba39703d1e742638208c30517eb303dde1dfae5eb3ef417",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/bydynamics/AL-UrgentPayment-Support",
     "sourceHash": "sha256:a89eafe172c5171a329b17d6f0404467047b42402e89c8fd95429f8e9eceff44",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a89eafe172c5171a329b17d6f0404467047b42402e89c8fd95429f8e9eceff44",

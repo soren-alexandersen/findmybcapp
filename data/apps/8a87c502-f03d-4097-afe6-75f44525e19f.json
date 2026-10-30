@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.cred-it.nl/licensync/",
     "sourceHash": "sha256:42cd7a1791b048b88b6852825c27c52ff1e156c7b13c7961a987c8699ec04752",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:42cd7a1791b048b88b6852825c27c52ff1e156c7b13c7961a987c8699ec04752",

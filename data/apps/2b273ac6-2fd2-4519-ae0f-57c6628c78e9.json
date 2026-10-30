@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://adderit.es/es/contacto/",
     "sourceHash": "sha256:326107683c67ab31c0712ee2485f8034f3401c5a605e28ff215c9c81294ceb72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:326107683c67ab31c0712ee2485f8034f3401c5a605e28ff215c9c81294ceb72",

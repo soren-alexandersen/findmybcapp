@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-gl-account-analysis",
     "sourceHash": "sha256:5827f0bb8e7a93055e31e150c1d43ce1a4d216de43cfeea276a1bbf2f4ad882b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5827f0bb8e7a93055e31e150c1d43ce1a4d216de43cfeea276a1bbf2f4ad882b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d365zone.com/business-central/amazon-integration",
     "sourceHash": "sha256:90fed2211f7d5cb06168f77b9cd887b79dab59f45c098981d546bda0db4ac129",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:90fed2211f7d5cb06168f77b9cd887b79dab59f45c098981d546bda0db4ac129",

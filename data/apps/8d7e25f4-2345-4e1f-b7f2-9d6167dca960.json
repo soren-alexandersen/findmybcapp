@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/pfu/",
     "sourceHash": "sha256:00cb3616dfd77e8ab793bc8fc3e938d1a85300d56a3cb9db21ed2236329ca21e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:00cb3616dfd77e8ab793bc8fc3e938d1a85300d56a3cb9db21ed2236329ca21e",

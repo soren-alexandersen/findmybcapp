@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://bc.smz-services.fr/smz-multibank-bank-statements-for-business-central/",
     "sourceHash": "sha256:4fe721f32de5f82a81d58da9327e99cff032e91d0f79a8482f46dbf1301733f6",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4fe721f32de5f82a81d58da9327e99cff032e91d0f79a8482f46dbf1301733f6",

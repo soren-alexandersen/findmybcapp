@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.orderbase.de/en/dynamics365-support/",
     "sourceHash": "sha256:90b1a815f5fbf4a09b1f189f40e857dc70fa7d71c46f05e3d639877d8f575099",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:90b1a815f5fbf4a09b1f189f40e857dc70fa7d71c46f05e3d639877d8f575099",

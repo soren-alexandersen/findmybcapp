@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicseshop.com/contact-us/",
     "sourceHash": "sha256:13dd7ad6643040ef6b29c2d94a9243c4754801fe5e59bb231219fc42278788b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:13dd7ad6643040ef6b29c2d94a9243c4754801fe5e59bb231219fc42278788b1",

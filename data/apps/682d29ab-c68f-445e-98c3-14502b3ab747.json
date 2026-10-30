@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/487292933/Xero+Connect",
     "sourceHash": "sha256:fbdd9fb2f8defcb7cb5ad7dbb684d8401794d6666bed01d86f72aaee7ac2b7d4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fbdd9fb2f8defcb7cb5ad7dbb684d8401794d6666bed01d86f72aaee7ac2b7d4",

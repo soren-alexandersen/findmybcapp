@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bcapps.mementoas.com/en-US/apps/FileTransferManager/intro.html",
     "sourceHash": "sha256:01b9dabad558012295c777c4ac6fd67366c00ad67491a99759017d0c86bc2b40",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:01b9dabad558012295c777c4ac6fd67366c00ad67491a99759017d0c86bc2b40",

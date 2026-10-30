@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/sales-commissions.html",
     "sourceHash": "sha256:60a66066785d809c4ff68fb2fdd1d1c4fbb1842c4aafcdc8d48edaf11164ef99",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:60a66066785d809c4ff68fb2fdd1d1c4fbb1842c4aafcdc8d48edaf11164ef99",

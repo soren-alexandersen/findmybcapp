@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ema-budget-allocation-eba.html",
     "sourceHash": "sha256:f19d25374d3a16cef5f87d242500b6ff2fe3b1b801a99154535d4df666a03a32",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f19d25374d3a16cef5f87d242500b6ff2fe3b1b801a99154535d4df666a03a32",

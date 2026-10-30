@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav-x.com/en/business-central/commissions/index.html",
     "sourceHash": "sha256:2ffa3f7017bdfaaa5cd666a032862238d7ceef0d92bb0957e03e4ba67340686a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2ffa3f7017bdfaaa5cd666a032862238d7ceef0d92bb0957e03e4ba67340686a",

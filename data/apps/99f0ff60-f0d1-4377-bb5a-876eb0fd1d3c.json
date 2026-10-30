@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://innoware.ua/",
     "sourceHash": "sha256:f7484cfead15141c2aaa9a83cbb59aeb302f46d6f0b784ee1e0b34bec3fb8f84",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f7484cfead15141c2aaa9a83cbb59aeb302f46d6f0b784ee1e0b34bec3fb8f84",

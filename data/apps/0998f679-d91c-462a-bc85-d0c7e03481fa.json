@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-dynamics-addons/visionoio",
     "sourceHash": "sha256:2a6bbba8b73c99049de88baa446de8493b535e3966cddd9e67ff50ab67ff8b14",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2a6bbba8b73c99049de88baa446de8493b535e3966cddd9e67ff50ab67ff8b14",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-document-capture-ascdc",
     "sourceHash": "sha256:ddd8e6fbcf39b3c002e4f61398a9a0cfa0657e3a83ee9b719aa954e6de06cb34",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ddd8e6fbcf39b3c002e4f61398a9a0cfa0657e3a83ee9b719aa954e6de06cb34",

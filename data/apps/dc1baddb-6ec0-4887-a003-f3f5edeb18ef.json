@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.koerber-supplychain.com/",
     "sourceHash": "sha256:7c7a0755bc7a83ba98d3cffb83c99f1ee2dc827d4e81d6325337d662ab9e05ed",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7c7a0755bc7a83ba98d3cffb83c99f1ee2dc827d4e81d6325337d662ab9e05ed",

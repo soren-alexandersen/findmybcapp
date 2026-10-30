@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d365zone.com/shopify-integration-with-business-central/",
     "sourceHash": "sha256:89ec3c1bf99e4935468c184bd8eda35a54de9326faf4f89328d0bc616732c8ac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:89ec3c1bf99e4935468c184bd8eda35a54de9326faf4f89328d0bc616732c8ac",

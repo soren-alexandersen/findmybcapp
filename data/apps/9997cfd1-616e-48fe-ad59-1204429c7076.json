@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://goldenedi.com/support",
     "sourceHash": "sha256:b6a86db60a9b37619ed36da6ffeeb488fded795cc7d2e3de0fd62de1be5dee91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b6a86db60a9b37619ed36da6ffeeb488fded795cc7d2e3de0fd62de1be5dee91",

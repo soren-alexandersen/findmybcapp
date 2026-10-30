@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.northerndynamic.de/Northern%20Dynamic%20Licensing/",
     "sourceHash": "sha256:6b2598eeb904677ecdf4c07788350aab6dfd4f87bc52d1a55bcdccc6b36a4073",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6b2598eeb904677ecdf4c07788350aab6dfd4f87bc52d1a55bcdccc6b36a4073",

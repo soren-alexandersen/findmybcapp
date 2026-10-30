@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.fellowmindfinland.cloud/e-invoice",
     "sourceHash": "sha256:fcf8f81a88986d962fb34346a3b046d2d25359b98b45629e826ba84d5708a23d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fcf8f81a88986d962fb34346a3b046d2d25359b98b45629e826ba84d5708a23d",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://pipelineweb.z6.web.core.windows.net/SmartAppsDocs/pr/7164/transactability/",
     "sourceHash": "sha256:4fea20863f749b4deeb1aadf7ebbf32d02b30810f371fb9d15d227132c78e026",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4fea20863f749b4deeb1aadf7ebbf32d02b30810f371fb9d15d227132c78e026",

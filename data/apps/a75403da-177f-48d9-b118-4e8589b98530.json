@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-print-solution",
     "sourceHash": "sha256:b4db0d095dbaf86fc110751695bd9130bdea04286c85176ed81929904bc8037a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b4db0d095dbaf86fc110751695bd9130bdea04286c85176ed81929904bc8037a",

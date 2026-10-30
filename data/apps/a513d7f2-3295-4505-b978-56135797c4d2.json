@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fiftytwo.mcoutput.com/poc/da-dk/Content/_LE/le.htm",
     "sourceHash": "sha256:16ee5e8f8ae99725559c20d748d9dc25cee9af4052b4c0d9374a1547139c31fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:16ee5e8f8ae99725559c20d748d9dc25cee9af4052b4c0d9374a1547139c31fc",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.innoviogroup.com/software/app/modula-connector",
     "sourceHash": "sha256:e5e727c1475ca6f9fbb16d5278b47ebc077c7e1ef57fd18cb2446f7017a7b40e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e5e727c1475ca6f9fbb16d5278b47ebc077c7e1ef57fd18cb2446f7017a7b40e",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bifrost.origo.is/en-us/foundation/",
     "sourceHash": "sha256:22ebcabdb747381f9a3258d803a73e167e6f5279dfe65b740573764763289591",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:22ebcabdb747381f9a3258d803a73e167e6f5279dfe65b740573764763289591",

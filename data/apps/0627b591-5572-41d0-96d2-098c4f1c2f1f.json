@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
     "sourceHash": "sha256:5fe3acec80a7f36f6fba473643ea861861116882e068448f12f69606415771e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5fe3acec80a7f36f6fba473643ea861861116882e068448f12f69606415771e9",

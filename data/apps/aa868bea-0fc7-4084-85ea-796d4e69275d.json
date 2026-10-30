@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lspay.lsretail.com/",
     "sourceHash": "sha256:17e44cd434aa0e45152cc05d6568bd840c47426d98730e9775b8fd83149ab5fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:17e44cd434aa0e45152cc05d6568bd840c47426d98730e9775b8fd83149ab5fd",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/advanced-discounts/",
     "sourceHash": "sha256:5c5186fc9bb6f25c89fa133b01e09de09a8a4a63213872dadd79545f0fb02b08",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5c5186fc9bb6f25c89fa133b01e09de09a8a4a63213872dadd79545f0fb02b08",

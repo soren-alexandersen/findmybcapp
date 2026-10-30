@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ntmp-docs.ha-consultancy.com/",
     "sourceHash": "sha256:46822ef1c99bc34e1074575aa71878f273fdf90de8c54980c4d41015d693b805",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:46822ef1c99bc34e1074575aa71878f273fdf90de8c54980c4d41015d693b805",

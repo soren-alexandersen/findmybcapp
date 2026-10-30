@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.tempras.com/tempvisionpeopleconnect",
     "sourceHash": "sha256:c0288e6fa308184c7d1c7d5f8b302dffc66b1d00df678970bca4f86096030385",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c0288e6fa308184c7d1c7d5f8b302dffc66b1d00df678970bca4f86096030385",

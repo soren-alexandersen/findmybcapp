@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.katson.com/centralq-chat/",
     "sourceHash": "sha256:be161b805d5ef30c577e4277cc813874cd1d7d66510b665b4ead942d8854b40d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:be161b805d5ef30c577e4277cc813874cd1d7d66510b665b4ead942d8854b40d",

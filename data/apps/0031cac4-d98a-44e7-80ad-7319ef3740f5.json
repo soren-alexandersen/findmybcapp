@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/warehouse-mobile/#userguide",
     "sourceHash": "sha256:5f6819702c9a6b5390aff875c83cf7b03eeb7981071cc36e0638d03275f578b2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5f6819702c9a6b5390aff875c83cf7b03eeb7981071cc36e0638d03275f578b2",

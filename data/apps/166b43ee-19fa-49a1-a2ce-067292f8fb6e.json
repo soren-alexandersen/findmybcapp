@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.fellowmindfinland.cloud/ecship",
     "sourceHash": "sha256:a4ef07f9ee449f4781cafd7ac889ddab619ed89b59c30929eeb4b3677bd766a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a4ef07f9ee449f4781cafd7ac889ddab619ed89b59c30929eeb4b3677bd766a8",

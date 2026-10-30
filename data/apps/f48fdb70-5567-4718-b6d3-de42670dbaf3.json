@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bemea.com/dynamics-365-hr-software-uae-business-central/",
     "sourceHash": "sha256:a491484634c000c592610f6178a8705a67dbb42ef3bf5cfb2e93e4f576c85961",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a491484634c000c592610f6178a8705a67dbb42ef3bf5cfb2e93e4f576c85961",

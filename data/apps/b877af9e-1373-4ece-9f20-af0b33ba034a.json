@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://jemel.lv/docs/job-queue-admin",
     "sourceHash": "sha256:5ee4ecec015fb19c76d0a19bb66e8864d7d1dcd7db1252de64f54d608acba490",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ee4ecec015fb19c76d0a19bb66e8864d7d1dcd7db1252de64f54d608acba490",

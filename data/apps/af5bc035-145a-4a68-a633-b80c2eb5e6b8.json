@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d4bsolutions.com/ficha-de-producto/Costes-subcontratacion/",
     "sourceHash": "sha256:f39ebc3c866b13963f58012071200ce37c57d86cbdfecc02398cf055972b8c0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f39ebc3c866b13963f58012071200ce37c57d86cbdfecc02398cf055972b8c0f",

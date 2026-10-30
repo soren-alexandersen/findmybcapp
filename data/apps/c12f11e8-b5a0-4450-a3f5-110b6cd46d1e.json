@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/srb",
     "sourceHash": "sha256:92b64fa29a9e10c36f4f7e3bf6678d44d0df6e958738eb84087b033de43e9474",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:92b64fa29a9e10c36f4f7e3bf6678d44d0df6e958738eb84087b033de43e9474",

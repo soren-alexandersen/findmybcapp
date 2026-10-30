@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.365bc.jp/extension/japanese-language-kit/",
     "sourceHash": "sha256:fbfb62eff2050c817dc8d725ccb7c7c1cfe532bb657be8f33485d873f7547ee4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fbfb62eff2050c817dc8d725ccb7c7c1cfe532bb657be8f33485d873f7547ee4",

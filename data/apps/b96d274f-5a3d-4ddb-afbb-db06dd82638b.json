@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.formula.fo/contact/",
     "sourceHash": "sha256:f1d5c906be0017e2ecb4df145b7bb09c012f39d713c51d20e222eb4c30c74b15",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1d5c906be0017e2ecb4df145b7bb09c012f39d713c51d20e222eb4c30c74b15",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/price-by-weight/docs/",
     "sourceHash": "sha256:2240aecbdbabc2adc7fb0bf012e2c43885e41b60c7cf659daa5d5bffec10c883",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2240aecbdbabc2adc7fb0bf012e2c43885e41b60c7cf659daa5d5bffec10c883",

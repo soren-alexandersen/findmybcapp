@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.documenthandling.apportunix.com/",
     "sourceHash": "sha256:c926db5c8797c82cc4f55eb874603248a812d871e43bc82400dc2573dce9b5d6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c926db5c8797c82cc4f55eb874603248a812d871e43bc82400dc2573dce9b5d6",

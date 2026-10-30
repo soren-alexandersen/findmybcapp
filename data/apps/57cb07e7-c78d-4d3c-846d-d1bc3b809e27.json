@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/privacy/",
     "sourceHash": "sha256:ad8d1eab7669c88fcbae58986dfae8c70ca3517b5b6f8422507f9dddff9a8a49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ad8d1eab7669c88fcbae58986dfae8c70ca3517b5b6f8422507f9dddff9a8a49",

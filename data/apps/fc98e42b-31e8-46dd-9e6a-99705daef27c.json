@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/flexible-forecast/#howto",
     "sourceHash": "sha256:38e8eeb6de87aacb6210e118798ae83a5444795e8b01ae933e9edca87f3a3627",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:38e8eeb6de87aacb6210e118798ae83a5444795e8b01ae933e9edca87f3a3627",

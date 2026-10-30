@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eqgroup.nl/help-en-support",
     "sourceHash": "sha256:361ead3dc795cbf7ba251b17a1ab72d9405e7d1d36bd375adf9dba98e12645cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:361ead3dc795cbf7ba251b17a1ab72d9405e7d1d36bd375adf9dba98e12645cc",

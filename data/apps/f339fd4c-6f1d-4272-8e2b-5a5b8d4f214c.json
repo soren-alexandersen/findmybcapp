@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/application-agent",
     "sourceHash": "sha256:59ba26234784c99b5a96bed49c37178b74c3adf936fbb338acea51422c31c70c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:59ba26234784c99b5a96bed49c37178b74c3adf936fbb338acea51422c31c70c",

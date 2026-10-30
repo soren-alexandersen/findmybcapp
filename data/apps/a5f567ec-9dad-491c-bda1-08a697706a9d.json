@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/licensing-subscription-mgt-business-central/",
     "sourceHash": "sha256:11f61a4778f93c72d901c06688ea909286901c8d8bbf6cc25ee2b98bfbca3212",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:11f61a4778f93c72d901c06688ea909286901c8d8bbf6cc25ee2b98bfbca3212",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.centralpath.com/contact-us/",
     "sourceHash": "sha256:cf4bb1716e6135515ef8379d09a25410b4abcec660aa5abefed086ae93b62647",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cf4bb1716e6135515ef8379d09a25410b4abcec660aa5abefed086ae93b62647",

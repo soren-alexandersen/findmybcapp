@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486965249/Vendor+Bank+Account+Approval",
     "sourceHash": "sha256:07c12dbbb57251943c76e31dd987beba16264b0687519eba44f884d4f173ec19",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:07c12dbbb57251943c76e31dd987beba16264b0687519eba44f884d4f173ec19",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infood.dk/",
     "sourceHash": "sha256:49573a90b2444d726c379e425935328ed7e527da98b241b7ea20e36c80267c29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:49573a90b2444d726c379e425935328ed7e527da98b241b7ea20e36c80267c29",

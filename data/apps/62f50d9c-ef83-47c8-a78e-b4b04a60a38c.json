@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/origins-for-constructions",
     "sourceHash": "sha256:5b98900b599a3e891b929850dc2dfb5625d9c9f6533aa686521c3b7a6b430203",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5b98900b599a3e891b929850dc2dfb5625d9c9f6533aa686521c3b7a6b430203",

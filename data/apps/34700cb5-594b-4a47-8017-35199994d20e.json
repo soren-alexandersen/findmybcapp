@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/app-e-ledger/",
     "sourceHash": "sha256:9fe4f0f213bed5d797cc7b1fa387cfb914a9a4975bcbf40d64a837845f80a3ee",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9fe4f0f213bed5d797cc7b1fa387cfb914a9a4975bcbf40d64a837845f80a3ee",

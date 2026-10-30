@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Quick-Links",
     "sourceHash": "sha256:b031337acfde86af87b71050969bc954297b14763f663b57aac72691e6bfcbcf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b031337acfde86af87b71050969bc954297b14763f663b57aac72691e6bfcbcf",

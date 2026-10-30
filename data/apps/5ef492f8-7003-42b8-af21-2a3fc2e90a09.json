@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/responsibility-center-number-series",
     "sourceHash": "sha256:785639c50e6892876b65a11cdcc1649d603ea6a005798b578309054aa79b0d91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:785639c50e6892876b65a11cdcc1649d603ea6a005798b578309054aa79b0d91",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/commissions-management",
     "sourceHash": "sha256:ed9475458b93f80c48575fb635d30527344783cbfbe6eba978b348b39fdcad8e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ed9475458b93f80c48575fb635d30527344783cbfbe6eba978b348b39fdcad8e",

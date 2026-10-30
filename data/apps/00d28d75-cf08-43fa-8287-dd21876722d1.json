@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://amjs-consulting.com/solutions/vendor-bank",
     "sourceHash": "sha256:28c3189f3702a427ce9afe726f267aa7c39a26b3aaa4a0b57192ec6a5456d38f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:28c3189f3702a427ce9afe726f267aa7c39a26b3aaa4a0b57192ec6a5456d38f",

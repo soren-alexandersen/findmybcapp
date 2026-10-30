@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/intercompany/",
     "sourceHash": "sha256:5a6ab254a0937e7c2b963bd5a0c9ada503ef4ff1e458e4d73b83dc3839c32d49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5a6ab254a0937e7c2b963bd5a0c9ada503ef4ff1e458e4d73b83dc3839c32d49",

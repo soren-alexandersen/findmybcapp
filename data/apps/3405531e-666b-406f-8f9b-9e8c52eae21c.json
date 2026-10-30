@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://macali.crunch.help/da/sproom-oioubl-business-central",
     "sourceHash": "sha256:611c1f8885c7efc7a6fabd1ffd207468df088fe5b06f959b699f853e25f9cf58",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:611c1f8885c7efc7a6fabd1ffd207468df088fe5b06f959b699f853e25f9cf58",

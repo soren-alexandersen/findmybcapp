@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/app-support/",
     "sourceHash": "sha256:08baf4f26082b9053dea137a5a390fc567cbd1470c772614a692e61bb211d6e0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:08baf4f26082b9053dea137a5a390fc567cbd1470c772614a692e61bb211d6e0",

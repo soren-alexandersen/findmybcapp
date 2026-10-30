@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.d365.global/Tutorials/D365Guides/D365BusinessCentral/BusinessCentralApps/UtilitiesBilling",
     "sourceHash": "sha256:0202e8d7a3001f7ed10093f50d53bd79eab36beb68c5431456c991fd459a79bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0202e8d7a3001f7ed10093f50d53bd79eab36beb68c5431456c991fd459a79bd",

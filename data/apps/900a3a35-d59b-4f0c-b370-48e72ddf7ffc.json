@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/dual-unit-of-measure.html",
     "sourceHash": "sha256:426480f4ed46948a72ded83d3a3926b7610028e38015ad7826e1e67c1d13b34b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:426480f4ed46948a72ded83d3a3926b7610028e38015ad7826e1e67c1d13b34b",

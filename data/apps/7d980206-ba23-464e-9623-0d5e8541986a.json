@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.arbentia.com/recursos/?_solucion=arbentia-project-management",
     "sourceHash": "sha256:1877b459b910d5d4034570c7e1f433afc260fea29003167fdabef393bc5bc04b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1877b459b910d5d4034570c7e1f433afc260fea29003167fdabef393bc5bc04b",

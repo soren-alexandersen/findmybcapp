@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/shop-floor/",
     "sourceHash": "sha256:4021a68460889cbdcc4e7eb6e8999966101a74dd2a34862dd159e32108fe4772",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4021a68460889cbdcc4e7eb6e8999966101a74dd2a34862dd159e32108fe4772",

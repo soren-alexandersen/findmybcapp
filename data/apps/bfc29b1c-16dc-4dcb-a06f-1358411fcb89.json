@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apcommerce.com/business-central-add-ons/qc-management/",
     "sourceHash": "sha256:7372f86bac454f1c4bfc252cca1f029f643f431f453474abb6d2af10383a6e84",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7372f86bac454f1c4bfc252cca1f029f643f431f453474abb6d2af10383a6e84",

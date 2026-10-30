@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.artex-is.cz/cz/docs/a/ae129",
     "sourceHash": "sha256:e27459d8f7bc20195677ab38d1e0cae0ceb7f98984c06ee9b62ca57090dc8b50",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e27459d8f7bc20195677ab38d1e0cae0ceb7f98984c06ee9b62ca57090dc8b50",

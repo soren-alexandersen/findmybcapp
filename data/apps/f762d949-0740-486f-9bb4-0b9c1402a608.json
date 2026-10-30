@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/scheduling-of-mrp/",
     "sourceHash": "sha256:c012ce362835f0700f3ae3c634c42d4477457d9be510e923ee45e11070dcfa6a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c012ce362835f0700f3ae3c634c42d4477457d9be510e923ee45e11070dcfa6a",

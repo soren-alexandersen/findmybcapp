@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/riskmanagement/",
     "sourceHash": "sha256:b4e601de4f75e97f3580981195415c91606b35b0a3253713e5c7d50cecf27bdd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b4e601de4f75e97f3580981195415c91606b35b0a3253713e5c7d50cecf27bdd",

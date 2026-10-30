@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/quick-sending-manager/",
     "sourceHash": "sha256:ad61a9dabd8b287a657712b25ac81305dc500c164c33c6fb2c8b174314c89c2a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ad61a9dabd8b287a657712b25ac81305dc500c164c33c6fb2c8b174314c89c2a",

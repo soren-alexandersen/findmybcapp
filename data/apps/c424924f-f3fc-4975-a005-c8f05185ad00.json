@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/dynasoft-integration-for-embatio",
     "sourceHash": "sha256:fd5cdefde5f6b162ee08fcee94b17ee526a056bc844d9938adc82ef4314ed347",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fd5cdefde5f6b162ee08fcee94b17ee526a056bc844d9938adc82ef4314ed347",

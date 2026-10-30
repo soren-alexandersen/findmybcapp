@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-standard-cost-worksheet/docs",
     "sourceHash": "sha256:e1b033641aa84aac3ac75735707bb9fa7027a11ba3d72797e8b062263825d6b2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e1b033641aa84aac3ac75735707bb9fa7027a11ba3d72797e8b062263825d6b2",

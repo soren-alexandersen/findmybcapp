@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.chasesoftware.biz/business-central-stripe-integration",
     "sourceHash": "sha256:5e391b30dc6f104c0a672fcf498ea3fc87f29990cb2df2b656a6e559bf2795de",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5e391b30dc6f104c0a672fcf498ea3fc87f29990cb2df2b656a6e559bf2795de",

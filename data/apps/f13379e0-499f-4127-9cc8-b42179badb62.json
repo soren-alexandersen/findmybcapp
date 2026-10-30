@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
     "sourceHash": "sha256:17c70d1de0d71e9d440eb88a26849a8af8674ed0b0767dd7f75c7c3181888a73",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:17c70d1de0d71e9d440eb88a26849a8af8674ed0b0767dd7f75c7c3181888a73",

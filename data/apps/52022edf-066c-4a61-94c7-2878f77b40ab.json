@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.notion.so/Order-Connect-User-Guide-28db6f70216f81dfb1b0c862bf0125d6?source=copy_link",
     "sourceHash": "sha256:f36fdb815df19368317e420701b7164a5c1d299797140ebf9727e742a21f8ef1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f36fdb815df19368317e420701b7164a5c1d299797140ebf9727e742a21f8ef1",

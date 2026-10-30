@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/en/apps/visiondocumentdispatch",
     "sourceHash": "sha256:9169a09c4bb8c48a81ddda96e68d36c898f74e0e15f766e4648b6f5a5af28da4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9169a09c4bb8c48a81ddda96e68d36c898f74e0e15f766e4648b6f5a5af28da4",

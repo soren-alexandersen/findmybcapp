@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://redink.redandbundle.com/docs/introduction",
     "sourceHash": "sha256:184bf69cc64bb4bf2e950bb0b3d284b10e48a7c1be2999d23eebecb8a18c8d31",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:184bf69cc64bb4bf2e950bb0b3d284b10e48a7c1be2999d23eebecb8a18c8d31",

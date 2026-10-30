@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://dokumentace.navitec.cz/GPL",
     "sourceHash": "sha256:bcd5b053a98dc50ea374bcc3397cd1687a04dd65f5514b6be36d7f7515c60ba7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bcd5b053a98dc50ea374bcc3397cd1687a04dd65f5514b6be36d7f7515c60ba7",

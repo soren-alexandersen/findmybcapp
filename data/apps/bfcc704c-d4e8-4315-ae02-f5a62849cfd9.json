@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.connamix.com/docs/de-de/index.html",
     "sourceHash": "sha256:adcbf1f557ca2205db3df023886a7ba3787ccc681974c9a3361989b11d04c6b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:adcbf1f557ca2205db3df023886a7ba3787ccc681974c9a3361989b11d04c6b1",

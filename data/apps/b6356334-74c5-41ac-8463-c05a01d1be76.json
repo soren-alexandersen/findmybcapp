@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/df-connector/",
     "sourceHash": "sha256:d5f3c8ac9c0a8581426bc751c491ec713f736d14494661627995e7bc352a4c81",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d5f3c8ac9c0a8581426bc751c491ec713f736d14494661627995e7bc352a4c81",

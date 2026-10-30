@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scanwms/index.html",
     "sourceHash": "sha256:023be681ca944385e98e7514927c829c3a3f0ea02039aa6cb5281d75740f881d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:023be681ca944385e98e7514927c829c3a3f0ea02039aa6cb5281d75740f881d",

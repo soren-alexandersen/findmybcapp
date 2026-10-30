@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://extentions.soak.dk/soak-connector-business-central-documentation/",
     "sourceHash": "sha256:f8782476ef02a91c44d97db05fa9da6fa0dec9578ab80f57b3cd422241a81dfc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f8782476ef02a91c44d97db05fa9da6fa0dec9578ab80f57b3cd422241a81dfc",

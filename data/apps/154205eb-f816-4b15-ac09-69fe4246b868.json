@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/drag-drop/",
     "sourceHash": "sha256:b034524ad2a87b96e7ae40ecc6f1a79563734af8d594275b5ba3e67ebed84b66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b034524ad2a87b96e7ae40ecc6f1a79563734af8d594275b5ba3e67ebed84b66",

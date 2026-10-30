@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-planning/docs",
     "sourceHash": "sha256:642207e698290d58709638e81f12491d6e0aa99043533b05dc880db36da44933",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:642207e698290d58709638e81f12491d6e0aa99043533b05dc880db36da44933",

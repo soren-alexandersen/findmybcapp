@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/article-categories/smb/",
     "sourceHash": "sha256:c984f691f0e33e430b0cb4fe11421f7032a1a93972c0c28f95c04047ffec21ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c984f691f0e33e430b0cb4fe11421f7032a1a93972c0c28f95c04047ffec21ab",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.de/",
     "sourceHash": "sha256:971f0831b95b31adf11b75490f8ef5a8f1b60e7873d0fdfef614bd04c2671907",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:971f0831b95b31adf11b75490f8ef5a8f1b60e7873d0fdfef614bd04c2671907",

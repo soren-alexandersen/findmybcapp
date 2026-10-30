@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/job-queue-monitor",
     "sourceHash": "sha256:dafbd6bf5deed5d50ff3afb686fb6bcea65ea923b5bfc7e07bfe9d92ee842685",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dafbd6bf5deed5d50ff3afb686fb6bcea65ea923b5bfc7e07bfe9d92ee842685",

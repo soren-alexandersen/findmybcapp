@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsops.com/solutions/bc-assist",
     "sourceHash": "sha256:8e2016981034acf50c64351ca7e3cfd0aa40eac85c475b4620a9afe77c9a8428",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8e2016981034acf50c64351ca7e3cfd0aa40eac85c475b4620a9afe77c9a8428",

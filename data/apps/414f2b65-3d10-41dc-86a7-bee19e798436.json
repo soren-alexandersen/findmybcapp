@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/surcharge_automation",
     "sourceHash": "sha256:1bbdc53c33b4db0cf50d44470cdd8e345ea64219e7e1aff52e4e3113fa0239c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1bbdc53c33b4db0cf50d44470cdd8e345ea64219e7e1aff52e4e3113fa0239c4",

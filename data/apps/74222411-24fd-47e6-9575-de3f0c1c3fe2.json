@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-sales-payonsalesorder/index.html",
     "sourceHash": "sha256:15decd2b15847c9d8ac643821a3c69e48eead51ac02ee7a3c3052d42f37e1aa2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:15decd2b15847c9d8ac643821a3c69e48eead51ac02ee7a3c3052d42f37e1aa2",

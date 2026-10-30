@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/fdc",
     "sourceHash": "sha256:a9218632b97152b88d450eb44d94c24f22ceeb5209ab672b130a651013964ef9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a9218632b97152b88d450eb44d94c24f22ceeb5209ab672b130a651013964ef9",

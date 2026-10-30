@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Local%20FS/Index/",
     "sourceHash": "sha256:a6fedb1c8273f38b16b8fdd1403119a22aee5ebd05cd7e8fabbf6e7e4af250e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a6fedb1c8273f38b16b8fdd1403119a22aee5ebd05cd7e8fabbf6e7e4af250e8",

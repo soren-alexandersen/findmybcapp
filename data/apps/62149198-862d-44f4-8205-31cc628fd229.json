@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tvisiontech.co.uk/tvision-bevica-apps/",
     "sourceHash": "sha256:79ddbd4cd56a3af60c1f4a56f306a2bc231d60d4fc600255ba0d05aa02917119",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:79ddbd4cd56a3af60c1f4a56f306a2bc231d60d4fc600255ba0d05aa02917119",

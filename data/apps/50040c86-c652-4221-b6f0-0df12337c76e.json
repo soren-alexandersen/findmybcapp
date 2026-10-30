@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://basecloud.se/",
     "sourceHash": "sha256:4b86a7445316887d6187ed942c3c1a9795eae9d529952b4ed3e031ca92d237c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4b86a7445316887d6187ed942c3c1a9795eae9d529952b4ed3e031ca92d237c2",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ictla.helpdocsonline.com/home",
     "sourceHash": "sha256:7dc870014b7a50d5913c6b6a9ae089879f0454d433646ad07c0d28cf9804223b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7dc870014b7a50d5913c6b6a9ae089879f0454d433646ad07c0d28cf9804223b",

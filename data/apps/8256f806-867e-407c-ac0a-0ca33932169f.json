@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynetek.co.za/how-to-install-a-business-central-extension/",
     "sourceHash": "sha256:50b4e1fa0932b24eff67e8aca2e0243c212ed3b0a5b61fddc7f13ab881303bfa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:50b4e1fa0932b24eff67e8aca2e0243c212ed3b0a5b61fddc7f13ab881303bfa",

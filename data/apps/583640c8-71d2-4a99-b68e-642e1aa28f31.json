@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/Scanning-for-BC/",
     "sourceHash": "sha256:9bfd21349ba0ae695494b2be705e038ee5860c55548857726e0788e67f37dc6a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9bfd21349ba0ae695494b2be705e038ee5860c55548857726e0788e67f37dc6a",

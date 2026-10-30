@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2026/01/Blue-Translation-Manual.pdf",
     "sourceHash": "sha256:f9121037137bcadee624a18acf1f9e47221dfaf5b37327f0cad9a7c1f767ed42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f9121037137bcadee624a18acf1f9e47221dfaf5b37327f0cad9a7c1f767ed42",

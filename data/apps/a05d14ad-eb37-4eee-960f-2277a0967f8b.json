@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.traser-software.de/en-US/aptean-equipment-mobile-service",
     "sourceHash": "sha256:13c65ddd49a3b4bf5e038764e99a88899af46187a84c6c9d767617c727588c35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:13c65ddd49a3b4bf5e038764e99a88899af46187a84c6c9d767617c727588c35",

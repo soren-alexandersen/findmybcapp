@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.xenatusglobal.com/marine-service-providers",
     "sourceHash": "sha256:7252aea4b3bf8088710e239be40ebaa5d64dea9905979baacfb7fa07ed2712ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7252aea4b3bf8088710e239be40ebaa5d64dea9905979baacfb7fa07ed2712ec",

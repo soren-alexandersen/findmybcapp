@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.banqsoft.com/products-and-services/asset-finance/foqus-finance",
     "sourceHash": "sha256:7720b26f221624a9ca252c8048c91740aa78b84c80f9e0dca83a55ccc52914be",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7720b26f221624a9ca252c8048c91740aa78b84c80f9e0dca83a55ccc52914be",

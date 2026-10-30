@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynaexperts.com/real-time-jobqueue-failure-alerts-for-business-central/",
     "sourceHash": "sha256:dad5897f8264ca5990591596ca537991197b35255a47edea14fc326273414fe7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dad5897f8264ca5990591596ca537991197b35255a47edea14fc326273414fe7",

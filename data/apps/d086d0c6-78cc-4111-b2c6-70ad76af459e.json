@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://portal.equerra.com/isv/docs/elevate-apparel",
     "sourceHash": "sha256:42cac288a565be425aadc99ec3d77629a4167112500317c1c28904c94f6a435a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:42cac288a565be425aadc99ec3d77629a4167112500317c1c28904c94f6a435a",

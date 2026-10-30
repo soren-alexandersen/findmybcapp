@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://heijkoopwebservice.nl/business-central/",
     "sourceHash": "sha256:da1c7549099b647901d6226163ba50fdf02f2c57e7cf01b40a522f52378b5ae8",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:da1c7549099b647901d6226163ba50fdf02f2c57e7cf01b40a522f52378b5ae8",

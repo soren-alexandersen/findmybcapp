@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/dmscdcsp/en/",
     "sourceHash": "sha256:074c52e5aa4f82678c49511a9692902fb797944640483d376c608e018dc05c9c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:074c52e5aa4f82678c49511a9692902fb797944640483d376c608e018dc05c9c",

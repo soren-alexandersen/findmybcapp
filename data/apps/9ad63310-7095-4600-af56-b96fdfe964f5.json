@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://truvio.com/contact",
     "sourceHash": "sha256:3f6d48b3cc41c0557874d5adf9ac0646ce7799387dfeb0b0fa3b997c350061f0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3f6d48b3cc41c0557874d5adf9ac0646ce7799387dfeb0b0fa3b997c350061f0",

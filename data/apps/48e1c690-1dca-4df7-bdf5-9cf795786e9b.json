@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps",
     "sourceHash": "sha256:7be6c3366b2d3a7d73274e131ed844206e27c5fa8df5b20e43b1f87fe796373f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7be6c3366b2d3a7d73274e131ed844206e27c5fa8df5b20e43b1f87fe796373f",

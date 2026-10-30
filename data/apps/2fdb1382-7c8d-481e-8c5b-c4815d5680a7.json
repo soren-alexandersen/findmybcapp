@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://metadataehf.github.io/Georg/Help/georg-main-help.html",
     "sourceHash": "sha256:a793b7c9d2c7bfac4d10e25bfd1a2da3e28b9b8529434f749a4add40b02f138d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a793b7c9d2c7bfac4d10e25bfd1a2da3e28b9b8529434f749a4add40b02f138d",

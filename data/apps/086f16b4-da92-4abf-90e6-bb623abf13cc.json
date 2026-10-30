@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.digmatix.com/en/products/alna-hr-office",
     "sourceHash": "sha256:ff5ce1b5b3590f83c3771fc0a4464f582c7cda8a434337337f22d55ad7ad5d35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ff5ce1b5b3590f83c3771fc0a4464f582c7cda8a434337337f22d55ad7ad5d35",

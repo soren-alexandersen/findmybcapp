@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/EXM/",
     "sourceHash": "sha256:6bfc08d30713327ec400b7b5ddceed2a7db205fb6b97e0b202710d0824a4973f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6bfc08d30713327ec400b7b5ddceed2a7db205fb6b97e0b202710d0824a4973f",

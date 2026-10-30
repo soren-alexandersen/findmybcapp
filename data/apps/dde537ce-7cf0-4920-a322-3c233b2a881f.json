@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsapplab.com/apps/al-update-posted-documents/help",
     "sourceHash": "sha256:cd60b2a8cfe1ea0d422141df23978e0394793e629b40ddb9484415bd11f6a4bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cd60b2a8cfe1ea0d422141df23978e0394793e629b40ddb9484415bd11f6a4bd",

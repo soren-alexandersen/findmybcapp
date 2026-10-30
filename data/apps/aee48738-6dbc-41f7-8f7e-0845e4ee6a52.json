@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.softera.lt/en/help-softera-extended-localization/",
     "sourceHash": "sha256:b989baa364e2a0020a1c3f3e150cb8779aad22e1aed1274903d59ce6d138dfc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b989baa364e2a0020a1c3f3e150cb8779aad22e1aed1274903d59ce6d138dfc4",

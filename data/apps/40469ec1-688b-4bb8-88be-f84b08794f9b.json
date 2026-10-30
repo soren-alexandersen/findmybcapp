@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/apps/notification-management/",
     "sourceHash": "sha256:fd7466589b8fdad22a73852ad3ed6fb44578c25f84f32a80519f45552e8a8e03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fd7466589b8fdad22a73852ad3ed6fb44578c25f84f32a80519f45552e8a8e03",

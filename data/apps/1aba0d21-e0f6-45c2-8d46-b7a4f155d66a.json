@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/StefanMaron/BusinessCentral.Sentinel/issues",
     "sourceHash": "sha256:f155dd61e3cb47680d727cbf7541af92b9bfb7a723b6650a8b34a0d4acb99b10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f155dd61e3cb47680d727cbf7541af92b9bfb7a723b6650a8b34a0d4acb99b10",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-quality-control",
     "sourceHash": "sha256:d257db03e166a7114b82a62ad00d900ca39b537c138af081a529d890127088b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d257db03e166a7114b82a62ad00d900ca39b537c138af081a529d890127088b1",

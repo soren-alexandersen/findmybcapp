@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d4bsolutions.com/ficha-de-producto/enviosalmacen/",
     "sourceHash": "sha256:20f48183cd5069d7000e5ef0bb9c55bd0b9ec43875cc9bfc55762f26d42fd7f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:20f48183cd5069d7000e5ef0bb9c55bd0b9ec43875cc9bfc55762f26d42fd7f1",

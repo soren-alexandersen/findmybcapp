@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.consulo.hu/contact-us/",
     "sourceHash": "sha256:597a790aab07df67992acf1aab2c62f5cf5c129473f96ec23f57fdbc47e02e2e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:597a790aab07df67992acf1aab2c62f5cf5c129473f96ec23f57fdbc47e02e2e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.kala.dk/Videos",
     "sourceHash": "sha256:7a5f3b89fd265ad6b53ba5c2d14a9d5b00289ef7a4ed10609d29f348b783068a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7a5f3b89fd265ad6b53ba5c2d14a9d5b00289ef7a4ed10609d29f348b783068a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://hivecpq.com/en/integrations/cpq-for-dynamics-business-central",
     "sourceHash": "sha256:542d16e90b238bce4bde9477dfb5a210f5719b34804b6908b03f6f2bc7b0f14e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:542d16e90b238bce4bde9477dfb5a210f5719b34804b6908b03f6f2bc7b0f14e",

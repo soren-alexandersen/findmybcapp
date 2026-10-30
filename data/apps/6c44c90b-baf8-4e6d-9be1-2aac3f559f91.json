@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/eboks/",
     "sourceHash": "sha256:e40bc353b9ed596cc65a2ff5f4f67d9835bc8b80fecbd52ad3750dfbf74a813e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e40bc353b9ed596cc65a2ff5f4f67d9835bc8b80fecbd52ad3750dfbf74a813e",

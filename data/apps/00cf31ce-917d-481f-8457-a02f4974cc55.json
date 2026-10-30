@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ebt-me.com/wp-content/uploads/2026/05/EBT-Hand-Held-Terminal-for-Business-Central-Warehouse-Mgmt-Manual.pdf",
     "sourceHash": "sha256:b034aa4a9ea71506e78f3cca8d5d2e84d9461b803d1961b1d20cf9e5263cb3d7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b034aa4a9ea71506e78f3cca8d5d2e84d9461b803d1961b1d20cf9e5263cb3d7",

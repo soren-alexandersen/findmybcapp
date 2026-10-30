@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://imkitchen.help.im-projects.com/",
     "sourceHash": "sha256:50771d5e076c534ebdb434cf6fa668f0f8a27f1715c281d929f21d39911dc6d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:50771d5e076c534ebdb434cf6fa668f0f8a27f1715c281d929f21d39911dc6d8",

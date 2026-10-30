@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/local-services/",
     "sourceHash": "sha256:4fd2b4be357994284c601f4fa81ef4abfd000b1855fa31827b685e82408f28c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4fd2b4be357994284c601f4fa81ef4abfd000b1855fa31827b685e82408f28c4",

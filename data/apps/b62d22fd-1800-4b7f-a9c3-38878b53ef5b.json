@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/softera-es%C4%85skaita-funkcionalumo-ap%C5%BEvalga",
     "sourceHash": "sha256:a6f061680de8d17f55c7e4bfe2b1749b0e5dfbabb7a6702fc156e56004be3b07",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6f061680de8d17f55c7e4bfe2b1749b0e5dfbabb7a6702fc156e56004be3b07",

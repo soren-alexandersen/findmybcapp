@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.rsbt.de/wp-content/uploads/onlinehelp/fastbackground/en-EN/index.html",
     "sourceHash": "sha256:a1a66ae1dafa38352670517834e063d61fcfb0caabcc2343d3c87ab119c09c69",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a1a66ae1dafa38352670517834e063d61fcfb0caabcc2343d3c87ab119c09c69",

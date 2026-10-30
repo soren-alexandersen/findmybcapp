@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-for-core-fixed-assets/",
     "sourceHash": "sha256:77ffa34b3f54d4910861828221839b6c803e7e7f442171d35fad77b96e440888",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:77ffa34b3f54d4910861828221839b6c803e7e7f442171d35fad77b96e440888",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://go.jetreports.com/JetDocsSite",
     "sourceHash": "sha256:1dc6aaa5ba9b0eeb669bf092dcd0a9f9ab4d12c91aded8a862a79f83d97f5c33",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1dc6aaa5ba9b0eeb669bf092dcd0a9f9ab4d12c91aded8a862a79f83d97f5c33",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Diller%20Integration%20for%20LS%20Central.htm?Highlight=diller",
     "sourceHash": "sha256:3bd251b85bab90a7b872498cbeef33e5eb6da7b6b2fd0c46f37eea1cf80cef3e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3bd251b85bab90a7b872498cbeef33e5eb6da7b6b2fd0c46f37eea1cf80cef3e",

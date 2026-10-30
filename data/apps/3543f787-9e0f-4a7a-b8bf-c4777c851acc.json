@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsapplab.com/apps/al-vat-control/help",
     "sourceHash": "sha256:41391495ae08a42d5cfc9f234767a88698c517a1933d61724ad33dfc71466bef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:41391495ae08a42d5cfc9f234767a88698c517a1933d61724ad33dfc71466bef",

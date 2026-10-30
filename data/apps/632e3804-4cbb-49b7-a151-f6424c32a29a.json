@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/AM/pages/24707349",
     "sourceHash": "sha256:6049b06ab655790b693f8ecbd8818a3bb6c943a17497abfb69b67d19729c6e24",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6049b06ab655790b693f8ecbd8818a3bb6c943a17497abfb69b67d19729c6e24",

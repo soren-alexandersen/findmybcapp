@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_Ukrainian_Localization_Foundation_UserDocumentation.pdf",
     "sourceHash": "sha256:e3688dba9194a6edb70e39032cf558c1a6399025218e7f730e3d0d2cef735cdb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e3688dba9194a6edb70e39032cf558c1a6399025218e7f730e3d0d2cef735cdb",

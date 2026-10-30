@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Advanced-Queues/",
     "sourceHash": "sha256:8b94f0afebacaf869a3d200d61d27f995c5816587dddf7f1755e2b430fd80229",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8b94f0afebacaf869a3d200d61d27f995c5816587dddf7f1755e2b430fd80229",

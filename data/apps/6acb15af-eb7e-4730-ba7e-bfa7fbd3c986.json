@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://key-stone.fr/vigia-presentation-en",
     "sourceHash": "sha256:4fa22670fcf46ec1c1c143ec057b9b7a7f28a0a013c374901a8e7a9b0e8fd40a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4fa22670fcf46ec1c1c143ec057b9b7a7f28a0a013c374901a8e7a9b0e8fd40a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.oixio.eu/units/units_index.en/",
     "sourceHash": "sha256:9f60b73d2de0b3f939e9e2e296df8392c6df994771f97d269f227f3b609f15e5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9f60b73d2de0b3f939e9e2e296df8392c6df994771f97d269f227f3b609f15e5",

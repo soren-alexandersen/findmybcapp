@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/ui-specify-printer-selection-reports#set-up-email-print",
     "sourceHash": "sha256:037c99bac7e794b0fe596bcba2e4f7ce37a15f92890c77f433c0e0ebdf967e89",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:037c99bac7e794b0fe596bcba2e4f7ce37a15f92890c77f433c0e0ebdf967e89",

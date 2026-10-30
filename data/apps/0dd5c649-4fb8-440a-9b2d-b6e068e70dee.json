@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.docubee.com/resources/help-center/",
     "sourceHash": "sha256:ebae84b5c1e71ff4ff0c62bbc657f36a8af7d7a69060c705112a9131830b6480",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ebae84b5c1e71ff4ff0c62bbc657f36a8af7d7a69060c705112a9131830b6480",

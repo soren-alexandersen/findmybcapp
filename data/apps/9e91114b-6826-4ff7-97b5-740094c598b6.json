@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.fellowmindfinland.cloud/enhanced-gl-interface",
     "sourceHash": "sha256:567ffb91e770254b6f7622e6f18d200e52e5d9f66ab4f52da8eb08fa32bf16c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:567ffb91e770254b6f7622e6f18d200e52e5d9f66ab4f52da8eb08fa32bf16c4",

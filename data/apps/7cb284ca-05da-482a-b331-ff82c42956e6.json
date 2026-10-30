@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dc.ag/docs/en/bc-shipping-costs/user-guide/overview",
     "sourceHash": "sha256:92951c9ad135312acd6f5b73e74db45f1f3aa9a1162de9c145fa6604156fe368",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:92951c9ad135312acd6f5b73e74db45f1f3aa9a1162de9c145fa6604156fe368",

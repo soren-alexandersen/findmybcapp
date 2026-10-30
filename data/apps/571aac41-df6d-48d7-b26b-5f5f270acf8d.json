@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-purchase-bonus.html",
     "sourceHash": "sha256:5fd781e36e00cc87175a654294eea1b9260f6a790deb733b461ac52159926328",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5fd781e36e00cc87175a654294eea1b9260f6a790deb733b461ac52159926328",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://carideait.se/",
     "sourceHash": "sha256:432153ab0c5a7360df4026c42fcecc7460d43aeb46053113dd1f49dc7dbedbe0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:432153ab0c5a7360df4026c42fcecc7460d43aeb46053113dd1f49dc7dbedbe0",

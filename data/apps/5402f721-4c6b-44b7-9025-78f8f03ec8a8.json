@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.datacourage.com/knowledge-base/ai-financial-intelligence",
     "sourceHash": "sha256:800e57a6049e3f9d5b689953b8428a283ced9934a9cdc0ccc09aabd164fd8893",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:800e57a6049e3f9d5b689953b8428a283ced9934a9cdc0ccc09aabd164fd8893",

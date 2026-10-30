@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bctoolkit.clouddata.vc/docs",
     "sourceHash": "sha256:83237a10f406366d1434811782023c161f169c7f2176070d48998bd757054b7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:83237a10f406366d1434811782023c161f169c7f2176070d48998bd757054b7c",

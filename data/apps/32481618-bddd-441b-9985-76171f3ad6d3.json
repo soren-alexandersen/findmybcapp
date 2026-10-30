@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://cust-service.blink-it.pt/",
     "sourceHash": "sha256:18eb917b1c530efca7818c50185edf9a81e8671f3acbfd8c4c8387313fb64e93",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18eb917b1c530efca7818c50185edf9a81e8671f3acbfd8c4c8387313fb64e93",

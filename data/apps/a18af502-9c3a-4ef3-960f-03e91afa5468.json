@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.im-projects.com/inicio/",
     "sourceHash": "sha256:f732c141dc23af14b37c466611e1907a9692152ceb6c76305601799d556cd8d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f732c141dc23af14b37c466611e1907a9692152ceb6c76305601799d556cd8d9",

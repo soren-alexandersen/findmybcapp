@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/wf/index.html",
     "sourceHash": "sha256:c4c7d0999647e45885c7ef93728f5ce5e47a58d3912448a91f05aa99d2a7fb99",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c4c7d0999647e45885c7ef93728f5ce5e47a58d3912448a91f05aa99d2a7fb99",

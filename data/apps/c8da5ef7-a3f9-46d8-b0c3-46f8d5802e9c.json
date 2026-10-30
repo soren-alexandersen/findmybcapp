@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.traser-software.de/de-DE",
     "sourceHash": "sha256:47eb23c585315d7d7fa9200e400280672984e08f01f3cf73313d1974bf9d8ccf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:47eb23c585315d7d7fa9200e400280672984e08f01f3cf73313d1974bf9d8ccf",

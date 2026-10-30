@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://profacto.dk/en/advanced-data-management/",
     "sourceHash": "sha256:c5981544842ee9f2212c83785d3611515c51e377ba741143bf7d3d5bf46c7828",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c5981544842ee9f2212c83785d3611515c51e377ba741143bf7d3d5bf46c7828",

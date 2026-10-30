@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/techsheet-configurator",
     "sourceHash": "sha256:0c012dfe079ec5260683ec737a3537fb534c52892b1dfdb67e6614f82e159a9e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0c012dfe079ec5260683ec737a3537fb534c52892b1dfdb67e6614f82e159a9e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/graphical-scheduler/product-help/",
     "sourceHash": "sha256:8118fb44de274b3672b9d698d9de77c63a076bbf8e3a46db08c03d718ef20179",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8118fb44de274b3672b9d698d9de77c63a076bbf8e3a46db08c03d718ef20179",

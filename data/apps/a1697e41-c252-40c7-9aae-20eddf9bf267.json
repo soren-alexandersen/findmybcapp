@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning-pictures-help/",
     "sourceHash": "sha256:938d8c0c736b0c9ad6d47c16dc21ebfff0899f9e618004df90ceb267549002f7",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:938d8c0c736b0c9ad6d47c16dc21ebfff0899f9e618004df90ceb267549002f7",

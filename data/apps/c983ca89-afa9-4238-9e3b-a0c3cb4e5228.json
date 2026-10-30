@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sparkleskyltd.co.ke/business-central-services.html",
     "sourceHash": "sha256:7d1ceefc38a0ed8023b47f346111fc99ff808f6aab47531d885c8c25cc422763",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d1ceefc38a0ed8023b47f346111fc99ff808f6aab47531d885c8c25cc422763",

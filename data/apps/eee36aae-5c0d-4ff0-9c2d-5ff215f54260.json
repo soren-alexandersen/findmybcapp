@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicseshop.com/eshop-install-setup-for-d365-business-central-on-prem/",
     "sourceHash": "sha256:bd82e3f035a145d57ced7ee4f8bb3fec539f6124a6eacd0fec9e0a524e8a39fe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bd82e3f035a145d57ced7ee4f8bb3fec539f6124a6eacd0fec9e0a524e8a39fe",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartsubscription/documentation",
     "sourceHash": "sha256:d5557f514c9be3c0d59f2698bf3921052185acf544afb9bf6ab90c476941d2c9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5557f514c9be3c0d59f2698bf3921052185acf544afb9bf6ab90c476941d2c9",

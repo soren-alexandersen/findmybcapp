@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dochistory.plus/bc-app/help/",
     "sourceHash": "sha256:8222ee175f71ae7bfd80095c5c4578329a3c899e141d0ee12c2d84ab81fb86fd",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8222ee175f71ae7bfd80095c5c4578329a3c899e141d0ee12c2d84ab81fb86fd",

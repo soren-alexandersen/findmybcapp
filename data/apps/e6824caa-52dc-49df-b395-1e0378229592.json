@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
     "sourceHash": "sha256:6769c100a0856536da9711bc92f99f67053ea70e71cc9fad4f35b479bf65c272",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6769c100a0856536da9711bc92f99f67053ea70e71cc9fad4f35b479bf65c272",

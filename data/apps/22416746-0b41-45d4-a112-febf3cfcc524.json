@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en-US/fcy/index.html",
     "sourceHash": "sha256:82e7aed9804ef0228ef1a56a8ae8d60deda7650b4aeb777dea54b9fff41cc82f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:82e7aed9804ef0228ef1a56a8ae8d60deda7650b4aeb777dea54b9fff41cc82f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/article-categories/getting-started-smb/",
     "sourceHash": "sha256:335e39e23d43241078c51bc62ef76177a98f10f9ccb3d36a8d0cd2fb32c75c90",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:335e39e23d43241078c51bc62ef76177a98f10f9ccb3d36a8d0cd2fb32c75c90",

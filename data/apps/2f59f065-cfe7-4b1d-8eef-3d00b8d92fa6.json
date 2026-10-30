@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/AnimalCare",
     "sourceHash": "sha256:110313dca6769bb1455b62cc7efb892c4390a41dc8f57447225a1424f9573d9f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:110313dca6769bb1455b62cc7efb892c4390a41dc8f57447225a1424f9573d9f",

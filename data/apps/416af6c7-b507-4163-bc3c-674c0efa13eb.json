@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/accruals-and-simulated-general-ledger.html",
     "sourceHash": "sha256:7290ec2b7ed384361eb3016040b8c7d06e1d071dcd07d8f3bab71499c701746b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7290ec2b7ed384361eb3016040b8c7d06e1d071dcd07d8f3bab71499c701746b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics-whatsapp-integration-api.ha-consultancy.com/bc-currencies/AppDocumentation.pdf",
     "sourceHash": "sha256:3a37b10ce536bb961169ceb2e9b9450f84cbf32c9072001a45e91a02f503307a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3a37b10ce536bb961169ceb2e9b9450f84cbf32c9072001a45e91a02f503307a",

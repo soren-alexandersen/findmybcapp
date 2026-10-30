@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/acd",
     "sourceHash": "sha256:e7fd6f7654bfc8c961729d51b6b2ab5aa72786ffd09977d57fe2853fac3e39b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e7fd6f7654bfc8c961729d51b6b2ab5aa72786ffd09977d57fe2853fac3e39b5",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/easypost-services-connector/",
     "sourceHash": "sha256:bad32f4fc5f860135ea87696892b8642c1bb79c0ad8fa0b4b6f33d84927b310a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bad32f4fc5f860135ea87696892b8642c1bb79c0ad8fa0b4b6f33d84927b310a",

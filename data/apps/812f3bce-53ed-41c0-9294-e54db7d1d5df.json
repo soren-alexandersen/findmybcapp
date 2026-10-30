@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Shortcut-Dimensions/",
     "sourceHash": "sha256:5edf32d9d0c7b94aa67fe8041b8387731b74a47994e421a83edc1bd775cd2ad3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5edf32d9d0c7b94aa67fe8041b8387731b74a47994e421a83edc1bd775cd2ad3",

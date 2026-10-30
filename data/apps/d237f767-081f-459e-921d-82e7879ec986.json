@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-vendor-deposits-prepayments-management",
     "sourceHash": "sha256:3cc5bb9c3e1de7a0fb90895f8b9f97e064bd24408973fe606bc30bf854b24b1f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3cc5bb9c3e1de7a0fb90895f8b9f97e064bd24408973fe606bc30bf854b24b1f",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/aged-care",
     "sourceHash": "sha256:230de01308d9e8c04527731075e271bf0a41cb3681dc3ee54c59248ef5cdd01d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:230de01308d9e8c04527731075e271bf0a41cb3681dc3ee54c59248ef5cdd01d",

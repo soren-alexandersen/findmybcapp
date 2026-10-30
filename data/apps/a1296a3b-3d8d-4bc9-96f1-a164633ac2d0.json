@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/IntercompanyInsights/",
     "sourceHash": "sha256:e3ad9abb6a393d9aecc8fa51619c8a2f0d1a6d9bd82073f2e8f073f6cd6b025b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e3ad9abb6a393d9aecc8fa51619c8a2f0d1a6d9bd82073f2e8f073f6cd6b025b",

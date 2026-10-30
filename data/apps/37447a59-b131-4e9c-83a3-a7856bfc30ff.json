@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/businesscentralapps/HelloWorldToo.AppSource",
     "sourceHash": "sha256:191c076c171c0edf6e5de37b257fd1a62d943dd195887943c714de34b67b8ffa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:191c076c171c0edf6e5de37b257fd1a62d943dd195887943c714de34b67b8ffa",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/produkter/dynamics-365-business-central-apps/en-us/blue-base/help-support/",
     "sourceHash": "sha256:e11565105f3424cc363aa33c1ee012bf1d8ab81d41b393fb665ac3a3a04e17fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e11565105f3424cc363aa33c1ee012bf1d8ab81d41b393fb665ac3a3a04e17fa",

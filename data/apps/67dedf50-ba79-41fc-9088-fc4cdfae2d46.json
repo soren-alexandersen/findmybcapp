@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/richtext/index.html",
     "sourceHash": "sha256:601158b7a4039442ae18a6af75eab810b79a03d112e47fb225f5bda374407cf6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:601158b7a4039442ae18a6af75eab810b79a03d112e47fb225f5bda374407cf6",

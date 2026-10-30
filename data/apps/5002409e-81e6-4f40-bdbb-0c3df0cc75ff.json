@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-document-template",
     "sourceHash": "sha256:6aa8cdc3810e7e7fe1961d8e91825cb5ec55aa404666dde46eda27d27392fada",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6aa8cdc3810e7e7fe1961d8e91825cb5ec55aa404666dde46eda27d27392fada",

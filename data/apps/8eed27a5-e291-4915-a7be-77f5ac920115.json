@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://geodatatek.com/contact-us",
     "sourceHash": "sha256:78d486720253be666beff39d2ca4fec5f5da16b501c82bac9be54609e16f83b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:78d486720253be666beff39d2ca4fec5f5da16b501c82bac9be54609e16f83b8",

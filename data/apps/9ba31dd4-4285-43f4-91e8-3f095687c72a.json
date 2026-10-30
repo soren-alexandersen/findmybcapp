@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-bi-sales-cockpit/",
     "sourceHash": "sha256:ad487b86627027677b6b80973894604b1e5ec05035fd0d8a038ed965d8db1b9f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ad487b86627027677b6b80973894604b1e5ec05035fd0d8a038ed965d8db1b9f",

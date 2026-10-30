@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/",
     "sourceHash": "sha256:d74cfcb04341f99821990da95a7dc8ccb1ebc6b422fc0572ad0eb9f4b8eb57e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d74cfcb04341f99821990da95a7dc8ccb1ebc6b422fc0572ad0eb9f4b8eb57e8",

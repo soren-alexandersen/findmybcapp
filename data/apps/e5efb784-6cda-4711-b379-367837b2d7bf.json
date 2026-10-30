@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/printnodeconnecthelp",
     "sourceHash": "sha256:86712d21b7c1d5f4f8c18ea66a07f4706484d91c560228f42c6ab3ba09f2ff83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86712d21b7c1d5f4f8c18ea66a07f4706484d91c560228f42c6ab3ba09f2ff83",

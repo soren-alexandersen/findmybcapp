@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.softera.lt/en/contacts/",
     "sourceHash": "sha256:4da8f0eb5d986499ea0de1ce0266262e6d9b8dba7468b97240255152b653ab4a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4da8f0eb5d986499ea0de1ce0266262e6d9b8dba7468b97240255152b653ab4a",

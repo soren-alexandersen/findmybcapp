@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://1vision365.com/support/",
     "sourceHash": "sha256:29c75a22bdcff5ca260effc606b49e13913f85d6e935dc04823c37bbbb076a76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:29c75a22bdcff5ca260effc606b49e13913f85d6e935dc04823c37bbbb076a76",

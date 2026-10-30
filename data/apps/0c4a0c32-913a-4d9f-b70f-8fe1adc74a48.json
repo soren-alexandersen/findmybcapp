@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://visollegaldocs.blob.core.windows.net/visol/D365BCSUPPORTPRODUCTLIFECYCLE.pdf",
     "sourceHash": "sha256:3041237d24e32c1eadc10b927c0424ca990a5893c17b56e5dfa15bedf9521757",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3041237d24e32c1eadc10b927c0424ca990a5893c17b56e5dfa15bedf9521757",

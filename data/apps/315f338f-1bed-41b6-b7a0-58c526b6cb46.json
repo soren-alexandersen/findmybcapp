@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-Security",
     "sourceHash": "sha256:5b0de6c4b8828c15a08a9f209e1d956880386eb548edd33c1ccec57ead210a60",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b0de6c4b8828c15a08a9f209e1d956880386eb548edd33c1ccec57ead210a60",

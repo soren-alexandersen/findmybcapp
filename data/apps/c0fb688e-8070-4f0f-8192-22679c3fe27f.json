@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/releasepro/",
     "sourceHash": "sha256:ef05abb894279a30b40a90bad08c505703f3542b9e74da6be7320e309ca76631",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ef05abb894279a30b40a90bad08c505703f3542b9e74da6be7320e309ca76631",

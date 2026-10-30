@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.netronic.com/visual-advanced-production-scheduler-vaps-for-dynamics-365-business-central",
     "sourceHash": "sha256:f907b0e85a13b5e4b0303ddc731547f18560aeed3060e17666162624939e7fad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f907b0e85a13b5e4b0303ddc731547f18560aeed3060e17666162624939e7fad",

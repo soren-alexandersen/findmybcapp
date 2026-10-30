@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dsc-group.net/dynamics-365-business-central/app-per-business-central/dyna-license-il-prodotto-per-gestire-i-prodotti-con-licenza-di-dsc-group/",
     "sourceHash": "sha256:c263bee134f93358af9f257322b48633936a9839bbbfa74a6e16f241f21a2f32",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c263bee134f93358af9f257322b48633936a9839bbbfa74a6e16f241f21a2f32",

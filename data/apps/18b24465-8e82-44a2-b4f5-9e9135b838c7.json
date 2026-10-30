@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/AIE/",
     "sourceHash": "sha256:ccb1c8b30d0f3a8fe2038d3955a6614811ff53ea49deb1d6f4956355883425ae",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ccb1c8b30d0f3a8fe2038d3955a6614811ff53ea49deb1d6f4956355883425ae",

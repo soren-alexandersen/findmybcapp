@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.zapodio.com/products/ai-document-reader/help",
     "sourceHash": "sha256:f0742fc7c5f40732e50c08cc9112f321f7a8eb7d1af8eaffc5e805a540bb3f3d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f0742fc7c5f40732e50c08cc9112f321f7a8eb7d1af8eaffc5e805a540bb3f3d",

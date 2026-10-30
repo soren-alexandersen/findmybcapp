@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://support.simplybc.com/",
     "sourceHash": "sha256:78ec042df57222455de4f5c56677856c7cca4ec70f8700261ec969f75ac00ef9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:78ec042df57222455de4f5c56677856c7cca4ec70f8700261ec969f75ac00ef9",

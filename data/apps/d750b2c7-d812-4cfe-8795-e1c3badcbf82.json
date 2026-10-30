@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.geosonsolutions.com/Products/Contract-Management-App/",
     "sourceHash": "sha256:a6b1b7002353c6bde43d105921011ac9e53d9bf790af189ee212f67d251d6748",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6b1b7002353c6bde43d105921011ac9e53d9bf790af189ee212f67d251d6748",

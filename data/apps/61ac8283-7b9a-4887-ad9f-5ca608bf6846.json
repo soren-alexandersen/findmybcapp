@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/gp-to-bc-migration-assistant/",
     "sourceHash": "sha256:531ccc1c45df00a01905ace07591ba06e9e3e983775752a7119100e710496e98",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:531ccc1c45df00a01905ace07591ba06e9e3e983775752a7119100e710496e98",

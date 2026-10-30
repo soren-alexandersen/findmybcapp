@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/Finance-Pro/docs/en-US/help",
     "sourceHash": "sha256:e92bffe679f4437b960fb8b02c5b0a183987b7f9515c6e1e8dd2e5a91f10e8ff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e92bffe679f4437b960fb8b02c5b0a183987b7f9515c6e1e8dd2e5a91f10e8ff",

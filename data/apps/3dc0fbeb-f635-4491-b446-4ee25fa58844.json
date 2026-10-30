@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sqlmantratools.com/product/P014",
     "sourceHash": "sha256:427e90ced750b68b72afde958bb7c9dc2bb130a8e14b09a01407f8fc26d67b62",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:427e90ced750b68b72afde958bb7c9dc2bb130a8e14b09a01407f8fc26d67b62",

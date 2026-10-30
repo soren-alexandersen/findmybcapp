@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/da/banking720",
     "sourceHash": "sha256:66586ed1f40399649743132f01e3620855d8475b4e82ac0960fa8f909d30ca08",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66586ed1f40399649743132f01e3620855d8475b4e82ac0960fa8f909d30ca08",

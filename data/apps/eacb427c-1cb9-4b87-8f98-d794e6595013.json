@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/docs/WBR/",
     "sourceHash": "sha256:c293d5d2df503844048d611cfb282ee00fcd53c507bca95599ea190be17b0251",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c293d5d2df503844048d611cfb282ee00fcd53c507bca95599ea190be17b0251",

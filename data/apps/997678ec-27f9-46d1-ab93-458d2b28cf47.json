@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/over-shipping",
     "sourceHash": "sha256:6c8001abb245471d29e02242717787e2b367261d706303fca7f67828c554524c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c8001abb245471d29e02242717787e2b367261d706303fca7f67828c554524c",

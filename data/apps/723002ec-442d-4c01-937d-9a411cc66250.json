@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.isystems-group.com/services/localization/",
     "sourceHash": "sha256:90eea2f176e73e9298b6ec1ca6614b2426c441460a4a8e007b423402842a3fa9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:90eea2f176e73e9298b6ec1ca6614b2426c441460a4a8e007b423402842a3fa9",

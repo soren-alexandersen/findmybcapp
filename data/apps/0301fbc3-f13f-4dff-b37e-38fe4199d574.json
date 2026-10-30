@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/hazmat/index.html",
     "sourceHash": "sha256:e3f1dc0d2ab411f194adba459ff04986ec474d8d3d2ab87270b2bb92b2747486",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e3f1dc0d2ab411f194adba459ff04986ec474d8d3d2ab87270b2bb92b2747486",

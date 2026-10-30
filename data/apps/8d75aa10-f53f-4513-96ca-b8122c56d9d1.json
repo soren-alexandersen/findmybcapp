@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.d365.global/Tutorials/D365Guides/D365BusinessCentral/BusinessCentralApps/SellThruRebatesMgmt",
     "sourceHash": "sha256:3b4903b6f92cb96623c7abc7317cc69b59c5cfb77ba8ef8844c2aa0963a089de",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3b4903b6f92cb96623c7abc7317cc69b59c5cfb77ba8ef8844c2aa0963a089de",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/general-ledger-application/",
     "sourceHash": "sha256:8c94307795cb60f1f0f8a51f5803906990344d3af58650e3b4e965a704177547",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8c94307795cb60f1f0f8a51f5803906990344d3af58650e3b4e965a704177547",

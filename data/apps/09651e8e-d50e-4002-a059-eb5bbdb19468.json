@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.xpna.app/",
     "sourceHash": "sha256:823ce393b01eec9b46ddbf371149334f36281af6456d0b79b59f4a5292dc0cfb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:823ce393b01eec9b46ddbf371149334f36281af6456d0b79b59f4a5292dc0cfb",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nvision.freshdesk.com/support/solutions/80000373100",
     "sourceHash": "sha256:dc1ffbff7d25268abe285458311117f35790b5123e7d1a936045bb35458e1f72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dc1ffbff7d25268abe285458311117f35790b5123e7d1a936045bb35458e1f72",

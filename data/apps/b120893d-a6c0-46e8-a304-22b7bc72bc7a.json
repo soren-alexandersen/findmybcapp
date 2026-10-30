@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/smart-currency-update/",
     "sourceHash": "sha256:c33023987fc03b9f11096f653f1c55a5ee989011684008d653585bcd16284301",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c33023987fc03b9f11096f653f1c55a5ee989011684008d653585bcd16284301",

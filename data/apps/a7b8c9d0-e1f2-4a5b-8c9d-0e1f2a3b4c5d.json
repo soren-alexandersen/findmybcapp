@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/SMS-Sender",
     "sourceHash": "sha256:b9b11f68b34b14ed75f0e2ddb9b9392b5e01d79676d18de236570002c6a2389a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b9b11f68b34b14ed75f0e2ddb9b9392b5e01d79676d18de236570002c6a2389a",

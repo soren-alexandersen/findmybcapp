@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/combine-warehouse-shipment.html",
     "sourceHash": "sha256:13029dbc8e81611f5905a7df15a3eb444197234ba1f8840b700525d081726f8b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:13029dbc8e81611f5905a7df15a3eb444197234ba1f8840b700525d081726f8b",

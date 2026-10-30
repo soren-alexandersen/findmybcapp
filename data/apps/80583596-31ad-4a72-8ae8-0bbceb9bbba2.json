@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/RSA-Bank-Integration/",
     "sourceHash": "sha256:f538685319e5e978bc5c7af4fabd1e3ca44c430ae33eb58c91d82fdc38819e50",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f538685319e5e978bc5c7af4fabd1e3ca44c430ae33eb58c91d82fdc38819e50",

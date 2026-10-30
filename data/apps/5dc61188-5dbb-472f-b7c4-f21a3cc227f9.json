@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nolanbusinesssolutions.co.uk/knowledgebase/nolan-cloud-services/",
     "sourceHash": "sha256:6f96f19910f4c029c7bfa133cfa42a66bf3990ef12020d34cb4c20b12a4c0ddf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6f96f19910f4c029c7bfa133cfa42a66bf3990ef12020d34cb4c20b12a4c0ddf",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/sap-business-one-edi-integration/",
     "sourceHash": "sha256:8f0a616f5edc3b044c06dd62abeddb6cc4e1772b88ca632c7569dedcda8830d3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8f0a616f5edc3b044c06dd62abeddb6cc4e1772b88ca632c7569dedcda8830d3",

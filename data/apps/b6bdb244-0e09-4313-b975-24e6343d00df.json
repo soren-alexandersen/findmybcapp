@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/fssb",
     "sourceHash": "sha256:4f4ffc145e64a7de0eac66db67f427d7c85c0e7cff7ad60c9336550b8f21b8e1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4f4ffc145e64a7de0eac66db67f427d7c85c0e7cff7ad60c9336550b8f21b8e1",

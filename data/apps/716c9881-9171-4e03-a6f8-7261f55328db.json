@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lodestar.eu/",
     "sourceHash": "sha256:25ffac44220d3d15e4b01e8e679f0a561e9173e904adf88db148a4344fad937c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:25ffac44220d3d15e4b01e8e679f0a561e9173e904adf88db148a4344fad937c",

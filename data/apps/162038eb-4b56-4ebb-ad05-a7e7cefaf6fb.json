@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/products/DocBox/en-US/index.html",
     "sourceHash": "sha256:3bb8bc15eebfa5e9e76d77797ae2f1c1fabdaf1e22a88ab43e4519fc0f87b73f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3bb8bc15eebfa5e9e76d77797ae2f1c1fabdaf1e22a88ab43e4519fc0f87b73f",

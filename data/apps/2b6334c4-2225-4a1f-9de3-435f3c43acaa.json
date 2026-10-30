@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCRC",
     "sourceHash": "sha256:98a2e9d72887a6547bca11363a45fbe7484ab4aa2a32fb4a1c4ba9422e71b792",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98a2e9d72887a6547bca11363a45fbe7484ab4aa2a32fb4a1c4ba9422e71b792",

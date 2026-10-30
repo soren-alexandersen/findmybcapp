@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://epmexpress.itg.com.lb:8811/Support.aspx",
     "sourceHash": "sha256:85af3cfd92fce07b8d70fa58deb9b8ece0d243f4af02b34a93430d44b6597742",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:85af3cfd92fce07b8d70fa58deb9b8ece0d243f4af02b34a93430d44b6597742",

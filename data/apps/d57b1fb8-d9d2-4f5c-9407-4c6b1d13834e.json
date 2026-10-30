@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-manufacturing",
     "sourceHash": "sha256:080e036bf771b6c85143d284312cfe3f9d40fb74c6556a4d5ef1c90bbb1fccc6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:080e036bf771b6c85143d284312cfe3f9d40fb74c6556a4d5ef1c90bbb1fccc6",

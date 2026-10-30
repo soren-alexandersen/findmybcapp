@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bcwizards.com/",
     "sourceHash": "sha256:b3489e2c85a454ba02670fe8475af2cddcafb24b57043dd368b390de7a7b433c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3489e2c85a454ba02670fe8475af2cddcafb24b57043dd368b390de7a7b433c",

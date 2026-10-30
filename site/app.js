@@ -431,7 +431,7 @@ function openApp(i, gi){
     <dl class="facts">
       <dt>Good for</dt><dd>${esc(needs.join(' · ') || '—')}</dd>
       ${a.x.length ? `<dt>Works with</dt><dd>${esc(a.x.join(', '))}</dd>` : ''}
-      <dt>Countries</dt><dd>${own(a, 'c').length ? esc(own(a, 'c').map(regionName).join(', ')) : (a.pub && a.pub.c ? 'Not mentioned on the Marketplace' : 'None mentioned')}</dd>
+      <dt>Countries</dt><dd>${own(a, 'c').length ? esc(own(a, 'c').map(regionName).join(', ')) : a.ac ? 'All countries where Business Central is available' : (a.pub && a.pub.c ? 'Not mentioned on the Marketplace' : 'Not mentioned')}</dd>
       ${own(a, 'l').length ? `<dt>Languages</dt><dd>${esc(own(a, 'l').map(langName).join(', '))}</dd>` : ''}
       <dt>Pricing</dt><dd>${esc(PRICING[a.pr] || a.pr)}</dd>
       ${a.req && a.req.length ? `<dt>Requires</dt><dd>${esc(a.req.join(', '))}</dd>` : ''}

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.valkonix.com/manuals/valkonix-ship-manual/",
     "sourceHash": "sha256:3e65e759b0c86377ef8b60970e1460904a5d7174c40701243a5cf7aff1324991",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3e65e759b0c86377ef8b60970e1460904a5d7174c40701243a5cf7aff1324991",

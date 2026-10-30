@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.wair.ai/docs/support-bc-connector",
     "sourceHash": "sha256:b526f3dd9717bcd5efdf13906e49e1e58101dcfb9f96fe27c81bd08aa447956c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b526f3dd9717bcd5efdf13906e49e1e58101dcfb9f96fe27c81bd08aa447956c",

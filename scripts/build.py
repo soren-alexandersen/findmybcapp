@@ -141,6 +141,8 @@ def build(with_vectors=True):
             "k": m.get("claims", []),
             "u": a["source"]["url"],
         }
+        if a["source"].get("allCountries") and not row["c"]:
+            row["ac"] = 1  # listing says: all countries where BC is available
         if a["source"].get("productType") == "SaaS":
             row["h"] = 1  # hosted offer, not a BC extension
         # Publisher supplements, kept separate so the site can attribute them

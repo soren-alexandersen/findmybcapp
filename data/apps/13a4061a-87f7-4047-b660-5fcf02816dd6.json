@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/vertical_storage_connector",
     "sourceHash": "sha256:288c46cb7d094703f3b10d0d061ca4d998c3825816ce727ded8a24f91c38b450",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:288c46cb7d094703f3b10d0d061ca4d998c3825816ce727ded8a24f91c38b450",

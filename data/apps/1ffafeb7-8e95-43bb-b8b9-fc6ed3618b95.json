@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.zentriqsoftware.com/docs/install-capture",
     "sourceHash": "sha256:eb5ac43ee24eb4739b1d507effd50ca49f70a513886b0718ae96f11faa9f5d51",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:eb5ac43ee24eb4739b1d507effd50ca49f70a513886b0718ae96f11faa9f5d51",

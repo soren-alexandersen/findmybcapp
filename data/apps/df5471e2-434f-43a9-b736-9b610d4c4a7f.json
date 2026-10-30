@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/set-dimensions",
     "sourceHash": "sha256:1b6846004052c4fc8ea57cc5c1b3601e17cea8a6e5700ece2e625bca70749a8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1b6846004052c4fc8ea57cc5c1b3601e17cea8a6e5700ece2e625bca70749a8f",

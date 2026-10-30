@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://novasoft.global/apps/business-central/",
     "sourceHash": "sha256:9b9379c2867bf6b355cb12cc246f4237dff73c449a126ceef3c1b89d51e583eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9b9379c2867bf6b355cb12cc246f4237dff73c449a126ceef3c1b89d51e583eb",

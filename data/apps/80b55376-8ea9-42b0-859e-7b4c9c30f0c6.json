@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://binarylab.co.za/data-oversight",
     "sourceHash": "sha256:4073a5df6819e599e85e738ec5e6c32a0fe199c80bf39b0714aef6197225cb3e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4073a5df6819e599e85e738ec5e6c32a0fe199c80bf39b0714aef6197225cb3e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.slimstock.com/demo/",
     "sourceHash": "sha256:2d4a9e2590e4aa94fb59a967eafd542cbbc2bd053ad055d680a7b85f4defafe9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2d4a9e2590e4aa94fb59a967eafd542cbbc2bd053ad055d680a7b85f4defafe9",

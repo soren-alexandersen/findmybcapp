@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.plumblineconsulting.com/help-gettingstarted/",
     "sourceHash": "sha256:9e7f08a0eba550e360bc83d6899d024c2f821422ba0115cee058a2c136120373",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e7f08a0eba550e360bc83d6899d024c2f821422ba0115cee058a2c136120373",

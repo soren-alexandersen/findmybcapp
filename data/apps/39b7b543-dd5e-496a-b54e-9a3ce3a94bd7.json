@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-service/",
     "sourceHash": "sha256:606b8e5d41676feb12294f4ae645f59e88253bbc5db4edf01e813a321c9571b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:606b8e5d41676feb12294f4ae645f59e88253bbc5db4edf01e813a321c9571b3",

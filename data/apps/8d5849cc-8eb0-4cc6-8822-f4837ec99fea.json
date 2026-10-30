@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.evidi.com/en/help/collections/4709668-anyware-retail",
     "sourceHash": "sha256:4a6f3916c2cd7a3ae914de03ec2598f7f1526a06037b92509adbf9b4f1ed50ce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4a6f3916c2cd7a3ae914de03ec2598f7f1526a06037b92509adbf9b4f1ed50ce",

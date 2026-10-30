@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://saglobalsupport.microsoftcrmportals.com/",
     "sourceHash": "sha256:fc738654762ca4ab8e8289333357fea5642b529f4d6d41e64e66c6acb1a7e486",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc738654762ca4ab8e8289333357fea5642b529f4d6d41e64e66c6acb1a7e486",

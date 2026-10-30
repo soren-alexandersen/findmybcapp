@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Vendor-Rating",
     "sourceHash": "sha256:616c4300d50a5df4da80d8ec9d4dda8daa98c7b0fd8102cdae7fbde99a5bcc3f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:616c4300d50a5df4da80d8ec9d4dda8daa98c7b0fd8102cdae7fbde99a5bcc3f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://identifyyou.in/services/multi-vendor-for-purchase-quotation/",
     "sourceHash": "sha256:ccd22b48427a5c6f866f3ab584d3417bba7232b8ca7acc0b1405a04b7d908953",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ccd22b48427a5c6f866f3ab584d3417bba7232b8ca7acc0b1405a04b7d908953",

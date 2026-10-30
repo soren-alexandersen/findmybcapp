@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-general-ledger/docs/",
     "sourceHash": "sha256:68c1fc5395f493a1f6f8d1e36e91ece0b5496b29dd7439589ae966f804c44850",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:68c1fc5395f493a1f6f8d1e36e91ece0b5496b29dd7439589ae966f804c44850",

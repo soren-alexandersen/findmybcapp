@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ecit.com/business-solutions/erp/",
     "sourceHash": "sha256:71245edcc9b3d198222d8346375d9b3a402184602eccc27acd0fc959ebdcb07f",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:71245edcc9b3d198222d8346375d9b3a402184602eccc27acd0fc959ebdcb07f",

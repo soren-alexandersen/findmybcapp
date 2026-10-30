@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.global-mediator.com/product/jira-connector-for-bc",
     "sourceHash": "sha256:b058fbd4b99906786d38a0163ab0d4fd9923f6035d02e90730475cb7ec414188",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b058fbd4b99906786d38a0163ab0d4fd9923f6035d02e90730475cb7ec414188",

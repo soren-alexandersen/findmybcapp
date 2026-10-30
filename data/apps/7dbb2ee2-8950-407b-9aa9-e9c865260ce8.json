@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-document-capture",
     "sourceHash": "sha256:893b9ca3e16963738cb235dc67afc936b99f4ce6cad8eb42b5c3fed76a388460",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:893b9ca3e16963738cb235dc67afc936b99f4ce6cad8eb42b5c3fed76a388460",

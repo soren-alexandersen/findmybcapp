@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ktc.de/bc/app/cal",
     "sourceHash": "sha256:8213eed9de9e689cea110d7927eebb2ab693ca601ef3f33f351436bca9b51abf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8213eed9de9e689cea110d7927eebb2ab693ca601ef3f33f351436bca9b51abf",

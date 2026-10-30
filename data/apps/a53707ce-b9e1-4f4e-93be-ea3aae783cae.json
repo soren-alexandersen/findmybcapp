@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.signupsoftware.com/solutions/ap-automation/for-business-central/",
     "sourceHash": "sha256:37ab0a496deaa983b30e8e06bbac5921673f9d159adb0db06efbebe239d04f21",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:37ab0a496deaa983b30e8e06bbac5921673f9d159adb0db06efbebe239d04f21",

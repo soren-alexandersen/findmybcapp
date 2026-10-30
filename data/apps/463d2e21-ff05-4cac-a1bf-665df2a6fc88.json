@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-business-intercompany-sync",
     "sourceHash": "sha256:ccad3dc5c0f1f7e40a3c578787ac975760dfe18e14357f568721ff2d672de949",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ccad3dc5c0f1f7e40a3c578787ac975760dfe18e14357f568721ff2d672de949",

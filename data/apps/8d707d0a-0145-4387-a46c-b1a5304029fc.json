@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/docsolutions-for-sharepoint.html",
     "sourceHash": "sha256:ffdcc37bca9277e1713e9c3149e73910f5396dada434d1c26aaff31421076a95",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ffdcc37bca9277e1713e9c3149e73910f5396dada434d1c26aaff31421076a95",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-hierarchical-price-list/help",
     "sourceHash": "sha256:d7c8260f48305511ddc4835a2bef26e33e19bc9bee86056977e18700514ee597",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d7c8260f48305511ddc4835a2bef26e33e19bc9bee86056977e18700514ee597",

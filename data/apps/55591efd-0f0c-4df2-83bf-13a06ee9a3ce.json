@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartbank/documentation/",
     "sourceHash": "sha256:d85d64043f31c03551e3b028cfd79d108d7d2d87596d2728139056ebfa3c4797",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d85d64043f31c03551e3b028cfd79d108d7d2d87596d2728139056ebfa3c4797",

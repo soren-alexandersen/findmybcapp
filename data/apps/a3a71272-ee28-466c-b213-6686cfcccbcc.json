@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.productivitypackage.apportunix.com/Sales-Document-Notifications.html",
     "sourceHash": "sha256:c8c8eae4248e993e2e2796811af80e746b2b000361e3e63487f0879e44b0bd70",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c8c8eae4248e993e2e2796811af80e746b2b000361e3e63487f0879e44b0bd70",

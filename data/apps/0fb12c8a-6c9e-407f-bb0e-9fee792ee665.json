@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-cfg.html",
     "sourceHash": "sha256:0ec4e2b706ee8775ccb3213e7ccdb55188e89a545654f7b7a6fbdb545e1143a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0ec4e2b706ee8775ccb3213e7ccdb55188e89a545654f7b7a6fbdb545e1143a6",

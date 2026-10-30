@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/minubahelp/",
     "sourceHash": "sha256:b5ffc1c73b8c16c6e3f9e9c7af4a3646e13f8312f0d6096d7e5c59481b22812c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b5ffc1c73b8c16c6e3f9e9c7af4a3646e13f8312f0d6096d7e5c59481b22812c",

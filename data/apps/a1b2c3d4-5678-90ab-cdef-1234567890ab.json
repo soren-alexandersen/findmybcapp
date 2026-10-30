@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hirehop.com/?src=bc_marketplace",
     "sourceHash": "sha256:8042b10e0f28a87e107fc76fe8fb94b1636d42ac52eeaaacff68d276d6f19f24",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8042b10e0f28a87e107fc76fe8fb94b1636d42ac52eeaaacff68d276d6f19f24",

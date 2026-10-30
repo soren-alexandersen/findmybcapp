@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.abak.rs/sr/abak/automatsko_kreiranje_redova_brojcanih_serija/",
     "sourceHash": "sha256:f62ed21564e7a711df1f4d99a83bfde5bc2e0d9238ee578503f8abe2ac896424",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f62ed21564e7a711df1f4d99a83bfde5bc2e0d9238ee578503f8abe2ac896424",

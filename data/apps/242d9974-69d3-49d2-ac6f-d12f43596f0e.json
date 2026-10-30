@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.2hatslogic.com/shopware-dynamics-365-business-central-integration/",
     "sourceHash": "sha256:bd7203e0386420a18f414dce91ea2f98f354a1f06fc4e4df4a165e4a8f07239a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bd7203e0386420a18f414dce91ea2f98f354a1f06fc4e4df4a165e4a8f07239a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-customer-care",
     "sourceHash": "sha256:a9578bf15be279cf10122b7ee1c1aca23dce257ad6c5d8ab6afbc7be3e025b93",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a9578bf15be279cf10122b7ee1c1aca23dce257ad6c5d8ab6afbc7be3e025b93",

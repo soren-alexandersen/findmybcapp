@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://skorconseil.com/en/business-central-apps/contact/",
     "sourceHash": "sha256:2b9d03541913c63b862e6e6a11732e4880e3e95abff85f743861e1cae51c8aa0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2b9d03541913c63b862e6e6a11732e4880e3e95abff85f743861e1cae51c8aa0",

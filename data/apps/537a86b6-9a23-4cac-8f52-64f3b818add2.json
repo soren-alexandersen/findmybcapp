@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.erphotel.com/hc/da/articles/30535620705053-Betalingsservice-BS-Plus-integration-til-Business-Central",
     "sourceHash": "sha256:b87ce556a0d720bd5597d32ffc203adea1f2b5849fd101c31705bb98b5a4cb28",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b87ce556a0d720bd5597d32ffc203adea1f2b5849fd101c31705bb98b5a4cb28",

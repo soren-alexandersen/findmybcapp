@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eye-share.no/en/support-and-services/",
     "sourceHash": "sha256:4094acf5c7f45ccbaca7527e60a0a945d233decba1858a949cb3f75142f36da6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4094acf5c7f45ccbaca7527e60a0a945d233decba1858a949cb3f75142f36da6",

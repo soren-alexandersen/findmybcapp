@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/product-configurator/",
     "sourceHash": "sha256:37a3638e31c5e97821e1a6b5e9cb29bcb71a79ad5bebcb92b20fb755d914d2c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:37a3638e31c5e97821e1a6b5e9cb29bcb71a79ad5bebcb92b20fb755d914d2c4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://avision.co.th/wp-content/uploads/2025/10/AV-Thai-Localization-365-BC-V01.pdf",
     "sourceHash": "sha256:a974a31bc626cea95b97625b3b7d87bef01e54e13b28aa79f6bffdfebbfc4623",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a974a31bc626cea95b97625b3b7d87bef01e54e13b28aa79f6bffdfebbfc4623",

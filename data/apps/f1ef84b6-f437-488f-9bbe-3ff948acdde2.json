@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://gist.githubusercontent.com/sthh-hub/75cdf5c8e06a216ced4c9ed988795403/raw/support.md",
     "sourceHash": "sha256:52c496a2d957a2d8b3f7b19255eebb2580dc96301429c78c8cda018bc7ae54f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:52c496a2d957a2d8b3f7b19255eebb2580dc96301429c78c8cda018bc7ae54f9",

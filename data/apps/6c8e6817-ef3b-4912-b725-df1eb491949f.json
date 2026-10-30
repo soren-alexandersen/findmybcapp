@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics-whatsapp-integration-api.ha-consultancy.com/ARABIC_INSTALLATION.pdf",
     "sourceHash": "sha256:7378e6072fb9e1c6eb125c05b21572651cea74750b1b009e94b69cf9381c8993",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7378e6072fb9e1c6eb125c05b21572651cea74750b1b009e94b69cf9381c8993",

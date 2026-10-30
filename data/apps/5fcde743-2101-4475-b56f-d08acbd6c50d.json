@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.i95dev.com/contact/",
     "sourceHash": "sha256:c2f1aea851c59e2a9888fc38063cb50eb8c428df90e28b30f6f80d665227bb56",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2f1aea851c59e2a9888fc38063cb50eb8c428df90e28b30f6f80d665227bb56",

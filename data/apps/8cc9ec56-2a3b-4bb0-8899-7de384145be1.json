@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-intelli-pricing/",
     "sourceHash": "sha256:2768dd164590bd9638e84a525560fbc1af0932f5985c207851a7cb218f9e1779",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2768dd164590bd9638e84a525560fbc1af0932f5985c207851a7cb218f9e1779",

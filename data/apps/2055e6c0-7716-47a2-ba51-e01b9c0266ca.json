@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/invoicing-plan-ipl.html",
     "sourceHash": "sha256:3efdbcaa73b736fe346d163239f5a40e202c1f53bd7fb480546a890a646bf739",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3efdbcaa73b736fe346d163239f5a40e202c1f53bd7fb480546a890a646bf739",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://experlogix.com/integrations/microsoft-dynamics-365-business-central",
     "sourceHash": "sha256:826c1974b796322387ca1c525a0c376ae4445e1ee6159537bd9027db43feeeeb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:826c1974b796322387ca1c525a0c376ae4445e1ee6159537bd9027db43feeeeb",

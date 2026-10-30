@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/bookings/",
     "sourceHash": "sha256:fbd4ec13e0624e7458e900ae434c8fdefd25a7638c5f9d3dd3a3bd3e0bd71efe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fbd4ec13e0624e7458e900ae434c8fdefd25a7638c5f9d3dd3a3bd3e0bd71efe",

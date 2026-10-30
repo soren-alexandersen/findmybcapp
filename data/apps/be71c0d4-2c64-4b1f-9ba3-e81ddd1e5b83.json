@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://opexis.nl/",
     "sourceHash": "sha256:3fff46a70d13facdbb3c7a4dec5f6a472e3fb017926989366a7849830326cda3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3fff46a70d13facdbb3c7a4dec5f6a472e3fb017926989366a7849830326cda3",

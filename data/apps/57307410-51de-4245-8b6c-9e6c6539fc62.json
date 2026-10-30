@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/mobile-warehouse-management-app/",
     "sourceHash": "sha256:360f71019508deccb2bcd210a886da31ae05bdde8e983e93eb99684a2ac8a6ce",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:360f71019508deccb2bcd210a886da31ae05bdde8e983e93eb99684a2ac8a6ce",

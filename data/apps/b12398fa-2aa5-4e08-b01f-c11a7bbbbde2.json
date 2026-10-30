@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/121/Master-Data-Management",
     "sourceHash": "sha256:96c6859f1015373ec6750fe7e25693a08a57c11aa3e1eb24d6653b403662b4af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:96c6859f1015373ec6750fe7e25693a08a57c11aa3e1eb24d6653b403662b4af",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bocount.net/system",
     "sourceHash": "sha256:f53e3d5558a7516cca110a349d49626804110a99800d10c404c16492a6886c0b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f53e3d5558a7516cca110a349d49626804110a99800d10c404c16492a6886c0b",

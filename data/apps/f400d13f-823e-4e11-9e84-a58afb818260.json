@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dryrun.crunch.help/en",
     "sourceHash": "sha256:08b210d97f2aea2dae59a7ff57bf7dbab0516d868251f2674316a910dcd79737",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:08b210d97f2aea2dae59a7ff57bf7dbab0516d868251f2674316a910dcd79737",

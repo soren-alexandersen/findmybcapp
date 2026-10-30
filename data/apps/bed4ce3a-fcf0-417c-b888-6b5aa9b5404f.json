@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tectura.com.hk/tectura-support",
     "sourceHash": "sha256:5f37af2e2eef90d6f8fd404904cbe92442e92114aad660ffc7d40648b810a420",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f37af2e2eef90d6f8fd404904cbe92442e92114aad660ffc7d40648b810a420",

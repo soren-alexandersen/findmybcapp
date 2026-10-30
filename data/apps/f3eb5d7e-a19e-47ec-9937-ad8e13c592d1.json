@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-for-core-functionality/",
     "sourceHash": "sha256:dd8b9aa18d32d9cd6e6f99b3225b49cfaa8cbb91b65d5933477a6dfa152516b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd8b9aa18d32d9cd6e6f99b3225b49cfaa8cbb91b65d5933477a6dfa152516b7",

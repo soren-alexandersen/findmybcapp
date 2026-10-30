@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
     "sourceHash": "sha256:40f051c0b2edd60dfc5a114c03c18b2ca706399091e232846ba07584ee92be47",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:40f051c0b2edd60dfc5a114c03c18b2ca706399091e232846ba07584ee92be47",

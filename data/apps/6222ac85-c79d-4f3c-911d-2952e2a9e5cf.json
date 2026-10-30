@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/SB_D365BC_Help/Content/Topics/NAV_ARCB/SubscriptionBilling.htm",
     "sourceHash": "sha256:cfd36ab624acaad2f710f691ecf5421f696a3a260b3597c07ed0d52096a2fe31",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cfd36ab624acaad2f710f691ecf5421f696a3a260b3597c07ed0d52096a2fe31",

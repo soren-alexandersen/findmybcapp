@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/comman/",
     "sourceHash": "sha256:9bfe0d4f78bbdfee457b0fa5d8b2f777fa31b6c4d993630f6937c19a05888dd0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9bfe0d4f78bbdfee457b0fa5d8b2f777fa31b6c4d993630f6937c19a05888dd0",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-essentials/",
     "sourceHash": "sha256:f26de3a84a95633a3db37ad2ab336ad5f52684419765da0dc676522227d137b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f26de3a84a95633a3db37ad2ab336ad5f52684419765da0dc676522227d137b5",

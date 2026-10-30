@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/article-categories/bluefort-payments/",
     "sourceHash": "sha256:75f6e7401491667af82ae1b90a1e03d551c42a3f7eb63158765aa84cad23fb15",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:75f6e7401491667af82ae1b90a1e03d551c42a3f7eb63158765aa84cad23fb15",

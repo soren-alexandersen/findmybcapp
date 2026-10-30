@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Blue-Goods-Manual.pdf",
     "sourceHash": "sha256:c4526b08b0e3f579d4e0e5ceb71942912bbf99739890396f59bff77e751abcf1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c4526b08b0e3f579d4e0e5ceb71942912bbf99739890396f59bff77e751abcf1",

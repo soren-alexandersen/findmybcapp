@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.365bc.jp/extension/japanese-language-kit/",
     "sourceHash": "sha256:8dcd0a72c784c3bad8c8f7659a1ca591314f4a60e8e6bad9e7b4090c7bfa2dd5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dcd0a72c784c3bad8c8f7659a1ca591314f4a60e8e6bad9e7b4090c7bfa2dd5",

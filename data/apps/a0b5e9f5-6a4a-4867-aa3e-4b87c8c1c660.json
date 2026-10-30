@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/advanced-inventory-count/product-help/",
     "sourceHash": "sha256:347fe4ddd2c03a249b8eb0c5e983eb67d7579ba3c9acff7ceccd4ab123bd800a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:347fe4ddd2c03a249b8eb0c5e983eb67d7579ba3c9acff7ceccd4ab123bd800a",

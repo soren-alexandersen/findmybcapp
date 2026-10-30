@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.inventio.it/smart/smartapi",
     "sourceHash": "sha256:a508c7fa4842d55bca4428687d8381c50f5824d508142d756663c6da54658593",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a508c7fa4842d55bca4428687d8381c50f5824d508142d756663c6da54658593",

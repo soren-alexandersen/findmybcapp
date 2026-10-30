@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/2-0-other-finance-apps/",
     "sourceHash": "sha256:34c0dba8580a0cf5f38d2f82ab4b191a5641bfbdfcd7b374d97baadb111edd1c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:34c0dba8580a0cf5f38d2f82ab4b191a5641bfbdfcd7b374d97baadb111edd1c",

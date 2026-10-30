@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/serviceitemtracking/index.html",
     "sourceHash": "sha256:c2b26ae38eb564b35878624f5c170a16cd120b528bc499989d83bfc1a8ce19c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2b26ae38eb564b35878624f5c170a16cd120b528bc499989d83bfc1a8ce19c8",

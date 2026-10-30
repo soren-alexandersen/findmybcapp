@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Reusable_Packaging_Manual.pdf",
     "sourceHash": "sha256:44391c005680754ea2c7ba2869971e3dc2a769000f9ce5ad28dca95b272c061b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:44391c005680754ea2c7ba2869971e3dc2a769000f9ce5ad28dca95b272c061b",

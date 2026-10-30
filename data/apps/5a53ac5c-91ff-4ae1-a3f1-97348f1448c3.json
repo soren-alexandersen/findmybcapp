@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oseberg.atlassian.net/wiki/spaces/SF/pages/3216670737/Daglig+bruk",
     "sourceHash": "sha256:1e0b03be4810a181a5a7ff0720e31a4834161b8574b7e514ec0a82281f85ae57",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1e0b03be4810a181a5a7ff0720e31a4834161b8574b7e514ec0a82281f85ae57",

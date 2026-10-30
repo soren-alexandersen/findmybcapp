@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-amazon-connector/",
     "sourceHash": "sha256:6569ba75d2085cfa888e9929c780854c2c38b72b164c80c7cbf9e9cc01f50df3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6569ba75d2085cfa888e9929c780854c2c38b72b164c80c7cbf9e9cc01f50df3",

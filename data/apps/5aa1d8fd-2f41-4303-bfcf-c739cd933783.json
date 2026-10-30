@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/opencart-edi-integration/",
     "sourceHash": "sha256:d86ea8c434407925dd67b892c781c77d94e35c47e9923b783de08ad4c80437a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d86ea8c434407925dd67b892c781c77d94e35c47e9923b783de08ad4c80437a7",

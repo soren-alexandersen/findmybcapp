@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-en/business-central/text-module/",
     "sourceHash": "sha256:836eaba0e35670d623777548da5dc6a6bed863651df2ba58eb303f8f4d37b488",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:836eaba0e35670d623777548da5dc6a6bed863651df2ba58eb303f8f4d37b488",

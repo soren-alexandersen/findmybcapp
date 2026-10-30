@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/Jobs365-General/docs/en-US/help.html",
     "sourceHash": "sha256:f758e81eda5d2355d072ad07bae8d3207c8db07bc08cc17fcde733908e9bd566",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f758e81eda5d2355d072ad07bae8d3207c8db07bc08cc17fcde733908e9bd566",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/660930561/EDI",
     "sourceHash": "sha256:ce11c15a2a87c4783424a92da4a3521796f40013156e1b23597204c8058e239e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ce11c15a2a87c4783424a92da4a3521796f40013156e1b23597204c8058e239e",

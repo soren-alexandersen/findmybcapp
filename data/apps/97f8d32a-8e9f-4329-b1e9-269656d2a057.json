@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtOrderManagement",
     "sourceHash": "sha256:6899725d6102c7ef86acdee079957c0aee4ff77ead22b27f749bd97410924ce6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6899725d6102c7ef86acdee079957c0aee4ff77ead22b27f749bd97410924ce6",

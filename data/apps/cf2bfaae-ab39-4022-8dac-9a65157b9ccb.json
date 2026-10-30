@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/bc-apps/batchflow4/",
     "sourceHash": "sha256:c55750edf4b1378925461e5c04731b94157e24b0be9142ab8ef2b35820de4727",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c55750edf4b1378925461e5c04731b94157e24b0be9142ab8ef2b35820de4727",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://partner.multisoft.hu/help-wms-mobilenav/",
     "sourceHash": "sha256:994ed2efa4ed0a5b4ec787440c1e48d0e5eeaa50209b9f0f4ac7a82be8de0e8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:994ed2efa4ed0a5b4ec787440c1e48d0e5eeaa50209b9f0f4ac7a82be8de0e8f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://target-calculator-docs.ha-consultancy.com/",
     "sourceHash": "sha256:33961d4083646897c59ba0bf091412b510d6ab779ceab1a39eb458dc10d010b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33961d4083646897c59ba0bf091412b510d6ab779ceab1a39eb458dc10d010b1",

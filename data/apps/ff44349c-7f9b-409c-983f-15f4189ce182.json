@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dbh.de/kontakt",
     "sourceHash": "sha256:59a92eef9f654dae4465916594567408334c82cac18a136dabc478850b5301fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:59a92eef9f654dae4465916594567408334c82cac18a136dabc478850b5301fa",

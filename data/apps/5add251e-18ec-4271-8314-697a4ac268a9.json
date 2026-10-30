@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.zentriqsoftware.com/docs/install-punchout",
     "sourceHash": "sha256:f5cbc28ced9bcb6dba951a0ae7f3dd5481b2808304bc435888c82ddf2083bca0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f5cbc28ced9bcb6dba951a0ae7f3dd5481b2808304bc435888c82ddf2083bca0",

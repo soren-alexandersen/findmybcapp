@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://clarity-team.com/en/contacts/",
     "sourceHash": "sha256:f8d2cf35cb4c23a79157e3d50486c48bab887d8f698ec8f9f1468db036fb3057",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f8d2cf35cb4c23a79157e3d50486c48bab887d8f698ec8f9f1468db036fb3057",

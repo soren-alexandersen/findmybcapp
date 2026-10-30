@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/hazardous-substances/",
     "sourceHash": "sha256:308c88d2f742ac1e65c6fba3fcef20778bf5b14b5fb60ab1cfefb10611f1941f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:308c88d2f742ac1e65c6fba3fcef20778bf5b14b5fb60ab1cfefb10611f1941f",

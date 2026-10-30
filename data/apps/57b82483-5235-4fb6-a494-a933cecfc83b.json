@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-origins-finance-extended/",
     "sourceHash": "sha256:cba22d501df95b44350021b8501043e256af3fbbc7d6fc3c908003099c5b7301",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cba22d501df95b44350021b8501043e256af3fbbc7d6fc3c908003099c5b7301",

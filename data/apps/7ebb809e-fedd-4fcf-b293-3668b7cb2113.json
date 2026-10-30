@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.ibs-al.com/hr-payroll-management.html",
     "sourceHash": "sha256:b4c725ca35d101eda9617a9aef890f314dc1b0ce5bfff3d1a26fe3f344204e58",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b4c725ca35d101eda9617a9aef890f314dc1b0ce5bfff3d1a26fe3f344204e58",

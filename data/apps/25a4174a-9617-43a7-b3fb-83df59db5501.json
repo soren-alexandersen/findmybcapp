@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/124/Production-Orders-Routing-Progress",
     "sourceHash": "sha256:c7a48baa5ba1eb84ba2b2c05c370563442356a9c7c0aebee3c7c6e1dcf9df61a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c7a48baa5ba1eb84ba2b2c05c370563442356a9c7c0aebee3c7c6e1dcf9df61a",

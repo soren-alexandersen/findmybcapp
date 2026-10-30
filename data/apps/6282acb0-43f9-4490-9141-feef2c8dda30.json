@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-document-sender/",
     "sourceHash": "sha256:786f6753a0171f4955413baaa9018366bd88357f6fcc5b634318b251dbfe0a57",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:786f6753a0171f4955413baaa9018366bd88357f6fcc5b634318b251dbfe0a57",

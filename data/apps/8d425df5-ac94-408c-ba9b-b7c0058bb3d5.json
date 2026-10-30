@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://documentation.trimit.com/",
     "sourceHash": "sha256:091b1b46c50f3c18818497e39eeacefc8515cfe6d681a38f3630f8d034dc0769",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:091b1b46c50f3c18818497e39eeacefc8515cfe6d681a38f3630f8d034dc0769",

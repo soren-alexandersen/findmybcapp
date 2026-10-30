@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.seerbit.com/kb-tickets/new",
     "sourceHash": "sha256:0fd5358958e0303eb0f0fe02dcd5c60de9ed22e26e93d189c7c952fcd9faeb10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0fd5358958e0303eb0f0fe02dcd5c60de9ed22e26e93d189c7c952fcd9faeb10",

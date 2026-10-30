@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/lot-algorithms",
     "sourceHash": "sha256:b3aaece64a00c3eb4a4c58ca6fc1597ba3b031b9c92934beb4a0d4e9cbf58f59",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3aaece64a00c3eb4a4c58ca6fc1597ba3b031b9c92934beb4a0d4e9cbf58f59",

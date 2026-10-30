@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/smart-job-queue/",
     "sourceHash": "sha256:9c0a4cf3280d0789c22228f6a92d0d1a6f94c27a3301a3e6e340222a257a43c7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9c0a4cf3280d0789c22228f6a92d0d1a6f94c27a3301a3e6e340222a257a43c7",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/MEM_D365BC_Help/Content/Topics/NAV_MEM/MEM.htm",
     "sourceHash": "sha256:9074f405a3fd1f0c7597d0420b2adf45a5cf19e91f914b1b65814dd929c8b332",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9074f405a3fd1f0c7597d0420b2adf45a5cf19e91f914b1b65814dd929c8b332",

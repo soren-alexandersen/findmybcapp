@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://curabis.dk/en/apps-for-business-central/cross-channel-management-365-app/",
     "sourceHash": "sha256:6b60ca9fbb732fa7c6980509780aea17781c4d35f865be63f781bc0ccf2da9d0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6b60ca9fbb732fa7c6980509780aea17781c4d35f865be63f781bc0ccf2da9d0",

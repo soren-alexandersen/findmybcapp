@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_Ukrainian_Localization_VAT_Acconting_UserDocumentation.pdf",
     "sourceHash": "sha256:bddbf87d4a17a3f4c404b5764cb1949a7f9b2d371f07013974c5648565cf0b2c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bddbf87d4a17a3f4c404b5764cb1949a7f9b2d371f07013974c5648565cf0b2c",

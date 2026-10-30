@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/lx9peye7o1-microsoft-dynamics-365-export-price-catalogue-to-customer",
     "sourceHash": "sha256:46bb0cdd193b631c2c965669f3215e595a2aa8897128574a6c881a295050fa83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:46bb0cdd193b631c2c965669f3215e595a2aa8897128574a6c881a295050fa83",

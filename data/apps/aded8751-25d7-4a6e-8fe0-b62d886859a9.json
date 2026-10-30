@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://oixio.eu/help-gdpr/",
     "sourceHash": "sha256:356cf6a99cce3c9f5428489956849b19628d315797d9b2a316ffc7d7e0ca0d45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:356cf6a99cce3c9f5428489956849b19628d315797d9b2a316ffc7d7e0ca0d45",

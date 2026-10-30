@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/bydynamics/AL-AITelemetry-Support",
     "sourceHash": "sha256:927b753cfffe1c78b77bfc647ca0ddbe6d2ff68e9168ff839a8987e8b064ecde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:927b753cfffe1c78b77bfc647ca0ddbe6d2ff68e9168ff839a8987e8b064ecde",

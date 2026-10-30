@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/e-documents/",
     "sourceHash": "sha256:c0fa0eec25b011b752aa65996d676999cc371c03a180593814380121e635b52d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c0fa0eec25b011b752aa65996d676999cc371c03a180593814380121e635b52d",

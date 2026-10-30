@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.payhawk.com/en/",
     "sourceHash": "sha256:c337b6058cddbf7933eb3212577de3ff8451f67b24e7e79fc485e6c5d15d5c05",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c337b6058cddbf7933eb3212577de3ff8451f67b24e7e79fc485e6c5d15d5c05",

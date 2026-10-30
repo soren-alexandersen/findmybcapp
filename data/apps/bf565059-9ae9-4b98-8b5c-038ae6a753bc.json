@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/CIC/",
     "sourceHash": "sha256:ea0b710c84c363d5c0be10964457fcd15ffba10c841a61f17da9f778a586cbc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ea0b710c84c363d5c0be10964457fcd15ffba10c841a61f17da9f778a586cbc4",

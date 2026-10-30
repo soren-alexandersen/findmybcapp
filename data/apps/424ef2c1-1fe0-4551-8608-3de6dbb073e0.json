@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://connect.logtrade.se/bc/docs/",
     "sourceHash": "sha256:a36d769b49e4ab95b468537afa6d155480b2df28363e7c05b494d8f32aac8cca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a36d769b49e4ab95b468537afa6d155480b2df28363e7c05b494d8f32aac8cca",

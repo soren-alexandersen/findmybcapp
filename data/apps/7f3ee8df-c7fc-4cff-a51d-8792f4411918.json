@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbpdcmanager",
     "sourceHash": "sha256:c1f26411e3c4b23a6ce08c53f1c5c58d8bdb1d1e0b81492a7d3f93e8b2867847",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c1f26411e3c4b23a6ce08c53f1c5c58d8bdb1d1e0b81492a7d3f93e8b2867847",

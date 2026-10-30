@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://simcrest.com/contact",
     "sourceHash": "sha256:1ea0a2f99e5c93f3eb83435fd5c964673241b7cf3ad07077e95868f1b3089517",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1ea0a2f99e5c93f3eb83435fd5c964673241b7cf3ad07077e95868f1b3089517",

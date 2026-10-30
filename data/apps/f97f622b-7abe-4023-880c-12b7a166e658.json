@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://telosteam.dk/apps/dnb/#help",
     "sourceHash": "sha256:a0df280a5dd414901f19792bf2228e8559d6714d1ff9719b12a18e6f22cf96d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a0df280a5dd414901f19792bf2228e8559d6714d1ff9719b12a18e6f22cf96d2",

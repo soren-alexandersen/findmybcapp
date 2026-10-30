@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/660931563/File+Exchange+Handler",
     "sourceHash": "sha256:3e6d640bc3dcb7779bbcf84f0fa10303edfa9baad4d0aa43b0154890da698174",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e6d640bc3dcb7779bbcf84f0fa10303edfa9baad4d0aa43b0154890da698174",

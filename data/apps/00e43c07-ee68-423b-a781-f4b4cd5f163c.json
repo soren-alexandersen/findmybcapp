@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/scan/",
     "sourceHash": "sha256:bb28ef9ec1af86c6ab763de058c8797451a85b3d0210b1fa0b8cb9c8a611db76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bb28ef9ec1af86c6ab763de058c8797451a85b3d0210b1fa0b8cb9c8a611db76",

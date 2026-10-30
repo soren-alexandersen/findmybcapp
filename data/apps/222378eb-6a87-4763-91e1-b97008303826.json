@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicaspect.com.au/contact",
     "sourceHash": "sha256:e9f225983ac70b1e948045e23cf3f58ddcfdf1ca888fba2068d2ccb6ba3eedd1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e9f225983ac70b1e948045e23cf3f58ddcfdf1ca888fba2068d2ccb6ba3eedd1",

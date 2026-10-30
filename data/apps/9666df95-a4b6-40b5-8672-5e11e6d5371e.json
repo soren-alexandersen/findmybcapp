@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-kmu",
     "sourceHash": "sha256:61363083bef51c501ac7d76efee2b1e705e7cb486d63a041deeddd74b3834b83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:61363083bef51c501ac7d76efee2b1e705e7cb486d63a041deeddd74b3834b83",

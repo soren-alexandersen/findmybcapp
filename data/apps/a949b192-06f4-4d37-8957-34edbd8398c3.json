@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/invoice-connector/",
     "sourceHash": "sha256:df16403913b7a67ad4faab6c0495374825f86233d6e48ef06284de9cdff467cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df16403913b7a67ad4faab6c0495374825f86233d6e48ef06284de9cdff467cf",

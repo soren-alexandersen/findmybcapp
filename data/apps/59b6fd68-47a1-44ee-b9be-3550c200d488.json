@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/cost-accounting-production-costing/docs/",
     "sourceHash": "sha256:afb8feb1fbf70e9d5519ea91374cca3342282cd2cb4f338e51f4f354b7874848",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:afb8feb1fbf70e9d5519ea91374cca3342282cd2cb4f338e51f4f354b7874848",

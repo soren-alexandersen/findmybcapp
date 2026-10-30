@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynasys.tech/solutions/maintenance-manager/docs",
     "sourceHash": "sha256:18a293a5a05b8531bd757b704b4a95895856040f5ea5a33c1c38224741e75609",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18a293a5a05b8531bd757b704b4a95895856040f5ea5a33c1c38224741e75609",

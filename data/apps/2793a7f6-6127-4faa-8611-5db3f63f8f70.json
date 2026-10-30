@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-bridge",
     "sourceHash": "sha256:c3ebc8f77d773ad6787a632f267ec649f4d348f62c06adb7792d34e5b2478343",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c3ebc8f77d773ad6787a632f267ec649f4d348f62c06adb7792d34e5b2478343",

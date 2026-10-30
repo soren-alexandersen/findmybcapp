@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Benson-Integration",
     "sourceHash": "sha256:bf12958bf02abcae2d3d9f1a6f8300af421eb6c61b046c7bc0dc1d0e363d48cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bf12958bf02abcae2d3d9f1a6f8300af421eb6c61b046c7bc0dc1d0e363d48cf",

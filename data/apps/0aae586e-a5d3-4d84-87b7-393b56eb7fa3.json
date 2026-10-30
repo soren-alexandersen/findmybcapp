@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsapplab.com/apps/al-dimensions/help",
     "sourceHash": "sha256:bab3c8f48a3e924c6157b6fb591ea06b60ea0e8956d034b05d9aba7602659bb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bab3c8f48a3e924c6157b6fb591ea06b60ea0e8956d034b05d9aba7602659bb8",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/AntaresAppsDoo/Wiki/blob/main/SerbianLanguage.md",
     "sourceHash": "sha256:fcaddd7a059e2cf623c065328d3d8c5db291e24aaaed66b7616878ef8e50aff1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fcaddd7a059e2cf623c065328d3d8c5db291e24aaaed66b7616878ef8e50aff1",

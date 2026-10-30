@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.dynavics.com/",
     "sourceHash": "sha256:66e10fe675d98b061e981e77f9ac8254c529f32461051a899ae0bac7635a92c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66e10fe675d98b061e981e77f9ac8254c529f32461051a899ae0bac7635a92c2",

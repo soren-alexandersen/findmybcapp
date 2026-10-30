@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Sage300-Payroll-Integration/",
     "sourceHash": "sha256:e3e5d303a8007320514f718910b0aa97a1724a79c1bade8579a68d3d757d96d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e3e5d303a8007320514f718910b0aa97a1724a79c1bade8579a68d3d757d96d2",

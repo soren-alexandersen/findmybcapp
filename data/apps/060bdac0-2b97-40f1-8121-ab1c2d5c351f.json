@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://stefanmaron.com/business-central-clockify-integration/",
     "sourceHash": "sha256:701d1cd7471f428b48332189d5aade13ba89fcce313ea57bda693bdb7f4d5777",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:701d1cd7471f428b48332189d5aade13ba89fcce313ea57bda693bdb7f4d5777",

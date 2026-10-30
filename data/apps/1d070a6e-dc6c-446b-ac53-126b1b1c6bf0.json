@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://suiteengine.com/help/#productivityapps",
     "sourceHash": "sha256:df394f10631b358c3768868e06a967d2e562e323c8a95033bc7bcff3d86287a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df394f10631b358c3768868e06a967d2e562e323c8a95033bc7bcff3d86287a8",

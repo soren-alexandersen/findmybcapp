@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/ikhokha-payment-link",
     "sourceHash": "sha256:af8daf1479b8b630b29ce5018b9ea5bd7408ade90774b24ae96dfe6028a81541",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:af8daf1479b8b630b29ce5018b9ea5bd7408ade90774b24ae96dfe6028a81541",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.evozon.com/erp-ms-dynamics/",
     "sourceHash": "sha256:2af2e1d1e2140dd0e10b7c4b8345a03594957b50a1443411590c1b47e00cf0ac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2af2e1d1e2140dd0e10b7c4b8345a03594957b50a1443411590c1b47e00cf0ac",

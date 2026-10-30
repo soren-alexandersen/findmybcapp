@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-edi/",
     "sourceHash": "sha256:87f1f48c883ffe0f722cf657702cd72a4e65ec12c90df2cbff72f65d60b50d98",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:87f1f48c883ffe0f722cf657702cd72a4e65ec12c90df2cbff72f65d60b50d98",

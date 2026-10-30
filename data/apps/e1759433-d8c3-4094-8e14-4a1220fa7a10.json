@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Excise_Duties_Manual.pdf",
     "sourceHash": "sha256:f809ae8984cb415683e553b1e877920eb8dce859ff9c9cb8a6ae777c8653f5be",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f809ae8984cb415683e553b1e877920eb8dce859ff9c9cb8a6ae777c8653f5be",

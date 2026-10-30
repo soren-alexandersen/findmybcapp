@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/bc-apps/pax8-connector/",
     "sourceHash": "sha256:33cd8a5f119d522244b1082b3ddf818dbffdaebbb654d81f2cda50c0225a041c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33cd8a5f119d522244b1082b3ddf818dbffdaebbb654d81f2cda50c0225a041c",

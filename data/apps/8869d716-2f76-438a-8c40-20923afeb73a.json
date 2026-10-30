@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/478347270/Licensing+App",
     "sourceHash": "sha256:6ec4adf44ff421d7502bd79464ca25dc905546c947d373b835d8c4ff2f773e5d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6ec4adf44ff421d7502bd79464ca25dc905546c947d373b835d8c4ff2f773e5d",

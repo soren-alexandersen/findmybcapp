@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/bc-apps/postnord",
     "sourceHash": "sha256:8cd82ca61cb72e0cd7099a44b08f95e0b4f4d3e01722d5b51a8203c05936d262",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8cd82ca61cb72e0cd7099a44b08f95e0b4f4d3e01722d5b51a8203c05936d262",

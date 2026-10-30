@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ktc.de/bc/app/tbp",
     "sourceHash": "sha256:30eca48362f8bdb3595a91d104f6dd8e96b1df7c6242e6a822311c1d4e7d54b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:30eca48362f8bdb3595a91d104f6dd8e96b1df7c6242e6a822311c1d4e7d54b0",

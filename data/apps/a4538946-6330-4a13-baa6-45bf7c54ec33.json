@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fava.twoday.dk/",
     "sourceHash": "sha256:6a4baccf3a43e17aace7554088c42ea7729851c84c13759fa8c7957856607b2b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6a4baccf3a43e17aace7554088c42ea7729851c84c13759fa8c7957856607b2b",

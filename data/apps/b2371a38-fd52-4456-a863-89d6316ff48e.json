@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-nav-addons/visioncatering",
     "sourceHash": "sha256:9daaccdc3c4fd28707812f44709710c01baed2bb3b58774cd632ea581b39acf1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9daaccdc3c4fd28707812f44709710c01baed2bb3b58774cd632ea581b39acf1",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/history-and-statistics",
     "sourceHash": "sha256:b0a3f1892578b2e312c0d565c7bf798dc6d4659b6d5b4f2db558edf3cbe8ac3c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b0a3f1892578b2e312c0d565c7bf798dc6d4659b6d5b4f2db558edf3cbe8ac3c",

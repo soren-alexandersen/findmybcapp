@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/key-vault-link",
     "sourceHash": "sha256:0bef418db7c5aea864fb7fcc24696c4f6cc115c3a320be66c5f705c85bb20e37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0bef418db7c5aea864fb7fcc24696c4f6cc115c3a320be66c5f705c85bb20e37",

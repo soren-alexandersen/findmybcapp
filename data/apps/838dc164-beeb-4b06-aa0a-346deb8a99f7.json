@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://teqhou.com/products/d365-business-central/d365-business-central/",
     "sourceHash": "sha256:f0fbf3ba9ee7dfad763705ae0f599e48d3c92d8af1620d95a0768ade9e6739f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f0fbf3ba9ee7dfad763705ae0f599e48d3c92d8af1620d95a0768ade9e6739f9",

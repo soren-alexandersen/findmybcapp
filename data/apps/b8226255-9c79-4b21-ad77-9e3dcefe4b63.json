@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vistascloud.com/contact-us/",
     "sourceHash": "sha256:86ed04d4dc72421020d3cc439f3625577c58c6e74aca2439ebf525f818397523",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:86ed04d4dc72421020d3cc439f3625577c58c6e74aca2439ebf525f818397523",

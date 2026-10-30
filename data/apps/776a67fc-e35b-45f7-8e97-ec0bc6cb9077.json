@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://smart.agent.net.ai/docs",
     "sourceHash": "sha256:49b50ad8e07f392179596e35dbd3281d0683ac477b28f9b18e41c10d20b09f16",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:49b50ad8e07f392179596e35dbd3281d0683ac477b28f9b18e41c10d20b09f16",

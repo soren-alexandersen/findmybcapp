@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/cleverlabelling/labellinguserguide",
     "sourceHash": "sha256:22c0ed2d385b3d0c49bd3f5e0f5667186e0fc871e86dd14fb4b6daed921a1daf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:22c0ed2d385b3d0c49bd3f5e0f5667186e0fc871e86dd14fb4b6daed921a1daf",

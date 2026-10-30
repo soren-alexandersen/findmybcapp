@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/out-of-office",
     "sourceHash": "sha256:569f420d1b236832f6e0917bc93accfba37c2f636686eb315bec6673864cc891",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:569f420d1b236832f6e0917bc93accfba37c2f636686eb315bec6673864cc891",

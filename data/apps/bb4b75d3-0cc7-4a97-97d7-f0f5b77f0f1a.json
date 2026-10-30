@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/shipmentextender/taskletmobilewms/overview/",
     "sourceHash": "sha256:26b5b6a876a7e616248ad8b3570c47a496eb1d4a9a77aac08b514f4755eedb8a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:26b5b6a876a7e616248ad8b3570c47a496eb1d4a9a77aac08b514f4755eedb8a",

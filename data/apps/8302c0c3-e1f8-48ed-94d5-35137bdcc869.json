@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/timelog-psa/#userguide",
     "sourceHash": "sha256:9175f55ea62c165fa324dac266a6e245f374a365af97525c0cd18a9b94ae2bae",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9175f55ea62c165fa324dac266a6e245f374a365af97525c0cd18a9b94ae2bae",

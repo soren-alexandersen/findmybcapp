@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://printconnect.help.be-terna.com/",
     "sourceHash": "sha256:11000da6df140bb6e25612698cf0aed80d63aa68abf82297d37fd36a2fdf531b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:11000da6df140bb6e25612698cf0aed80d63aa68abf82297d37fd36a2fdf531b",

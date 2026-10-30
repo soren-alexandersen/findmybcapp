@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/it_IT/asset-tracker",
     "sourceHash": "sha256:d21771628ff5d044009098b2599173d310d3f58992ed05a0d4296b7b388852fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d21771628ff5d044009098b2599173d310d3f58992ed05a0d4296b7b388852fb",

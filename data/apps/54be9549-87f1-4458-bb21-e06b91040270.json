@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.xe.com/hc/en-gb/sections/17480365140753-Using-Xe-with-Microsoft-Dynamics-365-Business-Central",
     "sourceHash": "sha256:7fdd5cd5cbd8a779f6191b5cd966cbfbc8828cf9fc6f64ae4fa5469c6ea559a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7fdd5cd5cbd8a779f6191b5cd966cbfbc8828cf9fc6f64ae4fa5469c6ea559a6",

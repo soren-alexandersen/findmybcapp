@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/AOW/",
     "sourceHash": "sha256:a04525a7e82828bc9eebf277c81ecbb49b9f4b6efb4daaed2e1d0c3ff63c16a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a04525a7e82828bc9eebf277c81ecbb49b9f4b6efb4daaed2e1d0c3ff63c16a8",

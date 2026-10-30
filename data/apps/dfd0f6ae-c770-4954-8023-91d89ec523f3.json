@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infotech-inc.com/infotech-document-management",
     "sourceHash": "sha256:58890b499a2e5f855db69950b5277b0882fa2cf6c89c10a39392caa3d2fc6a65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:58890b499a2e5f855db69950b5277b0882fa2cf6c89c10a39392caa3d2fc6a65",

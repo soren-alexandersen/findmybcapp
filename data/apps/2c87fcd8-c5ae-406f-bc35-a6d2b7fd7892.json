@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ISS/",
     "sourceHash": "sha256:e06c7c65bcbe15310fadadecc3793ef7c11f9dd112aca0ae3f2270dc610ac4e3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e06c7c65bcbe15310fadadecc3793ef7c11f9dd112aca0ae3f2270dc610ac4e3",

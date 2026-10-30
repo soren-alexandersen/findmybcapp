@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-PSO/en-US/PSO/index.html",
     "sourceHash": "sha256:460dc219fb4c24d79f10b3d7d14eff0189c43586a5ce6d2c5cbc9090a0fe0091",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:460dc219fb4c24d79f10b3d7d14eff0189c43586a5ce6d2c5cbc9090a0fe0091",

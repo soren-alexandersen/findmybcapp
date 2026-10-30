@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://wipfliapps.github.io/concurconnect/BusinessCentral.html",
     "sourceHash": "sha256:11c3478d24c60c52ddb641d79e726902052c30eb121e02ea9072bd32ffb75952",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:11c3478d24c60c52ddb641d79e726902052c30eb121e02ea9072bd32ffb75952",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.atlar.com/docs/welcome",
     "sourceHash": "sha256:85a9ce272cdf0b657922d532229057347fc00fbc318975c17e3590ab13a61f52",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:85a9ce272cdf0b657922d532229057347fc00fbc318975c17e3590ab13a61f52",

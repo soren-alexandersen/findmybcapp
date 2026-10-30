@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/project-time-mobile/#howto",
     "sourceHash": "sha256:19e3b6af5962f1ef7f0c6e29fd1f3f814d810d36affddb8e070181b531dc63d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:19e3b6af5962f1ef7f0c6e29fd1f3f814d810d36affddb8e070181b531dc63d2",

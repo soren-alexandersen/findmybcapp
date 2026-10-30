@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://amann-informatik.zammad.com/",
     "sourceHash": "sha256:19b184ec0ed1a9b2e78ef18a44c43295113b9fc7b8dabbf40ea2b1b04931f3c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:19b184ec0ed1a9b2e78ef18a44c43295113b9fc7b8dabbf40ea2b1b04931f3c4",

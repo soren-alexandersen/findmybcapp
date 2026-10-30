@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://success.medius.com/documentation/cts-documentation/Cloud-Connectors/D365BC/D365BC_introduction/",
     "sourceHash": "sha256:c7b1c3af809ef077dc31d85fe214ed598af827516392286f9ab55918cbbed26d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c7b1c3af809ef077dc31d85fe214ed598af827516392286f9ab55918cbbed26d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://builddynamics.com.au/help/magento/",
     "sourceHash": "sha256:688e1aa2ceb87249a98bb115527e74b322dd89dc265d15e6121c5ed25cf8df54",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:688e1aa2ceb87249a98bb115527e74b322dd89dc265d15e6121c5ed25cf8df54",

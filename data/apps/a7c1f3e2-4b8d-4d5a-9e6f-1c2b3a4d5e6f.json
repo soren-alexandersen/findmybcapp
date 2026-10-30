@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.soak.dk/docs/business-central/business-central-monitorering",
     "sourceHash": "sha256:925024eb315e9f21edaaf8d28adb8b006aae86d0338a7c6750a63835f5002baf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:925024eb315e9f21edaaf8d28adb8b006aae86d0338a7c6750a63835f5002baf",

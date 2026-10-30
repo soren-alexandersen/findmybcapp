@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/hegla-hanic/Hanic/_wiki/wikis/Anwender%20Dokumentation",
     "sourceHash": "sha256:8bf50fc3707ccfff5112b4a6dceea6d8d4ef530b44d5ac5d44343ed0eac810b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8bf50fc3707ccfff5112b4a6dceea6d8d4ef530b44d5ac5d44343ed0eac810b8",

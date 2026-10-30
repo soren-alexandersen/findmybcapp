@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://aka.ms/bcedocuments",
     "sourceHash": "sha256:f4d4fdafcf9708d7bf7dec6550c02ee6f3f2372b231b604eaca94b67d7c20a26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f4d4fdafcf9708d7bf7dec6550c02ee6f3f2372b231b604eaca94b67d7c20a26",

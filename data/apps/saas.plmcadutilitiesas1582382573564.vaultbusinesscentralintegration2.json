@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": null,
     "sourceHash": "sha256:e1801ce8c091628810dd3994dc9c39c5763f5e7589c00ebd8a5d005a3443f67e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e1801ce8c091628810dd3994dc9c39c5763f5e7589c00ebd8a5d005a3443f67e",

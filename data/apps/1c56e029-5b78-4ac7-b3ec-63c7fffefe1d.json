@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.softera.lt/en/softera-warehouse-management-user-manual/",
     "sourceHash": "sha256:f74e23a25549b86fda447ead5c1f359d077a94968b14e46e44350786eb8395b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f74e23a25549b86fda447ead5c1f359d077a94968b14e46e44350786eb8395b7",

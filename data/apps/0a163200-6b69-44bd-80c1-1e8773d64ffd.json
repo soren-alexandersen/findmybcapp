@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hcs.ie/hcs-special-order/",
     "sourceHash": "sha256:56b5101bccde676f2be260c7fcc56f67659fa7738e7e3bc78279464b3aea561e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:56b5101bccde676f2be260c7fcc56f67659fa7738e7e3bc78279464b3aea561e",

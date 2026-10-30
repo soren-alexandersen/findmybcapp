@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bydynamics.com/contact/",
     "sourceHash": "sha256:38824a4aaff26c3b670b6c8d4040021fbc0e055c5d2430c3a2828ff6f8a0d5a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:38824a4aaff26c3b670b6c8d4040021fbc0e055c5d2430c3a2828ff6f8a0d5a2",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/item-ledger-compression-business-central/",
     "sourceHash": "sha256:21540d551c8ca241a199639ae40a09d117516000b0963139b8c90ae7b212b40a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:21540d551c8ca241a199639ae40a09d117516000b0963139b8c90ae7b212b40a",

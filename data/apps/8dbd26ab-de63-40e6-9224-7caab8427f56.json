@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/clever-warehouse-plus/user-guide/setup/bin-formats",
     "sourceHash": "sha256:06cb1f6d551d171c3cb2b29583d843adcd2b60a6df060ad37f2fe7fccee771cb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:06cb1f6d551d171c3cb2b29583d843adcd2b60a6df060ad37f2fe7fccee771cb",

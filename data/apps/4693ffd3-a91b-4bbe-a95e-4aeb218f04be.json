@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.elysys.com/elysys-loan-accounting-software",
     "sourceHash": "sha256:135188db59027282470108436a64480ec8e93d85a7516f8b88bf5087d33c5237",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:135188db59027282470108436a64480ec8e93d85a7516f8b88bf5087d33c5237",

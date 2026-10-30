@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-document-reversing",
     "sourceHash": "sha256:8f7c86ca5b423169d45fab59c59bbdfd4b1330a7345ea46c475ac0eaf7325d1a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8f7c86ca5b423169d45fab59c59bbdfd4b1330a7345ea46c475ac0eaf7325d1a",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/work-order-checklist/manage/",
     "sourceHash": "sha256:b3f5870001961be5c679d303d0155bc4f2fd79d21c26922fd688868cc0a76b7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b3f5870001961be5c679d303d0155bc4f2fd79d21c26922fd688868cc0a76b7c",

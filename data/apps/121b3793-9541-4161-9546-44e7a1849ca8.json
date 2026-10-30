@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://charon-inc.co.jp/contact/",
     "sourceHash": "sha256:6574018e31fe199216965dc2620de55f2f0a2d6d5ca66d3f179bfc4cffa9521c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6574018e31fe199216965dc2620de55f2f0a2d6d5ca66d3f179bfc4cffa9521c",

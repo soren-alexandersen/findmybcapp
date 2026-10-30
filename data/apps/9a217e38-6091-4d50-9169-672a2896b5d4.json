@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fornav.com/peppol/",
     "sourceHash": "sha256:9e0e6d12b19be8dc5a2a89d884cfa3606d08ffa31a1cdeeecfa93ac8d236aff4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e0e6d12b19be8dc5a2a89d884cfa3606d08ffa31a1cdeeecfa93ac8d236aff4",

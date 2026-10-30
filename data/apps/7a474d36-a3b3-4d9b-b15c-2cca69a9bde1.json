@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/collective_invoicing",
     "sourceHash": "sha256:d431dd2640c4fd4eb839a5f71a6510e9c4e1c64e68def46917d2112cf95e6f09",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d431dd2640c4fd4eb839a5f71a6510e9c4e1c64e68def46917d2112cf95e6f09",

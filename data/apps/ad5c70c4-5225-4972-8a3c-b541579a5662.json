@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/apps/mdcpay/",
     "sourceHash": "sha256:399a9087f696352f72dc541561e6a1dd7e6d2ae9b62f71240349d6cc0da0f73c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:399a9087f696352f72dc541561e6a1dd7e6d2ae9b62f71240349d6cc0da0f73c",

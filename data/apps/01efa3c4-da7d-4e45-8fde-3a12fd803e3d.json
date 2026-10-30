@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://imqualitycompliance.help.im-projects.com/",
     "sourceHash": "sha256:7e27ae3be3dc90fc23f5617f2d2356924f49f2bb185c27aca613ad2fcdfab3b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7e27ae3be3dc90fc23f5617f2d2356924f49f2bb185c27aca613ad2fcdfab3b5",

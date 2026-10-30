@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-cash-flow-tr",
     "sourceHash": "sha256:9ab5636073c34e962a8d2e7847160c9bd425775f7bfd198cc8799022eae34cf4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9ab5636073c34e962a8d2e7847160c9bd425775f7bfd198cc8799022eae34cf4",

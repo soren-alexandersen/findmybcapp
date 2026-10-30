@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/bc-apps/shipmondoconnector/",
     "sourceHash": "sha256:4c4aa0259275f7c094ed75541cb46bc365de80d955dd4d2df59405dd8273b07f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c4aa0259275f7c094ed75541cb46bc365de80d955dd4d2df59405dd8273b07f",

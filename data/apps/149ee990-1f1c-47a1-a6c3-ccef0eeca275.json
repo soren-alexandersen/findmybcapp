@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://eliteit.dk/en/elite-planner/",
     "sourceHash": "sha256:643921cf8dd1fd5a7ea2cde5ce2d28ec32445a4cfbf7b52b4af1ddad32bb5e29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:643921cf8dd1fd5a7ea2cde5ce2d28ec32445a4cfbf7b52b4af1ddad32bb5e29",

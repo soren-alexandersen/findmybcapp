@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/designer/",
     "sourceHash": "sha256:0dd8aaccb035fb16e12328de54e1cae9e4d058b69c35cc1db7640c439ff7f8e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0dd8aaccb035fb16e12328de54e1cae9e4d058b69c35cc1db7640c439ff7f8e2",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/production_planning",
     "sourceHash": "sha256:954624063c9f82af45038cfb3b7d870aa05004632741e25f7fcce98d03634f8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:954624063c9f82af45038cfb3b7d870aa05004632741e25f7fcce98d03634f8f",

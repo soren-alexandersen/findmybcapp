@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://rts-business-solutions.github.io/vensafe-docs/index",
     "sourceHash": "sha256:b2b1a5ffdf22aac2198508dd92edb0a474751b855552566f12b19b8bf0df41d6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b2b1a5ffdf22aac2198508dd92edb0a474751b855552566f12b19b8bf0df41d6",

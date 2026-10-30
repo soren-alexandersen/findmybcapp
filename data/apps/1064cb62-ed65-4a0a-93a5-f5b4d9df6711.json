@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eynasofteam.com/soluciones/advanced-package-management/",
     "sourceHash": "sha256:3a9f666417250fd6b0303e8ec0f37677ccedc8fb52cc6c6501dc18834574d663",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3a9f666417250fd6b0303e8ec0f37677ccedc8fb52cc6c6501dc18834574d663",

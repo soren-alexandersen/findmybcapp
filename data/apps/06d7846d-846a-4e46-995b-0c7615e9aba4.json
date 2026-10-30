@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/edi/",
     "sourceHash": "sha256:98df964f45cee1ac76325de3a27878018397a43063ba9e3f0b8a4ceaec93f703",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98df964f45cee1ac76325de3a27878018397a43063ba9e3f0b8a4ceaec93f703",

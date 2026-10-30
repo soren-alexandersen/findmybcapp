@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bcappmaker.com/support",
     "sourceHash": "sha256:f2c7d3e23a06d505e632a224b991b92ed971afcfe684d94e5186788d014447cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f2c7d3e23a06d505e632a224b991b92ed971afcfe684d94e5186788d014447cd",

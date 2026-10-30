@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/cash-flow-statement/",
     "sourceHash": "sha256:8e9fbfc2264ceadc17b84d96705734599ae4950eb24616f0f9bae8fbfe352d51",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8e9fbfc2264ceadc17b84d96705734599ae4950eb24616f0f9bae8fbfe352d51",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lookio.com/help.html",
     "sourceHash": "sha256:cb6241c4900b52996901181d627bf2e3bf32582dcabbb8eeddf4e774edc49b55",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cb6241c4900b52996901181d627bf2e3bf32582dcabbb8eeddf4e774edc49b55",

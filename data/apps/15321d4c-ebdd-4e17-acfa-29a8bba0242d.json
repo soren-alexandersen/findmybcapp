@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.aasatwork.nl/",
     "sourceHash": "sha256:74222aeb3d89352785c6d10a467d4df101c44d1ae6a8b242e9d886bcbe1918cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74222aeb3d89352785c6d10a467d4df101c44d1ae6a8b242e9d886bcbe1918cf",

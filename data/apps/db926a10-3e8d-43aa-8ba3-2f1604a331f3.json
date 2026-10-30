@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.voxa.com.ar/contact/",
     "sourceHash": "sha256:b3daeeda21064e29b1fdf02cb43de7bdaec04bf692fec569b7b5c0a27be9795d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3daeeda21064e29b1fdf02cb43de7bdaec04bf692fec569b7b5c0a27be9795d",

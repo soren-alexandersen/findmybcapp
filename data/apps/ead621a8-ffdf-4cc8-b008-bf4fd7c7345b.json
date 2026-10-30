@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-free-goods-sfg.html",
     "sourceHash": "sha256:2315273ac44a882990288dd6b25ade717f91a2442ef1c14c008cf2d241d1bfad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2315273ac44a882990288dd6b25ade717f91a2442ef1c14c008cf2d241d1bfad",

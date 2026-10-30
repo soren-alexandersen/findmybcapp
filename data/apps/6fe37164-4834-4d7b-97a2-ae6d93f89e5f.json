@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.signupsoftware.com/business-central/",
     "sourceHash": "sha256:d3521a104336ea2e63ffeef69f4cd0ce1bda112ad1b0fe11c7ce41409b1c085b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d3521a104336ea2e63ffeef69f4cd0ce1bda112ad1b0fe11c7ce41409b1c085b",

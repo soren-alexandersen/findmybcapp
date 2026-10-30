@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-crm",
     "sourceHash": "sha256:887a45b7eb6c7c878a312d2a41fc7832821272ad4e37e0c3f260ae2eb97ac524",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:887a45b7eb6c7c878a312d2a41fc7832821272ad4e37e0c3f260ae2eb97ac524",

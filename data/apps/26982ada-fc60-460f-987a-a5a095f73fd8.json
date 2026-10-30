@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sharperlight.com/resources/",
     "sourceHash": "sha256:67d23779ba42db5aac8621476d99d93887de731fa61be37ea5a48ae38c01889b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:67d23779ba42db5aac8621476d99d93887de731fa61be37ea5a48ae38c01889b",

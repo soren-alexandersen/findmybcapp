@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/serial-shipping-container-codes",
     "sourceHash": "sha256:bea22ccd594d3bdc67a8f05072823e441e3e812d1c03198e51c318c6ed640a10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bea22ccd594d3bdc67a8f05072823e441e3e812d1c03198e51c318c6ed640a10",

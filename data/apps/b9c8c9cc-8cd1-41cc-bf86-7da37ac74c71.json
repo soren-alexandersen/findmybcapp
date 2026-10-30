@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/freeze-for-dynamics-365-bc-de-de",
     "sourceHash": "sha256:7db4c2022fdb55320477b5ae2f616bbd0221379b6423aa48b5b9115706459d4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7db4c2022fdb55320477b5ae2f616bbd0221379b6423aa48b5b9115706459d4c",

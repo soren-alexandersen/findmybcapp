@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.connamix.com/cxcentralcompany/",
     "sourceHash": "sha256:448f9aa27ce70b51cbda510f9699d9b7a469f00efc571058c108bded32b0feb4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:448f9aa27ce70b51cbda510f9699d9b7a469f00efc571058c108bded32b0feb4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oseberg.no/",
     "sourceHash": "sha256:fb9036412970314b726855cf5a1c6edf3d896ccad2ac5840bdb3550751d8e2f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fb9036412970314b726855cf5a1c6edf3d896ccad2ac5840bdb3550751d8e2f3",

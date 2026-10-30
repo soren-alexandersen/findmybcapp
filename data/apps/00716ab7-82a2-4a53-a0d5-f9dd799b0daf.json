@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/ECEHelp/ECE.htm",
     "sourceHash": "sha256:b4167d1c45d7d1c86931839f14a846084fd5da661513847e3b2074b3a4af0f10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b4167d1c45d7d1c86931839f14a846084fd5da661513847e3b2074b3a4af0f10",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.aritma.com/swebase-docs",
     "sourceHash": "sha256:3d6f5876bf150c11b7f08ef386e32974150ac431b1025af4671406b791017cfc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3d6f5876bf150c11b7f08ef386e32974150ac431b1025af4671406b791017cfc",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/ProductCatalog/en-US/Apps/OnRoute/Docs/Business%20Value.html",
     "sourceHash": "sha256:cabf9d290f5d401962a8523d43e1d2e093a12f16b3f59a9d13e9d77d4384d5f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cabf9d290f5d401962a8523d43e1d2e093a12f16b3f59a9d13e9d77d4384d5f9",

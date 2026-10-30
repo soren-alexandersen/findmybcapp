@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://confluence.external-share.com/content/6d457c3d-fea6-4a66-a1f0-77a82b3de991",
     "sourceHash": "sha256:fa7715e36605c23f8817f2052f4eff28e5fa473c2db0c3bc6a2d68a62f22673d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fa7715e36605c23f8817f2052f4eff28e5fa473c2db0c3bc6a2d68a62f22673d",

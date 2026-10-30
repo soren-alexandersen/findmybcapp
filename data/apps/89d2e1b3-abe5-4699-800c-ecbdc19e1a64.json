@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/ProductCatalog/en-US/Apps/acadonPrintNodeIntegration/Docs/application.html",
     "sourceHash": "sha256:fb03cc28d901848b2fe969dea394b3a8b6a2db3b76d9d69b2df352050e7a2c2f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fb03cc28d901848b2fe969dea394b3a8b6a2db3b76d9d69b2df352050e7a2c2f",

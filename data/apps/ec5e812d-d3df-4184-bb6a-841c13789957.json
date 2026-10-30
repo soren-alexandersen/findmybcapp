@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://dynamicspro.ca/help/smartflow-aps",
     "sourceHash": "sha256:2aa56bf4fe619ff5d628ff79fd483ff8bcd6f38deed0a23a26d54e73c1b65ea1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2aa56bf4fe619ff5d628ff79fd483ff8bcd6f38deed0a23a26d54e73c1b65ea1",

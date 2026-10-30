@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://deltanexx.com/storecove-e-invoicing/",
     "sourceHash": "sha256:21209eec8c8a77fc5e95e4f3a9c2ba36080d6b332092ec10100b8fd06b7c31cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:21209eec8c8a77fc5e95e4f3a9c2ba36080d6b332092ec10100b8fd06b7c31cc",

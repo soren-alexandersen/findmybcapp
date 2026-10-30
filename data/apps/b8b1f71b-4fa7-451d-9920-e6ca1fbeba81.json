@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.wisetime.com/hc/en-us/articles/4410833712143",
     "sourceHash": "sha256:965211ce990cefc222da772b1ae12288785904cd613e2e5b486dc62a0b322724",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:965211ce990cefc222da772b1ae12288785904cd613e2e5b486dc62a0b322724",

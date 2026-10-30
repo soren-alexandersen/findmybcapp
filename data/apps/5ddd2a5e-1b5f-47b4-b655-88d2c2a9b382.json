@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Spare-Brained-Community/Spare-Brained-Licensing/issues",
     "sourceHash": "sha256:a86819b173a70ae2aee951bbdacb2b2ec5a20f45e2f803f57cabf5d46619682c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a86819b173a70ae2aee951bbdacb2b2ec5a20f45e2f803f57cabf5d46619682c",

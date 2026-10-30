@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scanman/index.html",
     "sourceHash": "sha256:9ef56a84cfd34bc50052b5c16ca45245ba6cf17a0c8ea764a3fe4a9a767719b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9ef56a84cfd34bc50052b5c16ca45245ba6cf17a0c8ea764a3fe4a9a767719b3",

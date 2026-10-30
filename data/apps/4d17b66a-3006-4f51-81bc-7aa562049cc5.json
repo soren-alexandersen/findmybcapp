@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docsd365.seyfor.com/en-us",
     "sourceHash": "sha256:1ad92666cba06e28b838026cf45bb5c2d4ce946967fcc5d18a9a25b3907eb005",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1ad92666cba06e28b838026cf45bb5c2d4ce946967fcc5d18a9a25b3907eb005",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://team-vision.bg/en/support/",
     "sourceHash": "sha256:614754e16db685def0792706d8dff13f3bec6441e570dc51d5e6937fc273aa3c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:614754e16db685def0792706d8dff13f3bec6441e570dc51d5e6937fc273aa3c",

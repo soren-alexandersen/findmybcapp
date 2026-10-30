@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/data-security.html",
     "sourceHash": "sha256:445862e2cc9c231bedde8753b656c3ed034daaff94dc8547761bbe2b35c3e796",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:445862e2cc9c231bedde8753b656c3ed034daaff94dc8547761bbe2b35c3e796",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://core.reactor.help.be-terna.com/pages/documentation/",
     "sourceHash": "sha256:097c0aea60f6f22df17e2d34aad8ad468500dbbe20d365d5c412e50d509d0909",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:097c0aea60f6f22df17e2d34aad8ad468500dbbe20d365d5c412e50d509d0909",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.marcofrancescoferrari.it/mfgaccelerator",
     "sourceHash": "sha256:01d27e7ffe6750afb92058ceba9cc391aec676e59373faedc8fdf1b4acc533e1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:01d27e7ffe6750afb92058ceba9cc391aec676e59373faedc8fdf1b4acc533e1",

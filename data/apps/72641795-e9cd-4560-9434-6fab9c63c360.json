@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://en.weihansoft.com/news/99.html",
     "sourceHash": "sha256:dd84409aa5caeeba807386e84270f749aa8f22d9a0f95c281da368fa68736ea6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dd84409aa5caeeba807386e84270f749aa8f22d9a0f95c281da368fa68736ea6",

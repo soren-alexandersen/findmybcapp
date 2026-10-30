@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://skc.lu/apps/chemicals-and-metals",
     "sourceHash": "sha256:14aa6b36c504b9c67517960985ac0737755e855b3d0fac9ba3c3e5f8658065dc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:14aa6b36c504b9c67517960985ac0737755e855b3d0fac9ba3c3e5f8658065dc",

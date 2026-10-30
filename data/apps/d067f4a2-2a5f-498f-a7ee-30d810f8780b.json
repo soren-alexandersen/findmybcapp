@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.deposititems.apportunix.com/",
     "sourceHash": "sha256:49e755366d5936002d7d63355f166a3d3a90ebc0599579f9c7ba5dede19d7514",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:49e755366d5936002d7d63355f166a3d3a90ebc0599579f9c7ba5dede19d7514",

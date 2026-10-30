@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://auzilium.no/kontakt-support/",
     "sourceHash": "sha256:7559e80b86dbecff1f7ab4e5f5f8c960c3a4303fede0ff0d7fb1a74bd3bbc8a0",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7559e80b86dbecff1f7ab4e5f5f8c960c3a4303fede0ff0d7fb1a74bd3bbc8a0",

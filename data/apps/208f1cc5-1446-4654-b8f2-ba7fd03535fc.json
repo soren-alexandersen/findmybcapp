@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hortusdigital.com/kontakti/",
     "sourceHash": "sha256:a75b67c82589e6d51f6357bb6a5adc1faf5bfa5fa43169108c0944c5a065c649",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a75b67c82589e6d51f6357bb6a5adc1faf5bfa5fa43169108c0944c5a065c649",

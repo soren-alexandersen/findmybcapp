@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.therefore.net/help/",
     "sourceHash": "sha256:5c7ebc6d7343997771e0032f77c132c78d707954eef7b7d1ed167e6168e4a837",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5c7ebc6d7343997771e0032f77c132c78d707954eef7b7d1ed167e6168e4a837",

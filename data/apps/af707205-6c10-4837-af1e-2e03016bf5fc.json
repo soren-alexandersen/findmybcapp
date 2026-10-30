@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/allergens",
     "sourceHash": "sha256:c1a9b4cb0a78cd391e429ac9497da74e3a1b9c0bd118a4046d1a3a61ff63d17d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1a9b4cb0a78cd391e429ac9497da74e3a1b9c0bd118a4046d1a3a61ff63d17d",

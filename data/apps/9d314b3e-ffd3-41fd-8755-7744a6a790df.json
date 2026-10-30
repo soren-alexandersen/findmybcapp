@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/BusinessCentralDemos/ConvertTemperature",
     "sourceHash": "sha256:d62d9ed8ea61267553f2008347fb03e871d5086d59097fa959ceca9a2c42821c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d62d9ed8ea61267553f2008347fb03e871d5086d59097fa959ceca9a2c42821c",

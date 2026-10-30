@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/rms-cloud-integration/",
     "sourceHash": "sha256:fc04c3de9de158d2dfcb75b273d393693c46600c63ceb9d77a376a9b6c77fcfe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc04c3de9de158d2dfcb75b273d393693c46600c63ceb9d77a376a9b6c77fcfe",

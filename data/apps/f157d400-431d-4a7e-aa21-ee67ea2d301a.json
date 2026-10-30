@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.boyum-solutions.com/contact-us/",
     "sourceHash": "sha256:3db251b35f6550c335cc616bff21c3b427ee21331543255f7e13ce2970694566",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3db251b35f6550c335cc616bff21c3b427ee21331543255f7e13ce2970694566",

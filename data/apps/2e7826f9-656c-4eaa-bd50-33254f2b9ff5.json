@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCRPL",
     "sourceHash": "sha256:4046e5e1e68167dc926d14774c619cf5a762cf2a2d3ac8d0b59a93ee3596cef2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4046e5e1e68167dc926d14774c619cf5a762cf2a2d3ac8d0b59a93ee3596cef2",

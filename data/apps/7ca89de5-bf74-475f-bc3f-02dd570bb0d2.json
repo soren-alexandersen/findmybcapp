@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/Translation-Agent",
     "sourceHash": "sha256:657863622dbc56387b929c8cb033b99eeb116ae5c27414e8d0c66e6bd157a368",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:657863622dbc56387b929c8cb033b99eeb116ae5c27414e8d0c66e6bd157a368",

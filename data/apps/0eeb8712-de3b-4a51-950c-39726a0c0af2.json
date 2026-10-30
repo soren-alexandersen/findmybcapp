@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.ibs-al.com/fiscalization.html",
     "sourceHash": "sha256:7e6de7a446229d2a574c8e53c5c5bf51d1b4189acaebbb7232dd932a50aa626e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7e6de7a446229d2a574c8e53c5c5bf51d1b4189acaebbb7232dd932a50aa626e",

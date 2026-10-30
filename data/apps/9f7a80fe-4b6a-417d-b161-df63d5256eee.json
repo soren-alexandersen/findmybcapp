@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.hinted.me/en/main",
     "sourceHash": "sha256:0c3451b936393192dab5e7f39fdf5ce6c9a8a23af89a9a38ca32849bbe61b8ff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0c3451b936393192dab5e7f39fdf5ce6c9a8a23af89a9a38ca32849bbe61b8ff",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/bc-apps/gdpr/",
     "sourceHash": "sha256:f6167b336f9c86af0db69f5abd06959dd40959fc8ca82e6665d7c3e37de965c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f6167b336f9c86af0db69f5abd06959dd40959fc8ca82e6665d7c3e37de965c2",

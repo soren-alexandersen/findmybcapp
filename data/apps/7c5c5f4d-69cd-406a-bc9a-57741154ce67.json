@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/go/#howto",
     "sourceHash": "sha256:dde36f48ca0cb5e83c91360a4b894b6c17bb1f9419b6ec92103f6de7d41993a0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dde36f48ca0cb5e83c91360a4b894b6c17bb1f9419b6ec92103f6de7d41993a0",

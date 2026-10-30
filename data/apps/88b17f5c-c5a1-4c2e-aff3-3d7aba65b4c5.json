@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://documentation.jmgapp.dk/",
     "sourceHash": "sha256:e51cd374575265a07e11a70d765b523e59315b3fbefa2c6df334074ecc8d2392",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e51cd374575265a07e11a70d765b523e59315b3fbefa2c6df334074ecc8d2392",

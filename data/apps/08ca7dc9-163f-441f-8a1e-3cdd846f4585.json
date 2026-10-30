@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://micro-apps.abcebusiness.nl/en/transus-api-connector-for-business-central",
     "sourceHash": "sha256:bdb0ab11bff4b1e38f0bc03e9483e3d5b271b089130db69405559276140cdefd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bdb0ab11bff4b1e38f0bc03e9483e3d5b271b089130db69405559276140cdefd",

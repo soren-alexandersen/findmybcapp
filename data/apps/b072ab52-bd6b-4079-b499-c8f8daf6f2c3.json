@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innoqubit.com/es-ES/IQQuantum/Introduction/",
     "sourceHash": "sha256:2923167f367d048dd356eec3ee56a9c112869da05fb900a3c73192ea10a508cb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2923167f367d048dd356eec3ee56a9c112869da05fb900a3c73192ea10a508cb",

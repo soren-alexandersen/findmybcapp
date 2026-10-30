@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/collectiveshipments/index.html",
     "sourceHash": "sha256:766c7632f99928ef82c5d10ab4307bd9f0190d6c522711a63ac7946970041809",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:766c7632f99928ef82c5d10ab4307bd9f0190d6c522711a63ac7946970041809",

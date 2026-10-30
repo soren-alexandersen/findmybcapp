@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apparound.com/faq/",
     "sourceHash": "sha256:3551688f27fa3fde86ab3826813dd9c0e8f002c5d0d86b567849f4b20439c94c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3551688f27fa3fde86ab3826813dd9c0e8f002c5d0d86b567849f4b20439c94c",

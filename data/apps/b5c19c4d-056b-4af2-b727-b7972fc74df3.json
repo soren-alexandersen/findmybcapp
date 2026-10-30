@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://dynamicspro.ca/help/smartflow-supply",
     "sourceHash": "sha256:949a53a20b5b1c3bf9b4b3c5312d264881f2f458939933b55eb2573ef8fcc2ae",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:949a53a20b5b1c3bf9b4b3c5312d264881f2f458939933b55eb2573ef8fcc2ae",

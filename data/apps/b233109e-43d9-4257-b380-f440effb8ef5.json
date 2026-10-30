@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/woocommerce/",
     "sourceHash": "sha256:f4591381de923766491fdd76dc80d62cf322a6c5819bfac7bd467865f6a0616b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f4591381de923766491fdd76dc80d62cf322a6c5819bfac7bd467865f6a0616b",

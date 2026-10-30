@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-banking-formats/docs/en-US/help",
     "sourceHash": "sha256:8366e1f33e90622fc0eb10f12d97a53c7f35d012620deee6cbb994a4ec5e0b2d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8366e1f33e90622fc0eb10f12d97a53c7f35d012620deee6cbb994a4ec5e0b2d",

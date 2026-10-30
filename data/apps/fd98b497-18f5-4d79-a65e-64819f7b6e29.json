@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartpdf/documentation",
     "sourceHash": "sha256:090d058841fba15c5e3ef85f7b20563648d9cfe814ceead34cb4347f5040efe8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:090d058841fba15c5e3ef85f7b20563648d9cfe814ceead34cb4347f5040efe8",

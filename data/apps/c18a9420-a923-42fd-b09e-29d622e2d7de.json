@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/quick-sending-manager-for-ews/",
     "sourceHash": "sha256:7946f790e6a60d6409a9b9300f28984b2e944a7f4dad3885e910abc3ecdc4f81",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7946f790e6a60d6409a9b9300f28984b2e944a7f4dad3885e910abc3ecdc4f81",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-subcontracting/docs",
     "sourceHash": "sha256:512686b854c772ba14cd13ef1e10969990c270f574de2b8892b157d88dfd1a9f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:512686b854c772ba14cd13ef1e10969990c270f574de2b8892b157d88dfd1a9f",

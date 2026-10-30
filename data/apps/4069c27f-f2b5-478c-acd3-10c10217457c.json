@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.itscope2dynamics.cloud/en/help",
     "sourceHash": "sha256:4ca3aa59a633d3c69ce64cb1b31b44afb5008a3ed827d96794694fc194f8e10d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4ca3aa59a633d3c69ce64cb1b31b44afb5008a3ed827d96794694fc194f8e10d",

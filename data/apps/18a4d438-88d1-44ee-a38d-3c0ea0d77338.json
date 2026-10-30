@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/cloudreplicator",
     "sourceHash": "sha256:6eca42184d5ce7853e46c4fc277d250bde4bf062b0696d547144c2ca99e942bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6eca42184d5ce7853e46c4fc277d250bde4bf062b0696d547144c2ca99e942bd",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://bcapps.mementoas.com/en-US/apps/ImportDataTemplates/intro.html",
     "sourceHash": "sha256:233652135510c9786b75625ba46f2cb3949ac3e6b3913d88e9fb17038b91f55d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:233652135510c9786b75625ba46f2cb3949ac3e6b3913d88e9fb17038b91f55d",

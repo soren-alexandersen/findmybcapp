@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-FCC/en-US/FCC/index.html",
     "sourceHash": "sha256:51c2ae2d9b0bec25d476608879fd92919cc2bcc2c44d4222da945c7f8a97201c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:51c2ae2d9b0bec25d476608879fd92919cc2bcc2c44d4222da945c7f8a97201c",

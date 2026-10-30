@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-case-manager/",
     "sourceHash": "sha256:8b6a25e7896aec021fe6feb9e8c01582fa9a0c54b88cf397ec2c5946d3aa9dbe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8b6a25e7896aec021fe6feb9e8c01582fa9a0c54b88cf397ec2c5946d3aa9dbe",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ornith.de/ornifmanual",
     "sourceHash": "sha256:0157c6977ba3ab00f8743404cfe1976cebd6e5ca3f47eceee34e00229dad576f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0157c6977ba3ab00f8743404cfe1976cebd6e5ca3f47eceee34e00229dad576f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://websync.dk/",
     "sourceHash": "sha256:977ded2876471491e1f481b66bdb066e2baf3ec494d69ad8effd3b7a2b56257e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:977ded2876471491e1f481b66bdb066e2baf3ec494d69ad8effd3b7a2b56257e",

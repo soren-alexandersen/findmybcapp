@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/electronic-data-interchange-edi.html",
     "sourceHash": "sha256:29d2efdd3a456d8f0ae83f5364e14ceaa9fac196aec2d2a3bba4959c202b3948",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:29d2efdd3a456d8f0ae83f5364e14ceaa9fac196aec2d2a3bba4959c202b3948",

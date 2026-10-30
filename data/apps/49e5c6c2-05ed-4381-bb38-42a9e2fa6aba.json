@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bossinfo.ch/business-software/erp-crm/zusatzmodule/world-of-documents-fuer-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:e33a10054667ee78400e49488c9e610c1516e06369f5b8bd7c9a2c9d6a7763b6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e33a10054667ee78400e49488c9e610c1516e06369f5b8bd7c9a2c9d6a7763b6",

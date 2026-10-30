@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/user-setup-dates-allowed",
     "sourceHash": "sha256:491fc9185adfd488bd8e330e9b5eb5788c168c99a9e00757640c83c847a4c38b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:491fc9185adfd488bd8e330e9b5eb5788c168c99a9e00757640c83c847a4c38b",

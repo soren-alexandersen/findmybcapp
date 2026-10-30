@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://sanbs.nl/inventory-dashboard-dynamics-365-bc.html",
     "sourceHash": "sha256:225070eb2ca6abfd7e9dfc3290e3e60a3cbef8f33abcae92bfd6d354998f99ca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:225070eb2ca6abfd7e9dfc3290e3e60a3cbef8f33abcae92bfd6d354998f99ca",

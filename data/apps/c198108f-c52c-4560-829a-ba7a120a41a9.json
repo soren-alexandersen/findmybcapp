@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dsc-group.net/dynamics-365-business-central/app-per-business-central/dyna-dream-modifica-documenti-registrati/",
     "sourceHash": "sha256:1db21e8090aaff16f18a3510d57b9109f94797d5c5dc753e3de8f8b3a011fa6a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1db21e8090aaff16f18a3510d57b9109f94797d5c5dc753e3de8f8b3a011fa6a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Issue-Tracker",
     "sourceHash": "sha256:5caedd8e923524ac2a0f945c940af0831e3c911417f9ae9d15f56142de5d6d7e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5caedd8e923524ac2a0f945c940af0831e3c911417f9ae9d15f56142de5d6d7e",

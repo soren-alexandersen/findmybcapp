@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.staedean.com/business-central/docs/bc-food-manufacturing-and-distribution",
     "sourceHash": "sha256:c6275b4828a1bd6595cbee72e1a3cfd0fca68e35bbd200abfd633a9627b6e614",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c6275b4828a1bd6595cbee72e1a3cfd0fca68e35bbd200abfd633a9627b6e614",

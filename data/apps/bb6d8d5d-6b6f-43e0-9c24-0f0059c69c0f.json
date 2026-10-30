@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://experlogix.com/products/digital-commerce/",
     "sourceHash": "sha256:0c677e5a774a523cc4087b639ac869ad28b6eae0e66b59a2577dee9d4f9a6042",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0c677e5a774a523cc4087b639ac869ad28b6eae0e66b59a2577dee9d4f9a6042",

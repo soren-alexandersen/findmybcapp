@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bc365.no/",
     "sourceHash": "sha256:36a8cfb30ab66c5996f452a5f58e79ba3a07f57be5be153ae74a435e04877ef2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:36a8cfb30ab66c5996f452a5f58e79ba3a07f57be5be153ae74a435e04877ef2",

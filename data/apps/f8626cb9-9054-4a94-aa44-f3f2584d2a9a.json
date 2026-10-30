@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/business-notes/",
     "sourceHash": "sha256:8a09850dacdf3aaebd9ede8a19519eee1d51ea26393f2bf4cc8bf649aec84560",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8a09850dacdf3aaebd9ede8a19519eee1d51ea26393f2bf4cc8bf649aec84560",

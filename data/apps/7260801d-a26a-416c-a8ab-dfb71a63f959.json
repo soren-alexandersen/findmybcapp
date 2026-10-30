@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.wisefish.com/contact",
     "sourceHash": "sha256:9d16f55e9adf8a06ce44caa29f6b8314d72aac8b4d36f9ea7aaed32480215580",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9d16f55e9adf8a06ce44caa29f6b8314d72aac8b4d36f9ea7aaed32480215580",

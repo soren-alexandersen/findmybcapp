@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://claude.ai/code/artifact/74d116f8-e6b4-422d-9001-a0e5c0a3dda8?org=2e94f12e-674f-40c4-9190-92ffa84eac96",
     "sourceHash": "sha256:c3752a5effbddfcf95d2107a0c9dcda0c4a6ee081aee95fac7c38128fa279856",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c3752a5effbddfcf95d2107a0c9dcda0c4a6ee081aee95fac7c38128fa279856",

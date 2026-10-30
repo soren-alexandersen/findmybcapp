@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://partner.multisoft.hu/help-servotion/",
     "sourceHash": "sha256:adb86cdffe59c46ed83ac444e4431e2ee712e77c8377e4d23a504f7e50cc9dc7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:adb86cdffe59c46ed83ac444e4431e2ee712e77c8377e4d23a504f7e50cc9dc7",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/Solutions/transport-operations.html",
     "sourceHash": "sha256:b621e4cc8ea7ac5cd06861d25ca4854045e229824ded76587bb5d32b8150acd6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b621e4cc8ea7ac5cd06861d25ca4854045e229824ded76587bb5d32b8150acd6",

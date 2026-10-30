@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/bokun",
     "sourceHash": "sha256:4531b0609874e9f3312ce08f805320150390e5d806fb6674bc98927e28611d6f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4531b0609874e9f3312ce08f805320150390e5d806fb6674bc98927e28611d6f",

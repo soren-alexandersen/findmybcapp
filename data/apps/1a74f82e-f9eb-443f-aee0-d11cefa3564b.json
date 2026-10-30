@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/TurkishLanguageHelp.pdf",
     "sourceHash": "sha256:e35613eeb620c9c6edc7bbbcab8a4600c7b93ecffd993866975a0e1e5429c657",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e35613eeb620c9c6edc7bbbcab8a4600c7b93ecffd993866975a0e1e5429c657",

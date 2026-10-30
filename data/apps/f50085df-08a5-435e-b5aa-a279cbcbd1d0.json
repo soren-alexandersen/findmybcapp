@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://topaz-gitadmin.github.io/Manual/AddOns-Integration/Import-from-Excel/Manual/",
     "sourceHash": "sha256:c700007844f9a5bc01c5955b392e3614141ace947d225a2b4c7f5353f192741d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c700007844f9a5bc01c5955b392e3614141ace947d225a2b4c7f5353f192741d",

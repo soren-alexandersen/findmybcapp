@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/container-app-in-business-central/",
     "sourceHash": "sha256:1c71b097e153ea8ae108ba8b4012241b9452b358baf242291c068249d3d3b553",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1c71b097e153ea8ae108ba8b4012241b9452b358baf242291c068249d3d3b553",

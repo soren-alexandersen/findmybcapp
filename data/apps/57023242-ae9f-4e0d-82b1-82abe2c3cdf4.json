@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mindquad.com/contact-us/",
     "sourceHash": "sha256:ca175726fef88f821c68f9235e5fc4efb6dddc06205b2ca43b306ee0dded3070",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ca175726fef88f821c68f9235e5fc4efb6dddc06205b2ca43b306ee0dded3070",

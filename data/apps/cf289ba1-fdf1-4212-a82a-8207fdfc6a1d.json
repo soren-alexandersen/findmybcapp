@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.gofastpath.com/appsource-page-fastpath-for-d365-business-central",
     "sourceHash": "sha256:1f357b145d6724fe0078f94ec53789abd5663f787c57114781ba400d316eea4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1f357b145d6724fe0078f94ec53789abd5663f787c57114781ba400d316eea4d",

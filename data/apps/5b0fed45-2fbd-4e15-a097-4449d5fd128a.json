@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-prepayment/",
     "sourceHash": "sha256:f09fe63a0f8fba4a942e6cf624736692cee98e1c56f234299fa82d4c6efaa3f7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f09fe63a0f8fba4a942e6cf624736692cee98e1c56f234299fa82d4c6efaa3f7",

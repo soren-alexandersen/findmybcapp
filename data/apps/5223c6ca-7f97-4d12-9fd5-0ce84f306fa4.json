@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486670698/D365+Sales+Integration",
     "sourceHash": "sha256:9738a729d88ee41df1eaa3ab4a3537b61a1079ffe74fc8a19b36276338a68ff8",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9738a729d88ee41df1eaa3ab4a3537b61a1079ffe74fc8a19b36276338a68ff8",

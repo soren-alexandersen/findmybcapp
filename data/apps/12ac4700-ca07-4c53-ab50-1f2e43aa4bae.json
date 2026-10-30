@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://imperconsult.de/imper-setup-manager",
     "sourceHash": "sha256:94f1f49c7d90366acc04279a73b64a3da2394b00a00c344af949c0311a575927",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94f1f49c7d90366acc04279a73b64a3da2394b00a00c344af949c0311a575927",

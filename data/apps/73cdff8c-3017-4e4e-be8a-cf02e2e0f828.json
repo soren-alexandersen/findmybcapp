@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kms-world.com/trade-lcm/",
     "sourceHash": "sha256:faf1bb66389eb0fa25bf4c0351a260a34b8e9cc2591412208c46a4cd8010febc",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:faf1bb66389eb0fa25bf4c0351a260a34b8e9cc2591412208c46a4cd8010febc",

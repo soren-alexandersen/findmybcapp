@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/our-d9a-kickstart",
     "sourceHash": "sha256:156484f3f66de5e269d5b01da69acf09f9fbcab2fa26171392a65ab939fb02c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:156484f3f66de5e269d5b01da69acf09f9fbcab2fa26171392a65ab939fb02c2",

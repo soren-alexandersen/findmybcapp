@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/createdby",
     "sourceHash": "sha256:8e92e5f009dc2d0b77ad25dc7d0d8af57fc6c7e8952bafb67c43d02bbd9eadd2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8e92e5f009dc2d0b77ad25dc7d0d8af57fc6c7e8952bafb67c43d02bbd9eadd2",

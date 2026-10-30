@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/pii-complii-personal-identifiable-information/",
     "sourceHash": "sha256:64704d479f18b1297281dcf48db59ae9d09e8a91035dc41f23f76c96ce562e42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:64704d479f18b1297281dcf48db59ae9d09e8a91035dc41f23f76c96ce562e42",

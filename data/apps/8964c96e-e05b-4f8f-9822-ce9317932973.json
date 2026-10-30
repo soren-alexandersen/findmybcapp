@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ksinform.com/bc/HelpDocumentation_KSDataGeneratorCopilot.pdf",
     "sourceHash": "sha256:db2a269846ef4759a6c5da7e77d43a927ca76575b8f93aef5ff05a10f129f83f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:db2a269846ef4759a6c5da7e77d43a927ca76575b8f93aef5ff05a10f129f83f",

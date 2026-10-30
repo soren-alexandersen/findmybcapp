@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-document-sender-sd-send/",
     "sourceHash": "sha256:7e7253f8dbccad596a8610d797d43182d2fb1b14ea9db343a964d9f8ed4411a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7e7253f8dbccad596a8610d797d43182d2fb1b14ea9db343a964d9f8ed4411a3",

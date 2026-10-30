@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://soft4lessee.com/faq/",
     "sourceHash": "sha256:6509dc69e5eac5aeec4fd6aba18145f5721b1cb2ed0d89a6a1a5dc704e0aca7d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6509dc69e5eac5aeec4fd6aba18145f5721b1cb2ed0d89a6a1a5dc704e0aca7d",

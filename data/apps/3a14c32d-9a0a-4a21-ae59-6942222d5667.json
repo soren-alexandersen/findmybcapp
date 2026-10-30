@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/ksa-einvoicing-for-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:f5381b27f872680588bcc9ba13d1533aa5fbb5ae61f58afd52e32b634e638b46",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f5381b27f872680588bcc9ba13d1533aa5fbb5ae61f58afd52e32b634e638b46",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/quick-flow-for-aqm/",
     "sourceHash": "sha256:6c89dd8f013945fe9ae1dbd40987ca0871fbf02d47de0eff64d1343f6cb63ca9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6c89dd8f013945fe9ae1dbd40987ca0871fbf02d47de0eff64d1343f6cb63ca9",

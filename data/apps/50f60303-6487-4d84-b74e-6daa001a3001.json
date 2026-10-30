@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clevermesgroup/clever-mes/user-guide/about",
     "sourceHash": "sha256:294bd52a40cf695c627e88067c4aa090dd78e6c17f1e7668496a9be00539521f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:294bd52a40cf695c627e88067c4aa090dd78e6c17f1e7668496a9be00539521f",

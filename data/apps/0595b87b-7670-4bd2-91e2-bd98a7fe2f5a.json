@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.celigo.com/hc/en-us",
     "sourceHash": "sha256:7a8c4d313d5630867a570a3c4ff4caedddac0a221a246edb8c7e114354547544",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7a8c4d313d5630867a570a3c4ff4caedddac0a221a246edb8c7e114354547544",

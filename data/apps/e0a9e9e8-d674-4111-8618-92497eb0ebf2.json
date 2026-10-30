@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://logixcaresb.com/contact/",
     "sourceHash": "sha256:5ad48111f5fc12085ca8b9deb5aff5ac0deb18bc7153a1126fc742da80354088",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ad48111f5fc12085ca8b9deb5aff5ac0deb18bc7153a1126fc742da80354088",

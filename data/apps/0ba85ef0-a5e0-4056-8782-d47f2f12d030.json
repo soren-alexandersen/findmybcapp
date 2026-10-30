@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.nmierp.pl/en-US/baselinker-integrator/introduction.html",
     "sourceHash": "sha256:db170c06e5b90f46bb55f82fb8e6208736ce1d58b99efa37b78a344404c22863",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:db170c06e5b90f46bb55f82fb8e6208736ce1d58b99efa37b78a344404c22863",

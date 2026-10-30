@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.bc2fab.com/analysis-mode/install.html",
     "sourceHash": "sha256:0291392c54948cc8c71d1931b8c33e330af122109bc1b4d707e7cec75c863a7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0291392c54948cc8c71d1931b8c33e330af122109bc1b4d707e7cec75c863a7c",

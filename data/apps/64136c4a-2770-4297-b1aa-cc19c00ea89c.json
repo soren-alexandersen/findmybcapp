@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Inventory-Not-Invoiced-At-Date",
     "sourceHash": "sha256:fee507342b6cc48fd131ae0bd2510895d8e498398d7d5dc9a32c661c9ffdd6d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fee507342b6cc48fd131ae0bd2510895d8e498398d7d5dc9a32c661c9ffdd6d9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://connect.logtrade.se/bc-tasklet/",
     "sourceHash": "sha256:78f5413f7ccb353fa9f1a93875d9249c8b5196579be95b563728efd40bc9fc77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:78f5413f7ccb353fa9f1a93875d9249c8b5196579be95b563728efd40bc9fc77",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knk.com/wp-content/uploads/2022/06/Documentation-knk-Integration-Platform-KIP-V-1.0.pdf",
     "sourceHash": "sha256:c43e385f5c46c3b7eb13d73fbe493c7d9337b414b70b905a6a9494cd6a18d0bc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c43e385f5c46c3b7eb13d73fbe493c7d9337b414b70b905a6a9494cd6a18d0bc",

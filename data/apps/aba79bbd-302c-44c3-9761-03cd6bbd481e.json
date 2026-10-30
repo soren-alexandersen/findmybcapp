@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/dynamic-software-connector/",
     "sourceHash": "sha256:694504881e10514daa5b777279bd8c75098c3e556120f757f433a66a7b1f5602",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:694504881e10514daa5b777279bd8c75098c3e556120f757f433a66a7b1f5602",

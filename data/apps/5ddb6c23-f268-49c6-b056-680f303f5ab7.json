@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://forum.jostle.us/hc/en-us",
     "sourceHash": "sha256:243d5955999744805c9d38efddb96b59bfd6ea5acdd3c5776cdf09b7a7a9dc38",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:243d5955999744805c9d38efddb96b59bfd6ea5acdd3c5776cdf09b7a7a9dc38",

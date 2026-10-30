@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.orgavision.app/en/connector-export-control/",
     "sourceHash": "sha256:18d35a2f78ad1550c3124eaac2ada82f89d35187fce72a03837c276d685b4691",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18d35a2f78ad1550c3124eaac2ada82f89d35187fce72a03837c276d685b4691",

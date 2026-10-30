@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Accijns%20user%20manual.pdf",
     "sourceHash": "sha256:55e2cb830b72b8962f86e6896f30832aa166baa05915fc19f4a345ac92aea074",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55e2cb830b72b8962f86e6896f30832aa166baa05915fc19f4a345ac92aea074",

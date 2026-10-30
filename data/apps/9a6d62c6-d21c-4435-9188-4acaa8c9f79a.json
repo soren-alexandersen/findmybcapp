@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/balancer",
     "sourceHash": "sha256:9bd9eb563117b143934f7718a891d4a2fcf31ec4edb5b7121002bfb3c56ea943",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9bd9eb563117b143934f7718a891d4a2fcf31ec4edb5b7121002bfb3c56ea943",

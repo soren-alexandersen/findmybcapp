@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/scheduler/index.html",
     "sourceHash": "sha256:0d74a7d0b792c023c9aed118a24070115189df2bb5a06c375f71437d2fac9200",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0d74a7d0b792c023c9aed118a24070115189df2bb5a06c375f71437d2fac9200",

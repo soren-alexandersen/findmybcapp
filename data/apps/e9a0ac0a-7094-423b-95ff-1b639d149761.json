@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fpt-software.com/contact-us/",
     "sourceHash": "sha256:cec8f621434da5298928cf035870042e3bb192df31e358156b0df74a6620d515",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cec8f621434da5298928cf035870042e3bb192df31e358156b0df74a6620d515",

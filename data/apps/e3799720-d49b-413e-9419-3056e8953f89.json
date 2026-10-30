@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/item-tracked-flushing",
     "sourceHash": "sha256:ae13b85fc0da69a392af8899045df6ca2d52ade5f5755624095b4133d0dc2048",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ae13b85fc0da69a392af8899045df6ca2d52ade5f5755624095b4133d0dc2048",

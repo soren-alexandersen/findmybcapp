@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/mobile-data-collection",
     "sourceHash": "sha256:58490df8e5e6f960c23e206e16602456cb49c2b5dccc2956a8a9a3780e3a2961",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:58490df8e5e6f960c23e206e16602456cb49c2b5dccc2956a8a9a3780e3a2961",

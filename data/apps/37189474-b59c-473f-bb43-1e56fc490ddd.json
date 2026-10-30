@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app-centric.com/act-one-click/",
     "sourceHash": "sha256:69d9fb3e0f6d101ecf6b05b52d9889b0d33c79719de3a1b7ff2fe46b1b44de4f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69d9fb3e0f6d101ecf6b05b52d9889b0d33c79719de3a1b7ff2fe46b1b44de4f",

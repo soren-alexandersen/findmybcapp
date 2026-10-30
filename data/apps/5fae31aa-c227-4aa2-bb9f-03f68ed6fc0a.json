@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/Document_distribution",
     "sourceHash": "sha256:9bc112f5ae2a720b9543ba1d53c57cfeb47f0aed559ac59b9f4c5fd63dc5bdd2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9bc112f5ae2a720b9543ba1d53c57cfeb47f0aed559ac59b9f4c5fd63dc5bdd2",

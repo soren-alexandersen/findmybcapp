@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-billing-engine/",
     "sourceHash": "sha256:c1ad21443d610b3c3f9e2e5ac211216285f7b1a2adf72b23eb87e6a6afff6767",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1ad21443d610b3c3f9e2e5ac211216285f7b1a2adf72b23eb87e6a6afff6767",

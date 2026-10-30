@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://norriq.com/contact",
     "sourceHash": "sha256:a866baff3f7ac73350f27c8206ff33cf923856de00df0fa59e8e0a9b4ba4357c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a866baff3f7ac73350f27c8206ff33cf923856de00df0fa59e8e0a9b4ba4357c",

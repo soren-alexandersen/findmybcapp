@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc-guide.abra.page/en/user-guide/",
     "sourceHash": "sha256:4e91814412d4f00f999e18a5d4f4dc65eb47ffeeab41424a5e78ec1ce2d01139",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4e91814412d4f00f999e18a5d4f4dc65eb47ffeeab41424a5e78ec1ce2d01139",

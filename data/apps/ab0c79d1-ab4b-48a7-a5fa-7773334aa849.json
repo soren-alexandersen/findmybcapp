@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://atnatechnologies.com/",
     "sourceHash": "sha256:38aadffe608b4eb64d28c0935baa97f8fe55c6c523fc5588a020d90c9afd3ffa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:38aadffe608b4eb64d28c0935baa97f8fe55c6c523fc5588a020d90c9afd3ffa",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-nbt_power_bi/",
     "sourceHash": "sha256:703bc41f73d343524715aed716541e8d68221b1e5753e3d0fae48923911a96ed",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:703bc41f73d343524715aed716541e8d68221b1e5753e3d0fae48923911a96ed",

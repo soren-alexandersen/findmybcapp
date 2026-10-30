@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.ruxsoftware.com/a/solutions/categories/17000078870/folders/17000123392?portalId=17000015983",
     "sourceHash": "sha256:680bfa3b22bfaf6e5a45c8aab6e0d0f673968640dea659202fc584c3893429ef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:680bfa3b22bfaf6e5a45c8aab6e0d0f673968640dea659202fc584c3893429ef",

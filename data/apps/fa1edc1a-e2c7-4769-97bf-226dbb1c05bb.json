@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/printing/",
     "sourceHash": "sha256:351e950f3bb3082383bc13ef4f55bc42501357063cf9666553cae9f7c08ab4e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:351e950f3bb3082383bc13ef4f55bc42501357063cf9666553cae9f7c08ab4e9",

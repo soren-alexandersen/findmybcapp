@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/warehouse-license-plating",
     "sourceHash": "sha256:736ebba2a5a1788575c2afb15b12d2ea897bc3227ff249677ba5f3bbf1b1595e",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:736ebba2a5a1788575c2afb15b12d2ea897bc3227ff249677ba5f3bbf1b1595e",

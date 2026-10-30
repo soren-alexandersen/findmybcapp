@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.cenium.com/erpconnectorhelp",
     "sourceHash": "sha256:611b9f7f6bb3f7f560487d201a46f07fdbb5ebc8d941f2db337525fc54e56bbf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:611b9f7f6bb3f7f560487d201a46f07fdbb5ebc8d941f2db337525fc54e56bbf",

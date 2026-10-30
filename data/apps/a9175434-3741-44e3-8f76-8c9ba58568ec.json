@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Contract%20Management%20Manual.pdf",
     "sourceHash": "sha256:c48369f6a0476d2388eb4b6f4429e5525c2203dfc5ab800398458f0bfc00ac47",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c48369f6a0476d2388eb4b6f4429e5525c2203dfc5ab800398458f0bfc00ac47",

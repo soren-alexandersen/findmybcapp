@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ACM/",
     "sourceHash": "sha256:117c1d908a1221b5a5dbdced1539125b19262c6a1a1ac9cf346e850c2fbd09dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:117c1d908a1221b5a5dbdced1539125b19262c6a1a1ac9cf346e850c2fbd09dd",

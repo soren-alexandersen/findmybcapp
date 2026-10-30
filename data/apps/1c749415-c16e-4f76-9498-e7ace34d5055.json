@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/accounting-services",
     "sourceHash": "sha256:52c26d14b59c269f921c8732b0db2522220a7d8b253e2fc30137889aac18d8e5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:52c26d14b59c269f921c8732b0db2522220a7d8b253e2fc30137889aac18d8e5",

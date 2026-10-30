@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/warehouse-manager/#howto",
     "sourceHash": "sha256:74b7872dc4f7c6156a66e7a433133cb2ff22a243aba1f9c1ae4b87c0ecfa0028",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:74b7872dc4f7c6156a66e7a433133cb2ff22a243aba1f9c1ae4b87c0ecfa0028",

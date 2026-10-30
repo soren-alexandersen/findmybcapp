@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://traveloperations.com/contact",
     "sourceHash": "sha256:8496770b0e1e9eebfe2a96aadfbcdfd3d6222d5bfc14267b882192401b29dcc4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8496770b0e1e9eebfe2a96aadfbcdfd3d6222d5bfc14267b882192401b29dcc4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralSend/Help",
     "sourceHash": "sha256:3c06fbfb22c769285d3a2455058ba66ea02e8cb28a5f32bead9c6137f7546f00",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3c06fbfb22c769285d3a2455058ba66ea02e8cb28a5f32bead9c6137f7546f00",

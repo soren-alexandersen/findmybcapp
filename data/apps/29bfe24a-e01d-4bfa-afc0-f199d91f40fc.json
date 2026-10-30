@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/dhl-ecommerce/",
     "sourceHash": "sha256:e4e88f3a797947f1c79ac793443b070acfb6184aec515b4cb7cedf45677eda21",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e4e88f3a797947f1c79ac793443b070acfb6184aec515b4cb7cedf45677eda21",

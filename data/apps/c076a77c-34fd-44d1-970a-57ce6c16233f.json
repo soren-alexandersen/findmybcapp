@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jemel.lv/docs/uk-delivery",
     "sourceHash": "sha256:712e96b13c67efe687b4c22102baa4f08dc735ef0f51f055ef8559124dee407f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:712e96b13c67efe687b4c22102baa4f08dc735ef0f51f055ef8559124dee407f",

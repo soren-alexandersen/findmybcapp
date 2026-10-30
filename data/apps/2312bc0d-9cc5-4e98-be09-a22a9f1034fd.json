@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.xtensionit.com/",
     "sourceHash": "sha256:76741e958ebb5def59727d8d0feac7289c5abce5e1907a240690fe2eceb108f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:76741e958ebb5def59727d8d0feac7289c5abce5e1907a240690fe2eceb108f6",

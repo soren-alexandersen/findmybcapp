@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-hr",
     "sourceHash": "sha256:8ee02970f2006dfa3202cf69a23d5a35da8a4bb4c0f98df70a7a5485ed3659db",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8ee02970f2006dfa3202cf69a23d5a35da8a4bb4c0f98df70a7a5485ed3659db",

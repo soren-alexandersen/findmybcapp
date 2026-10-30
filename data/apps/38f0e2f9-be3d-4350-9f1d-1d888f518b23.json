@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtbc.io/",
     "sourceHash": "sha256:90b12e995bef5e8693e7cbde0b7b1398261548d0043a537317e995a5e29c95fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:90b12e995bef5e8693e7cbde0b7b1398261548d0043a537317e995a5e29c95fb",

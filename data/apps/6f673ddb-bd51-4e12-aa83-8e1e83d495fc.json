@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/gl-expected-cost-posting/docs",
     "sourceHash": "sha256:c0a3393572bafe85378aabcdbf6b724b927331f51fc77d59ff6504071fc008c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c0a3393572bafe85378aabcdbf6b724b927331f51fc77d59ff6504071fc008c2",

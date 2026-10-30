@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/PriorityPicking",
     "sourceHash": "sha256:9bb299f951db4a09beb887ddef991ab3bf994b41e3b199fbbe77e50b07d4ce4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9bb299f951db4a09beb887ddef991ab3bf994b41e3b199fbbe77e50b07d4ce4c",

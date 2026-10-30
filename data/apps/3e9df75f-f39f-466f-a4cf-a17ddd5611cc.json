@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ign365.com/contact",
     "sourceHash": "sha256:0d476a45351abdc9455674c932461444f2cfbef52dee59cbceb9f32fb6ebf18d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0d476a45351abdc9455674c932461444f2cfbef52dee59cbceb9f32fb6ebf18d",

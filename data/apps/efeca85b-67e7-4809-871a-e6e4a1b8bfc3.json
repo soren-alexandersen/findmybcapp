@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/ExcelOutputAddon",
     "sourceHash": "sha256:40be0234c098615aad3e25e1424d8bb18c31d74747fb8ecc51257087c5910ab5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:40be0234c098615aad3e25e1424d8bb18c31d74747fb8ecc51257087c5910ab5",

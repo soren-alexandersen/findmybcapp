@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/labels-mobile/#support",
     "sourceHash": "sha256:9f77d7f23c0f6029770d94c96c173009dde603052c2de3e2553ca7c178b5fecf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9f77d7f23c0f6029770d94c96c173009dde603052c2de3e2553ca7c178b5fecf",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/manufacturing-base-toolkit.html",
     "sourceHash": "sha256:897c41c46d9fa3893cff4b0b7c532ee7fcce5e3eb1fd83daa50538b5cb1482b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:897c41c46d9fa3893cff4b0b7c532ee7fcce5e3eb1fd83daa50538b5cb1482b3",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/monitor-fornitori",
     "sourceHash": "sha256:f987fcae6660b580a20d7505411e36f8861697e85512f87ecb9f5161b7d70121",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f987fcae6660b580a20d7505411e36f8861697e85512f87ecb9f5161b7d70121",

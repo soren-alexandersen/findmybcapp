@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/GL-Tools.pdf",
     "sourceHash": "sha256:6c8b21cb277a8cca9a89e600c659bf671a0abea0355da1ebfcb423aac316b15f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c8b21cb277a8cca9a89e600c659bf671a0abea0355da1ebfcb423aac316b15f",

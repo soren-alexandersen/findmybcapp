@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://advise.is/learning-center/data-connectors/business-central/",
     "sourceHash": "sha256:3bc8a2f7a33ba1be6bf5ae42fc6f26be7d7a1204385142eae2c86e4cadd3cf77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3bc8a2f7a33ba1be6bf5ae42fc6f26be7d7a1204385142eae2c86e4cadd3cf77",

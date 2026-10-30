@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/quality-assurance",
     "sourceHash": "sha256:cc98f908dac1db34794c6eadf6f95468552d3d3406ed88de4fdbad56ef307733",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cc98f908dac1db34794c6eadf6f95468552d3d3406ed88de4fdbad56ef307733",

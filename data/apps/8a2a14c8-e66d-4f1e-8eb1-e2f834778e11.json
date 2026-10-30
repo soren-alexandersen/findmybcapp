@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://truckplanner.com/en/support-2/",
     "sourceHash": "sha256:3589789553df0ca35d368f27360fa4ec0d5dadc4f9defcd3cfdccde4d2a7163d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3589789553df0ca35d368f27360fa4ec0d5dadc4f9defcd3cfdccde4d2a7163d",

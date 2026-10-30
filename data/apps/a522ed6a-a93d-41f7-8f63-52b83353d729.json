@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/it-admin-toolkit/docs",
     "sourceHash": "sha256:1c6b557515b958921c13c478313840a7dbf097abee6f9c96276210aff96901fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1c6b557515b958921c13c478313840a7dbf097abee6f9c96276210aff96901fd",

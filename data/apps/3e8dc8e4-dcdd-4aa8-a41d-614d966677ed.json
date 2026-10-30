@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.delcit.com/solutions/digital-commerce-with-omni-channel/",
     "sourceHash": "sha256:ba05f7ecf4aa81396a9d0b7c0129835b9a3e2f5a71a8e7ade8fa9e40fb9d0827",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ba05f7ecf4aa81396a9d0b7c0129835b9a3e2f5a71a8e7ade8fa9e40fb9d0827",

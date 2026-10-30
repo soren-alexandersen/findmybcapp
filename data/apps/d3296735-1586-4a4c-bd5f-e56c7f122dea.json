@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://apps4bc.com/wp-content/uploads/2024/07/External_Ticket_No.pdf",
     "sourceHash": "sha256:33a4c7cc0779a2285da7f81e467049bc6b57a73bbb8abeffa7bfde9ac0980c17",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33a4c7cc0779a2285da7f81e467049bc6b57a73bbb8abeffa7bfde9ac0980c17",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-mes",
     "sourceHash": "sha256:0aaf55a649c8e7422e9360137d250cb63f81618fb5aab5b505ce3b94a0e37e35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0aaf55a649c8e7422e9360137d250cb63f81618fb5aab5b505ce3b94a0e37e35",

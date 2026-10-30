@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-bi-inventory-cockpit/",
     "sourceHash": "sha256:9f2cc01344570ff41a964382d19ed4e4c37980aa0defe773216ede87854c2df4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9f2cc01344570ff41a964382d19ed4e4c37980aa0defe773216ede87854c2df4",

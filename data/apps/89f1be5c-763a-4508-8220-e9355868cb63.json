@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcapps.mementoas.com/it-IT/apps/EmailManagement/intro.html",
     "sourceHash": "sha256:95534043a83095775307d0195d3af7c168f578db2d62828ba2f09d39f7eff4a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:95534043a83095775307d0195d3af7c168f578db2d62828ba2f09d39f7eff4a4",

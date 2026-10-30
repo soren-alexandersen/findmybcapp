@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://inas.online/en/get-in-touch/",
     "sourceHash": "sha256:cc5fa684645e96921e289d93e1c3d7307c2f812c1e38946696cd15a8ecf239ac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cc5fa684645e96921e289d93e1c3d7307c2f812c1e38946696cd15a8ecf239ac",

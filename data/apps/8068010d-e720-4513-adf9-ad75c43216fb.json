@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/modul-extension/automatischer-belegversand/",
     "sourceHash": "sha256:14adb0382ee94155c5f7d0c79eacffb06984faf2d315bca4be975d59e2f55cd0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:14adb0382ee94155c5f7d0c79eacffb06984faf2d315bca4be975d59e2f55cd0",

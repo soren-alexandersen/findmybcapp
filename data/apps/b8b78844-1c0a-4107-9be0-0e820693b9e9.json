@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/vendor-insights",
     "sourceHash": "sha256:e9e5be58c733f1c1cd50c594cbf936926159ad937572f7375b9cb3f9bf8441e1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e9e5be58c733f1c1cd50c594cbf936926159ad937572f7375b9cb3f9bf8441e1",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.extensions-lab.com/wms-help",
     "sourceHash": "sha256:3ab0a2aea010fa90e7d08793abac99c00b93bb7f740007608a2a640286815332",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3ab0a2aea010fa90e7d08793abac99c00b93bb7f740007608a2a640286815332",

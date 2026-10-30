@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/detailed-document-discounts.html",
     "sourceHash": "sha256:8d299cd14c480e2cae762383a540433ac32b119b7501f04d6ba594eae34ba23e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8d299cd14c480e2cae762383a540433ac32b119b7501f04d6ba594eae34ba23e",

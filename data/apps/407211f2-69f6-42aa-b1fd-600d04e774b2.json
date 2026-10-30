@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nprogression.com/tools/edicom",
     "sourceHash": "sha256:3938f9bf97220ff8a8f08155010341eca480b0036474c05ef76497dc7aee782b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3938f9bf97220ff8a8f08155010341eca480b0036474c05ef76497dc7aee782b",

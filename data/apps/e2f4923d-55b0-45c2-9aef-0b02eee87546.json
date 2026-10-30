@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/purchaseman/",
     "sourceHash": "sha256:953f24237b5f75d2dd3ac4958f97c2c04c2b273b81a2ddf635aa387142447424",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:953f24237b5f75d2dd3ac4958f97c2c04c2b273b81a2ddf635aa387142447424",

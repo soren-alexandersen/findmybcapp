@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://itprotector-support.powerappsportals.com/",
     "sourceHash": "sha256:c82afa9e8f934b77d3ef3d4919022b39f700234b90ad560f50d0a2a05b18e087",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c82afa9e8f934b77d3ef3d4919022b39f700234b90ad560f50d0a2a05b18e087",

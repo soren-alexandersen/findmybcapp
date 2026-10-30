@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/sharepoint",
     "sourceHash": "sha256:8adc649066787c9f6bc274416bf4becfca8ca1f20c583c701095fa0d33ca7d65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8adc649066787c9f6bc274416bf4becfca8ca1f20c583c701095fa0d33ca7d65",

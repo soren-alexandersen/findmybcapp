@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iteffect.dk/hjaelp-til-projekt-sagsstyring/",
     "sourceHash": "sha256:ca590f2f97a421036ef210e9a5de6eeb018cc2982988824a6751c913fad51605",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca590f2f97a421036ef210e9a5de6eeb018cc2982988824a6751c913fad51605",

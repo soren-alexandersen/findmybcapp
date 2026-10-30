@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bizzcore.de/activitylogplus",
     "sourceHash": "sha256:6cd6c7de577901b079a922834e5820a8df75e856a01686aa9b2711cacf71ca61",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6cd6c7de577901b079a922834e5820a8df75e856a01686aa9b2711cacf71ca61",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fornav.com/e-invoicing/",
     "sourceHash": "sha256:f8ac2390cfd6355138168a1369aa2d7db1603cba91f7629463d6c0fddc16efcd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f8ac2390cfd6355138168a1369aa2d7db1603cba91f7629463d6c0fddc16efcd",

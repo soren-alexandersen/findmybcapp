@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-landed-costs-help-en/",
     "sourceHash": "sha256:768de20a5cafc2560e128a8f9016428f143b841d71f5192323386d6ce218b54b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:768de20a5cafc2560e128a8f9016428f143b841d71f5192323386d6ce218b54b",

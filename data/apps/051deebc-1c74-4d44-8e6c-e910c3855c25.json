@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.navipartner.com/product/store-assistant-install-store-assistant-bc/",
     "sourceHash": "sha256:ca7b46cb40519980c3a155bad4670c1d4fb4097d8bf9050873bd3599e1686cf3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ca7b46cb40519980c3a155bad4670c1d4fb4097d8bf9050873bd3599e1686cf3",

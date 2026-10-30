@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nagarro.com/en/services/erp/msdynamics-365",
     "sourceHash": "sha256:a295ce45dc52cdfc809c11ac9429c2bd669e5a2c4c60fccd05c90060ce1c1f45",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a295ce45dc52cdfc809c11ac9429c2bd669e5a2c4c60fccd05c90060ce1c1f45",

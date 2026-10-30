@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/service-test-reports",
     "sourceHash": "sha256:ce7499d673623c170a89e074d4c28b78a2b78c5afed50aed86f8f122ff44653c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ce7499d673623c170a89e074d4c28b78a2b78c5afed50aed86f8f122ff44653c",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex09601-eos-wine-deliveries-and-vinification.html",
     "sourceHash": "sha256:c2676267f3eaa9c172fc42ab5d40a68c4aa21f4a5d09b82dae4cc8349b4d0d78",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c2676267f3eaa9c172fc42ab5d40a68c4aa21f4a5d09b82dae4cc8349b4d0d78",

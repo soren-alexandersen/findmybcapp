@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/BonusesAccruals/index.html",
     "sourceHash": "sha256:b670f39f0901566b76f07f07280b104152636f4a2fe4ee296d4af8dbe94bbf69",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b670f39f0901566b76f07f07280b104152636f4a2fe4ee296d4af8dbe94bbf69",

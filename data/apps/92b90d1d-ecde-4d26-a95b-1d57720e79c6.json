@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.thomsonreuters.com/en-us/help/pagero",
     "sourceHash": "sha256:0a1041b0cce96d5cfe98ad4c54a79743d261dc67b2507b751d8d3c4b5d1951f4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0a1041b0cce96d5cfe98ad4c54a79743d261dc67b2507b751d8d3c4b5d1951f4",

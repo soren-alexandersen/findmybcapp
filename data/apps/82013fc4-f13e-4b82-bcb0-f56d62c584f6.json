@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/drag-drop/",
     "sourceHash": "sha256:2fd066ef399e34bd0cb722effd8e0a7fd2dd7f2066a285bb49a96c8d5060ab3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2fd066ef399e34bd0cb722effd8e0a7fd2dd7f2066a285bb49a96c8d5060ab3a",

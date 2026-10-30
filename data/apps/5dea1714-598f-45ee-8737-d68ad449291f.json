@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ha-consultancy.com/contact-us/",
     "sourceHash": "sha256:bf73730796ee7cbaab9c9bb3da8ae04b87cb4fd2eb9cea2555dfc8e0399d9e8b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bf73730796ee7cbaab9c9bb3da8ae04b87cb4fd2eb9cea2555dfc8e0399d9e8b",

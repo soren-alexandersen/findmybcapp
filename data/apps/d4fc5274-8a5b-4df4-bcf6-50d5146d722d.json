@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/detailed-overheads/docs",
     "sourceHash": "sha256:bcef297b079a676df065686d1e2bbe0fa850114cb1c09c795ec3d4d4a074e2f7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bcef297b079a676df065686d1e2bbe0fa850114cb1c09c795ec3d4d4a074e2f7",

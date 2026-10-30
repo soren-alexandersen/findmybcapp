@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://micro-apps.com/wp-content/uploads/2022/09/PayPal_Manual.pdf",
     "sourceHash": "sha256:c88794286766f4cd2a184eba0530ffe3a92855efe2fb2e31a35799a00cef4e9f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c88794286766f4cd2a184eba0530ffe3a92855efe2fb2e31a35799a00cef4e9f",

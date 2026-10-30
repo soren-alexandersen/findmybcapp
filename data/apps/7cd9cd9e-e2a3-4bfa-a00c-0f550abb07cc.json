@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/eagle/",
     "sourceHash": "sha256:918bfed1f1b32bace10817942d56270280eeed3bf429f4001cf1fd08fe64ac6c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:918bfed1f1b32bace10817942d56270280eeed3bf429f4001cf1fd08fe64ac6c",

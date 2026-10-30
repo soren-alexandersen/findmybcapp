@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sambaash.com/products/omnilearn",
     "sourceHash": "sha256:0fa602d0245b2548176121deacd2acd136232fe9c47f3c6588de779f119e9f59",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0fa602d0245b2548176121deacd2acd136232fe9c47f3c6588de779f119e9f59",

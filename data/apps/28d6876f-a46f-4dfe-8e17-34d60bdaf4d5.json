@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/intercompany/#howto",
     "sourceHash": "sha256:d8188468ce82da3b93fce2e4cf47d7e6fd12a9802fdec1798e6287108b20439a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d8188468ce82da3b93fce2e4cf47d7e6fd12a9802fdec1798e6287108b20439a",

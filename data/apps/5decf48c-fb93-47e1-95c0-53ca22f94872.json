@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/WF",
     "sourceHash": "sha256:60403504a5f746f479d4f9dcd5eb7eba3b500f32afb1a94a57c338ae93941646",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:60403504a5f746f479d4f9dcd5eb7eba3b500f32afb1a94a57c338ae93941646",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/intuitive-bank-reconciliation",
     "sourceHash": "sha256:6abbbdec0d3743bf7e5ca5f6e644a11702c3ca07159d258225da80589df2c6a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6abbbdec0d3743bf7e5ca5f6e644a11702c3ca07159d258225da80589df2c6a3",
