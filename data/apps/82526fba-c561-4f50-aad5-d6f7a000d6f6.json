@@ -8,39 +8,43 @@
     "publisher": "Clever Dynamics",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-payment-plan%7CPAPPID.82526fba-c561-4f50-aad5-d6f7a000d6f6",
-    "lastModified": "2026-02-24T13:33:41.1531128+00:00",
-    "appVersion": "2.2.0.139943",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T16:12:05.9011339+00:00",
+    "appVersion": "2.3.0.166112",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/payment-plan/user-guide-payment-plans/about-payment-plans",
-    "sourceHash": "sha256:5ef754f7e8646328f9c04c207a4426fa2d5e2639b47da664b97488cb2f77341c",
+    "sourceHash": "sha256:aeace313ad79bd10cd532c967c1310d3929f2d9eab0fb4d88b257f0993cd2c03",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5ef754f7e8646328f9c04c207a4426fa2d5e2639b47da664b97488cb2f77341c",
-    "mappedOn": null,
-    "summary": "Customer payment plans",
+    "sourceHash": "sha256:aeace313ad79bd10cd532c967c1310d3929f2d9eab0fb4d88b257f0993cd2c03",
+    "mappedOn": "2026-10-30",
+    "summary": "Splits sales orders into scheduled instalment invoices triggered by dates, events or amounts.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-invoicing",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
+      "ng-customer-payments",
       "ng-ux-automation"
     ],
     "claims": [
-      "Extends standard prepayments into payment plans",
-      "Payment plan templates assigned on customer card",
+      "Builds on standard BC prepayments",
+      "Templates assigned on the customer card",
       "Invoice triggers on release, first or last shipment, or delivery date",
-      "Invoices by percentage of order value or fixed amount",
-      "Override payment terms for orders on plans",
-      "Auto-create payment plans on sales order release",
-      "Fact box showing posted and remaining to invoice",
-      "Exclude invoices from being sent",
-      "Scheduled invoice creation via job queue",
-      "Invoice reversals creating applied credit memos"
+      "Instalments as a percentage of order value or a fixed amount",
+      "Override payment terms for orders on a plan",
+      "Auto-creates payment plans when a sales order is released",
+      "Fact box on sales orders shows posted and remaining plan amounts",
+      "Exclude specific invoices from being issued",
+      "Invoice creation scheduled through job queues with automatic posting",
+      "Reverse invoices from the plan to create applied credit memos",
+      "Lists of invoices created by payment plans for reporting"
     ],
     "countries": [],
     "languages": [],
@@ -48,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

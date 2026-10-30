@@ -8,39 +8,42 @@
     "publisher": "Dynamics eShop Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.businesscentral%7CPAPPID.eb72cc2c-3cb6-41a8-a145-bb64219ad9fb",
-    "lastModified": "2026-09-21T17:56:47.3152828+00:00",
-    "appVersion": "4.8.1.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T17:13:49.652684+00:00",
+    "appVersion": "4.9.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.dynamicseshop.com/contact-us/",
-    "sourceHash": "sha256:4c9fcc6a0838676c3fe67a6b5df864dc5291b0efb49ea7e74c7ba30fd3147f29",
+    "sourceHash": "sha256:8e68dff1e51e0c61ad914fda3efc696811ab45361b5ffe7febcab43493b6fbf5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4c9fcc6a0838676c3fe67a6b5df864dc5291b0efb49ea7e74c7ba30fd3147f29",
-    "mappedOn": null,
-    "summary": "eCommerce and portal platform integrated with BC",
+    "sourceHash": "sha256:8e68dff1e51e0c61ad914fda3efc696811ab45361b5ffe7febcab43493b6fbf5",
+    "mappedOn": "2026-10-30",
+    "summary": "Core of a hosted B2B/B2C webshop and portal platform using BC as system of record.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-webshop",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-admin-portals",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-ux-ai-assistant"
     ],
     "claims": [
-      "B2B and B2C storefronts",
-      "Portals by role, for internal users and external users",
-      "Shared framework for DeS apps",
-      "Multi-language, multi-currency, multi-location",
-      "Commerce AI agent for product discovery",
-      "Portal AI agent for self-service",
+      "Uses BC as the master for customers, items, prices, stock and orders",
+      "Supports B2B and B2C storefronts",
+      "Role-based self-service portals for internal and external users",
+      "Provides the shared framework for other DeS commerce and portal apps",
+      "Multi-language, multi-currency and multi-location",
+      "AI agent for product discovery and shopping",
+      "AI agent for portal navigation and self-service",
       "Image-based product search",
       "Customer, consumer, sales, vendor and service portals"
     ],
@@ -48,11 +51,12 @@
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "DeS"
+      "DeS eCommerce",
+      "DeS portals"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

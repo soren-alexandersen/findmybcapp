@@ -8,24 +8,32 @@
     "publisher": "XPR365",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.xpr365-async-tasks%7CPAPPID.5f535ab4-caa3-49e1-a1ad-4413660eb455",
-    "lastModified": "2026-07-23T09:31:22.6952757+00:00",
-    "appVersion": "28.0.20260723.72944",
-    "pricingTypes": [],
+    "lastModified": "2026-10-15T06:22:53.2819066+00:00",
+    "appVersion": "28.2.20261008.132902",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/",
-    "sourceHash": "sha256:11c6e518c2d51702d54db7dbc17f1e2a8e1a04ce453e00b60e9efcf65b62e67c",
+    "sourceHash": "sha256:8b045303219f2707b68bad33303d9c6e19e1772428a2b538878d0560903d8b93",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:11c6e518c2d51702d54db7dbc17f1e2a8e1a04ce453e00b60e9efcf65b62e67c",
-    "mappedOn": null,
-    "summary": "Library for running workloads in background sessions",
+    "sourceHash": "sha256:8b045303219f2707b68bad33303d9c6e19e1772428a2b538878d0560903d8b93",
+    "mappedOn": "2026-10-30",
+    "summary": "Developer library for running BC workloads in background sessions.",
     "shape": "usability",
-    "primary": [],
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "high"
+      }
+    ],
     "secondary": [],
     "claims": [
-      "Runs BC workloads asynchronously in background sessions",
-      "Works with XPR365 Rest API Client for async integrations"
+      "Runs non-interactive tasks outside the user session",
+      "Combines with the XPR365 Rest API Client for async integrations",
+      "Aimed at AL developers, partners and ISVs"
     ],
     "countries": [],
     "languages": [],
@@ -33,9 +41,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": true,
-    "hideReason": "Developer library for background/async execution",
+    "hideReason": "Developer library app, not an end-user solution.",
     "noFit": ""
   },
   "curated": {

@@ -8,18 +8,20 @@
     "publisher": "K3 Software Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3-software-solutions%7CAID.k3_omni_channel_platform%7CPAPPID.2a747b2c-e405-49ed-aa1d-4f6ce7302ac0",
-    "lastModified": "2026-09-12T18:53:14.8162722+00:00",
-    "appVersion": "28.1.1.24",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T12:27:50.6289298+00:00",
+    "appVersion": "28.2.0.26",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
-    "sourceHash": "sha256:653cb9aa9af6e7718508fb941c7ffd476df7094e6704b8b98a9ee466967669ec",
+    "sourceHash": "sha256:1ae74a9b79aeb044d1cbc805de2f0e6682a6afe8a81b9c4eead0ab33a751f00c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:653cb9aa9af6e7718508fb941c7ffd476df7094e6704b8b98a9ee466967669ec",
-    "mappedOn": null,
-    "summary": "Integration platform for mapping data to third-party solutions",
+    "sourceHash": "sha256:1ae74a9b79aeb044d1cbc805de2f0e6682a6afe8a81b9c4eead0ab33a751f00c",
+    "mappedOn": "2026-10-30",
+    "summary": "Maps and exchanges BC or K3 Pebblestone data with third-party systems via APIs.",
     "shape": "connector",
     "primary": [
       {
@@ -31,10 +33,11 @@
       "ng-assortment-catalogs"
     ],
     "claims": [
-      "Maps BC or K3 Pebblestone data via APIs to or from third-party solutions in Data Exchange Definitions",
-      "Channel card defines customers and items with filters shared via API",
-      "Set items web or retail active or deactivate them in bulk",
-      "Uses standard BC and K3 Pebblestone APIs"
+      "Maps data from BC or K3 Pebblestone to or from third-party solutions via APIs using Data Exchange Definitions",
+      "Uses standard BC and K3 Pebblestone APIs",
+      "Channel card defines filtered sets of customers and items to share with a third party",
+      "Bulk switch items to web or retail active, or deactivate them",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -80,13 +83,16 @@
       "nl",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Retail",
+      "Wholesale"
+    ],
     "connectsTo": [
       "K3 Pebblestone"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -46,7 +46,121 @@
     "Wrong unit price on posted time entries, need to fix the job ledger",
     "Mass correct hundreds of time entries after a rate mistake",
     "Want an audit trail of every correction made to project costs",
-    "Dimension values on job entries are wrong and finance reports don't match"
+    "Dimension values on job entries are wrong and finance reports don't match",
+    "Material used on a job should be charged to the right project",
+    "Our staff need to log hours and expenses to projects themselves"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "which-costs-need-to-land-on-th",
+      "text": "Which costs need to land on the project?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Materials and item consumption",
+          "patterns": [
+            "consumption",
+            "material requirements"
+          ]
+        },
+        {
+          "label": "Staff hours",
+          "patterns": [
+            "hours",
+            "time (entr|registration)",
+            "timesheet"
+          ]
+        },
+        {
+          "label": "Expenses like travel and meals",
+          "patterns": [
+            "expense"
+          ]
+        },
+        {
+          "label": "Equipment and tool use",
+          "patterns": [
+            "equipment (use|rental)",
+            "tools and equipment",
+            "machinery"
+          ]
+        },
+        {
+          "label": "Purchases and subcontractors",
+          "patterns": [
+            "purchase",
+            "subcontract",
+            "committed cost"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Materials and item consumption": 0.3,
+        "Staff hours": 0.4,
+        "Expenses like travel and meals": 0.1,
+        "Equipment and tool use": 0.2,
+        "Purchases and subcontractors": 0.4
+      }
+    },
+    {
+      "id": "should-team-members-record-the",
+      "text": "Should team members record their own hours and costs?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, also from outside BC (web or mobile)",
+          "patterns": [
+            "team members",
+            "team leads",
+            "staff log",
+            "mobile time",
+            "web tool",
+            "mobile app"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, also from outside BC (web or mobile)": 0.3
+      }
+    },
+    {
+      "id": "must-the-project-follow-along-",
+      "text": "Must the project follow along on other documents?",
+      "multi": true,
+      "options": [
+        {
+          "label": "On quotes, orders and invoices",
+          "patterns": [
+            "carried over",
+            "copy document",
+            "project no\\.",
+            "flow from"
+          ]
+        },
+        {
+          "label": "On internal invoices between departments or companies",
+          "patterns": [
+            "internal invoic",
+            "departments"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "On quotes, orders and invoices": 0.1,
+        "On internal invoices between departments or companies": 0.2
+      }
+    }
+  ]
 }

@@ -8,37 +8,40 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_sublot_management%7CPAPPID.571399ac-981e-44a4-8ab0-66cf8bb837ef",
-    "lastModified": "2026-09-29T10:02:27.6367373+00:00",
-    "appVersion": "2602.3.344301.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:29.9457996+00:00",
+    "appVersion": "2603.0.350899.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SUL/",
-    "sourceHash": "sha256:b12d3606c8d6752fdd2a6b3e9d3cdabdd215ab698ee9174bf21cdfb92d2145cb",
+    "sourceHash": "sha256:9e53f1f63513075e6f2e083d826c3b96b8e84d9d2399e525e89c2e11e450b579",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b12d3606c8d6752fdd2a6b3e9d3cdabdd215ab698ee9174bf21cdfb92d2145cb",
-    "mappedOn": null,
-    "summary": "Sublots within lots with traceability",
-    "shape": "addon",
+    "sourceHash": "sha256:9e53f1f63513075e6f2e083d826c3b96b8e84d9d2399e525e89c2e11e450b579",
+    "mappedOn": "2026-10-30",
+    "summary": "Splits a lot into sublots with reason codes while keeping full traceability.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-lot-serial-traceability",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-supplier-quality-compliance"
+      "ng-supplier-quality-compliance",
+      "ng-quality-analysis",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Creates sublots from quantity and reason code",
-      "Sublot history and origins on lot information card",
-      "Report on vendor quality performance by reason code",
-      "Split articles within a lot into a new lot number"
+      "Creates sublots by entering a quantity and a reason code",
+      "Reason codes are user-configurable",
+      "Sublot history and origins shown on the lot information card",
+      "Reason codes support reporting on internal processes and vendor quality",
+      "Splitting within a lot generates a new lot number automatically",
+      "Priced per user per month",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +76,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

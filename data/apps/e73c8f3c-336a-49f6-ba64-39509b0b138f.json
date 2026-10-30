@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.7e13fc4c-47ec-4697-8880-a675599564fa%7CPAPPID.e73c8f3c-336a-49f6-ba64-39509b0b138f",
-    "lastModified": "2026-07-02T13:24:05.3860873+00:00",
-    "appVersion": "28.1.0.132",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:28:51.7854476+00:00",
+    "appVersion": "29.0.0.142",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:1b0a8b3096bad85ab6429f338aefb2794513f49c05be4c78dc6409f552ce05f8",
+    "sourceHash": "sha256:fae54e3914c75daa79f2a3af0d202343755fc7ab695fc4999d477bc9564254ab",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:1b0a8b3096bad85ab6429f338aefb2794513f49c05be4c78dc6409f552ce05f8",
-    "mappedOn": null,
-    "summary": "Bulgarian language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:fae54e3914c75daa79f2a3af0d202343755fc7ab695fc4999d477bc9564254ab",
+    "mappedOn": "2026-10-30",
+    "summary": "Bulgarian user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Bulgarian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Bulgarian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "BG"
@@ -39,14 +41,15 @@
       "bg"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

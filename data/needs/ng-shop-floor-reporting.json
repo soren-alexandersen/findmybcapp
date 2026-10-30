@@ -140,10 +140,10 @@
         }
       ],
       "coverage": {
-        "Touchscreen terminal at the machine": 0.23,
-        "Phone or tablet": 0.25,
+        "Touchscreen terminal at the machine": 0.2,
+        "Phone or tablet": 0.24,
         "Barcode scanning": 0.24,
-        "Data straight from machines or scales": 0.08
+        "Data straight from machines or scales": 0.12
       }
     },
     {
@@ -207,10 +207,10 @@
         }
       ],
       "coverage": {
-        "Setup and run time": 0.35,
-        "Output and material consumption": 0.55,
-        "Scrap and reasons": 0.15,
-        "Downtime and stops": 0.16
+        "Setup and run time": 0.34,
+        "Output and material consumption": 0.54,
+        "Scrap and reasons": 0.16,
+        "Downtime and stops": 0.15
       }
     },
     {
@@ -242,8 +242,8 @@
         }
       ],
       "coverage": {
-        "Yes, clock-in/out and attendance": 0.19,
-        "Yes, and calculate hours for payroll": 0.05
+        "Yes, clock-in/out and attendance": 0.18,
+        "Yes, and calculate hours for payroll": 0.04
       }
     },
     {
@@ -278,8 +278,8 @@
         }
       ],
       "coverage": {
-        "Yes, post automatically in real time": 0.17,
-        "No, a supervisor reviews first": 0.12
+        "Yes, post automatically in real time": 0.19,
+        "No, a supervisor reviews first": 0.14
       }
     },
     {
@@ -315,8 +315,8 @@
         }
       ],
       "coverage": {
-        "Lot or serial numbers": 0.17,
-        "Pallets, packages or license plates": 0.14
+        "Lot or serial numbers": 0.18,
+        "Pallets, packages or license plates": 0.12
       }
     },
     {
@@ -365,10 +365,19 @@
         }
       ],
       "coverage": {
-        "Live status of orders and machines": 0.41,
+        "Live status of orders and machines": 0.38,
         "Performance vs. plan (OEE, actual vs. expected)": 0.09,
         "Work instructions for operators": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'manufacturing' wording and licensing",
+      "terms": [
+        "manufactur"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.self_checkout_connector%7CPAPPID.34bad3b9-1ba9-491d-ae9c-3781e53b49fe",
-    "lastModified": "2026-08-26T02:35:56.0164603+00:00",
-    "appVersion": "28.2.1.4036",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T06:28:18.3798588+00:00",
+    "appVersion": "29.0.1.4212",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:873ed6436835c7fcd7d6d81cee3e68b66156c4d9b0fbeaca4cffd208a03bc0f0",
+    "sourceHash": "sha256:136e201d3912cc2915629bb228a75fcea9eff6d121eace1f31ba038cd480c631",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:873ed6436835c7fcd7d6d81cee3e68b66156c4d9b0fbeaca4cffd208a03bc0f0",
-    "mappedOn": null,
-    "summary": "Connects LS Central with self-checkout hardware",
+    "sourceHash": "sha256:136e201d3912cc2915629bb228a75fcea9eff6d121eace1f31ba038cd480c631",
+    "mappedOn": "2026-10-30",
+    "summary": "Links LS Central POS to Diebold-Nixdorf self-checkout machines.",
     "shape": "addon",
     "primary": [
       {
@@ -27,16 +29,15 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-vert-retail"
-    ],
+    "secondary": [],
     "claims": [
-      "Connects LS Central to Diebold-Nixdorf self-checkout hardware",
-      "Sell items by barcode, item ID, quantity or weight at self-checkout",
-      "Void items via attendant menu",
+      "Works with Diebold-Nixdorf self-checkout hardware",
+      "Sells by barcode, item ID, quantity or weight at self-checkout",
+      "Attendant can void items from a menu",
       "Calculates discounts during checkout",
-      "Age limitations on specific items",
-      "Accepts card payments and prints or emails receipts"
+      "Enforces age limits on specific items",
+      "Accepts card payments and prints or emails receipts",
+      "Requires LS Central for retail"
     ],
     "countries": [],
     "languages": [],
@@ -44,13 +45,13 @@
       "Retail"
     ],
     "connectsTo": [
-      "Diebold-Nixdorf"
+      "Diebold-Nixdorf self-checkout"
     ],
     "requires": [
       "LS Central"
     ],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

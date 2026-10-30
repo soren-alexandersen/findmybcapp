@@ -8,80 +8,53 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_advanced_pricing%7CPAPPID.4140fbc3-9743-4545-814e-dd8f523f86eb",
-    "lastModified": "2026-09-29T10:03:12.3952944+00:00",
-    "appVersion": "2603.2.344883.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T14:01:42.7530484+00:00",
+    "appVersion": "2604.0.351382.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/APR/",
-    "sourceHash": "sha256:a711c61a7aa06e07df4a363ce55533fe35c8a6e283b94310f612e0131c533d36",
+    "sourceHash": "sha256:6012892108836c2216c97c0059dc54cd3f718a3ae1316cfe4835b9eae8ed430c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a711c61a7aa06e07df4a363ce55533fe35c8a6e283b94310f612e0131c533d36",
-    "mappedOn": null,
-    "summary": "Food and beverage specific pricing scenarios",
+    "sourceHash": "sha256:6012892108836c2216c97c0059dc54cd3f718a3ae1316cfe4835b9eae8ed430c",
+    "mappedOn": "2026-10-30",
+    "summary": "Food and beverage pricing: tiered prices, amount discounts, multiple units of measure.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-pricing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "low"
       }
     ],
-    "secondary": [
-      "ng-vert-food-beverage"
-    ],
+    "secondary": [],
     "claims": [
-      "Hierarchical pricing across customer groups and individual customers",
-      "Discounts as amounts, not only percentages",
-      "Sets price or discount by ship-to address and by sell-to customer",
-      "Price reference date: shipment or requested/promised delivery date",
-      "Prices sales in several units of measure",
-      "Reference customers to share pricing strategy",
-      "Manual price changes freeze the sales line",
-      "Price calculation explanation page from sales line"
+      "Picks the price from multiple tiers across customer groups and individual customers",
+      "Discounts can be expressed as amounts, not only percentages",
+      "Different price and discount setup per sell-to customer and ship-to address",
+      "Uses shipment or requested/promised delivery date as the pricing date",
+      "Defines sales prices in multiple units of measure",
+      "Reference customers share one pricing setup",
+      "Freezes manually negotiated prices on the sales line",
+      "Explains how a line's price was calculated",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "LU",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

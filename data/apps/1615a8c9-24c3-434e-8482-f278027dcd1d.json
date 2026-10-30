@@ -8,45 +8,47 @@
     "publisher": "BrightCom Solutions AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_retail_extension%7CPAPPID.1615a8c9-24c3-434e-8482-f278027dcd1d",
-    "lastModified": "2026-10-06T17:00:34.8260803+00:00",
-    "appVersion": "28.0.36072.0",
+    "lastModified": "2026-10-30T06:00:57.2596569+00:00",
+    "appVersion": "28.0.37643.0",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCRetail",
-    "sourceHash": "sha256:502f4cc015dbc4b9d61d606a9799c09b402c807be93a22246d29d342b0ab5a76",
+    "sourceHash": "sha256:6711cde47ca43ccad6687729a020a88a41a1c898667ee0ba1dd0dcc59aa8af16",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:502f4cc015dbc4b9d61d606a9799c09b402c807be93a22246d29d342b0ab5a76",
-    "mappedOn": null,
-    "summary": "Manages retail item variants with size, color, EAN, prices and brands",
+    "sourceHash": "sha256:6711cde47ca43ccad6687729a020a88a41a1c898667ee0ba1dd0dcc59aa8af16",
+    "mappedOn": "2026-10-30",
+    "summary": "Item variant management for retail and fashion: size/colour matrices, EANs, variant prices and stock.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-vert-fashion",
-        "confidence": "medium"
-      },
-      {
         "need": "ng-item-master-data",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-retail",
-      "ng-inventory-analysis"
+      "ng-sales-order-entry",
+      "ng-sales-pricing",
+      "ng-inventory-analysis",
+      "ng-purchase-orders"
     ],
     "claims": [
-      "Matrix-based variant creation via templates",
-      "Order quantities per variant via matrix",
-      "Barcode, vendor ref and brand per variant",
-      "Variant-specific sales and purchase prices",
-      "Inventory per variant and location with EAN",
-      "Inventory valuation by variant",
-      "Label print (coming soon)",
-      "Multi-language variant values and sorting order",
-      "Cloud deployment"
+      "Matrix-based variant creation from configurable templates",
+      "Matrix entry of quantities per variant on sales and purchase orders",
+      "Links vendor item numbers, barcodes and brands per variant",
+      "Variant-level sales and purchase prices",
+      "Stock per variant and location with EAN shown",
+      "Inventory valuation by size, colour or other variant dimension",
+      "Translated variant values and configurable sort order",
+      "Label printing with EAN and price is planned",
+      "Works on Essentials and Premium"
     ],
     "countries": [
       "DK",
@@ -62,7 +64,7 @@
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "online",
+    "deployment": "not_stated",
     "pricing": "contact",
     "hide": false,
     "hideReason": "",

@@ -8,18 +8,20 @@
     "publisher": "NETRONIC Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.netronic%7CAID.visual-production-scheduler-v02%7CPAPPID.5716c909-a743-461e-ac12-d99759152986",
-    "lastModified": "2026-06-22T17:00:06.7362336+00:00",
-    "appVersion": "1.27.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:16:47.43477+00:00",
+    "appVersion": "1.27.1.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.netronic.com/visual-production-scheduler-vps-for-dynamics-365-business-central",
-    "sourceHash": "sha256:a10397956f9ef0d84b61253fe3d5708d7f39beed919f2dcbc3f48564423c6718",
+    "sourceHash": "sha256:6ab3b2cca223a3fdc2298bae3a28a2a8759ede7e2ef631a6a0bfd4fe3d0c0c7f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a10397956f9ef0d84b61253fe3d5708d7f39beed919f2dcbc3f48564423c6718",
-    "mappedOn": null,
-    "summary": "Visual production order and capacity scheduling",
+    "sourceHash": "sha256:6ab3b2cca223a3fdc2298bae3a28a2a8759ede7e2ef631a6a0bfd4fe3d0c0c7f",
+    "mappedOn": "2026-10-30",
+    "summary": "Interactive production schedule and resource Gantt with drag-and-drop rescheduling.",
     "shape": "process",
     "primary": [
       {
@@ -27,15 +29,15 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-routings-workcenters"
-    ],
+    "secondary": [],
     "claims": [
-      "Interactive visual production schedule and resource Gantt chart",
-      "Drag and drop scheduling of production orders, lines, routing lines and capacities",
-      "Real-time resource utilization and overload visualization",
-      "Shows dependencies and schedule conflicts",
-      "Premium edition only"
+      "Production schedule plus resource Gantt chart",
+      "Drag-and-drop scheduling of orders, lines, routing lines and capacities",
+      "Visualises resource utilisation and upcoming overloads",
+      "Shows dependencies, due dates, workloads and bottlenecks at a glance",
+      "Works directly on BC manufacturing data",
+      "Requires Premium edition",
+      "Available in English and German"
     ],
     "countries": [],
     "languages": [
@@ -47,8 +49,8 @@
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

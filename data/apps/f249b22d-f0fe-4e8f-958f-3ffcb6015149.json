@@ -8,19 +8,21 @@
     "publisher": "RUX Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.fdb%7CPAPPID.f249b22d-f0fe-4e8f-958f-3ffcb6015149",
-    "lastModified": "2026-09-23T16:38:06.1617483+00:00",
-    "appVersion": "27.0.0.46",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T18:41:38.5894132+00:00",
+    "appVersion": "27.0.0.47",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/financial-dashboard",
-    "sourceHash": "sha256:4c8c819769267b1e5277ecfd85cefd30dc016199487857726f4e44172a3440c8",
+    "sourceHash": "sha256:f740f534e51efb6644d658f9108577efafe6357453e3c94dc7bfc5d169c6ada2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4c8c819769267b1e5277ecfd85cefd30dc016199487857726f4e44172a3440c8",
-    "mappedOn": null,
-    "summary": "Financial KPI dashboards embedded in BC",
-    "shape": "usability",
+    "sourceHash": "sha256:f740f534e51efb6644d658f9108577efafe6357453e3c94dc7bfc5d169c6ada2",
+    "mappedOn": "2026-10-30",
+    "summary": "Embedded financial dashboard with KPIs for AR, AP, inventory, sales and cash.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-bi-dashboards",
@@ -30,22 +32,22 @@
     "secondary": [
       "ng-collections",
       "ng-cash-forecast",
-      "ng-gl-reconciliation",
-      "ng-inventory-analysis"
+      "ng-inventory-analysis",
+      "ng-gl-reconciliation"
     ],
     "claims": [
-      "30+ KPIs embedded in BC without external connections",
-      "Company goals vs actuals",
-      "Sub-ledger to G/L balance checks",
-      "AR aging by bucket and customer",
-      "Average pay days by customer",
-      "Late payer flags",
-      "AP aging by vendor",
-      "Inventory valuation by category and location, days supply",
-      "Sales by dimension, posting group, top customers/items",
-      "Cash balance by bank account and cash forecast graph",
-      "Lists exportable to Excel with drill-down",
-      "One flat yearly fee regardless of headcount"
+      "More than 30 KPIs and charts across six areas, embedded in BC",
+      "No external connections; uses BC permissions incl. drill-downs",
+      "Company goals compared against actuals",
+      "Checks G/L against subledger balances and posting groups",
+      "AR and AP aging charts and detailed aging by customer or vendor",
+      "Average pay days per customer and late payer flags",
+      "Lists can be filtered, drilled into and exported to Excel",
+      "Inventory value by category and location, outage warnings and days of supply",
+      "Sales by dimensions and posting groups, top customers, items and item profit",
+      "Cash balance by bank, cash usage and a simple cash forecast",
+      "Flat yearly fee regardless of headcount",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [],

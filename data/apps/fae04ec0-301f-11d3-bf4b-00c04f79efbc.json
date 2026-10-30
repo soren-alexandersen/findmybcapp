@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beck-consulting%7CAID.bcedi%7CPAPPID.fae04ec0-301f-11d3-bf4b-00c04f79efbc",
-    "lastModified": "2026-09-29T10:54:44.0173709+00:00",
-    "appVersion": "2603.2.346040.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T13:27:06.9319052+00:00",
+    "appVersion": "2604.0.350696.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/edi/",
-    "sourceHash": "sha256:827e87d137fb6749ab13a1c32c0e6dc613c4f6eb3f03a0726eb7d372d9390211",
+    "sourceHash": "sha256:99d3e3b781799c069d83d9130eec821e778943790ac868b4dbe9f9a7dc5ad3f7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:827e87d137fb6749ab13a1c32c0e6dc613c4f6eb3f03a0726eb7d372d9390211",
-    "mappedOn": null,
-    "summary": "EDI exchange of orders, invoices with trading partners",
+    "sourceHash": "sha256:99d3e3b781799c069d83d9130eec821e778943790ac868b4dbe9f9a7dc5ad3f7",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed EDI service that turns partner orders into BC orders and sends shipments and invoices.",
     "shape": "connector",
     "primary": [
       {
@@ -28,15 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Creates orders automatically from EDI",
-      "Sends shipment notifications and invoices automatically on posting",
-      "Managed service incl. trading partner onboarding, testing and monitoring",
-      "Meets retailer EDI compliance standards",
-      "Single invoice, contract and point of contact",
-      "30-day free trial"
+      "Incoming EDI orders created automatically as BC orders",
+      "Ship notices and invoices sent automatically on posting",
+      "Vendor team handles partner onboarding, testing and monitoring",
+      "Single invoice, contract and contact for all EDI",
+      "Over 10,000 EDI connections since 2007",
+      "Free for 30 days, then a paid subscription"
     ],
     "countries": [
       "AU",
@@ -70,7 +73,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

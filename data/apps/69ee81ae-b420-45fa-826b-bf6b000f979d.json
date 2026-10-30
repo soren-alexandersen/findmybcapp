@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.etribezlabsltd1756708352515|AID.etribez-business-central|PAPPID.69ee81ae-b420-45fa-826b-bf6b000f979d",
+  "guid": "69ee81ae-b420-45fa-826b-bf6b000f979d",
+  "publisherId": "etribezlabsltd1756708352515",
+  "offerId": "etribez-business-central",
+  "source": {
+    "name": "eTribez Business Central",
+    "publisher": "eTribez Labs Ltd.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.etribezlabsltd1756708352515%7CAID.etribez-business-central%7CPAPPID.69ee81ae-b420-45fa-826b-bf6b000f979d",
+    "lastModified": "2026-10-13T12:39:12.832297+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.etribezacademy.com/",
+    "sourceHash": "sha256:e2e30a396f44d886b48ba14af9b243759128a37d82360242c02b86eec804a871",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e2e30a396f44d886b48ba14af9b243759128a37d82360242c02b86eec804a871",
+    "mappedOn": "2026-10-30",
+    "summary": "Links the eTribez TV and film production platform to Business Central finance.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-costs",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-budget",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Integrates directly between eTribez and Business Central",
+      "Built for TV and film production companies",
+      "eTribez handles production budgets, costs, cost reports and purchase orders while BC holds the financials",
+      "Business Central acts as the financial system of record",
+      "Aimed at production finance teams, production managers and operations users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "TV and film production"
+    ],
+    "connectsTo": [
+      "eTribez"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.ls_retail|AID.b51e7e8d-f8f5-4931-9898-1613af7d802f|PAPPID.8a0546fa-f70f-401d-b1fe-c7c4be8fb380",
+  "guid": "8a0546fa-f70f-401d-b1fe-c7c4be8fb380",
+  "publisherId": "ls_retail",
+  "offerId": "b51e7e8d-f8f5-4931-9898-1613af7d802f",
+  "source": {
+    "name": "CentralConnect",
+    "publisher": "LS Retail",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.b51e7e8d-f8f5-4931-9898-1613af7d802f%7CPAPPID.8a0546fa-f70f-401d-b1fe-c7c4be8fb380",
+    "lastModified": "2026-10-15T05:39:22.7499101+00:00",
+    "appVersion": "28.0.0.24",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Central-Connect.htm?tocpath=Product%20Overview%7CLS%20Central%20Add-ons%7CCentralConnect%7C_____0",
+    "sourceHash": "sha256:f36499a6ddc9b342ae0a415bfe929cc49bdb8bd18c61fe90314715ae8695cdd0",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:f36499a6ddc9b342ae0a415bfe929cc49bdb8bd18c61fe90314715ae8695cdd0",
+    "mappedOn": "2026-10-30",
+    "summary": "Integration framework linking LS Central POS and back office to SAP S/4HANA.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Connects LS Central to SAP S/4HANA as the ERP",
+      "Lets LS Central act as POS and back office alongside SAP",
+      "Can also link loyalty platforms, warehouse systems, hardware and payment providers",
+      "One framework for all integrations, inbound and outbound",
+      "Each data flow follows source, mapping, sending and logging steps",
+      "LS Retail manages the integration end to end",
+      "Aimed at large chains and enterprises"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "SAP S/4HANA"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

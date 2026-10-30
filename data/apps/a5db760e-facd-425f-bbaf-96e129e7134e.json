@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.mementosrls1588695843705|AID.globexchangerates|PAPPID.a5db760e-facd-425f-bbaf-96e129e7134e",
+  "guid": "a5db760e-facd-425f-bbaf-96e129e7134e",
+  "publisherId": "mementosrls1588695843705",
+  "offerId": "globexchangerates",
+  "source": {
+    "name": "Global Exchange Rates",
+    "publisher": "MEMENTO SRL",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mementosrls1588695843705%7CAID.globexchangerates%7CPAPPID.a5db760e-facd-425f-bbaf-96e129e7134e",
+    "lastModified": "2026-10-19T10:14:12.8584981+00:00",
+    "appVersion": "28.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bcapps.mementoas.com/en-US/apps/GlobalExchangeRates/intro.html",
+    "sourceHash": "sha256:253c4b56e995b2702d263ce2e3ea0b10b88307025d12eb2ee276b104f234df9d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:253c4b56e995b2702d263ce2e3ea0b10b88307025d12eb2ee276b104f234df9d",
+    "mappedOn": "2026-10-30",
+    "summary": "Downloads official exchange rates from 90+ central banks and tax authorities.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Rates from more than 90 central banks and tax authorities",
+      "Covers 150+ currencies",
+      "Daily blended GLOBAL rate for group consolidation",
+      "Downloads historical rates for most sources",
+      "One licence covers every company and environment in the tenant",
+      "Hourly automated import once scheduled",
+      "No subscription to OANDA or XE needed",
+      "Sources include ECB, Federal Reserve, Bank of England, HMRC and Danmarks Nationalbank",
+      "EUR 25 per month or EUR 280 per year by card",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

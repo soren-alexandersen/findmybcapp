@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.transport_order_manager%7CPAPPID.c756e0e4-902a-4b43-b38c-f116041f987c",
-    "lastModified": "2026-10-02T07:38:52.6859276+00:00",
-    "appVersion": "1.2.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T10:02:00.7176599+00:00",
+    "appVersion": "1.4.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/transport-order-manager/",
-    "sourceHash": "sha256:c54ea02a79f183810f5cebf27b55ce85225dd4aec4aab9949e0cb7b110c66d76",
+    "sourceHash": "sha256:85a7f84a67e322538f14178bc6c8e1931f5096ba20650c07695cda982820d134",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c54ea02a79f183810f5cebf27b55ce85225dd4aec4aab9949e0cb7b110c66d76",
-    "mappedOn": null,
-    "summary": "Plans and manages inbound and outbound transport orders",
+    "sourceHash": "sha256:85a7f84a67e322538f14178bc6c8e1931f5096ba20650c07695cda982820d134",
+    "mappedOn": "2026-10-30",
+    "summary": "Groups purchase, sales and transfer orders into transport orders for planning and posting.",
     "shape": "process",
     "primary": [
       {
@@ -29,23 +31,29 @@
     ],
     "secondary": [
       "ng-packing-loading",
-      "ng-stock-movements"
+      "ng-stock-movements",
+      "ng-receiving-putaway"
     ],
     "claims": [
-      "Groups purchase, sales and transfer orders into one transport order",
-      "Posts related receipts, shipments and transfers in one process",
-      "Assigns transporters, drivers, loading and unloading dates",
-      "Validations ensure balanced loads",
-      "Multiple loads per transport order, processed independently",
-      "Automatic archive of every transport posting"
+      "One transport order can hold several purchase, sales and transfer documents",
+      "Receipts, shipments and transfers are posted together from the transport order",
+      "Transporter, driver and loading/unloading dates are recorded",
+      "Validations check load balance before posting",
+      "Several loads per transport order, each completed separately",
+      "Transport postings are archived for history",
+      "Supplier pickups and customer drops can share one vehicle",
+      "Central overview of drivers and transport activity"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

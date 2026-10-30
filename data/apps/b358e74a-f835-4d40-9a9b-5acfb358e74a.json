@@ -8,45 +8,42 @@
     "publisher": "Theta Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.dual_unit_of_measure%7CPAPPID.b358e74a-f835-4d40-9a9b-5acfb358e74a",
-    "lastModified": "2026-10-06T09:27:12.854538+00:00",
-    "appVersion": "28.1.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:25:42.3680692+00:00",
+    "appVersion": "28.1.2.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/DU/docs/Introduction",
-    "sourceHash": "sha256:02bc0546f2c3ab1428d6fc2a9ff7d2a79098b8b7c008b6cf2aa112a90b859f68",
+    "sourceHash": "sha256:75ecd2f4865e4e5965023fce1912834b578fbc6ef9857bbe2d54c846b433e96a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:02bc0546f2c3ab1428d6fc2a9ff7d2a79098b8b7c008b6cf2aa112a90b859f68",
-    "mappedOn": null,
-    "summary": "Dual unit of measure (catch weight) inventory",
+    "sourceHash": "sha256:75ecd2f4865e4e5965023fce1912834b578fbc6ef9857bbe2d54c846b433e96a",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks items in two units at once, such as weight and pieces, for catch-weight.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-item-master-data",
-        "confidence": "medium"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
+      "ng-vert-food-beverage",
       "ng-vert-metal-timber-materials",
-      "ng-allocation-picking",
-      "ng-shop-floor-reporting"
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Tracks inventory in two units of measure (catch weight / random weight)",
-      "Items configurable with variable or fixed weight/volume-to-unit relationship",
-      "Tracks on-hand inventory by quantity as well as by units",
-      "Purchase, sell, transfer and adjust recording both actual quantity and units",
-      "Supports advanced warehousing, bin contents, put-aways and picks",
-      "Supports assembly orders in quantity and units",
-      "Supports production output and consumption in quantity and units",
-      "Stops inventory going negative, in quantity as well as in units",
-      "Supports standard costing methods",
-      "Production features only in the Premium option"
+      "Items set up with a fixed or variable weight/volume-to-units ratio",
+      "Inventory on hand shown in both quantity and units",
+      "Purchase, sales, transfers and adjustments record actual quantity and units",
+      "Supports picks, put-aways, bin contents and advanced warehousing",
+      "Assembly orders in quantity and units",
+      "Production output and consumption in both units",
+      "Prevents negative inventory in either unit",
+      "Works with standard costing methods",
+      "Production features only in the Premium licence option"
     ],
     "countries": [],
     "languages": [
@@ -67,14 +64,14 @@
     ],
     "industries": [
       "Chemicals",
-      "Food and beverage",
+      "Food",
       "Metals",
       "Timber"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

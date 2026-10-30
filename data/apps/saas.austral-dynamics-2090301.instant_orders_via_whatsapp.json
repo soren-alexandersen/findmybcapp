@@ -1,0 +1,65 @@
+{
+  "appId": "austral-dynamics-2090301.instant_orders_via_whatsapp",
+  "guid": null,
+  "publisherId": "austral-dynamics-2090301",
+  "offerId": "instant_orders_via_whatsapp",
+  "source": {
+    "name": "Instant Orders - via WhatsApp",
+    "publisher": "Austral Dynamics Pty Ltd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/austral-dynamics-2090301.instant_orders_via_whatsapp",
+    "lastModified": "2026-10-29T07:14:19.4015177+00:00",
+    "appVersion": "v1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:72839bde4864bd17bcbfab18cc359defa2d5f031d669ae00bc07d2439b7995d7",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:72839bde4864bd17bcbfab18cc359defa2d5f031d669ae00bc07d2439b7995d7",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets approved B2B customers create and manage BC sales orders through WhatsApp.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-channels"
+    ],
+    "claims": [
+      "Customers create, change, reschedule, cancel and check orders in WhatsApp",
+      "Uses each customer's contracted prices",
+      "Orders are only created after the customer explicitly confirms",
+      "Confirmed orders go straight into Business Central",
+      "Sales team is notified automatically",
+      "No customer portal, app or login is needed"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WhatsApp Business"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

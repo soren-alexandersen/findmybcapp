@@ -8,18 +8,20 @@
     "publisher": "IDYN B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.connectit%7CPAPPID.9e0ee02b-484d-4487-8d74-961ece2357c5",
-    "lastModified": "2026-10-02T06:56:44.2570292+00:00",
-    "appVersion": "28.2.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T09:16:29.5716961+00:00",
+    "appVersion": "29.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
-    "sourceHash": "sha256:5d5d8bc987eec67dad8e1252e3533e4dadc8d101011564f414e7bae8bd7010bf",
+    "sourceHash": "sha256:a48327c89ce232aafe7101cf64f647f7bdfe18d4407518d08de9e2840211aaa3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5d5d8bc987eec67dad8e1252e3533e4dadc8d101011564f414e7bae8bd7010bf",
-    "mappedOn": null,
-    "summary": "Data import and export framework",
+    "sourceHash": "sha256:a48327c89ce232aafe7101cf64f647f7bdfe18d4407518d08de9e2840211aaa3",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code import and export interfaces between BC and external systems, files and APIs.",
     "shape": "usability",
     "primary": [
       {
@@ -29,26 +31,30 @@
       {
         "need": "ng-ux-import-excel",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-ux-master-data-sync",
-      "ng-admin-data-migration",
-      "ng-admin-integration-failures"
+      "ng-admin-integration-failures",
+      "ng-supplier-pricing"
     ],
     "claims": [
-      "Import/export any BC data including third-party solutions",
-      "Formats XML, JSON, CSV and Excel",
-      "Protocols SFTP, FTP, REST, SOAP, Dropbox, Azure Storage, Service Bus, Event Grid",
-      "Setup wizard for interfaces",
-      "AL functions are included for manipulating fields",
-      "Master data sync across companies and tenants",
-      "Scheduled automated imports and exports",
-      "Interface definitions from example JSON/XML files",
-      "Reports errors and shows a dashboard by mail or WhatsApp",
-      "Used for data migration from old NAV",
-      "No middleware required",
-      "First interface free"
+      "Imports or exports any BC data, including third-party app data",
+      "Handles XML, JSON, CSV and Excel",
+      "Supports SFTP, FTP, REST, SOAP, Azure Storage, Dropbox, Event Grid and Service Bus",
+      "Setup wizard for building interfaces",
+      "Built-in AL functions for field-level transformation",
+      "Syncs master data across companies and tenants",
+      "Scheduled automatic imports and exports",
+      "Interface definitions generated from sample JSON or XML files",
+      "Monitoring dashboard with error alerts by email or WhatsApp",
+      "Used for migration from old NAV environments",
+      "No middleware needed",
+      "First interface is free; further pricing on request"
     ],
     "countries": [],
     "languages": [
@@ -59,8 +65,8 @@
       "SFTP",
       "Azure Storage",
       "Dropbox",
-      "Azure Event Grid",
-      "Azure Service Bus"
+      "Event Grid",
+      "Service Bus"
     ],
     "requires": [],
     "deployment": "not_stated",

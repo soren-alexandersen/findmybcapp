@@ -8,21 +8,21 @@
     "publisher": "365 business development",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businessbanking%7CPAPPID.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb",
-    "lastModified": "2026-09-28T09:07:13.5357151+00:00",
-    "appVersion": "18.3.543.28299",
+    "lastModified": "2026-10-29T08:47:36.5682189+00:00",
+    "appVersion": "18.4.565.29053",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://docs.365businessdev.com/en-us/365-business-banking/",
-    "sourceHash": "sha256:979370c7c367a88d02aae206b18ad35fca61e707327c1a48942ace3f2e13b185",
+    "sourceHash": "sha256:867542559d16f0d3e3ad2b1d71eb9887c52d61a6f974e7a283a01f19894d0b72",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:979370c7c367a88d02aae206b18ad35fca61e707327c1a48942ace3f2e13b185",
-    "mappedOn": null,
-    "summary": "Bank account connection for transactions and payments",
+    "sourceHash": "sha256:867542559d16f0d3e3ad2b1d71eb9887c52d61a6f974e7a283a01f19894d0b72",
+    "mappedOn": "2026-10-30",
+    "summary": "Bank and payment provider integration: scheduled statements, automatic matching, SEPA payments and direct debits.",
     "shape": "connector",
     "primary": [
       {
@@ -32,22 +32,32 @@
       {
         "need": "ng-ap-payments",
         "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-conn-payment-providers"
+      "ng-customer-payments",
+      "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Connects to 4,000+ banks in 10+ European countries",
-      "Multi-bank support",
-      "XS2A PSD2, FinTS/HBCI and web scraping interfaces",
-      "Connects PayPal, Mollie, Stripe",
-      "Imports and applies bank transactions",
-      "Covers direct debits, SEPA credit transfers and payments in real time",
-      "Standing orders for recurring payments",
-      "Suggests G/L account, customer or vendor from ZKA/SEPA purpose codes",
-      "Uses finAPI open banking provider",
-      "25 payment instructions per user license per month"
+      "PSD2/XS2A access to 4,800+ banks in 15 European countries",
+      "EBICS and camt/pain files for other banks",
+      "Different channels per bank account; one bank access for several companies",
+      "Statements fetched on a schedule",
+      "Matching by references, sender, rules, ZKA and SEPA purpose codes with review log",
+      "Payment suggestions for vendors, customers and employees",
+      "SEPA, instant, standing orders and foreign transfers via EBICS",
+      "Multi-level payment approval and IBAN/BIC checks",
+      "Verification of Payee name check before sending",
+      "SEPA direct debits with mandates and returned debit handling",
+      "Reconciles payouts and fees from PayPal, Stripe, Adyen, Mollie, Klarna and more",
+      "REMADV remittance advice import and export",
+      "PSD2 via BaFin-licensed finAPI; credentials never stored in BC",
+      "Each user license includes 25 payment instructions a month",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [
@@ -57,13 +67,17 @@
     "industries": [],
     "connectsTo": [
       "finAPI",
+      "EBICS",
       "PayPal",
+      "Stripe",
+      "Adyen",
       "Mollie",
-      "Stripe"
+      "Klarna",
+      "Shopify Payments",
+      "Unzer",
+      "Amazon Pay"
     ],
-    "requires": [
-      "365 business API"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "per_user",
     "hide": false,

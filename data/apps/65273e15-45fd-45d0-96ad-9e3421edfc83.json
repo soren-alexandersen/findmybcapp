@@ -8,18 +8,20 @@
     "publisher": "Experlogix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.experlogix%7CAID.experlogix-cpq-for-d365-business-central%7CPAPPID.65273e15-45fd-45d0-96ad-9e3421edfc83",
-    "lastModified": "2026-07-20T12:24:19.7143243+00:00",
-    "appVersion": "26.7.7.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T12:24:50.7948953+00:00",
+    "appVersion": "26.10.21.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://experlogix.com/integrations/microsoft-dynamics-365-business-central",
-    "sourceHash": "sha256:62ca2828e8a91a1c30c26190ba584849920052f90b5cf6dee2e6acb2e5108ab5",
+    "sourceHash": "sha256:826c1974b796322387ca1c525a0c376ae4445e1ee6159537bd9027db43feeeeb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:62ca2828e8a91a1c30c26190ba584849920052f90b5cf6dee2e6acb2e5108ab5",
-    "mappedOn": null,
-    "summary": "Configure-price-quote integration with Experlogix",
+    "sourceHash": "sha256:826c1974b796322387ca1c525a0c376ae4445e1ee6159537bd9027db43feeeeb",
+    "mappedOn": "2026-10-30",
+    "summary": "Configure-price-quote tool that builds quotes, orders, BOMs and routings in Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -32,22 +34,27 @@
       }
     ],
     "secondary": [
-      "ng-bom-formula-engineering"
+      "ng-bom-formula-engineering",
+      "ng-sales-order-entry",
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Creates production orders with BOMs and routings from configured orders",
-      "Real-time guided selling with rules validation",
-      "One quote or order can mix standard with configured products",
-      "Unlimited hierarchical product tiers",
-      "Calculates shipping and tax",
-      "Determines gross profit amounts and percentages",
-      "Calculates currency conversions",
-      "Structured quantity breaks",
-      "Pictures and suggestions per feature or option",
+      "Works with BC sales quotes and sales orders",
+      "Creates BOMs and routings on demand from a configured order",
+      "Turns configured orders into production orders with BOMs and routings",
       "Cloud-based integration service",
-      "Interacts with sales orders and quotes with on-demand BOM and routing creation",
-      "Works with ISV, custom and standard entities and fields",
-      "Supports Essentials and Premium editions"
+      "Suggests up-sell and cross-sell items",
+      "Mixes standard and configured products on one quote or order",
+      "Unlimited levels of product hierarchy",
+      "Converts currencies in the configurator",
+      "Works with standard, custom and ISV tables and fields",
+      "Guided selling with real-time rules validation",
+      "Calculates shipping and tax",
+      "Shows gross profit amount and percentage",
+      "Summarises user-defined values like product cost, margin or weight",
+      "Supports quantity price breaks",
+      "Supports direct, reseller and B2B/B2C web selling",
+      "Available in English, French, German, Danish and Dutch"
     ],
     "countries": [
       "AU",
@@ -73,10 +80,12 @@
       "Distribution",
       "Manufacturing"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Experlogix CPQ"
+    ],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -86,8 +86,8 @@
       ],
       "coverage": {
         "Automatically when posted or released": 0.17,
-        "In scheduled batches (e.g. nightly)": 0.38,
-        "One by one, after I review the email": 0.21
+        "In scheduled batches (e.g. nightly)": 0.37,
+        "One by one, after I review the email": 0.2
       }
     },
     {
@@ -142,7 +142,7 @@
         }
       ],
       "coverage": {
-        "Invoices and credit memos": 0.38,
+        "Invoices and credit memos": 0.39,
         "Customer statements and reminders": 0.27,
         "Purchase orders and remittance advice": 0.19,
         "Scheduled reports to staff": 0.04
@@ -210,15 +210,27 @@
           ]
         },
         {
+          "label": "Our own subject lines, file names and email templates",
+          "patterns": [
+            "custom (subject|pdf file names?)",
+            "placeholders",
+            "subject (line|per)",
+            "custom filename",
+            "e-?mail templates?",
+            "body editor"
+          ]
+        },
+        {
           "label": "Doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Different recipients per document type": 0.21,
-        "Extra files like terms and conditions": 0.45,
+        "Different recipients per document type": 0.2,
+        "Extra files like terms and conditions": 0.47,
         "A log of what was sent and delivered": 0.35,
-        "Email text in the customer's language": 0.15
+        "Email text in the customer's language": 0.16,
+        "Our own subject lines, file names and email templates": 0.21
       }
     },
     {
@@ -316,7 +328,7 @@
         }
       ],
       "coverage": {
-        "Several documents in one email or PDF": 0.16,
+        "Several documents in one email or PDF": 0.14,
         "Password-protected or signed PDFs": 0.04
       }
     }

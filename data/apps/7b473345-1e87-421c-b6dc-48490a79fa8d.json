@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.2025_fnb_adv_whse%7CPAPPID.7b473345-1e87-421c-b6dc-48490a79fa8d",
-    "lastModified": "2026-07-22T10:10:56.1034414+00:00",
-    "appVersion": "2601.2.333115.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T05:34:21.4183913+00:00",
+    "appVersion": "2602.0.351797.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:4eb2d1a541ceb8c7c1de900716c2d1f17ed71e00b0a1c90c6a636fcfb8737ec2",
+    "sourceHash": "sha256:7f05651577e181c4fbb865fbe2e7112b9367e521a5270576616021017946c5f4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4eb2d1a541ceb8c7c1de900716c2d1f17ed71e00b0a1c90c6a636fcfb8737ec2",
-    "mappedOn": null,
-    "summary": "Food and beverage wholesale and distribution solution",
+    "sourceHash": "sha256:7f05651577e181c4fbb865fbe2e7112b9367e521a5270576616021017946c5f4",
+    "mappedOn": "2026-10-30",
+    "summary": "Top-tier Aptean food and beverage ERP bundle for wholesalers and distributors.",
     "shape": "vertical",
     "primary": [
       {
@@ -32,55 +34,27 @@
       }
     ],
     "secondary": [
-      "ng-packing-loading",
+      "ng-vert-wholesale-trading",
+      "ng-stock-movements",
       "ng-product-compliance"
     ],
     "claims": [
-      "Advanced lot profiles for traceability and quality control",
-      "License plating",
-      "Product specification recording",
-      "Automatic BOM calculation",
-      "Includes all Accelerate Bundle apps plus Product Specification and License Plating"
+      "Uses lot profiles and workflows for traceability and quality control",
+      "Includes license plating, product specification recording and automatic BOM calculation",
+      "Contains all Accelerate wholesale apps plus Product Specification and License Plating",
+      "30-day free trial, then paid subscription",
+      "Supports Essential and Premium editions"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage wholesale and distribution"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

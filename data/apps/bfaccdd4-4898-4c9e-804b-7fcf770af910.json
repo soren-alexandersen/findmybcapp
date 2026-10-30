@@ -8,34 +8,38 @@
     "publisher": "ON720.COM",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.toolkit720%7CPAPPID.bfaccdd4-4898-4c9e-804b-7fcf770af910",
-    "lastModified": "2026-03-25T06:23:17.4528276+00:00",
-    "appVersion": "27.3.260324.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T07:56:48.0578251+00:00",
+    "appVersion": "29.0.261030.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.on720.com/",
-    "sourceHash": "sha256:2318754d1485c285e18f30dc8e0706016371d4c9566bf631c96fb21a7761a182",
+    "sourceHash": "sha256:c3cb1e51384f941ac949e9dec8a918d4b938d6cf1c06182131ad0249e7b298f1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2318754d1485c285e18f30dc8e0706016371d4c9566bf631c96fb21a7761a182",
-    "mappedOn": null,
-    "summary": "Installs, updates and monitors apps with scheduling",
+    "sourceHash": "sha256:c3cb1e51384f941ac949e9dec8a918d4b938d6cf1c06182131ad0249e7b298f1",
+    "mappedOn": "2026-10-30",
+    "summary": "Installs, updates and schedules ON720 apps from one catalog page",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-extensions-env",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-updates-testing",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-admin-updates-testing"
-    ],
+    "secondary": [],
     "claims": [
-      "Shows available apps from the ON720 catalog",
-      "Compares installed versions with available updates",
-      "Visual indicators for apps needing updates",
-      "Immediate install or update of applications",
-      "Scheduled installations at specific dates and times"
+      "Lists apps from the ON720 catalog",
+      "Compares installed and available versions",
+      "Marks apps that need an update",
+      "Install or update immediately",
+      "Schedule installs for a set date and time"
     ],
     "countries": [],
     "languages": [],
@@ -43,7 +47,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

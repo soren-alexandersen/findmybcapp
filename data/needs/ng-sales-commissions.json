@@ -106,10 +106,10 @@
         }
       ],
       "coverage": {
-        "Sales amount / revenue": 0.41,
-        "Margin or profit": 0.33,
-        "Cash actually received": 0.48,
-        "Quantity sold": 0.15
+        "Sales amount / revenue": 0.43,
+        "Margin or profit": 0.32,
+        "Cash actually received": 0.39,
+        "Quantity sold": 0.11
       }
     },
     {
@@ -156,9 +156,9 @@
         }
       ],
       "coverage": {
-        "Our own employees": 0.3,
-        "External agents, brokers or partners": 0.56,
-        "Managers on their team's sales": 0.3
+        "Our own employees": 0.25,
+        "External agents, brokers or partners": 0.54,
+        "Managers on their team's sales": 0.36
       }
     },
     {
@@ -190,7 +190,7 @@
         }
       ],
       "coverage": {
-        "Yes, we split commission": 0.3
+        "Yes, we split commission": 0.25
       }
     },
     {
@@ -220,7 +220,7 @@
         }
       ],
       "coverage": {
-        "Yes, tiers or targets": 0.48
+        "Yes, tiers or targets": 0.43
       }
     },
     {
@@ -255,7 +255,7 @@
         }
       ],
       "coverage": {
-        "Purchase invoice / vendor payment": 0.56,
+        "Purchase invoice / vendor payment": 0.5,
         "Through payroll": 0.07
       }
     },
@@ -272,7 +272,8 @@
             "report.*own data",
             "limited access",
             "word report",
-            "detail report per salesperson"
+            "detail report per salesperson",
+            "report for each salesperson"
           ]
         },
         {
@@ -285,7 +286,7 @@
         }
       ],
       "coverage": {
-        "Yes, send or show statements": 0.15
+        "Yes, send or show statements": 0.18
       }
     },
     {
@@ -311,8 +312,108 @@
         }
       ],
       "coverage": {
-        "Yes, rebates/bonuses too": 0.15
+        "Yes, rebates/bonuses too": 0.18
       }
+    },
+    {
+      "id": "should-commission-be-booked-in",
+      "text": "Should commission be booked in the accounts before it is paid out?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, accrue and track it in a commission ledger",
+          "patterns": [
+            "commission ledger",
+            "accru",
+            "commission journals",
+            "sales cost entry",
+            "accounting ledger",
+            "ledger entry principle",
+            "settlement",
+            "settled"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, accrue and track it in a commission ledger": 0.5
+      }
+    },
+    {
+      "id": "what-should-commission-rates-d",
+      "text": "What should commission rates depend on?",
+      "multi": true,
+      "options": [
+        {
+          "label": "The item or item category sold",
+          "patterns": [
+            "item categor",
+            "item group",
+            "per item"
+          ]
+        },
+        {
+          "label": "The customer or customer group",
+          "patterns": [
+            "customer group",
+            "per customer",
+            "by customer"
+          ]
+        },
+        {
+          "label": "Region or dimensions",
+          "patterns": [
+            "dimension",
+            "state/country",
+            "territor",
+            "region"
+          ]
+        },
+        {
+          "label": "The discount given to the customer",
+          "patterns": [
+            "discount range",
+            "customer discount",
+            "discount granted"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "The item or item category sold": 0.21,
+        "The customer or customer group": 0.29,
+        "Region or dimensions": 0.21,
+        "The discount given to the customer": 0.07
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'calculation' wording",
+      "terms": [
+        "calculation"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "licensing and subscription terms",
+      "terms": [
+        "subscription"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'module' wording",
+      "terms": [
+        "modul"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway_sustainability_bc%7CPAPPID.8ef19231-2000-4902-ae97-c756de362055",
-    "lastModified": "2026-08-05T10:51:45.1018831+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:24:56.6842358+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
-    "sourceHash": "sha256:79b5543b11390fd1e81a942b8c09205fe5db551dfef79f5fd556d8c6b0b9d101",
+    "sourceHash": "sha256:37c374d2da9aed9209d1daf7c2af9ec35662f9165436029146111ed3bbc46827",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:79b5543b11390fd1e81a942b8c09205fe5db551dfef79f5fd556d8c6b0b9d101",
-    "mappedOn": null,
-    "summary": "Links asset operational data to carbon emissions reporting",
+    "sourceHash": "sha256:37c374d2da9aed9209d1daf7c2af9ec35662f9165436029146111ed3bbc46827",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates CO2 emissions from Dynaway EAM asset counters into BC sustainability journals.",
     "shape": "addon",
     "primary": [
       {
@@ -29,16 +31,24 @@
     ],
     "secondary": [],
     "claims": [
-      "Assign sustainability accounts to asset counters",
-      "Tracks kilometers, fuel and electricity usage",
-      "Calculates CO2 emissions from counter data and emission factors",
+      "Each asset counter setup can be linked to a sustainability account",
+      "Uses counters such as kilometers, fuel litres and kWh",
       "Transfers counter entries into the sustainability journal",
+      "Calculates CO2 equivalents from counter data and emission factors",
+      "Filters and groups entries by date range for period reporting",
       "Generates and posts sustainability journal lines",
-      "Entries can be filtered and grouped by date range",
-      "Requires both BC and Dynaway EAM user license"
+      "Included in a paid Dynaway EAM plan"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "no",
+      "sv"
+    ],
     "industries": [
       "Sustainability"
     ],
@@ -46,7 +56,7 @@
     "requires": [
       "Dynaway EAM"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

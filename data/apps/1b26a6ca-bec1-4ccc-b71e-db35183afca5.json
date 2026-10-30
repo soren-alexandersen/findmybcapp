@@ -8,18 +8,20 @@
     "publisher": "Cetas Information Technology",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.nb_assets%7CPAPPID.1b26a6ca-bec1-4ccc-b71e-db35183afca5",
-    "lastModified": "2026-03-18T16:58:02.8500717+00:00",
-    "appVersion": "2.2600.7.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:38:11.418773+00:00",
+    "appVersion": "29.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbassets",
-    "sourceHash": "sha256:6ca5151011b4d612aa22e0fa856b1eab84350acfea8633c3427af7d142cd2f4f",
+    "sourceHash": "sha256:16103b22a8e1d007571ea3e495a7c16c1156000ecaf5d8372d91020e78a1e240",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6ca5151011b4d612aa22e0fa856b1eab84350acfea8633c3427af7d142cd2f4f",
-    "mappedOn": null,
-    "summary": "Maintenance management for equipment, tools and plants",
+    "sourceHash": "sha256:16103b22a8e1d007571ea3e495a7c16c1156000ecaf5d8372d91020e78a1e240",
+    "mappedOn": "2026-10-30",
+    "summary": "Plant and equipment maintenance: asset register, maintenance schedules, work orders and spare parts.",
     "shape": "process",
     "primary": [
       {
@@ -28,26 +30,33 @@
       },
       {
         "need": "ng-maintenance-breakdown",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
+      "ng-svc-parts",
       "ng-fa-register"
     ],
     "claims": [
-      "Central asset master with warranties, schedules, depreciation, OEM vendor",
+      "Central asset register with warranties, schedules, depreciation and OEM vendor",
       "Maintenance schedules by time, usage or condition",
-      "Preventive and breakdown maintenance",
-      "Maintenance work orders with assignment and status tracking",
-      "Spare parts and consumables inventory",
-      "Asset utilization and total cost",
-      "100 USD/month up to 10 users"
+      "Covers inspections, preventive and breakdown maintenance",
+      "Work orders assigned and tracked for progress and status",
+      "Tracks spare parts and consumables stock per asset",
+      "Monitors asset lifecycle, utilisation, total cost and downtime",
+      "Built inside Business Central",
+      "100 USD per month for up to 10 users",
+      "Free trial available",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

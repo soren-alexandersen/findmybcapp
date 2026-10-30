@@ -8,18 +8,20 @@
     "publisher": "Verosoft Design INC. (VSD)",
     "productType": "SaaS",
     "url": "https://appsource.microsoft.com/en-us/product/web-apps/vsd.tag_mobi",
-    "lastModified": "2025-12-19T02:42:55.419862+00:00",
+    "lastModified": "2026-10-15T20:04:15.5597307+00:00",
     "appVersion": null,
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": null,
-    "sourceHash": "sha256:1ad4679092da52a11d3f70e861ad9ebb167a842d21a08e8dd5c8171fb55bf51f",
+    "sourceHash": "sha256:6bb082644761c60bcfd372c67ce0dc0fc1f1b0e81c0051cf693bab78ae90bedc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1ad4679092da52a11d3f70e861ad9ebb167a842d21a08e8dd5c8171fb55bf51f",
-    "mappedOn": "2026-10-07",
-    "summary": "Mobile-first maintenance management (EAM) embedded in BC with preventive, predictive and IoT-triggered work orders",
+    "sourceHash": "sha256:6bb082644761c60bcfd372c67ce0dc0fc1f1b0e81c0051cf693bab78ae90bedc",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile-first maintenance and asset management embedded in Business Central",
     "shape": "process",
     "primary": [
       {
@@ -32,29 +34,35 @@
       }
     ],
     "secondary": [
-      "ng-fa-register"
+      "ng-admin-devices",
+      "ng-svc-parts"
     ],
     "claims": [
-      "Embedded in Business Central",
+      "Manages maintenance work orders",
       "Preventive and predictive maintenance",
-      "Work order management on tablet or laptop",
-      "Parts and inventory management",
-      "Condition-based work order triggers",
+      "Work orders triggered by asset condition",
+      "Spare parts and inventory for maintenance",
+      "Asset lifecycle management",
       "IoT and real-time monitoring",
-      "AI assistant for technicians",
-      "Dashboards in BC and Power BI",
-      "Covers manufacturing equipment, facilities, energy systems and fleets"
+      "AI assistant for technicians (mobiMentor)",
+      "Works on tablets and laptops",
+      "Dashboards in Business Central and Power BI",
+      "Covers manufacturing equipment, facilities, energy systems and vehicle fleets"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Energy & Resources",
-      "Manufacturing & Mobility"
+      "Energy",
+      "Facilities",
+      "Fleet",
+      "Manufacturing"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Power BI"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

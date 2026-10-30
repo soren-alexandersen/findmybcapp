@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.indexofsolutions1735901590684|AID.lsksazatcaintegration|PAPPID.8c14f7b2-3d5e-4a91-b6c7-2e9f45a1d380",
+  "guid": "8c14f7b2-3d5e-4a91-b6c7-2e9f45a1d380",
+  "publisherId": "indexofsolutions1735901590684",
+  "offerId": "lsksazatcaintegration",
+  "source": {
+    "name": "ZATCA E-Invoicing LS Central",
+    "publisher": "Index Of Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.indexofsolutions1735901590684%7CAID.lsksazatcaintegration%7CPAPPID.8c14f7b2-3d5e-4a91-b6c7-2e9f45a1d380",
+    "lastModified": "2026-10-26T12:55:18.3659593+00:00",
+    "appVersion": "1.0.0.34",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.indexofsolutions.com/contact",
+    "sourceHash": "sha256:0f3002ef6f72f0efdcb32b28f1a13b46b10f2895f586b09e503ea2bf606fc829",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f3002ef6f72f0efdcb32b28f1a13b46b10f2895f586b09e503ea2bf606fc829",
+    "mappedOn": "2026-10-30",
+    "summary": "Signs LS Central POS receipts and reports them to Saudi ZATCA, plus B2B clearance.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Signs receipts at the till without waiting for ZATCA, then reports within 24 hours",
+      "Tills keep trading with compliant receipts while ZATCA is unavailable",
+      "Sends refunds as ZATCA credit notes referencing the original receipt",
+      "Clears posted B2B invoices and credit memos with ZATCA",
+      "Archive PDF with embedded signed XML and QR code",
+      "One EGS unit per store with a go-live date",
+      "Store card counters show filing status",
+      "Bulk Send to ZATCA action on transaction and posted document lists",
+      "Logs every call with request and response",
+      "Validates wholesale documents before posting",
+      "Requires LS Central 28 or later and an Index e-Invoicing subscription"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "ZATCA FATOORA",
+      "Index e-Invoicing service",
+      "LS Central"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

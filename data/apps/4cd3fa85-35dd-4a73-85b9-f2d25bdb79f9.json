@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartconnect-expense-wizard|PAPPID.4cd3fa85-35dd-4a73-85b9-f2d25bdb79f9",
+  "guid": "4cd3fa85-35dd-4a73-85b9-f2d25bdb79f9",
+  "publisherId": "inventio-it",
+  "offerId": "smartconnect-expense-wizard",
+  "source": {
+    "name": "SMARTconnect-SMARTexpense-SMARTwizard",
+    "publisher": "Inventio.IT",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartconnect-expense-wizard%7CPAPPID.4cd3fa85-35dd-4a73-85b9-f2d25bdb79f9",
+    "lastModified": "2026-10-27T05:05:48.5831651+00:00",
+    "appVersion": "1.0.20260923.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/",
+    "sourceHash": "sha256:505c58fc24f7938c081a0390450b6bd2aa033fff735d7e32ba7137ffa8d4689d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:505c58fc24f7938c081a0390450b6bd2aa033fff735d7e32ba7137ffa8d4689d",
+    "mappedOn": "2026-10-30",
+    "summary": "Links SMARTexpense and SMARTwizard so unknown vendors on invoices are created from CVR.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Creates a missing vendor directly from the supplier invoice workflow",
+      "Fills vendor data automatically from CVR.dk",
+      "Requires SMARTexpense and SMARTwizard",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CVR.dk"
+    ],
+    "requires": [
+      "SMARTexpense",
+      "SMARTwizard"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

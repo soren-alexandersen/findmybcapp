@@ -8,18 +8,20 @@
     "publisher": "SystemConnect",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.docuworks%7CPAPPID.83ecb31d-daea-4e18-971b-3f227d031102",
-    "lastModified": "2026-10-01T06:03:32.8566711+00:00",
-    "appVersion": "28.0.0.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T20:03:44.6813887+00:00",
+    "appVersion": "28.0.0.6",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/docuworkshelp",
-    "sourceHash": "sha256:fbbe80dc431cb6819de084fd454ac803ece769d9d5a86701b69f9ba561afa0e6",
+    "sourceHash": "sha256:af1e7d10922fcb5802162eb06c46e986ae1aa33ae2a1b0611cf074ef01af22f3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fbbe80dc431cb6819de084fd454ac803ece769d9d5a86701b69f9ba561afa0e6",
-    "mappedOn": null,
-    "summary": "OCR/AI capture and approval of incoming invoices",
+    "sourceHash": "sha256:af1e7d10922fcb5802162eb06c46e986ae1aa33ae2a1b0611cf074ef01af22f3",
+    "mappedOn": "2026-10-30",
+    "summary": "Reads incoming supplier invoices with OCR and AI, matches them and routes approvals.",
     "shape": "process",
     "primary": [
       {
@@ -31,17 +33,18 @@
       "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Automatically fetches incoming invoices and credit memos",
-      "OCR and AI read vendor, amount, VAT, due date and payment details",
-      "Matches documents to vendor by VAT registration number",
-      "Approval flow with one or more users, in app or by email",
-      "Matches invoices to open purchase receipts and return shipments",
-      "Creates purchase invoice or credit memo including freight and rounding amounts",
-      "Suggests G/L account for non-PO vendors based on history",
-      "Posts to general journal or purchase document",
-      "Background processing via job queue"
+      "Extracts vendor, amount, VAT, due date and payment details with OCR and AI",
+      "Identifies the vendor from its VAT registration number",
+      "Approval by one or more users in the app or by email, with the PDF visible",
+      "Matches invoices to open purchase receipts and return shipments, then creates the purchase invoice or credit memo",
+      "Handles freight, miscellaneous and rounding amounts when matching",
+      "Suggests G/L accounts for non-PO invoices based on past postings",
+      "Posts to a general journal or a purchase document",
+      "Background job queue keeps documents processed automatically"
     ],
-    "countries": [],
+    "countries": [
+      "DK"
+    ],
     "languages": [
       "da"
     ],
@@ -49,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Data Courage",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.spolandkkarbowiakbdoruchspolkacywilna1607528556434%7CAID.ai-chief-accountant-assistant-prod%7CPAPPID.8b1c64b3-bf81-4798-b028-19809fcc3a7c",
-    "lastModified": "2026-09-10T04:24:10.1145326+00:00",
-    "appVersion": "1.0.1.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:44:20.3992402+00:00",
+    "appVersion": "1.0.1.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.datacourage.com/support",
-    "sourceHash": "sha256:3dab7d4621ef8a5df08795f9f6fb9a7c80c38ad94ff972e2c35e779525b6b3b9",
+    "sourceHash": "sha256:edc409c9511fb949a2510e624890bb01e9a394ea6e03cdd33e5ed93e71fe699d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3dab7d4621ef8a5df08795f9f6fb9a7c80c38ad94ff972e2c35e779525b6b3b9",
-    "mappedOn": null,
-    "summary": "AI validates period-close and audit checklists",
+    "sourceHash": "sha256:edc409c9511fb949a2510e624890bb01e9a394ea6e03cdd33e5ed93e71fe699d",
+    "mappedOn": "2026-10-30",
+    "summary": "AI checks period-close and audit control rules written in natural language against G/L entries.",
     "shape": "process",
     "primary": [
       {
@@ -28,19 +30,19 @@
       },
       {
         "need": "ng-audit-compliance",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-gl-reconciliation"
+      "ng-ux-ai-assistant"
     ],
     "claims": [
-      "Control rules written in natural language as reusable Task Lists",
-      "Evaluates rules against G/L entries with Yes/No result",
-      "AI explains reasoning and points to source entries",
-      "Evaluate single rule, selection or full scenario in one click",
-      "Exports results to Excel and archives justifications for auditors",
-      "Import/export Task Lists between companies"
+      "Control rules are written in plain language in reusable task lists",
+      "Evaluates each rule on G/L entries with a yes/no result",
+      "AI explains the result and links to source entries",
+      "Runs one rule, a selection or a full scenario at once",
+      "Exports results to Excel and archives justifications",
+      "Task lists can be shared between companies"
     ],
     "countries": [],
     "languages": [],
@@ -48,7 +50,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

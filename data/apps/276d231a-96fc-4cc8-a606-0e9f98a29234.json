@@ -8,19 +8,21 @@
     "publisher": "Applibra",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_foundation_app%7CPAPPID.276d231a-96fc-4cc8-a606-0e9f98a29234",
-    "lastModified": "2026-10-06T08:17:01.1712024+00:00",
-    "appVersion": "28.0.26.10060856",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T08:07:10.7859589+00:00",
+    "appVersion": "28.0.26.10220848",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-foundation-app/help",
-    "sourceHash": "sha256:ba5bcbe9942e686af602861dea0cbd9bf1fe990cabddbad842f63d0c762f4fb1",
+    "sourceHash": "sha256:80c25d646c413088244b1f9626ace0fcb2252d0a6518281f46e908d9874f2b06",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ba5bcbe9942e686af602861dea0cbd9bf1fe990cabddbad842f63d0c762f4fb1",
-    "mappedOn": null,
-    "summary": "Free base library required by other AppLibra apps",
-    "shape": "other",
+    "sourceHash": "sha256:80c25d646c413088244b1f9626ace0fcb2252d0a6518281f46e908d9874f2b06",
+    "mappedOn": "2026-10-30",
+    "summary": "Free base component for AppLibra apps; also gives a flat posted sales/purchase line register.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-excel-reporting",
@@ -28,15 +30,17 @@
       }
     ],
     "secondary": [
-      "ng-sales-analytics"
+      "ng-bi-dashboards"
     ],
     "claims": [
-      "Writes one entry per posted sales/purchase line with header fields",
-      "Four registers cover purchase receipts, sales shipments, purchases and sales",
-      "Registers published as API queries for Power BI",
-      "Recalculate entries of a period from posted documents",
-      "Units of measure classified by type and priority",
-      "Dated hierarchies of customers, vendors, items, salespeople and price groups"
+      "Writes one flat entry per posted sales or purchase line with header fields alongside",
+      "Four registers: sales, purchases, sales shipments, purchase receipts",
+      "Registers are exposed as API queries for Power BI and other tools",
+      "Entries for a period can be rebuilt from posted documents",
+      "Classifies units of measure by type and priority",
+      "Dated hierarchies of customers, vendors, items, salespeople and groups",
+      "Free of charge",
+      "Online only, BC 28.0 or later"
     ],
     "countries": [],
     "languages": [
@@ -44,14 +48,12 @@
       "it"
     ],
     "industries": [],
-    "connectsTo": [
-      "Power BI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "online",
     "pricing": "free",
     "hide": true,
-    "hideReason": "Free base/dependency app for the AppLibra apps, normally installed as a component",
+    "hideReason": "Dependency/base library installed with other AppLibra apps.",
     "noFit": ""
   },
   "curated": {

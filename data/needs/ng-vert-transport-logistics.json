@@ -85,10 +85,10 @@
         }
       ],
       "coverage": {
-        "Road haulage and distribution": 0.45,
-        "Freight forwarding (air, ocean, multimodal)": 0.34,
-        "Warehousing for customers (3PL)": 0.32,
-        "Containers, ports or barge": 0.15,
+        "Road haulage and distribution": 0.33,
+        "Freight forwarding (air, ocean, multimodal)": 0.33,
+        "Warehousing for customers (3PL)": 0.31,
+        "Containers, ports or barge": 0.11,
         "Shipping and maritime": 0.08
       }
     },
@@ -133,8 +133,8 @@
         }
       ],
       "coverage": {
-        "Taking and planning transport orders": 0.4,
-        "Pricing and invoicing freight": 0.4,
+        "Taking and planning transport orders": 0.28,
+        "Pricing and invoicing freight": 0.3,
         "Running your own vehicles (fuel, documents, maintenance)": 0.1,
         "Customs declarations": 0.1
       }
@@ -159,7 +159,7 @@
         }
       ],
       "coverage": {
-        "Driver app, onboard computer or GPS tracking": 0.19
+        "Driver app, onboard computer or GPS tracking": 0.18
       }
     },
     {
@@ -191,9 +191,9 @@
         }
       ],
       "coverage": {
-        "Web portal or booking site": 0.19,
+        "Web portal or booking site": 0.03,
         "EDI or system-to-system": 0.08,
-        "They want track & trace": 0.35
+        "They want track & trace": 0.16
       }
     },
     {
@@ -213,8 +213,37 @@
         }
       ],
       "coverage": {
-        "Yes, regularly": 0.26
+        "Yes, regularly": 0.18
       }
+    },
+    {
+      "id": "do-you-already-run-navitrans-3",
+      "text": "Do you already run Navitrans 365?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we use Navitrans 365",
+          "patterns": [
+            "navitrans"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we use Navitrans 365": 0.48
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "licensing editions (Essentials/Premium)",
+      "terms": [
+        "runs"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

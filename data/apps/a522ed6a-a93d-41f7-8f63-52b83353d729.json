@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.it-admin-toolkit-app%7CPAPPID.a522ed6a-a93d-41f7-8f63-52b83353d729",
-    "lastModified": "2026-08-03T11:44:24.1807981+00:00",
-    "appVersion": "28.0.260724.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:37:15.714078+00:00",
+    "appVersion": "28.0.261012.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/it-admin-toolkit/docs",
-    "sourceHash": "sha256:07760868d4db2fc47258f5644ab53456fd57e3a25d6a4d00a3a60306622a0144",
+    "sourceHash": "sha256:1c6b557515b958921c13c478313840a7dbf097abee6f9c96276210aff96901fd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:07760868d4db2fc47258f5644ab53456fd57e3a25d6a4d00a3a60306622a0144",
-    "mappedOn": null,
-    "summary": "Tools for user setup and data maintenance for IT admins",
+    "sourceHash": "sha256:1c6b557515b958921c13c478313840a7dbf097abee6f9c96276210aff96901fd",
+    "mappedOn": "2026-10-30",
+    "summary": "Admin tools for user setup, permissions, change log, data cleanup and job queue.",
     "shape": "usability",
     "primary": [
       {
@@ -29,25 +31,31 @@
       {
         "need": "ng-admin-users-signin",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-admin-change-log",
-      "ng-admin-job-queue-failures",
-      "ng-admin-storage-archiving"
+      "ng-admin-storage-archiving",
+      "ng-admin-job-queue-setup",
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "User Setup data editable on the User Card",
-      "One-click basic user permission set derived from existing permissions",
-      "Search permission sets by object, extension and scope",
-      "Limits which role centres a user is allowed to pick",
-      "Sets up Change Log initially with frequently used tables and fields",
-      "View change log from customer, vendor and item",
-      "Recurring trimming of old Change Log Entry data",
-      "Sends email notifications when a job queue entry fails",
+      "User setup data editable from the user card",
+      "Builds a basic-user permission set in one click from existing admin permissions",
+      "Finds permission sets granting access to a given object, filterable by extension and scope",
+      "Restricts which role centres each user may pick",
+      "Initialises change log setup with common tables and fields",
+      "View change log directly from customer, vendor and item",
+      "Trims old data such as change log entries on a schedule",
+      "Emails a notification when a job queue entry fails",
       "Job queue recurrence in seconds, minutes or hours",
-      "Delay between job queue retries",
-      "Also available in the Foundation Pack"
+      "Configurable delay between job retries",
+      "Also sold in the cheaper Foundation Pack bundle",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +65,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

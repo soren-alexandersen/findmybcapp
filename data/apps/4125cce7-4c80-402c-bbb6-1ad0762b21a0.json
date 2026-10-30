@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-production-costing-greece|PAPPID.4125cce7-4c80-402c-bbb6-1ad0762b21a0",
+  "guid": "4125cce7-4c80-402c-bbb6-1ad0762b21a0",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-production-costing-greece",
+  "source": {
+    "name": "Cost Accounting Production Costing Greece by GMSoft",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-production-costing-greece%7CPAPPID.4125cce7-4c80-402c-bbb6-1ad0762b21a0",
+    "lastModified": "2026-10-21T06:54:08.9242699+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/cost-accounting-production-costing/docs/",
+    "sourceHash": "sha256:7213787fb263c7c834f1a77d9ad6ced90be55ab25bb96bdb4d7962ce53fe3b32",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:7213787fb263c7c834f1a77d9ad6ced90be55ab25bb96bdb4d7962ce53fe3b32",
+    "mappedOn": "2026-10-30",
+    "summary": "Greek ELP Group 6 account catalog as a cost source for GMSoft production costing.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Loads the ELP Group 6 catalog in one action",
+      "Maps Greek expense accounts to overhead cost pools",
+      "Keeps IAS 2 period costs such as interest and impairment out of inventory",
+      "Treatment can be overridden per account and user rows are kept on reload",
+      "Creates G/L account to pool mappings for ELP-numbered accounts",
+      "Included free with the base app's Premium plan, otherwise its own plan",
+      "Trial period of 30 days"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Cost Accounting Production Costing by GMSoft"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

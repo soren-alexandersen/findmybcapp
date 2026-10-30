@@ -1,0 +1,91 @@
+{
+  "appId": "freightpopinc1681494253334.freightpop",
+  "guid": null,
+  "publisherId": "freightpopinc1681494253334",
+  "offerId": "freightpop",
+  "source": {
+    "name": "FreightPOP",
+    "publisher": "FreightPOP, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/freightpopinc1681494253334.freightpop",
+    "lastModified": "2026-10-27T06:37:28.0382438+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:02cd9328defeeba7d5456502939bad3d730232a40e85323c389878b8cad02190",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:02cd9328defeeba7d5456502939bad3d730232a40e85323c389878b8cad02190",
+    "mappedOn": "2026-10-30",
+    "summary": "Hosted multi-carrier shipping and TMS platform with rate shopping, labels and freight audit",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Compares carrier rates per shipment across parcel, LTL, FTL, ocean, rail and air",
+      "Live rate shopping, booking and tracking across many carriers",
+      "Integrates LTL carriers, brokers, freight forwarders and parcel carriers like FedEx, UPS, USPS and DHL",
+      "Pulls posted sales shipments from BC and returns shipping agent, service and tracking number",
+      "Produces parcel and return labels, bills of lading, packing slips and commercial invoices",
+      "Automatic carrier invoice auditing",
+      "Rules that dispatch orders to carriers automatically",
+      "Inbound tracking including live ocean container tracking",
+      "Route optimization and dock scheduling",
+      "Accessorial agent suggests charges like liftgate or residential delivery when a shipment is created",
+      "AI agents for load planning, invoice audit, document generation and pickup scheduling",
+      "MCP server lets AI assistants such as Claude, ChatGPT and Copilot quote, book and track freight",
+      "Includes order and warehouse management with picking, receiving and cycle counts",
+      "Aimed at shippers with 100 or more shipments a month across several carriers",
+      "Over 1,500 ERP, carrier, marketplace and logistics integrations",
+      "Also connects to Dynamics 365 Finance and Supply Chain Management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Finance and Supply Chain Management",
+      "FedEx",
+      "UPS",
+      "USPS",
+      "DHL",
+      "Claude",
+      "ChatGPT",
+      "Microsoft Copilot"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

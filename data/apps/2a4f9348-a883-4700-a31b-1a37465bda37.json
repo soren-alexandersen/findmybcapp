@@ -8,20 +8,20 @@
     "publisher": "Companial Apps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.onebizz%7CAID.ireland-localization%7CPAPPID.2a4f9348-a883-4700-a31b-1a37465bda37",
-    "lastModified": "2026-09-28T08:12:42.9202929+00:00",
-    "appVersion": "2.0.0.2",
+    "lastModified": "2026-10-29T14:43:41.9961323+00:00",
+    "appVersion": "2.0.0.3",
     "pricingTypes": [
-      "ContactPublisher"
+      "ExternalFreeTrial"
     ],
     "freeTrial": null,
     "helpLink": "https://companial.com/localization-for-ireland-support/",
-    "sourceHash": "sha256:f25ee44dda2c6633d006dc98d6eec559a84a140e767a3037aad0c38943094220",
+    "sourceHash": "sha256:2105760c735a5002627dfd86a44fc6bfcb07365c3721758f39bd4bd95eb3c9ce",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f25ee44dda2c6633d006dc98d6eec559a84a140e767a3037aad0c38943094220",
-    "mappedOn": null,
-    "summary": "Irish VAT3, ROS and Eircode localization",
+    "sourceHash": "sha256:2105760c735a5002627dfd86a44fc6bfcb07365c3721758f39bd4bd95eb3c9ce",
+    "mappedOn": "2026-10-30",
+    "summary": "Irish localization: VAT3 ROS export, reverse charge, Eircode addresses",
     "shape": "localization",
     "primary": [
       {
@@ -33,16 +33,19 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-audit-compliance"
+    ],
     "claims": [
-      "Exports VAT3 return in XML for Revenue Online Service (ROS)",
-      "Supports Standard, Corrective and Supplementary VAT3 returns",
-      "Irish VAT statement structure mapped to VAT3 fields",
-      "Supports reverse charge and postponed accounting",
-      "VAT registration number on sales invoices and credit memos",
-      "Eircode support across address fields and documents",
+      "Exports the VAT3 return as XML for ROS",
+      "Standard, corrective and supplementary VAT3 returns",
+      "VAT statement mapped to Irish VAT3 fields",
+      "Reverse charge and postponed accounting for Irish VAT",
+      "VAT registration number printed on invoices and credit memos",
+      "Eircode in address fields and documents",
       "Audit-oriented VAT data exports",
-      "Supports Essentials and Premium editions"
+      "Sold through Dynamics 365 partners"
     ],
     "countries": [
       "IE"
@@ -54,7 +57,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

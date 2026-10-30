@@ -8,35 +8,40 @@
     "publisher": "Softera Baltic",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_mep%7CPAPPID.d4ba065a-3d6a-4bc8-8536-debe68fb54fd",
-    "lastModified": "2026-07-30T14:17:18.0830166+00:00",
-    "appVersion": "101.25.27.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-08T05:30:06.4457121+00:00",
+    "appVersion": "101.35.27.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/mep",
-    "sourceHash": "sha256:e74cae6076f7470abb8675852438bea963478aaf904cd4c90c25092e2d6526a3",
+    "sourceHash": "sha256:df761e2bfef5292d1a6d700bbb45039dba2577819796446539d217fa451084bd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e74cae6076f7470abb8675852438bea963478aaf904cd4c90c25092e2d6526a3",
-    "mappedOn": null,
-    "summary": "Allocates production and overhead costs to capacity entries",
+    "sourceHash": "sha256:df761e2bfef5292d1a6d700bbb45039dba2577819796446539d217fa451084bd",
+    "mappedOn": "2026-10-30",
+    "summary": "Allocates overhead such as payroll and utilities to posted capacity entries for costing.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-production-costing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-cost-allocation"
+      "ng-ux-dimensions"
     ],
     "claims": [
-      "Allocates payroll, utilities and facility costs to posted capacity ledger entries",
-      "Adds costs to entries from completed production orders",
-      "Uses capacity revaluation journal to apply costs to multiple entries",
-      "Capacity entries filter by production order, dimension or date",
-      "Links additional costs to G/L accounts using dimensions",
-      "Premium edition only"
+      "Adds actual costs to capacity entries of finished production orders",
+      "Uses the capacity revaluation journal to cost many entries at once",
+      "Filters capacity entries by date, dimension or production order",
+      "Links extra costs to G/L accounts through dimensions",
+      "Requires BC Premium edition"
     ],
     "countries": [
       "AU",
@@ -56,13 +61,11 @@
       "en",
       "lt"
     ],
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

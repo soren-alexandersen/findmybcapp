@@ -8,18 +8,20 @@
     "publisher": "DEXPRO Solutions GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.69470%7CPAPPID.368db399-65f5-4250-9afd-b2a67a49e809",
-    "lastModified": "2026-09-10T12:08:39.2708915+00:00",
-    "appVersion": "2.51.2.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T09:45:23.6106973+00:00",
+    "appVersion": "2.53.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/squeeze-for-dynamics-365-bc-de-de",
-    "sourceHash": "sha256:905941a14a5064c5d12844484ec5db2fdafca94908967e4eb1d95194e35db6bb",
+    "sourceHash": "sha256:57d32ee50bd595317cfea764f4a4ac44f4c0701c51faef5abd493aec2d49549c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:905941a14a5064c5d12844484ec5db2fdafca94908967e4eb1d95194e35db6bb",
-    "mappedOn": null,
-    "summary": "Captures and recognizes incoming documents with ML",
+    "sourceHash": "sha256:57d32ee50bd595317cfea764f4a4ac44f4c0701c51faef5abd493aec2d49549c",
+    "mappedOn": "2026-10-30",
+    "summary": "Machine-learning capture of incoming documents and invoices, with 3-way match",
     "shape": "connector",
     "primary": [
       {
@@ -31,15 +33,17 @@
       "ng-loc-einvoicing"
     ],
     "claims": [
-      "ML-based document classification and data capture",
-      "Learns from historical archive documents and master data",
-      "Processes scanned documents, emails and faxes",
-      "Validation of results in web client",
-      "Users train recognition with clicks; adaptive learning",
-      "3-way match of invoice lines with PO and goods receipt",
-      "Detachable viewer for dual monitors",
-      "Scan from existing multifunction devices",
-      "Pay per processed document"
+      "Classifies and reads documents using machine learning",
+      "Learns from archived documents and company master data",
+      "Processes scans, emails, faxes and other digital documents",
+      "Routes documents to the right department",
+      "Documents can be sent from existing multifunction devices",
+      "Results are validated in a web client",
+      "Users train recognition with clicks and it learns from corrections",
+      "Matches invoice lines to purchase orders and goods receipts (3-way match)",
+      "Document viewer can be detached to a second monitor",
+      "Billed per successfully processed document",
+      "Available for on-premises and cloud"
     ],
     "countries": [],
     "languages": [

@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.builddynamicsptyltd1736891494025|AID.bd_woocommerce|PAPPID.8da7c8c8-5e5c-4062-b7ff-fc23e0bd5a8f",
+  "guid": "8da7c8c8-5e5c-4062-b7ff-fc23e0bd5a8f",
+  "publisherId": "builddynamicsptyltd1736891494025",
+  "offerId": "bd_woocommerce",
+  "source": {
+    "name": "WooCommerce Connector",
+    "publisher": "Build Dynamics Pty Ltd.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_woocommerce%7CPAPPID.8da7c8c8-5e5c-4062-b7ff-fc23e0bd5a8f",
+    "lastModified": "2026-10-30T07:49:55.6918689+00:00",
+    "appVersion": "29.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://builddynamics.com.au/support/",
+    "sourceHash": "sha256:2ca225635c29807aa4fb9e41bdf26a632f7226e0e945aab986c19cdea2481bdf",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2ca225635c29807aa4fb9e41bdf26a632f7226e0e945aab986c19cdea2481bdf",
+    "mappedOn": "2026-10-30",
+    "summary": "Multi-store WooCommerce connector: catalogue publishing, order import, payments, refunds and tracking write-back.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-customer-returns",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Several WooCommerce stores per BC company, each with own settings",
+      "BC is catalogue master; WooCommerce is the order source",
+      "Direct HTTPS calls with no middleware",
+      "Publishes items with SKUs, attributes, categories, weights and dimensions",
+      "Variants become WooCommerce variations with own price and stock",
+      "Uploads item pictures to the product gallery",
+      "Queued price and stock updates with hourly price reconciliation",
+      "Stock calculated for a chosen location",
+      "Guided migration of an existing WooCommerce catalogue into BC",
+      "Orders staged for review and deduplicated",
+      "Shipping, coupon and fee lines mapped to G/L accounts",
+      "Unpaid orders held until paid, with override for pay-in-store",
+      "Manual, auto-release or auto ship-and-invoice fulfilment modes",
+      "Customers matched by email or WooCommerce ID; guests to a guest customer",
+      "Refunds both ways: imported as credit memos, posted credit memos sent back",
+      "Carrier and tracking number written back on shipment posting",
+      "Maps tax classes to VAT product posting groups",
+      "SKU matching by item number, item plus variant, or barcode",
+      "Role center with revenue, return rate, top sellers and failed-sync tiles",
+      "Automatic retry honouring Retry-After",
+      "Credentials in isolated storage"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

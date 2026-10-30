@@ -18,28 +18,30 @@
   },
   "mapping": {
     "sourceHash": "sha256:5ea873563c7b427526af97c4e274b44a0fe787546c4737f98003ff2c61573df6",
-    "mappedOn": null,
-    "summary": "Tracks investment portfolio holdings",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks company investment holdings in BC with live prices and gain/loss calculations.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-bi-dashboards",
-        "confidence": "low"
+        "need": "ng-treasury-investments-guarantees",
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-currency"
     ],
     "claims": [
-      "Follows commodities, precious metals, fixed income, ETFs and stocks",
-      "Records quantity, purchase price, currency, date, category and ticker",
-      "Refreshes live market prices for one or all assets",
-      "Calculates unrealised gain/loss and percentage, plus current value and total cost",
-      "Portfolio summary totals",
-      "Stock lookup by name or ticker with live quote details",
-      "Live gold, silver, platinum, palladium rates",
-      "Currency converter with live exchange rates",
-      "OAuth 2.0 sign-in; credentials not stored in BC"
+      "Tracks stocks, ETFs, fixed income, precious metals and commodities",
+      "Records quantity, purchase price, currency, date, category and ticker per asset",
+      "Refreshes live market prices per asset or for all assets on demand",
+      "Calculates total cost, current value and unrealised gain or loss per holding",
+      "Portfolio summary of invested amount, value and total return",
+      "Stock lookup by company name or ticker with quote details",
+      "Live gold, silver, platinum and palladium rates in several units and purities",
+      "Built-in currency converter using live rates",
+      "Signs in to Saifs AI with OAuth 2.0, credentials not stored in BC",
+      "No trading execution or investment advice",
+      "Requires internet and a Saifs AI account"
     ],
     "countries": [],
     "languages": [],
@@ -49,11 +51,11 @@
       "multiplewords.com"
     ],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Tracking a company's investment portfolio (stocks, ETFs, precious metals) with live market prices"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

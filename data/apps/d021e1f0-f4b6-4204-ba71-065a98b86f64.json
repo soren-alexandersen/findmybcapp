@@ -8,18 +8,20 @@
     "publisher": "IM-PROJECTS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im-size-color%7CPAPPID.d021e1f0-f4b6-4204-ba71-065a98b86f64",
-    "lastModified": "2026-07-24T07:13:56.1721107+00:00",
-    "appVersion": "1.0.0.103",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T06:49:40.1793822+00:00",
+    "appVersion": "1.0.0.104",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://imwear.help.im-projects.com/",
-    "sourceHash": "sha256:d13d3c27a02f4dc3facc7006e7c3bebd162db46fab0c4ccc2397d0fdae5589e0",
+    "sourceHash": "sha256:65436357bf68245e303ba16520348e4ef4883eaceb0715c9a50476e1f80492ee",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d13d3c27a02f4dc3facc7006e7c3bebd162db46fab0c4ccc2397d0fdae5589e0",
-    "mappedOn": null,
-    "summary": "Size and color item variants for fashion retail",
+    "sourceHash": "sha256:65436357bf68245e303ba16520348e4ef4883eaceb0715c9a50476e1f80492ee",
+    "mappedOn": "2026-10-30",
+    "summary": "Handles items in size and colour variants for design, production and sales.",
     "shape": "process",
     "primary": [
       {
@@ -27,15 +29,15 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-retail",
+        "need": "ng-vert-fashion",
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-vert-fashion"
-    ],
+    "secondary": [],
     "claims": [
-      "Manage items by size and color"
+      "Manages items by size and colour across design, manufacturing and sales",
+      "Aimed at retail, food services and hospitality",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -65,14 +67,12 @@
       "it"
     ],
     "industries": [
-      "Food services",
-      "Hospitality",
-      "Retail"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

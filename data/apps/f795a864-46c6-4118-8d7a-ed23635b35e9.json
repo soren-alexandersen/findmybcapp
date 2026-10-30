@@ -8,21 +8,20 @@
     "publisher": "Binary Stream Software Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.dimension_management_transactability_d365bc%7CPAPPID.f795a864-46c6-4118-8d7a-ed23635b35e9",
-    "lastModified": "2026-10-02T15:25:05.0808913+00:00",
-    "appVersion": "1.12.0.0",
+    "lastModified": "2026-10-15T15:07:20.293425+00:00",
+    "appVersion": "1.14.0.0",
     "pricingTypes": [
-      "FreeTrial",
       "Payg"
     ],
-    "freeTrial": "1 Month",
+    "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/DMHelp/DM.htm",
-    "sourceHash": "sha256:11514832e5d8751745810c2f6e338c048a9a0cb5267f7fb499fab614c87e7f9c",
+    "sourceHash": "sha256:cbd39932106a6945c3c1fd4f423d884a17c696cd690f9ea98a3f627b66af30c1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:11514832e5d8751745810c2f6e338c048a9a0cb5267f7fb499fab614c87e7f9c",
-    "mappedOn": "2026-10-07",
-    "summary": "Corrects or adds dimension values on posted entries without reversing and reposting",
+    "sourceHash": "sha256:cbd39932106a6945c3c1fd4f423d884a17c696cd690f9ea98a3f627b66af30c1",
+    "mappedOn": "2026-10-30",
+    "summary": "Corrects or adds dimension values on posted entries without reversing them.",
     "shape": "usability",
     "primary": [
       {
@@ -31,23 +30,29 @@
       }
     ],
     "secondary": [
+      "ng-ux-correct-posted",
       "ng-audit-compliance"
     ],
     "claims": [
-      "Changes dimension values after posting without reversal",
+      "Change, add or update dimension values after posting",
+      "No reversing and reposting needed",
       "Works across all transaction types",
-      "Batch updates and applying new dimensions to historical entries",
+      "Protects Multi-Entity Management global dimensions from unauthorised changes",
+      "Batch updates and applying new dimensions to history",
       "Scheduled dimension updates",
       "Full audit trail of dimension changes",
       "Updates ledgers, budgets and master records",
-      "Protects Multi-Entity Management global dimensions from unauthorized change",
-      "Priced per user"
+      "Priced per user, minimum 40 users",
+      "Available in English"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Professional Services"
+    ],
     "connectsTo": [
       "Binary Stream Multi-Entity Management"
     ],

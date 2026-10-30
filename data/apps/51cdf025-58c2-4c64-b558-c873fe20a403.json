@@ -8,21 +8,21 @@
     "publisher": "FidesiousPro",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fidesiousprobv1710687577357%7CAID.wms_scanning%7CPAPPID.51cdf025-58c2-4c64-b558-c873fe20a403",
-    "lastModified": "2026-08-21T20:55:51.3313093+00:00",
-    "appVersion": "3.4.0.126",
+    "lastModified": "2026-10-27T13:39:52.3414458+00:00",
+    "appVersion": "3.6.0.138",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
-    "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning/help/",
-    "sourceHash": "sha256:3d3172400708f9380a14ac16ddd67cb52ec1462325008bd3288b45e66af93119",
+    "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning-help/",
+    "sourceHash": "sha256:c4794c773d6d396f35a26f2fee7f4faa2f96b4228d5eb9469a4fe9afe7c84bd4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3d3172400708f9380a14ac16ddd67cb52ec1462325008bd3288b45e66af93119",
-    "mappedOn": null,
-    "summary": "Barcode scanning for warehouse transactions",
+    "sourceHash": "sha256:c4794c773d6d396f35a26f2fee7f4faa2f96b4228d5eb9469a4fe9afe7c84bd4",
+    "mappedOn": "2026-10-30",
+    "summary": "Native Android barcode scanning for receiving, putaway, picking, transfers and counting.",
     "shape": "process",
     "primary": [
       {
@@ -31,33 +31,36 @@
       },
       {
         "need": "ng-receiving-putaway",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
         "need": "ng-allocation-picking",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-stock-movements",
       "ng-stock-counting",
+      "ng-barcode-labels",
       "ng-lot-serial-traceability"
     ],
     "claims": [
-      "Real-time validated barcode scanning on Android devices without middleware",
-      "Every scan validated before posting",
-      "Runs fully inside Business Central",
-      "Scan-based support for internal movements, reclassification, shipping, picking, put away and receiving",
+      "Runs fully inside BC without middleware or an external WMS",
+      "Validates each scan in real time before posting",
+      "Covers receiving, putaway, picking, shipping, reclassification and internal movements",
       "Transfers between locations, bins or warehouses",
-      "Step-by-step picking and verification",
-      "Cycle counting and direct corrections",
-      "Shows item images on the scanner",
-      "Validates item, location, batch/serial, pallet and allowed actions per scan",
-      "Smartphone camera fallback when scanner unavailable",
-      "Active workflows continue after Wi-Fi drops",
-      "GS1 and SSCC barcode support",
-      "Batch, lot and expiration date handling",
-      "Pallet, container and logistic unit identification"
+      "Step-by-step picking with verification",
+      "Cycle counting and direct stock corrections",
+      "Shows item images on the scanner during receiving and picking",
+      "Checks scans against item, location, batch or serial, pallet and allowed actions",
+      "Interface built for industrial Android scanners",
+      "Can fall back to a smartphone camera when no handheld is available",
+      "Wi-Fi drops do not reset active workflows",
+      "Reads GS1 and SSCC barcode structures",
+      "Handles batch, lot and expiry dates",
+      "Identifies pallets, containers and logistic units",
+      "Prints item, pallet and logistic unit labels from BC with Zebra, NiceLabel and BarTender",
+      "Priced per user per month"
     ],
     "countries": [],
     "languages": [],
@@ -65,7 +68,11 @@
       "Distribution",
       "Manufacturing"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Zebra",
+      "NiceLabel",
+      "BarTender"
+    ],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "per_user",

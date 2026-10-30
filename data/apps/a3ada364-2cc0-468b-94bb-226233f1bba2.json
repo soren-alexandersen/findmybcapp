@@ -8,40 +8,45 @@
     "publisher": "dc AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamic_commerce_gmbh%7CAID.dynamic_commerce_coupon_codes%7CPAPPID.a3ada364-2cc0-468b-94bb-226233f1bba2",
-    "lastModified": "2026-09-29T09:09:35.0503804+00:00",
-    "appVersion": "21.26.10.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:22:31.7023567+00:00",
+    "appVersion": "21.26.20261030.398547",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dc.ag/docs/en/bc-coupon-codes/user-guide/overview",
-    "sourceHash": "sha256:80fdb8063237b8ea3705a32dd9d697fbeacf01d4d4f07286e0cc90c85c38aa9e",
+    "sourceHash": "sha256:d5c9a1484ad8906ea16c27f51036def9b4c971042470c36eda27cf470ea85a02",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:80fdb8063237b8ea3705a32dd9d697fbeacf01d4d4f07286e0cc90c85c38aa9e",
-    "mappedOn": null,
-    "summary": "Creates and manages discount coupon codes",
+    "sourceHash": "sha256:d5c9a1484ad8906ea16c27f51036def9b4c971042470c36eda27cf470ea85a02",
+    "mappedOn": "2026-10-30",
+    "summary": "Coupon and discount code management redeemed on sales quotes and orders.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-pricing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-mkt-campaigns",
-      "ng-customer-rebates"
+      "ng-mkt-campaigns"
     ],
     "claims": [
-      "Coupon code management inside BC",
-      "Coupon codes work on sales orders and quotes",
-      "Manual creation or automatic generation of codes",
-      "Start and expiration dates",
-      "Minimum order value for redemption",
-      "Limit maximum number of redemptions",
-      "Fixed amount and percentage discounts",
-      "Bundle deals such as buy one get one free",
-      "Multi-use marketing codes and fixed-value codes over multiple purchases",
-      "Cloud and on-premises versions; NAV 2016-2018 on request"
+      "Codes can be created by hand or generated automatically",
+      "Codes are redeemed on sales quotes and orders",
+      "Start and expiry dates per promotion",
+      "Minimum order value required for redemption",
+      "Caps on number of redemptions",
+      "Supports fixed amount and percentage discounts",
+      "Supports bundle deals like buy one get one free",
+      "Fixed-value codes can be used across several purchases",
+      "Cloud version priced at 49 EUR per month; on-premises 2,490 EUR one-time",
+      "Free trial offered"
     ],
     "countries": [
       "AT",
@@ -74,8 +79,8 @@
       "fr",
       "is",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [],

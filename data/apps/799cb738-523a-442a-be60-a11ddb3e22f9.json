@@ -1,0 +1,120 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-blended-lot-traceability|PAPPID.799cb738-523a-442a-be60-a11ddb3e22f9",
+  "guid": "799cb738-523a-442a-be60-a11ddb3e22f9",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-blended-lot-traceability",
+  "source": {
+    "name": "Blended Lot Traceability",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-blended-lot-traceability%7CPAPPID.799cb738-523a-442a-be60-a11ddb3e22f9",
+    "lastModified": "2026-10-28T04:58:22.9061317+00:00",
+    "appVersion": "1.29.1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/blended-lot-traceability/docs/",
+    "sourceHash": "sha256:ef8d85841338a90d8d391e2701a7a078858c5bfb0be55d1e144f12798a77b6f3",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef8d85841338a90d8d391e2701a7a078858c5bfb0be55d1e144f12798a77b6f3",
+    "mappedOn": "2026-10-30",
+    "summary": "Lot traceability through tanks and silos where lots are blended, with recall cases.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold",
+      "ng-stock-movements",
+      "ng-admin-devices",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Each tank or silo is modelled as a bin; source lots keep their identity and cost",
+      "Every movement draws a proportional share of each lot in the vessel",
+      "Every tank movement saves an immutable version of the vessel's blend",
+      "Traces forward from a source lot or backward from any movement",
+      "Recall cases show where a lot is, output made from it, customers who got it and remaining stock",
+      "Blocking a lot stops draws, consumption and transfers from any vessel holding it",
+      "Records tank readings, cleanings and auditable reconciliation corrections",
+      "Device API lets flow meters and scales post movements safely on retry",
+      "Operator role center shows vessels, drift, held lots and open recalls",
+      "Needs BC online, bins without directed put-away and pick, and lot-tracked items",
+      "Licensed by user tiers billed monthly or annually; only app users need a license",
+      "Plans start with a one-month free trial"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Breweries",
+      "Chemicals and lubricants",
+      "Dairies",
+      "Distilleries",
+      "Edible oils",
+      "Juice and syrup",
+      "Wineries"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

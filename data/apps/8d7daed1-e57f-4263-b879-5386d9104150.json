@@ -8,18 +8,20 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1003%7CPAPPID.8d7daed1-e57f-4263-b879-5386d9104150",
-    "lastModified": "2026-10-05T13:22:59.1438524+00:00",
-    "appVersion": "2026.9.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T12:05:51.896711+00:00",
+    "appVersion": "2026.10.1.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/pb",
-    "sourceHash": "sha256:a7ae0e17876d446f55aafb8dccde75fd1f4eec18eafc9318c031ce80196705c6",
+    "sourceHash": "sha256:26e660e362637b77d5156b48d027e4478d1d53b2c659f9d4f9e8d2886ebb76b9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a7ae0e17876d446f55aafb8dccde75fd1f4eec18eafc9318c031ce80196705c6",
-    "mappedOn": "2026-10-07",
-    "summary": "Links sales orders to projects and bills time as T&M, fixed price or budget",
+    "sourceHash": "sha256:26e660e362637b77d5156b48d027e4478d1d53b2c659f9d4f9e8d2886ebb76b9",
+    "mappedOn": "2026-10-30",
+    "summary": "Links sales orders to projects and bills service work as T&M, fixed or capped.",
     "shape": "process",
     "primary": [
       {
@@ -29,31 +31,45 @@
       {
         "need": "ng-proj-time",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-budget",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-proj-budget",
-      "ng-proj-materials-subcontract"
+      "ng-proj-materials-subcontract",
+      "ng-proj-estimate-contract"
     ],
     "claims": [
-      "Billing by time and material, fixed price or capped budget",
-      "Creates project tasks and budgets from sales orders",
-      "Central review, release and posting of time recordings",
-      "Rounds time to 15 minutes or full hours; night and holiday surcharges",
-      "Purchase external services for project tasks",
+      "Bills by time and material, fixed price or a capped budget that can be adjusted",
+      "Creates project tasks and budgets from a sales order",
+      "Reviews, releases and posts time entries centrally, singly or in batches",
+      "Rounds time to 15 minutes or full hours",
+      "Adds surcharges for night or holiday work",
+      "Buys external resources and services for project tasks",
       "Attaches service details to invoices as proof of performance",
-      "Suite offers time sync with Jira, Azure DevOps and Outlook"
+      "Part of the DYCE Professional Services Suite but usable standalone",
+      "Suite syncs time with Jira, Azure DevOps and Outlook"
     ],
     "countries": [],
     "languages": [
       "de",
       "en"
     ],
-    "industries": [],
-    "connectsTo": [],
+    "industries": [
+      "IT system integrators",
+      "Managed service providers",
+      "Software vendors"
+    ],
+    "connectsTo": [
+      "Jira",
+      "Azure DevOps",
+      "Outlook"
+    ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

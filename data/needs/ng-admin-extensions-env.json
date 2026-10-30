@@ -88,16 +88,32 @@
           ]
         },
         {
+          "label": "Keeping job queues running",
+          "patterns": [
+            "job queue"
+          ]
+        },
+        {
+          "label": "Moving settings and personalizations between environments",
+          "patterns": [
+            "personali[sz]ation",
+            "configuration can be copied",
+            "exports roles"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Environments and Microsoft updates": 0.27,
-        "Installing and updating apps / extensions": 0.47,
-        "Preparing sandboxes": 0.4,
-        "Editing or cleaning up data": 0.27,
-        "Getting customizations specified or built": 0.13
+        "Environments and Microsoft updates": 0.24,
+        "Installing and updating apps / extensions": 0.41,
+        "Preparing sandboxes": 0.41,
+        "Editing or cleaning up data": 0.24,
+        "Getting customizations specified or built": 0.12,
+        "Keeping job queues running": 0.24,
+        "Moving settings and personalizations between environments": 0.12
       }
     },
     {
@@ -129,8 +145,8 @@
         }
       ],
       "coverage": {
-        "Several tenants at once": 0.2,
-        "Several environments in one tenant": 0.27
+        "Several tenants at once": 0.18,
+        "Several environments in one tenant": 0.24
       }
     },
     {
@@ -165,8 +181,8 @@
         }
       ],
       "coverage": {
-        "Mask emails, endpoints and integrations": 0.27,
-        "Delete or clean out records": 0.33
+        "Mask emails, endpoints and integrations": 0.29,
+        "Delete or clean out records": 0.35
       }
     },
     {
@@ -210,10 +226,33 @@
         }
       ],
       "coverage": {
-        "A log of who changed what": 0.33,
-        "Protection against changes in production": 0.2,
-        "Testing before go-live": 0.2
+        "A log of who changed what": 0.29,
+        "Protection against changes in production": 0.24,
+        "Testing before go-live": 0.18
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic access wording",
+      "terms": [
+        "acces"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "admin licensing and API prerequisites",
+      "terms": [
+        "admin"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic table-processing wording",
+      "terms": [
+        "tabl"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

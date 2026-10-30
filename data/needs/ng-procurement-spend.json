@@ -32,7 +32,118 @@
     "Buyers split orders into smaller POs to stay under their approval limit",
     "How do we handle an urgent PO that exceeds budget; who signs off the exception?",
     "Maverick buying from non-contracted suppliers is killing our negotiated prices",
-    "Too many company card purchases bypass purchasing and we only see them at month end"
+    "Too many company card purchases bypass purchasing and we only see them at month end",
+    "We want to see what we spend per vendor and department",
+    "Purchases keep going over budget and we notice too late"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-do-you-want-to-do-about-y",
+      "text": "What do you want to do about your purchase spend?",
+      "multi": true,
+      "options": [
+        {
+          "label": "See where the money goes, by vendor, item or department",
+          "patterns": [
+            "purchase reports",
+            "purchase analysis",
+            "purchas\\w* (data|ledger|order and payables)",
+            "spend (analytics|reports?|categori)",
+            "dimension"
+          ]
+        },
+        {
+          "label": "Put freight and duties into item cost",
+          "patterns": [
+            "landed cost"
+          ]
+        },
+        {
+          "label": "Compare purchases with budget",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Find savings with suppliers",
+          "patterns": [
+            "supplier cost reduction",
+            "spend categori"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "See where the money goes, by vendor, item or department": 0.6,
+        "Put freight and duties into item cost": 0.2,
+        "Compare purchases with budget": 0.3,
+        "Find savings with suppliers": 0.1
+      }
+    },
+    {
+      "id": "where-should-purchasing-happen",
+      "text": "Where should purchasing happen?",
+      "multi": false,
+      "options": [
+        {
+          "label": "In BC, with better reporting on top",
+          "patterns": [
+            "power bi",
+            "ledger entries table",
+            "landed cost"
+          ]
+        },
+        {
+          "label": "In a separate procurement platform linked to BC",
+          "patterns": [
+            "platform",
+            "punchout",
+            "exports bc purchasing"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In BC, with better reporting on top": 0.5,
+        "In a separate procurement platform linked to BC": 0.4
+      }
+    },
+    {
+      "id": "do-people-outside-purchasing-n",
+      "text": "Do people outside purchasing need to request and approve purchases?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, requests and approvals across the company",
+          "patterns": [
+            "approv",
+            "punchout",
+            "employees"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, requests and approvals across the company": 0.3
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'covers' scope wording",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    }
+  ]
 }

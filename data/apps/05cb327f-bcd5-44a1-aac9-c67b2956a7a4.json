@@ -8,8 +8,8 @@
     "publisher": "SBC Dynamics ERP",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensflexiblecommissionsr1ww%7CPAPPID.05cb327f-bcd5-44a1-aac9-c67b2956a7a4",
-    "lastModified": "2026-09-24T12:22:02.4265261+00:00",
-    "appVersion": "27.1023.1.11",
+    "lastModified": "2026-10-29T13:45:37.4448833+00:00",
+    "appVersion": "27.1023.1.14",
     "pricingTypes": [
       "FreeTrial",
       "Payg"

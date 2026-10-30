@@ -101,9 +101,9 @@
         }
       ],
       "coverage": {
-        "Changes to supplier bank details": 0.39,
-        "Approving new suppliers before use": 0.17,
-        "Changes to any sensitive supplier field": 0.28
+        "Changes to supplier bank details": 0.37,
+        "Approving new suppliers before use": 0.16,
+        "Changes to any sensitive supplier field": 0.21
       }
     },
     {
@@ -154,10 +154,10 @@
         }
       ],
       "coverage": {
-        "Check the account belongs to the supplier": 0.06,
+        "Check the account belongs to the supplier": 0.05,
         "Check IBAN/SWIFT is valid and fill bank details": 0.11,
         "Check tax or company registration numbers": 0.11,
-        "Internal approval only is fine": 0.5
+        "Internal approval only is fine": 0.42
       }
     },
     {
@@ -172,7 +172,8 @@
             "cannot be used in payment",
             "only released .{0,40}payments",
             "only approved.{0,40}payments",
-            "blocked for payments"
+            "blocked for payments",
+            "validated before use"
           ]
         },
         {
@@ -190,8 +191,8 @@
         }
       ],
       "coverage": {
-        "Block payments and payment files": 0.33,
-        "Also block purchase documents and invoice posting": 0.17
+        "Block payments and payment files": 0.37,
+        "Also block purchase documents and invoice posting": 0.16
       }
     },
     {
@@ -229,10 +230,78 @@
         }
       ],
       "coverage": {
-        "Inside BC's own approval workflows": 0.39,
-        "Power Automate / Power Platform": 0.17,
-        "A supplier portal where suppliers register themselves": 0.33
+        "Inside BC's own approval workflows": 0.32,
+        "Power Automate / Power Platform": 0.16,
+        "A supplier portal where suppliers register themselves": 0.32
       }
+    },
+    {
+      "id": "besides-onboarding-what-else-s",
+      "text": "Besides onboarding, what else should the supplier solution cover?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tenders and bidding",
+          "patterns": [
+            "bidding",
+            "tender"
+          ]
+        },
+        {
+          "label": "Supplier contracts",
+          "patterns": [
+            "contract management",
+            "contracts"
+          ]
+        },
+        {
+          "label": "Rating supplier performance",
+          "patterns": [
+            "vendor performance",
+            "scoring"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tenders and bidding": 0.16,
+        "Supplier contracts": 0.21,
+        "Rating supplier performance": 0.16
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "audit trail, standard in approval tools",
+      "terms": [
+        "audit",
+        "trail"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "publisher product names",
+      "terms": [
+        "plus"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'returns' wording",
+      "terms": [
+        "return"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'stored' wording",
+      "terms": [
+        "stor"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

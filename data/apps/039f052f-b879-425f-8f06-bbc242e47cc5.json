@@ -8,18 +8,20 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionlogistics%7CPAPPID.039f052f-b879-425f-8f06-bbc242e47cc5",
-    "lastModified": "2026-03-27T14:31:50.7842174+00:00",
-    "appVersion": "4.0.0.13",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T13:15:19.1655403+00:00",
+    "appVersion": "4.0.1.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://apps.visionpeople.dk/help/039f052f-b879-425f-8f06-bbc242e47cc5/index",
-    "sourceHash": "sha256:f2e9120b5b55452013c854e641169ba941fe4ae19eea1ed8da75461493b11d45",
+    "sourceHash": "sha256:82e8615705fb4126795dba895b3b2315a57953d9b61461d9132ccea16d6656d7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f2e9120b5b55452013c854e641169ba941fe4ae19eea1ed8da75461493b11d45",
-    "mappedOn": null,
-    "summary": "Books shipping agents and prints freight labels",
+    "sourceHash": "sha256:82e8615705fb4126795dba895b3b2315a57953d9b61461d9132ccea16d6656d7",
+    "mappedOn": "2026-10-30",
+    "summary": "Books carriers and prints shipping labels from BC via LogiSnap.",
     "shape": "connector",
     "primary": [
       {
@@ -28,19 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-packing-loading"
+      "ng-packing-loading",
+      "ng-ux-printing"
     ],
     "claims": [
-      "Book shipments from sales orders or posted shipments",
-      "Produces labels as PDF files or through LogiSnap Print Agent",
-      "Multiple colli per shipment with templates",
-      "Tracking links from shipping agent",
-      "LogiSnap accounts can differ for each responsibility center or location",
-      "Manual, automatic on posting, or journal-based booking",
-      "Drop point and parcel locker support",
-      "Customs declaration with VAT numbers and reason for export",
-      "Carriers incl. PostNord, DHL, GLS, DSV, Bring, UPS, FedEx",
-      "Requires LogiSnap subscription"
+      "Sends orders to carriers from sales orders or posted sales shipments",
+      "Prints shipping labels as PDF or straight to a label printer through the LogiSnap Print Agent",
+      "Supports multiple packages per shipment with individual tracking and package templates",
+      "Retrieves tracking links from the carrier",
+      "Different LogiSnap accounts per location or responsibility center",
+      "Booking can be manual, automatic on posting, or journal-based",
+      "Supports drop points and parcel lockers",
+      "Handles customs declaration data including VAT numbers and export reason",
+      "Carriers include PostNord, GLS, DHL, DSV, DPD, Bring, FedEx and UPS among others",
+      "Requires an active LogiSnap subscription"
     ],
     "countries": [
       "DK",
@@ -56,17 +59,17 @@
       "PostNord",
       "DHL",
       "GLS",
-      "Bring",
       "DSV",
       "DPD",
+      "Bring",
       "FedEx",
-      "UPS"
+      "UPS",
+      "Budbee",
+      "Danske Fragtmænd"
     ],
-    "requires": [
-      "LogiSnap"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

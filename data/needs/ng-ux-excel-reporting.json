@@ -28,7 +28,10 @@
     "Excel export loses the formatting every time",
     "Can we report on BC data from outside BC with SQL?",
     "Drill down from the Excel number to the BC entries",
-    "Group sales by customer and month without a report request"
+    "Group sales by customer and month without a report request",
+    "We need to report on our own custom tables too, not just standard BC data",
+    "Our reports should combine BC with data from other systems",
+    "People should only see the figures their BC permissions allow"
   ],
   "questions": [
     {
@@ -79,8 +82,8 @@
         }
       ],
       "coverage": {
-        "In Excel, with live BC data": 0.44,
-        "Inside Business Central": 0.11,
+        "In Excel, with live BC data": 0.41,
+        "Inside Business Central": 0.1,
         "Power BI, a data warehouse or SQL": 0.41
       }
     },
@@ -143,9 +146,9 @@
         }
       ],
       "coverage": {
-        "Run on a schedule and send to people": 0.26,
-        "Drill down from a number to the entries": 0.3,
-        "Fill fixed Excel or PDF templates": 0.26
+        "Run on a schedule and send to people": 0.24,
+        "Drill down from a number to the entries": 0.28,
+        "Fill fixed Excel or PDF templates": 0.21
       }
     },
     {
@@ -192,8 +195,157 @@
         }
       ],
       "coverage": {
-        "Yes, P&L, balance sheet, trial balance out of the box": 0.33
+        "Yes, P&L, balance sheet, trial balance out of the box": 0.34
       }
+    },
+    {
+      "id": "which-data-do-your-reports-nee",
+      "text": "Which data do your reports need to reach?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Any table, including custom and app tables",
+          "patterns": [
+            "any (bc |business central |navision )?(bc or navision )?table",
+            "custom tables",
+            "all (bc )?tables",
+            "tables and fields",
+            "pte tables"
+          ]
+        },
+        {
+          "label": "Data from other systems besides BC",
+          "patterns": [
+            "multiple (data )?sources",
+            "external data sources",
+            "other (systems|sources)",
+            "external (db|database)"
+          ]
+        },
+        {
+          "label": "Finance figures by dimension and budget",
+          "patterns": [
+            "dimension"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Any table, including custom and app tables": 0.31,
+        "Data from other systems besides BC": 0.17,
+        "Finance figures by dimension and budget": 0.24
+      }
+    },
+    {
+      "id": "who-gets-to-see-which-numbers",
+      "text": "Who gets to see which numbers?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Each user sees only what BC allows them",
+          "patterns": [
+            "permission",
+            "role-based access",
+            "per-user access",
+            "\\bsecurity"
+          ]
+        },
+        {
+          "label": "Reports shared with others, with set rights",
+          "patterns": [
+            "\\bshar(e|es|ed|ing)\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Each user sees only what BC allows them": 0.21,
+        "Reports shared with others, with set rights": 0.14
+      }
+    },
+    {
+      "id": "do-you-run-business-central-on",
+      "text": "Do you run Business Central on-premises?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, on-premises or a mix",
+          "patterns": [
+            "on-?prem"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on-premises or a mix": 0.21
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI detail: choosing columns",
+      "terms": [
+        "column"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "install footprint wording, not a buying choice",
+      "terms": [
+        "install"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "data model wording, already covered by data warehouse option",
+      "terms": [
+        "model"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'query' wording and licensing",
+      "terms": [
+        "query"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'read' wording",
+      "terms": [
+        "read"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "training claims, marketing",
+      "terms": [
+        "train"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'access' wording",
+      "terms": [
+        "acces"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "hosting detail, on-prem question covers it",
+      "terms": [
+        "server"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

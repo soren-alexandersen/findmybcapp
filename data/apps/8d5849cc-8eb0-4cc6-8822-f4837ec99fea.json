@@ -8,49 +8,50 @@
     "publisher": "Evidi",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipro-1014774%7CAID.navipro-anywareretail%7CPAPPID.8d5849cc-8eb0-4cc6-8822-f4837ec99fea",
-    "lastModified": "2026-10-02T08:26:44.3585291+00:00",
-    "appVersion": "23.6.1068.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T16:21:53.515346+00:00",
+    "appVersion": "23.8.1206.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.evidi.com/en/help/collections/4709668-anyware-retail",
-    "sourceHash": "sha256:f358654c9c28d775d8a7c4a71fc4e75c7e8f2565f6e50671c5d0bd04672e2761",
+    "sourceHash": "sha256:4a6f3916c2cd7a3ae914de03ec2598f7f1526a06037b92509adbf9b4f1ed50ce",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f358654c9c28d775d8a7c4a71fc4e75c7e8f2565f6e50671c5d0bd04672e2761",
-    "mappedOn": null,
-    "summary": "Seasonal product management and purchasing for multi-brand retail",
+    "sourceHash": "sha256:4a6f3916c2cd7a3ae914de03ec2598f7f1526a06037b92509adbf9b4f1ed50ce",
+    "mappedOn": "2026-10-30",
+    "summary": "Retail/fashion product management: Excel price catalog import, size/colour matrix ordering, store replenishment.",
     "shape": "vertical",
     "primary": [
-      {
-        "need": "ng-vert-fashion",
-        "confidence": "high"
-      },
       {
         "need": "ng-vert-retail",
         "confidence": "high"
       },
       {
-        "need": "ng-supplier-pricing",
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-vert-fashion",
       "ng-purchase-orders",
-      "ng-replenishment-planning",
-      "ng-item-master-data"
+      "ng-supplier-pricing"
     ],
     "claims": [
-      "Imports supplier quotes in agreed Excel format (Pricat) to create item catalogs",
-      "Creates item cards with attributes from the quote in one click",
-      "Creates color and size variants automatically",
-      "Order matrix for purchase orders across variants",
+      "Imports supplier quotes from Excel and creates item cards with attributes",
+      "Creates colour and size variants automatically",
+      "Order matrix for fast purchase entry across variants",
       "Purchases for several stores at once with direct delivery",
-      "Pre-order follow-up from season to season",
+      "Pre-order follow-up across seasons",
       "Purchase suggestions for seasonal items",
       "Transfer orders to stores from replenishment proposals",
-      "Available on premises and cloud",
-      "Supported in Sweden, Norway and Denmark"
+      "Extra item attributes and dimensions for sales follow-up",
+      "Runs on premises and cloud"
     ],
     "countries": [
       "DK",

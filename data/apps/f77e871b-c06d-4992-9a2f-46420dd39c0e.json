@@ -8,26 +8,28 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_ica%7CPAPPID.f77e871b-c06d-4992-9a2f-46420dd39c0e",
-    "lastModified": "2026-10-05T18:59:21.4163981+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:34:55.3406805+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Guaranty-Management-Help.pdf",
-    "sourceHash": "sha256:ee79ed3e226ebff5febb6bfab49ba0895fea7a182085530485c7fc765ebbdac1",
+    "sourceHash": "sha256:15bb6245de9dda6551bb595aee7daaf5d821a882e117300f9fda3d8d44fc6589",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ee79ed3e226ebff5febb6bfab49ba0895fea7a182085530485c7fc765ebbdac1",
-    "mappedOn": null,
-    "summary": "Analyzes item costs and movements to support pricing and profitability",
+    "sourceHash": "sha256:15bb6245de9dda6551bb595aee7daaf5d821a882e117300f9fda3d8d44fc6589",
+    "mappedOn": "2026-10-30",
+    "summary": "Reports on item cost build-up by document, item and variant to support pricing.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-production-costing",
-        "confidence": "medium"
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
       },
       {
-        "need": "ng-inventory-analysis",
+        "need": "ng-product-performance",
         "confidence": "medium"
       }
     ],
@@ -35,10 +37,12 @@
       "ng-sales-pricing"
     ],
     "claims": [
-      "Cost analysis reports by document or item",
-      "Review item cost movements",
-      "Compare costs across item variants",
-      "Identify cost sources and cost differences"
+      "Cost analysis reports by document or by item",
+      "Shows item cost movements over time",
+      "Compares costs between item variants",
+      "Traces where and how specific costs arose",
+      "Shows the effect of purchase and inventory transactions on cost",
+      "Available in English and Turkish"
     ],
     "countries": [],
     "languages": [
@@ -49,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

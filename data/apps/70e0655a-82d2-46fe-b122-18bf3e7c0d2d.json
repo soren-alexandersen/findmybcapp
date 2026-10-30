@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.amr-app%7CPAPPID.70e0655a-82d2-46fe-b122-18bf3e7c0d2d",
-    "lastModified": "2026-08-31T00:36:25.4750895+00:00",
-    "appVersion": "26.0.260826.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T04:33:50.5285124+00:00",
+    "appVersion": "26.0.261021.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-manufacturing-reports/",
-    "sourceHash": "sha256:d43c62c0e338aa90caf6a704ba279a315f2b6e65624a187349a6125a68cc7a6a",
+    "sourceHash": "sha256:9549c1d03c27b0a876415458df07790c7211408e49fadf1a9fc2c56af2533c84",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d43c62c0e338aa90caf6a704ba279a315f2b6e65624a187349a6125a68cc7a6a",
-    "mappedOn": null,
-    "summary": "Reports manufacturing costs and variances",
+    "sourceHash": "sha256:9549c1d03c27b0a876415458df07790c7211408e49fadf1a9fc2c56af2533c84",
+    "mappedOn": "2026-10-30",
+    "summary": "Manufacturing cost reports: multi-level BOM cost explosion and production order variance analysis.",
     "shape": "process",
     "primary": [
       {
@@ -28,13 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-period-close"
+      "ng-period-close",
+      "ng-bom-formula-engineering"
     ],
     "claims": [
-      "Multi-level cost explosion of BOM with costs rolled up per level",
-      "Prod. Order Variance report: material, capacity, overhead and subcontracting variances per production order",
-      "Detailed Prod. Order Variance per operation and component",
-      "Drill-down from Standard Cost Worksheet to component and routing costs"
+      "Multi-level BOM explosion with costs rolled up at each level",
+      "Reports material, capacity, overhead and subcontracting variances per production order",
+      "Detailed variance report drills into individual operations and components",
+      "Drill-down from the standard cost worksheet to component and routing costs",
+      "Same drill-down available from the item card with the Item Configurator app",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +51,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

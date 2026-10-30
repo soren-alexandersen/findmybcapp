@@ -28,7 +28,8 @@
     "Need a print agent on our server for BC SaaS",
     "Remote warehouse printer, no PC next to it",
     "Print preview takes forever and then I still have to print",
-    "Fax invoices to the few customers who still want it"
+    "Fax invoices to the few customers who still want it",
+    "We want each report to go to the right printer for each user without choosing every time"
   ],
   "questions": [
     {
@@ -86,10 +87,10 @@
         }
       ],
       "coverage": {
-        "Via PrintNode (paid service)": 0.28,
-        "Via Microsoft Universal Print, Printix or ezeep": 0.09,
-        "Via the vendor's own local agent or service": 0.3,
-        "No extra subscription": 0.12
+        "Via PrintNode (paid service)": 0.27,
+        "Via Microsoft Universal Print, Printix or ezeep": 0.11,
+        "Via the vendor's own local agent or service": 0.31,
+        "No extra subscription": 0.09
       }
     },
     {
@@ -118,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Yes, Zebra / ZPL": 0.19,
-        "Yes, via BarTender, NiceLabel or Loftware": 0.05
+        "Yes, Zebra / ZPL": 0.2,
+        "Yes, via BarTender, NiceLabel or Loftware": 0.04
       }
     },
     {
@@ -148,7 +149,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.3
+        "Yes": 0.29
       }
     },
     {
@@ -171,7 +172,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.23
+        "Yes": 0.24
       }
     },
     {
@@ -188,7 +189,13 @@
             "ftp/sftp",
             "scan(s|ner)?\\b.*documents|scansnap",
             "local sql",
-            "sql databases"
+            "sql databases",
+            "file-system",
+            "file-based output",
+            "inbound folders",
+            "azure (file|blob)",
+            "file management",
+            "file operations"
           ]
         },
         {
@@ -197,7 +204,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.16
+        "Yes": 0.2
       }
     },
     {
@@ -217,8 +224,94 @@
         }
       ],
       "coverage": {
-        "Yes": 0.12
+        "Yes": 0.11
       }
+    },
+    {
+      "id": "should-the-right-printer-be-pi",
+      "text": "Should the right printer be picked automatically per user, report or document type?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, printer rules per user, report or document",
+          "patterns": [
+            "default printer",
+            "printers? (by|per) (user|report|document type)",
+            "per document type",
+            "printer selection",
+            "rules per document type",
+            "printers for each document type",
+            "printers by report"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, printer rules per user, report or document": 0.36
+      }
+    },
+    {
+      "id": "do-you-need-a-record-of-what-w",
+      "text": "Do you need a record of what was printed and why a print failed?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, print history and error logs",
+          "patterns": [
+            "\\blogs?\\b",
+            "print (job )?(status|history)",
+            "print activity",
+            "printing actions"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, print history and error logs": 0.18
+      }
+    },
+    {
+      "id": "do-you-also-run-business-centr",
+      "text": "Do you also run Business Central on-premises?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, on-premises or both",
+          "patterns": [
+            "on-?premises?\\b",
+            "on-?prem\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on-premises or both": 0.18
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "client/session technical detail",
+      "terms": [
+        "client"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "storage wording, mixed and minor",
+      "terms": [
+        "stor"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

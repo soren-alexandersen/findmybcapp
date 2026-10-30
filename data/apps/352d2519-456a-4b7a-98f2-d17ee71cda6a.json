@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.wipfli|AID.punchout_for_business_central|PAPPID.352d2519-456a-4b7a-98f2-d17ee71cda6a",
+  "guid": "352d2519-456a-4b7a-98f2-d17ee71cda6a",
+  "publisherId": "wipfli",
+  "offerId": "punchout_for_business_central",
+  "source": {
+    "name": "Wipfli CXML PunchOut for Microsoft Dynamics 365 Business Central",
+    "publisher": "Wipfli LLP",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wipfli%7CAID.punchout_for_business_central%7CPAPPID.352d2519-456a-4b7a-98f2-d17ee71cda6a",
+    "lastModified": "2026-10-26T10:55:38.0674074+00:00",
+    "appVersion": "2.3.54238.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wipfli.com/",
+    "sourceHash": "sha256:b4b72cb00f2e893e75f6c2b6282f1193c51f19157b2e595479c1b43b7c443af3",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4b72cb00f2e893e75f6c2b6282f1193c51f19157b2e595479c1b43b7c443af3",
+    "mappedOn": "2026-10-30",
+    "summary": "cXML punchout: shop on supplier websites and bring the cart back as a requisition.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Creates punchout requisitions with suppliers supporting cXML",
+      "Turns the supplier shopping cart into a purchase requisition in BC"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "KR",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "cXML punchout suppliers"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

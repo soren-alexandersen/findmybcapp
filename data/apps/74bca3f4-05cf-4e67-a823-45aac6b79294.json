@@ -8,18 +8,20 @@
     "publisher": "Softera Baltic",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera-fdc%7CPAPPID.74bca3f4-05cf-4e67-a823-45aac6b79294",
-    "lastModified": "2026-07-10T12:25:24.81389+00:00",
-    "appVersion": "105.33.27.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:00:27.691628+00:00",
+    "appVersion": "105.44.27.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/fdc",
-    "sourceHash": "sha256:5ad0fd4a602b9871b55a2949461b3c7472d3b2dcc74a6b92aaa74ab831194ebd",
+    "sourceHash": "sha256:a9218632b97152b88d450eb44d94c24f22ceeb5209ab672b130a651013964ef9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5ad0fd4a602b9871b55a2949461b3c7472d3b2dcc74a6b92aaa74ab831194ebd",
-    "mappedOn": null,
-    "summary": "Shop floor data capture for production order postings",
+    "sourceHash": "sha256:a9218632b97152b88d450eb44d94c24f22ceeb5209ab672b130a651013964ef9",
+    "mappedOn": "2026-10-30",
+    "summary": "Shop floor data capture for production consumption, output and operator time.",
     "shape": "process",
     "primary": [
       {
@@ -28,19 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-hr-time-shifts",
-      "ng-admin-devices"
+      "ng-hr-time-shifts"
     ],
     "claims": [
-      "Posts production order consumption without journals",
-      "Posts routing operations on production orders without output journals",
-      "Shop floor supervisor can review and correct entries before posting later",
-      "Supports several manufacturing locations with employee time tracking per location",
-      "Automatically closes employee sessions based on shift times",
-      "Tracks employee time spent on machines",
-      "Compatible with Cosmo Consult Advanced Manufacturing pack for posting work packages",
-      "Mobile device use on the shop floor via To-Increase Dynamics Anywhere",
-      "Requires Premium edition"
+      "Posts consumption on production orders without journals",
+      "Posts routing operations without output journals",
+      "Supervisor can review and correct entries before posting",
+      "Tracks employee time across several manufacturing locations",
+      "Closes operator sessions automatically at shift end",
+      "Separate variants for Cosmo Advanced Manufacturing and Dynamics Anywhere",
+      "Requires BC Premium edition"
     ],
     "countries": [
       "CA",
@@ -58,13 +57,11 @@
       "en",
       "lt"
     ],
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

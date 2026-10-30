@@ -28,7 +28,9 @@
     "Wine production from grape delivery to bottling",
     "Our F&B partner says we need an industry solution, which ones exist?",
     "Meat processing with carcass breakdown",
-    "Coffee roaster, small, needs lots and recipes"
+    "Coffee roaster, small, needs lots and recipes",
+    "We need different prices and discounts per customer and outlet",
+    "We run promotions and volume deals with our retail customers"
   ],
   "questions": [
     {
@@ -73,9 +75,9 @@
         }
       ],
       "coverage": {
-        "We make food or drinks": 0.52,
-        "We distribute or wholesale": 0.19,
-        "Kitchen or catering": 0.01
+        "We make food or drinks": 0.55,
+        "We distribute or wholesale": 0.27,
+        "Kitchen or catering": 0.02
       }
     },
     {
@@ -100,7 +102,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.12
+        "Yes": 0.16
       }
     },
     {
@@ -128,7 +130,7 @@
         }
       ],
       "coverage": {
-        "Yes, price by actual weight": 0.12
+        "Yes, price by actual weight": 0.1
       }
     },
     {
@@ -171,9 +173,9 @@
         }
       ],
       "coverage": {
-        "Allergens, ingredients and nutrition": 0.16,
-        "Lots, expiry and traceability": 0.39,
-        "Quality checks and inspections": 0.21
+        "Allergens, ingredients and nutrition": 0.2,
+        "Lots, expiry and traceability": 0.43,
+        "Quality checks and inspections": 0.22
       }
     },
     {
@@ -197,7 +199,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.1
+        "Yes": 0.12
       }
     },
     {
@@ -228,8 +230,85 @@
         }
       ],
       "coverage": {
-        "Complete suite": 0.16
+        "Complete suite": 0.24
       }
+    },
+    {
+      "id": "which-customer-prices-and-trad",
+      "text": "Which customer prices and trade deals must you manage?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customer-specific prices and discounts",
+          "patterns": [
+            "discount",
+            "tiered prices",
+            "pricing matrix",
+            "hierarchical pricing",
+            "price and discount",
+            "customer pricing"
+          ]
+        },
+        {
+          "label": "Promotions and volume commitments",
+          "patterns": [
+            "promotional",
+            "volume commitment",
+            "trade accrual",
+            "external sales",
+            "volume-based settlement"
+          ]
+        },
+        {
+          "label": "Contracts and loaned equipment for pubs and outlets",
+          "patterns": [
+            "outlets and pubs",
+            "loaned items",
+            "loan material"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customer-specific prices and discounts": 0.16,
+        "Promotions and volume commitments": 0.12,
+        "Contracts and loaned equipment for pubs and outlets": 0.08
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "trial and subscription licensing terms",
+      "terms": [
+        "subscription",
+        "paid",
+        "then"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "weight units, already covered by the catch-weight question",
+      "terms": [
+        "unit"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "pieces-and-weight wording, already covered by the catch-weight question",
+      "terms": [
+        "both"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "weight quantities, already covered by the catch-weight question",
+      "terms": [
+        "quantity"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

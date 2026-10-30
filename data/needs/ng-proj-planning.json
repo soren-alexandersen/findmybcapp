@@ -116,10 +116,10 @@
         }
       ],
       "coverage": {
-        "Gantt chart": 0.22,
+        "Gantt chart": 0.24,
         "Kanban board": 0.06,
-        "Resource load or capacity view": 0.41,
-        "Drag-and-drop planning board": 0.41
+        "Resource load or capacity view": 0.44,
+        "Drag-and-drop planning board": 0.44
       }
     },
     {
@@ -150,7 +150,7 @@
         }
       ],
       "coverage": {
-        "Yes, need dependencies or critical path": 0.22,
+        "Yes, need dependencies or critical path": 0.24,
         "No, a task list with due dates is enough": 0.12
       }
     },
@@ -172,7 +172,9 @@
             "double-booking",
             "overload",
             "who will work",
-            "workload"
+            "workload",
+            "work(ing)? calendars?",
+            "base calendar"
           ]
         },
         {
@@ -182,7 +184,7 @@
       ],
       "coverage": {
         "By skills": 0.12,
-        "By who is free": 0.28
+        "By who is free": 0.44
       }
     },
     {
@@ -216,7 +218,7 @@
       ],
       "coverage": {
         "Yes, on the task or project": 0.41,
-        "Yes, pre-filled from the plan or calendar": 0.06
+        "Yes, pre-filled from the plan or calendar": 0.03
       }
     },
     {
@@ -252,8 +254,8 @@
         }
       ],
       "coverage": {
-        "Templates we reuse": 0.34,
-        "Sales quotes or orders": 0.22,
+        "Templates we reuse": 0.32,
+        "Sales quotes or orders": 0.21,
         "Excel or CAD imports": 0.12
       }
     },
@@ -282,7 +284,7 @@
         }
       ],
       "coverage": {
-        "Outlook or Teams calendars and channels": 0.19,
+        "Outlook or Teams calendars and channels": 0.15,
         "SharePoint for project files": 0.09
       }
     },
@@ -312,14 +314,33 @@
           ]
         },
         {
+          "label": "Materials the project needs",
+          "patterns": [
+            "people and materials",
+            "materials? (needed|reservation|planning|requirements)",
+            "reservation for material",
+            "job materials"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
         "Staffing and capacity": 0.09,
-        "Project costs and budget": 0.34
+        "Project costs and budget": 0.35,
+        "Materials the project needs": 0.09
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "project billing models belong to project invoicing, not planning",
+      "terms": [
+        "bill"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

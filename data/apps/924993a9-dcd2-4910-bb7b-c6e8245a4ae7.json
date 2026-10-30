@@ -8,18 +8,20 @@
     "publisher": "GSGroup AS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gsgroupas1607944051271%7CAID.gsgroup_handyman_integration%7CPAPPID.924993a9-dcd2-4910-bb7b-c6e8245a4ae7",
-    "lastModified": "2026-09-07T07:11:01.7459012+00:00",
-    "appVersion": "2.0.0.78",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T15:18:48.3463496+00:00",
+    "appVersion": "2.0.0.80",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.gsgroup.de/",
-    "sourceHash": "sha256:019928d196f50364568fdc74f976e16cdbc43a134d076617b8da6fb0bcbaeab4",
+    "sourceHash": "sha256:acfa8ff4d8c726e16142e65e845e495c61364fc9f8909d61ced01c064843c3e8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:019928d196f50364568fdc74f976e16cdbc43a134d076617b8da6fb0bcbaeab4",
-    "mappedOn": null,
-    "summary": "Field service mobile app and dispatch board via Handyman",
+    "sourceHash": "sha256:acfa8ff4d8c726e16142e65e845e495c61364fc9f8909d61ced01c064843c3e8",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects the Handyman field service mobile app and dispatch board to BC.",
     "shape": "connector",
     "primary": [
       {
@@ -36,20 +38,19 @@
       "ng-admin-devices"
     ],
     "claims": [
-      "Compatible with projects, service orders or sales orders",
-      "Drag-and-drop scheduling of jobs for technicians in Resource Planner",
+      "Handyman is licensed separately",
+      "Works from sales orders, service orders or projects",
+      "Drag-and-drop scheduling of jobs to technicians",
       "Mobile time and expense recording",
-      "Records material consumption with or without stock",
+      "Records material use with or without stock",
       "Mobile checklists, forms and protocols",
-      "Mobile photo documentation",
-      "Mobile signatures",
-      "Generates digital service report for the customer",
-      "Shows service history of service items on mobile",
-      "Validate and approve mobile entries in Handyman Office or BC",
-      "Mobile entries flow back to BC for posting and invoicing",
-      "Runs on Android, iOS and Windows smartphones, tablets and laptops",
-      "Handyman solution purchased separately",
-      "Mobile app available in many languages"
+      "Photo documentation and customer signatures on mobile",
+      "Produces a digital service report for the customer",
+      "Shows service history of service items",
+      "Mobile entries can be approved before transfer",
+      "Recorded entries flow back to BC for posting and invoicing",
+      "Runs on Android, iOS and Windows devices",
+      "Mobile app available in 12 languages"
     ],
     "countries": [],
     "languages": [
@@ -61,7 +62,7 @@
       "Handyman"
     ],
     "requires": [
-      "GSGroup Handyman"
+      "Handyman"
     ],
     "deployment": "not_stated",
     "pricing": "free_trial",

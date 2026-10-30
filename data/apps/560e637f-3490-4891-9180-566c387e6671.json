@@ -8,55 +8,64 @@
     "publisher": "Applibra",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_catch_weight_management%7CPAPPID.560e637f-3490-4891-9180-566c387e6671",
-    "lastModified": "2026-10-06T09:27:23.981913+00:00",
-    "appVersion": "28.0.26.10060937",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T21:29:47.4630924+00:00",
+    "appVersion": "28.0.26.10291919",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-weight-management/help",
-    "sourceHash": "sha256:2bd5248259f4af3b782cf8e411e51e9b02a65de1fc8a8fc90e5a959596ef8001",
+    "sourceHash": "sha256:1e1907c6ed2f1deca0a19663d19fa2243743a33cc54e07ad8622791118d99959",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2bd5248259f4af3b782cf8e411e51e9b02a65de1fc8a8fc90e5a959596ef8001",
-    "mappedOn": null,
-    "summary": "Catch-weight handling with pricing, costing and traceability",
+    "sourceHash": "sha256:1e1907c6ed2f1deca0a19663d19fa2243743a33cc54e07ad8622791118d99959",
+    "mappedOn": "2026-10-30",
+    "summary": "Catch weight handling: trade in pieces, price, cost and trace by actual weight.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-vert-food-beverage",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-pricing",
-      "ng-lot-serial-traceability",
-      "ng-admin-devices"
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Dual unit of measure: handling unit and accounting (weight/volume) unit on item and lines",
-      "Price and post on actual weight",
-      "Uses standard price lists for accounting unit price",
-      "Weigh page per lot/package/pallet: manual, from dimensions or from scales",
-      "Weigh & Assign Lots captures weight and tracking in one step",
-      "Weight Ledger Entries linked to Item Ledger Entries for shrinkage/yield analysis",
-      "Spans warehouse, inventory, production, transfer, purchase and sales",
-      "Weight computed from length/width/height/diameter",
-      "Requires BC online version 28.0 or higher"
+      "Dual unit of measure: a handling unit plus a weight-based accounting unit per item, changeable per line",
+      "Accounting quantity and price are computed from actual net weight",
+      "Uses BC's standard price lists rather than its own pricing engine",
+      "Weigh page captures weight per lot, serial, package and pallet",
+      "Weight can be read from GS1-128 labels via AL GS1, no scale driver",
+      "Weighing and lot assignment happen in one step",
+      "Configurable weight checks at posting for sales, purchases and transfers",
+      "Posting creates weight ledger entries linked to item ledger entries",
+      "Records weight loss when a receipt is consumed with weight remaining",
+      "Covers sales, purchase, transfer, production, inventory, warehouse and journals",
+      "Bins keep the weight of goods weighed into them",
+      "Needs BC version 28.0 or later, online and on-premises",
+      "Installs several other AppLibra apps as dependencies",
+      "Available in English and Italian"
     ],
     "countries": [],
     "languages": [
       "en",
       "it"
     ],
-    "industries": [
-      "Food & Beverage",
-      "Logistics",
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "both",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

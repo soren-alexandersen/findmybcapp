@@ -8,18 +8,20 @@
     "publisher": "Clever Dynamics",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-handheld-for-warehousing%7CPAPPID.b9207dc8-e910-4c0d-85fc-7b7ec3e03112",
-    "lastModified": "2026-09-30T10:46:15.2128111+00:00",
-    "appVersion": "8.1.5.162520",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T16:01:42.9983116+00:00",
+    "appVersion": "8.1.6.165502",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/handheld/user-guide",
-    "sourceHash": "sha256:339c4a43eb1715c1bbb043610abf7552d018e5aa31cc983d6c5a7f51b0f040ef",
+    "sourceHash": "sha256:2ec3797af8fd16666e71890c09415161980caac5c26e3465c6ec4b499dec4c3d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:339c4a43eb1715c1bbb043610abf7552d018e5aa31cc983d6c5a7f51b0f040ef",
-    "mappedOn": null,
-    "summary": "Handheld warehouse transaction booking",
+    "sourceHash": "sha256:2ec3797af8fd16666e71890c09415161980caac5c26e3465c6ec4b499dec4c3d",
+    "mappedOn": "2026-10-30",
+    "summary": "Handheld device app for receiving, put-away, picking, replenishment and shipping in BC.",
     "shape": "process",
     "primary": [
       {
@@ -29,21 +31,25 @@
       {
         "need": "ng-allocation-picking",
         "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
-      "ng-stock-movements"
+      "ng-stock-movements",
+      "ng-warehouse-kpis"
     ],
     "claims": [
-      "Mobile device warehouse transactions posted in real time to BC",
-      "Covers receipts, put-aways, replenishment, picking and shipping",
-      "Voice commands for hands-free picking",
-      "Validates data on input",
-      "Paperless operation on handheld",
+      "Handles receipts, put-aways, replenishment, picking and shipping on a handheld",
+      "Voice commands direct staff to the next pick location hands-free",
+      "Validates input on entry for real-time stock accuracy",
+      "Move groups of multiple items with one scan",
       "Employee insights for reporting and auditing",
-      "Move groups of multiple items with a single scan",
-      "Optional Clever WMS Containers add-on for extra fee"
+      "Optional Clever WMS Containers add-on for an extra monthly fee",
+      "Part of the Clever WMS suite with shipment management and carrier integration apps",
+      "Works with Essentials and Premium"
     ],
     "countries": [
       "AE",

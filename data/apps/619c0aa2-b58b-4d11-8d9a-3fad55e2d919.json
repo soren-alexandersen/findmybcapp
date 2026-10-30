@@ -8,18 +8,20 @@
     "publisher": "BCILITY",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-license-management%7CPAPPID.619c0aa2-b58b-4d11-8d9a-3fad55e2d919",
-    "lastModified": "2026-03-23T05:18:12.7142217+00:00",
-    "appVersion": "26.1.17.74",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T13:56:51.695674+00:00",
+    "appVersion": "26.1.18.78",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://bcility.com/about-us/",
-    "sourceHash": "sha256:a235cd9a0da47010bd5f5e86242574c89449d8c5fb8b4312af394a591bf39f22",
+    "sourceHash": "sha256:66c6fca672463dcefe7d20ba1a64e82cbf2b2f7e8b52b50b9a9edfd618a2c264",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a235cd9a0da47010bd5f5e86242574c89449d8c5fb8b4312af394a591bf39f22",
-    "mappedOn": null,
-    "summary": "License management for ISV apps",
+    "sourceHash": "sha256:66c6fca672463dcefe7d20ba1a64e82cbf2b2f7e8b52b50b9a9edfd618a2c264",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets ISVs issue, activate and validate licenses for their own BC apps.",
     "shape": "usability",
     "primary": [
       {
@@ -27,18 +29,18 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-admin-licensing"
-    ],
+    "secondary": [],
     "claims": [
-      "Issue, activate and revoke licenses for ISV apps inside BC",
-      "Tenant-specific license validation",
-      "License assignment per user or license type",
-      "Email notifications for expiring licenses",
-      "Trial periods and expiration rules",
-      "Feature-based licensing in AL",
-      "License log and validation tracking",
-      "No external license server needed"
+      "Aimed at ISVs and partners who sell BC apps",
+      "Assign, activate and revoke licenses inside BC",
+      "Validates licenses per tenant using environment telemetry",
+      "Licenses per user or by license type",
+      "Emails before licenses expire",
+      "Trial periods, expiry rules and custom entitlements",
+      "Feature-level licensing via AL permission controls",
+      "Central license log",
+      "No external license server needed",
+      "Works for AppSource and private deployments"
     ],
     "countries": [],
     "languages": [
@@ -50,7 +52,6 @@
       "hr",
       "it",
       "lt",
-      "nl",
       "no",
       "ru",
       "sl",

@@ -8,18 +8,18 @@
     "publisher": "Binary Stream Software Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.multi-entity_management_uk_d365bc%7CPAPPID.1b3d67a7-7ddb-45d6-9173-2b4bf499fd0e",
-    "lastModified": "2026-09-08T18:22:33.5115082+00:00",
-    "appVersion": "1.1.167.0",
+    "lastModified": "2026-10-07T09:22:58.4235383+00:00",
+    "appVersion": "1.1.168.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/MEM_D365BC_Help/Content/Topics/NAV_MEM/MEM.htm",
-    "sourceHash": "sha256:c335d69e4753cf857dab05a00d8a2286cf2d2090ad2266c4f5a8f93938c270fe",
+    "sourceHash": "sha256:9074f405a3fd1f0c7597d0420b2adf45a5cf19e91f914b1b65814dd929c8b332",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c335d69e4753cf857dab05a00d8a2286cf2d2090ad2266c4f5a8f93938c270fe",
-    "mappedOn": null,
-    "summary": "Intercompany transactions, consolidation and multi-entity management",
+    "sourceHash": "sha256:9074f405a3fd1f0c7597d0420b2adf45a5cf19e91f914b1b65814dd929c8b332",
+    "mappedOn": "2026-10-30",
+    "summary": "Runs many legal entities in one BC company with automated intercompany and consolidated reporting.",
     "shape": "process",
     "primary": [
       {
@@ -28,21 +28,23 @@
       }
     ],
     "secondary": [
-      "ng-ux-master-data-sync",
-      "ng-admin-permissions"
+      "ng-admin-permissions",
+      "ng-financial-statements"
     ],
     "claims": [
-      "Automates intercompany transactions in real time for payables, receivables and journals",
+      "Automated intercompany across receivables, payables and journals",
       "Handles transactions involving three or more entities",
-      "Merges several legal entities into a single instance",
-      "Shared master records without duplication or synchronization",
-      "Real-time combined or individual reports across entities",
-      "User-entity security layer",
-      "Automates multi-currency handling, cost sharing and the year-end routine",
-      "AI intercompany balance reporting highlights mismatches and outstanding amounts",
-      "Easily add new entities for acquisitions or restructuring"
+      "Multiple legal entities in a single instance sharing customers, vendors and items",
+      "Combined or per-entity reports in real time",
+      "Add new entities without disruption",
+      "Security layer controls which users see which entity",
+      "Centralised receivables and payables processing",
+      "Automates multi-currency, year-end and shared expenses",
+      "AI reporting on intercompany balances and mismatches",
+      "Free trial available"
     ],
     "countries": [
+      "AE",
       "AR",
       "BE",
       "CH",

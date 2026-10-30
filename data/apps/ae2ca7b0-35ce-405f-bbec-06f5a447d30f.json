@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2storm%7CPAPPID.ae2ca7b0-35ce-405f-bbec-06f5a447d30f",
-    "lastModified": "2025-06-12T09:10:55.9980245+00:00",
+    "lastModified": "2026-10-19T10:47:20.3083903+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:bd803d8a9e61d231e9e10dffd28ac09bb31a509453edf23f9cea978621c1cd5d",
+    "sourceHash": "sha256:b1d0c7b3539028e8787cfc4c05d0c93e8e7be8f8f0fa20f00bdff81dc828744e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bd803d8a9e61d231e9e10dffd28ac09bb31a509453edf23f9cea978621c1cd5d",
-    "mappedOn": null,
-    "summary": "Integrates Norce Commerce e-commerce engine with BC",
+    "sourceHash": "sha256:b1d0c7b3539028e8787cfc4c05d0c93e8e7be8f8f0fa20f00bdff81dc828744e",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Norce (formerly Storm) headless B2B and B2C commerce engine.",
     "shape": "connector",
     "primary": [
       {
@@ -29,27 +31,23 @@
     ],
     "secondary": [],
     "claims": [
-      "Connects to headless Norce (Storm) commerce for B2B and B2C",
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Norce Commerce",
-      "Built on Codeunit OmniConnect integration platform"
+      "Integration is API based",
+      "Sold as a SaaS subscription with managed and monitored data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs Norce Commerce and runs on Codeunit's OmniConnect platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Norce Commerce"
     ],
-    "requires": [
-      "Norce Commerce"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

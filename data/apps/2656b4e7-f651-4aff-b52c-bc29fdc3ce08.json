@@ -8,49 +8,56 @@
     "publisher": "iFacto Business Solutions NV",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ifacto1611328060545%7CAID.ifacto_telemetry%7CPAPPID.2656b4e7-f651-4aff-b52c-bc29fdc3ce08",
-    "lastModified": "2026-10-06T08:24:07.1344856+00:00",
-    "appVersion": "28.4.202640.85255",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:11:23.2945465+00:00",
+    "appVersion": "28.4.202642.85981",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.ifacto.be/",
-    "sourceHash": "sha256:c11913429eb4474f1ee38d986080cf7b390b7478b11c8e4602dfdc392df833e3",
+    "sourceHash": "sha256:fe1605cdd289a15bcf519da4c83fe0df728f20baf0e2139644f71da7ab391a2c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c11913429eb4474f1ee38d986080cf7b390b7478b11c8e4602dfdc392df833e3",
-    "mappedOn": null,
-    "summary": "Additional telemetry signals for performance and security",
+    "sourceHash": "sha256:fe1605cdd289a15bcf519da4c83fe0df728f20baf0e2139644f71da7ab391a2c",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends extra performance, security and health signals from BC to Application Insights.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-performance",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-admin-change-log",
-      "ng-ux-developer-tools"
+      "ng-admin-extensions-env"
     ],
     "claims": [
-      "Tracks execution times of posting and release operations",
-      "Measures SQL statement counts",
+      "Logs how long posting and document release take",
+      "Counts SQL statements to help optimisation",
       "Monitors warehouse activity performance",
-      "Audits sensitive changes like bank accounts",
-      "Tracks delegated admin actions",
-      "Tracks installed extensions and feature adoption",
-      "Detects missing database indexes",
+      "Logs changes to sensitive data such as bank accounts",
+      "Tracks actions by delegated admin users",
+      "Records installed extensions and their versions",
+      "Reports feature adoption and status",
+      "Flags missing database indexes",
       "Finds orphaned media files",
-      "Scheduled daily telemetry collection to Application Insights"
+      "Collects telemetry on a daily schedule into Application Insights"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "Application Insights"
+      "Azure Application Insights"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

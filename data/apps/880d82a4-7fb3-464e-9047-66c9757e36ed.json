@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.2control|AID.compliance-advancedpermissionsmanagement|PAPPID.880d82a4-7fb3-464e-9047-66c9757e36ed",
+  "guid": "880d82a4-7fb3-464e-9047-66c9757e36ed",
+  "publisherId": "2control",
+  "offerId": "compliance-advancedpermissionsmanagement",
+  "source": {
+    "name": "Compliance Advanced Permissions Management",
+    "publisher": "2-Controlware",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.2control%7CAID.compliance-advancedpermissionsmanagement%7CPAPPID.880d82a4-7fb3-464e-9047-66c9757e36ed",
+    "lastModified": "2026-10-09T16:11:02.7467223+00:00",
+    "appVersion": "7.2.20261029.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wiki-apps.2-controlware.com/",
+    "sourceHash": "sha256:a486dc5612b78c6f55096c6fbd207015b86633552290ca29c2ce6af19e70ce9c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a486dc5612b78c6f55096c6fbd207015b86633552290ca29c2ce6af19e70ce9c",
+    "mappedOn": "2026-10-30",
+    "summary": "Logs, reviews, analyses and rolls back changes to BC permission sets.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-it-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Logs each permission set change with user, time and content",
+      "Tracks changes to relations between permission sets",
+      "Compares versions of a permission set and shows its history",
+      "Periodic review sessions with reviewers, status and comments",
+      "Resets the baseline and archives earlier changes",
+      "Rule-based quality analysis, such as wildcard access and overly broad sets",
+      "What-if simulation shows affected sets and users before applying a change",
+      "Rolls a permission set back to an earlier version",
+      "Generates clean permission sets using exclude sets",
+      "Copilot proposes names and descriptions for permission sets",
+      "Links findings to other 2-Controlware compliance apps when installed",
+      "Supports Essentials and Premium in all BC countries",
+      "Available in English and Dutch",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

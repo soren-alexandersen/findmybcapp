@@ -8,45 +8,49 @@
     "publisher": "Data Courage",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.spolandkkarbowiakbdoruchspolkacywilna1607528556434%7CAID.ai-customer-intelligence%7CPAPPID.26671b17-65fb-46cf-8583-00bad4d87497",
-    "lastModified": "2026-09-10T04:44:17.1507551+00:00",
-    "appVersion": "1.2.0.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T09:44:34.3209168+00:00",
+    "appVersion": "1.2.0.4",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.datacourage.com/support",
-    "sourceHash": "sha256:2c5c5bf7cc25c2e9cee2dedd3cc461b215ac7ad97d2aa9ca77c57a8e41ced8c3",
+    "sourceHash": "sha256:294a0e14032b064c2fcb1bf04888b1b9f63208ead05f7be0e7b90a3f397ade36",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2c5c5bf7cc25c2e9cee2dedd3cc461b215ac7ad97d2aa9ca77c57a8e41ced8c3",
-    "mappedOn": null,
-    "summary": "AI insights into customers and opportunities",
+    "sourceHash": "sha256:294a0e14032b064c2fcb1bf04888b1b9f63208ead05f7be0e7b90a3f397ade36",
+    "mappedOn": "2026-10-30",
+    "summary": "AI customer analytics: lifetime value, churn probability, segments and embedded Power BI.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-analytics",
         "confidence": "high"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-crm-accounts",
-      "ng-bi-dashboards"
+      "ng-bi-dashboards",
+      "ng-mkt-campaigns"
     ],
     "claims": [
-      "AI-driven multilingual customer insights, recommendations and summaries",
-      "KPIs including Customer Lifetime Value and Probability of Being Alive",
-      "Churn probability chart",
-      "Automatic customer grouping by buying behaviour",
-      "Embedded Power BI dashboards in Executive version"
+      "AI-written evaluations, recommendations and summaries in several languages",
+      "Calculates customer lifetime value and probability of being alive",
+      "Charts churn probability",
+      "Groups customers into behaviour segments",
+      "Executive version embeds Power BI dashboards"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
-    "connectsTo": [
-      "Power BI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

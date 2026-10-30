@@ -8,23 +8,25 @@
     "publisher": "Advania",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_web_connection%7CPAPPID.1b44f00a-3e44-4e8a-a4d5-f9b2033fdb1c",
-    "lastModified": "2026-09-30T19:47:22.177766+00:00",
-    "appVersion": "29.0.54.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T11:14:01.9921291+00:00",
+    "appVersion": "29.0.57.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/api",
-    "sourceHash": "sha256:2c85481ca73b53c3dce2ccd5ba643e12cb9859da363e405496023542c59621df",
+    "sourceHash": "sha256:c547eac8f327c7ce2a726eccb3f0bd107b8c8049a840fd76f1a58313fc24b0f8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2c85481ca73b53c3dce2ccd5ba643e12cb9859da363e405496023542c59621df",
-    "mappedOn": null,
-    "summary": "Manages API integrations between BC and webstores and other systems",
+    "sourceHash": "sha256:c547eac8f327c7ce2a726eccb3f0bd107b8c8049a840fd76f1a58313fc24b0f8",
+    "mappedOn": "2026-10-30",
+    "summary": "API integration layer linking BC to webstores such as WooCommerce and Tactica Integrator.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-webshop",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-admin-integration-sync",
@@ -35,9 +37,9 @@
       "ng-item-master-data"
     ],
     "claims": [
-      "Integration with Tactica Integrator",
-      "Use Tactica Integrator as PIM",
-      "Connection to WooCommerce",
+      "Integrates with Tactica Integrator",
+      "Tactica Integrator can serve as the PIM",
+      "Connects to WooCommerce",
       "Depends on Advania Base"
     ],
     "countries": [
@@ -61,9 +63,7 @@
       "en",
       "is"
     ],
-    "industries": [
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [
       "Tactica Integrator",
       "WooCommerce"

@@ -8,18 +8,18 @@
     "publisher": "Theta Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.purchase_accruals_consignment%7CPAPPID.af48d8a9-4268-417a-917e-e5c533959fa6",
-    "lastModified": "2026-08-02T05:55:13.2294208+00:00",
-    "appVersion": "28.0.1.0",
+    "lastModified": "2026-10-12T11:16:57.3248637+00:00",
+    "appVersion": "28.1.1.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/PA",
-    "sourceHash": "sha256:337cee0293e11540379db272755b9c64f1cb40585409c03d28e11a677820a2a4",
+    "sourceHash": "sha256:c38bff51034e16de9e798439b6e5a28ed53cc9670c2be22662be13bf32726a0b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:337cee0293e11540379db272755b9c64f1cb40585409c03d28e11a677820a2a4",
-    "mappedOn": null,
-    "summary": "Automates purchase accruals at receipt",
+    "sourceHash": "sha256:c38bff51034e16de9e798439b6e5a28ed53cc9670c2be22662be13bf32726a0b",
+    "mappedOn": "2026-10-30",
+    "summary": "Posts purchase accruals at receipt for non-inventory lines and reverses them on invoicing.",
     "shape": "process",
     "primary": [
       {
@@ -33,18 +33,23 @@
     ],
     "secondary": [
       "ng-proj-wip",
-      "ng-subcontracting"
+      "ng-subcontracting",
+      "ng-purchase-orders",
+      "ng-currency"
     ],
     "claims": [
-      "Recognises expenses at receipt for non-inventory purchases",
-      "Accruals for G/L accounts, fixed assets, resources, item charges and service/non-inventory items",
-      "Standard cost variance accruals",
-      "Project purchase accruals creating project ledger entries for WIP",
-      "Manufacturing subcontracting accrual support",
-      "Accruals for purchase return shipments without credit memo",
-      "Automatic reversal on invoice posting or undo receipt",
-      "Option to use interim accounts",
-      "Specify posting dates when undoing receipts"
+      "Accrues G/L account, fixed asset, resource, item charge and non-inventory lines on receipt",
+      "Accrues standard cost variances on receipt",
+      "Posts project ledger entries on receipt for WIP",
+      "Accrues subcontracting receipts on production orders",
+      "Accrues return shipments not yet credited",
+      "Reverses automatically on invoicing or undo receipt",
+      "Optional interim accounts to defer expense until invoicing",
+      "Staff register non-inventory receipts for finance to review and post",
+      "Batch-converts approved quotes into released orders emailed to vendors",
+      "Change prepayment % on released POs without reopening, per vendor",
+      "Budgeted exchange rates with difference realised on payment",
+      "Accrual entries visible via Find entries, a vendor report and a role center tile"
     ],
     "countries": [],
     "languages": [
@@ -67,7 +72,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

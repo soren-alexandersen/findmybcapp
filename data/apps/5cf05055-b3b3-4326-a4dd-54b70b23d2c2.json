@@ -8,32 +8,43 @@
     "publisher": "Clarity Ukraine",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_core_localization_ua%7CPAPPID.5cf05055-b3b3-4326-a4dd-54b70b23d2c2",
-    "lastModified": "2026-07-21T19:47:17.1867476+00:00",
-    "appVersion": "28.1.2.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-14T14:21:30.3615461+00:00",
+    "appVersion": "28.4.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://clarity-team.com/en/contacts/",
-    "sourceHash": "sha256:66e565e94ef1c3ca068f7d26fc7e03e62bac853a1c3facd6e6bf561b4ce69c07",
+    "sourceHash": "sha256:263943e7cd80798acb7270412c6f102dbb787e775996a10415441d2b4cbc232b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:66e565e94ef1c3ca068f7d26fc7e03e62bac853a1c3facd6e6bf561b4ce69c07",
-    "mappedOn": null,
-    "summary": "Ukrainian accounting localization for legal requirements",
+    "sourceHash": "sha256:263943e7cd80798acb7270412c6f102dbb787e775996a10415441d2b4cbc232b",
+    "mappedOn": "2026-10-30",
+    "summary": "Ukrainian accounting and tax localization for BC across finance, inventory and fixed assets.",
     "shape": "localization",
     "primary": [
       {
         "need": "ng-loc-country-pack",
         "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-financial-statements"
+      "ng-financial-statements",
+      "ng-hr-employee-expenses"
     ],
     "claims": [
-      "Ukrainian financial and tax accounting",
-      "Covers receivables, payables, advance holders, inventory, fixed assets",
-      "Operational and statutory reporting"
+      "Keeps financial and tax accounting to Ukrainian legal standards",
+      "Changes to receivables and payables",
+      "Advance holder (employee advance) accounting",
+      "Inventory and fixed asset accounting adjustments",
+      "Operational and statutory reporting",
+      "Essentials and Premium editions",
+      "UI in Ukrainian, English and Russian"
     ],
     "countries": [
       "UA"
@@ -47,7 +58,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

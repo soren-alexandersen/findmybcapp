@@ -8,18 +8,20 @@
     "publisher": "Elbek & Vejrup A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evif%7CPAPPID.9e0f05da-0ba6-4e39-a309-c9a927f227ae",
-    "lastModified": "2026-07-01T10:53:32.1923372+00:00",
-    "appVersion": "10000.2.207116.2700",
-    "pricingTypes": [],
+    "lastModified": "2026-10-09T20:36:17.9841859+00:00",
+    "appVersion": "10000.3.4.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
-    "sourceHash": "sha256:de332ed52d205caababbfa16ca4085618e7fc2350bd9b86fa6e38b1e0478d40a",
+    "sourceHash": "sha256:20878c305710ddc04ec39fa70805a2603d743415e0eba2571ba888c5de9c12da",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:de332ed52d205caababbfa16ca4085618e7fc2350bd9b86fa6e38b1e0478d40a",
-    "mappedOn": null,
-    "summary": "Framework for third-party API integrations",
+    "sourceHash": "sha256:20878c305710ddc04ec39fa70805a2603d743415e0eba2571ba888c5de9c12da",
+    "mappedOn": "2026-10-30",
+    "summary": "General integration framework exchanging JSON, XML or CSV between BC and other systems.",
     "shape": "usability",
     "primary": [
       {
@@ -28,15 +30,14 @@
       }
     ],
     "secondary": [
-      "ng-conn-webshop",
-      "ng-conn-3pl"
+      "ng-ux-import-excel"
     ],
     "claims": [
-      "Integrates BC with other ERP systems, external inventory systems or webshops",
-      "Supports JSON, XML or CSV",
-      "Communication via REST/OData service or BC API",
-      "Import/export initiated from BC or external solution",
-      "Limited need for BC adjustments"
+      "Can link BC to another ERP, an external inventory system or a webshop",
+      "Supports JSON, XML and CSV formats",
+      "Communicates via REST/OData or the BC API",
+      "Import or export can start from BC or from the external system",
+      "Needs little BC customization"
     ],
     "countries": [
       "BE",
@@ -67,7 +68,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

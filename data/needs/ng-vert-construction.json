@@ -221,6 +221,133 @@
       "coverage": {
         "Yes, we need to track change orders": 0.17
       }
+    },
+    {
+      "id": "how-do-you-plan-crews-and-reso",
+      "text": "How do you plan crews and resources across your projects?",
+      "multi": true,
+      "options": [
+        {
+          "label": "On a planning board inside BC",
+          "patterns": [
+            "resource planning",
+            "planning (board|groups?)",
+            "lock planning",
+            "plan(s|ning)? (crews|resources|employees)",
+            "dispatch",
+            "gantt"
+          ]
+        },
+        {
+          "label": "In another planning tool (MS Project, Primavera, Minuba)",
+          "patterns": [
+            "ms project",
+            "primavera",
+            "minuba"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "On a planning board inside BC": 0.14,
+        "In another planning tool (MS Project, Primavera, Minuba)": 0.07
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "publisher product name (EV Tecto)",
+      "terms": [
+        "tecto"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'extends' wording",
+      "terms": [
+        "extend"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "role centers for managers, UI detail",
+      "terms": [
+        "manager"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'task' wording",
+      "terms": [
+        "task"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "publisher product name (365Construction)",
+      "terms": [
+        "365construction"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'case' wording",
+      "terms": [
+        "case"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'control' wording",
+      "terms": [
+        "control"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'creation' wording",
+      "terms": [
+        "creation"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'information' wording",
+      "terms": [
+        "information"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'reference' wording",
+      "terms": [
+        "referenc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "role centers, UI detail",
+      "terms": [
+        "role"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'version' wording (languages, quote versions)",
+      "terms": [
+        "version"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resources' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

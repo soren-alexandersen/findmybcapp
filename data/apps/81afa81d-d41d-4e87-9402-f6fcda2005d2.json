@@ -8,8 +8,8 @@
     "publisher": "SkyBill",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skybill%7CAID.skybill%7CPAPPID.81afa81d-d41d-4e87-9402-f6fcda2005d2",
-    "lastModified": "2026-09-30T13:43:14.1851197+00:00",
-    "appVersion": "2.19.100.1",
+    "lastModified": "2026-10-22T14:26:23.5809369+00:00",
+    "appVersion": "2.20.0.1",
     "pricingTypes": [
       "ContactPublisher"
     ],

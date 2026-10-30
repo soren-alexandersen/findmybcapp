@@ -8,34 +8,40 @@
     "publisher": "NPS d.o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.npsdoo1580466836471%7CAID.npspyd%7CPAPPID.651fe6ae-0220-43ee-a859-814feacbca19",
-    "lastModified": "2026-07-14T18:12:21.176051+00:00",
-    "appVersion": "28.0.39.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T08:47:24.6368478+00:00",
+    "appVersion": "28.0.43.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://github.com/NPSBeograd/NPS-Support/wiki",
-    "sourceHash": "sha256:62868946a2b7bf329a919f588bf822892a9514556d6af1ccaadfccb009a3a2c9",
+    "sourceHash": "sha256:f7e702698fe84b4c6a14dd89d3d0de305eb4b8656d0b863ee6a10977361fc9a9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:62868946a2b7bf329a919f588bf822892a9514556d6af1ccaadfccb009a3a2c9",
-    "mappedOn": null,
-    "summary": "Early payment discounts for customers",
+    "sourceHash": "sha256:f7e702698fe84b4c6a14dd89d3d0de305eb4b8656d0b863ee6a10977361fc9a9",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages early-payment discounts for customers, issued as credit memos",
     "shape": "process",
     "primary": [
       {
         "need": "ng-customer-payments",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-pricing"
+      "ng-customer-rebates"
     ],
     "claims": [
-      "Import and export payment discounts and define them by period",
-      "Apply Discount on posted sales invoice excludes it from automatic approval",
-      "Creates payment discount credit memos for customers",
-      "Payment Discount Summary report of planned vs realized discounts by customer",
-      "Supports Essentials and Premium"
+      "Payment discounts defined per period, with import and export",
+      "Mark a posted sales invoice as already granted so it skips automatic processing",
+      "Generates credit memos for earned discounts, listing the invoices they relate to",
+      "Report of planned versus realized discounts per customer, at invoice or total level",
+      "Available in English and Serbian"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

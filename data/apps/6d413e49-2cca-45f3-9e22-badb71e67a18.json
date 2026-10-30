@@ -8,86 +8,57 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_license_plating%7CPAPPID.6d413e49-2cca-45f3-9e22-badb71e67a18",
-    "lastModified": "2026-08-26T05:37:53.2138502+00:00",
-    "appVersion": "2602.4.339450.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T09:51:32.1668055+00:00",
+    "appVersion": "2603.0.351070.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/LPL/",
-    "sourceHash": "sha256:d309557ff1a4976664c05df65f51f3235b3d422c41f81fcc1ffcaec1175b1812",
+    "sourceHash": "sha256:510650a60c2ee604a8b48b3c324fb3df765c69ae6a50ced2c0deb73901b0cb73",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d309557ff1a4976664c05df65f51f3235b3d422c41f81fcc1ffcaec1175b1812",
-    "mappedOn": null,
-    "summary": "Tracks inventory via license plate numbers",
+    "sourceHash": "sha256:510650a60c2ee604a8b48b3c324fb3df765c69ae6a50ced2c0deb73901b0cb73",
+    "mappedOn": "2026-10-30",
+    "summary": "Groups items, lots and pallets under license plate numbers for faster warehouse handling.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-lot-serial-traceability",
+        "need": "ng-stock-movements",
         "confidence": "high"
       },
       {
-        "need": "ng-stock-movements",
+        "need": "ng-lot-serial-traceability",
         "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-receiving-putaway",
-      "ng-vert-food-beverage",
-      "ng-barcode-labels"
+      "ng-allocation-picking",
+      "ng-barcode-labels",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Gives license plate numbers to lots, pallets, item groups or lot groups",
-      "Reduces number of scans needed per transaction",
-      "Create license plates in all inbound inventory transactions, set up per item and location",
-      "Mixed items and mixed lots on one license plate",
-      "Ship full license plates or build mixed plates during picking",
-      "Move whole license plate or individual items between plates",
-      "Print license plate labels",
-      "Works together with Aptean Process Manufacturing, Packaging, Labeling, Shop Floor Production and Mobile Warehouse"
+      "Assigns license plates to item groups, pallets, lots or lot groups",
+      "Creates license plates on all inbound inventory transactions, set up per item and location",
+      "License plates can hold mixed items and mixed lots",
+      "Ships full plates or builds new mixed plates during picking",
+      "Moves whole plates or individual items between locations and bins",
+      "Prints license plate labels",
+      "Works with Aptean Mobile Warehouse, Shop Floor Production, Labeling, Packaging and Process Manufacturing",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

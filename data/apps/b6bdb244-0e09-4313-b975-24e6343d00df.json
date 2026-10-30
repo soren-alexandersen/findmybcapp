@@ -8,18 +8,20 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1020%7CPAPPID.b6bdb244-0e09-4313-b975-24e6343d00df",
-    "lastModified": "2026-10-06T06:20:01.8156665+00:00",
-    "appVersion": "2026.9.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T10:33:17.8392816+00:00",
+    "appVersion": "2026.10.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/fssb",
-    "sourceHash": "sha256:c2cc96c3874304a204ca4a6a76f4abe224d0f322f583c9adb678e08cc1b56e1f",
+    "sourceHash": "sha256:4f4ffc145e64a7de0eac66db67f427d7c85c0e7cff7ad60c9336550b8f21b8e1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c2cc96c3874304a204ca4a6a76f4abe224d0f322f583c9adb678e08cc1b56e1f",
-    "mappedOn": "2026-10-07",
-    "summary": "Bundle extending Microsoft Subscription Billing with tiered prices, price list import and document tools",
+    "sourceHash": "sha256:4f4ffc145e64a7de0eac66db67f427d7c85c0e7cff7ad60c9336550b8f21b8e1",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle extending Microsoft Subscription Billing with tiered prices and convenience tools.",
     "shape": "process",
     "primary": [
       {
@@ -28,18 +30,21 @@
       }
     ],
     "secondary": [
+      "ng-sales-pricing",
       "ng-supplier-pricing",
-      "ng-ux-rolecenters",
-      "ng-ux-document-layouts"
+      "ng-ux-document-layouts",
+      "ng-ux-rolecenters"
     ],
     "claims": [
       "Flat-tier and true-tier pricing for subscriptions",
-      "Optional automatic price change when quantities change",
-      "Assign subscriptions to contracts already at quote and order",
-      "Supplier price list import with history and filters",
-      "Product bundles with control of customer-facing details",
-      "Formatted long texts and images in documents",
-      "Position numbers and print preview of unposted sales documents",
+      "Prices can adjust automatically when quantities change",
+      "Subscriptions can be assigned to contracts already at quote and order stage",
+      "Imports supplier price lists with history and filters",
+      "Configurable role center cues",
+      "Sells several products as one bundle",
+      "Formatted long texts and images on documents",
+      "Quick access to recent and favourite records",
+      "Position numbers and print preview for unposted sales documents",
       "Sold only as a bundle"
     ],
     "countries": [],
@@ -49,9 +54,11 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "requires": [
+      "Microsoft Subscription Billing"
+    ],
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

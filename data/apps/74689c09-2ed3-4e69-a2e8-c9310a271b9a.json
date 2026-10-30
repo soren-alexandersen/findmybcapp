@@ -8,40 +8,41 @@
     "publisher": "Softera Baltic",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softeradokubank%7CPAPPID.74689c09-2ed3-4e69-a2e8-c9310a271b9a",
-    "lastModified": "2026-10-06T11:23:01.7475817+00:00",
+    "lastModified": "2026-10-14T07:35:12.6706707+00:00",
     "appVersion": "231.0.26.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/manual-en",
-    "sourceHash": "sha256:32f44be574f2366cbecb5e26d0912c185d48afa15b5403dd6594f29b0bcd7d40",
+    "sourceHash": "sha256:be73693e8e1ba96d13f64f11ef2bdba766c302878c737d9615b0d7901943781f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:32f44be574f2366cbecb5e26d0912c185d48afa15b5403dd6594f29b0bcd7d40",
-    "mappedOn": "2026-10-07",
-    "summary": "Direct bank feeds into BC with automatic payment matching and payment initiation",
-    "shape": "process",
+    "sourceHash": "sha256:be73693e8e1ba96d13f64f11ef2bdba766c302878c737d9615b0d7901943781f",
+    "mappedOn": "2026-10-30",
+    "summary": "Direct bank feeds into BC with automatic statement import, matching and payment sending.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-bank-reconciliation",
         "confidence": "high"
       },
       {
-        "need": "ng-ap-payments",
+        "need": "ng-customer-payments",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-customer-payments"
+      "ng-ap-payments"
     ],
     "claims": [
-      "Automatic import of bank statements and transactions",
+      "Imports bank statements and transactions automatically",
       "Matches transactions to customers, vendors, invoices and G/L accounts",
-      "Single and bulk payment initiation from BC",
-      "Connects to more than 15,600 banks and payment platforms",
-      "Multiple bank and payment platform accounts",
-      "AI-powered payment reconciliation",
-      "Open banking connectivity",
+      "Sends single or bulk payments to the bank",
+      "Connects to over 15,600 banks and payment platforms",
+      "Supports multiple banks and accounts",
+      "Uses open banking connectivity",
+      "AI-assisted payment reconciliation",
+      "Separates bank charges during reconciliation",
       "30-day free trial"
     ],
     "countries": [
@@ -89,6 +90,8 @@
       "es",
       "et",
       "fi",
+      "fr",
+      "hr",
       "hu",
       "lt",
       "lv",
@@ -97,7 +100,9 @@
       "sv"
     ],
     "industries": [],
-    "connectsTo": [],
+    "connectsTo": [
+      "Banks via open banking"
+    ],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "free_trial",

@@ -46,7 +46,8 @@
     "Who should be allowed to change bank account details in BC?",
     "Need a policy for which bank accounts each company uses for what",
     "bank matching rules tolerance",
-    "We want to set an overdraft limit per bank account and get warned before we hit it"
+    "We want to set an overdraft limit per bank account and get warned before we hit it",
+    "Payments must be approved before they go to the bank"
   ],
   "questions": [
     {
@@ -75,7 +76,11 @@
             "downloaded bank statement",
             "manual import",
             "imports? bank statements in (many|any) formats?|in any format",
-            "ocr import of bank statements"
+            "ocr import of bank statements",
+            "file formats? (for|and mapping)",
+            "per-bank file format",
+            "format from a sample file",
+            "bank file formats"
           ]
         },
         {
@@ -84,8 +89,8 @@
         }
       ],
       "coverage": {
-        "Automatically, straight from the bank": 0.44,
-        "We download a statement file and import it": 0.31
+        "Automatically, straight from the bank": 0.45,
+        "We download a statement file and import it": 0.36
       }
     },
     {
@@ -139,7 +144,7 @@
         }
       ],
       "coverage": {
-        "Match them to open invoices and payments automatically": 0.41,
+        "Match them to open invoices and payments automatically": 0.36,
         "Post bank fees, interest and recurring items automatically": 0.15,
         "Help me reconcile by hand, with checks against mistakes": 0.12
       }
@@ -169,8 +174,8 @@
         }
       ],
       "coverage": {
-        "Payment providers (PayPal, Stripe, Adyen, Klarna...)": 0.1,
-        "Credit card statements": 0.12
+        "Payment providers (PayPal, Stripe, Adyen, Klarna...)": 0.11,
+        "Credit card statements": 0.09
       }
     },
     {
@@ -194,13 +199,20 @@
           ]
         },
         {
+          "label": "Several currencies",
+          "patterns": [
+            "currenc"
+          ]
+        },
+        {
           "label": "One bank, one company / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Several banks": 0.26,
-        "Several companies in BC": 0.07
+        "Several banks": 0.24,
+        "Several companies in BC": 0.05,
+        "Several currencies": 0.12
       }
     },
     {
@@ -211,7 +223,9 @@
         {
           "label": "Send payments to the bank",
           "patterns": [
-            "(send|sends|push|pushes|transmits|initiat\\w*)[^.]*payments?|payment (file )?export|exports? [^.]*payment|payments? (from|to) (the )?bank"
+            "(send|sends|push|pushes|transmits|initiat\\w*)[^.]*payments?|payment (file )?export|exports? [^.]*payment|payments? (from|to) (the )?bank",
+            "\\bsepa\\b",
+            "pain\\.001"
           ]
         },
         {
@@ -224,14 +238,37 @@
           ]
         },
         {
+          "label": "Approval of payments and bank detail changes",
+          "patterns": [
+            "approval"
+          ]
+        },
+        {
           "label": "Just reconciliation / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Send payments to the bank": 0.32,
-        "Cash position and forecasting": 0.24
+        "Send payments to the bank": 0.45,
+        "Cash position and forecasting": 0.23,
+        "Approval of payments and bank detail changes": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "dimension posting detail",
+      "terms": [
+        "dimension"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'send' wording",
+      "terms": [
+        "send"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

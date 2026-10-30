@@ -102,8 +102,8 @@
         }
       ],
       "coverage": {
-        "Yes, a deposit or prepayment up front": 0.24,
-        "Yes, in milestone or progress payments": 0.18,
+        "Yes, a deposit or prepayment up front": 0.23,
+        "Yes, in milestone or progress payments": 0.16,
         "They pay in instalments after the invoice": 0.11
       }
     },
@@ -145,8 +145,8 @@
         }
       ],
       "coverage": {
-        "Email (PDF)": 0.11,
-        "E-invoice (PEPPOL, OIOUBL, EAN, EDI, Finvoice)": 0.09
+        "Email (PDF)": 0.1,
+        "E-invoice (PEPPOL, OIOUBL, EAN, EDI, Finvoice)": 0.13
       }
     },
     {
@@ -190,8 +190,8 @@
         }
       ],
       "coverage": {
-        "Collect many shipments or orders on one invoice": 0.16,
-        "On a fixed rhythm (weekly, monthly, recurring)": 0.09
+        "Collect many shipments or orders on one invoice": 0.15,
+        "On a fixed rhythm (weekly, monthly, recurring)": 0.08
       }
     },
     {
@@ -229,8 +229,8 @@
         }
       ],
       "coverage": {
-        "Yes, from an Excel file or spreadsheet": 0.04,
-        "Yes, automatically in batch or on a schedule": 0.27
+        "Yes, from an Excel file or spreadsheet": 0.03,
+        "Yes, automatically in batch or on a schedule": 0.23
       }
     }
   ]

@@ -8,7 +8,7 @@
     "publisher": "SBC Dynamics ERP",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensvendordepositsprepaymentsmanagementww%7CPAPPID.d237f767-081f-459e-921d-82e7879ec986",
-    "lastModified": "2026-08-28T12:47:59.5736269+00:00",
+    "lastModified": "2026-10-15T16:02:14.4945842+00:00",
     "appVersion": "25.1023.1.1",
     "pricingTypes": [
       "FreeTrial",
@@ -16,13 +16,13 @@
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-vendor-deposits-prepayments-management",
-    "sourceHash": "sha256:6e04c314be0ec1b29248bf9ed78c5ae0a9ba505252a926cbc1074a215bf0df94",
+    "sourceHash": "sha256:3cc5bb9c3e1de7a0fb90895f8b9f97e064bd24408973fe606bc30bf854b24b1f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6e04c314be0ec1b29248bf9ed78c5ae0a9ba505252a926cbc1074a215bf0df94",
-    "mappedOn": null,
-    "summary": "Vendor deposits and prepayments management",
+    "sourceHash": "sha256:3cc5bb9c3e1de7a0fb90895f8b9f97e064bd24408973fe606bc30bf854b24b1f",
+    "mappedOn": "2026-10-30",
+    "summary": "Vendor deposits and prepayments on purchase orders with drawdown across receipts and invoices.",
     "shape": "process",
     "primary": [
       {
@@ -31,15 +31,17 @@
       }
     ],
     "secondary": [
-      "ng-purchase-orders"
+      "ng-purchase-orders",
+      "ng-gl-reconciliation"
     ],
     "claims": [
-      "Deposits at purchase order header level by percentage or fixed amount",
-      "Consolidate multiple POs for one vendor into a deposit request",
-      "Credit a specific historical deposit invoice",
-      "Links posted deposit invoices to payment journal for ACH, check or EFT",
-      "Applies deposit balances across multiple PO receipts and invoices",
-      "Includes the Vendor Deposit Summary report and the Aged Accounts Payable (Deposits) report"
+      "Deposit set on the purchase order header as a percentage or fixed amount",
+      "Consolidates several POs for one vendor into one deposit request",
+      "Credits one specific deposit invoice without reversing all prepayments",
+      "Posted deposit invoices go to the payment journal for ACH, check or EFT",
+      "Draws down unapplied deposits across multiple PO receipts and invoices",
+      "Aged payables and vendor deposit summary reports",
+      "Sold as yearly user packs from 1,500 USD for 10 users"
     ],
     "countries": [],
     "languages": [

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.aptean-equipment-core-docusign|PAPPID.516462c6-7b22-4953-96ff-b8ca51a5b15e",
+  "guid": "516462c6-7b22-4953-96ff-b8ca51a5b15e",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "aptean-equipment-core-docusign",
+  "source": {
+    "name": "Aptean Equipment Core x DocuSign",
+    "publisher": "TRASER Software GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.aptean-equipment-core-docusign%7CPAPPID.516462c6-7b22-4953-96ff-b8ca51a5b15e",
+    "lastModified": "2026-10-14T11:03:11.6488107+00:00",
+    "appVersion": "2603.260600.20261001.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:71ea5171d939350c660413d1a9b8b9923d4ce4e1c84ffac518b21193705b4ee8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:71ea5171d939350c660413d1a9b8b9923d4ce4e1c84ffac518b21193705b4ee8",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends Aptean Equipment Core documents for DocuSign signature and attaches signed files back.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Signature envelopes are sent from Equipment Core quotes, contracts, rental agreements and service documents",
+      "Signed PDFs are returned and attached to the source record automatically",
+      "Shows whether a document was sent, delivered, viewed, signed or completed",
+      "Signatures meet ESIGN, UETA and eIDAS with a tamper-evident audit trail",
+      "Recipient and document data come from BC, so no re-keying",
+      "Needs a DocuSign eSignature account and Aptean Equipment Core"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "DocuSign"
+    ],
+    "requires": [
+      "Aptean Equipment Core",
+      "DocuSign eSignature account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

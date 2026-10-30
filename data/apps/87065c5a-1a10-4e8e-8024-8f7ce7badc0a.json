@@ -8,18 +8,20 @@
     "publisher": "Creditsafe Services Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.creditsafeserviceslimited1613402303405%7CAID.creditsafe_connect%7CPAPPID.87065c5a-1a10-4e8e-8024-8f7ce7badc0a",
-    "lastModified": "2026-09-18T12:18:10.8664054+00:00",
-    "appVersion": "27.6.125.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T07:45:24.4550169+00:00",
+    "appVersion": "27.9.130.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.creditsafe.com/se/sv/kontakt/kundservice/kontakta-oss.html",
-    "sourceHash": "sha256:3e611958067e963dcabc6d882d3e16f1b313053513ad3ce58663f600a52a7317",
+    "sourceHash": "sha256:7d3c484a78cd50c9736a8731a89a3002b7d5a01773c4b5db28cb34c0bdbc1f1c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3e611958067e963dcabc6d882d3e16f1b313053513ad3ce58663f600a52a7317",
-    "mappedOn": null,
-    "summary": "Credit reports and company data for customers and suppliers",
+    "sourceHash": "sha256:7d3c484a78cd50c9736a8731a89a3002b7d5a01773c4b5db28cb34c0bdbc1f1c",
+    "mappedOn": "2026-10-30",
+    "summary": "Creditsafe company data and credit checks for customers and vendors in BC",
     "shape": "connector",
     "primary": [
       {
@@ -32,17 +34,22 @@
       }
     ],
     "secondary": [
+      "ng-ux-data-quality",
       "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Credit reports from over 200 countries",
-      "Appends company address and credit details to customer and vendor records",
-      "Refresh data on existing accounts",
-      "Credit policy implemented as rules in BC",
-      "Checks new customers on entry and existing ones on schedule or at order entry",
-      "Approval workflow for orders failing credit check",
-      "Demo mode in sandbox with limited requests",
-      "Requires agreement with Creditsafe"
+      "Credit reports covering more than 200 countries",
+      "Database of over 430 million business reports",
+      "Fills customer and vendor records with company address and credit data",
+      "Existing records can be refreshed on demand",
+      "Credit policy is set up as rules in BC",
+      "New customers are credit checked when created",
+      "Existing customers are rechecked on a schedule or at order entry",
+      "Orders for customers failing the credit check can go through approval workflows",
+      "Requires a separate agreement with Creditsafe",
+      "Demo mode in a sandbox with a limited number of lookups",
+      "Assisted setup guides the configuration",
+      "Works on Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -51,6 +58,8 @@
       "DK",
       "ES",
       "FR",
+      "GB",
+      "IE",
       "NL",
       "NO",
       "SE",
@@ -60,7 +69,7 @@
       "da",
       "de",
       "en",
-      "nb",
+      "no",
       "sv"
     ],
     "industries": [],

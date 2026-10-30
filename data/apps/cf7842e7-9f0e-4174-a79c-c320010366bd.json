@@ -8,18 +8,20 @@
     "publisher": "DMS-Systemhaus GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dms%7CAID.dsh_webshop_shopware6%7CPAPPID.cf7842e7-9f0e-4174-a79c-c320010366bd",
-    "lastModified": "2026-10-06T12:45:06.9608747+00:00",
-    "appVersion": "28.0.0.5",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T21:15:21.8448092+00:00",
+    "appVersion": "28.0.0.6",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/shopware-webshop-anbindung/",
-    "sourceHash": "sha256:b70dd077da0561dd9afa5925bee1cc6ef2d70bf72a7b073515a14d1374b0c36f",
+    "sourceHash": "sha256:b1ead70414133fb1bfc3710558ff927e719bb703f390bf4ab1550d14d94f9648",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b70dd077da0561dd9afa5925bee1cc6ef2d70bf72a7b073515a14d1374b0c36f",
-    "mappedOn": null,
-    "summary": "Syncs Shopware 6 orders, customers, items and stock",
+    "sourceHash": "sha256:b1ead70414133fb1bfc3710558ff927e719bb703f390bf4ab1550d14d94f9648",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs orders, customers, items, stock and prices between Shopware 6 and BC",
     "shape": "connector",
     "primary": [
       {
@@ -27,19 +29,26 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-sales-pricing"
+    ],
     "claims": [
       "Supports B2B and B2C Shopware shops",
-      "No middleware",
-      "Imports orders incl. payment method, shipping provider, discount codes and vouchers",
-      "Creates or assigns customers automatically or manually",
-      "Customer-specific pricing via customer price groups",
-      "Exports items including variants",
-      "Exports category trees and attributes",
-      "Synchronizes inventory levels",
-      "Block/unblock webshop items from BC",
-      "Sends tracking ID back to shop (separate module)",
-      "Integrates with DMS or third-party shipping modules"
+      "Runs inside BC without middleware",
+      "Imports Shopware orders with addresses, payment method, carrier, discount codes, vouchers and notes",
+      "Creates or links the BC customer automatically or manually",
+      "Customer-specific prices via BC customer price groups",
+      "Exports new and changed items including variants",
+      "Webshop Cockpit PIM tool for item data inside BC",
+      "Maintains category trees and attributes in BC",
+      "Syncs inventory levels",
+      "Blocks or hides shop items from BC",
+      "Optional module: HTML editor for shop item descriptions",
+      "Optional module: syncs shipping and payment status and sends tracking IDs back",
+      "Optional module: provides shipping and invoice documents to buyers",
+      "Works with DMS or third-party shipping modules",
+      "Runs on BC online and on-premises"
     ],
     "countries": [],
     "languages": [],

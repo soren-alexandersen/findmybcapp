@@ -8,18 +8,20 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0035%7CPAPPID.5b4f8c0e-2dcd-4a8e-9a3b-3f7d5a1b6c84",
-    "lastModified": "2026-10-02T19:14:38.935558+00:00",
-    "appVersion": "26.2.0.30610",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:37:20.4861228+00:00",
+    "appVersion": "26.2.0.33320",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://duveka.de/de",
-    "sourceHash": "sha256:3a636ba452bb9ff1b6a3d369f204625b27c4d6da64be89ec2d35a2a9ce03190c",
+    "sourceHash": "sha256:e2470e7e8ac23ec5df4a8113e7e81a21f03d804dded283738570235316a13042",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3a636ba452bb9ff1b6a3d369f204625b27c4d6da64be89ec2d35a2a9ce03190c",
-    "mappedOn": null,
-    "summary": "Voice and chat assistant to find and create documents",
+    "sourceHash": "sha256:e2470e7e8ac23ec5df4a8113e7e81a21f03d804dded283738570235316a13042",
+    "mappedOn": "2026-10-30",
+    "summary": "German voice and chat assistant to query BC data and create documents by conversation.",
     "shape": "usability",
     "primary": [
       {
@@ -27,14 +29,20 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-search-navigation",
+      "ng-sales-order-entry"
+    ],
     "claims": [
-      "Voice or typed questions with text or spoken answers",
-      "Answers about open orders, stock, prices, recent documents and top customers",
-      "Mentioned numbers are clickable and open the card or document",
-      "Creates sales and purchase documents in conversation with confirmation",
+      "Questions can be spoken or typed, with answers returned as text and optionally speech",
+      "Answers questions like open orders per customer, item stock and price, and top customers",
+      "Every number in an answer links to the card or document",
+      "Can ask follow-ups from a document with that document as context",
+      "Creates sales and purchase documents in conversation after a confirmation summary",
       "Optional wake word and stop word for hands-free use",
-      "Each capability configurable to read, write or off",
+      "Other duveka modules can expose packaging orders, tours, timber drying, EUDR and incoming documents",
+      "Each capability can be set to read, write or off",
+      "Uses an OpenAI-compatible endpoint configured in the duveka AI Service",
       "Available only in German"
     ],
     "countries": [],
@@ -45,9 +53,11 @@
     "connectsTo": [
       "OpenAI-compatible endpoint"
     ],
-    "requires": [],
+    "requires": [
+      "duveka AI Service"
+    ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

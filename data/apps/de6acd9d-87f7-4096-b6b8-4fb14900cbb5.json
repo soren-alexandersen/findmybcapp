@@ -8,38 +8,41 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_advanced_attributes%7CPAPPID.de6acd9d-87f7-4096-b6b8-4fb14900cbb5",
-    "lastModified": "2026-09-02T13:17:48.3149798+00:00",
-    "appVersion": "2603.1.340950.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:54:48.2497755+00:00",
+    "appVersion": "2604.0.351172.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/AAT/",
-    "sourceHash": "sha256:6486b73d67779c6c3e31708bb41fe1d961e42ffc076719199190e0361206b9f8",
+    "sourceHash": "sha256:74682ff37fb08fc178c77c199022b09566ab9a21d989e2d1c81a177e45a718b9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6486b73d67779c6c3e31708bb41fe1d961e42ffc076719199190e0361206b9f8",
-    "mappedOn": null,
-    "summary": "Unlimited attributes for customers, vendors and lots",
-    "shape": "addon",
+    "sourceHash": "sha256:74682ff37fb08fc178c77c199022b09566ab9a21d989e2d1c81a177e45a718b9",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds configurable attributes to customers, vendors and lots for filtering and reporting.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-custom-fields",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-lot-serial-traceability",
       "ng-ux-search-navigation",
-      "ng-bi-dashboards"
+      "ng-bi-dashboards",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Configurable attributes for customers, vendors and lots",
-      "Attributes in list views and FactBoxes, searchable and filterable",
-      "Attributes usable in Power BI",
-      "Group attributes and differentiate lots"
+      "Unlimited user-defined attributes on customers, vendors and lots",
+      "Attributes appear in list views and FactBoxes",
+      "Attributes can be searched and filtered on list pages",
+      "Attributes are usable in Power BI",
+      "Attributes can be grouped and used to tell lots apart",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -71,15 +74,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [
       "Power BI"
     ],

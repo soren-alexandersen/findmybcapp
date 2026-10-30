@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-production-maintenance|PAPPID.ee4bf6a9-5129-4490-92df-32af84e215f7",
+  "guid": "ee4bf6a9-5129-4490-92df-32af84e215f7",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-production-maintenance",
+  "source": {
+    "name": "Production Maintenance Management",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-production-maintenance%7CPAPPID.ee4bf6a9-5129-4490-92df-32af84e215f7",
+    "lastModified": "2026-10-28T04:12:16.7531967+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/production-maintenance-management/docs/",
+    "sourceHash": "sha256:47ee467470167c56b113b2d3eb0e2345392ca5affbf061a2aa34153a2d897df1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:47ee467470167c56b113b2d3eb0e2345392ca5affbf061a2aa34153a2d897df1",
+    "mappedOn": "2026-10-30",
+    "summary": "Preventive and corrective maintenance, statutory inspections and certificates for production equipment.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-health-safety",
+      "ng-routings-workcenters",
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Preventive plans by time, counter, first-due or condition",
+      "Job queue creates work orders ahead with task checklists and a 12-month forecast",
+      "Drag-and-drop planning board per technician",
+      "Failure codes based on ISO 14224 and downtime recording",
+      "Hours come from standard time sheets",
+      "Spare parts reserved from stock with lot and serial numbers; shortages to requisition worksheet",
+      "Contractor work goes to a purchase order",
+      "Permit to work with lockout-tagout gates",
+      "Parts, labor and contractor cost posted per equipment, optionally to the fixed asset",
+      "Statutory inspection rule sets for UK, EU, Greece, Cyprus, Italy, Germany and France",
+      "Calibration records as-found and as-left readings per test point",
+      "Finalised certificates are locked; changes need an amendment with reason",
+      "Premium: maintenance windows cut work center capacity",
+      "Production output posting updates equipment hours, cycles and tool wear",
+      "Warns on overdue certificates and worn tools when releasing production orders",
+      "KPIs for availability, MTBF, MTTR and downtime cost, with Power BI API pages",
+      "Comes with guided setup, demo data and Excel templates for import"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

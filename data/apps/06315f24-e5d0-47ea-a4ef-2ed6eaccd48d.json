@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-vendor-claims|PAPPID.06315f24-e5d0-47ea-a4ef-2ed6eaccd48d",
+  "guid": "06315f24-e5d0-47ea-a4ef-2ed6eaccd48d",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-vendor-claims",
+  "source": {
+    "name": "Vendor Claims",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-vendor-claims%7CPAPPID.06315f24-e5d0-47ea-a4ef-2ed6eaccd48d",
+    "lastModified": "2026-10-19T14:04:14.3399982+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/supply-chain-suite/vendor-dispute/",
+    "sourceHash": "sha256:e5630500946909126699926cc5f2713f55b46d10082b95614d0d590f6de343ff",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e5630500946909126699926cc5f2713f55b46d10082b95614d0d590f6de343ff",
+    "mappedOn": "2026-10-30",
+    "summary": "Turns receipt shortages, damage and failed inspections into vendor claims, credits and scorecards.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-returns-credits",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-quality-inspection"
+    ],
+    "claims": [
+      "Raise claims from posted purchase receipt or warehouse receipt lines with data prefilled",
+      "Claim types for shortage, damage, wrong item and quality defect with photos",
+      "Failed Microsoft Quality Management inspections create claims automatically",
+      "Prevents claiming the same line twice",
+      "Standard approval workflow with auto-approval limit and no self-approval",
+      "Priority-based service levels with escalation of overdue claims",
+      "Claims are settled through a purchase return order or an allowance credit memo",
+      "Posted credits are reconciled against the claim",
+      "Tracks vendor responses with email notifications",
+      "Weighted vendor scorecard for quality, delivery, cost, responsiveness and compliance",
+      "Vendor certifications with expiry tracking and cost of quality by vendor",
+      "Read-only APIs for Power BI",
+      "Needs BC online 28.0 or later",
+      "Per-seat plans with one-month trial; viewers free"
+    ],
+    "countries": [],
+    "languages": [
+      "el",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

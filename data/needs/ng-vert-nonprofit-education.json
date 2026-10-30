@@ -128,6 +128,12 @@
           ]
         },
         {
+          "label": "Projects and programmes funded by grants",
+          "patterns": [
+            "\\bprojects?\\b"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
@@ -136,8 +142,9 @@
         "Fund and grant accounting": 0.33,
         "Donors and fundraising": 0.2,
         "Members, events and bookings": 0.33,
-        "Enrolment, attendance and fee billing": 0.33,
-        "Courses, exams and online learning": 0.4
+        "Enrolment, attendance and fee billing": 0.27,
+        "Courses, exams and online learning": 0.4,
+        "Projects and programmes funded by grants": 0.27
       }
     },
     {
@@ -185,6 +192,15 @@
       "coverage": {
         "Yes, approval workflows": 0.2
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "Power BI reporting is generic, not a deciding factor here",
+      "terms": [
+        "power"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

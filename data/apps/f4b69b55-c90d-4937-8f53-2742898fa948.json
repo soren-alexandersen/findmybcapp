@@ -8,40 +8,50 @@
     "publisher": "Continia Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-document-output%7CPAPPID.f4b69b55-c90d-4937-8f53-2742898fa948",
-    "lastModified": "2026-09-30T20:52:04.8473453+00:00",
+    "lastModified": "2026-10-21T15:32:47.6935655+00:00",
     "appVersion": "29.0.0.213763",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-document-output",
-    "sourceHash": "sha256:566815dc86cfc6b43bf117a7b15a5be8a4eaff42e230368bd1b9a787a9f0ee63",
+    "sourceHash": "sha256:8bad911c8dc28d3b43c97c9febf34976890014d41f5e176de52bc7e22eaec143",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:566815dc86cfc6b43bf117a7b15a5be8a4eaff42e230368bd1b9a787a9f0ee63",
-    "mappedOn": null,
-    "summary": "Automated distribution of outgoing documents",
-    "shape": "process",
+    "sourceHash": "sha256:8bad911c8dc28d3b43c97c9febf34976890014d41f5e176de52bc7e22eaec143",
+    "mappedOn": "2026-10-30",
+    "summary": "Automates emailing, securing and tracking of outgoing BC documents with templates",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-email-sending",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-document-layouts",
-      "ng-sales-invoicing"
+      "ng-ux-developer-tools",
+      "ng-ux-data-translation"
     ],
     "claims": [
-      "Time-limited email signatures",
-      "Extracts data from posted documents into emails",
-      "Emails sent in the background",
-      "Password protection and signing of PDFs",
-      "eIDAS-compliant eSeal",
-      "AL Extension Builder adds email features to any page",
-      "Email jobs auto-detect and queue new documents",
-      "Template variations by customer type or language",
-      "AI-powered template translations",
-      "Overview of all sent documents and those in draft"
+      "Email signatures can be set to apply only for a limited period, e.g. seasonal greetings",
+      "Fields from posted documents can be inserted into the email body",
+      "Emails are sent by a background process so users are not blocked",
+      "PDF attachments can be digitally signed or password protected",
+      "Supports eIDAS-compliant eSeal certificates on PDFs",
+      "PDFs can carry watermarks",
+      "Email jobs pick up new documents automatically and queue them for sending",
+      "Works with standard Report Selection and preconfigured email templates",
+      "Picks the email template variant automatically from attributes like customer type or language",
+      "AI translation helps create email templates in several languages",
+      "Gives an overview of sent and draft documents",
+      "AL Extension Builder adds the email and distribution features to custom or standard pages",
+      "Activation goes through the customer's Dynamics partner",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [

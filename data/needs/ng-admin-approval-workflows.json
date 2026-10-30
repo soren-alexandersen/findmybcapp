@@ -40,7 +40,9 @@
     "Scanned signatures on invoices and order confirmations",
     "Keep a record of who signed off each payment batch",
     "Update approval limits when someone gets promoted",
-    "Bank wants proof of our signing rules for payments"
+    "Bank wants proof of our signing rules for payments",
+    "New customers and vendors should stay blocked until someone approves them",
+    "Our auditors want to see who approved each change"
   ],
   "questions": [
     {
@@ -113,10 +115,10 @@
         }
       ],
       "coverage": {
-        "Purchase invoices, orders or payments": 0.26,
-        "Sales quotes and orders": 0.12,
-        "Journals before posting": 0.26,
-        "New or changed vendors, customers, items or bank details": 0.35,
+        "Purchase invoices, orders or payments": 0.27,
+        "Sales quotes and orders": 0.13,
+        "Journals before posting": 0.27,
+        "New or changed vendors, customers, items or bank details": 0.34,
         "Stock movements, transfers or production orders": 0.16
       }
     },
@@ -197,7 +199,7 @@
         }
       ],
       "coverage": {
-        "Yes, outside BC": 0.13
+        "Yes, outside BC": 0.14
       }
     },
     {
@@ -226,6 +228,91 @@
       "coverage": {
         "Yes, a no-code workflow builder": 0.17
       }
+    },
+    {
+      "id": "do-auditors-need-a-record-of-w",
+      "text": "Do auditors need a record of who approved what and when?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a full approval audit trail",
+          "patterns": [
+            "audit",
+            "approval history",
+            "approval trail"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a full approval audit trail": 0.2
+      }
+    },
+    {
+      "id": "how-strictly-should-records-be",
+      "text": "How strictly should records be controlled around approval?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Block new or changed records until approved",
+          "patterns": [
+            "blocked until approved",
+            "automatically block",
+            "block\\w* (a |the )?(customer|vendor|item|record|change)",
+            "new records .{0,30}blocked",
+            "until (approved|a supervisor approves)"
+          ]
+        },
+        {
+          "label": "Check required fields are filled first",
+          "patterns": [
+            "required (\\w+ )?fields",
+            "mandatory",
+            "incomplete"
+          ]
+        },
+        {
+          "label": "Lock approved records against changes or deletion",
+          "patterns": [
+            "restricts (changes|deletion)",
+            "changes after approval"
+          ]
+        },
+        {
+          "label": "Move records through our own status steps",
+          "patterns": [
+            "record statuses",
+            "custom (approval )?statuses",
+            "state transitions",
+            "transition rules",
+            "status (lifecycle|management|stages)",
+            "any number of statuses",
+            "certified status"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block new or changed records until approved": 0.09,
+        "Check required fields are filled first": 0.17,
+        "Lock approved records against changes or deletion": 0.07,
+        "Move records through our own status steps": 0.1
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "email notifications, standard in BC workflows",
+      "terms": [
+        "notification"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

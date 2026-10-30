@@ -18,46 +18,44 @@
   },
   "mapping": {
     "sourceHash": "sha256:c634a765a747fd16c71d6ae36f4e3a38dddd82dc5bc91cbaa9f0225781762af9",
-    "mappedOn": null,
-    "summary": "Tracks bank guarantees and letters of credit",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages bank guarantees and letters of credit with limits, approvals and expiry alerts.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-customer-credit-holds",
-        "confidence": "low"
-      },
-      {
-        "need": "ng-ap-payments",
-        "confidence": "low"
+        "need": "ng-treasury-investments-guarantees",
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-admin-approval-workflows",
-      "ng-admin-alerts"
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "Manages bank guarantees and letters of credit for sales and purchase transactions",
-      "Lifecycle statuses Open, Pending for Approval, Released, Closed with record locking",
-      "Links BG and LC to purchase orders, sales orders and projects",
-      "Real-time utilized, available and remaining limit tracking",
-      "Approvals in several levels for issuing and closing",
-      "Amendment history with version tracking",
+      "Handles bank guarantees and letters of credit for both sales and purchases",
+      "Lifecycle statuses Open, Pending for Approval, Released and Closed with record locking",
+      "Links instruments to purchase orders, sales orders and projects",
+      "Shows utilised, available and remaining limits as transactions post",
+      "Multi-level approvals for issuance and closure",
+      "Keeps amendment history with version tracking",
       "Links instruments to customers and vendors",
-      "Fixed and revolving limits",
+      "Supports fixed and revolving limits",
+      "Aligns instrument data with ledger entries",
+      "Keeps audit logs per transaction",
       "Daily expiry email alerts via job queue with configurable notice period",
-      "Credit Manager role center with status cues",
-      "Printable RDLC Bank Guarantee and LC reports"
+      "Credit Manager role center with cues by status",
+      "Printable RDLC reports for guarantees and letters of credit"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Bank guarantee and letter of credit (trade finance) management has no dedicated group"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

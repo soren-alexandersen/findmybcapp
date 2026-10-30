@@ -8,19 +8,21 @@
     "publisher": "COSMO CONSULT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.edi_bc%7CPAPPID.06d7846d-846a-4e46-995b-0c7615e9aba4",
-    "lastModified": "2026-09-30T14:32:52.5011659+00:00",
-    "appVersion": "4.36.0.80",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T06:31:19.7092032+00:00",
+    "appVersion": "4.38.0.101",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/edi/",
-    "sourceHash": "sha256:b6c41ae9d8f649b6081c07e51431caf08f52de0a43f3ffe523407cecbcafe713",
+    "sourceHash": "sha256:98df964f45cee1ac76325de3a27878018397a43063ba9e3f0b8a4ceaec93f703",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b6c41ae9d8f649b6081c07e51431caf08f52de0a43f3ffe523407cecbcafe713",
-    "mappedOn": null,
-    "summary": "EDI exchange of business documents with customers and suppliers",
-    "shape": "process",
+    "sourceHash": "sha256:98df964f45cee1ac76325de3a27878018397a43063ba9e3f0b8a4ceaec93f703",
+    "mappedOn": "2026-10-30",
+    "summary": "EDI exchange with customers, suppliers and carriers built into BC processes",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-edi",
@@ -28,12 +30,14 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-purchase-orders"
     ],
     "claims": [
-      "EDI with customers, suppliers and carriers",
-      "Supports EDIFACT",
-      "Supports Essential and Premium editions"
+      "Exchanges business documents electronically with customers, suppliers and carriers",
+      "Replaces manual re-keying of incoming orders as sales orders",
+      "Automates recurring order traffic with suppliers",
+      "Works on Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -67,12 +71,10 @@
       "en"
     ],
     "industries": [],
-    "connectsTo": [
-      "EDI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

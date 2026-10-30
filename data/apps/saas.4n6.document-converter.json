@@ -1,0 +1,54 @@
+{
+  "appId": "4n6.document-converter",
+  "guid": null,
+  "publisherId": "4n6",
+  "offerId": "document-converter",
+  "source": {
+    "name": "Document Converter",
+    "publisher": "4n6 Inc",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/4n6.document-converter",
+    "lastModified": "2025-12-16T08:55:01.0896689+00:00",
+    "appVersion": "1.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:454be26e4841ad58ce25a5aeab348affae5bb3f469661b90efead7429b775fff",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:454be26e4841ad58ce25a5aeab348affae5bb3f469661b90efead7429b775fff",
+    "mappedOn": "2026-10-30",
+    "summary": "Windows desktop tool that batch converts document files between formats.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Converts documents to formats such as DOCX, HTML, PDF, XML and image types",
+      "Converts single files or whole folders",
+      "Keeps the folder hierarchy during conversion",
+      "Runs without Word or Acrobat installed",
+      "Runs on Windows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "No sign of Business Central in the listing; a generic Windows file conversion tool.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

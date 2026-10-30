@@ -8,19 +8,19 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0026%7CPAPPID.b62a1b7a-95e3-4961-b29e-12da1a7cb5a2",
-    "lastModified": "2026-10-01T18:10:43.7046713+00:00",
-    "appVersion": "26.2.5.30353",
+    "lastModified": "2026-10-16T15:24:23.1517328+00:00",
+    "appVersion": "26.2.12.32541",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://duveka.net/PPWR",
-    "sourceHash": "sha256:e23c95297459c4def35e05e908890d64e7a84b05d4ea0385db2c065a73b1d73f",
+    "sourceHash": "sha256:0ba65b3c57e9833be919516f5792c240a3bd93ce839e8164242b6e0ed970ba19",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e23c95297459c4def35e05e908890d64e7a84b05d4ea0385db2c065a73b1d73f",
-    "mappedOn": null,
-    "summary": "EU packaging regulation compliance, declarations and datasheets",
-    "shape": "localization",
+    "sourceHash": "sha256:0ba65b3c57e9833be919516f5792c240a3bd93ce839e8164242b6e0ed970ba19",
+    "mappedOn": "2026-10-30",
+    "summary": "Documents packaging and checks it against the EU Packaging Regulation, producing conformity declarations.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-loc-epr-packaging",
@@ -32,21 +32,24 @@
       }
     ],
     "secondary": [
-      "ng-supplier-quality-compliance",
-      "ng-esg"
+      "ng-supplier-quality-compliance"
     ],
     "claims": [
-      "Packaging types per item and variant with full material composition",
-      "Compliance checks under PPWR Art. 5, 6, 7, 9 and 10 per packaging category with effective dates",
-      "Master data for substance limits, quotas on recycled content and recyclability matrix",
-      "Substance measurements with certificate, laboratory and date",
-      "Declaration of Conformity per Art. 39 and Annex VIII as print-ready report",
-      "Packaging datasheet as PDF and via web service for customer portals",
-      "Risk score and level per packaging type",
-      "Supplier declarations as source for material data",
-      "Immutable compliance log",
-      "Roles for manufacturer, importer and distributor duties",
-      "Check runs automatically at release of a sales document"
+      "Packaging types are versioned with full material composition and linked to items and variants",
+      "Material classes per Annex II with recycled content per material line",
+      "Models sales, grouped and transport packaging layers per item",
+      "Calculates weights, empty space ratio and detects composite packaging automatically",
+      "Records substance measurements with certificate, lab and date",
+      "Checks Articles 5 to 12 including heavy metals, PFAS, recyclability, recycled content, reuse and labelling",
+      "Recyclability classes A to E from a maintainable matrix",
+      "Risk score with an immutable log of every check",
+      "Runs the compliance check automatically when a sales order is released",
+      "Generates a versioned Declaration of Conformity per Article 39 and Annex VIII",
+      "Produces simplified technical documentation with description and drawing",
+      "Packaging datasheets per type and customer as PDF, Excel or web service",
+      "Material consumption and shipment reports by role",
+      "Assigns manufacturer, importer and distributor roles per customer and item",
+      "Covers the conformity side of PPWR rather than EPR fee reporting"
     ],
     "countries": [
       "AT",

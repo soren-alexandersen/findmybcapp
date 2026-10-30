@@ -20,7 +20,9 @@
     "Real estate portfolio reporting per property",
     "Vacancies and unit availability",
     "Danish property administration on BC",
-    "Rental contracts for offices and storage units"
+    "Rental contracts for offices and storage units",
+    "We need a warning before leases run out",
+    "We lose track of tenants who pay late"
   ],
   "questions": [
     {
@@ -192,6 +194,45 @@
       ],
       "coverage": {
         "Yes": 0.27
+      }
+    },
+    {
+      "id": "what-do-you-need-to-keep-an-ey",
+      "text": "What do you need to keep an eye on?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Lease expiries and renewals",
+          "patterns": [
+            "renewal",
+            "expir"
+          ]
+        },
+        {
+          "label": "Overdue rent and late fees",
+          "patterns": [
+            "overdue",
+            "late fee",
+            "arrears",
+            "dunning"
+          ]
+        },
+        {
+          "label": "Occupancy and vacancies",
+          "patterns": [
+            "occupancy",
+            "vacanc"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Lease expiries and renewals": 0.2,
+        "Overdue rent and late fees": 0.2,
+        "Occupancy and vacancies": 0.27
       }
     }
   ]

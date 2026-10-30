@@ -8,18 +8,18 @@
     "publisher": "Lanham Associates",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.lanham_inbound_container%7CPAPPID.1ce2163d-5a05-46c9-b455-6c90ada78360",
-    "lastModified": "2026-04-23T15:54:15.4634325+00:00",
-    "appVersion": "27.1.16.12",
+    "lastModified": "2026-10-09T08:09:25.1101037+00:00",
+    "appVersion": "27.1.18.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://ictla.helpdocsonline.com/home",
-    "sourceHash": "sha256:f3e7e8fd15eb3617b224c603a615dd602685733f8104c436c4e5dfbb664d9151",
+    "sourceHash": "sha256:7dc870014b7a50d5913c6b6a9ae089879f0454d433646ad07c0d28cf9804223b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f3e7e8fd15eb3617b224c603a615dd602685733f8104c436c4e5dfbb664d9151",
-    "mappedOn": null,
-    "summary": "Tracks inbound container shipments and on-the-water inventory",
+    "sourceHash": "sha256:7dc870014b7a50d5913c6b6a9ae089879f0454d433646ad07c0d28cf9804223b",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks imported containers on the water, matching vendor ASNs to purchase orders and receipts.",
     "shape": "process",
     "primary": [
       {
@@ -32,15 +32,18 @@
       }
     ],
     "secondary": [
-      "ng-stock-movements"
+      "ng-stock-movements",
+      "ng-ux-import-excel"
     ],
     "claims": [
-      "Imports ASN or spreadsheet to create inbound container document",
-      "Reconciles open POs against ASN and assigns container number to receipt lines",
-      "Purchase invoice before shipment via Get Receipt Lines filtered by container",
-      "Receives into On-The-Water location with transfer to warehouse",
-      "Landed cost via item charges",
-      "Count or scan container contents on arrival"
+      "Imports a vendor ASN or spreadsheet into an inbound container document",
+      "Reconciles and updates open purchase orders from the container document",
+      "Assigns the container number to each purchase receipt line",
+      "Creates a purchase invoice before shipping by pulling receipt lines for the container",
+      "Receives goods into an on-the-water location with a transfer to the destination warehouse",
+      "Updates expected receipt dates",
+      "Captures landed cost with item charges",
+      "Final quantity set by counting or scanning on arrival"
     ],
     "countries": [
       "AU",
@@ -56,6 +59,7 @@
       "MX",
       "NL",
       "NZ",
+      "PL",
       "PT",
       "SE",
       "US"

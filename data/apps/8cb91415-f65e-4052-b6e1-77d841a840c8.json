@@ -8,40 +8,44 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.c4692a87-0695-41e7-a881-eb347876a5e2%7CPAPPID.8cb91415-f65e-4052-b6e1-77d841a840c8",
-    "lastModified": "2026-07-02T13:24:34.2867984+00:00",
-    "appVersion": "28.1.0.24",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:02:09.0137447+00:00",
+    "appVersion": "29.0.0.28",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/home.html",
-    "sourceHash": "sha256:69ee010f3d40de8aabaa4844d6934794b7869306bd479def9bcbf027bb3697cd",
+    "sourceHash": "sha256:0d83401910893c094b35f240be3dd158a9d1c164c4f00142a4dcc014d536bcfa",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:69ee010f3d40de8aabaa4844d6934794b7869306bd479def9bcbf027bb3697cd",
-    "mappedOn": null,
-    "summary": "Integrates Planet tax-free shopping with LS Central",
+    "sourceHash": "sha256:0d83401910893c094b35f240be3dd158a9d1c164c4f00142a4dcc014d536bcfa",
+    "mappedOn": "2026-10-30",
+    "summary": "Tax-free shopping and VAT refunds at the LS Central POS through Planet.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-retail-pos",
-        "confidence": "medium"
-      },
-      {
-        "need": "ng-vat-tax",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-vert-retail"
+    ],
     "claims": [
-      "Tax-free shopping VAT refund process at the point of sale",
-      "Processes tax-free transactions for eligible international shoppers",
-      "Supports customs validation for departing customers",
-      "Fully digital tax-free refunds where Planet operates"
+      "Processes tax-free sales for eligible international shoppers at the till",
+      "Automates VAT refunds",
+      "Supports customs validation on departure",
+      "Fully digital refunds at airports, departure points and city centres",
+      "Implementation delivered by LS Retail professional services",
+      "Available wherever Planet operates"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [
       "Planet Tax Free"
@@ -50,7 +54,7 @@
       "LS Central"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

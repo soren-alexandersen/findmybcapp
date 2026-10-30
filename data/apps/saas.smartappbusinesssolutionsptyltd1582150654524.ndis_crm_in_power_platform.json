@@ -1,0 +1,86 @@
+{
+  "appId": "smartappbusinesssolutionsptyltd1582150654524.ndis_crm_in_power_platform",
+  "guid": null,
+  "publisherId": "smartappbusinesssolutionsptyltd1582150654524",
+  "offerId": "ndis_crm_in_power_platform",
+  "source": {
+    "name": "NDIS CRM on Power Platform",
+    "publisher": "Smart App Business Solutions Pty Ltd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/smartappbusinesssolutionsptyltd1582150654524.ndis_crm_in_power_platform",
+    "lastModified": "2026-10-11T04:35:51.0355144+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:61b75316685a8004eed3e3b7ca550d766b71983f580dbae1787407cc15da6ba5",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:61b75316685a8004eed3e3b7ca550d766b71983f580dbae1787407cc15da6ba5",
+    "mappedOn": "2026-10-30",
+    "summary": "Power Platform CRM for Australian NDIS care providers, integrating with BC for finance",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-care-personal-services",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-skills-training",
+      "ng-hr-health-safety"
+    ],
+    "claims": [
+      "Participant profiles with relationships, medical records and history",
+      "Digital intake forms with assessment and consent",
+      "Tracks NDIS plans, funding, budgets and utilisation",
+      "Service agreements with pricing and funding allocation",
+      "Rostering of shifts and support workers",
+      "Mobile access to schedules, notes and timesheets for workers",
+      "Invoices and NDIS claims generated from delivered services",
+      "Incident, risk and complaint management",
+      "Document management with expiry and version tracking",
+      "Integrates with Business Central/Wiise, Xero and payroll systems",
+      "Works with SharePoint, Teams and Outlook"
+    ],
+    "countries": [
+      "AU"
+    ],
+    "languages": [],
+    "industries": [
+      "Aged care",
+      "Allied health",
+      "Disability support"
+    ],
+    "connectsTo": [
+      "Wiise",
+      "Xero",
+      "SharePoint",
+      "Microsoft Teams",
+      "Outlook",
+      "Power Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,34 +8,44 @@
     "publisher": "Golden EDI AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi-order-agent%7CPAPPID.98c70740-6abc-4d8e-91ee-d8b898ad565f",
-    "lastModified": "2026-10-06T14:52:13.7036827+00:00",
-    "appVersion": "29.0.167.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T13:45:04.6387194+00:00",
+    "appVersion": "29.0.168.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.goldenedi.com/support",
-    "sourceHash": "sha256:77e8192b78e5d8c9ca7f4f5fa14c8e64ab63088d5c7cfef9d4f6f3c1a9fc7b7a",
+    "sourceHash": "sha256:70744d96004c906179796b6671e57308c6e2ec4e7275fc555897285fdcc22ad7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:77e8192b78e5d8c9ca7f4f5fa14c8e64ab63088d5c7cfef9d4f6f3c1a9fc7b7a",
-    "mappedOn": null,
-    "summary": "AI converts incoming customer orders into sales orders",
+    "sourceHash": "sha256:70744d96004c906179796b6671e57308c6e2ec4e7275fc555897285fdcc22ad7",
+    "mappedOn": "2026-10-30",
+    "summary": "AI agent that turns incoming customer orders in any format into BC sales orders.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-order-entry",
         "confidence": "high"
+      },
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-conn-edi"
+      "ng-ux-automation"
     ],
     "claims": [
-      "Converts incoming orders to validated sales orders using AI",
-      "Handles PDF, XML, PEPPOL and EDI orders",
-      "Workspace to review, resolve exceptions and approve",
-      "Auto-creates orders meeting business rules",
-      "Customer and item matching"
+      "Creates validated sales orders from incoming customer orders",
+      "Uses AI and structured document processing",
+      "Accepts orders as PDF, XML, PEPPOL or EDI files",
+      "Single workspace to review incoming orders, resolve exceptions and approve",
+      "Orders passing business rules are created without manual handling",
+      "Orders failing rules are flagged for a quick check",
+      "Matches customers and items automatically",
+      "New customer references can be set up in a few clicks",
+      "Works on Essential and Premium editions"
     ],
     "countries": [
       "DE",
@@ -49,12 +59,10 @@
       "sv"
     ],
     "industries": [],
-    "connectsTo": [
-      "Golden EDI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

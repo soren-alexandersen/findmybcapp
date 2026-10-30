@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.randgroupllc1592867637727%7CAID.pii_complii%7CPAPPID.9a17139a-6d43-4973-9c53-2c1dee587ea0",
-    "lastModified": "2026-04-21T17:33:17.525055+00:00",
-    "appVersion": "27.3.17.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T19:33:22.7810714+00:00",
+    "appVersion": "27.5.21.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/pii-complii-personal-identifiable-information/",
-    "sourceHash": "sha256:ed67b633a5ed147512ffb4b4ea1f6ab45ea65c4853f4e07219581ebac72de62a",
+    "sourceHash": "sha256:64704d479f18b1297281dcf48db59ae9d09e8a91035dc41f23f76c96ce562e42",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ed67b633a5ed147512ffb4b4ea1f6ab45ea65c4853f4e07219581ebac72de62a",
-    "mappedOn": null,
-    "summary": "Automates PII compliance for online retailer orders",
+    "sourceHash": "sha256:64704d479f18b1297281dcf48db59ae9d09e8a91035dc41f23f76c96ce562e42",
+    "mappedOn": "2026-10-30",
+    "summary": "Removes customer address data from sales documents after a set number of days.",
     "shape": "process",
     "primary": [
       {
@@ -31,11 +33,13 @@
       "ng-conn-marketplaces"
     ],
     "claims": [
-      "Sanitizes address data on sales orders, shipments and invoices after a set number of days",
-      "PII compliance for drop-ship orders from retailers like Amazon and Wayfair",
+      "Aimed at PII rules from retailers like Amazon and Wayfair for drop-ship orders",
+      "Cleans personal data from sales orders, shipments and sales invoices",
+      "Clears address data after a configurable number of days",
       "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard",
-      "Available globally except Czechia"
+      "Assisted setup wizard",
+      "Costs 15 USD per tenant per month",
+      "Available in all markets except Czechia"
     ],
     "countries": [],
     "languages": [
@@ -55,13 +59,10 @@
       "zh"
     ],
     "industries": [],
-    "connectsTo": [
-      "Amazon",
-      "Wayfair"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_company",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

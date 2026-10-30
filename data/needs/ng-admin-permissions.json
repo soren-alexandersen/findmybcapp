@@ -134,15 +134,22 @@
           ]
         },
         {
+          "label": "Users who should only work through other apps",
+          "patterns": [
+            "direct bc access"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Specific fields (e.g. credit limit, bank account)": 0.34,
+        "Specific fields (e.g. credit limit, bank account)": 0.31,
         "Which records a user sees (by customer, location, dimension)": 0.38,
-        "Pages, actions or whole areas": 0.24,
-        "Posting dates or posting options": 0.14
+        "Pages, actions or whole areas": 0.22,
+        "Posting dates or posting options": 0.12,
+        "Users who should only work through other apps": 0.06
       }
     },
     {
@@ -188,7 +195,7 @@
       ],
       "coverage": {
         "Review and report on who can do what": 0.31,
-        "Track changes to data": 0.21
+        "Track changes to data": 0.19
       }
     },
     {
@@ -238,8 +245,17 @@
         }
       ],
       "coverage": {
-        "Yes, record, suggest or fix permission sets": 0.17
+        "Yes, record, suggest or fix permission sets": 0.16
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI detail: one-click actions",
+      "terms": [
+        "click"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

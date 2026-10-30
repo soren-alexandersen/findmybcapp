@@ -61,9 +61,9 @@
         }
       ],
       "coverage": {
-        "Goods on consignment": 0.4,
-        "Pallets, crates and returnable packaging": 0.5,
-        "Equipment you lend out": 0.1
+        "Goods on consignment": 0.36,
+        "Pallets, crates and returnable packaging": 0.64,
+        "Equipment you lend out": 0.18
       }
     },
     {
@@ -95,8 +95,8 @@
         }
       ],
       "coverage": {
-        "My stock, held at customers": 0.4,
-        "Supplier stock, held by me": 0.1
+        "My stock, held at customers": 0.36,
+        "Supplier stock, held by me": 0.09
       }
     },
     {
@@ -118,7 +118,7 @@
         }
       ],
       "coverage": {
-        "Yes, balance per partner": 0.5
+        "Yes, balance per partner": 0.64
       }
     },
     {
@@ -150,9 +150,20 @@
         }
       ],
       "coverage": {
-        "Yes, post sales automatically": 0.2,
-        "No, just track movements": 0.5
+        "Yes, post sales automatically": 0.09,
+        "No, just track movements": 0.64
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "trial and subscription licensing terms",
+      "terms": [
+        "paid",
+        "subscription",
+        "then"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

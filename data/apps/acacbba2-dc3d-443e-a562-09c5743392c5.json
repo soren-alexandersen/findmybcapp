@@ -8,13 +8,13 @@
     "publisher": "NAVIT GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitgmbh1620303119395%7CAID.navit230901%7CPAPPID.acacbba2-dc3d-443e-a562-09c5743392c5",
-    "lastModified": "2026-10-05T13:05:04.1835594+00:00",
-    "appVersion": "26.0.1.37",
+    "lastModified": "2026-10-30T14:11:39.4660636+00:00",
+    "appVersion": "26.0.2.02",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
-    "helpLink": "https://navit.group/support",
+    "helpLink": "https://navit.group/",
     "sourceHash": "sha256:6feb207295984e2243b0f3c6256d2c5d324241a7fb13daa2166a1f95090e664b",
     "mentionsBC": false
   },

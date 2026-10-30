@@ -8,8 +8,8 @@
     "publisher": "AP Commerce",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.progresspaymentinvoice_apc%7CPAPPID.ff22fe04-69d8-41bc-aa92-e99608e2df5b",
-    "lastModified": "2026-08-20T19:35:05.1207238+00:00",
-    "appVersion": "1.0.29.0",
+    "lastModified": "2026-10-27T22:12:17.9140703+00:00",
+    "appVersion": "1.0.30.0",
     "pricingTypes": [
       "Free",
       "Payg"

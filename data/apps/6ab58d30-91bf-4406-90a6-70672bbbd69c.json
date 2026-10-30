@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2pimcore%7CPAPPID.6ab58d30-91bf-4406-90a6-70672bbbd69c",
-    "lastModified": "2025-06-12T10:13:02.9646685+00:00",
+    "lastModified": "2026-10-19T10:38:26.0011675+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:82ab094ce23bcc057dd210d4dbeaae36bd1f11043c78ce6478a1c183dccd0eec",
+    "sourceHash": "sha256:0864db2c6e2978af786d654e1571eee99ce86de147828616372b74868202b72f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:82ab094ce23bcc057dd210d4dbeaae36bd1f11043c78ce6478a1c183dccd0eec",
-    "mappedOn": null,
-    "summary": "Syncs product data with Pimcore PIM",
+    "sourceHash": "sha256:0864db2c6e2978af786d654e1571eee99ce86de147828616372b74868202b72f",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Pimcore product information management system.",
     "shape": "connector",
     "primary": [
       {
@@ -29,25 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Requires Pimcore",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Pimcore account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Pimcore"
     ],
-    "requires": [
-      "Pimcore"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

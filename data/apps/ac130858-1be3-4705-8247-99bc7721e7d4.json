@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.a61f5909-1c99-4f45-b8a1-37914d8e0700%7CPAPPID.ac130858-1be3-4705-8247-99bc7721e7d4",
-    "lastModified": "2026-07-02T13:23:06.0604678+00:00",
-    "appVersion": "28.1.0.128",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:29:08.5849102+00:00",
+    "appVersion": "29.0.0.137",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:04bdd7f1191258165b87c55629c942deff4c6f8318db1b94c50c3a4bb40451aa",
+    "sourceHash": "sha256:b801c2d966d452c5d3de7cafcd95c0aa53d540129cc7fc809ee40e8b23bc02d3",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:04bdd7f1191258165b87c55629c942deff4c6f8318db1b94c50c3a4bb40451aa",
-    "mappedOn": null,
-    "summary": "Serbian language for LS Central",
+    "sourceHash": "sha256:b801c2d966d452c5d3de7cafcd95c0aa53d540129cc7fc809ee40e8b23bc02d3",
+    "mappedOn": "2026-10-30",
+    "summary": "Serbian user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Serbian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Serbian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "RS"
@@ -39,14 +41,15 @@
       "sr"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

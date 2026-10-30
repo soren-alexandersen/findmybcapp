@@ -8,35 +8,42 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_mcd%7CPAPPID.96defe8f-284f-4783-a39b-cd3409f046a1",
-    "lastModified": "2026-10-05T19:12:34.4871113+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:34:03.1452441+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Manufacturing-Cost-Distribution-Help.pdf",
-    "sourceHash": "sha256:b83286b982adf55023507b387fc63ab42904fa5e99d4ca713fd5ad5dcfab9b24",
+    "sourceHash": "sha256:907872b60b837c705c3831e8e64744afae1107a4a9f12c1ddd56c8dac0f82645",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b83286b982adf55023507b387fc63ab42904fa5e99d4ca713fd5ad5dcfab9b24",
-    "mappedOn": null,
-    "summary": "Distributes manufacturing costs such as labor to products",
+    "sourceHash": "sha256:907872b60b837c705c3831e8e64744afae1107a4a9f12c1ddd56c8dac0f82645",
+    "mappedOn": "2026-10-30",
+    "summary": "Distributes overhead and labour costs to production orders at period end.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-production-costing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-cost-allocation"
+      "ng-period-close"
     ],
     "claims": [
-      "Distributes general production expenses and labor costs to production orders",
-      "Applies actual production costs to production orders at period end",
+      "Spreads general production overhead and labour costs over production",
+      "Posts actual production cost onto production orders at period end",
       "Distribution types defined per expense type",
-      "Amounts registered by inventory period",
-      "Spreads costs by work duration or by a distribution factor",
-      "Requires Premium edition"
+      "Amounts are registered per inventory period",
+      "Split by work duration or by a distribution factor",
+      "Requires Premium edition",
+      "Available in English and Turkish"
     ],
     "countries": [
       "TR"
@@ -45,11 +52,13 @@
       "en",
       "tr"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

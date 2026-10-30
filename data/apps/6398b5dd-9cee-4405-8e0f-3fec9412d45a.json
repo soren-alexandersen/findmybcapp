@@ -8,18 +8,20 @@
     "publisher": "ERPgruppen",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.dataconnector%7CPAPPID.6398b5dd-9cee-4405-8e0f-3fec9412d45a",
-    "lastModified": "2026-03-24T14:48:16.7588617+00:00",
-    "appVersion": "27.4.3.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T07:04:34.3879916+00:00",
+    "appVersion": "28.5.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.erpgruppen.dk/kontakt/",
-    "sourceHash": "sha256:dd701c99f2b1bf275bcdfafa8bc51a9e728ffc8046f3a1bc38d278e218084971",
+    "sourceHash": "sha256:241fd1b3ebc9818eb06346b95810da8bbbf39f6d66dd9e7a7f2d5130bf5f5ec0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dd701c99f2b1bf275bcdfafa8bc51a9e728ffc8046f3a1bc38d278e218084971",
-    "mappedOn": null,
-    "summary": "BI dashboards for finance, sales, inventory, production",
+    "sourceHash": "sha256:241fd1b3ebc9818eb06346b95810da8bbbf39f6d66dd9e7a7f2d5130bf5f5ec0",
+    "mappedOn": "2026-10-30",
+    "summary": "Ready-made BI dashboards over BC finance, sales, inventory, project and production data.",
     "shape": "process",
     "primary": [
       {
@@ -28,25 +30,23 @@
       }
     ],
     "secondary": [
-      "ng-sales-analytics"
+      "ng-ux-excel-reporting"
     ],
     "claims": [
-      "Ready-made BI dashboards over BC data",
-      "Covers finance, sales, inventory, projects and production",
-      "No manual exports or complex setup",
-      "Standardized KPIs across the organization"
+      "Pre-built dashboards covering finance, sales, inventory, projects and production",
+      "Standardised KPIs shared across the organisation",
+      "No manual exports or complex setup"
     ],
     "countries": [],
-    "languages": [
-      "da"
+    "languages": [],
+    "industries": [
+      "Professional Services",
+      "Retail & Consumer Goods"
     ],
-    "industries": [],
-    "connectsTo": [
-      "Power BI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

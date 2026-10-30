@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.tenant_connector|PAPPID.dc2879c1-6b6e-4030-ac45-286fe64c2ad1",
+  "guid": "dc2879c1-6b6e-4030-ac45-286fe64c2ad1",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "tenant_connector",
+  "source": {
+    "name": "Tenant Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.tenant_connector%7CPAPPID.dc2879c1-6b6e-4030-ac45-286fe64c2ad1",
+    "lastModified": "2026-10-16T10:54:30.1332288+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:0f96a80438278ab31291e257d2ce28eb34a9b70ca0ab068d9281bfc445b1dc4b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f96a80438278ab31291e257d2ce28eb34a9b70ca0ab068d9281bfc445b1dc4b",
+    "mappedOn": "2026-10-30",
+    "summary": "Copies master data and transactions from other BC tenants or environments on a schedule.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Connects to other BC tenants and environments",
+      "Copies or syncs master data from another BC",
+      "Downloads transactions automatically via job queue",
+      "Works on Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

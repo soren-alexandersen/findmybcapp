@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ssh.com.mx/",
     "sourceHash": "sha256:879e9aa33f1e93646af4dbe9bb7691204338551d91e547b04a362733615617af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:879e9aa33f1e93646af4dbe9bb7691204338551d91e547b04a362733615617af",

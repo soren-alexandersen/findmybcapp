@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2voyado%7CPAPPID.e33679e2-21f0-4f53-b71e-94bda093959d",
-    "lastModified": "2025-06-12T09:35:24.5796862+00:00",
+    "lastModified": "2026-10-19T10:36:23.972383+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:dff4ab8a1a8f28c9662800d332cdcf9cbf995ba24b34d90ebf9ba291676eb639",
+    "sourceHash": "sha256:5eaad5c4f5bd39a0785827a7aded0df58c2df92b22d1bb00075d44da5cdcaaba",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dff4ab8a1a8f28c9662800d332cdcf9cbf995ba24b34d90ebf9ba291676eb639",
-    "mappedOn": null,
-    "summary": "Integrates Voyado Engage customer marketing platform",
+    "sourceHash": "sha256:5eaad5c4f5bd39a0785827a7aded0df58c2df92b22d1bb00075d44da5cdcaaba",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Voyado Engage customer engagement platform.",
     "shape": "connector",
     "primary": [
       {
@@ -27,30 +29,24 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-mkt-campaigns"
-    ],
+    "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Voyado",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Voyado account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Voyado Engage"
     ],
-    "requires": [
-      "Voyado Engage"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

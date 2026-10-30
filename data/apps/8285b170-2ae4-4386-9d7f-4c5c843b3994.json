@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.twodayholdingdenmarkaps1679047119842|AID.atradiusflowcollect|PAPPID.8285b170-2ae4-4386-9d7f-4c5c843b3994",
+  "guid": "8285b170-2ae4-4386-9d7f-4c5c843b3994",
+  "publisherId": "twodayholdingdenmarkaps1679047119842",
+  "offerId": "atradiusflowcollect",
+  "source": {
+    "name": "Atradius FlowCollect",
+    "publisher": "twoday",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.twodayholdingdenmarkaps1679047119842%7CAID.atradiusflowcollect%7CPAPPID.8285b170-2ae4-4386-9d7f-4c5c843b3994",
+    "lastModified": "2026-10-27T08:04:58.9755462+00:00",
+    "appVersion": "1.0.20261020.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://atradiuscollections.com/global/flowcollect#contactform",
+    "sourceHash": "sha256:9af86a63b068c385a200173b5218216cf74febcc4a030b195e296fff9272c79d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9af86a63b068c385a200173b5218216cf74febcc4a030b195e296fff9272c79d",
+    "mappedOn": "2026-10-30",
+    "summary": "Hands overdue customer accounts to Atradius Collections and tracks the cases from BC.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Collection cases are opened from customer accounts and ledger entries",
+      "Invoices and debtor correspondence can be uploaded to the case",
+      "Users message the assigned case handler from BC",
+      "Shows outstanding balance, collection costs, interest and case status in real time",
+      "Relevant invoices and ledger entries are shown together per case",
+      "Dashboard of open cases, recoveries and collection activity"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Atradius Collections"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

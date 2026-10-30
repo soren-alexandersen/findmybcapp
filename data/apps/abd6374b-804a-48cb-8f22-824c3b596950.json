@@ -8,23 +8,25 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.mobilewaste-for-tegossuite-app%7CPAPPID.abd6374b-804a-48cb-8f22-824c3b596950",
-    "lastModified": "2026-05-22T07:54:55.0263181+00:00",
-    "appVersion": "27.0.260522.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T02:11:00.0781802+00:00",
+    "appVersion": "27.0.261023.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/mobilewaste/docs",
-    "sourceHash": "sha256:db3a0a0873242ee9efd5a11188f1e1f523941644002ab46cd1ffe4e960fa6e25",
+    "sourceHash": "sha256:65d02c06c191877a71e72266710732ec7b36a1f15771fac438a74294e465b371",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:db3a0a0873242ee9efd5a11188f1e1f523941644002ab46cd1ffe4e960fa6e25",
-    "mappedOn": null,
-    "summary": "Mobile run sheets for waste collection drivers in tegossuite",
+    "sourceHash": "sha256:65d02c06c191877a71e72266710732ec7b36a1f15771fac438a74294e465b371",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile run sheet for waste collection drivers with offline entry, checklists and signatures.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-admin-devices",
@@ -35,31 +37,29 @@
       "ng-transport-planning"
     ],
     "claims": [
-      "Electronic run sheet for drivers managing jobs in real time",
-      "Offline data entry with automatic sync when connection is restored",
-      "Captures signatures, checklists and photos",
-      "Drivers record quantities, track progress and view upcoming tasks",
+      "Electronic run sheet for drivers to handle jobs in real time",
+      "Supports offline entry with automatic sync when back online",
+      "Drivers capture signatures, checklists and photos",
+      "Drivers record quantities, track job progress and see upcoming tasks",
       "Configurable driver checklists",
-      "Proof of delivery capture",
-      "Requires tegossuite and EasyDispatch"
+      "Captures proof of delivery",
+      "Requires tegossuite and EasyDispatch",
+      "English only"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
     "industries": [
-      "Recycling",
-      "Waste management"
+      "Waste and recycling"
     ],
-    "connectsTo": [
-      "tegossuite"
-    ],
+    "connectsTo": [],
     "requires": [
       "tegossuite",
-      "Fenwick EasyDispatch"
+      "EasyDispatch"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

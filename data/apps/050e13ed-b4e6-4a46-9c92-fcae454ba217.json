@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2woo%7CPAPPID.050e13ed-b4e6-4a46-9c92-fcae454ba217",
-    "lastModified": "2025-06-12T09:34:53.3015861+00:00",
+    "lastModified": "2026-10-19T10:47:16.8062601+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:190f8eb4c5a640f5163fd217f57014b67e30a206011d0b2fb806c19512c19f9c",
+    "sourceHash": "sha256:29d718cd49b7a4406d7ce954edc2a866b02d061e2573e66a5d69be0f1a606abb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:190f8eb4c5a640f5163fd217f57014b67e30a206011d0b2fb806c19512c19f9c",
-    "mappedOn": null,
-    "summary": "Integrates WooCommerce webshop orders, items and customers",
+    "sourceHash": "sha256:29d718cd49b7a4406d7ce954edc2a866b02d061e2573e66a5d69be0f1a606abb",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs products, stock, orders and shipments between BC and WooCommerce.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,23 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires WooCommerce",
-      "Built on Codeunit OmniConnect integration platform"
+      "Syncs WooCommerce products, inventory, orders and shipments",
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing WooCommerce account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "WooCommerce"
     ],
-    "requires": [
-      "WooCommerce"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -104,9 +104,9 @@
         }
       ],
       "coverage": {
-        "Usage or consumption (meter readings, usage data)": 0.18,
-        "Rental or leasing": 0.18,
-        "Software licenses or cloud resale (CSP, NCE)": 0.27,
+        "Usage or consumption (meter readings, usage data)": 0.2,
+        "Rental or leasing": 0.2,
+        "Software licenses or cloud resale (CSP, NCE)": 0.3,
         "Memberships": 0.02
       }
     },
@@ -169,7 +169,7 @@
         }
       ],
       "coverage": {
-        "Yes, simple deferrals": 0.16,
+        "Yes, simple deferrals": 0.17,
         "Yes, IFRS 15 / ASC 606 compliant": 0.03
       }
     },
@@ -198,7 +198,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.13
+        "Yes": 0.12
       }
     },
     {
@@ -225,7 +225,7 @@
         }
       ],
       "coverage": {
-        "Yes, I need purchase side too": 0.16
+        "Yes, I need purchase side too": 0.17
       }
     },
     {
@@ -248,6 +248,43 @@
       "coverage": {
         "Yes, auto-renew or renewal alerts": 0.31
       }
+    },
+    {
+      "id": "do-you-bill-customers-in-more-",
+      "text": "Do you bill customers in more than one currency?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several currencies",
+          "patterns": [
+            "currenc",
+            "exchange rates"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several currencies": 0.16
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "batch invoicing is basic to every billing app",
+      "terms": [
+        "batch"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'line' wording",
+      "terms": [
+        "line"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

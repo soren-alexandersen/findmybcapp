@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway_eam_bc%7CPAPPID.410f47b1-8f80-4a06-aaf2-149c773198b8",
-    "lastModified": "2026-08-28T11:12:37.4079732+00:00",
-    "appVersion": "2607.0.1508.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T13:37:13.59273+00:00",
+    "appVersion": "2610.0.1520.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
-    "sourceHash": "sha256:bb1f6dc5e227b871863cd7ec3d43f31deb4c9f987fb9050a953d12f3227a8b59",
+    "sourceHash": "sha256:1d8321e8aceacc89cd16f6961d39e096f26630cffe492487f6027f62f66a5f68",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bb1f6dc5e227b871863cd7ec3d43f31deb4c9f987fb9050a953d12f3227a8b59",
-    "mappedOn": null,
-    "summary": "Enterprise asset management and maintenance",
+    "sourceHash": "sha256:1d8321e8aceacc89cd16f6961d39e096f26630cffe492487f6027f62f66a5f68",
+    "mappedOn": "2026-10-30",
+    "summary": "Enterprise asset and maintenance management inside BC, with work orders and mobile execution.",
     "shape": "process",
     "primary": [
       {
@@ -32,39 +34,44 @@
       }
     ],
     "secondary": [
-      "ng-svc-field-execution",
+      "ng-svc-parts",
       "ng-hr-health-safety",
-      "ng-fa-register"
+      "ng-bi-dashboards",
+      "ng-admin-devices"
     ],
     "claims": [
-      "Automates inventory management and controls spare parts",
-      "Posts labor, spare parts and expense costs to general ledger",
-      "Purchase requisitions and purchase orders from maintenance",
-      "Time sheet registrations",
-      "Work with external contractors",
-      "Relates maintenance costs to projects/jobs",
-      "Bills end-customers, or re-bills between intercompany entities",
-      "Counter-, calendar- and measurement-based preventive maintenance",
-      "Drag and drop work scheduling boards",
-      "Mobile work execution with offline capabilities",
-      "Analytics and reporting packages in Power BI and Excel",
-      "Assisted setup guide and free license registration",
-      "Audit trails for health and safety compliance",
-      "Automatic resource/work allocation"
+      "Preventive maintenance by counter, calendar or measurement",
+      "Spare parts and inventory handled through BC inventory",
+      "Posts labor, spare part and other maintenance costs to the general ledger",
+      "Creates purchase requisitions and purchase orders from maintenance",
+      "Time sheet registration for maintenance work",
+      "Supports external contractors",
+      "Links maintenance costs to projects or jobs",
+      "Can invoice end customers or re-invoice intercompany",
+      "Drag-and-drop work scheduling boards",
+      "Mobile work execution that works offline",
+      "Power BI and Excel analytics packages included",
+      "Free license available via assisted setup, paid license optional",
+      "Each user needs a BC license plus a Dynaway EAM license"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "no",
+      "sv"
+    ],
     "industries": [
-      "Energy",
+      "Energy & Resources",
       "Manufacturing"
     ],
-    "connectsTo": [
-      "Power BI",
-      "Excel"
-    ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "free_trial",
+    "deployment": "online",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

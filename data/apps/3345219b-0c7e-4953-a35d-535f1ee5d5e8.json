@@ -8,18 +8,20 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visiontime%7CPAPPID.3345219b-0c7e-4953-a35d-535f1ee5d5e8",
-    "lastModified": "2026-09-30T10:14:45.2737591+00:00",
-    "appVersion": "20.1.2.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T12:48:40.3365349+00:00",
+    "appVersion": "20.1.2.6",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/time/",
-    "sourceHash": "sha256:8539f82a980c3465f8b8b2ced0d5c114c5983c107318c86c80b3f12cd76b607b",
+    "sourceHash": "sha256:ed6ac81dd6a1be265760d11661a369aaecbc2de7e8bcf2be5cfe05bd08ab744c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8539f82a980c3465f8b8b2ced0d5c114c5983c107318c86c80b3f12cd76b607b",
-    "mappedOn": null,
-    "summary": "Time recording with collective agreement rules",
+    "sourceHash": "sha256:ed6ac81dd6a1be265760d11661a369aaecbc2de7e8bcf2be5cfe05bd08ab744c",
+    "mappedOn": "2026-10-30",
+    "summary": "Web-based time, overtime, absence and vacation registration feeding BC and payroll.",
     "shape": "process",
     "primary": [
       {
@@ -28,24 +30,24 @@
       },
       {
         "need": "ng-proj-time",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-hr-absence-leave",
-      "ng-hr-payroll-comp"
+      "ng-hr-payroll-comp",
+      "ng-hr-employee-expenses"
     ],
     "claims": [
-      "Record time on projects",
-      "Calculates overtime and supplements",
+      "Records time against projects",
+      "Calculates overtime and supplements under collective agreements",
       "Time entry per day or per week",
-      "Mileage tracking for own car",
-      "Duty planning",
-      "Absence and vacation registration",
+      "Tracks mileage in private cars",
+      "Supports duty planning",
+      "Registers absence and vacation",
       "Approval workflows for time and vacation",
-      "Exports time to payroll system",
-      "Handles collective agreements for salary processing",
-      "Requires a website to run"
+      "Exports recorded time to the payroll system",
+      "Requires a separate website to run"
     ],
     "countries": [
       "DK"
@@ -58,7 +60,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

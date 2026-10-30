@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.import-msd-edi-orders%7CPAPPID.8b05e4ce-7ab4-48b2-9097-b88eca917f2c",
-    "lastModified": "2026-07-16T08:13:23.3571356+00:00",
+    "lastModified": "2026-10-12T15:04:01.2520621+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
-    "sourceHash": "sha256:e48efb940eca5e097c5670f3fed6382f9ebd51516aa4785361c412dd873d0fc8",
+    "sourceHash": "sha256:be1caf863f1009ca8fc8442ff92095241814a96a1cfe7a753a887f219f57f32d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e48efb940eca5e097c5670f3fed6382f9ebd51516aa4785361c412dd873d0fc8",
-    "mappedOn": null,
-    "summary": "Automatic import of EDI orders via HubBroker",
+    "sourceHash": "sha256:be1caf863f1009ca8fc8442ff92095241814a96a1cfe7a753a887f219f57f32d",
+    "mappedOn": "2026-10-30",
+    "summary": "Moves EDI orders between Business Central and trading partners via HubBroker's iPaaS.",
     "shape": "connector",
     "primary": [
       {
@@ -33,18 +35,19 @@
     ],
     "secondary": [],
     "claims": [
-      "Orders automatically imported into BC via EDI",
-      "Validates and converts data to local standards or customer preferences",
-      "Tracking of imported orders in the iPaaS",
-      "EDI managed services",
-      "REST API data integration"
+      "Orders are imported automatically into Business Central",
+      "Order data is validated and converted to the required format",
+      "Imported orders can be tracked in the iPaaS platform",
+      "Run as a managed EDI service",
+      "Offers REST API integration"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "HubBroker iPaaS"
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

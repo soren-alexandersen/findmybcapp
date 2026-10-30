@@ -4,22 +4,24 @@
   "publisherId": "9altitudes",
   "offerId": "a42184c4-a1a1-499b-8f87-7d071519d9fa",
   "source": {
-    "name": "9A Advanced Manufacturing - CAD/PLM Link",
+    "name": "BIRDS Advanced Manufacturing - CADPLM Link",
     "publisher": "9altitudes",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.a42184c4-a1a1-499b-8f87-7d071519d9fa%7CPAPPID.c5c0c889-f564-4d97-b153-3ea976337b77",
-    "lastModified": "2026-09-29T11:40:37.9533185+00:00",
-    "appVersion": "28.2.6.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T11:07:30.3753164+00:00",
+    "appVersion": "29.2.19.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
-    "sourceHash": "sha256:83333b1a8b5b98b1fa556031d62fcfa5e350033d085734d153b7a6484bb43cca",
+    "sourceHash": "sha256:3ed40728e785b89cab8b8d7147461fbb237500a29089013864cf536d1c9b9bd2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:83333b1a8b5b98b1fa556031d62fcfa5e350033d085734d153b7a6484bb43cca",
-    "mappedOn": null,
-    "summary": "Syncs items and BOMs from CAD/PLM systems into BC manufacturing",
+    "sourceHash": "sha256:3ed40728e785b89cab8b8d7147461fbb237500a29089013864cf536d1c9b9bd2",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports BOMs, routings and items from CAD/PLM into BC and publishes data back.",
     "shape": "connector",
     "primary": [
       {
@@ -28,42 +30,32 @@
       },
       {
         "need": "ng-bom-formula-engineering",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-routings-workcenters"
+      "ng-routings-workcenters",
+      "ng-item-master-data"
     ],
     "claims": [
-      "Imports engineered items from CAD/PLM via file upload or API",
-      "Receives multiple revisions of an item and compares them for approval",
-      "Updates existing BOMs and routings via API",
-      "Automates transfer of items, BOMs and routings using templates",
-      "Brings vendor details and vendor item numbers from CAD/PLM",
-      "Publishes selected BC data back to the CAD/PLM system via API"
+      "Imports from CAD/PLM by file upload or API",
+      "Receives and compares several revisions of a design for approval",
+      "Updates existing BOMs and routings through the API",
+      "Creates new items, BOMs and routings from templates",
+      "Carries vendor details and vendor item numbers from CAD/PLM",
+      "Publishes selected BC data back to the CAD/PLM system"
     ],
-    "countries": [
-      "BE",
-      "DK",
-      "FR",
-      "NL",
-      "SI"
-    ],
-    "languages": [
-      "da",
-      "en"
-    ],
+    "countries": [],
+    "languages": [],
     "industries": [
       "Manufacturing"
     ],
     "connectsTo": [
-      "CAD",
-      "PLM",
-      "PDM"
+      "CAD/PLM/PDM systems"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

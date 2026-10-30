@@ -1,0 +1,75 @@
+{
+  "appId": "cibinno.cibinno-ai-business-os",
+  "guid": null,
+  "publisherId": "cibinno",
+  "offerId": "cibinno-ai-business-os",
+  "source": {
+    "name": "CIBINNO AI Business OS",
+    "publisher": "CIBINNO",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/cibinno.cibinno-ai-business-os",
+    "lastModified": "2026-10-13T10:25:35.1320012+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:5ab78356f1a25d4fa04c1d093c0d4ee5562ef9727111b3901f3681643364fe79",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ab78356f1a25d4fa04c1d093c0d4ee5562ef9727111b3901f3681643364fe79",
+    "mappedOn": "2026-10-30",
+    "summary": "AI layer over BC and other systems: risk alerts, agents, executive cockpit.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-admin-integration-sync",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Combines data from ERP, WMS, banks, tax services, email and files",
+      "Flags late-payment risk, slow stock, falling margins and customers ordering less every day",
+      "AI agents handle triage, summaries, collection reminders and briefings",
+      "Agent actions are logged and those above a threshold need human approval",
+      "Executive cockpit with revenue, margin, cash and collections, also in a mobile app",
+      "Production connectors for Business Central and NAV, Microsoft 365 and Teams",
+      "Supports e-invoicing and Open Banking (PSD2) connections",
+      "Hosted on Azure in the EU in a dedicated environment per customer",
+      "Single sign-on with Entra ID; Google also supported",
+      "AI processing can be kept to EU providers and regions",
+      "Essential plan: up to 5 users, from EUR 490 per month plus implementation",
+      "Professional plan: up to 15 users, from EUR 990 per month plus implementation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365",
+      "Microsoft Teams",
+      "Open Banking"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

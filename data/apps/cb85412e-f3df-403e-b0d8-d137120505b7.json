@@ -8,18 +8,20 @@
     "publisher": "Micro Apps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.role_center%7CPAPPID.cb85412e-f3df-403e-b0d8-d137120505b7",
-    "lastModified": "2025-09-23T12:37:24.3182402+00:00",
-    "appVersion": "1.0.0.8",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T15:46:05.2709499+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://micro-apps.abcebusiness.nl/en/rolecenter-app-for-business-central",
-    "sourceHash": "sha256:d3144074137a420dd1c193c90131b07b60ddac65aa1b4f6bbe7dda4b9d359c40",
+    "sourceHash": "sha256:db5118456b12dfc0fc5b30942d8259d4897f08e6313ff6f6f0a61ac1f47fb61d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d3144074137a420dd1c193c90131b07b60ddac65aa1b4f6bbe7dda4b9d359c40",
-    "mappedOn": null,
-    "summary": "Adds custom headlines and tiles to role centers",
+    "sourceHash": "sha256:db5118456b12dfc0fc5b30942d8259d4897f08e6313ff6f6f0a61ac1f47fb61d",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds your own tiles and headlines to role centers per user group.",
     "shape": "usability",
     "primary": [
       {
@@ -31,10 +33,12 @@
       "ng-admin-alerts"
     ],
     "claims": [
-      "Create custom tiles and headlines on Role Centers",
-      "Show components to specific user groups",
-      "Warn users about important events",
-      "Quick access to frequently used functions, reports or data"
+      "Custom tiles and headlines on the role center",
+      "Quick access tiles for frequent functions, reports or data",
+      "Groups control which users see which components",
+      "Headlines can warn users about important events",
+      "Priced per company per month",
+      "Works with Essential and Premium"
     ],
     "countries": [],
     "languages": [

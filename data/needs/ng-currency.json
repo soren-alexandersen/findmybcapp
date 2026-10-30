@@ -81,16 +81,24 @@
           ]
         },
         {
+          "label": "Getting rates for a local currency other than the euro",
+          "patterns": [
+            "base currency",
+            "triangulation"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Keying in exchange rates by hand": 0.58,
-        "Revaluing foreign currency balances at period end": 0.15,
+        "Keying in exchange rates by hand": 0.59,
+        "Revaluing foreign currency balances at period end": 0.16,
         "Seeing the original currency on G/L entries": 0.09,
-        "Quoting or invoicing in another currency": 0.06,
-        "Converting to euro or hedging currency risk": 0.09
+        "Quoting or invoicing in another currency": 0.03,
+        "Converting to euro or hedging currency risk": 0.09,
+        "Getting rates for a local currency other than the euro": 0.19
       }
     },
     {
@@ -150,9 +158,9 @@
         }
       ],
       "coverage": {
-        "European Central Bank (ECB)": 0.18,
-        "Our own national central bank": 0.24,
-        "A commercial feed (XE, OANDA, Open Exchange...)": 0.27,
+        "European Central Bank (ECB)": 0.22,
+        "Our own national central bank": 0.25,
+        "A commercial feed (XE, OANDA, Open Exchange...)": 0.28,
         "Tax authority rates (e.g. HMRC)": 0.09
       }
     },
@@ -188,7 +196,7 @@
       ],
       "coverage": {
         "Yes, we have XE, OANDA or similar": 0.09,
-        "No, we want free official sources": 0.39
+        "No, we want free official sources": 0.41
       }
     },
     {
@@ -220,14 +228,31 @@
           ]
         },
         {
+          "label": "Cryptocurrency or precious metal rates",
+          "patterns": [
+            "crypto",
+            "precious metal"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Fresh rates automatically every day": 0.52,
-        "Historical rates for past dates": 0.33
+        "Fresh rates automatically every day": 0.53,
+        "Historical rates for past dates": 0.34,
+        "Cryptocurrency or precious metal rates": 0.06
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "rate source configuration, covered by the source question",
+      "terms": [
+        "sourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

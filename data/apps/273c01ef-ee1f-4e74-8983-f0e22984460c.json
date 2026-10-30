@@ -8,34 +8,37 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_network%7CPAPPID.273c01ef-ee1f-4e74-8983-f0e22984460c",
-    "lastModified": "2026-10-01T14:44:37.9207718+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T10:58:03.0728332+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-network/",
-    "sourceHash": "sha256:c63ef7cdb388754e61d31755b3be125ea00a7d0536752d4b9539accbd447aae8",
+    "sourceHash": "sha256:81e227118b84c1cf018bab0877a8c198c4a613dc25931ff44a439454e7c31082",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c63ef7cdb388754e61d31755b3be125ea00a7d0536752d4b9539accbd447aae8",
-    "mappedOn": null,
-    "summary": "Licensing functions for Horsa apps",
-    "shape": "addon",
+    "sourceHash": "sha256:81e227118b84c1cf018bab0877a8c198c4a613dc25931ff44a439454e7c31082",
+    "mappedOn": "2026-10-30",
+    "summary": "Shared licensing, telemetry and file-handling library for Horsa Foundation Stack apps.",
+    "shape": "other",
     "primary": [
       {
-        "need": "ng-admin-licensing",
+        "need": "ng-admin-document-storage",
         "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-admin-document-storage"
+      "ng-ux-developer-tools"
     ],
     "claims": [
-      "Generates software licenses for Horsa apps in pay-per-use mode",
-      "Telemetry of database health to Horsa server",
-      "RPC proxy for low-level functions unavailable in SaaS",
-      "Store files in internal table, remote server or Azure Blob Storage",
-      "Browse filesystem from web client"
+      "Generates Horsa software licences with pay-per-use activation",
+      "Sends database health telemetry to Horsa",
+      "Provides low-level functions in SaaS through an RPC proxy",
+      "Stores files in an internal table, on a remote server or in Azure Blob Storage",
+      "Browse a file system from the web client",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -43,12 +46,14 @@
       "it"
     ],
     "industries": [],
-    "connectsTo": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "not_stated",
     "hide": true,
-    "hideReason": "Common base/dependency app for Horsa Foundation Stack apps",
+    "hideReason": "Dependency app providing common functions for other Horsa Foundation Stack apps.",
     "noFit": ""
   },
   "curated": {

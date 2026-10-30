@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynamicsops|AID.dop_bc_assist|PAPPID.a1b2c3d4-5e6f-4a8b-9c0d-1e2f3a4b5c6d",
+  "guid": "a1b2c3d4-5e6f-4a8b-9c0d-1e2f3a4b5c6d",
+  "publisherId": "dynamicsops",
+  "offerId": "dop_bc_assist",
+  "source": {
+    "name": "BC Assist",
+    "publisher": "DYNAMICSOPS",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsops%7CAID.dop_bc_assist%7CPAPPID.a1b2c3d4-5e6f-4a8b-9c0d-1e2f3a4b5c6d",
+    "lastModified": "2026-10-21T05:33:20.4367264+00:00",
+    "appVersion": "0.5.2.7",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsops.com/solutions/bc-assist",
+    "sourceHash": "sha256:8e2016981034acf50c64351ca7e3cfd0aa40eac85c475b4620a9afe77c9a8428",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8e2016981034acf50c64351ca7e3cfd0aa40eac85c475b4620a9afe77c9a8428",
+    "mappedOn": "2026-10-30",
+    "summary": "Guided BC setup and data migration toolkit with reusable configuration blueprints for implementers.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-implementation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-coa-company-setup"
+    ],
+    "claims": [
+      "Setup wizards and consultant workspaces to track implementation progress",
+      "Blueprints organised by country, industry, group, company and environment",
+      "Prepares number series, dimensions, currencies, payment terms and posting groups",
+      "Includes Turkish chart-of-accounts templates",
+      "Prepares inventory, item tracking, warehouse, manufacturing and fixed asset setup",
+      "Configuration packages with staging, mapping, validation and reconciliation for imports",
+      "Prerequisite checks, run history, package revisions and conflict review before applying",
+      "Optional AI help via a configured external AI endpoint",
+      "Needs BC version 28.0 or later",
+      "Source-system migrations may need separate adapters; no universal ERP connector"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

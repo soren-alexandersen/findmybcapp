@@ -8,40 +8,42 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex047overandunderdeliveryquantities%7CPAPPID.9f4ce2e6-5bfa-4c10-a611-972207096156",
-    "lastModified": "2026-10-06T07:43:06.0729876+00:00",
-    "appVersion": "29.0.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T02:10:32.4010709+00:00",
+    "appVersion": "29.0.7.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/over-and-under-delivery-quantities.html",
-    "sourceHash": "sha256:d4292b431ba7cd56d1023fba456a8db8d6d8084d9bb9dd68eced0f0304c568c7",
+    "sourceHash": "sha256:3fc89127c118360fc23397317efa3a0c372bf1e39711e56a9ef61efb946ae490",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d4292b431ba7cd56d1023fba456a8db8d6d8084d9bb9dd68eced0f0304c568c7",
-    "mappedOn": null,
-    "summary": "Allows over- and under-delivery within tolerances",
+    "sourceHash": "sha256:3fc89127c118360fc23397317efa3a0c372bf1e39711e56a9ef61efb946ae490",
+    "mappedOn": "2026-10-30",
+    "summary": "Allows over- and under-delivery within set tolerances on warehouse receipts and shipments.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-receiving-putaway",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-sales-order-entry",
+        "need": "ng-packing-loading",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-packing-loading"
+      "ng-warehouse-setup"
     ],
     "claims": [
-      "Over/under tolerances on inbound and outbound transactions",
-      "Tolerances as fixed quantity or percentage of ordered quantity",
-      "Invoice excess quantities and auto-close partially fulfilled lines",
-      "Priority per setup entry when multiple rules apply",
-      "Tolerances can be set per location, item, customer/vendor or a mix of these",
-      "Adjust over receipts/shipments on warehouse receipt and shipment",
-      "Block over-under quantities or allow with or without warning"
+      "Tolerances apply to both inbound and outbound transactions",
+      "Tolerance as fixed quantity or percentage of ordered quantity",
+      "Invoices excess quantities and closes partly fulfilled lines automatically",
+      "Rules by customer, vendor, location, item or combinations",
+      "Priority per rule when several apply",
+      "Can block, warn or silently allow over-under quantities",
+      "Adjust quantities on warehouse receipts and shipments"
     ],
     "countries": [],
     "languages": [
@@ -50,16 +52,14 @@
       "it"
     ],
     "industries": [
-      "Carpeting and wallpaper",
-      "Food and beverage",
+      "Food & Beverage",
       "Printing",
-      "Rope and chain",
       "Textiles"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

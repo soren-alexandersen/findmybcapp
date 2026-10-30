@@ -8,19 +8,21 @@
     "publisher": "Continia Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.c7577a9d-eec1-44cd-85f9-800529a2f90d%7CPAPPID.1dafd1ac-6218-4a6e-9bd7-3dec0f14a072",
-    "lastModified": "2026-08-21T18:57:32.8514148+00:00",
-    "appVersion": "28.1.0.354438",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T12:43:46.5321075+00:00",
+    "appVersion": "29.1.0.241926",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-payment-management",
-    "sourceHash": "sha256:3040a0d142a9c39d4f863978fadc4257d28216ee6bde27ce3334e8a29f4aa4b3",
+    "sourceHash": "sha256:460e2f4ae77f3493505f234b0e7eb8c13a3d889bdf44bfc727b32407b0f25c68",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3040a0d142a9c39d4f863978fadc4257d28216ee6bde27ce3334e8a29f4aa4b3",
-    "mappedOn": null,
-    "summary": "Payment journal with bank file exchange for Danish banks",
-    "shape": "localization",
+    "sourceHash": "sha256:460e2f4ae77f3493505f234b0e7eb8c13a3d889bdf44bfc727b32407b0f25c68",
+    "mappedOn": "2026-10-30",
+    "summary": "Danish bank-connected payment journal with approvals and automatic bank reconciliation.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-ap-payments",
@@ -33,19 +35,24 @@
     ],
     "secondary": [
       "ng-customer-payments",
-      "ng-currency"
+      "ng-currency",
+      "ng-supplier-onboarding",
+      "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Vendor, employee and customer payments in one payment journal",
-      "Direct bank integration: send payments, receive statements and status updates",
-      "IBAN lookup generates and validates vendor bank details",
-      "Payment approval individually or in batches with auto-skip under limit",
+      "Covers vendor, employee and customer payments and credit memos",
+      "Direct bank connection to send payments and receive statements and status updates",
+      "One journal for payments across bank accounts and foreign currencies",
+      "Fills and validates vendor bank details from the IBAN",
+      "Approve payment lines one by one or in batches, skipping approval below a limit",
       "Bank account verification against payment fraud",
-      "Statement Intelligence auto-reconciles statements on import",
-      "Reconciliation rules create journal lines and match entries",
-      "Summarizes payments to same recipient to cut bank fees",
-      "Tracks payment service provider transactions and fees",
-      "Visual payment status in journal synchronized with bank"
+      "Reconciles statements automatically on import, with user-defined matching rules",
+      "Combines several payments to the same payee into one transfer to cut fees",
+      "Tracks payment service provider transactions and fees and matches them to sales orders",
+      "Payment status shown per journal line, synced with the bank",
+      "Activation goes through a Dynamics partner",
+      "For Denmark, Faroe Islands and Greenland",
+      "Works with BC Essentials and Premium"
     ],
     "countries": [
       "DK",
@@ -59,12 +66,10 @@
       "sv"
     ],
     "industries": [],
-    "connectsTo": [
-      "Danish banks"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

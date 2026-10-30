@@ -8,39 +8,43 @@
     "publisher": "K3 Business Technology Group",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3businesstechnologygroup%7CAID.k3pebblestone_csr%7CPAPPID.2c45ddd3-03fc-4e77-820a-0018da5dcc0f",
-    "lastModified": "2026-07-20T11:32:47.0721189+00:00",
-    "appVersion": "28.1.0.24",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:39:08.2327021+00:00",
+    "appVersion": "28.2.0.28",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
-    "sourceHash": "sha256:4834efd74b4c0cc1ef17351240347a79810adeab02f2c68d0eec60a0fbbedb88",
+    "sourceHash": "sha256:40d7f8a29194bda94761db33efd555cda950b24b5457eb82ed60cfdf683ca1e4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4834efd74b4c0cc1ef17351240347a79810adeab02f2c68d0eec60a0fbbedb88",
-    "mappedOn": null,
-    "summary": "Classifies products and vendors for ethical sustainability",
+    "sourceHash": "sha256:40d7f8a29194bda94761db33efd555cda950b24b5457eb82ed60cfdf683ca1e4",
+    "mappedOn": "2026-10-30",
+    "summary": "Ethical and sustainability classifications with certificates for materials, items and vendors.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-supplier-quality-compliance",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "need": "ng-esg",
+        "need": "ng-product-compliance",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-product-compliance",
+      "ng-esg",
       "ng-vert-fashion"
     ],
     "claims": [
-      "CSR classifications on raw materials, items, vendors and production addresses",
-      "Certificates and documents attached to classifications",
-      "Checklist activities with Blank, Approved or Declined status",
-      "Mandatory activities and attached certificates",
-      "Insights based on CSR classifications"
+      "CSR classifications on raw material or composition, item, and vendor or production address level",
+      "Each classification carries a certificate and supporting documents",
+      "Classifications can have a checklist of activities",
+      "Activities are marked blank, approved or declined",
+      "Activities can be mandatory and have certificates attached",
+      "CSR classification insights available across the system",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -92,7 +96,7 @@
       "K3 Pebblestone"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

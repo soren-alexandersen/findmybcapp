@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.easycustomfieldextender%7CPAPPID.7bf54496-694f-45b3-a645-715a539f3369",
-    "lastModified": "2026-07-28T08:15:15.0798688+00:00",
-    "appVersion": "26.2.64.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T17:20:09.7909454+00:00",
+    "appVersion": "26.4.68.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/easy-custom-field-extender/",
-    "sourceHash": "sha256:1a1ff6ad6416c0ff2f3ae9ba72839bf7182c38d4f16dc964dfa6ee5ac8f37197",
+    "sourceHash": "sha256:6b1acb203b834c036ea351d41d8fcf85c24f2e4d66007f6bf669b412e0d0e4d8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1a1ff6ad6416c0ff2f3ae9ba72839bf7182c38d4f16dc964dfa6ee5ac8f37197",
-    "mappedOn": null,
-    "summary": "Adds custom fields to common entities",
+    "sourceHash": "sha256:6b1acb203b834c036ea351d41d8fcf85c24f2e4d66007f6bf669b412e0d0e4d8",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds up to three no-code custom fields to customers, vendors, items, sales and purchase headers.",
     "shape": "usability",
     "primary": [
       {
@@ -27,17 +29,18 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
     "claims": [
-      "Up to 3 custom fields per entity without coding",
-      "Entities: customer, vendor, item, sales header, purchase header",
-      "Custom label names",
-      "Data types Text, Date and Decimal",
-      "Fields can be required",
-      "Default values flow from master card to transactions",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Up to three custom fields per entity",
+      "Available on customer, vendor, item, sales header and purchase header",
+      "Field labels can be renamed",
+      "Supports text, date and decimal data types",
+      "Fields can be made mandatory",
+      "Values on master records default onto new transactions",
+      "No coding required",
+      "Priced at USD 120 per tenant per year"
     ],
     "countries": [],
     "languages": [
@@ -56,7 +59,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

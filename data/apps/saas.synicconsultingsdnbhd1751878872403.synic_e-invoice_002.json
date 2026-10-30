@@ -1,0 +1,58 @@
+{
+  "appId": "synicconsultingsdnbhd1751878872403.synic_e-invoice_002",
+  "guid": null,
+  "publisherId": "synicconsultingsdnbhd1751878872403",
+  "offerId": "synic_e-invoice_002",
+  "source": {
+    "name": "MY e-Invoice",
+    "publisher": "SYNIC Consulting",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/synicconsultingsdnbhd1751878872403.synic_e-invoice_002",
+    "lastModified": "2025-12-16T08:12:47.0798479+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:db5a9a36667da47980cbe487e1dbb501f724eb559ac628e9c85be26b54f9524b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:db5a9a36667da47980cbe487e1dbb501f724eb559ac628e9c85be26b54f9524b",
+    "mappedOn": "2026-10-30",
+    "summary": "Malaysian LHDN e-invoicing for Business Central, cloud or on-premises",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Meets Malaysian LHDN e-invoice requirements",
+      "Works with cloud and on-premises Business Central",
+      "Suited to small through large companies"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "LHDN MyInvois"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

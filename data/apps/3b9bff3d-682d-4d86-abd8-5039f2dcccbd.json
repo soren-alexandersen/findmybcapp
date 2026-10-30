@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.insight-works|AID.3b9bff3d-682d-4d86-abd8-5039f2dcccbd|PAPPID.3b9bff3d-682d-4d86-abd8-5039f2dcccbd",
+  "guid": "3b9bff3d-682d-4d86-abd8-5039f2dcccbd",
+  "publisherId": "insight-works",
+  "offerId": "3b9bff3d-682d-4d86-abd8-5039f2dcccbd",
+  "source": {
+    "name": "Quality Management Upgrade PowerTool",
+    "publisher": "Insight Works",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.3b9bff3d-682d-4d86-abd8-5039f2dcccbd%7CPAPPID.3b9bff3d-682d-4d86-abd8-5039f2dcccbd",
+    "lastModified": "2026-10-30T10:17:31.7876243+00:00",
+    "appVersion": "1.0.9796.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/quality-management-upgrade-powertool/product-help/",
+    "sourceHash": "sha256:2547b6cd0f27141ba069825d422d84f2260d285b48bc66c3a9c772df97bbb80e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2547b6cd0f27141ba069825d422d84f2260d285b48bc66c3a9c772df97bbb80e",
+    "mappedOn": "2026-10-30",
+    "summary": "Migrates quality setups and tests between BC Quality Management and Quality Inspector.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Moves a single test with its template, fields, grades and lookup values",
+      "Migrates the full setup library in either direction",
+      "Runs as four reports inside the existing company",
+      "Bidirectional, so a pilot can be rolled back",
+      "Requires both extensions in the same company and BC 28 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Quality Inspector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

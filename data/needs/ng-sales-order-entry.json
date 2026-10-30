@@ -160,8 +160,8 @@
       ],
       "coverage": {
         "Typing in orders that arrive by email, PDF or EDI": 0.2,
-        "Closing orders that will never ship in full": 0.18,
-        "Forgetting extra items, deposits or accessories": 0.09,
+        "Closing orders that will never ship in full": 0.15,
+        "Forgetting extra items, deposits or accessories": 0.08,
         "Keeping track of open and late orders": 0.1
       }
     },
@@ -231,10 +231,10 @@
         }
       ],
       "coverage": {
-        "Email with PDF or Excel": 0.1,
+        "Email with PDF or Excel": 0.07,
         "EDI from retail chains or big customers": 0.08,
-        "Field sales reps (on mobile) or phone": 0.09,
-        "Webshop or B2B portal": 0.11
+        "Field sales reps (on mobile) or phone": 0.08,
+        "Webshop or B2B portal": 0.14
       }
     },
     {
@@ -271,8 +271,8 @@
         }
       ],
       "coverage": {
-        "AI that reads incoming orders and drafts them": 0.04,
-        "Call-offs from framework agreements (blanket orders)": 0.08
+        "AI that reads incoming orders and drafts them": 0.03,
+        "Call-offs from framework agreements (blanket orders)": 0.07
       }
     },
     {
@@ -316,8 +316,8 @@
         }
       ],
       "coverage": {
-        "Close the rest, no backorder": 0.16,
-        "Allow shipping a bit more than ordered": 0.04
+        "Close the rest, no backorder": 0.12,
+        "Allow shipping a bit more than ordered": 0.03
       }
     },
     {
@@ -364,9 +364,18 @@
       ],
       "coverage": {
         "Minimum order amount or quantity": 0.06,
-        "Only certain items for certain customers": 0.07,
-        "Credit limit or stock availability": 0.06
+        "Only certain items for certain customers": 0.06,
+        "Credit limit or stock availability": 0.05
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'product' wording, mixed topics",
+      "terms": [
+        "product"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

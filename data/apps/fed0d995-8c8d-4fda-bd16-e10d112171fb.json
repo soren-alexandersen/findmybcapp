@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.abc-inventory-analysis|PAPPID.fed0d995-8c8d-4fda-bd16-e10d112171fb",
+  "guid": "fed0d995-8c8d-4fda-bd16-e10d112171fb",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "abc-inventory-analysis",
+  "source": {
+    "name": "ABC Inventory Analysis",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.abc-inventory-analysis%7CPAPPID.fed0d995-8c8d-4fda-bd16-e10d112171fb",
+    "lastModified": "2026-10-19T12:23:36.9420277+00:00",
+    "appVersion": "1.29.1.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://gmsoftdynamics.com/apps/free/abc-inventory-analysis/docs/",
+    "sourceHash": "sha256:9f492f841587d2b73fa69f104bb22a8ce6fcde4e4d532d615abce1b83686a555",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9f492f841587d2b73fa69f104bb22a8ce6fcde4e4d532d615abce1b83686a555",
+    "mappedOn": "2026-10-30",
+    "summary": "Classifies items and SKUs into ABC(D) classes by six ranking models.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Six ranking models: revenue, gross profit, COGS, usage value, GMROII and pick frequency",
+      "Each model has its own A/B thresholds and lookback period",
+      "Items without activity get class D",
+      "Preview worksheet with value, share and cumulative share before applying",
+      "Preview can be exported to Excel",
+      "Classes and calculation date shown on item card, list and SKU card per model",
+      "Items can be excluded or have classes locked with manual override",
+      "Sets physical counting period codes per class automatically",
+      "A daily job queue entry recalculates all models",
+      "Keeps run history with item lines",
+      "Six reports including class movement and an exception list",
+      "Free with no item limit"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

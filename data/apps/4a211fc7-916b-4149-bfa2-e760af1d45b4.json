@@ -8,18 +8,20 @@
     "publisher": "Flank Speed Consulting AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.flankspeedconsultingab1620985931651%7CAID.medius_go_connect%7CPAPPID.4a211fc7-916b-4149-bfa2-e760af1d45b4",
-    "lastModified": "2026-03-31T09:52:32.8277155+00:00",
-    "appVersion": "1.4.1.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T11:04:35.0881878+00:00",
+    "appVersion": "1.4.3.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://flankspeed.se/en/mediusgo/",
-    "sourceHash": "sha256:a0f0988c075515fd6a9321dbd44d77e626c4893d091708a4f846e7e7be291c78",
+    "sourceHash": "sha256:b70bb6b75438cd8204882724ad55e95eac61253ecd86db611e4e9c7a30f87fbb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a0f0988c075515fd6a9321dbd44d77e626c4893d091708a4f846e7e7be291c78",
-    "mappedOn": null,
-    "summary": "Syncs procurement and invoices between MediusGo and BC",
+    "sourceHash": "sha256:b70bb6b75438cd8204882724ad55e95eac61253ecd86db611e4e9c7a30f87fbb",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs supplier invoices, attachments and approvals from MediusGo into Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -27,11 +29,14 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
     "claims": [
-      "Synchronisation and invoice collection from MediusGo via job queues",
-      "Imports attached documents to purchase documents with PDF viewer",
-      "Imports approval signatures on accounting lines"
+      "Synchronisation and invoice collection run via job queues",
+      "Imports attached documents onto purchase documents",
+      "Includes a PDF viewer for attachments",
+      "Imports approval signatures on accounting lines for viewing in BC"
     ],
     "countries": [],
     "languages": [],
@@ -41,7 +46,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

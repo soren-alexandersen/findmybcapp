@@ -8,18 +8,20 @@
     "publisher": "Comsol Unternehmenslösungen AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.comsol%7CAID.multinavmail%7CPAPPID.680cc2ab-442b-4365-bda9-b26a641bf53e",
-    "lastModified": "2026-09-29T14:26:37.7421579+00:00",
-    "appVersion": "27.5.0.99",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T12:00:03.9314028+00:00",
+    "appVersion": "28.5.1.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://static.comsol.ag/multinavmail/docu/",
-    "sourceHash": "sha256:e77b6be27f748ae19f4b4ea22a8ed8bd1e2a6bbea690760f4f1286b994c373e6",
+    "sourceHash": "sha256:21495ddccb41f452bc5b35ac34c43b7fe7d553db6d021c0a4b24c38cc251aee4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e77b6be27f748ae19f4b4ea22a8ed8bd1e2a6bbea690760f4f1286b994c373e6",
-    "mappedOn": null,
-    "summary": "Automatic emailing of invoices and documents with templates",
+    "sourceHash": "sha256:21495ddccb41f452bc5b35ac34c43b7fe7d553db6d021c0a4b24c38cc251aee4",
+    "mappedOn": "2026-10-30",
+    "summary": "Emails invoices, reminders, quotes and other documents from BC using editable templates.",
     "shape": "usability",
     "primary": [
       {
@@ -31,17 +33,21 @@
       "ng-sales-invoicing"
     ],
     "claims": [
-      "Sends documents to customers and suppliers on manual and process-based generation",
-      "Invoices sent as PDF by e-mail with related receipts attached to credit notes or reminders",
-      "Order confirmations combined with other documents",
-      "Recipient and sender taken automatically from the document",
-      "Multilingual templates using the document's language",
-      "Mail body editor with field placeholders from BC",
-      "Central quick parts for reusable attachments",
-      "Automatic shipment notifications with tracking link via Comsol Multiship",
-      "Flexible sender: document owner, process-related or separate mailbox",
-      "12-month minimum term, billed annually in advance",
-      "30-day free trial"
+      "Sends documents to customers and suppliers both manually and from automated processes",
+      "Sends invoices as PDF by email",
+      "Attaches related receipts to credit notes and reminders",
+      "Bundles extra documents with order confirmations",
+      "Takes recipient and sender from the document automatically",
+      "Sends shipment notifications with tracking link when used with Comsol Multiship",
+      "Flexible choice of recipient and sender mailbox per template",
+      "One template can hold several languages and picks the document's language",
+      "Email body editor with placeholders for any BC field",
+      "Reusable attachments managed centrally and shared across templates",
+      "Flat fee of EUR 100 per month regardless of user count",
+      "12-month minimum term billed a year in advance",
+      "30-day free trial",
+      "Works with BC Essentials and Premium",
+      "Available in German and English"
     ],
     "countries": [],
     "languages": [
@@ -49,9 +55,7 @@
       "en"
     ],
     "industries": [],
-    "connectsTo": [
-      "Comsol Multiship"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",

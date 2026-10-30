@@ -8,18 +8,20 @@
     "publisher": "SIEVERS-GROUP",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sievers-group%7CAID.snclogistics%7CPAPPID.c2d673dd-1e8c-4d1e-89ce-137d6e6827e1",
-    "lastModified": "2026-10-05T16:50:10.6180411+00:00",
-    "appVersion": "28.0.2986.4",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T09:46:10.3400341+00:00",
+    "appVersion": "29.0.3049.6",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://sncdocumentations.blob.core.windows.net/products/SIEVERS%20WMS_documentation_de-DE.html",
-    "sourceHash": "sha256:a60a0d91d417034dfcfa5bbbd85a46fb48cf7f21469d93134ed604a0bafd689f",
+    "sourceHash": "sha256:bd21f31dcf38b7a596353907b4a9e465b488ebef1a4a95ad27a12511f4d1edb8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a60a0d91d417034dfcfa5bbbd85a46fb48cf7f21469d93134ed604a0bafd689f",
-    "mappedOn": null,
-    "summary": "Warehouse management system for intralogistics",
+    "sourceHash": "sha256:bd21f31dcf38b7a596353907b4a9e465b488ebef1a4a95ad27a12511f4d1edb8",
+    "mappedOn": "2026-10-30",
+    "summary": "Warehouse management system with license plates, lot tracking, strategies and mobile processes.",
     "shape": "process",
     "primary": [
       {
@@ -27,24 +29,29 @@
         "confidence": "high"
       },
       {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
         "need": "ng-allocation-picking",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
       "ng-lot-serial-traceability",
+      "ng-warehouse-kpis",
       "ng-admin-devices"
     ],
     "claims": [
-      "License plate (load carrier) handling",
-      "Serial, lot and best-before date handling",
-      "Inbound and outbound warehouse strategies",
-      "Warehouse teams for workload management",
-      "Detailed warehouse topology with coordinates",
-      "Mobile processes from receiving to shipment",
-      "All processes also usable paper-based",
-      "Process variants exist for warehouses of both small and large size"
+      "Tracks stock by load carrier using license plates",
+      "Handles serial numbers, lot numbers and best-before dates",
+      "Configurable inbound and outbound strategies tied to storage methods",
+      "Organises staff into warehouse teams to manage workload and performance",
+      "Models warehouse topology with location coordinates",
+      "Mobile device flows cover receipt through shipment",
+      "Processes can also run on paper",
+      "Preconfigured process variants for small and large warehouses",
+      "Publisher must be contacted after install for planning-service access"
     ],
     "countries": [],
     "languages": [
@@ -54,8 +61,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

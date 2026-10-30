@@ -8,44 +8,50 @@
     "publisher": "P/f Formula",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.scan%7CPAPPID.c504ecfd-b97a-4b8b-8a94-018ccb567fd1",
-    "lastModified": "2026-06-11T10:01:31.1729648+00:00",
-    "appVersion": "28.0.0.54",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T23:14:57.9768478+00:00",
+    "appVersion": "28.0.0.59",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.formula.fo/contact/",
-    "sourceHash": "sha256:b4eda871824062ea12e90da97c5b8b74025bd75d4c28097dbd8626195a6f2067",
+    "sourceHash": "sha256:80387490c32fb8ee24cfdb39e020ac46cf4100c352e8445c22a4355c240de14a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b4eda871824062ea12e90da97c5b8b74025bd75d4c28097dbd8626195a6f2067",
-    "mappedOn": null,
-    "summary": "Mobile WMS via browser on scanners and phones",
+    "sourceHash": "sha256:80387490c32fb8ee24cfdb39e020ac46cf4100c352e8445c22a4355c240de14a",
+    "mappedOn": "2026-10-30",
+    "summary": "Browser-based mobile warehouse scanning for picking, receiving, counting and labels.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-admin-devices",
+        "need": "ng-allocation-picking",
         "confidence": "high"
       },
       {
-        "need": "ng-allocation-picking",
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-counting",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
-      "ng-stock-counting",
+      "ng-admin-devices",
       "ng-barcode-labels",
       "ng-proj-materials-subcontract"
     ],
     "claims": [
-      "Runs on Android scanners and Android/iOS smartphones via web browser",
-      "Picking for sales orders",
-      "Receiving from purchase orders",
-      "Inventory counting",
+      "Runs in a web browser on Android scanners, Android phones or iPhones",
+      "Picks items for sales orders",
+      "Receives purchase order items into stock",
+      "Supports inventory counting",
       "Registers item supplies to BC projects",
       "Prints item labels",
       "Shows item quantity and placement",
-      "Transactions recorded directly in BC"
+      "Blocked items and location changes in BC apply on the scanner",
+      "Transactions post straight into BC"
     ],
     "countries": [],
     "languages": [],
@@ -53,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -20,7 +20,9 @@
     "Multichannel hub between BC and all our sales channels",
     "Orders from Allegro into BC",
     "Listing products on marketplaces straight from BC item data",
-    "Returns from marketplaces are a nightmare to book"
+    "Returns from marketplaces are a nightmare to book",
+    "We want our Amazon stock levels to match what we have in BC",
+    "We need to know right away when a marketplace order fails to sync"
   ],
   "questions": [
     {
@@ -68,9 +70,9 @@
       ],
       "coverage": {
         "Amazon": 0.59,
-        "eBay": 0.26,
-        "Mirakl, OTTO, Bol.com or other European marketplaces": 0.37,
-        "Walmart, Temu, TikTok, Etsy": 0.11
+        "eBay": 0.24,
+        "Mirakl, OTTO, Bol.com or other European marketplaces": 0.34,
+        "Walmart, Temu, TikTok, Etsy": 0.14
       }
     },
     {
@@ -104,8 +106,8 @@
         }
       ],
       "coverage": {
-        "Fulfillment by Amazon (FBA)": 0.19,
-        "We ship Amazon orders ourselves": 0.19,
+        "Fulfillment by Amazon (FBA)": 0.17,
+        "We ship Amazon orders ourselves": 0.14,
         "As a vendor to Amazon (Vendor Central)": 0.07
       }
     },
@@ -137,13 +139,24 @@
           ]
         },
         {
+          "label": "One platform for marketplaces, webshop and physical stores",
+          "patterns": [
+            "physical stores?",
+            "offline channels",
+            "omni-?channel",
+            "multi-store",
+            "closest store"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Through a hub like ChannelEngine or Linnworks": 0.26,
-        "One connector for marketplaces and our webshop": 0.19
+        "Through a hub like ChannelEngine or Linnworks": 0.24,
+        "One connector for marketplaces and our webshop": 0.21,
+        "One platform for marketplaces, webshop and physical stores": 0.1
       }
     },
     {
@@ -186,16 +199,102 @@
           ]
         },
         {
+          "label": "Stock levels from BC, per warehouse",
+          "patterns": [
+            "inventory (updates|levels|sync)",
+            "syncs (fba )?inventory",
+            "updates inventory",
+            "stock levels"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Tracking back to the marketplace": 0.44,
-        "Returns and refunds": 0.48,
-        "Product listings and prices from BC": 0.3,
-        "Payouts, settlements and fees": 0.22
+        "Tracking back to the marketplace": 0.45,
+        "Returns and refunds": 0.45,
+        "Product listings and prices from BC": 0.31,
+        "Payouts, settlements and fees": 0.21,
+        "Stock levels from BC, per warehouse": 0.34
       }
+    },
+    {
+      "id": "who-should-keep-an-eye-on-the-",
+      "text": "Who should keep an eye on the connection when orders fail to come through?",
+      "multi": true,
+      "options": [
+        {
+          "label": "We do, with error alerts and a sync log",
+          "patterns": [
+            "alert",
+            "sync errors",
+            "integration errors",
+            "error info",
+            "notification on errors"
+          ]
+        },
+        {
+          "label": "The vendor runs and monitors it for us",
+          "patterns": [
+            "managed service",
+            "monitored data flows",
+            "managed deployment"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We do, with error alerts and a sync log": 0.14,
+        "The vendor runs and monitors it for us": 0.1
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'integration' wording",
+      "terms": [
+        "integration"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "pricing and fee model",
+      "terms": [
+        "annual",
+        "plus",
+        "installation",
+        "renewal"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "app interface languages",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "Seller Central authentication and upload details; multiple seller accounts claimed by only one app",
+      "terms": [
+        "seller"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "setup and trial wording",
+      "terms": [
+        "through",
+        "assist",
+        "fully",
+        "functional"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

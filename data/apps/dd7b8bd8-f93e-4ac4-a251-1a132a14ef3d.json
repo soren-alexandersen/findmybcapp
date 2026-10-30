@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.origo|AID.origo_bifrost_subscription_billing|PAPPID.dd7b8bd8-f93e-4ac4-a251-1a132a14ef3d",
+  "guid": "dd7b8bd8-f93e-4ac4-a251-1a132a14ef3d",
+  "publisherId": "origo",
+  "offerId": "origo_bifrost_subscription_billing",
+  "source": {
+    "name": "Bifrost Subscription Billing",
+    "publisher": "Origo",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_subscription_billing%7CPAPPID.dd7b8bd8-f93e-4ac4-a251-1a132a14ef3d",
+    "lastModified": "2026-10-28T10:31:48.0583565+00:00",
+    "appVersion": "28.0.1.47",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bifrost.origo.is/en-us/subscription-billing/",
+    "sourceHash": "sha256:a700754f479b67e672f3f38d45dea0afec88c1395d438a11a34679bb2cca819c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a700754f479b67e672f3f38d45dea0afec88c1395d438a11a34679bb2cca819c",
+    "mappedOn": "2026-10-30",
+    "summary": "Runs Microsoft Subscription Billing actions from integrations, schedules or AI assistants.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Applies packages and attaches subscription lines to customer or vendor contracts",
+      "Bills a single contract or turns a billing proposal into posted documents",
+      "A billing run can be undone before posting",
+      "Previews a contract or run with real figures without saving",
+      "Imports usage files and links them to subscriptions for usage billing",
+      "Closes ended lines, merges contract lines and updates exchange rates on foreign-currency contracts",
+      "Releases deferrals, extends subscriptions and creates renewal quotes",
+      "Converts staged import rows into subscriptions and contracts",
+      "Requires Microsoft's Subscription Billing app, BC 28.3+ and Bifrost Foundation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Bifrost Foundation (Origo)",
+      "Microsoft Subscription Billing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,59 +8,58 @@
     "publisher": "XtensionIT Aps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xtefavadelogue%7CPAPPID.f37ef094-51ec-4e3f-ba93-ed6a507ea978",
-    "lastModified": "2026-05-20T14:18:13.7435704+00:00",
-    "appVersion": "1.0.20260520.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T12:26:47.5450836+00:00",
+    "appVersion": "1.0.20261022.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://fava.twoday.dk/",
-    "sourceHash": "sha256:4e704f722fb67b7df4695fec07f5d302d0c91bfad5cf72a478cdf9155759eedd",
+    "sourceHash": "sha256:b4b009ff1486909f18a031c898c42113bee249eaea009fc9b600fe6b449f9537",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4e704f722fb67b7df4695fec07f5d302d0c91bfad5cf72a478cdf9155759eedd",
-    "mappedOn": null,
-    "summary": "Integrates Delogue PLM with FaVa variant solution",
+    "sourceHash": "sha256:b4b009ff1486909f18a031c898c42113bee249eaea009fc9b600fe6b449f9537",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way integration between Delogue PLM and the FaVa fashion variant add-on.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-conn-cad-plm",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-fashion",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-vert-fashion",
       "ng-item-master-data"
     ],
     "claims": [
-      "Two-way data sharing and updates between Delogue PLM and FaVa",
-      "Uses API V2 integration",
-      "Automatic updates",
-      "Individual customization in setup",
-      "Available only in Danish",
-      "Depends on LS Central and FaVa"
+      "Data is shared and updated both ways between Delogue and FaVa",
+      "Built on API v2",
+      "Setup can be adjusted per company",
+      "Updates run automatically",
+      "Listing is offered in Danish only"
     ],
     "countries": [
       "DK"
     ],
     "languages": [
-      "da"
+      "da",
+      "en"
     ],
     "industries": [
       "Fashion",
-      "Textile"
+      "Textiles"
     ],
     "connectsTo": [
       "Delogue PLM"
     ],
     "requires": [
-      "FaVa by XtensionIT",
-      "LS Central"
+      "LS Central",
+      "FaVa by XtensionIT"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

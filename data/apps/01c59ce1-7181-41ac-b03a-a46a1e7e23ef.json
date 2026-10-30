@@ -8,18 +8,20 @@
     "publisher": "bydynamics",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.agl-bdy%7CPAPPID.01c59ce1-7181-41ac-b03a-a46a1e7e23ef",
-    "lastModified": "2026-09-28T05:52:27.8929134+00:00",
-    "appVersion": "27.8.27.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T17:14:30.2113255+00:00",
+    "appVersion": "27.8.29.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://portal.bydynamics.com/",
-    "sourceHash": "sha256:57116fbbdc66d2afe22812fb958b31c82d146bbf4858fc1a09aa70cdd7c984b9",
+    "sourceHash": "sha256:324aa68ef747e65e78913a81ca37e94773a0c5a9abad158a685437bf6a458610",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:57116fbbdc66d2afe22812fb958b31c82d146bbf4858fc1a09aa70cdd7c984b9",
-    "mappedOn": null,
-    "summary": "Apply and unapply G/L entries on the same account",
+    "sourceHash": "sha256:324aa68ef747e65e78913a81ca37e94773a0c5a9abad158a685437bf6a458610",
+    "mappedOn": "2026-10-30",
+    "summary": "Apply and unapply G/L entries on the same account to track open and settled amounts.",
     "shape": "process",
     "primary": [
       {
@@ -28,15 +30,18 @@
       }
     ],
     "secondary": [
-      "ng-period-close"
+      "ng-period-close",
+      "ng-admin-cloud-upgrade"
     ],
     "claims": [
-      "Applies and unapplies G/L entries that belong to one account",
+      "Apply and unapply G/L entries within one G/L account",
       "Open/closed status and remaining amount per entry",
-      "Application history per entry",
-      "Migrates legacy NL localization application data",
-      "Validation: same account, no self-apply, only open entries",
-      "Works on W1 in any country"
+      "Full application history per entry",
+      "Useful for clearing, suspense and intercompany balance sheet accounts",
+      "Migrates legacy Dutch localization application data automatically on install",
+      "Validation: same account, no self-application, only open entries",
+      "Built on W1, works in any country version",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -50,7 +55,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

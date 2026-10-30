@@ -8,26 +8,28 @@
     "publisher": "IM-PROJECTS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im_e_procurement_%7CPAPPID.41a1b9a8-69de-4a28-90a7-6110cfff9b75",
-    "lastModified": "2026-06-19T09:11:30.5898738+00:00",
-    "appVersion": "1.0.0.62",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T16:32:10.0974754+00:00",
+    "appVersion": "1.0.0.68",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://imeprocurement.help.im-projects.com/",
-    "sourceHash": "sha256:57f5260648ba668a9d5f68eb9f29da5cc4dc641373accf8f6b075fb104da106f",
+    "sourceHash": "sha256:eecf26c25072b235051faef2f1a97776165ec1449bd20226c9a2c624e89f9b72",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:57f5260648ba668a9d5f68eb9f29da5cc4dc641373accf8f6b075fb104da106f",
-    "mappedOn": null,
-    "summary": "E-procurement supplying remote locations from central warehouse",
+    "sourceHash": "sha256:eecf26c25072b235051faef2f1a97776165ec1449bd20226c9a2c624e89f9b72",
+    "mappedOn": "2026-10-30",
+    "summary": "Supplies shops and remote sites from a central warehouse or external vendors.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-replenishment-planning",
+        "need": "ng-purchase-requisitions",
         "confidence": "medium"
       },
       {
-        "need": "ng-purchase-orders",
+        "need": "ng-replenishment-planning",
         "confidence": "medium"
       }
     ],
@@ -35,8 +37,10 @@
       "ng-vert-retail"
     ],
     "claims": [
-      "Supplies remote locations from central warehouse or external vendors",
-      "Central purchasing for affiliated companies and franchises"
+      "Lets remote locations be supplied from a central warehouse or from external vendors",
+      "Built for central purchasing serving affiliated companies and franchises",
+      "Aimed at retail, size and colour, wholesale, food service and hospitality",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -66,15 +70,12 @@
       "it"
     ],
     "industries": [
-      "Food services",
-      "Hospitality",
-      "Retail",
-      "Wholesale"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

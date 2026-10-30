@@ -8,18 +8,20 @@
     "publisher": "Adfocom Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.greenline-floricode%7CPAPPID.b591d54b-64b0-4587-9465-a7edc6222a6c",
-    "lastModified": "2026-06-01T08:31:15.6239239+00:00",
-    "appVersion": "26.2.2.8",
-    "pricingTypes": [],
+    "lastModified": "2026-10-16T10:42:04.8475901+00:00",
+    "appVersion": "26.2.2.13",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.adfocom.nl/helpdesk/",
-    "sourceHash": "sha256:a777591f10435b8e59b50099ad11647f922e5d280e33f6686931c0fe3c7be389",
+    "sourceHash": "sha256:6c19aa6eb840252225d64086d15356192ef5d71882f4ceb92d26d8fb71d1179e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a777591f10435b8e59b50099ad11647f922e5d280e33f6686931c0fe3c7be389",
-    "mappedOn": null,
-    "summary": "Integrates Floricode product data standards for flower and plant trade",
+    "sourceHash": "sha256:6c19aa6eb840252225d64086d15356192ef5d71882f4ceb92d26d8fb71d1179e",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds Floricode floriculture product data standards to the Greenline BC solution.",
     "shape": "connector",
     "primary": [
       {
@@ -28,17 +30,18 @@
       },
       {
         "need": "ng-item-master-data",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
     "claims": [
-      "Supports VBN article units for product identification",
-      "Product gradings and sortings per industry classification",
-      "Floriculture color classifications",
+      "VBN article units for product identification",
+      "Product gradings and sortings by industry classification",
+      "Floriculture colour classifications",
       "Packaging and container codes for logistics",
-      "Floriculture-specific product characteristics",
-      "Works within Business Central – GreenLine"
+      "Floriculture-specific product characteristics"
     ],
     "countries": [],
     "languages": [],
@@ -52,7 +55,7 @@
       "Greenline"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

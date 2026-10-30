@@ -8,20 +8,20 @@
     "publisher": "Binary Stream Software Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.merge_utility_transactability_for_d365bc%7CPAPPID.e992b834-2e9b-4dce-b538-7beff28fa83e",
-    "lastModified": "2025-10-31T16:54:20.6973431+00:00",
-    "appVersion": "1.10.1.0",
+    "lastModified": "2026-10-15T14:52:40.8014535+00:00",
+    "appVersion": "1.11.1.0",
     "pricingTypes": [
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/MUHelp/MU.htm",
-    "sourceHash": "sha256:8e2647111067e7c74282a91590f0c41abd292e3ba555828360cb824fa5263bbc",
+    "sourceHash": "sha256:e3b4d80c2e6e459adb12b895a608330e838a66de5cfdbb6fbdc549b164d52012",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8e2647111067e7c74282a91590f0c41abd292e3ba555828360cb824fa5263bbc",
-    "mappedOn": null,
-    "summary": "Merges duplicate customers, vendors, G/L accounts and other records",
+    "sourceHash": "sha256:e3b4d80c2e6e459adb12b895a608330e838a66de5cfdbb6fbdc549b164d52012",
+    "mappedOn": "2026-10-30",
+    "summary": "Merges duplicate customers, vendors, items, G/L accounts and dimension values, keeping history.",
     "shape": "usability",
     "primary": [
       {
@@ -33,22 +33,26 @@
       "ng-ux-data-quality"
     ],
     "claims": [
-      "Merges duplicate customers, vendors, G/L accounts, items and dimension values",
-      "Keeps transaction history when merging",
+      "Merges duplicates for customers, vendors, G/L accounts, items and dimension values",
+      "Transaction history is kept when merging",
       "Merged records update across ledgers, invoices and contacts",
-      "Batch processing for large-scale cleanup",
-      "Undo Merge to reverse changes",
-      "Minimum 10 users"
+      "Batch processing for large cleanups",
+      "Merges can be undone",
+      "Priced per user, minimum 10 users",
+      "Available in English"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Energy & Resources",
+      "Financial Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

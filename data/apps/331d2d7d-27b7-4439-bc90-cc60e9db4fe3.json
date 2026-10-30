@@ -8,50 +8,51 @@
     "publisher": "KUMAVISION AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.bc_booster_global%7CPAPPID.331d2d7d-27b7-4439-bc90-cc60e9db4fe3",
-    "lastModified": "2026-09-25T13:03:30.5557069+00:00",
-    "appVersion": "28.5.537.0",
+    "lastModified": "2026-10-26T11:09:41.9391163+00:00",
+    "appVersion": "29.0.554.0",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/kba/",
-    "sourceHash": "sha256:870aee8874519940d42c3f2d4580dcd93a0d22e99b23005e382bcaf94e3b0866",
+    "sourceHash": "sha256:258a1cf4337a63c9181232c7d4aaf36797da49aad23f55b1721c3c860ab31d46",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:870aee8874519940d42c3f2d4580dcd93a0d22e99b23005e382bcaf94e3b0866",
-    "mappedOn": null,
-    "summary": "Over 100 comfort features across BC",
-    "shape": "process",
+    "sourceHash": "sha256:258a1cf4337a63c9181232c7d4aaf36797da49aad23f55b1721c3c860ab31d46",
+    "mappedOn": "2026-10-30",
+    "summary": "Package of 100+ general BC enhancements: document texts, mandatory fields, pricing, framework orders.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-data-entry",
         "confidence": "medium"
       },
       {
-        "need": "ng-ux-document-layouts",
+        "need": "ng-ux-data-quality",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-data-quality",
+      "ng-ux-notes-collaboration",
       "ng-sales-pricing",
       "ng-sales-order-entry",
-      "ng-ux-notes-collaboration"
+      "ng-ux-document-layouts"
     ],
     "claims": [
-      "Bundle of 100+ usability and process features",
+      "Bundles more than 100 enhancements to standard BC",
       "Document layouts with style definitions",
-      "Pre- and post-texts for header and lines, written in a continuous text editor",
+      "Pre- and post-texts on document headers and lines via a text editor",
       "Customer-specific mandatory fields with validation",
-      "Document structuring with headings, bundle and summary lines",
+      "Headings, bundle and summary lines to structure documents",
       "Hierarchies for contacts, customers and vendors",
-      "Graduated prices and item price groups for purchase and sales",
-      "Incoming orders statistics key figure",
-      "Minimum contribution margin check on sales lines with warning",
+      "Graduated prices and item price groups for purchasing and sales",
+      "Incoming order statistics recorded automatically",
+      "Warns when a sales line falls below a minimum contribution margin",
       "Framework agreements for blanket orders",
-      "Document process ID links related purchase and sales documents",
-      "Must be deployed with KUMAVISION; tested country version for DE/AT/CH"
+      "Process ID links related purchase and sales documents of one transaction",
+      "Not tested against local regulations and deployed only with the publisher; tested version exists for DE, AT, CH",
+      "Included as a base in the publisher's industry solutions"
     ],
     "countries": [],
     "languages": [

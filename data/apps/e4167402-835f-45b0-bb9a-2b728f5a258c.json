@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pe365dispatchpackaging%7CPAPPID.e4167402-835f-45b0-bb9a-2b728f5a258c",
-    "lastModified": "2026-09-16T16:58:46.7184814+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T12:11:42.0579361+00:00",
+    "appVersion": "14.0.25.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/dispmgt/index.html",
-    "sourceHash": "sha256:054e250a4073e56a85d07674f8a9050016476a33a73524107fb5269c8155b457",
+    "sourceHash": "sha256:aec81fe5ccb0c024d90742cf4a6814b25aa834b3ddcc91cb0ca844584162cd38",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:054e250a4073e56a85d07674f8a9050016476a33a73524107fb5269c8155b457",
-    "mappedOn": null,
-    "summary": "Dispatch, transport, routes, packaging and labelling",
+    "sourceHash": "sha256:aec81fe5ccb0c024d90742cf4a6814b25aa834b3ddcc91cb0ca844584162cd38",
+    "mappedOn": "2026-10-30",
+    "summary": "Plans dispatches and tours, calculates packing proposals and prints SSCC labels and CMRs.",
     "shape": "process",
     "primary": [
       {
@@ -29,23 +31,29 @@
       {
         "need": "ng-transport-planning",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-barcode-labels",
-      "ng-shipping-carriers"
+      "ng-shipping-carriers",
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Packing proposal incl. auxiliary materials with weights and volumes per level",
-      "Manages packaging materials such as pallets, cages, KLTs, containers",
-      "Automatic packaging hierarchy for an entire dispatch",
+      "Calculates full packing proposals including auxiliary packaging materials",
+      "Shows storage locations, weights and volumes at each packing level",
+      "Delivery proposals plan dispatch based on availability",
+      "Applies customer rules such as single-item pallets or mixed packages",
+      "Manages packaging materials such as pallets, cages, KLTs and containers per customer",
       "Dispatch planning journal",
-      "Dispatch orders and collective tours incl. transfer orders",
-      "SSCC and GS1 goods labels",
-      "Package inventory and Euro pallet accounts",
-      "Invoice actual packaging materials used",
-      "Forwarding orders and CMR documents",
-      "Customer packing requirements such as pallet purity and mixed packages"
+      "Groups shipments, orders and transfers into dispatch orders and tours, incoming too",
+      "Generates SSCC and GS1 goods labels and license plates",
+      "Tracks package accounts such as Euro pallets and invoices packaging used",
+      "Produces forwarding orders, CMR and extended packing lists",
+      "Works with Yaveon 365 Mobile Dispatch, EDI and Automotive",
+      "Works with BC Essentials and Premium"
     ],
     "countries": [
       "AD",
@@ -145,7 +153,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

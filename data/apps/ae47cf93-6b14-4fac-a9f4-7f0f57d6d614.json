@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/taskcentral/",
     "sourceHash": "sha256:f1645c3f64d078ca40139ea41df52e9e21c5569da21be114c45e83c5977c342a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:f1645c3f64d078ca40139ea41df52e9e21c5569da21be114c45e83c5977c342a",

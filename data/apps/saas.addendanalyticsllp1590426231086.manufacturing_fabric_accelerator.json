@@ -1,0 +1,69 @@
+{
+  "appId": "addendanalyticsllp1590426231086.manufacturing_fabric_accelerator",
+  "guid": null,
+  "publisherId": "addendanalyticsllp1590426231086",
+  "offerId": "manufacturing_fabric_accelerator",
+  "source": {
+    "name": "Manufacturing Analytics Fabric Accelerator",
+    "publisher": "Addend Analytics LLP",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/addendanalyticsllp1590426231086.manufacturing_fabric_accelerator",
+    "lastModified": "2026-08-07T12:13:36.5970397+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:4cec60d46a1d86362368c7a9c478f27a03728d6c912587019fa312be3f2d05c2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:4cec60d46a1d86362368c7a9c478f27a03728d6c912587019fa312be3f2d05c2",
+    "mappedOn": "2026-10-30",
+    "summary": "Prebuilt Microsoft Fabric analytics for manufacturers covering OEE, downtime, inventory and costs.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lean-production",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-breakdown",
+      "ng-inventory-analysis",
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Built on Microsoft Fabric with a Lakehouse and Power BI",
+      "Ingests data from ERP, MES, BC and shop-floor systems with Dataflows",
+      "Setup takes about three weeks and is done manually",
+      "Tracks OEE, machine downtime and line performance",
+      "Analyses causes of planned and unplanned stoppages",
+      "Covers raw material usage, stock levels and expiry",
+      "Shows costs, margins and resource utilisation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Microsoft Fabric",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "arggo-consulting-romania-4477495.timeqode",
+  "guid": null,
+  "publisherId": "arggo-consulting-romania-4477495",
+  "offerId": "timeqode",
+  "source": {
+    "name": "Timeqode - BPM Platform",
+    "publisher": "Arggo Software Development&Consulting SA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/arggo-consulting-romania-4477495.timeqode",
+    "lastModified": "2026-08-05T23:47:36.3504074+00:00",
+    "appVersion": "1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:b13c145551014d4a192a64891c69d704adfac05a74ce4da12c896e53330266d1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b13c145551014d4a192a64891c69d704adfac05a74ce4da12c896e53330266d1",
+    "mappedOn": "2026-10-30",
+    "summary": "Low-code platform for modelling business process workflows and apps, with a BC plugin.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Workflows and apps are modelled visually without code",
+      "Built apps run as web apps on any device",
+      "Native plugin integration with Business Central and Microsoft 365",
+      "Pulls live data from ERP, CRM, DMS or legacy systems into workflows and document templates",
+      "Workflow results can be written back to the source system"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

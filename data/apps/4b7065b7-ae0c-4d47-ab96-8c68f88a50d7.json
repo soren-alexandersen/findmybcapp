@@ -8,19 +8,21 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.pdf-to-xml%7CPAPPID.4b7065b7-ae0c-4d47-ab96-8c68f88a50d7",
-    "lastModified": "2026-07-16T05:31:37.1498599+00:00",
+    "lastModified": "2026-10-13T04:18:31.9877911+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/y8k4x6w4ok-pdf-2-xml",
-    "sourceHash": "sha256:66f77533891f37def798393cc060454d23a371a6c466c2b5c01bdff595a8bb26",
+    "sourceHash": "sha256:a8fe68d6e0d775bb27cfef430d92cc62ff59d8a790fa5dc6a8d1da58fa1f5cc9",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:66f77533891f37def798393cc060454d23a371a6c466c2b5c01bdff595a8bb26",
-    "mappedOn": null,
-    "summary": "Extracts PDF purchase orders and invoices to XML",
-    "shape": "process",
+    "sourceHash": "sha256:a8fe68d6e0d775bb27cfef430d92cc62ff59d8a790fa5dc6a8d1da58fa1f5cc9",
+    "mappedOn": "2026-10-30",
+    "summary": "Extracts data from PDF orders, invoices and shipping notes into XML for ERP import.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-ap-invoice-capture",
@@ -35,20 +37,19 @@
       "ng-ux-import-excel"
     ],
     "claims": [
-      "Extracts data from PDF purchase orders, invoices and shipping notes into XML",
-      "Picks up prices, order numbers, product codes and quantities and prices",
-      "Imports XML into Microsoft Dynamics, SAP and Uniconta",
-      "Supports invoices, purchase orders, credit notes and shipping documents",
-      "Validation of extracted data before transmission",
-      "Customizable mapping rules for high volumes"
+      "Captures order numbers, product codes, quantities and prices from PDFs",
+      "Outputs structured XML for system import",
+      "Handles invoices, purchase orders, credit notes and shipping documents",
+      "Validates extracted data before sending it on",
+      "Mapping rules are customisable for high volumes"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "SAP",
-      "Uniconta"
+    "industries": [
+      "Financial Services",
+      "Government"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

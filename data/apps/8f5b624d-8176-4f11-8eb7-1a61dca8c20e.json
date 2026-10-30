@@ -8,38 +8,41 @@
     "publisher": "Adfocom Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.greenline-floriday%7CPAPPID.8f5b624d-8176-4f11-8eb7-1a61dca8c20e",
-    "lastModified": "2026-08-20T14:17:10.5889554+00:00",
-    "appVersion": "26.2.8.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T08:24:48.7431205+00:00",
+    "appVersion": "26.2.9.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.adfocom.nl/helpdesk/",
-    "sourceHash": "sha256:44a804d9ed4bd9de6d0159bd9193f05078e9fdd7a96a51fd7b6d4c8222efaa1e",
+    "sourceHash": "sha256:f9dea9f187fbb6b51bbee745005a4605935ea40828c20170fb5c2c4ba1b1b054",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:44a804d9ed4bd9de6d0159bd9193f05078e9fdd7a96a51fd7b6d4c8222efaa1e",
-    "mappedOn": null,
-    "summary": "Imports Floriday grower assortment, prices and availability for flower traders",
+    "sourceHash": "sha256:f9dea9f187fbb6b51bbee745005a4605935ea40828c20170fb5c2c4ba1b1b054",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Greenline BC to Floriday to pull grower supply and place purchase orders.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-vert-fresh-produce-horticulture",
+        "need": "ng-purchase-orders",
         "confidence": "high"
       },
       {
-        "need": "ng-purchase-orders",
-        "confidence": "medium"
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-supplier-pricing"
+      "ng-supplier-pricing",
+      "ng-conn-marketplaces"
     ],
     "claims": [
-      "Retrieves grower assortment, prices and availability from Floriday",
-      "Places purchase orders through Floriday from BC",
-      "Automatic retrieval of grower supply",
-      "Secure API connections are used, along with an exchange service of its own",
-      "Additional module for Greenline"
+      "Retrieves grower assortment automatically from Floriday",
+      "Imports product information, prices and availability",
+      "Places orders on Floriday from BC",
+      "Uses secure APIs and a dedicated exchange service",
+      "Is an add-on module for Greenline"
     ],
     "countries": [],
     "languages": [],
@@ -54,7 +57,7 @@
       "Greenline"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

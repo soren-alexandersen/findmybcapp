@@ -8,50 +8,54 @@
     "publisher": "Cetas Information Technology",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.nbcredits%7CPAPPID.c46335bf-bb6c-470f-8da8-43ccd2bd3f99",
-    "lastModified": "2026-07-24T03:50:48.8316036+00:00",
-    "appVersion": "28.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T13:16:04.6221783+00:00",
+    "appVersion": "29.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbcredits",
-    "sourceHash": "sha256:04a3aaa016c9d7fc1e2f4bd99faaebfefd579ee29c083f22aa14ee8736b36a47",
+    "sourceHash": "sha256:995f94b1b8a1975877ddda4b2822e0ae254fc950b1b70f87fe2d07931b23f47a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:04a3aaa016c9d7fc1e2f4bd99faaebfefd579ee29c083f22aa14ee8736b36a47",
-    "mappedOn": null,
-    "summary": "Manages letters of credit and bank guarantees",
+    "sourceHash": "sha256:995f94b1b8a1975877ddda4b2822e0ae254fc950b1b70f87fe2d07931b23f47a",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks letters of credit and bank guarantees for trade finance through their lifecycle.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-ap-payments",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-cash-forecast",
+      "ng-customer-payments",
       "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Handles bank guarantees and letters of credit together",
-      "Real-time status tracking of instruments",
-      "Create, manage and track LCs through the transaction lifecycle",
-      "Monitor bank guarantees",
-      "Customizable workflows and approvals",
+      "Manages letters of credit and bank guarantees in one place",
+      "Create and track LCs across the transaction lifecycle",
+      "Status tracking of milestones on each instrument",
+      "Configurable workflows and approvals",
       "Reports on LCs and BGs",
-      "Also available for Dynamics NAV"
+      "Essentials and Premium editions",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Financial Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",
     "hide": false,
     "hideReason": "",
-    "noFit": "Trade finance (letters of credit, bank guarantees) has no dedicated need group"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

@@ -112,7 +112,7 @@
       "coverage": {
         "Pleo": 0.08,
         "SAP Concur": 0.05,
-        "Another tool (Expensify, Rydoo, Payhawk...)": 0.37
+        "Another tool (Expensify, Rydoo, Payhawk...)": 0.36
       }
     },
     {
@@ -142,8 +142,8 @@
         }
       ],
       "coverage": {
-        "Company credit cards": 0.32,
-        "Own money, reimbursed later": 0.35
+        "Company credit cards": 0.31,
+        "Own money, reimbursed later": 0.36
       }
     },
     {
@@ -183,14 +183,22 @@
           ]
         },
         {
+          "label": "Attached to the claim inside BC",
+          "patterns": [
+            "attachment",
+            "drag-and-drop"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Photo in a mobile app": 0.32,
-        "Forwarded by email": 0.05,
-        "Auto-read with OCR or AI": 0.28
+        "Photo in a mobile app": 0.31,
+        "Forwarded by email": 0.03,
+        "Auto-read with OCR or AI": 0.3,
+        "Attached to the claim inside BC": 0.13
       }
     },
     {
@@ -229,7 +237,7 @@
       "coverage": {
         "Mileage": 0.15,
         "Per diem / daily allowances": 0.2,
-        "Travel orders or advances approved upfront": 0.17
+        "Travel orders or advances approved upfront": 0.16
       }
     },
     {
@@ -275,8 +283,53 @@
         }
       ],
       "coverage": {
-        "Yes": 0.32
+        "Yes": 0.31
       }
+    },
+    {
+      "id": "how-should-managers-approve-ex",
+      "text": "How should managers approve expense claims?",
+      "multi": true,
+      "options": [
+        {
+          "label": "From a mobile app, web portal or email",
+          "patterns": [
+            "approv\\w* .{0,40}(mobile|app\\b|portal|web)",
+            "(mobile|app|portal)\\w* .{0,30}approv",
+            "notification"
+          ]
+        },
+        {
+          "label": "With our own rules for amounts and approval levels",
+          "patterns": [
+            "custom approval",
+            "multi-level",
+            "amount limits",
+            "segregation of duties",
+            "approval (rules|flows?|routing)",
+            "configurable approval workflows?",
+            "maker-checker",
+            "signatory workflow"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "From a mobile app, web portal or email": 0.31,
+        "With our own rules for amounts and approval levels": 0.23
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'view' wording",
+      "terms": [
+        "view"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

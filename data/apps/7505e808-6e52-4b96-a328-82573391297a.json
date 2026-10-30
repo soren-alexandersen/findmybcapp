@@ -8,18 +8,20 @@
     "publisher": "Origo",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_foundation%7CPAPPID.7505e808-6e52-4b96-a328-82573391297a",
-    "lastModified": "2026-10-06T17:30:16.3232913+00:00",
-    "appVersion": "28.0.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:28:09.7845365+00:00",
+    "appVersion": "28.0.10.632",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://businesscentralal.github.io/bifrost/en-us/foundation",
-    "sourceHash": "sha256:3850aa816ed3001a15e1ed88c37d2770a052a327744a01dfa17f977813580be7",
+    "helpLink": "https://docs.bifrost.origo.is/en-us/foundation/",
+    "sourceHash": "sha256:22ebcabdb747381f9a3258d803a73e167e6f5279dfe65b740573764763289591",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3850aa816ed3001a15e1ed88c37d2770a052a327744a01dfa17f977813580be7",
-    "mappedOn": "2026-10-07",
-    "summary": "MCP connector letting Claude, ChatGPT, Copilot and other AI agents read and act in BC",
+    "sourceHash": "sha256:22ebcabdb747381f9a3258d803a73e167e6f5279dfe65b740573764763289591",
+    "mappedOn": "2026-10-30",
+    "summary": "MCP connector letting Claude, ChatGPT, Copilot and other AI agents work in BC.",
     "shape": "usability",
     "primary": [
       {
@@ -28,21 +30,27 @@
       },
       {
         "need": "ng-admin-copilot-agents",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-ux-developer-tools",
-      "ng-admin-data-migration"
+      "ng-ux-automation",
+      "ng-admin-integration-sync",
+      "ng-ux-developer-tools"
     ],
     "claims": [
-      "Works with Claude, ChatGPT, Microsoft Copilot or any MCP platform",
-      "BC app plus a secure MCP server",
-      "AI can look up and analyze BC data",
-      "AI can carry out approved actions like creating sales documents and posting invoices",
-      "Add-ons for Icelandic bank connections, document exchange, storage and schedules",
-      "Partners can expose their own extension capabilities",
-      "Respects BC permissions; admins restrict fields and see every call"
+      "Connects BC to any AI platform supporting Model Context Protocol via a secure MCP server",
+      "Works with Claude, ChatGPT and Microsoft Copilot",
+      "AI can look up and analyse BC data",
+      "AI can carry out approved actions such as creating sales documents and posting invoices",
+      "AI works within BC permissions; admins can restrict fields",
+      "Every call made through the connector is visible to admins",
+      "Partners and ISVs can expose their own extension capabilities to connected AI",
+      "Use cases include building reports by plain-language request",
+      "Can assist data migration from older NAV, BC or other ERPs",
+      "Can be used for automated testing before releases",
+      "Add-on apps extend it with banking, document exchange, storage, routines and language models",
+      "Pricing via BC partner"
     ],
     "countries": [],
     "languages": [],

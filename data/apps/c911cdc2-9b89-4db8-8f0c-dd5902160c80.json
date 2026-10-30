@@ -8,18 +8,20 @@
     "publisher": "bc4all ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bc4allaps%7CAID.wrenchtime_pro_cmms%7CPAPPID.c911cdc2-9b89-4db8-8f0c-dd5902160c80",
-    "lastModified": "2026-09-27T21:02:41.4892833+00:00",
-    "appVersion": "1.0.226.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:49:51.5913565+00:00",
+    "appVersion": "1.0.244.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://wrenchtime.io/docs/",
-    "sourceHash": "sha256:9973b673001d60ac53e8e2632e0508a29d848d166d28f4a7c94a765ca6d7a067",
+    "sourceHash": "sha256:027623c394ca64b54c3d508b30aeb51351a7a5888de4ea2610947100e9c4e04e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9973b673001d60ac53e8e2632e0508a29d848d166d28f4a7c94a765ca6d7a067",
-    "mappedOn": null,
-    "summary": "Maintenance management with preventive tasks and checklists",
+    "sourceHash": "sha256:027623c394ca64b54c3d508b30aeb51351a7a5888de4ea2610947100e9c4e04e",
+    "mappedOn": "2026-10-30",
+    "summary": "Advanced maintenance management in BC with work requests, checklists, meters and maintenance KPIs.",
     "shape": "process",
     "primary": [
       {
@@ -32,22 +34,28 @@
       }
     ],
     "secondary": [
-      "ng-audit-compliance"
+      "ng-svc-requests"
     ],
     "claims": [
-      "Work requests with categories and priorities converted into maintenance orders",
-      "Structured checklists with completion evidence",
-      "Custom order statuses with full transition log",
-      "Meters with severity triggers for preventive maintenance",
-      "KPIs: downtime cost, planned vs reactive, MTBF and MTTR",
-      "Technician scheduling, downtime calendar, asset transfers and GPS tracking",
-      "Includes everything in WrenchTime Core"
+      "Includes all WrenchTime Core features",
+      "Work requests with categories and priorities that convert to maintenance orders",
+      "Checklists with completion evidence on each maintenance order",
+      "Custom order statuses with a logged transition history",
+      "Technician scheduling and a downtime calendar",
+      "Asset transfers and GPS tracking",
+      "Meter readings with severity triggers drive preventive maintenance",
+      "KPIs include MTTR, MTBF, planned vs reactive and downtime cost",
+      "Required for the WrenchTime Ask Andy AI assistant",
+      "Built natively in AL inside BC"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Energy & Resources",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

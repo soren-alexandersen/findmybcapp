@@ -8,19 +8,21 @@
     "publisher": "Alna Business",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.alna_hr_office%7CPAPPID.19410846-26e3-4fa6-8c47-f8126d36e726",
-    "lastModified": "2026-10-02T11:57:56.6261441+00:00",
-    "appVersion": "240.69.8.24",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T07:34:44.3071025+00:00",
+    "appVersion": "240.69.8.27",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.digmatix.com/en/products/alna-hr-office",
-    "sourceHash": "sha256:273b4e0178bec064bea2bb5b10d6545a5c84e9013dcf1d75537f5ab3eb8f4533",
+    "sourceHash": "sha256:f177b4afb17ea2c38b7f43979b97a79cdcb36eddd57f85a1482ece0f9f586583",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:273b4e0178bec064bea2bb5b10d6545a5c84e9013dcf1d75537f5ab3eb8f4533",
-    "mappedOn": null,
-    "summary": "Lithuanian HR management and payroll",
-    "shape": "localization",
+    "sourceHash": "sha256:f177b4afb17ea2c38b7f43979b97a79cdcb36eddd57f85a1482ece0f9f586583",
+    "mappedOn": "2026-10-30",
+    "summary": "HR and payroll for the Lithuanian market: employees, working time, absence, payroll and payments.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-hr-payroll-comp",
@@ -29,21 +31,26 @@
       {
         "need": "ng-hr-employee-records",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-hr-time-shifts",
       "ng-hr-absence-leave",
-      "ng-loc-country-pack"
+      "ng-loc-tax-reporting",
+      "ng-ap-payments"
     ],
     "claims": [
-      "Lithuanian payroll calculation",
-      "Employee database and HR reports",
-      "Work schedules and absence accounting",
-      "Payroll payments in SEPA format",
-      "Payment file export for Lithuanian banks",
-      "Reports for government institutions",
-      "Optional employee self-service for vacation and business trip requests"
+      "Maintains an employee database with HR reports",
+      "Handles several work schedule types and absence registration",
+      "Supports multiple payroll calculation methods",
+      "Creates salary payments in SEPA format",
+      "Exports payment files for Lithuanian banks",
+      "Includes reports for government institutions",
+      "Optional employee self-service extension for vacation and business trip requests and payslip details",
+      "Available in English and Lithuanian"
     ],
     "countries": [
       "LT"
@@ -56,7 +63,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20Landsbankinn/bc28/en-US/index.html",
     "sourceHash": "sha256:61daffb5ae14587417c4f7d3fe18bcf505749268630b5ce9c969321239d1175f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:61daffb5ae14587417c4f7d3fe18bcf505749268630b5ce9c969321239d1175f",

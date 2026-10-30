@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f-htrml%7CPAPPID.57307410-51de-4245-8b6c-9e6c6539fc62",
-    "lastModified": "2026-10-05T19:02:28.0039219+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:34:36.6501086+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/mobile-warehouse-management-app/",
-    "sourceHash": "sha256:0c95e284fa0ac2895daf2523ba8b1f66711536335557a9c45689e2a045946a41",
+    "sourceHash": "sha256:360f71019508deccb2bcd210a886da31ae05bdde8e983e93eb99684a2ac8a6ce",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:0c95e284fa0ac2895daf2523ba8b1f66711536335557a9c45689e2a045946a41",
-    "mappedOn": null,
-    "summary": "Mobile warehouse operations on handheld devices",
+    "sourceHash": "sha256:360f71019508deccb2bcd210a886da31ae05bdde8e983e93eb99684a2ac8a6ce",
+    "mappedOn": "2026-10-30",
+    "summary": "Handheld barcode scanning app for running warehouse documents and movements.",
     "shape": "process",
     "primary": [
       {
@@ -27,22 +29,27 @@
         "confidence": "high"
       },
       {
-        "need": "ng-allocation-picking",
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-stock-movements",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-stock-counting",
-      "ng-stock-movements"
+      "ng-lot-serial-traceability"
     ],
     "claims": [
-      "Warehouse processes on handheld devices with barcode scanning",
-      "Checks documents against actual scanned transactions",
-      "Physical inventory counting by scanning",
-      "Random movements between racks",
-      "Document status shown with colors",
-      "Menus and subform functions are shown or hidden per customer",
-      "Supports linear and 2D barcodes, GS1 format"
+      "Warehouse staff process documents on handheld devices instead of a PC",
+      "Movements are confirmed by scanning barcodes",
+      "Checks scanned transactions against the source document",
+      "Physical inventory counts can be done by scanning",
+      "Ad hoc moves between racks are supported",
+      "Document status shown with colour coding",
+      "Menus and subform functions can be shown or hidden per customer",
+      "Reads linear and 2D barcodes, including GS1 format",
+      "Available in English and Turkish"
     ],
     "countries": [],
     "languages": [
@@ -53,7 +60,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

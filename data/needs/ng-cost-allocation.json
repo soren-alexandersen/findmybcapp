@@ -88,7 +88,8 @@
           "patterns": [
             "freight",
             "consignment",
-            "carrier"
+            "carrier",
+            "landed cost"
           ]
         },
         {
@@ -98,15 +99,26 @@
           ]
         },
         {
+          "label": "Costs that belong to other periods (deferrals)",
+          "patterns": [
+            "right period",
+            "competence",
+            "period costs",
+            "deferr",
+            "prepaid"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Shared costs across departments, cost centers or projects": 0.52,
+        "Shared costs across departments, cost centers or projects": 0.45,
         "Production overhead onto products or work centers": 0.48,
-        "Freight and handling onto shipments": 0.1,
-        "Grant or fund money": 0.05
+        "Freight and handling onto shipments": 0.16,
+        "Grant or fund money": 0.03,
+        "Costs that belong to other periods (deferrals)": 0.1
       }
     },
     {
@@ -120,7 +132,9 @@
             "percent",
             "coefficient",
             "static",
-            "100%"
+            "100%",
+            "distribution keys?",
+            "distribution types"
           ]
         },
         {
@@ -142,8 +156,8 @@
         }
       ],
       "coverage": {
-        "Fixed percentages": 0.14,
-        "Actual drivers like hours, headcount or volume": 0.48
+        "Fixed percentages": 0.23,
+        "Actual drivers like hours, headcount or volume": 0.39
       }
     },
     {
@@ -180,8 +194,8 @@
         }
       ],
       "coverage": {
-        "Post into the general ledger": 0.62,
-        "Separate cost accounting, keep the G/L untouched": 0.38
+        "Post into the general ledger": 0.58,
+        "Separate cost accounting, keep the G/L untouched": 0.39
       }
     },
     {
@@ -207,7 +221,7 @@
         }
       ],
       "coverage": {
-        "Yes, multi-step": 0.33
+        "Yes, multi-step": 0.23
       }
     },
     {
@@ -233,7 +247,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.29
+        "Yes": 0.19
       }
     }
   ]

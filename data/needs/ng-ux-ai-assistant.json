@@ -20,7 +20,10 @@
     "Build a small AI agent for our recurring accounting tasks",
     "Answer questions from our internal procedures and BC at the same time",
     "natural language queries on inventory",
-    "Copilot for our own data, not just the standard features"
+    "Copilot for our own data, not just the standard features",
+    "We want to ask BC questions from Teams or ChatGPT",
+    "The AI must only show people what they are allowed to see",
+    "We need to see where the assistant's numbers come from"
   ],
   "questions": [
     {
@@ -57,14 +60,25 @@
           ]
         },
         {
+          "label": "Analyse figures and flag risks",
+          "patterns": [
+            "analysis",
+            "analy[sz]es",
+            "anomal",
+            "negative margins",
+            "trend"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
         "Create or post documents from chat": 0.24,
-        "Answer from our manuals and guides": 0.1,
-        "Let us build our own agents": 0.1
+        "Answer from our manuals and guides": 0.08,
+        "Let us build our own agents": 0.08,
+        "Analyse figures and flag risks": 0.28
       }
     },
     {
@@ -80,7 +94,8 @@
             "receivables",
             "ledger",
             "p&l",
-            "g/l"
+            "g/l",
+            "overdue"
           ]
         },
         {
@@ -108,9 +123,9 @@
         }
       ],
       "coverage": {
-        "Finance and cash": 0.29,
-        "Inventory and orders": 0.19,
-        "Projects, production or maintenance": 0.24
+        "Finance and cash": 0.44,
+        "Inventory and orders": 0.2,
+        "Projects, production or maintenance": 0.2
       }
     },
     {
@@ -125,7 +140,9 @@
             "does not post",
             "never changes",
             "nothing posted or sent without",
-            "configurable to read"
+            "configurable to read",
+            "only read access",
+            "read, write or off"
           ]
         },
         {
@@ -144,8 +161,8 @@
         }
       ],
       "coverage": {
-        "Read only is enough": 0.19,
-        "It may create and post with my OK": 0.14
+        "Read only is enough": 0.2,
+        "It may create and post with my OK": 0.12
       }
     },
     {
@@ -166,7 +183,8 @@
             "eu hosting",
             "private azure",
             "tenant isolation",
-            "not used for ai model training"
+            "not used for ai model training",
+            "not used to train"
           ]
         },
         {
@@ -175,8 +193,152 @@
         }
       ],
       "coverage": {
-        "Yes, keep it in our tenant or Azure": 0.43
+        "Yes, keep it in our tenant or Azure": 0.4
       }
+    },
+    {
+      "id": "what-controls-must-the-assista",
+      "text": "What controls must the assistant respect?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Each user only sees what their BC permissions allow",
+          "patterns": [
+            "permission",
+            "role-based access",
+            "restrict fields"
+          ]
+        },
+        {
+          "label": "Every question and action is logged",
+          "patterns": [
+            "logged",
+            "audit log",
+            "visible to admins",
+            "auditab"
+          ]
+        },
+        {
+          "label": "Answers show where the figures come from",
+          "patterns": [
+            "source links",
+            "traceable to source",
+            "answer sources",
+            "links to the card"
+          ]
+        },
+        {
+          "label": "We choose which AI model is used",
+          "patterns": [
+            "model choice",
+            "choose an llm",
+            "fast model",
+            "own model"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Each user only sees what their BC permissions allow": 0.36,
+        "Every question and action is logged": 0.2,
+        "Answers show where the figures come from": 0.16,
+        "We choose which AI model is used": 0.12
+      }
+    },
+    {
+      "id": "where-do-people-want-to-ask-th",
+      "text": "Where do people want to ask their questions?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (bc|business central)",
+            "in bc\\b",
+            "role cent",
+            "pop-up",
+            "input page",
+            "chat panel",
+            "copilot capability",
+            "by copilot",
+            "with copilot",
+            "help inside"
+          ]
+        },
+        {
+          "label": "In Microsoft Teams",
+          "patterns": [
+            "\\bteams\\b"
+          ]
+        },
+        {
+          "label": "From Claude, ChatGPT or Copilot outside BC",
+          "patterns": [
+            "model context protocol",
+            "\\bmcp\\b",
+            "from copilot, chatgpt",
+            "letting claude"
+          ]
+        },
+        {
+          "label": "By speaking instead of typing",
+          "patterns": [
+            "\\bvoice\\b",
+            "spoken",
+            "by speaking"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.52,
+        "In Microsoft Teams": 0.08,
+        "From Claude, ChatGPT or Copilot outside BC": 0.12,
+        "By speaking instead of typing": 0.08
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'request' wording and usage quotas",
+      "terms": [
+        "request"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'return' wording (return orders, answers returned)",
+      "terms": [
+        "return"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "subscription and trial licensing terms",
+      "terms": [
+        "subscription"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "'live data' is true of nearly every assistant",
+      "terms": [
+        "live"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'page' wording, developer detail",
+      "terms": [
+        "page"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

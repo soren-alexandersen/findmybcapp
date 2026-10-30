@@ -8,37 +8,44 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_crossdock_connector%7CPAPPID.294d55e9-2fc3-4ace-9b05-a19aa904dd7a",
-    "lastModified": "2026-09-30T20:03:22.4795499+00:00",
-    "appVersion": "28.5.0.80054",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:18:01.3802319+00:00",
+    "appVersion": "29.0.0.80833",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:9f32d5fac6309ba06005e910f4bca605c14eb35587c7665a09273dd3abd2229d",
+    "sourceHash": "sha256:1e90293d0d60ee4741873ea1cd4bd347196e5e4decc90545a8c22621fa6d432c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9f32d5fac6309ba06005e910f4bca605c14eb35587c7665a09273dd3abd2229d",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 with cross-dock app",
-    "shape": "addon",
+    "sourceHash": "sha256:1e90293d0d60ee4741873ea1cd4bd347196e5e4decc90545a8c22621fa6d432c",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges trips, parcels and statuses between Navitrans 365 TMS and its Cross-Dock app.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-packing-loading",
-      "ng-admin-integration-sync"
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Connects Navitrans 365 TMS with Navitrans 365 Cross-Dock via web services",
-      "Sends trips to load/unload with parcel information, including updates and cancellations",
-      "Every parcel created in TMS is immediately announced to the cross-dock",
-      "Receives parcel statuses to update TMS shipment track & trace",
-      "Alerts users to cross-dock anomalies to resolve",
-      "Specific resolution flow per anomaly type: missing, unknown, unannounced parcels",
-      "Supports Essentials and Premium"
+      "Links Navitrans 365 TMS with the Cross-Dock app over web services",
+      "Sends trips to load or unload with parcel data, including changes and cancellations",
+      "New parcels are announced to the cross-dock immediately",
+      "Parcel statuses flow back to the TMS shipment for track and trace",
+      "Alerts users to cross-dock anomalies",
+      "Each anomaly type has its own resolution flow",
+      "Handles missing, unknown and unannounced parcels",
+      "Validates new orders created in the cross-dock",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -66,16 +73,17 @@
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Transport & logistics"
+    ],
     "connectsTo": [
       "Navitrans 365 Cross-Dock"
     ],
     "requires": [
-      "Navitrans 365",
-      "Navitrans 365 Cross-Dock"
+      "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Continia Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.6da8dd2f-e698-461f-9147-8e404244dd85%7CPAPPID.6da8dd2f-e698-461f-9147-8e404244dd85",
-    "lastModified": "2026-10-06T00:01:12.7560279+00:00",
-    "appVersion": "29.0.0.215580",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T07:56:12.9250702+00:00",
+    "appVersion": "29.0.1.237877",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-document-capture",
-    "sourceHash": "sha256:499dc837efd064802567452d24dddb2bcfacec3e14d14683e920aed5a34c338d",
+    "sourceHash": "sha256:25c6df1659d6f678d9c75a8cce5afa69d29714765251ebf025951846496d7805",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:499dc837efd064802567452d24dddb2bcfacec3e14d14683e920aed5a34c338d",
-    "mappedOn": null,
-    "summary": "Captures and automates supplier invoices for accounts payable",
+    "sourceHash": "sha256:25c6df1659d6f678d9c75a8cce5afa69d29714765251ebf025951846496d7805",
+    "mappedOn": "2026-10-30",
+    "summary": "Captures supplier invoices with OCR, matches to orders, routes approvals and archives them.",
     "shape": "process",
     "primary": [
       {
@@ -29,20 +31,24 @@
     ],
     "secondary": [
       "ng-loc-einvoicing",
+      "ng-admin-approval-workflows",
       "ng-supplier-contracts",
       "ng-admin-document-storage"
     ],
     "claims": [
-      "OCR captures invoice text into the correct BC fields",
-      "Automatic three-way matching against purchase orders and receipts",
-      "Auto-approves invoices and credit memos under a set limit",
-      "Choice of three approval workflows",
-      "Review, approve, reject and put on hold from anywhere",
-      "Purchase contracts with auto-approval of linked documents",
-      "Electronic document exchange via Continia eDocuments with XML compatibility",
-      "Full-text searchable digital archive",
-      "Archive certified as audit-proof in Germany",
-      "Tracks each document from receipt to bookkeeping entry"
+      "OCR reads invoice text and fills the matching BC fields",
+      "Three-way matching of invoices and credit memos against purchase orders and receipts",
+      "Auto-approves invoices and credit memos below a set amount",
+      "Routes documents to approval with a choice of three workflows",
+      "Approvers can review, approve, reject or hold documents from anywhere",
+      "Purchase contracts to check invoiced amounts and auto-approve linked documents",
+      "Full-text searchable archive of processed documents",
+      "Activation goes through a Dynamics partner",
+      "Works with BC Essentials and Premium",
+      "Exchanges electronic documents compliant with European and local rules, with XML support",
+      "Tracks each document from receipt to final posting",
+      "Archive certified in Germany as audit-proof",
+      "Available in 11 languages including Danish, German, French and Polish"
     ],
     "countries": [],
     "languages": [

@@ -8,18 +8,20 @@
     "publisher": "Zebon ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zebonaps1675760882754%7CAID.zexpense_bc_integration_1%7CPAPPID.d0011955-3e44-459b-b63a-dd10ae8a96c5",
-    "lastModified": "2026-09-24T11:53:23.4612552+00:00",
-    "appVersion": "20.0.3.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:44:14.9824999+00:00",
+    "appVersion": "20.0.3.4",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://zebon.dk/en/bc-integration-documentation/",
-    "sourceHash": "sha256:5a6824c20add72a18221c99a051b476d773b352774c5a363adf485ec6046e15f",
+    "sourceHash": "sha256:aec6b871f0b93bac3bbcb41a4b5371009c3e493876fab684d39a19e385d36635",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5a6824c20add72a18221c99a051b476d773b352774c5a363adf485ec6046e15f",
-    "mappedOn": null,
-    "summary": "Imports approved zExpense settlements and syncs dimensions and vendors",
+    "sourceHash": "sha256:aec6b871f0b93bac3bbcb41a4b5371009c3e493876fab684d39a19e385d36635",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings approved zExpense expense settlements and invoices into BC journals.",
     "shape": "connector",
     "primary": [
       {
@@ -28,14 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture"
+      "ng-ap-invoice-capture",
+      "ng-journals"
     ],
     "claims": [
-      "Syncs dimensions and vendors from BC to zExpense",
-      "Sync manually or automated as Job Queue Entry",
-      "Imports approved settlements and invoices into a BC journal",
-      "Configurable descriptions and posting dates on import",
-      "Available globally for Essentials and Premium"
+      "Pushes dimensions from BC to zExpense",
+      "Vendor sync is available for zInvoice customers",
+      "Sync can run manually or on a job queue schedule",
+      "Imports settlements and invoices into a BC journal after approval in zExpense",
+      "Settings control imported descriptions and posting dates",
+      "Available worldwide for BC Essentials and Premium"
     ],
     "countries": [],
     "languages": [],
@@ -46,7 +50,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

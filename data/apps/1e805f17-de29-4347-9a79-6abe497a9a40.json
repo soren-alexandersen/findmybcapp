@@ -4,43 +4,49 @@
   "publisherId": "tso",
   "offerId": "dms_connector_dc_mfiles",
   "source": {
-    "name": "DMS Connector for Document Capture with M-Files",
+    "name": "DMS Connector for M-Files with Document Capture",
     "publisher": "TSO-DATA GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.dms_connector_dc_mfiles%7CPAPPID.1e805f17-de29-4347-9a79-6abe497a9a40",
-    "lastModified": "2026-09-04T04:37:13.8241084+00:00",
-    "appVersion": "28.0.2609.601858",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:10:17.8048552+00:00",
+    "appVersion": "28.0.2610.642923",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/dmscdcmf/en/",
-    "sourceHash": "sha256:f7178187416e810622f49e545ac616ba28ffa305dbc2c97b629c85c6cf5bf9f5",
+    "sourceHash": "sha256:fc446ceee23b07a7c24d0719fdb5b49f9881a4b8142e343f0b0aaefdef7d6617",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f7178187416e810622f49e545ac616ba28ffa305dbc2c97b629c85c6cf5bf9f5",
-    "mappedOn": null,
-    "summary": "Connects Document Capture invoices with M-Files DMS",
+    "sourceHash": "sha256:fc446ceee23b07a7c24d0719fdb5b49f9881a4b8142e343f0b0aaefdef7d6617",
+    "mappedOn": "2026-10-30",
+    "summary": "Archives Continia Document Capture invoices and related documents into M-Files with metadata.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-admin-document-storage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture"
+      "ng-admin-approval-workflows",
+      "ng-audit-compliance"
     ],
     "claims": [
-      "Archives Document Capture invoices plus credit memos, delivery notes, prepayments and rejected documents",
-      "Links archived documents to BC records",
-      "Transfers email receipt date into BC",
-      "Retroactive archiving via job queue",
-      "Links purchase orders and invoices",
-      "Processes delivery notes using the order numbers it detects",
-      "Configurable per Document Capture document category",
-      "Supports Essential edition",
-      "Metadata via configurable M-Files classes per document type",
-      "Vendor-based approval assignment with mandatory approver validation"
+      "Uploads invoices, credit memos, prepayments, delivery notes and rejected documents to M-Files",
+      "Each document type gets configurable M-Files class and metadata",
+      "Stored documents are linked to the matching BC records",
+      "Approvers are assigned from vendor mapping with mandatory approver checks",
+      "Email receipt date is carried into BC",
+      "Older documents can be archived retroactively by a job queue",
+      "Purchase orders and invoices are linked automatically in M-Files",
+      "Delivery notes are processed using detected order numbers",
+      "Settings are made per Document Capture category"
     ],
     "countries": [
       "AD",
@@ -100,10 +106,11 @@
       "Continia Document Capture"
     ],
     "requires": [
-      "Continia Document Capture"
+      "Continia Document Capture",
+      "M-Files"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

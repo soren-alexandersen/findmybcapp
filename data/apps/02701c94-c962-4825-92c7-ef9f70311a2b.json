@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.origo|AID.origo_bifrost_inventory|PAPPID.02701c94-c962-4825-92c7-ef9f70311a2b",
+  "guid": "02701c94-c962-4825-92c7-ef9f70311a2b",
+  "publisherId": "origo",
+  "offerId": "origo_bifrost_inventory",
+  "source": {
+    "name": "Bifrost Inventory",
+    "publisher": "Origo",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_inventory%7CPAPPID.02701c94-c962-4825-92c7-ef9f70311a2b",
+    "lastModified": "2026-10-28T13:16:13.9189386+00:00",
+    "appVersion": "28.3.1.81",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bifrost.origo.is/en-us/inventory/",
+    "sourceHash": "sha256:004942ca0c1c37e68aa734e9b507ac704378110432bd1e2ddd5424df67520e38",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:004942ca0c1c37e68aa734e9b507ac704378110432bd1e2ddd5424df67520e38",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets external systems and AI assistants run BC inventory tasks via Bifrost.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-lot-serial-traceability",
+      "ng-ux-ai-assistant",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Creates, releases, reopens, previews and posts transfer orders, and can undo posted shipments or receipts",
+      "Creates and posts assembly orders and can undo a posted assembly",
+      "Assigns lot, serial and package numbers and shows availability per lot",
+      "Reserves or cancels stock reservations for a demand",
+      "Calculates expected quantities and posts physical inventory counts",
+      "Posts reclassification journals",
+      "Runs cost adjustment, posts inventory cost to G/L and calculates revaluation",
+      "Closes or reopens inventory periods",
+      "Reads and sets item attributes and defines new ones",
+      "Each area can be enabled per company",
+      "Posting requires a separate permission set",
+      "Requires BC 28.3 or later and Bifrost Foundation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Bifrost Foundation (Origo)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

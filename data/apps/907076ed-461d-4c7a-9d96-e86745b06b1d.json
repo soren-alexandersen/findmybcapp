@@ -8,18 +8,20 @@
     "publisher": "ALL CLOUD CONSULTING S.L.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allcloudconsultingsl1611231621550%7CAID.verifactu_w1_all-cloud%7CPAPPID.907076ed-461d-4c7a-9d96-e86745b06b1d",
-    "lastModified": "2026-07-30T09:39:33.7458481+00:00",
-    "appVersion": "1.0.1.10",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T08:06:17.5338927+00:00",
+    "appVersion": "1.0.1.22",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.allcloud.es/wp-content/uploads/2025/07/Manual-de-configuracion-VeriFactu-Business-Central.pdf",
-    "sourceHash": "sha256:fc83cc47aa63d25d45712646add158e8dd99acf81af165ca091debe202bb3f9e",
+    "sourceHash": "sha256:7d39d1a4118f82d687b0068ddb01b08af1672d83548c0247615598413b982f59",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fc83cc47aa63d25d45712646add158e8dd99acf81af165ca091debe202bb3f9e",
-    "mappedOn": null,
-    "summary": "Spanish VeriFactu e-invoicing compliance",
+    "sourceHash": "sha256:7d39d1a4118f82d687b0068ddb01b08af1672d83548c0247615598413b982f59",
+    "mappedOn": "2026-10-30",
+    "summary": "Submits sales invoices to the Spanish tax agency under VeriFactu and tracks their status.",
     "shape": "localization",
     "primary": [
       {
@@ -28,23 +30,24 @@
       },
       {
         "need": "ng-loc-einvoicing",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-vat-tax"
+    ],
     "claims": [
       "Imports company or user digital certificates for signing and submission",
-      "Configurable AEAT production or test environments",
+      "Production and test AEAT environments",
       "Automatic or manual invoice submission",
-      "VeriFactu fields on each sales invoice",
-      "History log with AEAT status: accepted, accepted with errors, rejected, cancelled",
-      "Correct and resubmit invoices from history and view XML messages",
-      "Automatic PDF invoices with optional digital signature",
-      "Handles identification fields, VAT types and operation keys",
+      "Adds VeriFactu fields to sales invoices",
+      "History log with accepted, accepted with errors, rejected and cancelled status",
+      "Resubmits failed invoices or cancels accepted ones",
+      "Shows sent XML files and AEAT responses",
+      "Generates invoice PDFs with optional digital signature",
       "Supports simplified invoices and third-party transactions",
       "Records corrective invoices and full cancellations",
-      "Error messages and rejection codes visible in BC",
-      "Testing environment for pre-production validation"
+      "Shows error messages and rejection codes in BC"
     ],
     "countries": [
       "ES"
@@ -52,11 +55,11 @@
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "AEAT VeriFactu"
+      "AEAT"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

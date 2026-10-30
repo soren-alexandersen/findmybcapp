@@ -81,15 +81,25 @@
           ]
         },
         {
+          "label": "Start/stop timer while working",
+          "patterns": [
+            "start/stop",
+            "stopwatch",
+            "\\btimers?\\b",
+            "start and end times"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Phone or tablet app": 0.32,
-        "Web page outside BC": 0.23,
-        "Clock-in terminal or badge scan": 0.09,
-        "Automatically from calendar or activity": 0.2
+        "Phone or tablet app": 0.3,
+        "Web page outside BC": 0.22,
+        "Clock-in terminal or badge scan": 0.08,
+        "Automatically from calendar or activity": 0.22,
+        "Start/stop timer while working": 0.13
       }
     },
     {
@@ -137,9 +147,9 @@
         }
       ],
       "coverage": {
-        "Jira / Tempo / YouTrack": 0.09,
+        "Jira / Tempo / YouTrack": 0.1,
         "Toggl, Clockify or Timely": 0.07,
-        "Another time or workforce system": 0.25
+        "Another time or workforce system": 0.23
       }
     },
     {
@@ -164,7 +174,7 @@
         }
       ],
       "coverage": {
-        "Yes, approval needed": 0.46
+        "Yes, approval needed": 0.42
       }
     },
     {
@@ -187,7 +197,7 @@
         }
       ],
       "coverage": {
-        "Yes, invoice from hours": 0.55
+        "Yes, invoice from hours": 0.53
       }
     },
     {
@@ -232,15 +242,35 @@
           ]
         },
         {
+          "label": "Budget and profit follow-up",
+          "patterns": [
+            "budget",
+            "profit analysis",
+            "wip analysis",
+            "time analysis",
+            "analysis options"
+          ]
+        },
+        {
+          "label": "Resource capacity and workload planning",
+          "patterns": [
+            "capacity",
+            "resource allocation",
+            "workload"
+          ]
+        },
+        {
           "label": "Nothing else",
           "any": true
         }
       ],
       "coverage": {
         "Absence and vacation": 0.27,
-        "Expenses and mileage": 0.25,
+        "Expenses and mileage": 0.23,
         "Overtime and payroll export": 0.2,
-        "Materials used on the job": 0.12
+        "Materials used on the job": 0.13,
+        "Budget and profit follow-up": 0.25,
+        "Resource capacity and workload planning": 0.18
       }
     },
     {
@@ -307,9 +337,18 @@
         }
       ],
       "coverage": {
-        "Office and consulting projects": 0.12,
-        "Field, site or shop floor work": 0.16
+        "Office and consulting projects": 0.17,
+        "Field, site or shop floor work": 0.17
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "'resource' is the standard BC object every app uses",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

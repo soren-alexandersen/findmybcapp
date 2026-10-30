@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365scale%7CPAPPID.9949f7b8-c480-4f0c-b9b7-f66293cacd4d",
-    "lastModified": "2026-09-16T16:42:46.7384763+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:45:25.0415777+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scale/index.html",
-    "sourceHash": "sha256:22ac3d7dd0b38e9e2c299a36b9379dc52c613baf36d4870a88adfbdfd770374d",
+    "sourceHash": "sha256:8cec8291babb233e49add214c7a3a492ba009f52360b922dd0d10a2ec5894e07",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:22ac3d7dd0b38e9e2c299a36b9379dc52c613baf36d4870a88adfbdfd770374d",
-    "mappedOn": null,
-    "summary": "Connects production scales for weighing",
+    "sourceHash": "sha256:8cec8291babb233e49add214c7a3a492ba009f52360b922dd0d10a2ec5894e07",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects production scales to BC for weighing orders and automatic consumption posting.",
     "shape": "connector",
     "primary": [
       {
@@ -32,34 +34,79 @@
       }
     ],
     "secondary": [
-      "ng-vert-life-sciences"
+      "ng-vert-life-sciences",
+      "ng-lot-serial-traceability",
+      "ng-bom-formula-engineering"
     ],
     "claims": [
-      "Connects scales from Mettler Toledo, Sartorius, Bizerba and other manufacturers",
-      "Meets FDA, EU GMP, ISO13485, MDR and IVDR requirements",
-      "Displays hazardous substance symbols on the scale dialog",
-      "Weighing orders created in BC and sent to scale management system",
-      "Automatic consumption postings with optional correction of minor stock deviations",
-      "Tolerance specifications against errors",
-      "Individual and additive weighing steps",
-      "Calculates component proportions from active ingredient values",
-      "Only permitted lots may be weighed with Rule Management",
-      "Automated cyclic hardware testing, mobile/stationary workstations, post-process label printing"
+      "Designed for regulated settings and meets FDA, EU GMP, ISO 13485, MDR and IVDR requirements",
+      "Talks to scales from Mettler Toledo, Sartorius, Bizerba, Precisia, Söhnle and others via a scale management system",
+      "Can be linked with Yaveon 365 Manufacturing and Lot Management",
+      "Shows hazardous substance symbols on the scale screen",
+      "Supports cyclic hardware tests, mobile and fixed scale stations and per-user scale permissions",
+      "Prints labels after weighing",
+      "Weighing orders are created in BC and sent to the scale system",
+      "Posts consumption automatically, optionally correcting small stock deviations",
+      "Tolerance limits guard against weighing errors and waste",
+      "Supports individual and additive weighing steps",
+      "Calculates component shares from active ingredient values of the actual batch",
+      "With Rule Management only permitted lots can be weighed",
+      "Items without lots or active ingredients can also be weighed",
+      "Production weighing is available now; QC, receipt and shipping weighing are announced as coming",
+      "Requires BC Premium edition"
     ],
-    "countries": [],
-    "languages": [],
-    "industries": [],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HU",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "PA",
+      "PE",
+      "PL",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing",
+      "Medical devices",
+      "Pharmaceuticals"
+    ],
     "connectsTo": [
       "Mettler Toledo",
       "Sartorius",
       "Minebea intec",
       "Bizerba",
       "Precisia",
-      "Söhnle professional"
+      "Soehnle Professional"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

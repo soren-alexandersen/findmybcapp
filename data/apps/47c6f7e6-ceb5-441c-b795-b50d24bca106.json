@@ -8,38 +8,40 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-light-user-bc%7CPAPPID.47c6f7e6-ceb5-441c-b795-b50d24bca106",
-    "lastModified": "2026-08-05T08:59:36.6907351+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T10:39:03.2302865+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
-    "sourceHash": "sha256:bcd582ba71f2971be28c7e15a9f563ad80a89d20884ff0f17b2564e5cc47b14e",
+    "sourceHash": "sha256:0247e73fa0e8fcfe7d621c994a5dc7928cd18ddf19a29b404546a458c418f3ac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bcd582ba71f2971be28c7e15a9f563ad80a89d20884ff0f17b2564e5cc47b14e",
-    "mappedOn": null,
-    "summary": "Light user license and permissions for Dynaway EAM",
+    "sourceHash": "sha256:0247e73fa0e8fcfe7d621c994a5dc7928cd18ddf19a29b404546a458c418f3ac",
+    "mappedOn": "2026-10-30",
+    "summary": "Lower-cost Dynaway EAM licence and role for maintenance staff with limited needs.",
     "shape": "addon",
     "primary": [
       {
-        "need": "ng-maintenance-planned",
+        "need": "ng-maintenance-breakdown",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-licensing",
-      "ng-hr-health-safety"
+      "ng-hr-health-safety",
+      "ng-admin-permissions"
     ],
     "claims": [
-      "Light user license with dedicated permission sets for EAM",
-      "Register counter and measurement readings",
-      "Register maintenance requests",
-      "Work permits and lockouts",
-      "Execute work orders and register asset downtime",
-      "Register tool handouts",
-      "Manage safety incidents",
-      "Part of a paid Dynaway EAM plan"
+      "Lets maintenance staff use Dynaway EAM without a full licence",
+      "Dedicated permission sets and personalised views",
+      "Light users record counter and measurement readings",
+      "Light users raise maintenance requests",
+      "Light users create and fill work permits and manage lockouts",
+      "Light users execute work orders and register asset downtime",
+      "Light users record tool handouts and safety incidents",
+      "Included in a paid Dynaway EAM plan"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +59,7 @@
       "Dynaway EAM"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

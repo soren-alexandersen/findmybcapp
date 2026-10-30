@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-production-costing|PAPPID.59b6fd68-47a1-44ee-b9be-3550c200d488",
+  "guid": "59b6fd68-47a1-44ee-b9be-3550c200d488",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-production-costing",
+  "source": {
+    "name": "Cost Accounting Production Costing by GMSoft",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-production-costing%7CPAPPID.59b6fd68-47a1-44ee-b9be-3550c200d488",
+    "lastModified": "2026-10-20T13:51:59.9613298+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/cost-accounting-production-costing/docs/",
+    "sourceHash": "sha256:afb8feb1fbf70e9d5519ea91374cca3342282cd2cb4f338e51f4f354b7874848",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:afb8feb1fbf70e9d5519ea91374cca3342282cd2cb4f338e51f4f354b7874848",
+    "mappedOn": "2026-10-30",
+    "summary": "Absorbs actual production overhead into BC costs on IAS 2 normal capacity.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close",
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Collects overhead from G/L accounts, dimension rules or BC Cost Accounting into pools",
+      "Distributes service-center pools to production centers, direct or reciprocal",
+      "Absorption rate from capacity ledger, budget or manual entry",
+      "Unabsorbed fixed overhead is expensed, not inventoried",
+      "Writes rates to work and machine center overhead or posts tagged journals, with preview and reversal",
+      "Reconciles collected vs applied overhead with spending and volume variance",
+      "Premium: year-end recost on actuals with revaluation of produced items",
+      "Premium: lower of cost and NRV review per item",
+      "Cost periods with close cockpit, locks and reversal chains",
+      "Scheduled runs via job queue and Power BI API pages",
+      "Only users who run costing need a licence; 30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

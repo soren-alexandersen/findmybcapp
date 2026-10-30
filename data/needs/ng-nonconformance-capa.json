@@ -91,9 +91,9 @@
         }
       ],
       "coverage": {
-        "Customer complaints": 0.38,
-        "Supplier deliveries": 0.62,
-        "Our own production or warehouse": 0.5
+        "Customer complaints": 0.33,
+        "Supplier deliveries": 0.72,
+        "Our own production or warehouse": 0.61
       }
     },
     {
@@ -118,7 +118,9 @@
             "measures",
             "\\b8d\\b",
             "follow-up actions",
-            "root[- ]cause"
+            "root[- ]cause",
+            "assigns? tasks",
+            "automated tasks"
           ]
         },
         {
@@ -134,9 +136,9 @@
         }
       ],
       "coverage": {
-        "Credit note or return to the customer/supplier": 0.38,
-        "Corrective and preventive actions tracked": 0.5,
-        "Affected stock blocked or quarantined": 0.31
+        "Credit note or return to the customer/supplier": 0.33,
+        "Corrective and preventive actions tracked": 0.56,
+        "Affected stock blocked or quarantined": 0.28
       }
     },
     {
@@ -169,8 +171,8 @@
         }
       ],
       "coverage": {
-        "Inspections and checks too": 0.56,
-        "Only complaints and incidents": 0.62
+        "Inspections and checks too": 0.61,
+        "Only complaints and incidents": 0.56
       }
     },
     {
@@ -192,7 +194,7 @@
         }
       ],
       "coverage": {
-        "Yes, lot/batch/serial": 0.31
+        "Yes, lot/batch/serial": 0.39
       }
     },
     {
@@ -228,6 +230,16 @@
         "Audit trail / regulators (ISO, FDA...)": 0.5,
         "8D reports": 0.06
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "trial and subscription terms",
+      "terms": [
+        "subscription",
+        "then"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

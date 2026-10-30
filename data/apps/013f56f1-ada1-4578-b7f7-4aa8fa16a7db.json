@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.sap-business-one-integration%7CPAPPID.013f56f1-ada1-4578-b7f7-4aa8fa16a7db",
-    "lastModified": "2026-07-17T07:54:47.3818937+00:00",
+    "lastModified": "2026-10-13T06:43:43.3952981+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/sap-business-one-edi-integration/",
-    "sourceHash": "sha256:042f317e58c73e2ff2dbad2887910ced43a9cada9423dbf4191812f3e393bc11",
+    "sourceHash": "sha256:8f0a616f5edc3b044c06dd62abeddb6cc4e1772b88ca632c7569dedcda8830d3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:042f317e58c73e2ff2dbad2887910ced43a9cada9423dbf4191812f3e393bc11",
-    "mappedOn": null,
-    "summary": "Integrates SAP Business One with BC",
+    "sourceHash": "sha256:8f0a616f5edc3b044c06dd62abeddb6cc4e1772b88ca632c7569dedcda8830d3",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way sync of customers, suppliers, orders and financials between SAP Business One and BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,20 +30,23 @@
       }
     ],
     "secondary": [
-      "ng-intercompany-consolidation",
-      "ng-admin-integration-failures"
+      "ng-admin-integration-failures",
+      "ng-ux-master-data-sync"
     ],
     "claims": [
-      "Transfers customers, suppliers, orders, invoices and payments with SAP Business One",
-      "Two-way real-time integration",
-      "Synchronizes invoices, balances and G/L entries",
-      "Custom mapping and rules",
-      "Error detection and monitoring",
+      "Transfers customers, suppliers, orders, invoices and payments",
+      "Data flows both ways between the two ERPs",
+      "Synchronises invoices, balances and general ledger entries",
+      "Mappings and rules are configurable",
+      "Integration errors are detected and tracked",
       "Supports multi-company setups"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [
       "SAP Business One"
     ],

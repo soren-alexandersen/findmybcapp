@@ -8,52 +8,67 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1025%7CPAPPID.41304c71-6c79-4b6d-80ff-22da87b964a2",
-    "lastModified": "2026-10-05T13:58:38.6661237+00:00",
+    "lastModified": "2026-10-24T13:05:24.9426+00:00",
     "appVersion": "2026.6.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/pss-pro",
-    "sourceHash": "sha256:0e3ec6458bd388077cb0afcbfe3211998470e7fd47212136619cc7d4505a29aa",
+    "sourceHash": "sha256:0092f45454abeb2ef955bd9460522859bcd6fd22407688ec1b5ab83c6b081eae",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0e3ec6458bd388077cb0afcbfe3211998470e7fd47212136619cc7d4505a29aa",
-    "mappedOn": "2026-10-07",
-    "summary": "Project and resource planning with Gantt, capacity forecasts and skill matching, on DYCE Connect",
-    "shape": "process",
+    "sourceHash": "sha256:0092f45454abeb2ef955bd9460522859bcd6fd22407688ec1b5ab83c6b081eae",
+    "mappedOn": "2026-10-30",
+    "summary": "Project and resource planning add-on with Gantt, capacity forecasts and skill matching.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-proj-planning",
         "confidence": "high"
+      },
+      {
+        "need": "ng-svc-capacity",
+        "confidence": "low"
       }
     ],
     "secondary": [
+      "ng-hr-skills-training",
       "ng-proj-time",
       "ng-proj-billing"
     ],
     "claims": [
-      "Gantt planning with visible dependencies",
-      "Capacity forecasting with utilization and Outlook calendar availability",
-      "Skill-based matching of people to tasks",
-      "Plan Jira Software and Azure DevOps tasks by drag and drop",
-      "Requires the DYCE Connect platform"
+      "Gantt planning with task dependencies",
+      "Capacity forecasts and utilisation displays several weeks ahead",
+      "Checks Exchange/Outlook calendar availability",
+      "Matches people to tasks based on skills",
+      "Plans Jira Software and Azure DevOps tasks by drag and drop",
+      "Builds on the DYCE Professional Services Suite and needs the DYCE Connect platform"
     ],
     "countries": [],
     "languages": [
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "IT consulting",
+      "Managed service providers",
+      "Professional services",
+      "Software developers"
+    ],
     "connectsTo": [
-      "Jira",
+      "Jira Software",
       "Azure DevOps",
-      "Microsoft Exchange"
+      "Exchange",
+      "Outlook"
     ],
     "requires": [
-      "DYCE Connect platform"
+      "DYCE Professional Services Suite",
+      "DYCE Connect"
     ],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

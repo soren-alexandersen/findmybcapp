@@ -1,0 +1,110 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_preorder_manager|PAPPID.2b191787-6b49-457f-935a-21d573473709",
+  "guid": "2b191787-6b49-457f-935a-21d573473709",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_preorder_manager",
+  "source": {
+    "name": "CS Preorder Manager",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_preorder_manager%7CPAPPID.2b191787-6b49-457f-935a-21d573473709",
+    "lastModified": "2026-10-29T11:41:36.0939763+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-preorder-manager-help-en/",
+    "sourceHash": "sha256:f2ee1b78968c272eb894ccd12b008bc74092bad6bfd5203ff27c8f6ebb7bcc95",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2ee1b78968c272eb894ccd12b008bc74092bad6bfd5203ff27c8f6ebb7bcc95",
+    "mappedOn": "2026-10-30",
+    "summary": "Handles seasonal preorders split into delivery drops and plans supply from them.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-demand-forecast",
+      "ng-vert-fashion"
+    ],
+    "claims": [
+      "Marks sales orders as preorders",
+      "Splits preorder delivery into delivery periods (drops)",
+      "Suppresses availability checks on preorder lines",
+      "Requisition worksheets plan from delivery-period shipment dates",
+      "Cancel or replace items with alternative items or variants on open orders",
+      "Worksheets help choose between buying more or cancelling when minimum quantities are not met",
+      "Cancelled quantities stay visible on order lines and in the sales order archive",
+      "Runs on Essentials and Premium editions",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

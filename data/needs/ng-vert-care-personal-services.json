@@ -60,10 +60,10 @@
         }
       ],
       "coverage": {
-        "Medical practice, clinic or hospital": 0.44,
-        "Aged care or childcare": 0.22,
-        "Vet clinic or pet grooming": 0.11,
-        "Salon or cleaning company": 0.22
+        "Medical practice, clinic or hospital": 0.4,
+        "Aged care or childcare": 0.2,
+        "Vet clinic or pet grooming": 0.1,
+        "Salon or cleaning company": 0.2
       }
     },
     {
@@ -84,7 +84,7 @@
         }
       ],
       "coverage": {
-        "Yes, we take bookings": 0.33
+        "Yes, we take bookings": 0.3
       }
     },
     {
@@ -122,8 +122,8 @@
         }
       ],
       "coverage": {
-        "Insurers, government or family share the cost": 0.44,
-        "Recurring contracts or billing cycles": 0.44
+        "Insurers, government or family share the cost": 0.5,
+        "Recurring contracts or billing cycles": 0.4
       }
     },
     {
@@ -139,7 +139,8 @@
             "immunis",
             "medical history",
             "\\bemr\\b",
-            "medication"
+            "medication",
+            "medical records"
           ]
         },
         {
@@ -148,7 +149,59 @@
         }
       ],
       "coverage": {
-        "Yes": 0.67
+        "Yes": 0.7
+      }
+    },
+    {
+      "id": "do-you-run-several-sites-or-se",
+      "text": "Do you run several sites, or send staff out to clients?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several sites or centres",
+          "patterns": [
+            "multi-site",
+            "service centres",
+            "responsibility centres"
+          ]
+        },
+        {
+          "label": "Staff working on the road with mobile access",
+          "patterns": [
+            "mobile access",
+            "field workers",
+            "in-home",
+            "home care"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several sites or centres": 0.2,
+        "Staff working on the road with mobile access": 0.1
+      }
+    },
+    {
+      "id": "do-you-stock-and-reorder-medic",
+      "text": "Do you stock and reorder medical supplies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, medical supplies",
+          "patterns": [
+            "medical supplies"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, medical supplies": 0.2
       }
     }
   ]

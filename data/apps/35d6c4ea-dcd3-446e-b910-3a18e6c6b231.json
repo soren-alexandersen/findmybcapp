@@ -8,36 +8,47 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.fresh_bundle%7CPAPPID.35d6c4ea-dcd3-446e-b910-3a18e6c6b231",
-    "lastModified": "2026-04-22T09:44:35.6080252+00:00",
-    "appVersion": "2601.1.312798.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T07:35:19.1144903+00:00",
+    "appVersion": "2602.0.351816.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:5a939adf31cd261f1c23df62f124e5275ec402175bc910f72b88fa639db1a401",
+    "sourceHash": "sha256:64fb163b314d5a5e7fba44df17b2ff2326c2d45d6f6c5cabad1a9c1a72e5c205",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5a939adf31cd261f1c23df62f124e5275ec402175bc910f72b88fa639db1a401",
-    "mappedOn": null,
-    "summary": "Fresh produce packers, traders and processors",
+    "sourceHash": "sha256:64fb163b314d5a5e7fba44df17b2ff2326c2d45d6f6c5cabad1a9c1a72e5c205",
+    "mappedOn": "2026-10-30",
+    "summary": "Fresh produce bundle for packers and traders: grower pricing, lots, weighbridge, trading board.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-fresh-produce-horticulture",
         "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-vert-food-beverage",
       "ng-supplier-pricing",
-      "ng-lot-serial-traceability",
-      "ng-order-allocation"
+      "ng-order-allocation",
+      "ng-quality-inspection"
     ],
     "claims": [
-      "Purchase price methods grade out, pack out, account sales",
-      "Order handling, license plating, weighbridge receiving and advanced production scenarios",
+      "For packers, traders and primary processors of fresh produce",
+      "Purchase price methods such as grade out, pack out and account sales",
+      "License plating",
+      "Weighbridge receiving",
+      "Handles complex production scenarios",
       "Assign specific lots to individual orders",
-      "Includes Advanced Lot Attributes, Trading Board and Grower Return",
-      "Requires BC Premium"
+      "Includes Advanced Lot Attributes, Trading Board and Grower Return on top of a common bundle",
+      "Free for 30 days, then a paid subscription",
+      "Requires Premium edition"
     ],
     "countries": [
       "AU",
@@ -65,15 +76,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Fresh produce"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

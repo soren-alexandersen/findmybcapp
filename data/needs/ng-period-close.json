@@ -52,7 +52,9 @@
     "We want to revalue stock in bulk by item category",
     "Stock value in BC doesn't reflect current market prices",
     "Raw material prices dropped and we need to revalue on hand stock",
-    "How do we run a revaluation without messing up the cost of goods sold?"
+    "How do we run a revaluation without messing up the cost of goods sold?",
+    "We want to see variances against budget as soon as the month is closed",
+    "Our accountant needs the year-end figures in their own tool"
   ],
   "questions": [
     {
@@ -113,16 +115,35 @@
           ]
         },
         {
+          "label": "Reviewing results against budget and last year",
+          "patterns": [
+            "variance analysis",
+            "with variance",
+            "financial statements"
+          ]
+        },
+        {
+          "label": "Revaluing foreign currency or adjusting for inflation",
+          "patterns": [
+            "exchange rate",
+            "inflation",
+            "foreign currenc",
+            "revalu"
+          ]
+        },
+        {
           "label": "No / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Tracking who has done which close task": 0.23,
-        "Reconciling balances": 0.36,
-        "Goods received or shipped but not invoiced": 0.23,
-        "People posting into the wrong period": 0.14,
-        "Valuing stock and inventory cost": 0.23
+        "Tracking who has done which close task": 0.22,
+        "Reconciling balances": 0.43,
+        "Goods received or shipped but not invoiced": 0.22,
+        "People posting into the wrong period": 0.13,
+        "Valuing stock and inventory cost": 0.17,
+        "Reviewing results against budget and last year": 0.17,
+        "Revaluing foreign currency or adjusting for inflation": 0.17
       }
     },
     {
@@ -146,7 +167,7 @@
         }
       ],
       "coverage": {
-        "Yes, evidence and audit trail": 0.23
+        "Yes, evidence and audit trail": 0.26
       }
     },
     {
@@ -169,6 +190,59 @@
       "coverage": {
         "Yes, use AI": 0.09
       }
+    },
+    {
+      "id": "do-you-hand-the-closed-figures",
+      "text": "Do you hand the closed figures to an accountant or year-end tool?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, export to Excel or year-end software",
+          "patterns": [
+            "excel",
+            "caseware",
+            "year-end closing software",
+            "data export"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, export to Excel or year-end software": 0.26
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'amount' wording",
+      "terms": [
+        "amount"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic reversing-entries wording",
+      "terms": [
+        "revers"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'ledger' wording",
+      "terms": [
+        "ledger"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'review' wording",
+      "terms": [
+        "review"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

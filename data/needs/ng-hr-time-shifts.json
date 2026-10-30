@@ -40,7 +40,9 @@
     "Publish the weekly roster to employees' phones",
     "Covering a sick colleague's shift takes hours of phone calls",
     "Staffing our three stores with the right number of people per hour",
-    "rota planning Teams shifts"
+    "rota planning Teams shifts",
+    "We need overtime calculated according to our collective agreement",
+    "Managers should approve hours before they go to payroll"
   ],
   "questions": [
     {
@@ -85,9 +87,9 @@
         }
       ],
       "coverage": {
-        "Terminal, badge or card at the door": 0.28,
-        "Phone or tablet app": 0.36,
-        "Timesheet on the PC": 0.32
+        "Terminal, badge or card at the door": 0.23,
+        "Phone or tablet app": 0.37,
+        "Timesheet on the PC": 0.33
       }
     },
     {
@@ -102,7 +104,11 @@
             "roster",
             "duty planning",
             "workforce scheduling",
-            "work schedules?"
+            "work schedules?",
+            "work templates",
+            "labou?r calendars",
+            "calendar view",
+            "holiday calendars"
           ]
         },
         {
@@ -111,7 +117,7 @@
         }
       ],
       "coverage": {
-        "Yes, shifts or rosters": 0.36
+        "Yes, shifts or rosters": 0.43
       }
     },
     {
@@ -133,7 +139,7 @@
         }
       ],
       "coverage": {
-        "Yes, export or calculate for payroll": 0.44
+        "Yes, export or calculate for payroll": 0.53
       }
     },
     {
@@ -166,14 +172,23 @@
           ]
         },
         {
+          "label": "Mileage, travel and expenses too",
+          "patterns": [
+            "mileage",
+            "expenses?\\b",
+            "travel"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Projects": 0.36,
-        "Production or service jobs": 0.24,
-        "Just attendance and working hours": 0.64
+        "Projects": 0.3,
+        "Production or service jobs": 0.23,
+        "Just attendance and working hours": 0.57,
+        "Mileage, travel and expenses too": 0.2
       }
     },
     {
@@ -196,7 +211,7 @@
         }
       ],
       "coverage": {
-        "Yes, absence and vacation": 0.64
+        "Yes, absence and vacation": 0.67
       }
     },
     {
@@ -233,9 +248,69 @@
         }
       ],
       "coverage": {
-        "Yes, connect it to BC": 0.28,
-        "No, record it in BC": 0.28
+        "Yes, connect it to BC": 0.27,
+        "No, record it in BC": 0.23
       }
+    },
+    {
+      "id": "must-hours-follow-overtime-rul",
+      "text": "Must hours follow overtime rules or collective agreements?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, calculate overtime and supplements",
+          "patterns": [
+            "agreement",
+            "overtime",
+            "labou?r law",
+            "supplements?\\b",
+            "surcharge"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, calculate overtime and supplements": 0.37
+      }
+    },
+    {
+      "id": "should-a-manager-approve-regis",
+      "text": "Should a manager approve registered time and absence?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, with an approval step",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with an approval step": 0.3
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "cloud or on-premises deployment",
+      "terms": [
+        "cloud"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "resource bookkeeping wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

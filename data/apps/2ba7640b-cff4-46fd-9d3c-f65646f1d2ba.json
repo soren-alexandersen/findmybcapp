@@ -8,18 +8,20 @@
     "publisher": "Innoware Ukraine LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoware-1255921%7CAID.iw_bc_ukrainian_localization_fa_accounting%7CPAPPID.2ba7640b-cff4-46fd-9d3c-f65646f1d2ba",
-    "lastModified": "2026-08-17T13:29:32.4433468+00:00",
-    "appVersion": "27.2.6356.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-15T08:32:18.5675928+00:00",
+    "appVersion": "27.3.6571.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_Ukrainian_Localization_FA_Acconting_UserDocumentation.pdf",
-    "sourceHash": "sha256:46733f5c1131fa65031349656553316156b1ddb07f4e0454309ed6630150856c",
+    "sourceHash": "sha256:38002092354deb2e2953229a70b5bd85cc20cc668d0ab2abd9eb4d9f3422140a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:46733f5c1131fa65031349656553316156b1ddb07f4e0454309ed6630150856c",
-    "mappedOn": null,
-    "summary": "Ukrainian fixed asset accounting localization",
+    "sourceHash": "sha256:38002092354deb2e2953229a70b5bd85cc20cc668d0ab2abd9eb4d9f3422140a",
+    "mappedOn": "2026-10-30",
+    "summary": "Ukrainian fixed asset documents and forms: commissioning, transfer, modernisation, count and write-off.",
     "shape": "localization",
     "primary": [
       {
@@ -35,12 +37,15 @@
       "ng-fa-disposal"
     ],
     "claims": [
-      "Fixed asset release order to put assets into use",
-      "Movement order transfers location and/or responsible employee",
-      "Write-off order removes asset from the balance sheet",
-      "Fixed asset modernization",
-      "Fixed asset inventory order",
-      "Ukrainian printing forms OZ-1, OZ-3, INV-1"
+      "Release order to put a fixed asset into service",
+      "Movement order to change asset location or responsible employee",
+      "Write-off order to remove an asset from the balance sheet",
+      "Increases asset cost via inventory shipment",
+      "Supports fixed asset modernisation",
+      "Fixed asset inventory (count) order",
+      "Prints Ukrainian forms ОЗ-1, ОЗ-3 and ІНВ-1",
+      "Requires the Ukrainian Localization Foundation app",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "UA"
@@ -53,10 +58,10 @@
     "industries": [],
     "connectsTo": [],
     "requires": [
-      "IW Foundation"
+      "IW Ukrainian Localization Foundation"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

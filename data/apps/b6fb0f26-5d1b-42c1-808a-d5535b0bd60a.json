@@ -8,40 +8,43 @@
     "publisher": "Abakion",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.abakion_legal_ic%7CPAPPID.b6fb0f26-5d1b-42c1-808a-d5535b0bd60a",
-    "lastModified": "2026-08-14T13:05:23.5910984+00:00",
-    "appVersion": "27.1.202633.6365",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:57:02.3591542+00:00",
+    "appVersion": "28.0.202643.6930",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://abakion.dk/legal/funktioner/",
-    "sourceHash": "sha256:bb15d8fcaecbbc9a7cced41b3ff6529e15723950c6daec6a335882c6768b4c19",
+    "sourceHash": "sha256:9808f6d4e2252c20075cabe2ff57f032afd759002d4f6d81671d04fa22d2e82d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bb15d8fcaecbbc9a7cced41b3ff6529e15723950c6daec6a335882c6768b4c19",
-    "mappedOn": null,
-    "summary": "Automates and controls invoicing of customers",
-    "shape": "process",
+    "sourceHash": "sha256:9808f6d4e2252c20075cabe2ff57f032afd759002d4f6d81671d04fa22d2e82d",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based client invoicing with lawyer approval for the Abakion Legal law firm solution.",
+    "shape": "addon",
     "primary": [
       {
-        "need": "ng-vert-professional-services",
+        "need": "ng-proj-billing",
         "confidence": "high"
       },
       {
-        "need": "ng-proj-billing",
+        "need": "ng-vert-professional-services",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-sales-invoicing",
       "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Billing rules per client",
-      "Bulk-create invoice drafts for today's invoices",
-      "Drafts follow rules for invoice period, consolidated invoicing and attached statements",
-      "Notification of invoice drafts awaiting approval",
-      "Lawyer edits disbursements and fee allocation directly in overview",
-      "Approval workflow for invoice drafts",
-      "Built-in messaging system"
+      "Billing rules per client type",
+      "Bulk-creates the day's invoice drafts",
+      "Drafts follow per-client or per-case rules for period, consolidation and statements",
+      "Built-in messaging between case administrator and lawyers",
+      "Notifies lawyers of drafts waiting for approval",
+      "Shows disbursements and fee allocation and allows inline edits",
+      "Drafts move on through an approval workflow"
     ],
     "countries": [
       "DK",
@@ -59,7 +62,7 @@
       "Abakion Legal"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

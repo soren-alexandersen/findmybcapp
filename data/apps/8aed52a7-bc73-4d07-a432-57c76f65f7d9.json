@@ -8,18 +8,20 @@
     "publisher": "Retail Central",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailcentral%7CAID.norce2bc%7CPAPPID.8aed52a7-bc73-4d07-a432-57c76f65f7d9",
-    "lastModified": "2026-10-06T17:20:54.9405134+00:00",
-    "appVersion": "2.3.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T00:51:14.9696658+00:00",
+    "appVersion": "2.3.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://basecloud.se/",
-    "sourceHash": "sha256:d70bc8f8267c8371067e3741ddf39d909deaa09bc8dc26d9935012ed875219c6",
+    "sourceHash": "sha256:9c37e4ecce92a92f6db3358f35ab56412654cc55f4b5c8ce3998f74feae0b2a2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d70bc8f8267c8371067e3741ddf39d909deaa09bc8dc26d9935012ed875219c6",
-    "mappedOn": null,
-    "summary": "Integrates Norce Commerce with BC",
+    "sourceHash": "sha256:9c37e4ecce92a92f6db3358f35ab56412654cc55f4b5c8ce3998f74feae0b2a2",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs products, prices, stock and orders between Norce Commerce and Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -27,12 +29,14 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
     "claims": [
-      "Keeps orders, inventory, prices and products in sync across Norce and BC",
+      "Syncs products, prices, inventory and orders with Norce",
       "Supports multiple markets and currencies",
-      "Built-in logging and error management",
-      "Supports B2B and B2C"
+      "Logs integration errors for follow-up",
+      "Works for B2B and B2C setups"
     ],
     "countries": [],
     "languages": [],
@@ -42,7 +46,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.dynamics-365-vendor-contract-maintenance-websan%7CPAPPID.d1b3fd54-468e-4b5e-a481-9e2c6e347070",
-    "lastModified": "2026-07-28T08:16:21.9838312+00:00",
-    "appVersion": "26.5.160.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:34:14.5757956+00:00",
+    "appVersion": "26.7.164.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/vendor-contract-maintenance/",
-    "sourceHash": "sha256:0a990ac9744ca8bb65af53825eb7ae1ab49e71fb147e7f2565a14ac85f7c14e6",
+    "sourceHash": "sha256:9e915acb77307a8fca08b5484376efbf6a2bdd7cc6eba494afb161e88c5199a1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0a990ac9744ca8bb65af53825eb7ae1ab49e71fb147e7f2565a14ac85f7c14e6",
-    "mappedOn": null,
-    "summary": "Tracks vendor contracts and negotiated pricing",
+    "sourceHash": "sha256:9e915acb77307a8fca08b5484376efbf6a2bdd7cc6eba494afb161e88c5199a1",
+    "mappedOn": "2026-10-30",
+    "summary": "Records vendor contracts with dates, pricing, budgets, clauses and email reminders.",
     "shape": "process",
     "primary": [
       {
@@ -29,21 +31,20 @@
     ],
     "secondary": [
       "ng-supplier-pricing",
-      "ng-purchase-orders"
+      "ng-procurement-spend",
+      "ng-admin-alerts"
     ],
     "claims": [
-      "Records contract key details, dates and stakeholders",
-      "Notifications on renewal or expiry dates",
-      "Automated custom email notifications to anyone",
-      "Links purchase orders to contracts",
-      "Annual contract budget limit",
-      "Email notification when a purchase is made against the contract",
-      "Contract-specific item pricing used on purchases",
-      "Clauses and conditions such as termination fees with reminders",
-      "Attach notes and documents to the contract",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Stores contract key details, dates and stakeholders",
+      "Sends automated email reminders for renewal and expiry dates",
+      "Email notification texts can be customised",
+      "Links purchase orders to a contract",
+      "Sets an annual budget per contract",
+      "Notifies when a purchase is made against the contract",
+      "Applies negotiated contract item prices to purchases",
+      "Records clauses such as termination fees and notice terms with reminders",
+      "Attaches notes and documents to the contract",
+      "Priced at USD 60 per tenant per month"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +58,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

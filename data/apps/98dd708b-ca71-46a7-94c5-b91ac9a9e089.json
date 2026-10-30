@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.dynasystechnology|AID.dynasys-insights-reporting|PAPPID.98dd708b-ca71-46a7-94c5-b91ac9a9e089",
+  "guid": "98dd708b-ca71-46a7-94c5-b91ac9a9e089",
+  "publisherId": "dynasystechnology",
+  "offerId": "dynasys-insights-reporting",
+  "source": {
+    "name": "Dynasys Insights",
+    "publisher": "DYNASYS TECHNOLOGY",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasystechnology%7CAID.dynasys-insights-reporting%7CPAPPID.98dd708b-ca71-46a7-94c5-b91ac9a9e089",
+    "lastModified": "2026-10-25T21:06:09.1022667+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.dynasys.tech/solutions/dynasys-insights/docs",
+    "sourceHash": "sha256:e70ddcf82b425873da3d70e5775fc9987ae310a326799f9361749b4739fd4ba1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e70ddcf82b425873da3d70e5775fc9987ae310a326799f9361749b4739fd4ba1",
+    "mappedOn": "2026-10-30",
+    "summary": "Embedded sales, purchase, finance and inventory analytics dashboards inside BC.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-inventory-analysis",
+      "ng-procurement-spend",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Charts are embedded in BC and update live from posted data",
+      "Sales by salesperson, customer, item and country with a world map",
+      "Year-over-year monthly trends and YTD sales versus target and prior year",
+      "Drill from chart points to the underlying posted sales invoices",
+      "Salesperson radar chart against period targets",
+      "Purchase spend by vendor, category and country with vendor targets",
+      "AR and AP aging buckets",
+      "30, 60 and 90 day cash flow projection",
+      "G/L budget versus actual with dimension drill-down",
+      "Gross margin by item",
+      "Top stock value, slow movers and low-stock alerts from reorder points",
+      "KPI cards for sales, target achievement, AR/AP and overdue receivables",
+      "CSV export on every chart",
+      "Seats assigned via the Microsoft 365 Admin Center"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "it",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

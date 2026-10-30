@@ -113,8 +113,8 @@
         }
       ],
       "coverage": {
-        "Inside Business Central": 0.19,
-        "In Power BI": 0.29
+        "Inside Business Central": 0.18,
+        "In Power BI": 0.27
       }
     },
     {
@@ -166,9 +166,9 @@
         }
       ],
       "coverage": {
-        "Salesperson targets and performance": 0.29,
-        "Margin and profit": 0.38,
-        "Customer behaviour and churn": 0.24,
+        "Salesperson targets and performance": 0.32,
+        "Margin and profit": 0.36,
+        "Customer behaviour and churn": 0.27,
         "Quotes, orders and backlog": 0.14
       }
     },
@@ -194,7 +194,7 @@
         }
       ],
       "coverage": {
-        "Yes, alerts or flags": 0.29
+        "Yes, alerts or flags": 0.32
       }
     },
     {
@@ -216,7 +216,7 @@
         }
       ],
       "coverage": {
-        "Yes, AI insights": 0.14
+        "Yes, AI insights": 0.18
       }
     },
     {
@@ -236,8 +236,31 @@
         }
       ],
       "coverage": {
-        "Yes, by dimensions": 0.33
+        "Yes, by dimensions": 0.32
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'covers' wording",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'daily' period wording",
+      "terms": [
+        "daily"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'week' period wording",
+      "terms": [
+        "week"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

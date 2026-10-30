@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.novaterraebusinessengines1588944710709|AID.business-central-health-scan|PAPPID.7c1c7d5f-0f74-4f66-9a72-21cb5f6a1c01",
+  "guid": "7c1c7d5f-0f74-4f66-9a72-21cb5f6a1c01",
+  "publisherId": "novaterraebusinessengines1588944710709",
+  "offerId": "business-central-health-scan",
+  "source": {
+    "name": "Business Central Health Scan",
+    "publisher": "Novaterrae B.V.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novaterraebusinessengines1588944710709%7CAID.business-central-health-scan%7CPAPPID.7c1c7d5f-0f74-4f66-9a72-21cb5f6a1c01",
+    "lastModified": "2026-10-26T15:56:45.1651118+00:00",
+    "appVersion": "1.0.0.194",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://novaterrae.nl/health-scan-installation-guide",
+    "sourceHash": "sha256:c5a233ae5ed3d7983dca6c39937593c527435b4c507f10c5583691f21bd717c2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c5a233ae5ed3d7983dca6c39937593c527435b4c507f10c5583691f21bd717c2",
+    "mappedOn": "2026-10-30",
+    "summary": "Scans a BC environment for configuration, technical and stability risks",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-performance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-support"
+    ],
+    "claims": [
+      "Reviews configuration and quality of the BC environment",
+      "Flags potential configuration and technical issues",
+      "Points out risks and areas needing attention",
+      "Produces a structured overview for consultants, admins and IT",
+      "Meant for periodic environment reviews by admins and partners"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

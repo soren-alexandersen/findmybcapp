@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.catchweight%7CPAPPID.31c73668-b1d6-47b1-998b-5827e9ba8c6f",
-    "lastModified": "2026-09-29T10:20:23.8627846+00:00",
-    "appVersion": "2602.2.344069.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T08:43:26.366636+00:00",
+    "appVersion": "2603.0.351003.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/CAW",
-    "sourceHash": "sha256:31a7b54383f6ef85e09c4a892d9a2f64442faed1a7a4ca3c3bc77b9b23ca6171",
+    "sourceHash": "sha256:f82cb971d8bbc2008c0009b7ddcb763ce4970a113c9509ffcaeec93ee36d1ead",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:31a7b54383f6ef85e09c4a892d9a2f64442faed1a7a4ca3c3bc77b9b23ca6171",
-    "mappedOn": null,
-    "summary": "Catch weight in both weight and units",
-    "shape": "addon",
+    "sourceHash": "sha256:f82cb971d8bbc2008c0009b7ddcb763ce4970a113c9509ffcaeec93ee36d1ead",
+    "mappedOn": "2026-10-30",
+    "summary": "Catch weight: records pieces and weight on transactions and invoices by actual weight.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-vert-food-beverage",
@@ -28,63 +30,33 @@
       },
       {
         "need": "ng-sales-invoicing",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-lot-serial-traceability",
-      "ng-item-master-data"
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Register transactions in pieces and weight",
-      "Invoice on shipped weight quantity times price per kg/lb",
-      "Weight variability tolerance per item or fixed weight",
-      "Item weight ledger entries per item, license plate and lot",
-      "Weight lines linked to item tracking lines",
-      "Print weight quantities on sales invoices and other documents"
+      "Sets per item whether and how catch weight applies",
+      "Registers transactions in both pieces and kilograms or pounds",
+      "Invoices on shipped weight times price per kg or lb",
+      "Allowed weight variance between lower and upper percentages, or fixed weight",
+      "Item weight ledger entries track weight per item, license plate and lot",
+      "Weight lines show quantities to handle, handled, to invoice and invoiced",
+      "Prints weight quantities on documents like sales invoices",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

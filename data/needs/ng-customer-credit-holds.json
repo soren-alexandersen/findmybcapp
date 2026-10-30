@@ -120,11 +120,11 @@
         }
       ],
       "coverage": {
-        "Hold or block orders when credit limit or overdue is hit": 0.29,
-        "Credit scores and reports on customers": 0.38,
-        "Sanction and export-control screening": 0.21,
-        "Trade credit insurance": 0.08,
-        "Bank guarantees, letters of credit or bonds": 0.12
+        "Hold or block orders when credit limit or overdue is hit": 0.26,
+        "Credit scores and reports on customers": 0.35,
+        "Sanction and export-control screening": 0.22,
+        "Trade credit insurance": 0.09,
+        "Bank guarantees, letters of credit or bonds": 0.04
       }
     },
     {
@@ -152,7 +152,7 @@
         }
       ],
       "coverage": {
-        "Yes, monitor automatically": 0.5
+        "Yes, monitor automatically": 0.48
       }
     },
     {
@@ -174,7 +174,7 @@
         }
       ],
       "coverage": {
-        "Yes, with an approval step": 0.33
+        "Yes, with an approval step": 0.35
       }
     },
     {
@@ -210,8 +210,8 @@
         }
       ],
       "coverage": {
-        "Automatic alerts when something changes": 0.42,
-        "Credit info shown on customer and order screens": 0.33
+        "Automatic alerts when something changes": 0.35,
+        "Credit info shown on customer and order screens": 0.26
       }
     },
     {
@@ -232,7 +232,7 @@
         }
       ],
       "coverage": {
-        "Yes, suppliers too": 0.5
+        "Yes, suppliers too": 0.52
       }
     },
     {
@@ -258,8 +258,24 @@
         }
       ],
       "coverage": {
-        "Yes": 0.29
+        "Yes": 0.26
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "sandbox licensing and pricing",
+      "terms": [
+        "sandbox"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "stock reservation and allocation, belongs to inventory needs",
+      "terms": [
+        "stock"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

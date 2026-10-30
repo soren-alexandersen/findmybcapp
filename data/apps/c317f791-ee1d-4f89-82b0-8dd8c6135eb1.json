@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.advanced_fixed_assets|PAPPID.c317f791-ee1d-4f89-82b0-8dd8c6135eb1",
+  "guid": "c317f791-ee1d-4f89-82b0-8dd8c6135eb1",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "advanced_fixed_assets",
+  "source": {
+    "name": "Advanced Fixed Assets",
+    "publisher": "LODESTAR SPA",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.advanced_fixed_assets%7CPAPPID.c317f791-ee1d-4f89-82b0-8dd8c6135eb1",
+    "lastModified": "2026-10-13T06:46:15.187464+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:4dcdac94f5547362297d0161e895cbe7a6ac8805b1788ac00e887b0726c23868",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:4dcdac94f5547362297d0161e895cbe7a6ac8805b1788ac00e887b0726c23868",
+    "mappedOn": "2026-10-30",
+    "summary": "Creates many fixed asset cards from one purchase, prints asset labels, reports depreciation.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-fa-register",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-fa-capex",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-fa-depreciation",
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Shared templates for buying several similar assets",
+      "Reserves asset numbers and creates one card per asset from purchase orders and invoices",
+      "Keeps each new asset linked to its originating purchase order",
+      "Prints asset labels with number, description and barcode",
+      "Labels can carry organisational data such as cost center",
+      "Depreciation book report shows costs, additions, disposals and book values per period",
+      "Define the number of assets on a purchase line",
+      "Reservation worksheet tracks quantities, number ranges and posting status"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

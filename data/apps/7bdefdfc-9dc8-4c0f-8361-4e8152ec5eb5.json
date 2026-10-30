@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_leas%7CPAPPID.7bdefdfc-9dc8-4c0f-8361-4e8152ec5eb5",
-    "lastModified": "2026-10-05T19:14:23.442719+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:32:56.1182586+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/07/app-financial-leasing-pdf.pdf",
-    "sourceHash": "sha256:d8090d2e3121fb08f6449d3c950722cff3ca74a37399050d6cec04a5580e7fe9",
+    "sourceHash": "sha256:e7a03a3ea18875dca9f003eaab64c70fe11acf5a037838e1cd4f680f836a070d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d8090d2e3121fb08f6449d3c950722cff3ca74a37399050d6cec04a5580e7fe9",
-    "mappedOn": null,
-    "summary": "Manages financial leasing contracts and accounting",
+    "sourceHash": "sha256:e7a03a3ea18875dca9f003eaab64c70fe11acf5a037838e1cd4f680f836a070d",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks financial lease agreements, repayment plans and related fixed asset and interest postings.",
     "shape": "process",
     "primary": [
       {
@@ -28,16 +30,18 @@
       }
     ],
     "secondary": [
+      "ng-fa-register",
       "ng-cash-forecast",
-      "ng-fa-register"
+      "ng-currency"
     ],
     "claims": [
-      "Leasing accounting entries linked to fixed assets",
-      "Tracks leasing agreement and repayment plan",
-      "Repayment plan feeds cash flow",
-      "Acquisition costs across multiple fixed asset cards",
-      "Interest accruals as additional cost to the asset",
-      "Accruals, exchange rate valuation and interest invoices"
+      "Lease accounting entries are linked to the fixed asset",
+      "Tracks the lease agreement and its repayment schedule",
+      "Repayment schedule feeds the cash flow forecast",
+      "Acquisition cost can be spread over several fixed asset cards",
+      "Interest accruals can be added as asset cost or expense",
+      "Handles accruals, exchange rate revaluation and interest invoices",
+      "Available in English and Turkish"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

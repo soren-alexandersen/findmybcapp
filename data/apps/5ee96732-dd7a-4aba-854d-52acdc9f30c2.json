@@ -8,18 +8,20 @@
     "publisher": "mscrm-addons.com ( PTM EDV Systeme )",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mscrm-addons%7CAID.documentscorepack-businesscentral%7CPAPPID.5ee96732-dd7a-4aba-854d-52acdc9f30c2",
-    "lastModified": "2026-10-02T06:25:44.1648894+00:00",
-    "appVersion": "1.0.0.54",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:10:38.0601972+00:00",
+    "appVersion": "1.0.0.57",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mscrm-addons.com/Products/DocumentsCorePack/DocumentsCorePack-Resources",
-    "sourceHash": "sha256:1a5f36a17fc7963e7bdc3df1d92f1ee81edc4ba661aef39d63b672b2cbe334df",
+    "sourceHash": "sha256:e9095cba42a72597006b1272179733e9bf2e28a111b238808dd0112558a811c1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1a5f36a17fc7963e7bdc3df1d92f1ee81edc4ba661aef39d63b672b2cbe334df",
-    "mappedOn": null,
-    "summary": "Word-based document layout design and generation",
+    "sourceHash": "sha256:e9095cba42a72597006b1272179733e9bf2e28a111b238808dd0112558a811c1",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code Word template designer to generate BC documents in PDF, Word or HTML.",
     "shape": "usability",
     "primary": [
       {
@@ -27,26 +29,22 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-ux-email-sending"
-    ],
+    "secondary": [],
     "claims": [
-      "Document layouts designed in Microsoft Word without RDLC development",
-      "Template Designer for creating templates directly in Word",
-      "Uses dynamic data fields from BC in templates",
-      "Reuse templates across document types",
-      "Generates invoices, orders, quotes, confirmations and reports within BC",
-      "Generates documents individually or in bulk",
+      "Template Designer inside Microsoft Word with BC data fields",
+      "No RDLC development or developer needed",
+      "Templates reusable across document types",
+      "Generates invoices, orders, quotes, confirmations and reports in BC",
+      "Single or bulk document generation",
       "Output in PDF, Word and HTML",
-      "Data stays within the BC environment and regional boundaries",
-      "14-day free trial"
+      "Runs inside standard BC pages with no separate interface",
+      "Data stays within the BC environment and region",
+      "14-day free trial with all features"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
-    "connectsTo": [
-      "Microsoft Word"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "online",
     "pricing": "free_trial",

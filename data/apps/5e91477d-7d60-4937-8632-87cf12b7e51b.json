@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.indexofsolutions1735901590684|AID.arabicpack|PAPPID.5e91477d-7d60-4937-8632-87cf12b7e51b",
+  "guid": "5e91477d-7d60-4937-8632-87cf12b7e51b",
+  "publisherId": "indexofsolutions1735901590684",
+  "offerId": "arabicpack",
+  "source": {
+    "name": "Arabic Language Pack",
+    "publisher": "Index Of Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.indexofsolutions1735901590684%7CAID.arabicpack%7CPAPPID.5e91477d-7d60-4937-8632-87cf12b7e51b",
+    "lastModified": "2026-10-23T11:33:53.3902039+00:00",
+    "appVersion": "28.5.0.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.indexofsolutions.com/",
+    "sourceHash": "sha256:f1a6de78bf7bc8bc5fdc08630dcc3cba422836461f47529f21ee69dbaf0d7ecd",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1a6de78bf7bc8bc5fdc08630dcc3cba422836461f47529f21ee69dbaf0d7ecd",
+    "mappedOn": "2026-10-30",
+    "summary": "Arabic translation of the BC user interface, delivered via the English (South Africa) language.",
+    "shape": "language",
+    "primary": [
+      {
+        "need": "ng-lang-ui-language",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Translates into Modern Standard Arabic with consistent ERP terms",
+      "Covers captions, pages, actions, tooltips, messages and report labels",
+      "Covers Base Application, System Application and Business Foundation",
+      "Users select English (South Africa) to see Arabic",
+      "Platform controls and menus stay in English",
+      "Layout stays left-to-right",
+      "Translations are AI-assisted",
+      "Contains no code and can be uninstalled at any time"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -160,14 +160,24 @@
           ]
         },
         {
+          "label": "Follow-up or corrective actions are logged",
+          "patterns": [
+            "follow-up action",
+            "corrective action",
+            "capa\\b",
+            "action plan"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Moved to a quarantine or rejection area": 0.53,
+        "Moved to a quarantine or rejection area": 0.47,
         "Returned to the supplier": 0.2,
-        "Reworked or scrapped": 0.27
+        "Reworked or scrapped": 0.27,
+        "Follow-up or corrective actions are logged": 0.2
       }
     },
     {
@@ -194,6 +204,37 @@
       "coverage": {
         "Yes, on mobile with photos": 0.33
       }
+    },
+    {
+      "id": "do-you-need-to-block-specific-",
+      "text": "Do you need to block specific lots, serial numbers or packages?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, block by lot, serial or package",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "package"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, block by lot, serial or package": 0.6
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "Power Platform add-ons, not a buying criterion here",
+      "terms": [
+        "power"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

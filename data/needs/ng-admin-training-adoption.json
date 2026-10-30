@@ -145,7 +145,7 @@
       ],
       "coverage": {
         "Write our own": 0.45,
-        "Ready-made content": 0.36
+        "Ready-made content": 0.27
       }
     },
     {
@@ -159,7 +159,10 @@
             "analytics",
             "struggl",
             "feedback",
-            "sentiment"
+            "sentiment",
+            "usage trend",
+            "actual usage",
+            "right-sizing"
           ]
         },
         {
@@ -168,7 +171,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.27
+        "Yes": 0.36
       }
     },
     {
@@ -192,6 +195,15 @@
       "coverage": {
         "Yes": 0.36
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "vendor licence requirements",
+      "terms": [
+        "licens"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

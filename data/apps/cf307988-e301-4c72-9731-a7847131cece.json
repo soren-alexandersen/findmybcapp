@@ -8,18 +8,20 @@
     "publisher": "SystemConnect",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.bcbackup%7CPAPPID.cf307988-e301-4c72-9731-a7847131cece",
-    "lastModified": "2026-02-06T17:44:26.5814321+00:00",
-    "appVersion": "27.0.0.32",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T07:32:52.9488439+00:00",
+    "appVersion": "28.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/bcbackuphelp",
-    "sourceHash": "sha256:c49ebc75ed68a864c3058f22a9fa54a1f811469a1459eb1b5a835ec72ba6b7bb",
+    "sourceHash": "sha256:eccfcc13201f859c79eac97dc9f975bf30472b2e29050034826cc43b3ece1bde",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c49ebc75ed68a864c3058f22a9fa54a1f811469a1459eb1b5a835ec72ba6b7bb",
-    "mappedOn": null,
-    "summary": "Triggers and automates environment backups",
+    "sourceHash": "sha256:eccfcc13201f859c79eac97dc9f975bf30472b2e29050034826cc43b3ece1bde",
+    "mappedOn": "2026-10-30",
+    "summary": "Starts and schedules BC environment database backups to your own Azure Blob Storage.",
     "shape": "usability",
     "primary": [
       {
@@ -27,25 +29,28 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
     "claims": [
-      "Initiate environment database backups from BC via Admin Center API",
-      "Schedule recurring backups via job queue",
-      "Exports backups to customer's own Azure Blob Storage",
-      "Notifications to predefined recipients when backup starts",
-      "S2S authentication with Microsoft Entra ID",
-      "Requires D365 BACKUP/RESTORE permission set"
+      "Starts environment database backups from within BC via the Admin Center API",
+      "Backups can be run on demand or scheduled through the job queue",
+      "Backup files go to the customer's own Azure Blob Storage account",
+      "Sends notifications to named recipients when a backup starts",
+      "Uses service-to-service authentication with Microsoft Entra ID",
+      "Requires the D365 BACKUP/RESTORE permission set",
+      "Needs an Entra app registration and an Azure storage account"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "Azure Blob Storage",
-      "Business Central Admin Center"
+      "Business Central Admin Center API",
+      "Azure Blob Storage"
     ],
     "requires": [],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

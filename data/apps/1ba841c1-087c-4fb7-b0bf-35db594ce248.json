@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.custom_fields%7CPAPPID.1ba841c1-087c-4fb7-b0bf-35db594ce248",
-    "lastModified": "2026-09-21T15:03:35.2749582+00:00",
-    "appVersion": "1.94.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T13:20:49.2888929+00:00",
+    "appVersion": "1.96.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.customfields.apportunix.com/",
-    "sourceHash": "sha256:6d83160fdd544b8b7c76f777fd89ade567338c16b4e42443a9916736a58826d9",
+    "sourceHash": "sha256:f8eaf98dd204ff0ad1b58c9c01e639a9384780a0d1f884943d2aba875c37fc25",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6d83160fdd544b8b7c76f777fd89ade567338c16b4e42443a9916736a58826d9",
-    "mappedOn": null,
-    "summary": "Creates custom fields and tiles without code",
+    "sourceHash": "sha256:f8eaf98dd204ff0ad1b58c9c01e639a9384780a0d1f884943d2aba875c37fc25",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets users add their own fields to master data and documents without a developer.",
     "shape": "usability",
     "primary": [
       {
@@ -28,24 +30,27 @@
       }
     ],
     "secondary": [
-      "ng-ux-rolecenters",
-      "ng-ux-master-data-sync"
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "Custom fields for customers, vendors, contacts, projects, items and resources",
-      "Custom fields on sales and purchase document headers and lines",
-      "Each entity gets up to 5 custom fields for every field type (10 in Pro)",
-      "Keeps custom fields in sync across vendors, customers and contacts",
-      "Transfers field values from master data to documents",
-      "Translatable field captions",
-      "Pro: service items, production orders, fixed assets, lot/serial info",
-      "Pro: APIs exposing custom fields",
-      "Custom lookup fields to other tables",
-      "Calculated fields (count, sum, average) shown as factbox fields or tiles",
-      "Custom role center tiles and headlines"
+      "Fields can be added to customers, vendors, contacts, projects, items and resources",
+      "Fields also work on sales and purchase document headers and lines",
+      "Free tier allows five fields per field type per entity",
+      "Pro tier raises the limit to ten fields per field type per entity",
+      "Each field gets a data type and can use a configurable value list",
+      "Custom field values stay in sync between contact, customer and vendor records",
+      "Values flow from customers, vendors and items onto projects and sales and purchase documents",
+      "Field captions can be translated",
+      "Pro tier covers service items and documents, project tasks, production orders, fixed assets and lot/serial info",
+      "Custom fields are exposed through APIs",
+      "Lookup fields can point to other BC tables",
+      "Calculated fields can count, sum, average or divide data",
+      "Calculated values can be shown as factbox fields or cues on pages",
+      "Role center headlines can include clickable calculated values"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en",
       "nl"
     ],

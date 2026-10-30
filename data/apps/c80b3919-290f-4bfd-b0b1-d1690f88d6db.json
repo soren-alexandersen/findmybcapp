@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365qa%7CPAPPID.c80b3919-290f-4bfd-b0b1-d1690f88d6db",
-    "lastModified": "2026-09-16T17:02:48.2925913+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:45.7484244+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/en-US/Dynamics365/ProBatch/qa/index.html",
-    "sourceHash": "sha256:1ace077e2e2c96e207d397882aa9be12de28611630cf5a36c1118e33e1dd9ca7",
+    "sourceHash": "sha256:08a6371e5a3f82736601326b1286dcc0d34137370b606bff5e42a55beac95308",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1ace077e2e2c96e207d397882aa9be12de28611630cf5a36c1118e33e1dd9ca7",
-    "mappedOn": null,
-    "summary": "Automated quality control management",
+    "sourceHash": "sha256:08a6371e5a3f82736601326b1286dcc0d34137370b606bff5e42a55beac95308",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality inspection plans, sampling, lab tests and certificates of analysis for process industries.",
     "shape": "process",
     "primary": [
       {
@@ -29,22 +31,20 @@
     ],
     "secondary": [
       "ng-vert-life-sciences",
-      "ng-quality-hold"
+      "ng-quality-hold",
+      "ng-product-compliance"
     ],
     "claims": [
-      "Inspection processes along supply chain",
-      "Measured values per item, lot or serial number",
-      "Inspection plans based on inspection groups and features",
-      "Determination of sample drawing",
-      "Sample shipment to external lab",
+      "Inspection steps defined along the supply chain",
+      "Measured values stored per item, lot or serial number",
+      "Inspection plans built from inspection groups and features",
+      "Determines sample drawing",
+      "Samples can be shipped to an external lab",
       "Stability tests for samples",
-      "Certificates of analysis",
-      "Automatic status change with Lot Management",
-      "Item specifications",
-      "Mobile quality processes with Tasklet and Quality Scanning",
-      "Includes free Yaveon 365 Base App with rule-based traffic lights, extended texts, inventory summary and data migration tools",
-      "Extended texts on master data, purchasing documents and sales documents",
-      "Corporate design for documents"
+      "Creates certificates of analysis",
+      "Automatic lot status change when combined with Yaveon 365 Lot Management",
+      "Item specifications can be created",
+      "Mobile inspections via Tasklet Mobile WMS and a scanning add-on"
     ],
     "countries": [
       "AD",
@@ -147,13 +147,17 @@
       "Chemicals",
       "Cosmetics",
       "Food",
+      "Healthcare",
+      "Manufacturing & Mobility",
       "Medical technology",
       "Pharmaceuticals"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Tasklet Mobile WMS"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

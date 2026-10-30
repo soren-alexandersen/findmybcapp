@@ -8,18 +8,20 @@
     "publisher": "Verosoft Design INC. (VSD)",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vsd%7CAID.tag%7CPAPPID.02761afe-4cd9-40ba-a632-fdf4d1991044",
-    "lastModified": "2026-09-29T12:50:43.9275818+00:00",
-    "appVersion": "13.5.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T19:00:11.4005828+00:00",
+    "appVersion": "14.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.verosoftdesign.com/contact",
-    "sourceHash": "sha256:6eb8c1509a76c155e77d67c558898a03cb106d2b249d567b8f4b0962bdd64aae",
+    "sourceHash": "sha256:3ed841b25c863b07e21a6347643e4cbff5b9c22a7b86c07a7b76dc99dad8229d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6eb8c1509a76c155e77d67c558898a03cb106d2b249d567b8f4b0962bdd64aae",
-    "mappedOn": null,
-    "summary": "Enterprise asset and maintenance management",
+    "sourceHash": "sha256:3ed841b25c863b07e21a6347643e4cbff5b9c22a7b86c07a7b76dc99dad8229d",
+    "mappedOn": "2026-10-30",
+    "summary": "Enterprise asset and maintenance management (CMMS/EAM) inside BC with a mobile app.",
     "shape": "process",
     "primary": [
       {
@@ -28,30 +30,27 @@
       },
       {
         "need": "ng-maintenance-breakdown",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-svc-field-execution",
       "ng-fa-register",
-      "ng-svc-parts"
+      "ng-admin-devices",
+      "ng-svc-contracts"
     ],
     "claims": [
-      "Native EAM/CMMS embedded in Business Central",
-      "Asset tracking and hierarchies",
-      "Work and request management",
-      "Corrective, preventive and predictive maintenance",
-      "Resource planning and scheduling",
-      "Inventory and parts management",
-      "Labor and vendor management",
-      "Contract and warranty management",
-      "Offers Power BI reports, dashboards and KPIs for maintenance",
-      "Purchase orders and requisitions",
-      "Linear asset management",
+      "Tracks assets in hierarchies, including linear assets",
+      "Handles work requests and work orders",
+      "Supports corrective, preventive and predictive maintenance",
+      "Plans and schedules maintenance resources",
+      "Manages maintenance inventory and spare parts",
+      "Manages labor and vendors for maintenance",
+      "Tracks maintenance contracts and warranties",
+      "Maintenance KPIs, dashboards and Power BI reports",
+      "Includes TAG Mobi mobile app for technicians in the field",
+      "Purchase orders and requisitions for maintenance",
       "Asset health and risk indexes",
-      "Includes TAG Mobi mobile app with AI-assisted onboarding",
-      "Also integrated with D365 Supply Chain, Finance and Human Resources",
-      "Available in English, French, Spanish, Mandarin"
+      "Also integrates with Dynamics 365 Supply Chain, Finance and Human Resources"
     ],
     "countries": [],
     "languages": [
@@ -60,16 +59,19 @@
       "fr",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Energy & Resources",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [
-      "Power BI",
       "Dynamics 365 Supply Chain Management",
       "Dynamics 365 Finance",
-      "Dynamics 365 Human Resources"
+      "Dynamics 365 Human Resources",
+      "Power BI"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

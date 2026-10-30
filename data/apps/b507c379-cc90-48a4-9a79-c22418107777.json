@@ -8,18 +8,20 @@
     "publisher": "Build Dynamics Pty Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_templates%7CPAPPID.b507c379-cc90-48a4-9a79-c22418107777",
-    "lastModified": "2026-10-05T19:57:25.8087592+00:00",
-    "appVersion": "28.4.0.7",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:01:02.3995223+00:00",
+    "appVersion": "28.4.0.9",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://builddynamics.com.au/extensions/templates/",
-    "sourceHash": "sha256:4635914cf8dadd70fc959d2d41e114f7281bb22eed80f6f9830272d441650257",
+    "sourceHash": "sha256:d4c4572d0baa0ccf61ac5ed0a7a147cd8c207b339fd24aee967a7e881adcf6ba",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4635914cf8dadd70fc959d2d41e114f7281bb22eed80f6f9830272d441650257",
-    "mappedOn": null,
-    "summary": "Pack of report layouts in Word and RDLC",
+    "sourceHash": "sha256:d4c4572d0baa0ccf61ac5ed0a7a147cd8c207b339fd24aee967a7e881adcf6ba",
+    "mappedOn": "2026-10-30",
+    "summary": "Ready-made Word and RDLC layouts for sales, purchase, warehouse and finance documents.",
     "shape": "usability",
     "primary": [
       {
@@ -27,26 +29,26 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-implementation"
+    ],
     "claims": [
-      "Sales layouts: quote, order, acknowledgement, invoice, credit memo, statement",
-      "Purchasing layouts: PO, remittance advice",
-      "Warehouse layouts: pick, put-away, transfer, labels",
-      "Finance: customer statement, formatted trial balance",
-      "Placeholders for logos and legal text",
-      "Multi-company and language-aware",
-      "Word and RDLC versions",
-      "No code changes; layouts can be extended"
+      "Sales layouts for quote, order, confirmation, invoice, credit memo and statement",
+      "Purchase order and remittance advice layouts",
+      "Warehouse pick, put-away, transfer and label templates",
+      "Formatted trial balance and customer statement",
+      "Placeholders for logo and legal text",
+      "Multi-company and language-aware layouts",
+      "Choose Word or RDLC per report",
+      "No code changes; layouts can be copied and extended"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [],
-    "requires": [
-      "License Manager (Build Dynamics)"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

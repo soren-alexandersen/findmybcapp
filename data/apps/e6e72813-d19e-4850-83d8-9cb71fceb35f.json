@@ -8,39 +8,45 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_non_conformances%7CPAPPID.e6e72813-d19e-4850-83d8-9cb71fceb35f",
-    "lastModified": "2026-08-26T06:54:09.5966682+00:00",
-    "appVersion": "2602.1.339226.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T09:51:31.8466977+00:00",
+    "appVersion": "2603.0.351476.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/NCF/",
-    "sourceHash": "sha256:3d339f3a2595df54ae6f81fbeaeb52ea8cd73f2a665b78d52f11fc340558ae07",
+    "sourceHash": "sha256:859d2e964fb79868929066a76d5cdbe189cf848b046685843fdee639fef126bb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3d339f3a2595df54ae6f81fbeaeb52ea8cd73f2a665b78d52f11fc340558ae07",
-    "mappedOn": null,
-    "summary": "Registers and follows up customer non-conformances and complaints",
+    "sourceHash": "sha256:859d2e964fb79868929066a76d5cdbe189cf848b046685843fdee639fef126bb",
+    "mappedOn": "2026-10-30",
+    "summary": "Registers and follows up customer complaints from Outlook, with Teams and SharePoint tasks.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-case-intake",
+        "need": "ng-nonconformance-capa",
         "confidence": "high"
       },
       {
-        "need": "ng-nonconformance-capa",
+        "need": "ng-case-intake",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-case-routing",
-      "ng-vert-food-beverage",
-      "ng-admin-office-teams"
+      "ng-admin-office-teams",
+      "ng-case-resolve",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Register non conformances from Outlook; convert email in a few clicks",
-      "Colleagues notified via Teams and tasks in SharePoint",
-      "Uses Teams, Planner and SharePoint",
-      "Register at customer or consumer level on any device"
+      "Registers non-conformances directly from Outlook",
+      "Turns an incoming email into a non-conformance",
+      "Notifies colleagues in Teams and assigns tasks in SharePoint",
+      "Uses Teams, Planner and SharePoint for the internal follow-up",
+      "Non-conformances can be logged per customer or per consumer",
+      "Complaints are categorised and followed up",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -74,18 +80,15 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [
       "Outlook",
-      "Microsoft Teams",
+      "Teams",
       "SharePoint",
       "Planner"
     ],

@@ -4,22 +4,24 @@
   "publisherId": "sk-global-software",
   "offerId": "4a66c647-d176-4d46-9937-013f5c13fbc5",
   "source": {
-    "name": "Bank Statement Integration",
+    "name": "Truvio Bank Statement Integration",
     "publisher": "SK Global Software, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sk-global-software%7CAID.4a66c647-d176-4d46-9937-013f5c13fbc5%7CPAPPID.9ad63310-7095-4600-af56-b96fdfe964f5",
-    "lastModified": "2026-08-11T21:00:07.1801709+00:00",
-    "appVersion": "3.5.0.1372",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T11:35:30.9420587+00:00",
+    "appVersion": "3.6.0.1382",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://www.manula.com/manuals/sksoft/banking-automation-suite/3.0/en/topic/introduction?key=Zf37uufViTzz1R0HpYDvkwZtJvAyVY9K41HnlM0uwyTmgTUvHn",
-    "sourceHash": "sha256:2fe668851cb3144ef86fd580d99b967d887ff25c23f059cca7d1e53acd9d97d2",
+    "helpLink": "https://truvio.com/contact",
+    "sourceHash": "sha256:3f6d48b3cc41c0557874d5adf9ac0646ce7799387dfeb0b0fa3b997c350061f0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2fe668851cb3144ef86fd580d99b967d887ff25c23f059cca7d1e53acd9d97d2",
-    "mappedOn": null,
-    "summary": "Imports bank transactions and matches them",
+    "sourceHash": "sha256:3f6d48b3cc41c0557874d5adf9ac0646ce7799387dfeb0b0fa3b997c350061f0",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports bank statements automatically and reconciles them in BC with matching rules.",
     "shape": "process",
     "primary": [
       {
@@ -27,31 +29,31 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
     "claims": [
-      "Imports bank transaction data into BC",
-      "Direct bank connection via BankFabric",
-      "Prior-day bank statement data appears automatically",
+      "Direct bank connection through BankFabric",
+      "One-time mapping of bank statement data to BC",
+      "Prior-day statements appear automatically",
       "Reconcile daily, weekly or monthly",
       "Imports statements for all entities and accounts at once",
-      "Configurable automatic matching rules",
-      "Identifies and posts missing transactions",
-      "Codes missing transactions with dimensions"
+      "Configurable rules match transactions automatically",
+      "Finds and posts missing transactions",
+      "Assigns dimensions to missing transactions"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Construction",
       "Distribution",
-      "Professional services"
+      "Professional Services"
     ],
     "connectsTo": [
-      "BankFabric",
-      "banks"
+      "BankFabric"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

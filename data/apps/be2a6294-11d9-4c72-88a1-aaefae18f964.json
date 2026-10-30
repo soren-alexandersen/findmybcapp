@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/contact/",
     "sourceHash": "sha256:b865fbbced0ad96862f376b40ccf06f6891ce12ebe4ae28c517b8be4e7f5f489",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:b865fbbced0ad96862f376b40ccf06f6891ce12ebe4ae28c517b8be4e7f5f489",

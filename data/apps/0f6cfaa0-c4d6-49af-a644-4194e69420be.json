@@ -8,18 +8,20 @@
     "publisher": "Estonian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be",
-    "lastModified": "2026-09-11T05:16:31.6388025+00:00",
-    "appVersion": "25.0.26253.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T12:49:52.6124728+00:00",
+    "appVersion": "25.0.26295.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/telema-edi/docs/en-US/help",
-    "sourceHash": "sha256:ebad5c6946eb4a89c2e495f44783c3b9c2efbc21918e6d16a13580bfff8a622c",
+    "sourceHash": "sha256:6b7071d68271d19ec2a420a2f15e706972251abe942bb507a5da040f0e916e4e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ebad5c6946eb4a89c2e495f44783c3b9c2efbc21918e6d16a13580bfff8a622c",
-    "mappedOn": null,
-    "summary": "Sends and receives EDI e-documents via Telema",
+    "sourceHash": "sha256:6b7071d68271d19ec2a420a2f15e706972251abe942bb507a5da040f0e916e4e",
+    "mappedOn": "2026-10-30",
+    "summary": "EDI exchange of orders, shipments and invoices through Telema, Edisoft and Docura.",
     "shape": "connector",
     "primary": [
       {
@@ -28,18 +30,19 @@
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture",
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-purchase-orders",
+      "ng-ap-invoice-capture"
     ],
     "claims": [
       "Receives sales orders and return orders electronically",
-      "Issues shipments and receives shipment confirmations",
-      "Issues sales invoices electronically",
+      "Sends shipment notices and receives shipment confirmations from customers",
+      "Sends sales invoices electronically",
       "Sends purchase orders and receives order confirmations",
-      "Receives shipments and issues receiving confirmations",
-      "Electronic purchase invoice handling via Telema e-flow and e-invoicing",
-      "Supported operators Telema, Edisoft, Docura",
-      "Supports Essential and Premium editions"
+      "Receives supplier shipment notices and returns receiving confirmations",
+      "Receives purchase invoices electronically, including Telema e-flow",
+      "Supports operators Telema, Edisoft and Docura",
+      "Available in English and Estonian"
     ],
     "countries": [
       "EE"
@@ -48,10 +51,7 @@
       "en",
       "et"
     ],
-    "industries": [
-      "Distribution",
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [
       "Telema",
       "Edisoft",
@@ -59,7 +59,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.dynasystechnology|AID.dynasys-crm|PAPPID.17d162cb-9f57-46f6-ac2a-f52acbd1c098",
+  "guid": "17d162cb-9f57-46f6-ac2a-f52acbd1c098",
+  "publisherId": "dynasystechnology",
+  "offerId": "dynasys-crm",
+  "source": {
+    "name": "Dynasys CRM",
+    "publisher": "DYNASYS TECHNOLOGY",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasystechnology%7CAID.dynasys-crm%7CPAPPID.17d162cb-9f57-46f6-ac2a-f52acbd1c098",
+    "lastModified": "2026-10-26T17:47:30.4219277+00:00",
+    "appVersion": "1.1.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.dynasys.tech/solutions/dynasys-crm/docs",
+    "sourceHash": "sha256:fdcfe926614d0c4cb3e4c859e77f8bd723f7df43574f1c36b2551322cf0aee37",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:fdcfe926614d0c4cb3e4c859e77f8bd723f7df43574f1c36b2551322cf0aee37",
+    "mappedOn": "2026-10-30",
+    "summary": "CRM workspace in BC with pipeline board, customer 360, activities, targets and events.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pipeline",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-mkt-campaigns",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Works on BC's own contacts, opportunities, tasks and interactions",
+      "Sales dashboard with weighted pipeline, win rate, deal cycle, funnel and at-risk deals",
+      "Customer 360 view with balance, overdue, credit limit, orders, health score and churn flag",
+      "Drag-and-drop deal board that records stage changes in BC",
+      "Flags deals with no recent activity",
+      "Tasks, meetings and calls by overdue, today and this week, with a month calendar",
+      "Plans trade shows and events with budget and links resulting contacts and deals",
+      "Monthly salesperson targets, attainment, pipeline coverage and leaderboard",
+      "Eight daily automations create follow-up tasks and warnings",
+      "Logs customer email replies on the right contact and deal via Microsoft 365",
+      "Optional Azure OpenAI summaries, email drafts, chat assistant and business card scanning",
+      "Data stays in BC's own CRM tables",
+      "Online and on-premises from version 23, works in the BC mobile app",
+      "30-day trial for 3 users, then annual per-company licence for named users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365",
+      "Azure OpenAI"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

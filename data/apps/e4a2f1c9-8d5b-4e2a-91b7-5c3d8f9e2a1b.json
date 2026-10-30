@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-demand-forecast-replenishment|PAPPID.e4a2f1c9-8d5b-4e2a-91b7-5c3d8f9e2a1b",
+  "guid": "e4a2f1c9-8d5b-4e2a-91b7-5c3d8f9e2a1b",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-demand-forecast-replenishment",
+  "source": {
+    "name": "Demand Forecast Replenishment",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-demand-forecast-replenishment%7CPAPPID.e4a2f1c9-8d5b-4e2a-91b7-5c3d8f9e2a1b",
+    "lastModified": "2026-10-27T07:38:09.3790466+00:00",
+    "appVersion": "1.29.1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/demand-forecast-replenishment/docs/",
+    "sourceHash": "sha256:b70df1dfa84a899f5164f228694a53b62d5fb097c1b8f68b0ca6dc3c3e045113",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b70df1dfa84a899f5164f228694a53b62d5fb097c1b8f68b0ca6dc3c3e045113",
+    "mappedOn": "2026-10-30",
+    "summary": "Explainable demand forecasting and replenishment proposals per SKU for distributors.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-wholesale-trading"
+    ],
+    "claims": [
+      "Calculates weekly usage, safety stock, target stock, EOQ and order now per item, variant and location",
+      "Uses measured lead times, purchase intervals and pack sizes",
+      "Planners accept, change or reject proposals with a reason; decisions are logged",
+      "Back-tests moving average, exponential smoothing, Holt-Winters and Croston per SKU and keeps the best",
+      "Can use BC time series models too",
+      "Writes to SKU planning fields and optionally demand forecast entries for MPS/MRP",
+      "Weekly projection gives first shortage date and latest order date",
+      "Respects minimum order value, multiples, weight, volume and container limits",
+      "Checks bin capacity",
+      "Purchase proposals are created via the standard requisition worksheet",
+      "Forecast versions with approval and buyer-versus-system replay",
+      "Per-user plans with an approver-only tier and 30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

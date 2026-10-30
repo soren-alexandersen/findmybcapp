@@ -8,20 +8,26 @@
     "publisher": "etiscan GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.etiscangmbh1646056859495%7CAID.bcscan_1%7CPAPPID.f79828d5-7a8a-4a64-a115-a8fa345cddf8",
-    "lastModified": "2026-10-02T04:30:05.2767533+00:00",
-    "appVersion": "27.3.0.104",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T13:56:54.3713576+00:00",
+    "appVersion": "27.3.0.108",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.etiscan.de/en/kontakt",
-    "sourceHash": "sha256:70757e6053aeb83c64a9087707050fd9d61b9a4039885f07e90650abd699d552",
+    "sourceHash": "sha256:33ac3e88d979d66aedb19b7cbf0f2fdbe20ce61755ef665f4211a0508558c0ec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:70757e6053aeb83c64a9087707050fd9d61b9a4039885f07e90650abd699d552",
-    "mappedOn": null,
-    "summary": "Mobile barcode warehouse management system",
+    "sourceHash": "sha256:33ac3e88d979d66aedb19b7cbf0f2fdbe20ce61755ef665f4211a0508558c0ec",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile scanner WMS covering receiving, putaway, picking, packing, counting and production booking.",
     "shape": "process",
     "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
       {
         "need": "ng-allocation-picking",
         "confidence": "high"
@@ -29,35 +35,32 @@
       {
         "need": "ng-receiving-putaway",
         "confidence": "high"
-      },
-      {
-        "need": "ng-admin-devices",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-stock-counting",
-      "ng-shop-floor-reporting",
       "ng-packing-loading",
-      "ng-barcode-labels"
+      "ng-stock-counting",
+      "ng-stock-movements",
+      "ng-shop-floor-reporting"
     ],
     "claims": [
-      "Complete batch and serial number tracking",
-      "Direct communication with BC cloud and on-premises",
-      "Incorrect entries detected immediately and corrected before posting",
-      "Offline functionality",
-      "Receiving of purchase orders and deliveries",
-      "Putaway to storage locations",
+      "Covers all goods movements with full batch and serial number tracking",
+      "Validates entries on the device before they are posted to Business Central",
+      "Works with both on-premises and cloud Business Central",
+      "Scanners can work offline",
+      "Books receipts against purchase orders and deliveries",
+      "Handles putaway to storage locations",
       "Internal warehouse relocation",
-      "Mobile picking of orders",
-      "Shipping and loading registration",
-      "Package creation with label printing",
-      "Real-time stock inquiries",
+      "Mobile order picking",
+      "Registers outgoing shipments and loading",
+      "Creates packages with label printing",
+      "Real-time stock lookups on the device",
       "Paperless stock counting",
-      "Mobile booking of production quantities and times",
-      "Label printing on mobile and stationary printers",
-      "Scales from 2 to 200 devices",
-      "Supports Essential and Premium licences"
+      "Books production quantities and times from mobile",
+      "Prints labels on mobile and stationary printers",
+      "Modular, with user count that can be scaled",
+      "Over 200 customer implementations since 1996",
+      "English and German, other languages on request"
     ],
     "countries": [
       "AT",
@@ -70,11 +73,14 @@
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

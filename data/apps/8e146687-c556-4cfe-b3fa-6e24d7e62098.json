@@ -8,18 +8,20 @@
     "publisher": "OPEXIS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.opexis%7CAID.opexis-id%7CPAPPID.8e146687-c556-4cfe-b3fa-6e24d7e62098",
-    "lastModified": "2026-09-30T12:00:50.5625863+00:00",
-    "appVersion": "1.15.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T13:13:02.4487324+00:00",
+    "appVersion": "1.22.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://opexis.nl/",
-    "sourceHash": "sha256:deef2ce2b8aede84361bde6598f1136c49f1de1a0f2acf09e520db544c8527d9",
+    "sourceHash": "sha256:b262b4bf86c612a6db195cc3e57ad8dbe9a70021fd14c5b07ce6034969db0451",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:deef2ce2b8aede84361bde6598f1136c49f1de1a0f2acf09e520db544c8527d9",
-    "mappedOn": null,
-    "summary": "Forecasting and purchase, production and assembly proposals",
+    "sourceHash": "sha256:b262b4bf86c612a6db195cc3e57ad8dbe9a70021fd14c5b07ce6034969db0451",
+    "mappedOn": "2026-10-30",
+    "summary": "Cloud purchase planning: demand forecasts and vendor-grouped order proposals written back to BC",
     "shape": "process",
     "primary": [
       {
@@ -36,27 +38,24 @@
       "ng-purchase-orders"
     ],
     "claims": [
-      "Planning dashboard with inventory value, stock-turn trends and stock-health classification",
-      "ABC/XYZ matrix with policy recommendation per cell",
-      "Per-item forecasts including inherited demand from parent assemblies",
-      "Inventory projections with safety stock, reorder points and incoming orders",
-      "Purchase proposals grouped by vendor",
-      "Writes approved purchase orders back to BC in one click",
-      "Detects stock-outs live, for non-stocked as well as stocked items",
-      "Configurable lead-time priority between vendor card, item card or item-vendor line",
-      "Vendor lead-time buffers, transport time, MOQ and order costs without changing BC master data",
-      "Forecast adjustments",
-      "Cloud app connected to BC data"
+      "Dashboard with inventory value, stock turns, stock health and stock-out/overstock alerts",
+      "ABC/XYZ classification with a policy suggestion per cell",
+      "Forecasts include demand inherited from parent assemblies",
+      "Projects stock against safety stock, reorder point and incoming orders",
+      "Proposals grouped per vendor, ordered in one click back to BC",
+      "Stock-out detection for stocked and non-stocked items",
+      "Configurable lead-time source priority: item, vendor or item-vendor",
+      "Per-vendor lead-time buffers, transport time, order costs and minimum order quantities",
+      "Planning parameters kept outside BC master data",
+      "Runs as a hosted cloud app connected to BC data"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [],
-    "requires": [
-      "uTools"
-    ],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

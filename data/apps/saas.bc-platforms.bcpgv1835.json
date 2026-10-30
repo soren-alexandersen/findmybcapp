@@ -1,0 +1,55 @@
+{
+  "appId": "bc-platforms.bcpgv1835",
+  "guid": null,
+  "publisherId": "bc-platforms",
+  "offerId": "bcpgv1835",
+  "source": {
+    "name": "BC Platforms GeneVision",
+    "publisher": "BC Platforms",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/bc-platforms.bcpgv1835",
+    "lastModified": "2025-12-26T13:44:12.3392005+00:00",
+    "appVersion": "1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e56c5c91d2f79bf7505711c2befe8ed2ae4ee4af1338d7042b61f5d165889e8d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e56c5c91d2f79bf7505711c2befe8ed2ae4ee4af1338d7042b61f5d165889e8d",
+    "mappedOn": "2026-10-30",
+    "summary": "Genomic data analysis and clinical reporting for precision medicine; not an ERP tool.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-vert-care-personal-services",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Handles genotyping and next-generation sequencing analysis",
+      "Produces tiered risk scores for treatment recommendations",
+      "HIPAA compliant",
+      "Works with any EHR"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Healthcare"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Healthcare genomics platform; 'BC' is the publisher's name, no sign of Business Central.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

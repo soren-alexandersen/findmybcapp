@@ -8,19 +8,21 @@
     "publisher": "mse Business Consulting GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msebusinessconsultinggmbh1706867067764%7CAID.mse_framework%7CPAPPID.bee350dc-e4b3-4285-a847-5009cc387ca7",
-    "lastModified": "2026-09-22T12:20:37.841231+00:00",
-    "appVersion": "27.5.0.20",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T18:52:18.9552201+00:00",
+    "appVersion": "27.5.0.23",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mse-group.com/documents/mse_framework_manual_de.pdf",
-    "sourceHash": "sha256:9b0e8f888725e68a895b7f105c663d94a10673d59cca2b5385846f8f4eea961b",
+    "sourceHash": "sha256:49a5d69f6c8c8cfbd41b62ca8e7b61fb4b4d906f7b5d430bd58ca453d2b31bc4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9b0e8f888725e68a895b7f105c663d94a10673d59cca2b5385846f8f4eea961b",
-    "mappedOn": null,
-    "summary": "Configurable business process enhancement framework",
-    "shape": "process",
+    "sourceHash": "sha256:49a5d69f6c8c8cfbd41b62ca8e7b61fb4b4d906f7b5d430bd58ca453d2b31bc4",
+    "mappedOn": "2026-10-30",
+    "summary": "Toolkit adding custom fields, configurable layouts, data sync and production reporting.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-custom-fields",
@@ -37,31 +39,36 @@
     ],
     "secondary": [
       "ng-ux-master-data-sync",
+      "ng-sales-quotes",
       "ng-allocation-picking",
-      "ng-production-planning"
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Up to 20 configurable custom fields on master and transaction tables",
-      "Custom fields support data types, options, table relations, mandatory and value transfer between documents",
-      "Configurable document layouts with placeholders and multilingual report texts",
-      "Static and conditional content for invoices, confirmations and delivery notes",
-      "Structured quotations with numbering, headings, subtotals and page breaks",
-      "Synchronizes data between companies and separate BC databases",
-      "Shipping monitor with open sales orders and stock availability; create warehouse shipments from overview",
-      "Fast registration of production time, output and component scrap",
-      "Barcode-supported production reporting",
-      "Reopen completed production orders for corrections",
-      "Batch completion of released production orders",
-      "Production orders reference sales orders",
-      "Default time grouping set for Item Availability by Event"
+      "Up to 20 custom fields on supported master and transaction tables",
+      "Custom fields support types, options, table relations, mandatory flags and transfer to related documents",
+      "Document layouts configured without development, with placeholders and multilingual texts",
+      "Static and conditional content on invoices, confirmations and delivery notes",
+      "Structured quotes with numbering, headings, subtotals and page breaks",
+      "Syncs data across companies and separate BC databases via field mappings",
+      "Shipping monitor of open sales orders with stock, purchase, shipment and production demand",
+      "Creates warehouse shipments from the shipping monitor",
+      "Fast posting of production time, output and component scrap",
+      "Barcode-based production reporting",
+      "Reopen finished production orders for correction",
+      "Batch-finish released production orders by criteria",
+      "Production orders reference the sales order",
+      "Default period grouping for Item Availability by Event"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

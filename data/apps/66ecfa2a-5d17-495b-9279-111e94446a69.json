@@ -8,43 +8,47 @@
     "publisher": "iDynamics Business Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_advancedwarehouse%7CPAPPID.66ecfa2a-5d17-495b-9279-111e94446a69",
-    "lastModified": "2026-10-05T09:17:32.2125621+00:00",
-    "appVersion": "27.5.3.2026100502",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T16:23:46.0472463+00:00",
+    "appVersion": "28.0.2.2026102801",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/advancedwarehouse/index.html",
-    "sourceHash": "sha256:0d1738a55f926324ba7f9ed0828bf3601a3ffbc4c5fececbcbe812467da10b83",
+    "sourceHash": "sha256:47694eda3114b3b5cede9ff577c6175e62aa5157614e9061069a31e88050e1d9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0d1738a55f926324ba7f9ed0828bf3601a3ffbc4c5fececbcbe812467da10b83",
-    "mappedOn": null,
-    "summary": "Warehouse management with mobile handling for SMBs",
+    "sourceHash": "sha256:47694eda3114b3b5cede9ff577c6175e62aa5157614e9061069a31e88050e1d9",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile app for running BC warehouse documents, picks, put-aways and counts.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-allocation-picking",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
       },
       {
         "need": "ng-admin-devices",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
       "ng-stock-movements",
-      "ng-stock-counting",
       "ng-barcode-labels"
     ],
     "claims": [
-      "Mobile app handles shipments, receipts, picks, put-aways and movements",
-      "Handles purchase, sales, return and transfer orders from the app",
-      "Supports lot and serial numbers",
-      "Inventory tasks and ad-hoc movements",
+      "Handles shipments, receipts, picks, put-aways and movements on mobile",
+      "Handles purchase, sales, return and transfer orders directly",
+      "Tracks lot and serial numbers in and out",
+      "Supports inventory tasks and ad-hoc moves",
       "Custom input forms",
       "Prints labels and documents from the app",
-      "Aimed at small and medium-sized businesses"
+      "Available in all countries, in English and Spanish"
     ],
     "countries": [],
     "languages": [
@@ -55,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

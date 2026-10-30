@@ -100,10 +100,10 @@
         }
       ],
       "coverage": {
-        "In Excel": 0.26,
-        "In Power BI dashboards": 0.31,
-        "Inside Business Central": 0.44,
-        "In a separate reporting or planning tool": 0.13
+        "In Excel": 0.25,
+        "In Power BI dashboards": 0.3,
+        "Inside Business Central": 0.4,
+        "In a separate reporting or planning tool": 0.12
       }
     },
     {
@@ -126,7 +126,7 @@
         }
       ],
       "coverage": {
-        "Yes, combined or consolidated": 0.26
+        "Yes, combined or consolidated": 0.23
       }
     },
     {
@@ -157,7 +157,7 @@
         }
       ],
       "coverage": {
-        "Local statutory layouts": 0.15,
+        "Local statutory layouts": 0.17,
         "IFRS or parallel books": 0.05
       }
     },
@@ -177,7 +177,10 @@
           "patterns": [
             "budget",
             "forecast",
-            "planning"
+            "planning",
+            "scenario",
+            "cash runway",
+            "what-if"
           ]
         },
         {
@@ -196,7 +199,10 @@
             "drill[- ]?down",
             "turnovers?",
             "correspondence",
-            "breakdown|broken down"
+            "breakdown|broken down",
+            "detailed (ledger|trial)",
+            "account card analysis",
+            "details to show"
           ]
         },
         {
@@ -206,9 +212,9 @@
       ],
       "coverage": {
         "Cash flow statement": 0.15,
-        "Budgets, forecasts and planning": 0.31,
-        "Accruals and month-end adjustments": 0.13,
-        "Drill-down by dimension or account detail": 0.49
+        "Budgets, forecasts and planning": 0.35,
+        "Accruals and month-end adjustments": 0.12,
+        "Drill-down by dimension or account detail": 0.55
       }
     },
     {
@@ -230,8 +236,24 @@
         }
       ],
       "coverage": {
-        "Yes, scheduled distribution": 0.13
+        "Yes, scheduled distribution": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'system' wording (Golden Tax, connectors)",
+      "terms": [
+        "system"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "China invoice issuing, already covered by local statutory option",
+      "terms": [
+        "issu"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,46 +8,56 @@
     "publisher": "Dynamics eShop Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.ecommerce%7CPAPPID.7bded3a9-525a-4f21-931e-e207ca3ff7c2",
-    "lastModified": "2026-09-21T20:04:11.2182891+00:00",
-    "appVersion": "4.8.0.5",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T17:44:54.4308173+00:00",
+    "appVersion": "4.9.0.2",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.dynamicseshop.com/contact-us/",
-    "sourceHash": "sha256:74da78165085529262e7a9f3d2f47586515c416bca3ec44cb42f44b9a8596a66",
+    "sourceHash": "sha256:b435da7e2bd87f7d7becef6307d1f6cfa8e404fb2c6ff63b099d33d078291fb3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:74da78165085529262e7a9f3d2f47586515c416bca3ec44cb42f44b9a8596a66",
-    "mappedOn": null,
-    "summary": "Integrated B2B/B2C eCommerce webshop",
+    "sourceHash": "sha256:b435da7e2bd87f7d7becef6307d1f6cfa8e404fb2c6ff63b099d33d078291fb3",
+    "mappedOn": "2026-10-30",
+    "summary": "Hosted B2B and B2C webshop with customer, vendor and payment portals driven by BC data.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-webshop",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-admin-portals",
-      "ng-assortment-catalogs"
+      "ng-assortment-catalogs",
+      "ng-retail-pos",
+      "ng-sales-channels"
     ],
     "claims": [
+      "BC is the master for products, prices, stock, customers and orders",
+      "Respects BC permissions and role-based access",
       "B2B and B2C storefronts",
       "Customer, sales, vendor and payment portals",
-      "Payment on existing invoices",
-      "Built-in content management",
-      "Multi-language, multi-currency, multi-location",
-      "POS support integrated with BC"
+      "Customers see orders, invoices, credit memos and payment history",
+      "Customers can pay existing invoices online",
+      "Built-in content management for pages and item presentation",
+      "Central catalog and category management with visibility control",
+      "Multi-language, multi-currency and multi-location",
+      "Mobile-responsive storefront",
+      "Point-of-sale support connected to BC"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
-    "connectsTo": [
-      "Dynamics eShop"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

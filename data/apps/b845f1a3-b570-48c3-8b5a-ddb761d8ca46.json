@@ -8,18 +8,20 @@
     "publisher": "Dynavision",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_advanced_sync%7CPAPPID.b845f1a3-b570-48c3-8b5a-ddb761d8ca46",
-    "lastModified": "2026-10-02T12:50:28.1421246+00:00",
-    "appVersion": "28.0.0.50577",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T09:04:15.8757337+00:00",
+    "appVersion": "28.0.1.52621",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Sync_Manual.pdf",
-    "sourceHash": "sha256:5fec4ea458d81d76ac4b2cefbbeb0714219d9cee7ad70112068b9c59d79aa0d0",
+    "sourceHash": "sha256:ae9860d8d298b6a2b6ec9814658cc8c37adb352243b036fa9bf9c1429bbad831",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5fec4ea458d81d76ac4b2cefbbeb0714219d9cee7ad70112068b9c59d79aa0d0",
-    "mappedOn": null,
-    "summary": "Synchronizes data across tenants and external applications",
+    "sourceHash": "sha256:ae9860d8d298b6a2b6ec9814658cc8c37adb352243b036fa9bf9c1429bbad831",
+    "mappedOn": "2026-10-30",
+    "summary": "API-based data sync between BC environments, tenants or external apps for central master data.",
     "shape": "usability",
     "primary": [
       {
@@ -33,14 +35,14 @@
     ],
     "secondary": [],
     "claims": [
-      "Syncs data between BC environments on same or different tenants",
-      "Integrates third-party apps with API interfaces",
-      "Wizard for basic sync setup",
-      "Field selection and mapping",
+      "Syncs between BC environments on the same or different tenants",
+      "Can also integrate third-party apps with APIs",
+      "Setup wizard for a basic sync",
+      "Field selection and mapping per sync entry",
       "Manual and automatic syncing",
-      "POST/GET/PATCH support",
-      "Pre- and postprocessing",
-      "Logging of sync process"
+      "Supports POST, GET and PATCH",
+      "Pre- and post-processing hooks",
+      "Sync process is logged"
     ],
     "countries": [],
     "languages": [
@@ -51,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

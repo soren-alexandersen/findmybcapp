@@ -8,18 +8,20 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_transfollow_connector%7CPAPPID.0fce2698-3a5d-4442-b0bc-b34972a1d0bc",
-    "lastModified": "2026-09-30T20:04:03.0439968+00:00",
-    "appVersion": "28.5.0.80071",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:18:14.5328704+00:00",
+    "appVersion": "29.0.0.80847",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:439d065c6f2e0d4ac42e8c727463be739e56ea72c1e62a97a959d8bd63ff1a7b",
+    "sourceHash": "sha256:e5cea03e326f6fa779e81620662cc7fa666a7af90d25195cfc48b368f211910a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:439d065c6f2e0d4ac42e8c727463be739e56ea72c1e62a97a959d8bd63ff1a7b",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 to TransFollow e-CMR",
+    "sourceHash": "sha256:e5cea03e326f6fa779e81620662cc7fa666a7af90d25195cfc48b368f211910a",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects the Navitrans 365 transport system with TransFollow.",
     "shape": "addon",
     "primary": [
       {
@@ -27,13 +29,13 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS, WMS and forwarding suite for logistic service providers",
-      "e-Navitrans connector imports transport files and inbound/outbound orders from a web portal",
-      "Exports track & trace info and stock insight for customers",
-      "Supports Essential and Premium"
+      "Links Navitrans 365 with TransFollow",
+      "Part of the Navitrans 365 suite covering TMS, WMS and forwarding",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -57,7 +59,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

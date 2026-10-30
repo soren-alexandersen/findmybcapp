@@ -8,41 +8,43 @@
     "publisher": "Theta Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.dual_unit_of_measure_tasklet_connector%7CPAPPID.f191f9c0-ad1e-4f52-ab3b-8e795a4edff3",
-    "lastModified": "2026-10-05T22:27:38.5199003+00:00",
-    "appVersion": "28.2.22.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T03:35:20.2796496+00:00",
+    "appVersion": "28.2.27.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/TDU/",
-    "sourceHash": "sha256:780dad589090052ae38ee6d9b08892aed026ed5077e50885249a4ccaef0352e6",
+    "sourceHash": "sha256:361a3fa89b4d0c21d68787f936d693fcb9ea645b8abe44182295f529f3a65a88",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:780dad589090052ae38ee6d9b08892aed026ed5077e50885249a4ccaef0352e6",
-    "mappedOn": null,
-    "summary": "Dual unit of measure handling on Tasklet devices",
+    "sourceHash": "sha256:361a3fa89b4d0c21d68787f936d693fcb9ea645b8abe44182295f529f3a65a88",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds catch-weight dual unit of measure handling to Tasklet Mobile WMS handheld flows.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-admin-devices",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
-        "confidence": "low"
+        "need": "ng-item-master-data",
+        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-allocation-picking",
       "ng-receiving-putaway",
-      "ng-allocation-picking"
+      "ng-stock-counting"
     ],
     "claims": [
-      "Dual UoM on Tasklet for receiving, put-away, picking, movements, counting, output and shipment",
-      "Scans full or partial license plates, carrying the unit through",
-      "Pre-posting validation blocks inconsistent unit/quantity relationships",
-      "On-device correction with automatic recalculation for fixed-ratio items",
-      "Line split handling carries units through",
+      "Dual units on receiving, put-away, picking, moves, counting, production output and shipment",
+      "Full and partial license plate scans carry the units along",
+      "Blocks posting when units and quantities do not agree",
+      "Correct quantities and units on the device with recalculation for fixed-ratio items",
+      "Line splits keep units consistent between posted and remaining quantities",
       "Includes Advanced License Plating for Tasklet",
-      "Requires a Dual Unit of Measure subscription",
       "Licensed per Tasklet device"
     ],
     "countries": [],
@@ -67,11 +69,11 @@
       "Tasklet Mobile WMS"
     ],
     "requires": [
-      "Dual Unit of Measure",
-      "Tasklet Mobile WMS"
+      "Tasklet Mobile WMS",
+      "Dual Unit of Measure (Theta)"
     ],
     "deployment": "not_stated",
-    "pricing": "per_user",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

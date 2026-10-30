@@ -86,10 +86,10 @@
         }
       ],
       "coverage": {
-        "Company name, address and register data": 0.7,
-        "Postal address validation": 0.19,
-        "EU VAT numbers (VIES)": 0.27,
-        "Credit rating and risk": 0.38,
+        "Company name, address and register data": 0.74,
+        "Postal address validation": 0.18,
+        "EU VAT numbers (VIES)": 0.26,
+        "Credit rating and risk": 0.37,
         "Sanctions / export screening": 0.05
       }
     },
@@ -130,8 +130,8 @@
         }
       ],
       "coverage": {
-        "Yes, ongoing monitoring and alerts": 0.54,
-        "No, a lookup when we create them is enough": 0.7
+        "Yes, ongoing monitoring and alerts": 0.47,
+        "No, a lookup when we create them is enough": 0.76
       }
     },
     {
@@ -162,8 +162,8 @@
         }
       ],
       "coverage": {
-        "Block orders or payments automatically": 0.11,
-        "Just warn me": 0.35
+        "Block orders or payments automatically": 0.13,
+        "Just warn me": 0.37
       }
     },
     {
@@ -187,8 +187,17 @@
         }
       ],
       "coverage": {
-        "Yes": 0.35
+        "Yes": 0.34
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI detail: where results are shown",
+      "terms": [
+        "result"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

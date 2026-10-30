@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": null,
     "sourceHash": "sha256:cd7b70dc910c8d1193d7324c943e6e41b4609964f680f847abb1d3c77dccef34",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:cd7b70dc910c8d1193d7324c943e6e41b4609964f680f847abb1d3c77dccef34",

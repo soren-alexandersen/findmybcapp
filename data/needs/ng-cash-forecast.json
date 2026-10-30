@@ -97,6 +97,13 @@
           ]
         },
         {
+          "label": "Another treasury system",
+          "patterns": [
+            "external treasury",
+            "different treasury"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
@@ -105,7 +112,8 @@
         "Agicap": 0.11,
         "DocFinance": 0.16,
         "Embat": 0.05,
-        "Want it all inside BC": 0.26
+        "Want it all inside BC": 0.26,
+        "Another treasury system": 0.05
       }
     },
     {
@@ -154,7 +162,7 @@
       ],
       "coverage": {
         "Forecast cash for coming weeks": 0.53,
-        "See balances across banks": 0.32,
+        "See balances across banks": 0.26,
         "Predict when customers pay": 0.26,
         "Compare what-if scenarios": 0.11
       }
@@ -221,7 +229,7 @@
         }
       ],
       "coverage": {
-        "Several companies": 0.26,
+        "Several companies": 0.21,
         "Several currencies": 0.21
       }
     },
@@ -260,9 +268,46 @@
       ],
       "coverage": {
         "Cheques or promissory notes": 0.05,
-        "Loans and credit lines": 0.16,
-        "Installment or payment plans": 0.11
+        "Loans and credit lines": 0.11,
+        "Installment or payment plans": 0.16
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'receivables' wording",
+      "terms": [
+        "receivabl"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'financial' wording",
+      "terms": [
+        "financial"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "manual entries already covered by manual override option",
+      "terms": [
+        "manual"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "margin analysis, not a cash forecasting choice",
+      "terms": [
+        "margin"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "already covered by loans and what-if options",
+      "terms": [
+        "outstand"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

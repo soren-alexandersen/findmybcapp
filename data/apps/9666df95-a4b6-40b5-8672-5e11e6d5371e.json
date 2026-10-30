@@ -8,52 +8,58 @@
     "publisher": "Aproda AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.assc%7CPAPPID.9666df95-a4b6-40b5-8672-5e11e6d5371e",
-    "lastModified": "2026-10-01T14:06:28.2484825+00:00",
-    "appVersion": "27.0.0.284",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:45.4384229+00:00",
+    "appVersion": "27.0.0.290",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-kmu",
-    "sourceHash": "sha256:690ee475786f26febd8664e10e77a47b2aa4ed1e5233032340bafb6d2d1405b3",
+    "sourceHash": "sha256:61363083bef51c501ac7d76efee2b1e705e7cb486d63a041deeddd74b3834b83",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:690ee475786f26febd8664e10e77a47b2aa4ed1e5233032340bafb6d2d1405b3",
-    "mappedOn": null,
-    "summary": "Collection of small usability features for daily posting work",
+    "sourceHash": "sha256:61363083bef51c501ac7d76efee2b1e705e7cb486d63a041deeddd74b3834b83",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle of small daily-use improvements for sales, purchasing, items and posting dates.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-data-entry",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "low"
       }
     ],
     "secondary": [
       "ng-purchase-orders",
-      "ng-ux-notes-collaboration",
       "ng-ux-search-navigation"
     ],
     "claims": [
-      "Pop-up for accounts receivable and payable",
-      "Update posting/document date",
-      "Booking preselection in user setup",
-      "Create purchase order from sales order",
-      "Unit price including VAT on item card",
-      "Direct order from assembly",
-      "Consumption information for items",
-      "Historical data on items, vendors and customers"
+      "Shows pop-up messages for customers and vendors",
+      "Presets posting and document dates per user in user setup",
+      "Creates a purchase order directly from a sales order",
+      "Shows unit price including VAT on the item card",
+      "Direct ordering from assembly",
+      "Shows consumption information for items",
+      "Shows history data for customers, vendors and items",
+      "Available in Swiss German and English"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en"
     ],
     "industries": [
       "Distribution",
-      "Manufacturing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

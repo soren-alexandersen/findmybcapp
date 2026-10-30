@@ -28,7 +28,8 @@
     "Customers should see our stock levels in the portal",
     "Which items are below their reorder point right now?",
     "Overstock and understock analysis",
-    "We want to compare stock levels month over month"
+    "We want to compare stock levels month over month",
+    "We want to see where stock will run short in the coming weeks"
   ],
   "questions": [
     {
@@ -77,7 +78,7 @@
       "coverage": {
         "Slow-moving, dead or excess stock": 0.21,
         "How long items have been in stock (aging)": 0.13,
-        "Expiry dates and shelf life": 0.16
+        "Expiry dates and shelf life": 0.15
       }
     },
     {
@@ -121,9 +122,9 @@
         }
       ],
       "coverage": {
-        "Right on orders and item cards": 0.24,
+        "Right on orders and item cards": 0.23,
         "Dashboards or Power BI": 0.18,
-        "Reports or Excel exports": 0.32
+        "Reports or Excel exports": 0.33
       }
     },
     {
@@ -166,7 +167,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.34
+        "Yes": 0.33
       }
     },
     {
@@ -192,7 +193,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.24
+        "Yes": 0.23
       }
     },
     {
@@ -225,9 +226,50 @@
         }
       ],
       "coverage": {
-        "Stock value and costing": 0.29,
-        "Landed costs (freight, duty)": 0.08
+        "Stock value and costing": 0.28,
+        "Landed costs (freight, duty)": 0.03
       }
+    },
+    {
+      "id": "do-you-need-to-see-future-stoc",
+      "text": "Do you need to see future stock, not just what is on hand today?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, expected stock from orders and forecasts",
+          "patterns": [
+            "forecast",
+            "future",
+            "expected and available",
+            "projected",
+            "shortage",
+            "demand and supply"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, expected stock from orders and forecasts": 0.28
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI page wording",
+      "terms": [
+        "page"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'view' UI wording",
+      "terms": [
+        "view"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

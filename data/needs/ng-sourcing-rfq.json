@@ -94,8 +94,8 @@
       ],
       "coverage": {
         "By email (PDF, Excel or in the mail text)": 0.11,
-        "Through a web portal where vendors type them in": 0.19,
-        "We type them in ourselves": 0.11
+        "Through a web portal where vendors type them in": 0.18,
+        "We type them in ourselves": 0.14
       }
     },
     {
@@ -125,8 +125,8 @@
         }
       ],
       "coverage": {
-        "Yes, requests go through approval first": 0.7,
-        "Yes, and the request must be checked against a budget": 0.15
+        "Yes, requests go through approval first": 0.75,
+        "Yes, and the request must be checked against a budget": 0.14
       }
     },
     {
@@ -155,13 +155,22 @@
           ]
         },
         {
+          "label": "Prices side by side",
+          "patterns": [
+            "comparison",
+            "compar(e|es|ing)\\b",
+            "side[- ]by[- ]side"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Also delivery time and terms": 0.3,
-        "A scored evaluation with sign-off": 0.3
+        "Also delivery time and terms": 0.32,
+        "A scored evaluation with sign-off": 0.29,
+        "Prices side by side": 0.71
       }
     },
     {
@@ -195,8 +204,8 @@
         }
       ],
       "coverage": {
-        "Yes, split lines across vendors": 0.15,
-        "No, one winning vendor per request": 0.3
+        "Yes, split lines across vendors": 0.14,
+        "No, one winning vendor per request": 0.25
       }
     },
     {
@@ -234,7 +243,7 @@
         }
       ],
       "coverage": {
-        "Stock items": 0.48,
+        "Stock items": 0.54,
         "Services or fixed assets": 0.11,
         "Items not yet in Business Central": 0.11
       }
@@ -270,7 +279,7 @@
       ],
       "coverage": {
         "A customer quote or sales order": 0.04,
-        "An internal need from a department, warehouse or project": 0.37
+        "An internal need from a department, warehouse or project": 0.36
       }
     },
     {
@@ -292,8 +301,44 @@
         }
       ],
       "coverage": {
-        "Yes, onboard and evaluate suppliers": 0.26
+        "Yes, onboard and evaluate suppliers": 0.25
       }
+    },
+    {
+      "id": "should-a-winning-bid-become-a-",
+      "text": "Should a winning bid become a supplier contract or framework agreement?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, manage supplier contracts too",
+          "patterns": [
+            "contract"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, manage supplier contracts too": 0.21
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic quantity wording",
+      "terms": [
+        "quantity"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "converting a quote to a purchase order is basic to every app",
+      "terms": [
+        "conversion"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -175,10 +175,10 @@
         }
       ],
       "coverage": {
-        "Forecasting future demand": 0.43,
-        "Setting reorder points and safety stock": 0.45,
-        "Turning needs into purchase orders": 0.35,
-        "Spotting shortages early": 0.16
+        "Forecasting future demand": 0.37,
+        "Setting reorder points and safety stock": 0.4,
+        "Turning needs into purchase orders": 0.34,
+        "Spotting shortages early": 0.21
       }
     },
     {
@@ -204,7 +204,7 @@
         }
       ],
       "coverage": {
-        "Yes, we manufacture or assemble": 0.39
+        "Yes, we manufacture or assemble": 0.37
       }
     },
     {
@@ -230,7 +230,7 @@
         }
       ],
       "coverage": {
-        "Yes, several locations": 0.47
+        "Yes, several locations": 0.5
       }
     },
     {
@@ -275,7 +275,7 @@
       ],
       "coverage": {
         "Inside Business Central": 0.47,
-        "In a specialist planning tool (EazyStock, Netstock, Slim4, AGR...)": 0.18
+        "In a specialist planning tool (EazyStock, Netstock, Slim4, AGR...)": 0.15
       }
     },
     {
@@ -302,7 +302,7 @@
         }
       ],
       "coverage": {
-        "Yes, run automatically": 0.16
+        "Yes, run automatically": 0.15
       }
     },
     {
@@ -329,7 +329,7 @@
         }
       ],
       "coverage": {
-        "Yes, MOQ, containers or freight limits matter": 0.16
+        "Yes, MOQ, containers or freight limits matter": 0.18
       }
     },
     {
@@ -351,7 +351,7 @@
         }
       ],
       "coverage": {
-        "Yes, classify items": 0.12
+        "Yes, classify items": 0.11
       }
     }
   ]

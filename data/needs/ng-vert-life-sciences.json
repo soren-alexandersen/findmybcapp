@@ -71,10 +71,10 @@
         }
       ],
       "coverage": {
-        "Pharmaceuticals or biotech": 0.46,
-        "Medical devices": 0.46,
-        "Cosmetics or chemicals": 0.31,
-        "Healthcare provider or medical distribution": 0.15
+        "Pharmaceuticals or biotech": 0.5,
+        "Medical devices": 0.42,
+        "Cosmetics or chemicals": 0.25,
+        "Healthcare provider or medical distribution": 0.17
       }
     },
     {
@@ -95,7 +95,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.31
+        "Yes": 0.33
       }
     },
     {
@@ -129,8 +129,8 @@
         }
       ],
       "coverage": {
-        "We manufacture": 0.77,
-        "We distribute or sell to hospitals": 0.46
+        "We manufacture": 0.75,
+        "We distribute or sell to hospitals": 0.25
       }
     },
     {
@@ -163,15 +163,119 @@
           ]
         },
         {
+          "label": "Approval before critical changes take effect",
+          "patterns": [
+            "approval workflow",
+            "two-person",
+            "number of approvals",
+            "authentication policy"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Electronic signatures on critical changes": 0.46,
-        "CAPA and complaint handling": 0.62,
-        "System validation (GAMP5, CSV)": 0.31
+        "Electronic signatures on critical changes": 0.5,
+        "CAPA and complaint handling": 0.58,
+        "System validation (GAMP5, CSV)": 0.33,
+        "Approval before critical changes take effect": 0.17
       }
+    },
+    {
+      "id": "what-else-must-the-solution-ha",
+      "text": "What else must the solution handle besides quality?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Warehouse scanning and license plates",
+          "patterns": [
+            "license plat",
+            "mobile scanning",
+            "barcode scanning",
+            "warehouse"
+          ]
+        },
+        {
+          "label": "Approved suppliers and supplier evaluation",
+          "patterns": [
+            "supplier evaluation",
+            "approved supplier",
+            "supplier approv",
+            "vendor scorecard",
+            "supplier (management|qualif)"
+          ]
+        },
+        {
+          "label": "Lot tracing and recalls",
+          "patterns": [
+            "lot trac",
+            "batch trac",
+            "recall",
+            "traces? batch",
+            "batch and serial",
+            "traceab",
+            "lot management",
+            "lot status"
+          ]
+        },
+        {
+          "label": "Customer contracts and tenders",
+          "patterns": [
+            "contract management",
+            "multi-year contracts",
+            "tender",
+            "service (processing|contract)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Warehouse scanning and license plates": 0.58,
+        "Approved suppliers and supplier evaluation": 0.5,
+        "Lot tracing and recalls": 0.58,
+        "Customer contracts and tenders": 0.17
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "mixed generic terms across bundle descriptions",
+      "terms": [
+        "extend",
+        "level",
+        "analysi",
+        "bonu",
+        "bundl",
+        "certificat",
+        "commission",
+        "discount",
+        "dispatch",
+        "hierarchical",
+        "hierarchy",
+        "listing",
+        "lots",
+        "modular",
+        "overview",
+        "pack",
+        "purpos",
+        "remov",
+        "structur",
+        "trail",
+        "which"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'control' wording",
+      "terms": [
+        "control"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

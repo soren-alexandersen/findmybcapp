@@ -8,41 +8,39 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex002_docfinanceconnector%7CPAPPID.442bf567-2e90-4ad0-b31d-dc3562af8f67",
-    "lastModified": "2026-06-29T16:55:30.1885049+00:00",
-    "appVersion": "28.0.11.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T14:54:22.9263977+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/docfinance-connector-dcf.html",
-    "sourceHash": "sha256:c3cd8f12cccea07337bbe8371b23402699331d8e19ec9ae7262209377c2a265a",
+    "sourceHash": "sha256:0e94db814f115c112c06daf88597884e5f8a5f3641a8156a172ee3e42569c63e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c3cd8f12cccea07337bbe8371b23402699331d8e19ec9ae7262209377c2a265a",
-    "mappedOn": null,
-    "summary": "Connects BC to DocFinance treasury management",
+    "sourceHash": "sha256:0e94db814f115c112c06daf88597884e5f8a5f3641a8156a172ee3e42569c63e",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC with DocFinance treasury software for bank, treasury and cash flow data.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-cash-forecast",
         "confidence": "high"
-      },
-      {
-        "need": "ng-bank-reconciliation",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-bank-reconciliation",
       "ng-admin-integration-sync"
     ],
     "claims": [
-      "Connects BC to DocFinance treasury management suite",
-      "Manage account and treasury transactions",
+      "Manages account and treasury transactions between BC and DocFinance",
       "Automates treasury accounting",
-      "Imports and exports financial data between ERP and treasury software",
-      "Web service connection enabling hybrid cloud",
-      "Cash-flow statement and forecast",
-      "Check lines of credit",
-      "Requires DocFinance installed on a separate server"
+      "Two-way import and export of financial data",
+      "Web service connection supports hybrid cloud setups",
+      "Cash flow statement and forecast",
+      "Requires DocFinance installed on a separate server",
+      "Free install with trial, then yearly subscription"
     ],
     "countries": [],
     "languages": [
@@ -54,7 +52,10 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
     "connectsTo": [
       "DocFinance"
     ],

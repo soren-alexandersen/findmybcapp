@@ -135,7 +135,17 @@
             "on items",
             "per unit of measure",
             "item-specific",
-            "per article"
+            "per article",
+            "composition",
+            "per material"
+          ]
+        },
+        {
+          "label": "Suppliers fill in packaging data in a portal",
+          "patterns": [
+            "suppliers? (enter|portal)",
+            "supplier portal",
+            "portal answers"
           ]
         },
         {
@@ -145,7 +155,8 @@
       ],
       "coverage": {
         "Automatically from sales and shipments": 0.39,
-        "Entered on items, I run the totals": 0.33
+        "Entered on items, I run the totals": 0.5,
+        "Suppliers fill in packaging data in a portal": 0.06
       }
     },
     {
@@ -176,7 +187,7 @@
       ],
       "coverage": {
         "Direct electronic submission": 0.22,
-        "Excel or file export is fine": 0.39
+        "Excel or file export is fine": 0.44
       }
     },
     {
@@ -208,6 +219,24 @@
         "Returned goods or reusable packaging": 0.22,
         "Some customers or suppliers are exempt or already paid": 0.22
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "licence minimums and admin plans",
+      "terms": [
+        "licens",
+        "admin",
+        "minimum"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'material' wording",
+      "terms": [
+        "material"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

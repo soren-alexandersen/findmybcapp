@@ -77,9 +77,9 @@
         }
       ],
       "coverage": {
-        "We need a POS that runs inside BC": 0.4,
+        "We need a POS that runs inside BC": 0.38,
         "We have a POS and need it connected to BC": 0.08,
-        "We run LS Central and need add-ons": 0.24
+        "We run LS Central and need add-ons": 0.21
       }
     },
     {
@@ -120,7 +120,23 @@
             "mix & match",
             "multi-buy",
             "coupon",
-            "offers"
+            "offers",
+            "discount"
+          ]
+        },
+        {
+          "label": "Returns, refunds and exchanges",
+          "patterns": [
+            "returns?\\b",
+            "refund",
+            "exchange management"
+          ]
+        },
+        {
+          "label": "Split payments across several methods",
+          "patterns": [
+            "split payment",
+            "multiple payment methods"
           ]
         },
         {
@@ -129,10 +145,12 @@
         }
       ],
       "coverage": {
-        "Card payment terminals": 0.28,
-        "Gift cards and vouchers": 0.24,
-        "Loyalty programs": 0.28,
-        "Promotions and mix & match": 0.2
+        "Card payment terminals": 0.29,
+        "Gift cards and vouchers": 0.25,
+        "Loyalty programs": 0.29,
+        "Promotions and mix & match": 0.33,
+        "Returns, refunds and exchanges": 0.29,
+        "Split payments across several methods": 0.08
       }
     },
     {
@@ -157,7 +175,7 @@
         }
       ],
       "coverage": {
-        "Yes, size and colour variants": 0.16
+        "Yes, size and colour variants": 0.12
       }
     },
     {
@@ -182,7 +200,7 @@
         }
       ],
       "coverage": {
-        "Yes, handheld or mobile stock work": 0.2
+        "Yes, handheld or mobile stock work": 0.21
       }
     },
     {
@@ -225,9 +243,9 @@
         }
       ],
       "coverage": {
-        "Restaurant or food service": 0.2,
+        "Restaurant or food service": 0.21,
         "Fuel station forecourt": 0.08,
-        "Webshop alongside stores": 0.16
+        "Webshop alongside stores": 0.17
       }
     },
     {
@@ -247,7 +265,9 @@
             "stores? and head-office",
             "transfer between stores",
             "transfer orders to stores",
-            "across stores"
+            "across stores",
+            "multiple locations",
+            "store level"
           ]
         },
         {
@@ -256,7 +276,7 @@
         }
       ],
       "coverage": {
-        "Several stores": 0.44
+        "Several stores": 0.5
       }
     },
     {
@@ -279,6 +299,93 @@
       "coverage": {
         "Yes": 0.08
       }
+    },
+    {
+      "id": "do-you-print-labels-or-barcode",
+      "text": "Do you print labels or barcodes for your products in-house?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we print labels and barcodes",
+          "patterns": [
+            "label print",
+            "print(s|ing)? labels",
+            "barcode printing",
+            "shelf label"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we print labels and barcodes": 0.12
+      }
+    },
+    {
+      "id": "must-the-till-keep-working-whe",
+      "text": "Must the till keep working when the internet is down?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, it must work offline",
+          "patterns": [
+            "offline"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, it must work offline": 0.12
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "role-based access, standard for any POS",
+      "terms": [
+        "acces"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "role centers, UI detail",
+      "terms": [
+        "role"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'runs' wording",
+      "terms": [
+        "runs"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "terminal setup and reporting detail",
+      "terms": [
+        "terminal"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "barcode scanning is standard in retail POS",
+      "terms": [
+        "barcod"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic sync wording",
+      "terms": [
+        "sync"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

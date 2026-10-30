@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.ruedenet2|AID.dikta-time|PAPPID.71fbc924-1a07-428b-83bd-ade6363a8419",
+  "guid": "71fbc924-1a07-428b-83bd-ade6363a8419",
+  "publisherId": "ruedenet2",
+  "offerId": "dikta-time",
+  "source": {
+    "name": "DIKTA Time",
+    "publisher": "Rue de Net",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ruedenet2%7CAID.dikta-time%7CPAPPID.71fbc924-1a07-428b-83bd-ade6363a8419",
+    "lastModified": "2026-10-29T21:42:01.331875+00:00",
+    "appVersion": "26.10.1.70509",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.ruedenet.net/timeregistration/",
+    "sourceHash": "sha256:2893db2660df940104bc232de7cb04af148ac481fa762a670e18f6f1fd9a6243",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2893db2660df940104bc232de7cb04af148ac481fa762a670e18f6f1fd9a6243",
+    "mappedOn": "2026-10-30",
+    "summary": "AI suggests billable time entries from Outlook and Jira activity for approval and invoicing.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Suggests time entries from Outlook meetings, emails and Jira issues",
+      "Nothing is registered until the employee confirms the suggestion",
+      "Suggestion frequency daily, twice daily or hourly depending on plan",
+      "Calendar-style time registration with templates for recurring tasks",
+      "Separates chargeable from actual hours and excludes internal time",
+      "Managers approve, adjust billable quantities or reject with feedback",
+      "Approved hours post to job journals for invoicing",
+      "Monthly hour targets adjusted for working days and leave",
+      "Reports hours by project, task and employee",
+      "Approval workflow with email notifications",
+      "Requires BC version 26.0 or later",
+      "First month free"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Professional Services"
+    ],
+    "connectsTo": [
+      "Microsoft Outlook",
+      "Jira"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

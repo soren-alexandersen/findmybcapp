@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicscenter.com/",
     "sourceHash": "sha256:3e46e615fa55d966d1301d35f8111a69c620c63c8322476d2d639664290acd94",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:3e46e615fa55d966d1301d35f8111a69c620c63c8322476d2d639664290acd94",

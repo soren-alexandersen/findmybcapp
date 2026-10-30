@@ -8,18 +8,20 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionidentity%7CPAPPID.28b992c9-9257-4ed3-86ff-a16d946300ba",
-    "lastModified": "2026-10-01T14:52:05.2094011+00:00",
-    "appVersion": "2.0.0.16",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T13:13:01.0773926+00:00",
+    "appVersion": "2.0.0.24",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://apps.visionpeople.dk/help/28b992c9-9257-4ed3-86ff-a16d946300ba/index",
-    "sourceHash": "sha256:14f947e828d65cc957d0652262721f856f09063bddaebaa6394db632b1237449",
+    "sourceHash": "sha256:1e57d81cc24e102258791c55d0eb512f169ab9fe88769bf972a6750447c2afd5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:14f947e828d65cc957d0652262721f856f09063bddaebaa6394db632b1237449",
-    "mappedOn": null,
-    "summary": "Validates customer and vendor data against Danish CPR/CVR",
+    "sourceHash": "sha256:1e57d81cc24e102258791c55d0eb512f169ab9fe88769bf972a6750447c2afd5",
+    "mappedOn": "2026-10-30",
+    "summary": "Checks and updates Danish customer and vendor data against the CPR and CVR registers.",
     "shape": "connector",
     "primary": [
       {
@@ -28,21 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-admin-data-migration",
-      "ng-vat-tax",
-      "ng-crm-accounts"
+      "ng-supplier-onboarding",
+      "ng-crm-accounts",
+      "ng-ux-data-quality"
     ],
     "claims": [
-      "Automatic CPR and CVR lookups by configurable rules",
-      "Runs lookups when a field is filled in, a document is created or a reminder is created",
-      "Change journal to review changes before applying",
-      "Updates reports for vendors and customers in batches",
-      "Invalid address detection",
-      "Pulls the industry code, company type and number of FTEs from CVR",
-      "Detects customers under 18 and supports guardian registration",
-      "EU VIES VAT validation",
-      "Every lookup logged for audit trail",
-      "Requires CPR/CVR service agreement"
+      "Looks up CPR and CVR automatically when customer or vendor records are created or changed",
+      "Lookups can trigger on field entry, document creation or reminder creation",
+      "Proposed changes can be applied automatically or reviewed in a change journal first",
+      "Flags customers under 18 from their CPR number and supports guardian registration",
+      "Validates EU VAT numbers via VIES from the customer or vendor card",
+      "Logs every register lookup for audit",
+      "Batch update reports for customers and vendors",
+      "Retrieves company type, FTE count and industry code from CVR",
+      "Respects CPR name and address protection",
+      "Requires a separate CPR and/or CVR register service agreement"
     ],
     "countries": [
       "DK"
@@ -53,13 +55,13 @@
     ],
     "industries": [],
     "connectsTo": [
-      "CPR",
-      "CVR",
-      "VIES"
+      "CPR register",
+      "CVR register",
+      "EU VIES"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

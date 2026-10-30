@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex042_invoicingplan%7CPAPPID.2055e6c0-7716-47a2-ba51-e01b9c0266ca",
-    "lastModified": "2026-09-22T17:16:43.9705628+00:00",
-    "appVersion": "28.0.38.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T16:55:00.1244424+00:00",
+    "appVersion": "29.0.16.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/invoicing-plan-ipl.html",
-    "sourceHash": "sha256:e049ef85c71ea64c772a8b5822691516dfb1f0a7352a6139d3547aafcb13fd14",
+    "sourceHash": "sha256:3efdbcaa73b736fe346d163239f5a40e202c1f53bd7fb480546a890a646bf739",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e049ef85c71ea64c772a8b5822691516dfb1f0a7352a6139d3547aafcb13fd14",
-    "mappedOn": null,
-    "summary": "Multiple prepayment and installment schedules on sales orders",
+    "sourceHash": "sha256:3efdbcaa73b736fe346d163239f5a40e202c1f53bd7fb480546a890a646bf739",
+    "mappedOn": "2026-10-30",
+    "summary": "Schedules multiple prepayment, installment or milestone invoices from one sales order.",
     "shape": "process",
     "primary": [
       {
@@ -32,18 +34,17 @@
       }
     ],
     "secondary": [
-      "ng-customer-payments"
+      "ng-ux-dimensions"
     ],
     "claims": [
-      "Multiple prepayment or installment invoices from one sales document",
-      "Payment schedules from template, free-form, or copied from prior document",
-      "Different posting groups and dimensions on installment invoices",
-      "The Invoice Plan worksheet lists every upcoming transaction",
-      "Add or modify planned invoices per sale document",
-      "Trigger invoices individually or in batch",
-      "Create credit memos and closing invoices with one click",
-      "Supports milestone billing and installment agreements",
-      "Free trial available"
+      "Several prepayment or installment invoices posted from one sales document",
+      "Payment schedules from a template, free-form or copied from an earlier order",
+      "Different posting groups and dimensions per planned invoice",
+      "Worksheet showing all future planned invoices on one screen",
+      "Planned invoices can be added or changed per order",
+      "Invoices triggered one by one or in batch",
+      "One-click credit memos and closing invoices",
+      "Annual pricing with extendable free trial"
     ],
     "countries": [],
     "languages": [
@@ -53,14 +54,13 @@
     ],
     "industries": [
       "Construction",
-      "Entertainment",
-      "Services",
-      "Software licensing"
+      "Service businesses",
+      "Software"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

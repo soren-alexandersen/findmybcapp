@@ -8,52 +8,50 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2nedapretail%7CPAPPID.c9ca83f2-d0fb-4ca6-b966-c3e87873d238",
-    "lastModified": "2025-06-12T09:53:33.1233143+00:00",
+    "lastModified": "2026-10-19T10:38:25.5755144+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:06e9f293b95def834a0d9e3acd47b7e4d463aaa426c2838a8fdb53371eb0817c",
+    "sourceHash": "sha256:b44e633cc5dd3cf2952cea6e967c39679289cbe4167d01d19b4e98872544cf12",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:06e9f293b95def834a0d9e3acd47b7e4d463aaa426c2838a8fdb53371eb0817c",
-    "mappedOn": null,
-    "summary": "Integrates Nedap RFID retail inventory platform",
+    "sourceHash": "sha256:b44e633cc5dd3cf2952cea6e967c39679289cbe4167d01d19b4e98872544cf12",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Nedap Retail RFID cloud platform for store stock.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-admin-devices",
+        "need": "ng-inventory-analysis",
         "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-vert-retail"
+      "ng-admin-devices"
     ],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Nedap Retail",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Nedap Retail account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Nedap Retail"
     ],
-    "requires": [
-      "Nedap Retail"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
-    "noFit": "RFID retail inventory platform connector; listing gives no functional detail"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

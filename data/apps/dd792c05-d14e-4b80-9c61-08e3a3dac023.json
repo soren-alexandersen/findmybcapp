@@ -8,22 +8,24 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-invoicing-bc%7CPAPPID.dd792c05-d14e-4b80-9c61-08e3a3dac023",
-    "lastModified": "2026-08-05T10:46:46.6608458+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T12:13:38.7483872+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
-    "sourceHash": "sha256:dd06af863f10abb23eb0ebb779468668b57e2c0b8a7f4a8d202cd5b71d378b2d",
+    "sourceHash": "sha256:c6c42fd7ebf2237cf525eb7c69d9063c7d684d217fa0fa9e005418511292f6eb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dd06af863f10abb23eb0ebb779468668b57e2c0b8a7f4a8d202cd5b71d378b2d",
-    "mappedOn": null,
-    "summary": "Reinvoices maintenance costs to other legal entities",
+    "sourceHash": "sha256:c6c42fd7ebf2237cf525eb7c69d9063c7d684d217fa0fa9e005418511292f6eb",
+    "mappedOn": "2026-10-30",
+    "summary": "Dynaway EAM add-on that re-invoices maintenance costs to other group companies.",
     "shape": "addon",
     "primary": [
       {
-        "need": "ng-maintenance-breakdown",
+        "need": "ng-svc-close-invoice",
         "confidence": "medium"
       },
       {
@@ -31,14 +33,16 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-maintenance-breakdown"
+    ],
     "claims": [
-      "Creates sales invoices for maintenance costs to another group entity",
-      "Price from price list or markup on posted costs",
+      "Creates a sales invoice for maintenance costs to another legal entity",
+      "Prices from a price list or as markup on posted inventory or resource costs",
       "Billable flag per work order plan or work order line",
-      "Assign asset to bill-to customer",
-      "Invoice based on ledger entries",
-      "Requires Dynaway EAM Enterprise license"
+      "Assets are assigned to a bill-to customer",
+      "Invoices are based on ledger entries",
+      "Needs Dynaway EAM with an Enterprise licence"
     ],
     "countries": [],
     "languages": [
@@ -56,7 +60,7 @@
       "Dynaway EAM"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

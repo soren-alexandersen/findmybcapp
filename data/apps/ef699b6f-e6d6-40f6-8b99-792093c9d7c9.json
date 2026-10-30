@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365incidentmgt%7CPAPPID.ef699b6f-e6d6-40f6-8b99-792093c9d7c9",
-    "lastModified": "2026-09-16T17:00:47.1592707+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:45.5905078+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/incmgt/index.html",
-    "sourceHash": "sha256:0ef520f59583d00dc36b738330565bf84e6a37c84eee1354a6d12a3d314ea666",
+    "sourceHash": "sha256:81822098dba04a389532d52df5832cee12ba11b58fe5086c1183bad530de68cc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0ef520f59583d00dc36b738330565bf84e6a37c84eee1354a6d12a3d314ea666",
-    "mappedOn": null,
-    "summary": "Incident management",
+    "sourceHash": "sha256:81822098dba04a389532d52df5832cee12ba11b58fe5086c1183bad530de68cc",
+    "mappedOn": "2026-10-30",
+    "summary": "Records quality incidents and complaints, assigns corrective actions and creates credit notes.",
     "shape": "process",
     "primary": [
       {
@@ -32,13 +34,14 @@
       "ng-supplier-returns-credits"
     ],
     "claims": [
-      "Incident documents for internal, customer or supplier-reported problems",
-      "Pulls item and batch data from inspection orders or posted purchase receipts",
-      "Incident types classify incidents and specify possible costs",
+      "Incidents can come from internal findings, customers or suppliers",
+      "Item and batch data copy over from inspection orders or posted receipts",
+      "Incident types classify incidents and carry possible costs",
+      "Records complaint reason and who raised it",
       "Error codes per item or batch",
-      "Immediate, corrective and preventive measures",
-      "Generates complaint or credit note for customer or supplier",
-      "Create follow-on documents"
+      "Immediate, corrective and preventive actions can be assigned",
+      "Generates a complaint or credit note toward the customer or supplier",
+      "Follow-on documents can be created from the incident"
     ],
     "countries": [
       "AD",
@@ -136,11 +139,14 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Healthcare",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

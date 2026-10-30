@@ -8,44 +8,48 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365compl%7CPAPPID.f0e60c73-89b1-4aa7-8a35-3909c741fcd0",
-    "lastModified": "2026-09-16T16:48:48.1831153+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:47:18.9385897+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/compl/index.html",
-    "sourceHash": "sha256:67a7ae1e98d8f42abd142f36131e12cc4294545c3c756e05218728ed9662326e",
+    "sourceHash": "sha256:205e9f7305c22d155f3023ca2290c11bc91b57a89b6e38b159768c2025e322a1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:67a7ae1e98d8f42abd142f36131e12cc4294545c3c756e05218728ed9662326e",
-    "mappedOn": null,
-    "summary": "Regulatory compliance for regulated environments",
+    "sourceHash": "sha256:205e9f7305c22d155f3023ca2290c11bc91b57a89b6e38b159768c2025e322a1",
+    "mappedOn": "2026-10-30",
+    "summary": "GxP compliance tools: mandatory e-signatures, audit trail, field security and label control.",
     "shape": "process",
     "primary": [
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "high"
+      },
       {
         "need": "ng-vert-life-sciences",
         "confidence": "high"
       },
       {
-        "need": "ng-audit-compliance",
+        "need": "ng-admin-approval-workflows",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-approval-workflows",
       "ng-admin-permissions",
-      "ng-admin-change-log"
+      "ng-admin-change-log",
+      "ng-barcode-labels"
     ],
     "claims": [
-      "Mandatory electronic signatures for critical changes",
-      "User-specific permissions for qualified persons with field security",
-      "Audit trail logging all data changes",
-      "Label management and balancing",
-      "Validation support",
-      "Designed for chemical, pharma, biotech, medtech, food and cosmetics",
-      "Includes free Yaveon 365 Base App with rule-based traffic lights, extended texts, inventory summary and data migration tools",
-      "Extended texts on master data, and on sales and purchasing documents",
-      "Corporate design for documents"
+      "Electronic signatures can be required for critical changes",
+      "User-specific permissions for qualified persons, with field-level security",
+      "Audit trail logs every data change",
+      "Label management with reconciliation",
+      "Supports system validation",
+      "Free Base App adds rule-based traffic lights, extended texts and inventory summary",
+      "Base App includes data migration tools"
     ],
     "countries": [
       "AD",
@@ -147,13 +151,14 @@
       "Chemicals",
       "Cosmetics",
       "Food",
+      "Healthcare",
       "Medical technology",
       "Pharmaceuticals"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.customeriteminvoicehistory%7CPAPPID.f3963745-d1dd-4ba4-8838-e17646bfb75a",
-    "lastModified": "2026-05-20T18:37:44.2430153+00:00",
-    "appVersion": "26.2.52.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:59:01.5434663+00:00",
+    "appVersion": "26.4.56.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/customer-item-invoice-history/",
-    "sourceHash": "sha256:a6d0474eba25dd7cf038155de52b9ada1101bdbebb60dc33f8ae38efebc533c8",
+    "sourceHash": "sha256:1480551ab5eeec1e709d4292d04fb75051c037490172dadda318e5663b9b8bb8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a6d0474eba25dd7cf038155de52b9ada1101bdbebb60dc33f8ae38efebc533c8",
-    "mappedOn": null,
-    "summary": "Shows invoiced prices per customer and item",
+    "sourceHash": "sha256:1480551ab5eeec1e709d4292d04fb75051c037490172dadda318e5663b9b8bb8",
+    "mappedOn": "2026-10-30",
+    "summary": "Shows past invoiced prices per customer and item, and updates line or customer pricing.",
     "shape": "process",
     "primary": [
       {
@@ -28,23 +30,23 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-ux-search-navigation"
     ],
     "claims": [
-      "Lists past posted invoice lines per sell-to customer/item combination",
-      "Updates current line price on quote, order or invoice from history",
-      "Creates customer-specific price record from the same page",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard",
-      "Supports Essentials and Premium"
+      "Lists past posted invoice lines for a sell-to customer and item combination",
+      "Updates the line price on the current quote, order or invoice from history",
+      "Creates a customer-specific price record from the same page",
+      "Priced at USD 12 per tenant per year"
     ],
     "countries": [],
     "languages": [
       "en",
       "fr"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

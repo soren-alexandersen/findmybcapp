@@ -113,9 +113,9 @@
         }
       ],
       "coverage": {
-        "PDF attachments by email": 0.18,
-        "E-invoices (PEPPOL, OIOUBL, XRechnung...)": 0.22,
-        "Paper that we scan": 0.13
+        "PDF attachments by email": 0.17,
+        "E-invoices (PEPPOL, OIOUBL, XRechnung...)": 0.23,
+        "Paper that we scan": 0.12
       }
     },
     {
@@ -165,7 +165,7 @@
         }
       ],
       "coverage": {
-        "Invoices for purchase orders (goods or services ordered in BC)": 0.31,
+        "Invoices for purchase orders (goods or services ordered in BC)": 0.32,
         "Cost invoices without a PO (rent, utilities, services)": 0.14,
         "Employee expenses and receipts": 0.12
       }
@@ -206,7 +206,7 @@
       ],
       "coverage": {
         "Each line: quantity and price against the PO or receipt": 0.15,
-        "The total amount, within a tolerance": 0.06
+        "The total amount, within a tolerance": 0.05
       }
     },
     {
@@ -275,8 +275,8 @@
         }
       ],
       "coverage": {
-        "Rules by amount, cost centre or several levels": 0.17,
-        "Approvers sign off on phone or web, without a BC login": 0.21,
+        "Rules by amount, cost centre or several levels": 0.16,
+        "Approvers sign off on phone or web, without a BC login": 0.22,
         "Auto-approve small or fully matched invoices": 0.07,
         "Simple approval inside BC": 0.05
       }
@@ -324,7 +324,7 @@
         }
       ],
       "coverage": {
-        "Every line (items, quantities, prices)": 0.15,
+        "Every line (items, quantities, prices)": 0.14,
         "Header and totals are enough": 0.48
       }
     },
@@ -363,7 +363,7 @@
       ],
       "coverage": {
         "Suggested by AI from past postings": 0.09,
-        "Fixed rules or templates per vendor": 0.07
+        "Fixed rules or templates per vendor": 0.06
       }
     },
     {
@@ -389,8 +389,8 @@
         }
       ],
       "coverage": {
-        "Inside Business Central": 0.14,
-        "In a separate AP system connected to BC": 0.3
+        "Inside Business Central": 0.13,
+        "In a separate AP system connected to BC": 0.31
       }
     },
     {
@@ -423,7 +423,7 @@
         }
       ],
       "coverage": {
-        "Yes, archived with the posted document in BC": 0.04,
+        "Yes, archived with the posted document in BC": 0.05,
         "Yes, in a searchable or audit-proof archive": 0.05
       }
     }
@@ -435,6 +435,13 @@
         "process"
       ],
       "on": "2026-10-04"
+    },
+    {
+      "label": "generic workflow wording, approval already covered by the approval question",
+      "terms": [
+        "workflow"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

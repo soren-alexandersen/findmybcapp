@@ -4,22 +4,24 @@
   "publisherId": "tso",
   "offerId": "dms_connector_sp",
   "source": {
-    "name": "DMS Connector for Microsoft SharePoint",
+    "name": "DMS Connector for SharePoint with Microsoft Dynamics 365 Business Central",
     "publisher": "TSO-DATA GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.dms_connector_sp%7CPAPPID.1204184d-c505-4db6-a760-d16e17e2c35f",
-    "lastModified": "2026-10-01T04:43:12.8337249+00:00",
-    "appVersion": "28.0.2610.620792",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T10:30:08.1047822+00:00",
+    "appVersion": "28.0.2610.641982",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/dmscsp/en",
-    "sourceHash": "sha256:0e6470bda541423694c497cebc97d7cf9ac5dbcdb891bd3d549c427a7925d743",
+    "sourceHash": "sha256:0694e5ebae6cfb0b5582c71ab5ea45f569f0ba18e3ce22b5e23b159ad8dc5b5a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0e6470bda541423694c497cebc97d7cf9ac5dbcdb891bd3d549c427a7925d743",
-    "mappedOn": null,
-    "summary": "Stores BC documents and emails in SharePoint",
+    "sourceHash": "sha256:0694e5ebae6cfb0b5582c71ab5ea45f569f0ba18e3ce22b5e23b159ad8dc5b5a",
+    "mappedOn": "2026-10-30",
+    "summary": "Stores and links BC documents and emails in SharePoint as a document management system.",
     "shape": "connector",
     "primary": [
       {
@@ -31,13 +33,13 @@
       "ng-ux-attachments"
     ],
     "claims": [
-      "Links documents and emails to BC master data and transfers them to SharePoint",
-      "Tags documents with keywords before transfer",
-      "View scanned incoming mail in BC and assign to transactions",
-      "Drag-and-drop document storage",
-      "Automatic upload of outgoing invoices to SharePoint",
-      "Users without BC access see authorized documents in SharePoint",
-      "Supports Essential edition"
+      "Links invoices, delivery notes, external documents and emails to BC records and moves them to SharePoint",
+      "Documents are tagged with keywords before transfer",
+      "Scanned incoming mail can be viewed in BC and assigned to transactions",
+      "Manual filing by drag and drop",
+      "Outgoing invoices can be uploaded automatically",
+      "Colleagues without BC access see documents in SharePoint within their permissions",
+      "Supports audit-proof archiving in SharePoint"
     ],
     "countries": [
       "AD",
@@ -97,7 +99,7 @@
     ],
     "requires": [],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

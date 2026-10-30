@@ -8,21 +8,21 @@
     "publisher": "On Point Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on-point-ltd%7CAID.docusign-anything%7CPAPPID.97ffbbc5-7201-46c5-ab89-a73c829e76f1",
-    "lastModified": "2026-08-05T04:28:12.3441889+00:00",
+    "lastModified": "2026-10-27T06:29:31.4704929+00:00",
     "appVersion": "27.0.4.13",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
-    "helpLink": "https://www.onpointserv.com/contact-us",
-    "sourceHash": "sha256:56b87a0d9ba1aa68b06d5075c70bd29db5eea1484c7aa9aee43e36e935988117",
+    "helpLink": "https://confluence.external-share.com/content/808917/docusign_anything_release_notes",
+    "sourceHash": "sha256:0fc00ceea158c5ff80765f2613321bc7aa8ec164beb4217e5ed1e3eea50a83b3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:56b87a0d9ba1aa68b06d5075c70bd29db5eea1484c7aa9aee43e36e935988117",
-    "mappedOn": null,
-    "summary": "Sends any document for Docusign signature",
+    "sourceHash": "sha256:0fc00ceea158c5ff80765f2613321bc7aa8ec164beb4217e5ed1e3eea50a83b3",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends any BC document for Docusign e-signature and stores the signed result",
     "shape": "connector",
     "primary": [
       {
@@ -34,18 +34,18 @@
       "ng-hr-onboard-offboard"
     ],
     "claims": [
-      "Send any document for DocuSign signature from BC",
-      "Works with or without own Docusign subscription",
-      "Partner pricing on envelopes",
-      "Bulk send documents",
-      "Stores signed files linked to records",
-      "Custom email templates",
-      "Multiple signers",
-      "Set signing locations in documents",
-      "Track document statuses centrally",
-      "Revoke or correct documents before signing",
-      "Full audit trail",
-      "Plans by company size with user minimums"
+      "Any document from BC can be sent for signature",
+      "Signed files saved on the related record",
+      "Central status tracking of all documents",
+      "Works with or without your own Docusign subscription; envelopes sold at partner price",
+      "Collects extra data at signing via text, date, checkbox and initials fields",
+      "Customizable email templates",
+      "Set signing positions in the document",
+      "Multiple signers per document",
+      "Bulk sending of documents",
+      "Revoke or correct before signing",
+      "Full audit trail on signatures",
+      "Three tiers by company size and user count, monthly or annual"
     ],
     "countries": [],
     "languages": [

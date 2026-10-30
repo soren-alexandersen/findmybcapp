@@ -8,28 +8,34 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.gld-recpay-connector-app%7CPAPPID.d378ed2b-243b-4d88-a6bf-127fb02270dd",
-    "lastModified": "2026-03-16T11:36:32.090613+00:00",
-    "appVersion": "26.4.260305.5",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:37:14.2992397+00:00",
+    "appVersion": "26.4.261013.2",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/good-looking-documents/docs/",
-    "sourceHash": "sha256:5307b845fcf6f7984e98a92ab3da4b01877f53d587cdd706d3b682248667fe53",
+    "sourceHash": "sha256:4030e02882cc679fa7ef6461db7f179c5659c9e9b0dda703c0971fd952818aa5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5307b845fcf6f7984e98a92ab3da4b01877f53d587cdd706d3b682248667fe53",
-    "mappedOn": null,
-    "summary": "Runs statement reports from Receivables - Payables",
+    "sourceHash": "sha256:4030e02882cc679fa7ef6461db7f179c5659c9e9b0dda703c0971fd952818aa5",
+    "mappedOn": "2026-10-30",
+    "summary": "Links Good Looking Documents statements to the Receivables - Payables aging overview.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-collections",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-document-layouts"
+    ],
     "claims": [
-      "Statement reports launch from the Receivables Aging Overview with their filters pre-applied"
+      "Runs customer statement reports from the receivables aging overview with its filters applied",
+      "Requires both Good Looking Documents and Receivables - Payables",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -38,13 +44,13 @@
     "industries": [],
     "connectsTo": [],
     "requires": [
-      "Fenwick Good Looking Documents",
-      "Fenwick Receivables - Payables"
+      "Good Looking Documents",
+      "Receivables - Payables"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
-    "hide": true,
-    "hideReason": "Connector app between two Fenwick apps",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
     "noFit": ""
   },
   "curated": {

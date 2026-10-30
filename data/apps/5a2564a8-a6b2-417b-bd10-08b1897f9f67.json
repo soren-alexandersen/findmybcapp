@@ -8,18 +8,20 @@
     "publisher": "Syncron AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eazystock%7CAID.eazystock_integration%7CPAPPID.5a2564a8-a6b2-417b-bd10-08b1897f9f67",
-    "lastModified": "2026-07-16T23:36:04.1898746+00:00",
-    "appVersion": "27.4.20260716.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T10:59:40.0358095+00:00",
+    "appVersion": "27.4.20261027.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.eazystock.com/wp-content/uploads/2022/07/set-up-guide-implementation-eazystock-bc-saas-connector-version-20.1.2022060300.pdf",
-    "sourceHash": "sha256:6bb3202f8f5edc5e7c8abcff01240575b7e5e490c49e5ff18622ca7b43f9e12a",
+    "sourceHash": "sha256:ceb979751ac469b5f0ae9421ec4e6cb80c13d7c7a25f3b0cfc81ce90effb8dbc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6bb3202f8f5edc5e7c8abcff01240575b7e5e490c49e5ff18622ca7b43f9e12a",
-    "mappedOn": null,
-    "summary": "Integrates EazyStock demand forecasting and replenishment",
+    "sourceHash": "sha256:ceb979751ac469b5f0ae9421ec4e6cb80c13d7c7a25f3b0cfc81ce90effb8dbc",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC to EazyStock for demand forecasting and automated reorder proposals.",
     "shape": "connector",
     "primary": [
       {
@@ -35,17 +37,15 @@
       "ng-inventory-analysis"
     ],
     "claims": [
-      "Statistical demand forecasting",
-      "Seasonality forecasting",
-      "Promotions management",
-      "Dynamic inventory item classifications",
-      "Automated reorder point calculations",
-      "Dynamic supplier lead time management",
-      "KPI dashboard with SKU-level drill-down",
-      "Multi-site and redistribution capabilities",
-      "Order fill-up to optimize container capacity and hit MOQ",
-      "Sends recommended order proposals back to BC",
-      "Computes safety stock, order quantities and reorder points"
+      "Connector is free, EazyStock subscription bought separately",
+      "Statistical and seasonal demand forecasting",
+      "Promotions management in forecasting",
+      "Dynamic item classification",
+      "Calculates reorder points, order quantities and safety stock",
+      "Manages supplier lead times dynamically",
+      "Multi-site planning and stock redistribution",
+      "Fills orders to container capacity and minimum order quantity",
+      "Sends order proposals back into BC"
     ],
     "countries": [
       "AT",

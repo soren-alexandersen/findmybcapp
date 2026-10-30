@@ -8,18 +8,20 @@
     "publisher": "Samadhan",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.dispatch_samadhan%7CPAPPID.3314e17d-b533-4251-b9ed-aca1856a1286",
-    "lastModified": "2026-08-07T11:30:05.3584109+00:00",
-    "appVersion": "1.0.0.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T06:42:24.034428+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.samadhanindia.com/helpdesk-support/",
-    "sourceHash": "sha256:f9e11a50e2ff0acced066d1c5e63dab90ed73f1b193ec829e77545a2278287ac",
+    "sourceHash": "sha256:f93b970498ea03983f8b19c84e9ff684dc179bee10147d191566de3161d0cb3b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f9e11a50e2ff0acced066d1c5e63dab90ed73f1b193ec829e77545a2278287ac",
-    "mappedOn": null,
-    "summary": "Dispatch scheduling and trip planning for deliveries",
+    "sourceHash": "sha256:f93b970498ea03983f8b19c84e9ff684dc179bee10147d191566de3161d0cb3b",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds dispatch schedules from sales orders and plans truck trips by load volume.",
     "shape": "process",
     "primary": [
       {
@@ -28,15 +30,15 @@
       }
     ],
     "secondary": [
-      "ng-allocation-picking"
+      "ng-packing-loading"
     ],
     "claims": [
-      "Create dispatch schedules from sales orders",
-      "Filter by requested delivery date and customer",
+      "Creates dispatch schedules from sales orders",
+      "Filters orders by requested delivery date and customer",
       "Trip plans linked to dispatch schedules",
-      "Calculates load volume and vehicle utilization from item dimensions (CFT)",
-      "Converts confirmed trip plans into delivery orders",
-      "Visibility of pending and confirmed trips"
+      "Calculates load volume and utilisation from item dimensions in cubic feet",
+      "Turns confirmed trips into delivery orders",
+      "Ships scheduled quantities from the sales order lines"
     ],
     "countries": [],
     "languages": [],
@@ -44,7 +46,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

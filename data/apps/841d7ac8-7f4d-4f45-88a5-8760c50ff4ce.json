@@ -8,18 +8,20 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_bonus%7CPAPPID.841d7ac8-7f4d-4f45-88a5-8760c50ff4ce",
-    "lastModified": "2026-10-01T15:41:40.8720554+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:02:47.3455316+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-bonus/",
-    "sourceHash": "sha256:ae74d47435910693a49ff84634d67142d58b2bd9ba0c34fa10e76deeb3b2334e",
+    "sourceHash": "sha256:5f94ea4b988e3bada7cea52f377e1b788450b7c5b001ceec5f806daa5cfc179f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ae74d47435910693a49ff84634d67142d58b2bd9ba0c34fa10e76deeb3b2334e",
-    "mappedOn": null,
-    "summary": "Customer and supplier bonus calculations",
+    "sourceHash": "sha256:5f94ea4b988e3bada7cea52f377e1b788450b7c5b001ceec5f806daa5cfc179f",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates customer and supplier bonuses with bracket, amount and percentage rules.",
     "shape": "process",
     "primary": [
       {
@@ -31,23 +33,31 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
     "claims": [
-      "Automatic bonus calculation",
-      "Bonus types are variable percentages, precise amounts, scalar brackets and fixed brackets",
-      "Centralised conditions with criteria, thresholds, periods and methods",
-      "Large-scale distribution module: group bonuses, hierarchical volumes, turnover aggregation",
-      "Analyse bonus accruals and verify amounts",
-      "60-day free trial"
+      "Calculates bonuses automatically",
+      "Supports fixed brackets, scaled brackets, fixed amounts and variable percentages",
+      "Central bonus conditions with criteria, thresholds, periods and calculation methods",
+      "Optional module for group bonuses, hierarchical volumes and turnover aggregation",
+      "Tools to analyse bonus accruals and verify amounts",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

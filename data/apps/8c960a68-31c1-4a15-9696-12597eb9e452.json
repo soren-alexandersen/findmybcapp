@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.sarakadiyaincusa|AID.autotaskxbc|PAPPID.8c960a68-31c1-4a15-9696-12597eb9e452",
+  "guid": "8c960a68-31c1-4a15-9696-12597eb9e452",
+  "publisherId": "sarakadiyaincusa",
+  "offerId": "autotaskxbc",
+  "source": {
+    "name": "Autotask PSA integration for Business Central",
+    "publisher": "Sarakadiya Inc.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sarakadiyaincusa%7CAID.autotaskxbc%7CPAPPID.8c960a68-31c1-4a15-9696-12597eb9e452",
+    "lastModified": "2026-10-14T07:58:46.729446+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://sarakadiya.com/autotask-integration-business-central/",
+    "sourceHash": "sha256:8fc86f2f5dea09fa67dac0ecee85cf3fb433f7782e4d8c34fe69dc5994970818",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8fc86f2f5dea09fa67dac0ecee85cf3fb433f7782e4d8c34fe69dc5994970818",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs customers, projects, contracts, time, expenses and invoices between Autotask PSA and BC.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Syncs customers between Autotask and BC",
+      "Syncs projects and contracts",
+      "Links ticket activity to finance to find billable work",
+      "Transfers approved time entries and expenses into BC",
+      "Brings billable charges into BC",
+      "Integrates invoice data to cut reconciliation",
+      "Two-way sync based on configured workflows",
+      "Aimed at MSPs and IT service providers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Professional Services"
+    ],
+    "connectsTo": [
+      "Autotask PSA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

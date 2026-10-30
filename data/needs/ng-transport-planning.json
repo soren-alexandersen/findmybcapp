@@ -46,7 +46,8 @@
             "route(?! bins)",
             "tour",
             "stop sequence",
-            "multi-stop"
+            "multi-stop",
+            "\\btrips?\\b"
           ]
         },
         {
@@ -58,7 +59,11 @@
             "vehicle capacity",
             "floor space",
             "vehicle utilization",
-            "palletization"
+            "palletization",
+            "weights? and volumes?",
+            "volume capacity",
+            "volume of the plan",
+            "by load volume"
           ]
         },
         {
@@ -79,15 +84,22 @@
           ]
         },
         {
+          "label": "Assigning orders to drivers and trucks each day",
+          "patterns": [
+            "dispatch"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Delivery routes and stop order": 0.34,
-        "What fits on each truck": 0.22,
-        "Dock or pickup time slots": 0.1,
-        "Incoming containers": 0.12
+        "Delivery routes and stop order": 0.48,
+        "What fits on each truck": 0.31,
+        "Dock or pickup time slots": 0.09,
+        "Incoming containers": 0.12,
+        "Assigning orders to drivers and trucks each day": 0.26
       }
     },
     {
@@ -122,7 +134,7 @@
       ],
       "coverage": {
         "Our own drivers and trucks": 0.4,
-        "External carriers or hauliers": 0.33
+        "External carriers or hauliers": 0.4
       }
     },
     {
@@ -181,7 +193,7 @@
         }
       ],
       "coverage": {
-        "Yes, calculate or check freight costs": 0.21
+        "Yes, calculate or check freight costs": 0.24
       }
     },
     {
@@ -211,8 +223,101 @@
         }
       ],
       "coverage": {
-        "Yes, we sell transport or logistics services": 0.17
+        "Yes, we sell transport or logistics services": 0.1
       }
+    },
+    {
+      "id": "besides-deliveries-to-customer",
+      "text": "Besides deliveries to customers, what else do your trucks move?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pickups from suppliers",
+          "patterns": [
+            "inbound (pickups|and outbound)",
+            "supplier pickups",
+            "incoming and outgoing goods",
+            "purchase,? (and )?(sales|transfer)",
+            "sales and purchase (transport|documents)",
+            "from sales and purchase",
+            "mixed pickup and delivery",
+            "pick ups and drops"
+          ]
+        },
+        {
+          "label": "Transfers between our own sites",
+          "patterns": [
+            "transfers? between",
+            "transfer (orders?|documents)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pickups from suppliers": 0.24,
+        "Transfers between our own sites": 0.1
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "'transport' is the need itself, too generic",
+      "terms": [
+        "transport"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'goods' wording across unrelated claims",
+      "terms": [
+        "good"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "returns and damage already covered by proof-of-delivery option; rest is parcel labels",
+      "terms": [
+        "return"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'warehouse' wording",
+      "terms": [
+        "warehous"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'covers' wording",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "publisher-specific m+m logistic management modules",
+      "terms": [
+        "logistic"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'ship' wording",
+      "terms": [
+        "ship"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'location' wording",
+      "terms": [
+        "location"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

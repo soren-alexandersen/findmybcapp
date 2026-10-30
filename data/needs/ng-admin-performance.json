@@ -34,7 +34,124 @@
     "Users in our Asia office find BC much slower than in Denmark, how do we plan for that",
     "We want to load test our posting routines before go-live",
     "How do we keep custom extensions from slowing down BC over time?",
-    "Set performance targets for page load and posting time in the contract with our partner"
+    "Set performance targets for page load and posting time in the contract with our partner",
+    "We want to know when an integration fails before users complain",
+    "We need someone to watch our BC environment for us"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-do-you-need-help-with",
+      "text": "What do you need help with?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Ongoing monitoring with alerts",
+          "patterns": [
+            "monitor",
+            "alert"
+          ]
+        },
+        {
+          "label": "Finding what makes BC slow",
+          "patterns": [
+            "slow",
+            "bottleneck",
+            "sql statements",
+            "indexes",
+            "inefficien",
+            "how long posting"
+          ]
+        },
+        {
+          "label": "A health check of the environment",
+          "patterns": [
+            "health scan",
+            "periodic",
+            "scans"
+          ]
+        },
+        {
+          "label": "Load testing before upgrades or go-live",
+          "patterns": [
+            "simulat",
+            "performance test"
+          ]
+        },
+        {
+          "label": "Less data so posting runs faster",
+          "patterns": [
+            "reduces item ledger",
+            "aggregat",
+            "compress"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Ongoing monitoring with alerts": 0.62,
+        "Finding what makes BC slow": 0.38,
+        "A health check of the environment": 0.25,
+        "Load testing before upgrades or go-live": 0.12,
+        "Less data so posting runs faster": 0.12
+      }
+    },
+    {
+      "id": "who-should-keep-watch-on-the-s",
+      "text": "Who should keep watch on the system?",
+      "multi": false,
+      "options": [
+        {
+          "label": "A partner, as a managed service",
+          "patterns": [
+            "managed",
+            "partner monitoring",
+            "proactive",
+            "soak"
+          ]
+        },
+        {
+          "label": "Our own admins or IT",
+          "patterns": [
+            "application insights",
+            "open source",
+            "admins",
+            "scans"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A partner, as a managed service": 0.38,
+        "Our own admins or IT": 0.38
+      }
+    },
+    {
+      "id": "should-integrations-and-errors",
+      "text": "Should integrations and errors be watched too?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, integrations and errors",
+          "patterns": [
+            "integration",
+            "errors",
+            "failed"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, integrations and errors": 0.38
+      }
+    }
+  ]
 }

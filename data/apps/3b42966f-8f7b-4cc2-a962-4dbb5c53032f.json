@@ -8,40 +8,46 @@
     "publisher": "Business Dynamics Pro Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_containerq%7CPAPPID.3b42966f-8f7b-4cc2-a962-4dbb5c53032f",
-    "lastModified": "2026-08-17T05:57:26.9483377+00:00",
+    "lastModified": "2026-10-29T08:34:31.8545982+00:00",
     "appVersion": "1.0.38.0",
     "pricingTypes": [
+      "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/cq/",
-    "sourceHash": "sha256:ee100460f3b481e8a69dfbf0d39c82a1e83136205fbc96f0127b7c1b701753bc",
+    "sourceHash": "sha256:c4d7fc3fd50f69b2a568fbbe85b239ef365faddd3584aedaa20f18df34ce252c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ee100460f3b481e8a69dfbf0d39c82a1e83136205fbc96f0127b7c1b701753bc",
-    "mappedOn": null,
-    "summary": "License plate and pallet management for loads",
+    "sourceHash": "sha256:c4d7fc3fd50f69b2a568fbbe85b239ef365faddd3584aedaa20f18df34ce252c",
+    "mappedOn": "2026-10-30",
+    "summary": "License-plate and pallet management with 3D load builder, nesting and SSCC labels.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-packing-loading",
         "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-barcode-labels",
-      "ng-lot-serial-traceability"
+      "ng-lot-serial-traceability",
+      "ng-stock-movements"
     ],
     "claims": [
-      "License plate entity for pallet, tote, carton or container",
-      "Plates verified against BC inventory / package item tracking",
-      "3D visual container builder with items placed by real dimensions",
-      "Tree and grid views",
-      "Multi-level nesting of containers",
-      "SSCC-18 and GS1-128 label printing",
-      "Append-only event log audit trail",
-      "Works standalone, coexists with BDP WarehouseQ"
+      "License plate entity for pallets, totes, cartons and containers",
+      "Plates verified against BC inventory, via package tracking or ledger re-reads",
+      "3D builder places items on a to-scale pallet by real dimensions",
+      "Tree and grid views besides the 3D view",
+      "Multi-level nesting, e.g. cartons on pallets in shipments",
+      "Generates and prints SSCC-18 and GS1-128 labels",
+      "Append-only event log for every build, pack, move and ship",
+      "Standalone; no dependency on other publisher apps",
+      "Licensed per user"
     ],
     "countries": [],
     "languages": [],

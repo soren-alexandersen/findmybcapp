@@ -8,18 +8,20 @@
     "publisher": "BEYONDIT GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-pricechanges%7CPAPPID.ed8745ef-c591-4b08-9127-6842e0f40e65",
-    "lastModified": "2025-11-18T23:50:29.8394023+00:00",
-    "appVersion": "2024.9.80.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T13:15:27.4771136+00:00",
+    "appVersion": "2026.10.141.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/pricechanges/index.html",
-    "sourceHash": "sha256:5f67a875f6cdc9df364de05297b9160a8142aa0dbcf484efcf75235b51e12ed6",
+    "sourceHash": "sha256:73d9624919494149dc8c8baf82772d80f9a73067e5f734f907e683db105c1f89",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5f67a875f6cdc9df364de05297b9160a8142aa0dbcf484efcf75235b51e12ed6",
-    "mappedOn": null,
-    "summary": "Applies markups to filtered customers and items on sales and service orders",
+    "sourceHash": "sha256:73d9624919494149dc8c8baf82772d80f9a73067e5f734f907e683db105c1f89",
+    "mappedOn": "2026-10-30",
+    "summary": "Applies markups for filtered customers and items to sales and service order lines.",
     "shape": "process",
     "primary": [
       {
@@ -29,32 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Markups for filtered customers and items",
-      "Markups applied automatically to sales and service order lines"
+      "Markups defined for specific customers and items",
+      "Markups applied automatically to sales and service order lines",
+      "Available in English and German"
     ],
-    "countries": [
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "CZ",
-      "DE",
-      "DK",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "IN",
-      "IS",
-      "IT",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "SE",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "de",
       "en"
@@ -63,7 +44,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,69 +8,58 @@
     "publisher": "SIMTEQ A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simteq1604560163290%7CAID.stqpec%7CPAPPID.142b6e31-6978-4558-9cfb-20e6256c3788",
-    "lastModified": "2026-04-20T12:09:56.3574397+00:00",
+    "lastModified": "2026-10-20T07:40:52.7146391+00:00",
     "appVersion": "26.0.15.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://2clickaccounting.support/",
-    "sourceHash": "sha256:7563a3aaf5512ad08a9e92fbced11a4df9bf2fd3c01c4c53eac0a10363dc54c3",
+    "sourceHash": "sha256:6f2af44b9bbe907cc0dd11a3e5500c3fa89d9c433a731ae7003484a22eadc64b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7563a3aaf5512ad08a9e92fbced11a4df9bf2fd3c01c4c53eac0a10363dc54c3",
-    "mappedOn": null,
-    "summary": "Set of assorted productivity enhancements",
+    "sourceHash": "sha256:6f2af44b9bbe907cc0dd11a3e5500c3fa89d9c433a731ae7003484a22eadc64b",
+    "mappedOn": "2026-10-30",
+    "summary": "Toggleable productivity add-ons: reposting tool, role center tiles, Danish exchange rates.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-correct-posted",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-rolecenters",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-currency",
+      "ng-admin-permissions",
       "ng-financial-statements",
-      "ng-admin-permissions"
+      "ng-customer-payments"
     ],
     "claims": [
-      "Each enhancement can be switched on separately in every company",
-      "News feed reader on Role Center",
-      "Lists expected and delayed incoming payments",
-      "Improved Account Schedule viewer",
-      "Reposting tool to correct posted transactions",
-      "Account Schedule transactions report",
-      "Exchange rate service for Danmarks Nationalbank",
-      "Copies user groups and permission sets across users and companies"
+      "Each improvement can be switched on per company",
+      "News feed reader on the role center",
+      "Role center list of expected and late incoming payments",
+      "Enhanced viewer for account schedules",
+      "Reposts already posted transactions to correct them",
+      "Detailed transactions report built on an account schedule",
+      "Exchange rate feed from the Danish central bank",
+      "Copies permission sets and user groups across companies and users",
+      "Supports Basic Financials, Essentials and Premium editions"
     ],
-    "countries": [
-      "AT",
-      "BE",
-      "CH",
-      "CZ",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "IE",
-      "IT",
-      "NL",
-      "NO",
-      "PT",
-      "SE",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "en"
     ],
     "industries": [],
-    "connectsTo": [
-      "Danmarks Nationalbank"
-    ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

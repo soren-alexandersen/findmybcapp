@@ -8,18 +8,20 @@
     "publisher": "Linc Communications (Pty) Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_commlinc%7CPAPPID.58079324-9dce-4add-b5d4-8e60daf10120",
-    "lastModified": "2026-10-02T13:48:17.814914+00:00",
-    "appVersion": "28.26.2466.691",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T12:17:04.0940576+00:00",
+    "appVersion": "28.26.2494.661",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-CommLinc",
-    "sourceHash": "sha256:1adac06c72463d9ccfbff739c429da5d2685c3c4c96e6f06b17c2b0c65ec7787",
+    "sourceHash": "sha256:9754ec2a066b717201d7c6a4161fedf4ec3fed0a8405310d0ddab3b0853c7da0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1adac06c72463d9ccfbff739c429da5d2685c3c4c96e6f06b17c2b0c65ec7787",
-    "mappedOn": null,
-    "summary": "Commodity trading, contracts, futures and logistics",
+    "sourceHash": "sha256:9754ec2a066b717201d7c6a4161fedf4ec3fed0a8405310d0ddab3b0853c7da0",
+    "mappedOn": "2026-10-30",
+    "summary": "Commodity contracts, futures trading and logistics for commodity traders, built on standard BC.",
     "shape": "vertical",
     "primary": [
       {
@@ -27,24 +29,20 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-supplier-contracts"
-    ],
+    "secondary": [],
     "claims": [
       "Manages commodity contracts",
-      "Manages futures trading",
-      "Adds logistics management for commodity trading",
-      "Leverages standard Inventory, AR, AP and General Ledger"
+      "Handles futures trading",
+      "Adds logistics management for commodity flows",
+      "Reuses standard BC inventory, receivables, payables and ledger"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Commodity trading"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

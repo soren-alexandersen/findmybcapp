@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.dynasystechnology|AID.dynasys-workflow-manager|PAPPID.1f8d7c1a-8fe5-4463-807e-291569ff484c",
+  "guid": "1f8d7c1a-8fe5-4463-807e-291569ff484c",
+  "publisherId": "dynasystechnology",
+  "offerId": "dynasys-workflow-manager",
+  "source": {
+    "name": "Dynasys Workflow",
+    "publisher": "DYNASYS TECHNOLOGY",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasystechnology%7CAID.dynasys-workflow-manager%7CPAPPID.1f8d7c1a-8fe5-4463-807e-291569ff484c",
+    "lastModified": "2026-10-25T21:05:41.4213242+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.dynasys.tech/solutions/dynasys-workflow/docs",
+    "sourceHash": "sha256:f1fcbb01912eebaf322e268cdd762d331cfa679c2513bb07764738192d3b6c31",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1fcbb01912eebaf322e268cdd762d331cfa679c2513bb07764738192d3b6c31",
+    "mappedOn": "2026-10-30",
+    "summary": "Cross-department stage and task workflows in BC, e.g. order-to-shipment, onboarding, approvals.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-onboard-offboard",
+      "ng-ux-notes-collaboration"
+    ],
+    "claims": [
+      "Process templates made of stages owned by departments, each with tasks",
+      "Department board with filters for rush, on hold, overdue and behind target",
+      "Personal 'My work' list per user",
+      "Tasks with owners, co-workers and cross-stage predecessors, planned in working days",
+      "Sample templates for sales project, production order, airport pickup and onboarding",
+      "Links production orders to sales orders and advances on release, finish and posting",
+      "Optional gates warn about or block actions until stages are done",
+      "Per-stage service targets in working days with alerts and bottleneck dashboard",
+      "Gantt timeline and lateness breakdown report",
+      "Notifications, @mentions, email digests, task attachments and history",
+      "No external services or telemetry",
+      "Users who only release or post documents need no licence"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

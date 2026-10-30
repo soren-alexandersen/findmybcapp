@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.business_dynamics_pro|AID.bdp_smartflow_supply|PAPPID.b5c19c4d-056b-4af2-b727-b7972fc74df3",
+  "guid": "b5c19c4d-056b-4af2-b727-b7972fc74df3",
+  "publisherId": "business_dynamics_pro",
+  "offerId": "bdp_smartflow_supply",
+  "source": {
+    "name": "BDP SmartFlow Supply & MRP",
+    "publisher": "Business Dynamics Pro Inc.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_smartflow_supply%7CPAPPID.b5c19c4d-056b-4af2-b727-b7972fc74df3",
+    "lastModified": "2026-10-29T06:04:42.0179887+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://dynamicspro.ca/help/smartflow-supply",
+    "sourceHash": "sha256:949a53a20b5b1c3bf9b4b3c5312d264881f2f458939933b55eb2573ef8fcc2ae",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:949a53a20b5b1c3bf9b4b3c5312d264881f2f458939933b55eb2573ef8fcc2ae",
+    "mappedOn": "2026-10-30",
+    "summary": "MRP workbench that keeps planner decisions across planning runs and visualises supply over time.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Uses BC's own planning engine and Carry Out; does not replace them",
+      "Planner decisions tied to anchors that survive each planning run",
+      "Unmatched decisions flagged as orphaned with a reason",
+      "Triage list with saved views and a warnings filter",
+      "Shows reordering policy and whether it comes from SKU or item card",
+      "Supply timeline with safety stock, reorder point and max inventory lines",
+      "Pegging graph",
+      "Load builder for vendor minimum order value and container weight/volume",
+      "Carry Out skips deferred or unapproved lines and names them",
+      "Requires BC 27 or later; no external services",
+      "Per-user monthly seats with 30-day free trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

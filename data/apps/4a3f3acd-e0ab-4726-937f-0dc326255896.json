@@ -8,18 +8,20 @@
     "publisher": "DynamicsCenter Software Solutions LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynamicscentersoftwaresolutionsllc%7CAID.purchase-requisition-and-approvals-for-business-c%7CPAPPID.4a3f3acd-e0ab-4726-937f-0dc326255896",
-    "lastModified": "2026-08-26T06:11:46.6232626+00:00",
+    "lastModified": "2026-10-30T06:27:36.2475446+00:00",
     "appVersion": "10.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicscenter.com/",
-    "sourceHash": "sha256:e1f5a6028a46837635b4df46953aa25587d9f93224a0117811fe77fb003b2f68",
+    "sourceHash": "sha256:339ca1076aeef71a21b39ae53a96d60fd31488c28ff6dfd9befcad69f4f5feec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e1f5a6028a46837635b4df46953aa25587d9f93224a0117811fe77fb003b2f68",
-    "mappedOn": null,
-    "summary": "Purchase requisitions, approvals, budgets and vendor quotes",
+    "sourceHash": "sha256:339ca1076aeef71a21b39ae53a96d60fd31488c28ff6dfd9befcad69f4f5feec",
+    "mappedOn": "2026-10-30",
+    "summary": "Purchase requests with budget checks, multi-level approval, vendor quote comparison and PO creation.",
     "shape": "process",
     "primary": [
       {
@@ -28,35 +30,47 @@
       },
       {
         "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-control",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-budget-control",
       "ng-admin-approval-workflows",
+      "ng-purchase-orders",
       "ng-procurement-spend",
-      "ng-purchase-orders"
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "Requests for items, services and fixed assets with price, vendor, justification, priority, needed-by date",
-      "Budget check against department budget before approval",
-      "Approvers see request value and remaining budget",
-      "Multi-level approval with limits, delegation and comments",
-      "Central approval queue with pending and overdue approvals",
-      "Vendor quotations (RFQ) with prices, validity and lead times compared",
-      "Split award of lines to different vendors",
-      "One-click conversion to purchase orders, one PO per awarded vendor",
-      "Audit trail linking requisition, approvals, quotation and PO",
-      "Procurement role centre",
-      "Spend analysis by department, vendor, approval turnaround and RFQ savings"
+      "Requests cover items, services and fixed assets",
+      "Requests capture quantity, estimated price, preferred vendor, justification, priority, needed-by date, department and location",
+      "Approvers see request value, remaining department budget and whether it fits",
+      "Multi-stage approvals with limits, delegation and comments",
+      "Every approval action is logged on the requisition",
+      "Single approval queue showing pending and overdue items and average response time",
+      "Records vendor quote line prices, validity dates and lead times for comparison",
+      "Lines can be awarded to different vendors",
+      "Creates a separate purchase order per awarded vendor",
+      "Links requisition, approvals, quotes and resulting PO for audit",
+      "Procurement role centre with open, pending and overdue requests and monthly volumes",
+      "Spend analysis by department and vendor, approval turnaround, conversion rate and RFQ savings",
+      "Works across multiple companies with per-company setup",
+      "English and Arabic user interface"
     ],
     "countries": [],
-    "languages": [],
-    "industries": [],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "industries": [
+      "Financial Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

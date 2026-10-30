@@ -8,19 +8,21 @@
     "publisher": "POS-ONE A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.posoneas1663056030259%7CAID.pos365-bc-integration%7CPAPPID.78e68b63-0271-4cad-891a-ccdf57b2c346",
-    "lastModified": "2026-09-25T17:55:37.2575189+00:00",
-    "appVersion": "1.10.2.10",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T12:19:19.1417648+00:00",
+    "appVersion": "1.10.3.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://posone365.com/",
-    "sourceHash": "sha256:2469cdd41f8c11cf11d8037c46630e012f240beebcefd098ef6ccbfc5ccec38d",
+    "sourceHash": "sha256:1f1b7d766e0710c39a6c7da0da69733cf52e41ec2586cac6bb8b02780d40c99c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2469cdd41f8c11cf11d8037c46630e012f240beebcefd098ef6ccbfc5ccec38d",
-    "mappedOn": null,
-    "summary": "Integrates POS365 point of sale with BC",
-    "shape": "connector",
+    "sourceHash": "sha256:1f1b7d766e0710c39a6c7da0da69733cf52e41ec2586cac6bb8b02780d40c99c",
+    "mappedOn": "2026-10-30",
+    "summary": "Point-of-sale system built for BC multi-store retailers, with offline selling.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-retail-pos",
@@ -28,30 +30,32 @@
       }
     ],
     "secondary": [
-      "ng-vert-retail",
-      "ng-conn-webshop"
+      "ng-sales-pricing",
+      "ng-customer-returns",
+      "ng-sales-order-entry"
     ],
     "claims": [
-      "Posts POS sales transactions to BC",
-      "Syncs inventory, payments, sales and master data almost in real time",
-      "Supports Shopify, click & collect and in-store pickup",
-      "Unlimited registers with central management",
-      "Runs under the BC Device License",
-      "Processes transactions fully offline and syncs automatically",
-      "SaaS pricing"
+      "Price and product changes in BC flow to every terminal",
+      "Completed sales post to BC in real time",
+      "Creates customers, sales orders and quotes at the till",
+      "Shows stock, customer prices and discount groups at checkout",
+      "Handles discounts, returns and refunds",
+      "Park and resume sales",
+      "Supports B2C and B2B sales, special orders, prepayments and layaway",
+      "Tracks serial numbers and allows custom POS layouts",
+      "Keeps selling offline and syncs when connection returns",
+      "First terminal deployed in about an hour, extra ones in about 20 minutes",
+      "Aimed at retailers with 2 to 200 stores"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Retail"
     ],
-    "connectsTo": [
-      "POS365",
-      "Shopify"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

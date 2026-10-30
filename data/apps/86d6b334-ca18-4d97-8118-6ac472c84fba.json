@@ -8,19 +8,21 @@
     "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-napp-nlm%7CPAPPID.86d6b334-ca18-4d97-8118-6ac472c84fba",
-    "lastModified": "2026-09-02T12:10:43.0839909+00:00",
+    "lastModified": "2026-10-22T13:33:46.4498377+00:00",
     "appVersion": "28.0.260616.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-license-manager",
-    "sourceHash": "sha256:c131f46eb6e5cf29e4b9cb6aab1b98e1e432e95bb3be4a4b729a73b85ef3f489",
+    "sourceHash": "sha256:3609c6599ef7779b8820a11d1872e0d6d8be057ccda7a10646d11494714892e7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c131f46eb6e5cf29e4b9cb6aab1b98e1e432e95bb3be4a4b729a73b85ef3f489",
-    "mappedOn": null,
-    "summary": "Manages licenses for Navapp apps",
-    "shape": "usability",
+    "sourceHash": "sha256:3609c6599ef7779b8820a11d1872e0d6d8be057ccda7a10646d11494714892e7",
+    "mappedOn": "2026-10-30",
+    "summary": "License manager dependency required to run Navapp's licensed apps.",
+    "shape": "other",
     "primary": [
       {
         "need": "ng-admin-licensing",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Required to run licensed Navapp apps with trial or full rights",
-      "Licensed Navapp apps get an automatic 30-day trial"
+      "Required to run Navapp apps under trial or full licence",
+      "Licensed Navapp apps start a 30-day trial on install"
     ],
     "countries": [],
     "languages": [
@@ -40,10 +42,10 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "Dependency app that only manages licensing for other Navapp apps",
+    "hideReason": "Dependency/licensing library for other Navapp apps.",
     "noFit": ""
   },
   "curated": {

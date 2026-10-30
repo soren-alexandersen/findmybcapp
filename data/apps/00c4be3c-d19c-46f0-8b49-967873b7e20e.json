@@ -18,26 +18,26 @@
   },
   "mapping": {
     "sourceHash": "sha256:5abfbf6579ba081c7ba23e053c64d77d552003af2c7623d142141989bd35a923",
-    "mappedOn": null,
-    "summary": "Fleet tracking and management",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks company vehicles and drivers with telematics, driver scoring and compliance alerts.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-transport-planning",
-        "confidence": "low"
+        "need": "ng-company-vehicles",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-vert-transport-logistics",
       "ng-hr-health-safety"
     ],
     "claims": [
-      "Fleet tracking with telematics",
-      "Driver tracking and coaching tools",
-      "Scorecards, trend reports and collision avoidance systems",
-      "Dashboard with driver status reports and live alerts",
-      "Compliance workflows and pop-up reminders for drivers",
-      "Supports Essentials and Premium"
+      "Locates vehicles using telematics and location data",
+      "Driver coaching with scorecards and trend reports",
+      "Supports collision avoidance systems",
+      "Dashboard reports on driver status",
+      "Real-time alerts to reduce compliance violations",
+      "Guides drivers through compliance with step-by-step workflows and reminders",
+      "Runs on Essentials and Premium editions"
     ],
     "countries": [
       "AT",
@@ -71,7 +71,7 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",

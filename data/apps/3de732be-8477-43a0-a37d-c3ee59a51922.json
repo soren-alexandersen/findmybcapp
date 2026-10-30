@@ -4,27 +4,29 @@
   "publisherId": "navax_consulting",
   "offerId": "ncrci",
   "source": {
-    "name": "NAVAX Recurring Contracts Interface",
+    "name": "NAVAX Recurring Contracts - API",
     "publisher": "NAVAX Consulting GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.ncrci%7CPAPPID.3de732be-8477-43a0-a37d-c3ee59a51922",
-    "lastModified": "2026-04-28T13:35:53.4957296+00:00",
-    "appVersion": "27.1.0.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T07:42:18.2706216+00:00",
+    "appVersion": "28.2.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCRCI",
-    "sourceHash": "sha256:f5a52f5dd8ac12534f807ff48c8bbab8a0910c3319c900de2bf72574c21b5c37",
+    "sourceHash": "sha256:2c6f8ab9ea039e8c3b91639c43788d2ffdc3541b91d0a5bead2485e661e65194",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f5a52f5dd8ac12534f807ff48c8bbab8a0910c3319c900de2bf72574c21b5c37",
-    "mappedOn": null,
-    "summary": "API functions for the NAVAX Recurring Contracts app",
+    "sourceHash": "sha256:2c6f8ab9ea039e8c3b91639c43788d2ffdc3541b91d0a5bead2485e661e65194",
+    "mappedOn": "2026-10-30",
+    "summary": "API layer for NAVAX Recurring Contracts so external systems can manage contracts.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-subscription-billing",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-admin-integration-sync",
@@ -32,17 +34,17 @@
       }
     ],
     "secondary": [
-      "ng-admin-portals"
+      "ng-conn-crm",
+      "ng-conn-webshop"
     ],
     "claims": [
-      "External systems can create, renew, terminate or amend recurring contracts via API calls",
-      "Contract status management via standardised API operations",
-      "Meant for connecting external billing solutions, subscription platforms, CRM systems or portals",
-      "Generates contracts automatically from online shops or customer portals",
-      "Allows subscription renewal or cancellation by the customer themselves",
-      "Supports different contract models",
+      "External systems can create, renew, terminate and amend contracts via API calls",
+      "Covers contract status management through standard API operations",
+      "Lets webshops or customer portals generate contracts automatically",
+      "Supports self-service renewal or cancellation of subscriptions",
+      "Works via API or web services",
       "Requires NAVAX Recurring Contracts",
-      "Supports Essentials and Premium editions"
+      "30-day free trial, then licence required"
     ],
     "countries": [],
     "languages": [
@@ -54,7 +56,7 @@
     "requires": [
       "NAVAX Recurring Contracts"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free_trial",
     "hide": false,
     "hideReason": "",

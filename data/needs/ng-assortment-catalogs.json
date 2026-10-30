@@ -88,9 +88,9 @@
         }
       ],
       "coverage": {
-        "Product content for webshops and marketplaces": 0.7,
-        "Which items specific customers may buy": 0.3,
-        "Catalogs or item data files sent to customers": 0.2
+        "Product content for webshops and marketplaces": 0.75,
+        "Which items specific customers may buy": 0.25,
+        "Catalogs or item data files sent to customers": 0.25
       }
     },
     {
@@ -112,7 +112,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.6
+        "Yes": 0.42
       }
     },
     {
@@ -135,7 +135,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.6
+        "Yes": 0.58
       }
     },
     {
@@ -159,7 +159,28 @@
         }
       ],
       "coverage": {
-        "Yes": 0.5
+        "Yes": 0.42
+      }
+    },
+    {
+      "id": "do-your-products-come-in-varia",
+      "text": "Do your products come in variants or bundles?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, variants (size, colour) or bundles",
+          "patterns": [
+            "variant",
+            "bundle"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, variants (size, colour) or bundles": 0.5
       }
     }
   ]

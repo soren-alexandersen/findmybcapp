@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.tegossuite-easy-wb-brc-connector%7CPAPPID.0d3b695e-97c6-49af-b390-76ef669ccf7b",
-    "lastModified": "2026-05-25T09:18:39.0232883+00:00",
-    "appVersion": "27.0.260525.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T01:22:14.015883+00:00",
+    "appVersion": "27.0.261028.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/better-role-centers/docs/",
-    "sourceHash": "sha256:91e0e5a3e76ec219ad7efb754bc96c29e47290fcf85adac3f67310f80c8a03ce",
+    "sourceHash": "sha256:24cb83be75c3b94d876e42d77f2defa0584b1071a4a719a6dab316d6e32dc2ad",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:91e0e5a3e76ec219ad7efb754bc96c29e47290fcf85adac3f67310f80c8a03ce",
-    "mappedOn": null,
-    "summary": "Weighbridge role centre for tegossuite Easy Weighbridge",
+    "sourceHash": "sha256:24cb83be75c3b94d876e42d77f2defa0584b1071a4a719a6dab316d6e32dc2ad",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds a weighbridge operator role centre linking Easy Weighbridge with Better Role Centres.",
     "shape": "addon",
     "primary": [
       {
@@ -31,23 +33,24 @@
       "ng-vert-utilities-energy-waste"
     ],
     "claims": [
-      "Role centre tailored for weighbridge operations"
+      "Role centre built for weighbridge operations",
+      "Requires Easy Weighbridge for tegossuite and Better Role Centres for tegossuite",
+      "English only"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
     "industries": [
-      "Recycling",
-      "Waste"
+      "Waste and recycling"
     ],
     "connectsTo": [],
     "requires": [
-      "tegossuite Easy Weighbridge",
+      "Easy Weighbridge for tegossuite",
       "Better Role Centres for tegossuite"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

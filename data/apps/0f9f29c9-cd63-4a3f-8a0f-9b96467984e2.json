@@ -8,18 +8,20 @@
     "publisher": "Curabis ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.summatim%7CPAPPID.0f9f29c9-cd63-4a3f-8a0f-9b96467984e2",
-    "lastModified": "2026-10-02T21:35:33.5186458+00:00",
-    "appVersion": "28.1.4.36",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T19:43:00.4781722+00:00",
+    "appVersion": "28.5.4.50",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://curabis.dk/support-paa-business-central/",
-    "sourceHash": "sha256:ffaa4151c69b173ea777baa15d0834d5475b471fd55dfd6bc8554e04e2e5aeea",
+    "sourceHash": "sha256:cbbc7be4e7475eb4ec13144c282db5468b00d82ea3bb14a19f105bf0e12d741e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ffaa4151c69b173ea777baa15d0834d5475b471fd55dfd6bc8554e04e2e5aeea",
-    "mappedOn": null,
-    "summary": "AI processing of incoming PDF sales orders into BC",
+    "sourceHash": "sha256:cbbc7be4e7475eb4ec13144c282db5468b00d82ea3bb14a19f105bf0e12d741e",
+    "mappedOn": "2026-10-30",
+    "summary": "AI reads emailed PDF sales orders and creates matched BC sales orders",
     "shape": "process",
     "primary": [
       {
@@ -27,21 +29,20 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-admin-copilot-agents"
-    ],
+    "secondary": [],
     "claims": [
-      "AI reads and interprets incoming sales order PDFs",
-      "Turns the email inbox into an automated order intake channel",
-      "Identifies the customer by email domain, address, name or VAT ID",
-      "Matches items on EAN, GTIN, customer, vendor and manufacturer item numbers and description",
-      "No templates or mapping rules per customer",
-      "Optional auto-conversion, with configurable tolerances for price and quantity",
-      "Staging area for review with original PDF preview",
-      "Source Hash provides an audit trail linking the PDF to the posted invoice and shipment",
+      "Reads and interprets incoming sales order PDFs with AI",
       "Uses Anthropic Claude via MCP tools",
-      "Localized for DK, SE, NO, DE, AT and W1",
-      "Setup wizard"
+      "Identifies the customer from VAT ID, name, address or email domain",
+      "Matches lines to items by EAN, GTIN, customer, vendor or manufacturer item number, or description",
+      "No per-customer templates or mapping rules needed",
+      "Price and quantity tolerances decide when orders convert automatically",
+      "Uncertain documents wait in a staging area with a PDF preview",
+      "Links posted invoices and shipments back to the original PDF",
+      "Includes role center, FactBoxes and standard permission sets",
+      "Localized for Denmark, Sweden, Norway, Germany, Austria and W1",
+      "Setup wizard for first configuration",
+      "Aimed at wholesalers, distributors and importers receiving PDF orders by email"
     ],
     "countries": [
       "AT",
@@ -53,15 +54,12 @@
     "languages": [],
     "industries": [
       "Distribution",
-      "Importers",
       "Wholesale"
     ],
-    "connectsTo": [
-      "Anthropic Claude"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Simply Dynamics Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-s3pl%7CPAPPID.23fc9014-2edd-4a76-9b43-1b78736a03a0",
-    "lastModified": "2026-08-14T08:52:03.4283575+00:00",
-    "appVersion": "2.0.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T11:48:37.8897093+00:00",
+    "appVersion": "2.0.3.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-3pl/",
-    "sourceHash": "sha256:3bbc85b3d220b33b4966b9d0969b46a05e1c8af93887a412bfd29190f6945a50",
+    "sourceHash": "sha256:87e59ef4991dcfbc5f6d5b0757d8e267b09b2be6c9f25794a09b8e2710317820",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3bbc85b3d220b33b4966b9d0969b46a05e1c8af93887a412bfd29190f6945a50",
-    "mappedOn": null,
-    "summary": "Integrates BC with third-party logistics providers",
+    "sourceHash": "sha256:87e59ef4991dcfbc5f6d5b0757d8e267b09b2be6c9f25794a09b8e2710317820",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges inventory movements and master data between BC and external 3PL providers.",
     "shape": "connector",
     "primary": [
       {
@@ -27,23 +29,26 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-packing-loading"
+    ],
     "claims": [
-      "Receives and processes 3PL inventory movements into BC",
-      "Inbound transactions are validated, tested, posted and archived automatically",
-      "Validates items, locations, UoM, quantities, lots, serials and expiry dates before posting",
-      "Supports sales shipments, purchase receipts, transfers, adjustments and assembly",
-      "Exposes items, customers and vendors master data to 3PL systems"
+      "Receives inventory movements from the 3PL into BC",
+      "Validates, tests, posts and archives inbound logistics transactions automatically",
+      "Checks items, locations, units, quantities, lots, serials and expiry dates before posting",
+      "Handles sales shipments, purchase receipts and transfer shipments and receipts",
+      "Handles positive and negative inventory adjustments",
+      "Handles assembly consumption and output",
+      "Exposes items, customers and vendors to the 3PL system"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
-    "connectsTo": [
-      "3PL providers"
-    ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

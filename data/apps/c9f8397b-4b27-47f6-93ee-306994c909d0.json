@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.easypostservicesconnectorfordynamics365%7CPAPPID.c9f8397b-4b27-47f6-93ee-306994c909d0",
-    "lastModified": "2026-09-30T07:45:48.167973+00:00",
-    "appVersion": "26.11.116.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T15:48:25.2971557+00:00",
+    "appVersion": "26.14.123.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/easypost-services-connector/",
-    "sourceHash": "sha256:204d0b5780c7dea14c34deab8da1fe11f4a6d5508cf5ec0a3ba92a4bc0f8343c",
+    "sourceHash": "sha256:bad32f4fc5f860135ea87696892b8642c1bb79c0ad8fa0b4b6f33d84927b310a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:204d0b5780c7dea14c34deab8da1fe11f4a6d5508cf5ec0a3ba92a4bc0f8343c",
-    "mappedOn": null,
-    "summary": "Ships via 100+ carriers through EasyPost",
+    "sourceHash": "sha256:bad32f4fc5f860135ea87696892b8642c1bb79c0ad8fa0b4b6f33d84927b310a",
+    "mappedOn": "2026-10-30",
+    "summary": "Ships via EasyPost from the sales order: rates, labels, pickups, tracking.",
     "shape": "connector",
     "primary": [
       {
@@ -29,17 +31,15 @@
     ],
     "secondary": [],
     "claims": [
-      "Ship via over 100 carriers from the sales order",
-      "Shipment rates with carrier, service level, cost and estimated delivery days",
+      "Shows carrier, service level, cost and estimated delivery days for rate shopping",
       "Schedules carrier pickups",
-      "One-click shipment refunds",
-      "Package tracking with branded tracking pages and push notifications",
-      "Prints labels in PNG and other formats",
-      "Pre-set shipment option defaults",
+      "Issues shipping label refunds in one click",
+      "Real-time package tracking with branded tracking pages and push notifications",
+      "Prints labels in PNG or other formats",
+      "Saves sets of default shipment options",
+      "Ships from the sales order window",
       "Requires an EasyPost account",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Priced at USD 49.99 per tenant per month"
     ],
     "countries": [],
     "languages": [
@@ -58,7 +58,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "EasyPost"
     ],

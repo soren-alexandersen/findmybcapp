@@ -8,32 +8,37 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsupplyforoio%7CPAPPID.97c0144b-964a-4a69-916f-899f5d8e4b56",
-    "lastModified": "2026-07-08T15:52:49.3712079+00:00",
-    "appVersion": "20.0.0.32",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T04:42:00.4920767+00:00",
+    "appVersion": "20.0.0.34",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/brancheloesninger/forsyningsvirksomheder",
-    "sourceHash": "sha256:e3227f3fb914d9bcbd2f1ff7ce1b12ab21c465a3fb38b83f04e7ab925d35b9c8",
+    "sourceHash": "sha256:8699545a60047ab6c296157f43c01d0f782a91c2de1795cb6e63ff800a749c3d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e3227f3fb914d9bcbd2f1ff7ce1b12ab21c465a3fb38b83f04e7ab925d35b9c8",
-    "mappedOn": null,
-    "summary": "Project and vendor handling for utility maintenance projects",
+    "sourceHash": "sha256:8699545a60047ab6c296157f43c01d0f782a91c2de1795cb6e63ff800a749c3d",
+    "mappedOn": "2026-10-30",
+    "summary": "Helper linking VisionSupply and VisionOIO: maps utility consumption points to projects, OIO internal invoices.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-costs",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-proj-costs"
+      "ng-loc-einvoicing"
     ],
     "claims": [
-      "Links utility consumption points, read from UTS files, to projects and tasks",
-      "Imports and exports project info and dimensions in OIO invoicing",
-      "Used for internal invoices"
+      "Maps utility consumption points from UTS files to projects and project tasks",
+      "Imports and exports project details and dimensions in OIO invoices for internal invoicing"
     ],
     "countries": [
       "DK"
@@ -42,16 +47,14 @@
       "da",
       "en"
     ],
-    "industries": [
-      "Utilities"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [
       "VisionSupply",
-      "VisionOIO Import"
+      "VisionOIO"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

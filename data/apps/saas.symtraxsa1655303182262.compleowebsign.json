@@ -1,0 +1,57 @@
+{
+  "appId": "symtraxsa1655303182262.compleowebsign",
+  "guid": null,
+  "publisherId": "symtraxsa1655303182262",
+  "offerId": "compleowebsign",
+  "source": {
+    "name": "Compleo Websign",
+    "publisher": "SYMTRAX",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/symtraxsa1655303182262.compleowebsign",
+    "lastModified": "2025-12-16T22:56:04.2185779+00:00",
+    "appVersion": "25.01",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:92e9f676db5c685bd9334f107c5828af5ed6647f0189cca3475af2f47f355ef6",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:92e9f676db5c685bd9334f107c5828af5ed6647f0189cca3475af2f47f355ef6",
+    "mappedOn": "2026-10-30",
+    "summary": "E-signature workflow for ERP documents, aimed at SAP; no Business Central mention",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Builds e-signature workflows for business documents",
+      "Turns raw ERP output into signed PDFs",
+      "Recipients sign in any web browser without registering or installing an app",
+      "Works with SAP ECC6, S/4HANA and S/4HANA Cloud"
+    ],
+    "countries": [],
+    "languages": [
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SAP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "No sign of Business Central; listing only names SAP.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-cut-to-length|PAPPID.73030575-1d1d-4c2c-8a11-9f1a2b3c4d5e",
+  "guid": "73030575-1d1d-4c2c-8a11-9f1a2b3c4d5e",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-cut-to-length",
+  "source": {
+    "name": "GMSOFT Cut-to-Length",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-cut-to-length%7CPAPPID.73030575-1d1d-4c2c-8a11-9f1a2b3c4d5e",
+    "lastModified": "2026-10-26T13:08:22.2881728+00:00",
+    "appVersion": "1.28.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/cut-to-length/docs/",
+    "sourceHash": "sha256:06292068d9dcfc91531d839a760944143661c708dcb55efcbc98eec2ff0b6d8f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:06292068d9dcfc91531d839a760944143661c708dcb55efcbc98eec2ff0b6d8f",
+    "mappedOn": "2026-10-30",
+    "summary": "Optimises cutting of bars, profiles and reels to length and stocks remnants.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-inventory-analysis",
+      "ng-barcode-labels",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Cut orders come from production orders, sales orders or manual entry",
+      "Optimiser uses remnants first, then open reels, then stock bars",
+      "Accounts for kerf, end trim and a maximum number of cuts per bar",
+      "Reports uncovered demand as a shortfall to purchase",
+      "Cutting plans are approved and printed for the saw",
+      "Operators scan bars on a phone, confirm cuts and enter measured offcuts",
+      "Posting consumes material, receives pieces and stores offcuts as remnants, optionally lot-tracked with length",
+      "Remnant board shows length, lot, location and age with QR labels",
+      "Remnants are netted before purchasing and traced to heat, batch or reel",
+      "Ten industry profiles ship with the app",
+      "External optimisers can be plugged in; an OptiCutter connector exists",
+      "Does not do true-shape CAD/CAM nesting",
+      "Needs BC 28 or later; production order demand needs Premium",
+      "Licensed per user with separate shop floor and planner plans"
+    ],
+    "countries": [],
+    "languages": [
+      "el",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Aluminium and PVC windows",
+      "Metal",
+      "Paper and foam",
+      "Plastics",
+      "Textiles",
+      "Timber",
+      "Wire and cable"
+    ],
+    "connectsTo": [
+      "OptiCutter"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

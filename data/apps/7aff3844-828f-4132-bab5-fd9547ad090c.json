@@ -8,34 +8,38 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionconnector%7CPAPPID.7aff3844-828f-4132-bab5-fd9547ad090c",
-    "lastModified": "2026-09-28T14:29:36.6542968+00:00",
+    "lastModified": "2026-10-23T15:18:52.4981538+00:00",
     "appVersion": "20.1.0.33",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/connector/",
-    "sourceHash": "sha256:b89f5d1ff6ad252775e5bfde195526c8ceac57bbcf4263775253d282f25a2782",
+    "sourceHash": "sha256:05affa7f23f5c70b9f9eff972d2ecab668eb04a5af7c2a7ca83ff497a985deef",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b89f5d1ff6ad252775e5bfde195526c8ceac57bbcf4263775253d282f25a2782",
-    "mappedOn": null,
-    "summary": "Web service access to all BC tables and data sync",
+    "sourceHash": "sha256:05affa7f23f5c70b9f9eff972d2ecab668eb04a5af7c2a7ca83ff497a985deef",
+    "mappedOn": "2026-10-30",
+    "summary": "Configurable web service over all BC tables plus sync engine to other companies.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-integration-sync",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-ux-master-data-sync"
-    ],
+    "secondary": [],
     "claims": [
-      "Web service access to all BC tables",
-      "Customizable web service",
-      "Sync engine exporting to multiple endpoints, companies or tenants",
-      "Supports cloud and on-premise",
-      "Syncs to older BC versions or NAV"
+      "Gives web service access to data in every BC table",
+      "The web service can be customised to each integration's needs",
+      "Exports data from one company to multiple endpoints such as other BC companies or tenants",
+      "Works with both cloud and on-premises",
+      "Can sync to older BC versions and Dynamics NAV"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +52,7 @@
     ],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

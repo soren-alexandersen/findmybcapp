@@ -8,32 +8,31 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_fuel%7CPAPPID.dedca84e-a439-4334-93cd-0065c3892340",
-    "lastModified": "2026-09-30T20:02:02.5027845+00:00",
-    "appVersion": "28.5.0.80059",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:17:01.4273222+00:00",
+    "appVersion": "29.0.0.80830",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:38347ee50318f0df35935a671aeaee8ddbf159c7030e9d0fe3a337dea0e27f64",
+    "sourceHash": "sha256:7dbe0b87d2340dfd83d7c129368b118be522a025876eae0ac27fe11ccfca1f26",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:38347ee50318f0df35935a671aeaee8ddbf159c7030e9d0fe3a337dea0e27f64",
-    "mappedOn": null,
-    "summary": "Fuel management for transport companies",
+    "sourceHash": "sha256:7dbe0b87d2340dfd83d7c129368b118be522a025876eae0ac27fe11ccfca1f26",
+    "mappedOn": "2026-10-30",
+    "summary": "Fuel module for Navitrans 365; listing text only describes the general transport suite.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
     "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS, WMS and forwarding suite for logistic service providers",
-      "e-Navitrans connector imports transport files and inbound/outbound orders from a web portal",
-      "Exports track & trace info and stock insight for customers",
-      "Supports Essential and Premium"
+      "Part of the Navitrans 365 suite with TMS, WMS and forwarding modules",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -49,13 +48,15 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Transport & logistics"
+    ],
     "connectsTo": [],
     "requires": [
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

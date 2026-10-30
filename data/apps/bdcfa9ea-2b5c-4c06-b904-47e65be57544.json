@@ -8,18 +8,20 @@
     "publisher": "Cashfeed",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cashfeed1786714087582%7CAID.cashfeed-connector%7CPAPPID.bdcfa9ea-2b5c-4c06-b904-47e65be57544",
-    "lastModified": "2026-10-05T12:33:27.0773074+00:00",
-    "appVersion": "1.0.0.22",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T17:51:38.7774254+00:00",
+    "appVersion": "1.0.0.49",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.cashfeed.com/",
-    "sourceHash": "sha256:8bcb4385f5f8edfaa58d8bec9b5a2a3b19e7a3baa6684c551b25c34524ec3838",
+    "sourceHash": "sha256:e2bb4c19c615c2d034aca0ee0d37e2f1738527b80771983a95cbd3d8fd3b412a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8bcb4385f5f8edfaa58d8bec9b5a2a3b19e7a3baa6684c551b25c34524ec3838",
-    "mappedOn": null,
-    "summary": "Syncs invoices with Cashfeed for AP automation",
+    "sourceHash": "sha256:e2bb4c19c615c2d034aca0ee0d37e2f1738527b80771983a95cbd3d8fd3b412a",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs supplier invoices between Cashfeed and BC with automatic matching to transactions and POs.",
     "shape": "connector",
     "primary": [
       {
@@ -27,12 +29,10 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-admin-integration-sync"
-    ],
+    "secondary": [],
     "claims": [
-      "Books incoming invoices and syncs to BC in real time",
-      "Automatic matching of invoices with transactions and purchase orders"
+      "Incoming invoices booked and synced to BC in real time",
+      "Matches invoices against bank transactions and purchase orders"
     ],
     "countries": [],
     "languages": [],
@@ -42,7 +42,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

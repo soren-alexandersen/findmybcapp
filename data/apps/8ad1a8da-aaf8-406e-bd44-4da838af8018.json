@@ -8,18 +8,20 @@
     "publisher": "VISIONDATA business consult AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visiondatabusinessconsultag1581677616921%7CAID.reportlayoutpro%7CPAPPID.8ad1a8da-aaf8-406e-bd44-4da838af8018",
-    "lastModified": "2026-10-02T11:11:24.5215351+00:00",
-    "appVersion": "29.2.5.9",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T17:05:24.901249+00:00",
+    "appVersion": "29.2.5.11",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/report-layout-pro-help/",
-    "sourceHash": "sha256:2eaa16174950b3169fb45da3ba65fa7d2cab453cc8acbba25ad3c9019b52d3de",
+    "sourceHash": "sha256:a5ee2697b5d04f35ede9daccbc3ca4217d2d48358f6e49033207e33c986555be",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2eaa16174950b3169fb45da3ba65fa7d2cab453cc8acbba25ad3c9019b52d3de",
-    "mappedOn": null,
-    "summary": "Adds custom texts to sales and purchase documents",
+    "sourceHash": "sha256:a5ee2697b5d04f35ede9daccbc3ca4217d2d48358f6e49033207e33c986555be",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds header/footer texts, reusable text blocks, logo and footer to sales and purchase documents.",
     "shape": "usability",
     "primary": [
       {
@@ -27,15 +29,15 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
     "claims": [
-      "Insert individual texts into purchase and sales documents",
-      "Reusable text modules automatically inserted into defined documents",
-      "Text modules with start and end date",
-      "Text modules in different languages",
-      "Pre-text before lines and post-text after lines",
-      "Logo in header and footer on documents",
-      "Available only in German"
+      "Inserts free texts into individual sales and purchase documents",
+      "Reusable text modules can be inserted automatically into chosen document types",
+      "Text modules can carry a validity start and end date",
+      "Texts can be placed before the lines or after the lines",
+      "Adds a uniform logo in the header and a footer to documents"
     ],
     "countries": [
       "DE"
@@ -43,11 +45,14 @@
     "languages": [
       "de"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

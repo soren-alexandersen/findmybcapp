@@ -127,11 +127,11 @@
         }
       ],
       "coverage": {
-        "Preparing and filing the VAT return": 0.29,
-        "Withholding tax on supplier payments": 0.09,
-        "Excise duties, eco-taxes or other surcharges": 0.17,
-        "Calculating US sales tax": 0.05,
-        "Checking customer and supplier VAT numbers": 0.11
+        "Preparing and filing the VAT return": 0.27,
+        "Withholding tax on supplier payments": 0.08,
+        "Excise duties, eco-taxes or other surcharges": 0.18,
+        "Calculating US sales tax": 0.06,
+        "Checking customer and supplier VAT numbers": 0.13
       }
     },
     {
@@ -182,9 +182,9 @@
         }
       ],
       "coverage": {
-        "Selling to consumers in other EU countries (OSS)": 0.05,
-        "We have VAT registrations in several countries": 0.08,
-        "Intrastat or EU sales listings": 0.09,
+        "Selling to consumers in other EU countries (OSS)": 0.04,
+        "We have VAT registrations in several countries": 0.07,
+        "Intrastat or EU sales listings": 0.08,
         "Imports through customs or bonded warehouses": 0.15
       }
     },
@@ -226,15 +226,24 @@
           ]
         },
         {
+          "label": "Cash accounting (VAT due when paid)",
+          "patterns": [
+            "cash accounting",
+            "cash basis",
+            "vat on cash"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Second-hand goods (margin scheme)": 0.02,
+        "Second-hand goods (margin scheme)": 0.01,
         "Free gifts or samples": 0.03,
-        "Alcohol, beverages, tobacco or fuel": 0.15,
-        "Tax-free sales to tourists": 0.03
+        "Alcohol, beverages, tobacco or fuel": 0.17,
+        "Tax-free sales to tourists": 0.01,
+        "Cash accounting (VAT due when paid)": 0.06
       }
     },
     {
@@ -277,9 +286,9 @@
         }
       ],
       "coverage": {
-        "Sent or exported electronically from BC": 0.24,
-        "Calculated by an external tax engine": 0.05,
-        "We file manually from BC reports": 0.15
+        "Sent or exported electronically from BC": 0.23,
+        "Calculated by an external tax engine": 0.04,
+        "We file manually from BC reports": 0.14
       }
     },
     {
@@ -310,9 +319,25 @@
         }
       ],
       "coverage": {
-        "Automatic posting groups by scenario or country": 0.08,
+        "Automatic posting groups by scenario or country": 0.07,
         "Block invoices for invalid VAT numbers": 0.03
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'covers' wording",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "volume pricing and licensing wording, excise already covered",
+      "terms": [
+        "volum"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

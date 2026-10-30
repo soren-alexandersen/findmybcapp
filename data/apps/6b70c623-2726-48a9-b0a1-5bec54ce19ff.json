@@ -8,18 +8,20 @@
     "publisher": "iDynamics Business Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_rebates%7CPAPPID.6b70c623-2726-48a9-b0a1-5bec54ce19ff",
-    "lastModified": "2026-10-05T13:41:25.7493674+00:00",
-    "appVersion": "3.0.3.2026100501",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T12:58:21.2709766+00:00",
+    "appVersion": "3.1.1.2026102601",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/rebates/index.html",
-    "sourceHash": "sha256:365532cde31f3b3c3449bf10d5e62bddaeb6979a46d23825dbc39147f22d5bb6",
+    "sourceHash": "sha256:8d10fba800e104cd668bd7f0dcc7170e77513be4f66eb42f4d59a3f9b7a179f6",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:365532cde31f3b3c3449bf10d5e62bddaeb6979a46d23825dbc39147f22d5bb6",
-    "mappedOn": null,
-    "summary": "Manages customer rebates and promotions",
+    "sourceHash": "sha256:8d10fba800e104cd668bd7f0dcc7170e77513be4f66eb42f4d59a3f9b7a179f6",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages customer rebates and promotions in BC.",
     "shape": "process",
     "primary": [
       {
@@ -29,22 +31,18 @@
     ],
     "secondary": [],
     "claims": [
-      "Manages customer rebates and promotions"
+      "Available in all countries, in English and Spanish"
     ],
     "countries": [],
     "languages": [
       "en",
       "es"
     ],
-    "industries": [
-      "Automotive",
-      "Distribution",
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

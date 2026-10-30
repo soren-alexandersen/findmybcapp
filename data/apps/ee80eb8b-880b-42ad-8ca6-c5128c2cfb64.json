@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.tengingverslunarlausnirehf1643968270209|AID.tenging_rdl_web_editor|PAPPID.ee80eb8b-880b-42ad-8ca6-c5128c2cfb64",
+  "guid": "ee80eb8b-880b-42ad-8ca6-c5128c2cfb64",
+  "publisherId": "tengingverslunarlausnirehf1643968270209",
+  "offerId": "tenging_rdl_web_editor",
+  "source": {
+    "name": "BC RDL Web Editor",
+    "publisher": "Tenging verslunarlausnir ehf.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tengingverslunarlausnirehf1643968270209%7CAID.tenging_rdl_web_editor%7CPAPPID.ee80eb8b-880b-42ad-8ca6-c5128c2cfb64",
+    "lastModified": "2026-10-22T12:14:21.3753357+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.tenging.is/en/Solutions/BCRDLWebEditor",
+    "sourceHash": "sha256:19dc3c912175e347ddac782b13b274a9195196aab1de9928f5155ff69df9662e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:19dc3c912175e347ddac782b13b274a9195196aab1de9928f5155ff69df9662e",
+    "mappedOn": "2026-10-30",
+    "summary": "Visual editor for RDLC report layouts inside the BC web client.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Edits RDLC layouts in the browser without exporting to Report Builder or Visual Studio",
+      "Change formatting, move elements, edit tables and add images",
+      "Works on user-defined layouts, leaving standard and partner layouts untouched"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

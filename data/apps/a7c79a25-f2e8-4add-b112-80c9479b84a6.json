@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.uniconta-integration%7CPAPPID.a7c79a25-f2e8-4add-b112-80c9479b84a6",
-    "lastModified": "2026-07-17T06:34:29.1055313+00:00",
+    "lastModified": "2026-10-13T04:08:09.5889655+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/uniconta-edi-integration/",
-    "sourceHash": "sha256:da8527cf0777071d243eb1fc1dc3cfd76faab765bf00a8fb30b0f3d3733df0a5",
+    "sourceHash": "sha256:8aed9a2ea2328665ffbc5d8f96db9b1af020f9d84ff9d0dba7582454977a91c0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:da8527cf0777071d243eb1fc1dc3cfd76faab765bf00a8fb30b0f3d3733df0a5",
-    "mappedOn": null,
-    "summary": "Syncs financial, customer and order data with Uniconta",
+    "sourceHash": "sha256:8aed9a2ea2328665ffbc5d8f96db9b1af020f9d84ff9d0dba7582454977a91c0",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way sync of customers, suppliers, invoices, orders and ledger data between Uniconta and BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,19 +30,23 @@
       }
     ],
     "secondary": [
-      "ng-intercompany-consolidation",
-      "ng-admin-integration-failures"
+      "ng-admin-integration-failures",
+      "ng-ux-master-data-sync"
     ],
     "claims": [
-      "Transfers customers, suppliers, invoices and orders with Uniconta",
-      "Two-way data flow",
-      "Synchronizes invoices, payments, balances and G/L data",
-      "Custom mapping and rules",
+      "Transfers customers, suppliers, invoices and orders",
+      "Both systems are updated at the same time",
+      "Synchronises invoices, payments, balances and general ledger data",
+      "Mappings and rules are configurable",
+      "Integration errors are detected and monitored",
       "Supports multi-company setups"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [
       "Uniconta"
     ],

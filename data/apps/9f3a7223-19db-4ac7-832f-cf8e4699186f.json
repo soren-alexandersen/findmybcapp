@@ -8,18 +8,20 @@
     "publisher": "MartIT AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.martitab1633951001710%7CAID.webconnect%7CPAPPID.9f3a7223-19db-4ac7-832f-cf8e4699186f",
-    "lastModified": "2026-10-06T11:33:31.4938868+00:00",
-    "appVersion": "1.0.203.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T11:56:20.2116084+00:00",
+    "appVersion": "1.0.213.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.combineit.se/",
-    "sourceHash": "sha256:7a373da55bf65e85d54b36d19a8e6dac51f6cfaf157ee11cc51a8ed65b637b29",
+    "sourceHash": "sha256:25ba9bad9e2e48d77cb002d27999769cc9d5dd11ab8746319a915265e3d9794d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7a373da55bf65e85d54b36d19a8e6dac51f6cfaf157ee11cc51a8ed65b637b29",
-    "mappedOn": null,
-    "summary": "No-code integration platform for BC",
+    "sourceHash": "sha256:25ba9bad9e2e48d77cb002d27999769cc9d5dd11ab8746319a915265e3d9794d",
+    "mappedOn": "2026-10-30",
+    "summary": "Configurable integration platform in BC for APIs, webhooks and file transfers.",
     "shape": "connector",
     "primary": [
       {
@@ -27,32 +29,31 @@
         "confidence": "high"
       },
       {
-        "need": "ng-conn-webshop",
+        "need": "ng-admin-integration-failures",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-conn-webshop",
       "ng-conn-3pl",
       "ng-conn-edi",
-      "ng-admin-integration-failures"
+      "ng-conn-marketplaces"
     ],
     "claims": [
-      "Connects to any GraphQL/REST/JSON/XML API to pull and push data without code",
-      "Receives webhooks into integration queues",
-      "Maps incoming message parts to tables down to field level",
-      "Can write new records to or update records in any table that is not posted",
-      "Field-level event-triggered exports, e.g. inventory updates",
-      "In- and outboxes with automatic email monitoring on errors",
-      "HTTP client tool for Service Buses, GraphQL, REST, SOAP",
-      "Postman-like request/response viewer",
-      "Reads and writes files to Azure Blob Storage",
-      "Built-in SFTP/FTP client",
-      "Ready integrations for e-commerce platforms incl. Magento, Shopify, WooCommerce, Optimizely",
-      "Integrations to WMS systems such as Ongoing and 3PL Central",
-      "EDIFACT e-invoice and e-order with Swedish retailers like ICA, Axfood, Coop",
-      "Return system integrations (Reclaimit, Inretrn)",
-      "Data warehouse export for BI",
-      "Publisher can set up integrations and provide education"
+      "Calls REST, GraphQL, SOAP and other HTTP APIs and shows requests and responses",
+      "Exchanges JSON or XML data",
+      "Receives webhooks to create or update data or trigger API calls",
+      "Transfers files via Azure Blob Storage, SFTP or FTP",
+      "Maps incoming data to BC tables and fields and configures export triggers",
+      "Mappings and flows changed by configuration, no new development",
+      "Incoming and outgoing queues show messages and errors",
+      "Email notification when integration errors need attention",
+      "Used with webshops such as Shopify, Magento and WooCommerce",
+      "Used with WMS and 3PL systems such as Ongoing WMS and 3PL Central",
+      "EDI with Swedish retailers such as ICA, Axfood and Coop",
+      "Returns platforms Reclaimit and Inretrn and POS Sitoo",
+      "Exports to data warehouse and BI",
+      "Works with Business Central Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -64,22 +65,22 @@
       "Retail"
     ],
     "connectsTo": [
-      "Optimizely",
-      "Magento",
-      "Askås",
-      "Norce",
       "Shopify",
-      "Crystalize",
       "Centra",
-      "Netset",
+      "Norce",
+      "Magento",
       "WooCommerce",
+      "Optimizely",
+      "Askås",
+      "Crystallize",
+      "Netset",
       "Sitoo",
-      "Ongoing",
-      "3PL Central",
-      "NoWaste",
+      "Ongoing WMS",
+      "NYCE",
       "Astro",
+      "NoWaste",
       "Speed",
-      "Nyce",
+      "3PL Central",
       "Millbyte",
       "Reclaimit",
       "Inretrn",
@@ -87,14 +88,14 @@
       "ICA",
       "Axfood",
       "Coop",
-      "Martin&Servera",
+      "Martin & Servera",
+      "Milient",
       "Millnet",
-      "Provet Cloud",
-      "Azure Blob Storage"
+      "Provet Cloud"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

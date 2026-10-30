@@ -8,18 +8,20 @@
     "publisher": "ON720.COM",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.migration720_dk%7CPAPPID.caa93b32-c512-4809-a558-16ddca2b2a82",
-    "lastModified": "2026-02-19T14:33:09.1621695+00:00",
-    "appVersion": "27.3.260219.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T22:39:43.6930171+00:00",
+    "appVersion": "29.0.261020.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.on720.com/",
-    "sourceHash": "sha256:05b1d87629ca65a397fd8a9a73acb90f68390cf82a1fc9eb5023f51641976d53",
+    "sourceHash": "sha256:8b9e03d1f7c251a38257f5adfeb548e18a19409b693999028091a4a2f8c230cc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:05b1d87629ca65a397fd8a9a73acb90f68390cf82a1fc9eb5023f51641976d53",
-    "mappedOn": null,
-    "summary": "Migrates transactions and documents into BC",
+    "sourceHash": "sha256:8b9e03d1f7c251a38257f5adfeb548e18a19409b693999028091a4a2f8c230cc",
+    "mappedOn": "2026-10-30",
+    "summary": "Migrates finance history and documents from Visma e-conomic into BC (Danish)",
     "shape": "usability",
     "primary": [
       {
@@ -27,14 +29,17 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
     "claims": [
-      "Migrates historical financial transactions with PDF documents",
-      "Connects to VISMA or e-conomic via token",
-      "Migrates the chart of accounts, G/L entries, customers, vendors and payment terms",
-      "Reuse or map chart of accounts",
-      "Links expense attachments to G/L entries",
-      "Real-time error alerts"
+      "Moves historical financial transactions with their PDF documents",
+      "Token-based connection to Visma e-conomic",
+      "Migrates G/L entries, chart of accounts, payment terms, customers and vendors",
+      "Reuse the old chart of accounts or map to a new one",
+      "Links expense vouchers to G/L entries",
+      "Real-time error alerts during migration",
+      "Live tracking of migration status"
     ],
     "countries": [
       "DK"
@@ -45,12 +50,11 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Visma",
-      "e-conomic"
+      "Visma e-conomic"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

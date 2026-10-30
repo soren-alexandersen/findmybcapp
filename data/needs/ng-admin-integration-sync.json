@@ -52,7 +52,9 @@
     "Moving to BC online broke our SQL-based integrations, what are the alternatives?",
     "Point to point integrations are getting out of hand",
     "Need an integration architecture for connecting BC to our e-commerce platform and 3PL",
-    "What are the API limits in BC online and will they handle our order volume?"
+    "What are the API limits in BC online and will they handle our order volume?",
+    "We need to know straight away when an integration fails",
+    "Our custom tables must sync too"
   ],
   "questions": [
     {
@@ -143,11 +145,11 @@
         }
       ],
       "coverage": {
-        "Another accounting or ERP system": 0.14,
-        "Webshop, e-commerce or POS": 0.14,
-        "CRM, Dataverse or service desk": 0.14,
-        "Warehouse, production or machines": 0.16,
-        "Reporting, BI or a data warehouse": 0.1
+        "Another accounting or ERP system": 0.15,
+        "Webshop, e-commerce or POS": 0.15,
+        "CRM, Dataverse or service desk": 0.13,
+        "Warehouse, production or machines": 0.18,
+        "Reporting, BI or a data warehouse": 0.08
       }
     },
     {
@@ -212,10 +214,10 @@
         }
       ],
       "coverage": {
-        "Files (CSV, XML, Excel) via FTP, SFTP or a folder": 0.32,
+        "Files (CSV, XML, Excel) via FTP, SFTP or a folder": 0.3,
         "Web APIs (REST, OData, SOAP)": 0.47,
-        "Events, webhooks or message queues": 0.08,
-        "Direct database connection (SQL)": 0.08
+        "Events, webhooks or message queues": 0.11,
+        "Direct database connection (SQL)": 0.07
       }
     },
     {
@@ -269,7 +271,7 @@
       ],
       "coverage": {
         "Two-way sync": 0.23,
-        "Other systems read data out of BC": 0.11,
+        "Other systems read data out of BC": 0.09,
         "Other systems send data into BC": 0.3
       }
     },
@@ -311,7 +313,7 @@
         }
       ],
       "coverage": {
-        "Our own team, without coding": 0.2,
+        "Our own team, without coding": 0.21,
         "A developer or BC partner": 0.1
       }
     },
@@ -348,8 +350,8 @@
         }
       ],
       "coverage": {
-        "Instantly, as they happen": 0.19,
-        "On a schedule is fine (hourly, nightly)": 0.21
+        "Instantly, as they happen": 0.16,
+        "On a schedule is fine (hourly, nightly)": 0.19
       }
     },
     {
@@ -381,8 +383,8 @@
         }
       ],
       "coverage": {
-        "Yes, between BC companies or environments": 0.1,
-        "No, only with outside systems": 0.24
+        "Yes, between BC companies or environments": 0.08,
+        "No, only with outside systems": 0.23
       }
     },
     {
@@ -414,8 +416,54 @@
         }
       ],
       "coverage": {
-        "Yes, local files, printers or servers": 0.07,
-        "No, everything is in the cloud": 0.13
+        "Yes, local files, printers or servers": 0.05,
+        "No, everything is in the cloud": 0.15
+      }
+    },
+    {
+      "id": "must-the-integration-handle-cu",
+      "text": "Must the integration handle custom or add-on tables, not just standard ones?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, any table incl. custom and add-on tables",
+          "patterns": [
+            "any (bc )?table",
+            "custom tables",
+            "all (standard |bc )?tables",
+            "isv( and custom)? tables"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, any table incl. custom and add-on tables": 0.06
+      }
+    },
+    {
+      "id": "how-do-you-want-to-find-out-wh",
+      "text": "How do you want to find out when a sync fails?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Error log, retries and alerts",
+          "patterns": [
+            "error",
+            "logg",
+            "monitor",
+            "alert"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Error log, retries and alerts": 0.25
       }
     }
   ]

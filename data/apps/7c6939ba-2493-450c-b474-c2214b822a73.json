@@ -8,18 +8,20 @@
     "publisher": "RUX Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.ant%7CPAPPID.7c6939ba-2493-450c-b474-c2214b822a73",
-    "lastModified": "2026-09-30T22:30:31.2919443+00:00",
-    "appVersion": "27.0.0.58",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T14:42:11.6914641+00:00",
+    "appVersion": "27.0.0.59",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/rux-advanced-notifications",
-    "sourceHash": "sha256:4c3ec9888da55d4c8fc41b769b403b1b7a2a36430d660c3bf1fbfc172549c0fc",
+    "sourceHash": "sha256:1e4682b373cb6b78f6ea77510b360fc2d3c42de2c39848d6013f24b53e4e40db",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4c3ec9888da55d4c8fc41b769b403b1b7a2a36430d660c3bf1fbfc172549c0fc",
-    "mappedOn": null,
-    "summary": "Rich-text pop-up notes and email notification automation",
+    "sourceHash": "sha256:1e4682b373cb6b78f6ea77510b360fc2d3c42de2c39848d6013f24b53e4e40db",
+    "mappedOn": "2026-10-30",
+    "summary": "Rich-text pop-up notes, @-tagging and event-driven email notifications inside BC.",
     "shape": "usability",
     "primary": [
       {
@@ -36,17 +38,21 @@
       "ng-admin-job-queue-failures"
     ],
     "claims": [
-      "HTML rich text notes attached to documents, items, vendors and customers",
-      "@-tag users or groups to notify",
-      "Email notifications to users or external groups with link to record",
-      "Pop-up notes when item, customer or vendor used on documents",
-      "My Notifications on role center",
-      "Event notifications: PO approved/received, SO approved/shipped",
-      "Alerts on expiring quotes and received prepayments",
-      "Alerts on negative or adjusted inventory",
-      "Email on job queue failure",
-      "Credit limit threshold notification and optional block",
-      "Available on production orders too"
+      "Rich-text HTML notes with links and images on customers, vendors, items and sales and purchase documents",
+      "Tag users or groups with @ to notify them",
+      "Notes emailed to users or groups, including external ones, with a link back to the record",
+      "Tagging available on sales and purchase documents, master data and production orders",
+      "Pop-up notes appear when the customer, vendor or item is used on documents",
+      "Pop-up notes can auto-save and copy onto the transaction",
+      "Event alerts for PO approved or received, SO approved or shipped, unshipped or uninvoiced orders",
+      "Alerts on expiring quotes, received prepayments, negative inventory and inventory adjustments",
+      "Emails on job queue failures",
+      "Warns at a user-defined credit threshold and can block when the limit is exceeded",
+      "Choose BC notification, email or both",
+      "Imports notes from a previous system via XML",
+      "My Notifications view on the role center",
+      "Notes can be moved to Azure Blob Storage",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [],

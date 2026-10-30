@@ -50,7 +50,125 @@
     "go-live readiness checklist Business Central",
     "What do we freeze in the old system the weekend we switch to BC",
     "Opening balances, open orders and stock all need to be in before Monday",
-    "Our partner wants us to sign off acceptance but half the tests failed"
+    "Our partner wants us to sign off acceptance but half the tests failed",
+    "We want to set up Business Central ourselves without a consultant",
+    "We need ready-made setup templates to get started faster",
+    "We want to check our setup is ready before go-live"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-help-do-you-need-with-you",
+      "text": "What help do you need with your implementation?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Guided step-by-step setup",
+          "patterns": [
+            "self-implementation",
+            "do-it-yourself",
+            "setup wizard",
+            "step-by-step",
+            "guided bc setup",
+            "without consultants"
+          ]
+        },
+        {
+          "label": "Ready-made configuration templates",
+          "patterns": [
+            "configuration (packages|templates|blueprints)",
+            "best practice configuration",
+            "blueprints"
+          ]
+        },
+        {
+          "label": "Moving data from our old system",
+          "patterns": [
+            "data migration",
+            "migrate data",
+            "migrations"
+          ]
+        },
+        {
+          "label": "Checking setup and testing before go-live",
+          "patterns": [
+            "configuration audit",
+            "go-live readiness",
+            "\\buat\\b",
+            "test (plans|cases|transactions)"
+          ]
+        },
+        {
+          "label": "Mapping our business processes",
+          "patterns": [
+            "process (map|model|blueprint)",
+            "business process catalog",
+            "fit-to-standard"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Guided step-by-step setup": 0.4,
+        "Ready-made configuration templates": 0.3,
+        "Moving data from our old system": 0.2,
+        "Checking setup and testing before go-live": 0.3,
+        "Mapping our business processes": 0.1
+      }
+    },
+    {
+      "id": "who-does-the-implementation-wo",
+      "text": "Who does the implementation work?",
+      "multi": true,
+      "options": [
+        {
+          "label": "We do it ourselves",
+          "patterns": [
+            "self-implementation",
+            "do-it-yourself",
+            "without consultants",
+            "configure bc themselves"
+          ]
+        },
+        {
+          "label": "A partner or consultant",
+          "patterns": [
+            "for consultants",
+            "implementers",
+            "consultant workspaces"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We do it ourselves": 0.2,
+        "A partner or consultant": 0.2
+      }
+    },
+    {
+      "id": "do-you-track-the-project-in-az",
+      "text": "Do you track the project in Azure DevOps?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, Azure DevOps",
+          "patterns": [
+            "azure devops"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, Azure DevOps": 0.2
+      }
+    }
+  ]
 }

@@ -8,36 +8,45 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foundation_bundle_app%7CPAPPID.4b871049-6ce9-41af-a0d8-bf92a81030aa",
-    "lastModified": "2026-04-22T09:11:00.8587158+00:00",
-    "appVersion": "2601.1.312793.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T16:24:26.0903528+00:00",
+    "appVersion": "2602.0.351796.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:03faf9813eed9f105f4efed74e251ab5b1d5a398cb569f8dd5304ef6935714d0",
+    "sourceHash": "sha256:5358c8b790f8a46c47b9ca3fcb44f0ad9e686f9bf53fe1a8700b6552eda4bbbe",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:03faf9813eed9f105f4efed74e251ab5b1d5a398cb569f8dd5304ef6935714d0",
-    "mappedOn": null,
-    "summary": "Foundational food and beverage manufacturing functions",
+    "sourceHash": "sha256:5358c8b790f8a46c47b9ca3fcb44f0ad9e686f9bf53fe1a8700b6552eda4bbbe",
+    "mappedOn": "2026-10-30",
+    "summary": "Food and beverage manufacturing starter bundle: production, lots, quality, warehouse, labeling.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-food-beverage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-production-scheduling",
       "ng-lot-serial-traceability",
-      "ng-quality-inspection"
+      "ng-quality-inspection",
+      "ng-barcode-labels",
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Bundle includes Process Manufacturing, License Plating, Mobile Warehouse and Shop Floor Production",
-      "Includes Production Scheduling, Scenarios and Planning",
-      "Bundles Advanced Pricing, Expiration Management, Inspection Status and Lot Management",
-      "Includes Labeling, Quality Control, Packaging, Print",
-      "Requires BC Premium"
+      "Aimed at small to mid-sized food and beverage manufacturers",
+      "Includes shop floor production, mobile warehouse and license plating apps",
+      "Includes process manufacturing, production scheduling, scenarios and planning",
+      "Includes advanced pricing, expiration management, inspection status and lot management",
+      "Includes labeling, quality control, packaging and print apps",
+      "Free for 30 days, then a paid subscription",
+      "Requires Premium edition"
     ],
     "countries": [
       "ID",
@@ -53,15 +62,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

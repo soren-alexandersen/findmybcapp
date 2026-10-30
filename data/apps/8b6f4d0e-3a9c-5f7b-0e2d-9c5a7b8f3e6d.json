@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.novaterraebusinessengines1588944710709|AID.business-process-foundation|PAPPID.8b6f4d0e-3a9c-5f7b-0e2d-9c5a7b8f3e6d",
+  "guid": "8b6f4d0e-3a9c-5f7b-0e2d-9c5a7b8f3e6d",
+  "publisherId": "novaterraebusinessengines1588944710709",
+  "offerId": "business-process-foundation",
+  "source": {
+    "name": "Business Process Foundation",
+    "publisher": "Novaterrae B.V.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novaterraebusinessengines1588944710709%7CAID.business-process-foundation%7CPAPPID.8b6f4d0e-3a9c-5f7b-0e2d-9c5a7b8f3e6d",
+    "lastModified": "2026-10-15T04:46:57.8316305+00:00",
+    "appVersion": "27.2.50.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.novaterrae.nl/process-mining-installation/",
+    "sourceHash": "sha256:2bdf995bc803d1c9a98a937167866d630d36367da19c96d5265bc3561189019c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2bdf995bc803d1c9a98a937167866d630d36367da19c96d5265bc3561189019c",
+    "mappedOn": "2026-10-30",
+    "summary": "Shared base app for NovaTerrae process modules; no function on its own",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Central place to see registered NovaTerrae modules and start their calculations",
+      "Stores module calculation results with status, periods and metrics",
+      "Exposes results through APIs and webhooks",
+      "Assisted setup for connecting to NovaTerrae services",
+      "Not a standalone solution; business modules must be installed separately",
+      "Requires BC online version 27.2 or later",
+      "First release targets the Netherlands"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": true,
+    "hideReason": "Dependency app: shared foundation for other NovaTerrae modules, no standalone business function.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

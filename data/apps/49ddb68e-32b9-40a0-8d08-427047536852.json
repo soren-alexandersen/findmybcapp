@@ -8,40 +8,41 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_packaging%7CPAPPID.49ddb68e-32b9-40a0-8d08-427047536852",
-    "lastModified": "2026-09-23T05:50:04.8891796+00:00",
-    "appVersion": "2602.2.344005.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T14:23:06.9379138+00:00",
+    "appVersion": "2603.0.351165.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PAC/",
-    "sourceHash": "sha256:58ceb141ac8ae961e46c5dbb85ab0dd5d6dd9ec404a5b4f4907b2fc586d687fd",
+    "sourceHash": "sha256:791ea3004a620446dbd87b3282c666323572c03b7e8fad03424fb6a91e2d35b9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:58ceb141ac8ae961e46c5dbb85ab0dd5d6dd9ec404a5b4f4907b2fc586d687fd",
-    "mappedOn": null,
-    "summary": "Manages returnable packaging inventory and partner balances",
+    "sourceHash": "sha256:791ea3004a620446dbd87b3282c666323572c03b7e8fad03424fb6a91e2d35b9",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks returnable packaging like crates and pallets and partner packaging balances.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-customer-consignment",
         "confidence": "medium"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-sales-invoicing",
       "ng-inventory-analysis",
-      "ng-sales-invoicing"
+      "ng-item-master-data",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Register crates and pallets as packaging",
-      "Default packaging on items",
-      "Packaging lines auto-added to purchase and sales orders and invoices",
-      "Returnable packaging charges carried into sales price",
-      "Packaging balance per customer with history",
-      "Packaging Wizard for setup"
+      "Registers crates and pallets used in logistics with a default packaging per item",
+      "Packaging lines are added automatically to purchase and sales orders and invoices",
+      "Returnable packaging charges flow into the sales price",
+      "Shows packaging balance per customer with history",
+      "Packaging wizard for setting up packaging items",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +74,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

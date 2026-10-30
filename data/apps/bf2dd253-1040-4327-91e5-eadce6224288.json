@@ -8,46 +8,44 @@
     "publisher": "Flowwa",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.leseditionscompagnons%7CAID.io_multi-erp_api%7CPAPPID.bf2dd253-1040-4327-91e5-eadce6224288",
-    "lastModified": "2026-10-02T15:12:31.3255288+00:00",
-    "appVersion": "1.28.26274.5691",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T08:16:17.4241845+00:00",
+    "appVersion": "1.28.26295.8381",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.flowwa.io/",
-    "sourceHash": "sha256:4017b42e5d2014d13ff3c8b8d3cd179dde5c84482612184dfec4957ab9fda3fd",
+    "sourceHash": "sha256:56c39d0dc22fd3923da789e388eb39f7fd560108f8c57d65e7ae324f14de6c4b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4017b42e5d2014d13ff3c8b8d3cd179dde5c84482612184dfec4957ab9fda3fd",
-    "mappedOn": null,
-    "summary": "Universal API for SaaS vendors to interface with ERPs",
-    "shape": "connector",
+    "sourceHash": "sha256:56c39d0dc22fd3923da789e388eb39f7fd560108f8c57d65e7ae324f14de6c4b",
+    "mappedOn": "2026-10-30",
+    "summary": "API gateway for SaaS vendors to integrate their software with BC and other ERPs.",
+    "shape": "other",
     "primary": [
       {
         "need": "ng-ux-developer-tools",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-admin-integration-sync"
     ],
     "claims": [
-      "Universal multi-ERP API for SaaS publishers including BC",
-      "Platform to manage customer deployments to connected ERPs",
-      "Consultants can deploy connector without development skills"
+      "Single API lets SaaS vendors connect to several ERPs including BC",
+      "Platform to manage customer deployments across connected ERPs",
+      "Consultants can deploy the connector without development skills"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "SaaS publishers"
-    ],
-    "connectsTo": [
-      "iO API Multi-ERP"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
-    "hide": false,
-    "hideReason": "",
+    "pricing": "free",
+    "hide": true,
+    "hideReason": "Integration enabler aimed at SaaS software vendors, not BC customers; acts as the BC-side component of a third-party API platform.",
     "noFit": ""
   },
   "curated": {

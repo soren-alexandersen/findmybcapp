@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "SaaS",
     "url": "https://appsource.microsoft.com/en-us/product/web-apps/hubbrokeraps1591310371270.import-edi-orders",
-    "lastModified": "2026-07-15T21:06:55.7617775+00:00",
+    "lastModified": "2026-10-12T12:24:21.9281502+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": null,
-    "sourceHash": "sha256:3fb8b3c4490773ea795959342ca4203ad56e0edcb5d82d553bbecbf15d72f1fe",
+    "sourceHash": "sha256:a5adc0fe956ed42c47e3312236c668bf7d78b36cf732cdaedcda9cba791f110d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3fb8b3c4490773ea795959342ca4203ad56e0edcb5d82d553bbecbf15d72f1fe",
-    "mappedOn": "2026-10-07",
-    "summary": "iPaaS service importing EDI customer orders, including via PEPPOL, into Dynamics 365",
+    "sourceHash": "sha256:a5adc0fe956ed42c47e3312236c668bf7d78b36cf732cdaedcda9cba791f110d",
+    "mappedOn": "2026-10-30",
+    "summary": "iPaaS service that validates and imports EDI customer orders into Dynamics 365",
     "shape": "connector",
     "primary": [
       {
@@ -31,24 +33,26 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
     "claims": [
-      "Validates and converts orders from any format",
-      "Receives orders via PEPPOL and Nemhandel networks",
-      "Monitoring and tracking of imported orders in the iPaaS",
-      "Integration setup covers Business Central"
+      "Validates and converts order data from any order format",
+      "Receives orders through networks such as PEPPOL and Namehandel",
+      "Imported orders can be tracked and monitored in the iPaaS",
+      "Integration with Business Central is configured on the HubBroker platform",
+      "Offers DMF and batch job processing for Finance and Operations"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
       "PEPPOL",
-      "Nemhandel",
       "Dynamics 365 Finance and Operations"
     ],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

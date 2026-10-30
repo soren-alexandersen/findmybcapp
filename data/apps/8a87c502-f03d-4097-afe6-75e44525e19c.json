@@ -8,18 +8,20 @@
     "publisher": "Cred-IT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cred-it1600071626637%7CAID.easyinvoice-connector%7CPAPPID.8a87c502-f03d-4097-afe6-75e44525e19c",
-    "lastModified": "2026-10-07T04:55:02.711837+00:00",
-    "appVersion": "2026.10.6.2801",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T12:42:49.0481708+00:00",
+    "appVersion": "2026.10.30.2802",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.cred-it.nl/easyinvoice-connector/",
-    "sourceHash": "sha256:e17efeee5bde45852d564b3ebbfceae9befabf4dba5a7614efa97507a424e097",
+    "sourceHash": "sha256:4e1980cef66979b2e4590b83a8036d5401da647f95c94ccf48db205a628d816d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e17efeee5bde45852d564b3ebbfceae9befabf4dba5a7614efa97507a424e097",
-    "mappedOn": null,
-    "summary": "Imports purchase invoices from 4CEE",
+    "sourceHash": "sha256:4e1980cef66979b2e4590b83a8036d5401da647f95c94ccf48db205a628d816d",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings purchase invoices processed in 4CEE (Easy Systems) into BC",
     "shape": "connector",
     "primary": [
       {
@@ -27,19 +29,23 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
     "claims": [
-      "Connects 4CEE invoice from Easy Systems to BC purchase invoices",
-      "Handles debit and credit invoices, G/L cost invoices and goods invoices with item tracking",
-      "Fixed asset invoices",
-      "Payment block invoices",
-      "Total amount check on invoices",
-      "Foreign currency support",
+      "Handles both purchase invoices and credit memos",
+      "Supports cost invoices posted to G/L accounts",
+      "Supports item invoices with item tracking, lot numbers, receipts and returns",
+      "Handles invoices for fixed assets",
+      "Supports payment blocks on invoices",
+      "Checks invoice total amounts",
+      "Handles foreign currency invoices",
       "Handles VAT differences",
-      "Payment date management",
-      "Item charges",
-      "Custom fields in invoice processing",
-      "Deferral template support"
+      "Transfers payment dates",
+      "Handles item charges",
+      "Supports custom fields on invoices",
+      "Supports deferral templates",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
@@ -50,11 +56,9 @@
     "connectsTo": [
       "4CEE (Easy Systems)"
     ],
-    "requires": [
-      "4CEE invoice (Easy Systems)"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

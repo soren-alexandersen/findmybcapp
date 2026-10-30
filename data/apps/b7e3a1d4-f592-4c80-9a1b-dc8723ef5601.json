@@ -8,51 +8,60 @@
     "publisher": "Perseus Enterprises Inc",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.perseus%7CAID.aegis%7CPAPPID.b7e3a1d4-f592-4c80-9a1b-dc8723ef5601",
-    "lastModified": "2026-07-09T23:09:09.2247609+00:00",
-    "appVersion": "1.2.0.0",
+    "lastModified": "2026-10-19T07:49:52.3480268+00:00",
+    "appVersion": "1.3.0.0",
     "pricingTypes": [
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://perseusenterprisesinc.com/aegis/docs/",
-    "sourceHash": "sha256:f4f9614599ef7a4180318e6df32f0f31c6fd28572745b03d7407c798a48dcf3b",
+    "sourceHash": "sha256:d5c6b0bfababc7a5cff082087c64fbc01506633048190fac91f4ee9a1a497921",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f4f9614599ef7a4180318e6df32f0f31c6fd28572745b03d7407c798a48dcf3b",
-    "mappedOn": null,
-    "summary": "Earned value and cost forecasting for capital projects",
+    "sourceHash": "sha256:d5c6b0bfababc7a5cff082087c64fbc01506633048190fac91f4ee9a1a497921",
+    "mappedOn": "2026-10-30",
+    "summary": "Owner-side earned value management and cost forecasting for capital projects on BC Projects.",
     "shape": "process",
     "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
       {
         "need": "ng-proj-budget",
         "confidence": "high"
       },
       {
-        "need": "ng-proj-status-reporting",
-        "confidence": "high"
+        "need": "ng-fa-capex",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-budget-control",
-      "ng-fa-capex",
-      "ng-proj-materials-subcontract"
+      "ng-proj-costs",
+      "ng-bi-dashboards"
     ],
     "claims": [
-      "WBS hierarchy including work packages and control accounts",
-      "PO lines tagged to WBS nodes for cost traceability",
-      "Time-phased budgets with version control and baselines",
-      "Lock baselines for variance analysis",
-      "AFE spending gates block purchase orders exceeding authority",
-      "AFE supplements for scope changes",
-      "Pay items of milestone, lump sum and unit price type",
-      "Progress measured by weighted Rules of Credit with approval gating",
-      "Automated EVM: BAC, committed, accrued, EV, CPI, EAC, VAC",
-      "Four EAC methods",
+      "Hierarchical work breakdown structure with control accounts and work packages",
+      "Each purchase order line is tagged to a WBS node, traced through receipt, invoice and G/L",
+      "Time-phased budgets with versions and lockable baselines",
+      "AFE spending gates block purchase orders over the approved authority",
+      "AFE supplements for extra funding approval",
+      "Pay items linked to purchase orders with unit price, lump sum and milestone types",
+      "Progress measured with weighted rules of credit and approval before earned value counts",
+      "Calculates BAC, committed, accrued (GRNI), actual cost, earned value, CPI, EAC and VAC",
+      "Four EAC methods including BAC/CPI, ETC+AC, management estimate and composite",
       "Configurable GRNI treatment",
-      "WBS codes carry over into G/L entries",
-      "Optional offline-capable LEMS field data capture app",
-      "Builds on BC native Projects module"
+      "WBS codes flow to G/L entries",
+      "Optional offline-capable field app for labour, equipment, materials and subcontractor receiving",
+      "Field receipts feed purchase orders for three-way match",
+      "Forecast snapshots built by Job Queue without affecting posting",
+      "Imports Primavera P6 schedules",
+      "Excel import and export for budgets and progress",
+      "Ten feature toggles, down to simple percent-complete tracking",
+      "14-day free trial without credit card",
+      "Priced per user per month in CAD with all features"
     ],
     "countries": [],
     "languages": [],
@@ -62,12 +71,12 @@
       "Mining"
     ],
     "connectsTo": [
-      "Power BI",
-      "Primavera P6"
+      "Primavera P6",
+      "Power BI"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

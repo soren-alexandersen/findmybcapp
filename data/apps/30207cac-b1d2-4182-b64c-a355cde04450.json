@@ -8,18 +8,20 @@
     "publisher": "IM-PROJECTS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.icg_pos_connector%7CPAPPID.30207cac-b1d2-4182-b64c-a355cde04450",
-    "lastModified": "2026-06-05T03:48:07.3747846+00:00",
-    "appVersion": "1.0.1.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T10:40:27.8536094+00:00",
+    "appVersion": "1.0.1.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://icgconnector.help.im-projects.com/",
-    "sourceHash": "sha256:7e4422043bb5d6a7077760651e05b98611e7fedccf62ffa1e053ac2b04d4fb66",
+    "sourceHash": "sha256:5542f6aac1dc9e816e874ffa5b81ebf7abc9feca7b1277da7878c575944bf8e5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7e4422043bb5d6a7077760651e05b98611e7fedccf62ffa1e053ac2b04d4fb66",
-    "mappedOn": null,
-    "summary": "Integrates ICG POS with BC",
+    "sourceHash": "sha256:5542f6aac1dc9e816e874ffa5b81ebf7abc9feca7b1277da7878c575944bf8e5",
+    "mappedOn": "2026-10-30",
+    "summary": "Integrates ICG FrontRetail and FrontRest point-of-sale systems with BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,12 +30,12 @@
       }
     ],
     "secondary": [
-      "ng-vert-retail",
       "ng-vert-hospitality"
     ],
     "claims": [
-      "Integrates ICG FrontRetail or FrontRest POS with BC",
-      "Adapts to retail, size/color, supermarket and restaurant POS"
+      "Works with ICG FrontRetail and FrontRest at the point of sale",
+      "Adapts to retail, size and colour, supermarket and restaurant POS types",
+      "Supports Standard and Premium editions"
     ],
     "countries": [
       "AE",
@@ -63,9 +65,8 @@
       "es"
     ],
     "industries": [
-      "Food",
       "Hospitality",
-      "Retail"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [
       "ICG FrontRetail",
@@ -73,7 +74,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -74,9 +74,9 @@
         }
       ],
       "coverage": {
-        "Our company's total emissions (Scope 1-3)": 0.23,
-        "The footprint of each product we sell": 0.31,
-        "Ethics and certificates of suppliers or materials": 0.15
+        "Our company's total emissions (Scope 1-3)": 0.25,
+        "The footprint of each product we sell": 0.33,
+        "Ethics and certificates of suppliers or materials": 0.08
       }
     },
     {
@@ -129,10 +129,10 @@
         }
       ],
       "coverage": {
-        "Purchases and spend": 0.46,
-        "Vehicles, machines or fuel use": 0.15,
-        "Production, BOMs and routings": 0.31,
-        "An external carbon platform": 0.38
+        "Purchases and spend": 0.5,
+        "Vehicles, machines or fuel use": 0.17,
+        "Production, BOMs and routings": 0.25,
+        "An external carbon platform": 0.42
       }
     },
     {
@@ -171,9 +171,9 @@
         }
       ],
       "coverage": {
-        "CSRD / ESRS report": 0.15,
-        "GHG Protocol emissions report": 0.15,
-        "Footprint figures for customers or labels": 0.46
+        "CSRD / ESRS report": 0.17,
+        "GHG Protocol emissions report": 0.17,
+        "Footprint figures for customers or labels": 0.5
       }
     },
     {
@@ -205,8 +205,8 @@
         }
       ],
       "coverage": {
-        "Yes, extend BC's Sustainability module": 0.31,
-        "No, a separate tool or platform is fine": 0.46
+        "Yes, extend BC's Sustainability module": 0.33,
+        "No, a separate tool or platform is fine": 0.5
       }
     },
     {
@@ -253,7 +253,7 @@
         }
       ],
       "coverage": {
-        "Fishing or seafood": 0.15,
+        "Fishing or seafood": 0.17,
         "Printing": 0.08,
         "Fashion and textiles": 0.08,
         "Food service / canteens": 0.08,

@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-coproduct-costing|PAPPID.17209d80-100e-44c1-aa50-48528808747f",
+  "guid": "17209d80-100e-44c1-aa50-48528808747f",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-coproduct-costing",
+  "source": {
+    "name": "Co-Product & By-Product Costing by GMSoft",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-coproduct-costing%7CPAPPID.17209d80-100e-44c1-aa50-48528808747f",
+    "lastModified": "2026-10-26T13:07:28.6744424+00:00",
+    "appVersion": "1.28.2.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/coproduct-costing/",
+    "sourceHash": "sha256:8044b453d60ddf6e68ec09a8730959035ca24e86f7f78a67063948a7e7217cce",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8044b453d60ddf6e68ec09a8730959035ca24e86f7f78a67063948a7e7217cce",
+    "mappedOn": "2026-10-30",
+    "summary": "Allocates joint production costs across co-products and credits by-products at actual cost.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-quality-inspection",
+      "ng-lot-serial-traceability",
+      "ng-esg"
+    ],
+    "claims": [
+      "Eight joint-cost allocation methods chosen per formula",
+      "By-products, scrap and waste are credited before the split",
+      "Versioned production formulas with effective dates and optional approval",
+      "Batch orders scale and adjust for potency and input scrap percentage",
+      "Posts through standard production orders with each output at its allocated cost",
+      "Batch close stores actual cost, cost and yield variances",
+      "Batch cannot close until all outputs pass quality release",
+      "Produces a certificate of analysis per batch",
+      "Yield, profitability, cost sheet and recall trace reports",
+      "Records CO2e for by-products, scrap and waste",
+      "Exposes APIs and queries for Power BI",
+      "Needs BC Premium online and the free Microsoft Quality Management app",
+      "Per-seat plans; users without a seat can view results",
+      "Free trial for the first month"
+    ],
+    "countries": [
+      "GB",
+      "GR",
+      "IT"
+    ],
+    "languages": [
+      "el",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Process manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Microsoft Quality Management"
+    ],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

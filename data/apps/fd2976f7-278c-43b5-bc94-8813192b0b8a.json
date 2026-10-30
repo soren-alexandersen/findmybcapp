@@ -8,53 +8,56 @@
     "publisher": "Equerra Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-creditmemo%7CPAPPID.fd2976f7-278c-43b5-bc94-8813192b0b8a",
-    "lastModified": "2026-08-11T03:55:51.8850841+00:00",
+    "lastModified": "2026-10-22T21:17:50.1720695+00:00",
     "appVersion": "28.3.24.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/ElevateCreditMemo",
-    "sourceHash": "sha256:a111b9339f4437f442c8869c82a4b42a25cd667893bac612dc7cd8cfef6403eb",
+    "sourceHash": "sha256:c8f7c8efcd1fefdc18c6194e42d92c621a780e61700858b4eddb910745ac3bd0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a111b9339f4437f442c8869c82a4b42a25cd667893bac612dc7cd8cfef6403eb",
-    "mappedOn": null,
-    "summary": "Sales credit memos without returning stock to inventory",
+    "sourceHash": "sha256:c8f7c8efcd1fefdc18c6194e42d92c621a780e61700858b4eddb910745ac3bd0",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets sales credit memo lines credit the customer without putting stock back.",
     "shape": "process",
     "primary": [
-      {
-        "need": "ng-ux-correct-posted",
-        "confidence": "medium"
-      },
       {
         "need": "ng-sales-invoicing",
         "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-customer-returns"
+      "ng-customer-returns",
+      "ng-scrap-rework"
     ],
     "claims": [
-      "Inventory handling option per credit memo line",
-      "Credit only with no stock change",
-      "Credit plus write-off tag for inventory reporting",
-      "Bulk update all lines on a credit memo",
-      "Company default and per-option enable/disable",
-      "Can block changes on special order or drop shipment lines",
-      "Posted credit memo shows only entered lines; offset in item ledger",
-      "Extensibility event for other extensions",
-      "Two permission sets for use and configuration",
-      "Requires BC online 28.0 or later"
+      "Each sales credit memo line gets an inventory handling choice",
+      "Credit-only option credits customer and G/L in full with no change to on-hand stock",
+      "Write-off option tags the item journal entry type differently for inventory reporting",
+      "One action applies the same option to all lines",
+      "Options can be switched on or off per company with a company default",
+      "Changes can be blocked on lines tied to special order or drop shipment purchases",
+      "Posted credit memo shows only entered lines; the inventory offset stays in the item ledger",
+      "Separate permission sets for users and administrators",
+      "Publishes an event so other extensions can adjust the reversal line",
+      "No external services; depends only on the Base Application",
+      "BC online version 28.0 or later, Essentials or Premium"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

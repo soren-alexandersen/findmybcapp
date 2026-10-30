@@ -8,18 +8,20 @@
     "publisher": "PrintVis A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novavisionsoftwareas1586247030445%7CAID.printvis_go%7CPAPPID.464f12ac-b1d8-491f-a026-5822af399e6e",
-    "lastModified": "2026-07-09T07:34:25.4839527+00:00",
-    "appVersion": "28.0.1.33",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T10:43:51.4828948+00:00",
+    "appVersion": "28.0.3.46",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://printvis.com/about-printvis/help/",
-    "sourceHash": "sha256:9c0f5987733fa863a6d6d18f990987f532d3a0e3cae67837749ef258f1fded01",
+    "sourceHash": "sha256:027aa31f08c6ae800f8ee8f3f96141ee2d38d952e642b8e4d43538802e554739",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9c0f5987733fa863a6d6d18f990987f532d3a0e3cae67837749ef258f1fded01",
-    "mappedOn": null,
-    "summary": "Rapid-implementation print MIS/ERP for print industry",
+    "sourceHash": "sha256:027aa31f08c6ae800f8ee8f3f96141ee2d38d952e642b8e4d43538802e554739",
+    "mappedOn": "2026-10-30",
+    "summary": "Quick-start, standardized edition of PrintVis print MIS for smaller printers",
     "shape": "vertical",
     "primary": [
       {
@@ -31,11 +33,10 @@
       "ng-admin-implementation"
     ],
     "claims": [
-      "Rapid implementation plan with standardized PrintVis functionality",
-      "Covers packaging, labels, envelopes, large format, newspapers, magazines, apparel and commercial printing",
-      "Supports Essentials edition",
-      "Available globally",
-      "Grow into full PrintVis suite later"
+      "Packaged implementation with standard PrintVis features, upgradeable to the full suite",
+      "Covers packaging, labels, envelopes, large format, publishing and commercial print",
+      "Supports BC Essentials edition",
+      "Available in English, German, Nordic languages, Dutch, Spanish, French and Italian"
     ],
     "countries": [],
     "languages": [
@@ -50,14 +51,12 @@
       "sv"
     ],
     "industries": [
-      "Labels",
-      "Packaging",
-      "Printing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

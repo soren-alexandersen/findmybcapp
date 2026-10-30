@@ -8,18 +8,20 @@
     "publisher": "Cap Vision",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cap_vision%7CAID.103874b7-1643-479c-a9a7-1b54ea572405%7CPAPPID.103874b7-1643-479c-a9a7-1b54ea572405",
-    "lastModified": "2026-10-02T08:11:44.4135475+00:00",
-    "appVersion": "27.202609.48576.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T09:48:05.7121426+00:00",
+    "appVersion": "28.202610.49434.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/",
-    "sourceHash": "sha256:f3e97e8ae48843bae7c2a3696caff19ff33fc0b9417baa67cb94a4dd3b254d03",
+    "sourceHash": "sha256:e472800a1b5c2b4e623f387ca41d8e554fdf5c8a3d45ed4992f3ad791b44578f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f3e97e8ae48843bae7c2a3696caff19ff33fc0b9417baa67cb94a4dd3b254d03",
-    "mappedOn": null,
-    "summary": "Developer helper library for CAP Vision apps",
+    "sourceHash": "sha256:e472800a1b5c2b4e623f387ca41d8e554fdf5c8a3d45ed4992f3ad791b44578f",
+    "mappedOn": "2026-10-30",
+    "summary": "Developer helper library used by Cap Vision's other apps; no user interface.",
     "shape": "other",
     "primary": [
       {
@@ -29,9 +31,10 @@
     ],
     "secondary": [],
     "claims": [
-      "Control add-ins: color picker, drop file area, Monaco editor",
+      "Control add-ins such as colour picker, file drop area and Monaco editor",
+      "TAR archive reader",
       "FTP/SFTP service",
-      "TAR archive reader"
+      "No user interface"
     ],
     "countries": [],
     "languages": [
@@ -42,9 +45,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "Developer library dependency with no user interface",
+    "hideReason": "Library app used as a dependency by the publisher's other apps.",
     "noFit": ""
   },
   "curated": {

@@ -8,18 +8,20 @@
     "publisher": "IO Integrated",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.6e9444ef-483a-4106-82ac-56a538738a5a%7CAID.clonemycompany%7CPAPPID.e0237f79-3c5f-4758-bfca-6258be232c00",
-    "lastModified": "2026-10-01T12:54:06.9347744+00:00",
-    "appVersion": "25.4.94.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T10:44:38.7246536+00:00",
+    "appVersion": "25.4.95.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ioi.gmbh/contact-us/?lang=en",
-    "sourceHash": "sha256:8d7a5d1351db5506dc9c4f6ded871a17094994928f6c4fa1cbb4e5198e48a754",
+    "sourceHash": "sha256:98d1003a2804bdd39c1f5bf1ed56c5a3974e4dbd3410897914d0ef79b8316405",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8d7a5d1351db5506dc9c4f6ded871a17094994928f6c4fa1cbb4e5198e48a754",
-    "mappedOn": null,
-    "summary": "Copies and synchronizes data between BC companies and tenants for backup or migration",
+    "sourceHash": "sha256:98d1003a2804bdd39c1f5bf1ed56c5a3974e4dbd3410897914d0ef79b8316405",
+    "mappedOn": "2026-10-30",
+    "summary": "Copies and syncs BC company data between tenants for migration, backup or ongoing sync.",
     "shape": "usability",
     "primary": [
       {
@@ -27,25 +29,24 @@
         "confidence": "high"
       },
       {
-        "need": "ng-ux-master-data-sync",
+        "need": "ng-admin-data-migration",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-integration-sync",
-      "ng-admin-data-migration"
+      "ng-admin-extensions-env",
+      "ng-ux-master-data-sync"
     ],
     "claims": [
-      "Transfers BC data between tenants",
+      "Transfers data between BC tenants",
       "Installed on both source and target tenants with setup wizards",
-      "Automatically detects tables with data",
-      "Chunk-based transfer of large datasets",
-      "Optional delta synchronization after initial transfer",
+      "Detects which tables hold data so they can be prioritised",
+      "Moves large datasets in chunks",
+      "Optional delta sync of changes after the first transfer",
       "Monitoring cockpit with logs and resume of interrupted transfers",
-      "OAuth-based encrypted API communication between tenants",
-      "Scheduled backups",
-      "Role-based access for backups and transfers",
-      "Requires BC v21.0 or later"
+      "OAuth-secured API connection between tenants",
+      "Backups can be scheduled",
+      "Requires BC version 21 or later"
     ],
     "countries": [],
     "languages": [
@@ -54,8 +55,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

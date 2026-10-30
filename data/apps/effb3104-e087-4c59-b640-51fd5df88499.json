@@ -8,18 +8,20 @@
     "publisher": "SucceedIT B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.business_central_advanced_blanket_orders%7CPAPPID.effb3104-e087-4c59-b640-51fd5df88499",
-    "lastModified": "2026-07-20T11:28:38.9650452+00:00",
-    "appVersion": "26.0.20260720.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T13:16:02.9599835+00:00",
+    "appVersion": "26.0.20261020.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/support/",
-    "sourceHash": "sha256:539cc843be87f5f040889efc5b04e914446c5b72bf17b198f138a8d3b5501af0",
+    "sourceHash": "sha256:7a0ce9345ba12c233a912b68071f9ee0e1980e24517a524b894abc000173bbeb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:539cc843be87f5f040889efc5b04e914446c5b72bf17b198f138a8d3b5501af0",
-    "mappedOn": null,
-    "summary": "Enhances sales blanket orders",
+    "sourceHash": "sha256:7a0ce9345ba12c233a912b68071f9ee0e1980e24517a524b894abc000173bbeb",
+    "mappedOn": "2026-10-30",
+    "summary": "Extends sales blanket orders with auto-linking, validity periods and multiple customers.",
     "shape": "process",
     "primary": [
       {
@@ -31,12 +33,12 @@
       "ng-sales-pricing"
     ],
     "claims": [
-      "Automatically links blanket orders to sales order lines, selecting oldest matching",
-      "Active period on sales blanket orders restricts linking by document date",
-      "Shows quantity linked but not yet invoiced on blanket order lines",
-      "Multiple customers on one blanket order",
-      "Option to not overwrite sales prices with blanket order prices",
-      "30-day free trial, unlimited users and companies"
+      "Links sales order lines to the oldest matching blanket order automatically",
+      "Blanket orders get a validity period",
+      "Shows linked but uninvoiced and remaining quantities",
+      "Several customers can share one blanket order",
+      "Option to keep normal pricing instead of blanket order prices",
+      "€39 per month per tenant after trial"
     ],
     "countries": [],
     "languages": [
@@ -47,7 +49,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_company",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

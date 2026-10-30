@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.ruedenet.net/Timeregistration",
     "sourceHash": "sha256:c06f4770d7fdcca2178040e81433decddd3aa6eb2d7cece203f4406bf766753f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:c06f4770d7fdcca2178040e81433decddd3aa6eb2d7cece203f4406bf766753f",

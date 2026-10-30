@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.bef5ca41-a3ba-44d6-a8e3-af531414831e%7CPAPPID.9c886d8d-5dfa-49b0-8cf0-aed3c739ff5c",
-    "lastModified": "2026-07-02T13:36:03.6220356+00:00",
-    "appVersion": "28.1.0.130",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:05:11.3936403+00:00",
+    "appVersion": "29.0.0.139",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:28bd6ee6ad5654a28e2621fb5fa3cb584fd2116e0b93ed0e7cb23a74ae29554b",
+    "sourceHash": "sha256:57ce404e77633a9fc9246a9c8bf20615c368076375fb1aca04623538d4f9ee83",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:28bd6ee6ad5654a28e2621fb5fa3cb584fd2116e0b93ed0e7cb23a74ae29554b",
-    "mappedOn": null,
-    "summary": "Ukrainian language for LS Central",
+    "sourceHash": "sha256:57ce404e77633a9fc9246a9c8bf20615c368076375fb1aca04623538d4f9ee83",
+    "mappedOn": "2026-10-30",
+    "summary": "Ukrainian user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Ukrainian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Ukrainian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "UA"
@@ -39,14 +41,15 @@
       "uk"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

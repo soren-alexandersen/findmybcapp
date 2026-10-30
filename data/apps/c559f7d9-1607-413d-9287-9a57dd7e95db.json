@@ -8,38 +8,38 @@
     "publisher": "e-Con Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.e-consolutions%7CAID.ed97e32c-4d3d-46b7-b188-7ccf512b65d1%7CPAPPID.c559f7d9-1607-413d-9287-9a57dd7e95db",
-    "lastModified": "2026-07-27T09:46:22.1721272+00:00",
-    "appVersion": "2365.0.26.25",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T09:32:43.3969862+00:00",
+    "appVersion": "20260.10.19.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://econsupport.experlogix.com/a/solutions/articles/12000085054?lang=en&portalId=5000041896",
-    "sourceHash": "sha256:f8897375fed0e15734ee1f365b96f794801f7c220a3a2cca589584af80a86737",
+    "sourceHash": "sha256:591544866ae3c35ae10534737b6500f16ca7de0caf53fa85f44ba81411aaef0f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f8897375fed0e15734ee1f365b96f794801f7c220a3a2cca589584af80a86737",
-    "mappedOn": null,
-    "summary": "Configure-price-quote for custom products feeding BC orders",
+    "sourceHash": "sha256:591544866ae3c35ae10534737b6500f16ca7de0caf53fa85f44ba81411aaef0f",
+    "mappedOn": "2026-10-30",
+    "summary": "Configure-price-quote tool for complex custom products, synced with BC and Customer Engagement.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-cpq",
         "confidence": "high"
-      },
-      {
-        "need": "ng-sales-quotes",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-sales-quotes",
       "ng-conn-crm"
     ],
     "claims": [
-      "Synchronizes Customer Engagement and BC data in real time",
-      "Guided selling to prevent impossible or unprofitable orders",
-      "Guided selling tools, a calculator, a rules engine and API integrations",
-      "Quote-to-order that uses front and back-office BC data in real time",
-      "Industry focus on windows/doors, furniture, blinds, heavy equipment, medical devices"
+      "Real-time sync between Customer Engagement and BC data",
+      "Guided selling for configured products",
+      "Rules engine, calculator and API integrations for configuration",
+      "Industry focus includes windows and doors, furniture, blinds, heavy equipment and medical devices",
+      "Covers quote to order using BC data",
+      "Available in English (UK) only"
     ],
     "countries": [
       "AT",
@@ -69,7 +69,6 @@
       "Furniture",
       "Heavy equipment",
       "Medical devices",
-      "Retail",
       "Windows and doors"
     ],
     "connectsTo": [
@@ -77,7 +76,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

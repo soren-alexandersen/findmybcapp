@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.centraconnect%7CPAPPID.f5df4b13-f905-4310-a517-f55c7adb5f41",
-    "lastModified": "2026-08-03T16:42:00.5242503+00:00",
+    "lastModified": "2026-10-19T11:58:37.0241148+00:00",
     "appVersion": "27.3.75.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:b87da5fc28030c144dd1599bf472e217cfcf5af2dca7d7898b9867c782c2f8cf",
+    "sourceHash": "sha256:522ddfa03c9caae83c8ec26a1735b0d4778282e19afbb7fdb760d6aae1f7d43a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b87da5fc28030c144dd1599bf472e217cfcf5af2dca7d7898b9867c782c2f8cf",
-    "mappedOn": null,
-    "summary": "Integrates Centra e-commerce platform with BC",
+    "sourceHash": "sha256:522ddfa03c9caae83c8ec26a1735b0d4778282e19afbb7fdb760d6aae1f7d43a",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and the Centra DTC and wholesale ecommerce platform.",
     "shape": "connector",
     "primary": [
       {
@@ -31,13 +33,12 @@
       "ng-sales-channels"
     ],
     "claims": [
-      "Connects both Centra Direct-to-consumer and Wholesale products",
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Centra Commerce",
-      "Built on Codeunit OmniConnect integration platform"
+      "Supports both Centra direct-to-consumer and wholesale products",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Requires Centra Commerce; runs on Codeunit OmniConnect",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -47,11 +48,9 @@
     "connectsTo": [
       "Centra"
     ],
-    "requires": [
-      "Centra Commerce"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

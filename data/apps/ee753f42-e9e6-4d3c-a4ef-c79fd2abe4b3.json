@@ -8,38 +8,48 @@
     "publisher": "SOFT4",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soft4%7CAID.s4re100ext%7CPAPPID.ee753f42-e9e6-4d3c-a4ef-c79fd2abe4b3",
-    "lastModified": "2026-09-09T10:27:35.259626+00:00",
-    "appVersion": "2.8.4.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T12:07:09.9712169+00:00",
+    "appVersion": "2.8.5.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://soft4spaces.com/faq",
-    "sourceHash": "sha256:d69763e9c3a32449d6cc1161c2888ef041f492c66137f290229fa107dab3a71c",
+    "sourceHash": "sha256:7c95dd5c1e183f28563dbda82ce186dad66c6b56e8dd2128bee41858aadf782b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d69763e9c3a32449d6cc1161c2888ef041f492c66137f290229fa107dab3a71c",
-    "mappedOn": null,
-    "summary": "Commercial lease and space management",
+    "sourceHash": "sha256:7c95dd5c1e183f28563dbda82ce186dad66c6b56e8dd2128bee41858aadf782b",
+    "mappedOn": "2026-10-30",
+    "summary": "Commercial lease and space management: units, tenants, rent billing and CAM reconciliation.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-property",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-subscription-billing",
       "ng-svc-requests",
-      "ng-cost-allocation"
+      "ng-bi-dashboards"
     ],
     "claims": [
-      "Lease terms, unit assignment, rent schedules and critical dates",
-      "CAM and outgoings reconciliation with cost pools",
-      "Automated billing, overdue tracking and charges",
-      "Portfolio dashboard for occupancy, income and obligations",
-      "Hierarchies of buildings, floors and units with floor maps",
-      "Service requests and work orders tied to tenancy",
-      "Tenant profiles with credit history and payment status",
+      "Tracks lease terms, units, rent schedules and critical dates",
+      "Reconciles CAM and outgoings from defined cost pools",
+      "Automated rent billing with overdue tracking",
+      "Portfolio dashboard on occupancy, income and obligations",
+      "Building, floor and unit hierarchy with floor map uploads",
+      "Service requests and work orders linked to tenancies",
+      "Tenant profile with credit history and payment status",
+      "Fits offices, retail centres, airports, marinas, coworking and self-storage",
       "Native BC extension, no middleware"
     ],
     "countries": [
@@ -83,21 +93,20 @@
       "SI",
       "TH",
       "TW",
+      "US",
+      "VN",
       "ZA"
     ],
-    "languages": [],
+    "languages": [
+      "en"
+    ],
     "industries": [
-      "Airports",
-      "Coworking",
-      "Marinas",
-      "Parking",
-      "Real estate",
-      "Self-storage"
+      "Real estate"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

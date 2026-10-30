@@ -8,75 +8,45 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_preorder_manager%7CPAPPID.2b191787-6b49-457f-935a-21d573473709",
-    "lastModified": "2026-05-12T04:29:13.1200711+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-29T13:13:24.8889187+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-preorder-manager-help-en/",
-    "sourceHash": "sha256:cd14938ee268ad9a99569bbea4d883ab93c149a951fcebf390d8627aa13f357d",
+    "sourceHash": "sha256:7d9a905cf2fcc0449e6b9b03ee22822bc1f3b9db1952b56d5e68ef97e852bcac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:cd14938ee268ad9a99569bbea4d883ab93c149a951fcebf390d8627aa13f357d",
-    "mappedOn": null,
-    "summary": "Manages seasonal preorders and delivery periods",
+    "sourceHash": "sha256:7d9a905cf2fcc0449e6b9b03ee22822bc1f3b9db1952b56d5e68ef97e852bcac",
+    "mappedOn": "2026-10-30",
+    "summary": "Handles seasonal preorders in delivery drops, drives requisition plans and replaces stockout items.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-demand-forecast",
+        "need": "ng-sales-order-entry",
         "confidence": "medium"
       },
       {
-        "need": "ng-sales-order-entry",
+        "need": "ng-replenishment-planning",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-replenishment-planning",
+      "ng-demand-forecast",
       "ng-vert-fashion"
     ],
     "claims": [
       "Marks sales orders as preorders split into delivery periods (drops)",
-      "Suppresses availability check on preorders",
-      "Requisition worksheets plan from delivery period shipment dates",
-      "Cancel or replace items with alternatives in open orders",
-      "Cancelled quantities visible in order lines and archive"
+      "Requisition worksheets plan from drop shipment dates",
+      "Suppresses availability checks on preorders",
+      "Cancel or swap items for alternatives or variants when not bought in",
+      "Cancelled quantities visible on order lines and in the archive",
+      "Per-user subscription with 30-day trial"
     ],
-    "countries": [
-      "AR",
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "CO",
-      "DE",
-      "DK",
-      "DO",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "IE",
-      "IS",
-      "IT",
-      "LT",
-      "LU",
-      "LV",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PE",
-      "PL",
-      "SE",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -88,13 +58,13 @@
       "sv"
     ],
     "industries": [
-      "Distribution",
-      "Fashion"
+      "Fashion",
+      "Seasonal goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

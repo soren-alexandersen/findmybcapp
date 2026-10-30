@@ -8,18 +8,20 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_salescosts_commissions%7CPAPPID.ff40c9c2-37be-4f95-898a-f4e98f877cb6",
-    "lastModified": "2026-10-06T11:50:49.3776317+00:00",
+    "lastModified": "2026-10-23T12:19:18.0288357+00:00",
     "appVersion": "28.1.0.1",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-sales-costs-help-en/",
-    "sourceHash": "sha256:472fae8a2350dbf9e0035817f88e7c10731932e8ad03f0e144a6adcaffc93bb2",
+    "sourceHash": "sha256:b0346317796c7cfb276e7df0aaf5dcf065eabe6e377a6eae2d01e7f56676c15f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:472fae8a2350dbf9e0035817f88e7c10731932e8ad03f0e144a6adcaffc93bb2",
-    "mappedOn": "2026-10-07",
-    "summary": "Enterprise edition: accrues and pays sales costs like agent commissions and levies",
+    "sourceHash": "sha256:b0346317796c7cfb276e7df0aaf5dcf065eabe6e377a6eae2d01e7f56676c15f",
+    "mappedOn": "2026-10-30",
+    "summary": "Accrues sales-related costs and agent commissions, posts and pays them on invoice or payment.",
     "shape": "process",
     "primary": [
       {
@@ -27,22 +29,26 @@
         "confidence": "high"
       },
       {
-        "need": "ng-product-performance",
-        "confidence": "low"
+        "need": "ng-accruals-deferrals",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-accruals-deferrals",
-      "ng-sales-analytics"
+      "ng-sales-analytics",
+      "ng-cost-allocation"
     ],
     "claims": [
-      "Reserves expected sales costs on a G/L balance account",
-      "Costs posted to P&L when invoice is posted or paid",
-      "Costs shown per customer, item, sales agent, order or invoice",
-      "Agent payout can depend on payment and a gross margin threshold",
-      "Creates purchase documents to post the costs in the right period",
-      "Unlimited cost types with rate as percentage or amount per agent and vendor",
-      "Priced per production environment with unlimited sandboxes and users",
+      "Accrues expected sales costs such as levies, agent commissions and 3PL fees on a balance account",
+      "Moves costs to the income statement when the invoice is posted or paid",
+      "Commission can depend on invoice payment and a gross margin threshold",
+      "Creates the purchase documents to pay out costs in the right period",
+      "Shows sales costs per customer, item, agent, order or invoice",
+      "Separate sales cost entry table marked budgeted, posted and paid",
+      "Unlimited sales cost types",
+      "Rates as percentage or amount per agent and vendor",
+      "Tiered thresholds on line amount, with or without line and invoice discounts",
+      "G/L accounts per cost type and vendor in setup",
+      "One-page setup",
       "30-day free trial"
     ],
     "countries": [
@@ -87,7 +93,9 @@
       "nl",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

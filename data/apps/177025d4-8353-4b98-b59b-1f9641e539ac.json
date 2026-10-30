@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.2025_fnb_adv_man%7CPAPPID.177025d4-8353-4b98-b59b-1f9641e539ac",
-    "lastModified": "2026-09-23T14:10:55.637428+00:00",
-    "appVersion": "2601.3.345066.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T06:10:51.5701861+00:00",
+    "appVersion": "2602.0.351799.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:7ac25e599817ed323765212e2c4f30d4564c0068465bdf576773c6d0efcc922e",
+    "sourceHash": "sha256:34dddc5f5a412f1c3652aaa1aa1cff7b3b5a35fccb8f3765a010d985e9c1ce66",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7ac25e599817ed323765212e2c4f30d4564c0068465bdf576773c6d0efcc922e",
-    "mappedOn": null,
-    "summary": "Food and beverage manufacturing ERP bundle",
+    "sourceHash": "sha256:34dddc5f5a412f1c3652aaa1aa1cff7b3b5a35fccb8f3765a010d985e9c1ce66",
+    "mappedOn": "2026-10-30",
+    "summary": "Top-tier Aptean food and beverage ERP bundle for manufacturers.",
     "shape": "vertical",
     "primary": [
       {
@@ -29,40 +31,21 @@
       {
         "need": "ng-lot-serial-traceability",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-quality-inspection"
-    ],
+    "secondary": [],
     "claims": [
-      "Advanced lot profile definition for traceability and quality control",
-      "Supports process (non-food) manufacturing",
-      "Targets food and beverage manufacturers of small and mid-sized scale"
+      "Uses lot profiles and workflows for traceability and quality control",
+      "Aimed at small to mid-sized food and beverage manufacturers",
+      "Also covers non-food process manufacturing",
+      "30-day free trial, then paid subscription",
+      "Supports Essential and Premium editions"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "ID",
-      "IE",
-      "IN",
-      "MY",
-      "NL",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "SR",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -71,9 +54,7 @@
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

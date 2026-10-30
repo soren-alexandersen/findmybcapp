@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex02803_productonfiguratorforadvdocumentreporting%7CPAPPID.3bb38b1d-04e9-46f3-9786-761896b7a951",
-    "lastModified": "2026-04-28T15:54:47.0434977+00:00",
-    "appVersion": "28.0.10.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T16:55:19.5256745+00:00",
+    "appVersion": "28.0.11.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-cfg.html",
-    "sourceHash": "sha256:1c0cf2a244236df316df3eb428998b59d49d6106c30800998e61d0ab7d6b9755",
+    "sourceHash": "sha256:53dfc5e20fe7224e5447b96be496533b41b77d4a26ecc9ea3c2ad7b4ab3998c3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1c0cf2a244236df316df3eb428998b59d49d6106c30800998e61d0ab7d6b9755",
-    "mappedOn": null,
-    "summary": "Prints configured item attributes on documents",
+    "sourceHash": "sha256:53dfc5e20fe7224e5447b96be496533b41b77d4a26ecc9ea3c2ad7b4ab3998c3",
+    "mappedOn": "2026-10-30",
+    "summary": "Bridge app printing configured item attributes on EOS Advanced Document Reporting layouts.",
     "shape": "addon",
     "primary": [
       {
@@ -27,13 +29,11 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-conn-cpq"
-    ],
+    "secondary": [],
     "claims": [
-      "Prints item and variant specification from configured item values",
-      "Prints configuration characteristics, codes and descriptions",
-      "Free; requires EOS Product Configurator and EOS ADR"
+      "Prints item and variant specifications from configured items",
+      "Shows configuration characteristics, codes and descriptions on documents",
+      "Free, but needs subscriptions to both base EOS apps"
     ],
     "countries": [],
     "languages": [
@@ -44,17 +44,20 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Product Configurator",
       "EOS Advanced Document Reporting"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free",
     "hide": false,
     "hideReason": "",

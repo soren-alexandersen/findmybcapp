@@ -120,8 +120,8 @@
       ],
       "coverage": {
         "Stacked discounts (e.g. 10% + 5%)": 0.11,
-        "Volume or quantity breaks": 0.11,
-        "Promotions, campaigns or coupons": 0.19
+        "Volume or quantity breaks": 0.1,
+        "Promotions, campaigns or coupons": 0.17
       }
     },
     {
@@ -183,9 +183,9 @@
         }
       ],
       "coverage": {
-        "Cost plus a markup or margin": 0.14,
-        "Formulas, calculation schemes or price indexes": 0.13,
-        "Negotiated customer or contract prices": 0.2
+        "Cost plus a markup or margin": 0.15,
+        "Formulas, calculation schemes or price indexes": 0.12,
+        "Negotiated customer or contract prices": 0.21
       }
     },
     {
@@ -220,7 +220,7 @@
         }
       ],
       "coverage": {
-        "A fixed priority (e.g. contract price beats campaign)": 0.15,
+        "A fixed priority (e.g. contract price beats campaign)": 0.14,
         "The best price for the customer": 0.04
       }
     },
@@ -268,9 +268,9 @@
         }
       ],
       "coverage": {
-        "Freight or shipping costs": 0.11,
+        "Freight or shipping costs": 0.09,
         "Environmental fees, levies or taxes": 0.06,
-        "Other surcharges (packaging, handling, minimum order)": 0.15
+        "Other surcharges (packaging, handling, minimum order)": 0.17
       }
     },
     {
@@ -316,9 +316,9 @@
         }
       ],
       "coverage": {
-        "Warn or block low-margin sales": 0.08,
+        "Warn or block low-margin sales": 0.07,
         "Approve or lock price changes": 0.09,
-        "Keep a price history": 0.06
+        "Keep a price history": 0.07
       }
     },
     {
@@ -356,8 +356,8 @@
         }
       ],
       "coverage": {
-        "Bulk updates or Excel import": 0.14,
-        "Automatically when costs or rules change": 0.08
+        "Bulk updates or Excel import": 0.17,
+        "Automatically when costs or rules change": 0.07
       }
     },
     {
@@ -395,10 +395,19 @@
         }
       ],
       "coverage": {
-        "By weight or catch weight": 0.08,
-        "Several units of measure": 0.14,
+        "By weight or catch weight": 0.09,
+        "Several units of measure": 0.15,
         "Foreign currencies": 0.09
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "interface languages, not a pricing choice",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

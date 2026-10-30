@@ -8,18 +8,20 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1023%7CPAPPID.2d4c1c9b-cd49-4bff-8679-f27336412a1c",
-    "lastModified": "2026-10-06T06:30:07.5600634+00:00",
+    "lastModified": "2026-10-24T13:59:53.2325147+00:00",
     "appVersion": "2026.6.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/itrs",
-    "sourceHash": "sha256:b9534ce79c7167385ac0aa505c62598157a5ececf9b17e8208eb5515c965e136",
+    "sourceHash": "sha256:80e4dc7b73f8cc50a11051cd5ba67b69a650ecb5329d68bb08df52afd16875b1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b9534ce79c7167385ac0aa505c62598157a5ececf9b17e8208eb5515c965e136",
-    "mappedOn": "2026-10-07",
-    "summary": "Bundle for IT resellers and MSPs: partial shipments, auto-reservation, renewals on top of Business Suite",
+    "sourceHash": "sha256:80e4dc7b73f8cc50a11051cd5ba67b69a650ecb5329d68bb08df52afd16875b1",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle for IT resellers and MSPs: partial shipments, procurement, subscription renewals.",
     "shape": "process",
     "primary": [
       {
@@ -27,34 +29,45 @@
         "confidence": "medium"
       },
       {
-        "need": "ng-order-allocation",
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-purchase-orders",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-purchase-orders",
-      "ng-sales-quotes"
+      "ng-order-allocation",
+      "ng-purchase-requisitions",
+      "ng-sales-quotes",
+      "ng-svc-contracts"
     ],
     "claims": [
-      "Several warehouse shipments per sales order with flexible splits",
-      "Purchase orders based on planned partial shipments",
-      "Delivery address can change before and after warehouse shipment",
-      "Automatic stock reservation at warehouse shipment",
-      "Central purchase requisition page for collective orders",
-      "Renewal management list for expiring subscription lines",
-      "Warranty extensions and add-on sales to subscriptions",
-      "Includes DYCE Business Suite plus Managed Service Providers app; bundle only"
+      "Splits a sales order into several warehouse shipments",
+      "Purchases against planned partial shipments",
+      "Delivery address can change before and after warehouse shipment creation",
+      "Reserves available stock automatically at warehouse shipment",
+      "Central purchase requisition page for collective ordering",
+      "Renewal list for expiring fixed-term subscriptions",
+      "Warranty extensions and add-on sales to existing subscriptions",
+      "Includes all DYCE Business Suite functions plus the MSP app",
+      "Sold only as a bundle"
     ],
     "countries": [],
     "languages": [
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "IT resellers",
+      "Managed service providers",
+      "Software and license dealers"
+    ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

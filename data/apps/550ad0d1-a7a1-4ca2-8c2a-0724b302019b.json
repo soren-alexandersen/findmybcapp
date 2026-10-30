@@ -8,18 +8,20 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0004%7CPAPPID.550ad0d1-a7a1-4ca2-8c2a-0724b302019b",
-    "lastModified": "2026-10-06T18:58:19.1238794+00:00",
-    "appVersion": "26.2.241.31481",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T21:57:56.5338346+00:00",
+    "appVersion": "26.2.242.34031",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://duveka.net/Manufacturing",
-    "sourceHash": "sha256:03e3bea94b74a5c67aa32162b25f78bf8dbe6e6bc3a3c5db11cfb2222664bf11",
+    "sourceHash": "sha256:871fb87dbcc7058e923633814b83b5b9383f9804e1a4f482a9152de4070f5092",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:03e3bea94b74a5c67aa32162b25f78bf8dbe6e6bc3a3c5db11cfb2222664bf11",
-    "mappedOn": null,
-    "summary": "Configurable products, complex BOMs, CAD integration and variant production",
+    "sourceHash": "sha256:871fb87dbcc7058e923633814b83b5b9383f9804e1a4f482a9152de4070f5092",
+    "mappedOn": "2026-10-30",
+    "summary": "Variant configurator, multi-level BOM tools and SolidWorks BOM import for production",
     "shape": "process",
     "primary": [
       {
@@ -36,19 +38,20 @@
       }
     ],
     "secondary": [
-      "ng-production-planning",
-      "ng-vert-industrial-manufacturing"
+      "ng-ux-import-excel",
+      "ng-production-planning"
     ],
     "claims": [
       "Configures products from sales or assembly lines",
-      "Automatically creates variant items, BOMs and routings",
-      "Multi-level BOM view and maintenance",
-      "Edit, import and manage BOMs in Excel workbooks",
-      "Single-use BOMs and routings for customer-specific orders",
-      "BOM materials overview plus warnings, import/export and advanced copy",
-      "Imports CAD BOMs from SolidWorks preserving multi-level structures",
-      "Property-driven BOM components and quantities",
-      "Production orders use variant-specific BOMs with multi-level explosion"
+      "Creates variant items, BOMs and routings automatically",
+      "Hierarchical view and maintenance of multi-level BOMs",
+      "Edits, imports and manages BOMs in Excel workbooks",
+      "Generates one-off BOMs and routings per customer or order",
+      "BOM tools with materials overview, warnings, advanced copy and import/export",
+      "Imports multi-level BOMs from SolidWorks",
+      "Item properties drive BOM components, quantities and configuration logic",
+      "Production orders use variant-specific BOMs",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -66,7 +69,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

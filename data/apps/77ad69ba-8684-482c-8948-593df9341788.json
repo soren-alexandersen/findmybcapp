@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_labeling%7CPAPPID.77ad69ba-8684-482c-8948-593df9341788",
-    "lastModified": "2026-08-26T05:41:17.3482115+00:00",
-    "appVersion": "2602.6.339289.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:02:58.6945635+00:00",
+    "appVersion": "2603.0.350891.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/LBL/",
-    "sourceHash": "sha256:2837360039c5f21281a2b0a1c1217048281984073fb3dee08c5cb31420aab9ac",
+    "sourceHash": "sha256:9fe08ba52ef0dd068cb87bff6ad8578775931c05c24f2d3bdc1bd2a1108d011c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2837360039c5f21281a2b0a1c1217048281984073fb3dee08c5cb31420aab9ac",
-    "mappedOn": null,
-    "summary": "Product label and barcode creation",
-    "shape": "addon",
+    "sourceHash": "sha256:9fe08ba52ef0dd068cb87bff6ad8578775931c05c24f2d3bdc1bd2a1108d011c",
+    "mappedOn": "2026-10-30",
+    "summary": "Configurable product and shipping labels from BC data, output to NiceLabel or BarTender.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-barcode-labels",
@@ -28,60 +30,33 @@
       },
       {
         "need": "ng-vert-food-beverage",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
     "secondary": [
       "ng-ux-printing"
     ],
     "claims": [
-      "Labels can include ingredients, nutritional values, lot number, item number, shipping address and customer name",
-      "Sends label output files to external label software via API",
-      "Label content can draw on fields from multiple BC tables",
-      "Label selection by combination of customers, vendors or item groups",
-      "Sets up label printers per work center, bin code, employee or location",
-      "Copies a label template to create another one",
-      "Supports customer's preferred language on labels",
-      "Integrates with NiceLabel and BarTender",
-      "Generates label output from all standard BC documents"
+      "Label content can include customer, address, item, lot, nutrition and ingredient data",
+      "Each label can draw fields from multiple BC tables with filters",
+      "No coding needed to set up labels",
+      "Copies an existing label template to create a new one",
+      "Label rules per customer, vendor or item group combination",
+      "Label printers per location, employee, bin or work center",
+      "Sends label output files to NiceLabel or BarTender via API",
+      "Supports the customer's preferred language on labels",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [
       "NiceLabel",
       "BarTender"

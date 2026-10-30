@@ -8,18 +8,20 @@
     "publisher": "Grupo Dynasoft",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasoftspainsl1676190626942%7CAID.dyn_intercompany_tools%7CPAPPID.1515b96e-fcf9-4f03-921a-74130fbfe94f",
-    "lastModified": "2026-09-25T12:20:54.7643033+00:00",
-    "appVersion": "1.0.1.20260927",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T09:29:32.0637828+00:00",
+    "appVersion": "1.0.1.20261020",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/intercompany-tools",
-    "sourceHash": "sha256:f5d120377b6b73fc675c030e086dd3600594da3cdc6584d5a2d2561a5be5bbb0",
+    "sourceHash": "sha256:62db456e311696b4f986ac02a7be05585d4a31e5ecb71cdcad2ec7cc71169fb6",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f5d120377b6b73fc675c030e086dd3600594da3cdc6584d5a2d2561a5be5bbb0",
-    "mappedOn": null,
-    "summary": "Intercompany reporting, settlement and invoicing across companies",
+    "sourceHash": "sha256:62db456e311696b4f986ac02a7be05585d4a31e5ecb71cdcad2ec7cc71169fb6",
+    "mappedOn": "2026-10-30",
+    "summary": "Group reporting, intercompany reconciliation, settlement and invoicing across BC companies and tenants.",
     "shape": "process",
     "primary": [
       {
@@ -29,21 +31,21 @@
     ],
     "secondary": [
       "ng-financial-statements",
-      "ng-gl-reconciliation"
+      "ng-period-close",
+      "ng-cash-forecast"
     ],
     "claims": [
-      "Connects companies in different BC subscriptions/tenants via secure API",
-      "Group financial reports with one column per company and ownership percentages",
-      "Drill-down to original ledger entries",
-      "Intercompany balance matrix with overdue amounts and reconciliation status",
-      "Analyzes gaps caused by bank fees, rounding, exchange rates, absent documents or postings made on one side only",
+      "Connects companies in different BC tenants through a secure API",
+      "Group financial reports with a column per company, group totals, ownership percentages and drill-down",
+      "Matrix of balances between all company pairs, with overdue amounts and reconciliation status",
+      "Analyses differences from exchange rates, rounding, bank fees, missing documents and one-sided postings",
       "FIFO-based settlement proposals with audit trail",
       "Recurring intercompany invoices from templates on both sides",
-      "Optional AI-assisted billing suggestions",
-      "Intercompany loans and cash pooling",
+      "Optional AI billing suggestions",
+      "Tracks intra-group loans and cash pooling",
       "Group-wide customer and vendor exposure with Excel export",
-      "Single scheduled task aggregates across all companies",
-      "Does not duplicate master data"
+      "One scheduled task aggregates the whole environment",
+      "Does not change operational transactions or duplicate master data"
     ],
     "countries": [],
     "languages": [

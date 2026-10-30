@@ -8,19 +8,21 @@
     "publisher": "SIEVERS-GROUP",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sievers-group%7CAID.sncdatevbuchungsdatenservice%7CPAPPID.d509b3e0-ce9f-4c4a-82cb-189e1bff184d",
-    "lastModified": "2026-09-23T17:49:05.9608434+00:00",
-    "appVersion": "28.0.1.91",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:24:56.2341439+00:00",
+    "appVersion": "28.0.1.92",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.sievers-group.com/sievers-datev-buchungsdatenservice/docs/de-DE/setup.html",
-    "sourceHash": "sha256:b7be596db02718ca3f941545ac288870385c079aeeeef92d9e0c3a650476afae",
+    "sourceHash": "sha256:9c2448ec964d3c9c036bcbfe6e30e2b1b95ad17434d40c3634ab0373e0ec4d4f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b7be596db02718ca3f941545ac288870385c079aeeeef92d9e0c3a650476afae",
-    "mappedOn": null,
-    "summary": "Sends DATEV exports directly to DATEV data center",
-    "shape": "addon",
+    "sourceHash": "sha256:9c2448ec964d3c9c036bcbfe6e30e2b1b95ad17434d40c3634ab0373e0ec4d4f",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends SIEVERS DATEV export files and linked receipts to DATEV for the tax advisor.",
+    "shape": "localization",
     "primary": [
       {
         "need": "ng-loc-tax-reporting",
@@ -31,11 +33,13 @@
       "ng-ux-attachments"
     ],
     "claims": [
-      "Sends SIEVERS DATEV export files to DATEV Rechenzentrum",
-      "Sends incoming and outgoing receipts to DATEV Unternehmen Online",
-      "Links exported CSV data to receipts automatically",
-      "DATEV Belegbildservice (images only) not supported",
-      "Available for BC on-premises and NAV"
+      "Transmits SIEVERS DATEV export files straight to the DATEV data centre",
+      "Exports sales and purchase receipts to DATEV Unternehmen Online",
+      "Links the exported CSV booking data to the matching receipt images automatically",
+      "Sends booking data plus receipt images attached in BC per DATEV Buchungsdatenservice rules",
+      "Does not support DATEV Belegbildservice (receipt images only)",
+      "Available for BC on-premises and subscription licences",
+      "Works with Essential and Premium editions"
     ],
     "countries": [
       "DE"
@@ -46,13 +50,14 @@
     ],
     "industries": [],
     "connectsTo": [
-      "DATEV"
+      "DATEV",
+      "DATEV Unternehmen Online"
     ],
     "requires": [
       "SIEVERS DATEV"
     ],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

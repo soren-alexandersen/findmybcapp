@@ -1,0 +1,22 @@
+{
+  "id": "ng-treasury-investments-guarantees",
+  "order": 226,
+  "label": "Managing deposits, investments and bank guarantees",
+  "description": "Keeping track of fixed deposits, securities and other investments, calculating and posting interest and returns, and registering bank guarantees, letters of credit and bonds with their limits and expiry dates.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "low",
+  "statements": [
+    "Managing deposits, investments and bank guarantees",
+    "Keeping track of fixed deposits, securities and other investments, calculating and posting interest and returns, and registering bank guarantees, letters of credit and bonds with their limits and expiry dates.",
+    "We have money on fixed deposits and nobody knows the interest until the bank statement comes.",
+    "Interest on deposits and loans is calculated by hand every month.",
+    "We hold shares, funds and metals and want their current value in BC.",
+    "Unrealised gains and losses on our investments are tracked in Excel.",
+    "Our bank issues guarantees and letters of credit for big orders and we lose track of them.",
+    "We do not know how much of our guarantee limit is used right now.",
+    "A tender bond expired and nobody noticed.",
+    "Subcontractors give us performance guarantees that we need to register and follow up."
+  ],
+  "questions": []
+}

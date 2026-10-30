@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/add-ons/procureplus-advance-purchasing/",
     "sourceHash": "sha256:39b74091a0a8d61601372f4f0390b420427ded916e155228faed0f7d7b3d54ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:39b74091a0a8d61601372f4f0390b420427ded916e155228faed0f7d7b3d54ec",

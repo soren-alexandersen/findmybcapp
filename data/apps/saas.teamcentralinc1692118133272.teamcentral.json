@@ -1,0 +1,62 @@
+{
+  "appId": "teamcentralinc1692118133272.teamcentral",
+  "guid": null,
+  "publisherId": "teamcentralinc1692118133272",
+  "offerId": "teamcentral",
+  "source": {
+    "name": "SAP Ariba No-Code Integration with Dynamics and NetSuite",
+    "publisher": "Teamcentral, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/teamcentralinc1692118133272.teamcentral",
+    "lastModified": "2025-12-16T06:10:52.9159737+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:d4213bb54870af4153216a05c5398e6a2355c048d9b61603104b6cfde5d76a25",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4213bb54870af4153216a05c5398e6a2355c048d9b61603104b6cfde5d76a25",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code iPaaS connector syncing SAP Ariba with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "No-code integration platform with pre-built and custom connectors",
+      "Publish/subscribe data filtering and business rules changed without code",
+      "Runs on Azure Service Bus, Cosmos DB, API Management and Key Vault",
+      "Cross-referencing of records across systems",
+      "Notification engine for email, SMS and Teams",
+      "Pricing is not consumption based",
+      "Can run alongside Power Automate"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SAP Ariba",
+      "NetSuite",
+      "Acumatica"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

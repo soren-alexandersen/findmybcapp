@@ -8,18 +8,20 @@
     "publisher": "Lithuanian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.sepa_for_lithuania%7CPAPPID.291f5fa8-aa4f-4b46-ade4-2c14e36a27c9",
-    "lastModified": "2026-08-15T09:35:13.94693+00:00",
-    "appVersion": "26.0.3.33",
-    "pricingTypes": [],
+    "lastModified": "2026-10-13T07:38:01.6158828+00:00",
+    "appVersion": "26.0.3.34",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-for-sepa/",
-    "sourceHash": "sha256:fa47e71f9efcdad138c4195b6ae4f0039f241d53991b5d071c9171fb26569f39",
+    "sourceHash": "sha256:bb3cbf04548d8de44973c3e48b48b986fba87e8f49bb719fe5994a7bb7c1494e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fa47e71f9efcdad138c4195b6ae4f0039f241d53991b5d071c9171fb26569f39",
-    "mappedOn": null,
-    "summary": "Lithuanian SEPA payment files and bank statements",
+    "sourceHash": "sha256:bb3cbf04548d8de44973c3e48b48b986fba87e8f49bb719fe5994a7bb7c1494e",
+    "mappedOn": "2026-10-30",
+    "summary": "Lithuanian SEPA payment files and bank payment imports for all local banks.",
     "shape": "localization",
     "primary": [
       {
@@ -32,12 +34,14 @@
       }
     ],
     "secondary": [
-      "ng-customer-payments"
+      "ng-customer-payments",
+      "ng-loc-country-pack"
     ],
     "claims": [
-      "Creates SEPA payment files for all Lithuanian banks",
-      "Identifies SEPA and non-SEPA payments",
-      "Imports incoming and outgoing payment information from all Lithuanian banks"
+      "Produces SEPA payment files for every Lithuanian bank",
+      "Distinguishes SEPA from non-SEPA payments",
+      "Imports incoming and outgoing payment data from Lithuanian banks",
+      "Works on Essentials and Premium editions"
     ],
     "countries": [
       "LT"
@@ -46,10 +50,11 @@
       "en",
       "lt"
     ],
-    "industries": [],
-    "connectsTo": [
-      "SEPA"
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

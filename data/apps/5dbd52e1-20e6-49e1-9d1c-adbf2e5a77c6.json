@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_sales_purchase_history%7CPAPPID.5dbd52e1-20e6-49e1-9d1c-adbf2e5a77c6",
-    "lastModified": "2026-06-06T07:47:50.1881363+00:00",
-    "appVersion": "28.0.370840.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T19:30:01.6750361+00:00",
+    "appVersion": "28.1.25.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:ec30220e926ff4d4b2f6ed4e26619e75b291264e3e503f66de7ab1db8466c771",
+    "sourceHash": "sha256:deacc90ddf5fb0c83b10cf235b8a6ba19ac7c4253e23338cc7a30a25c518de6d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ec30220e926ff4d4b2f6ed4e26619e75b291264e3e503f66de7ab1db8466c771",
-    "mappedOn": null,
-    "summary": "Overview of sales and purchase document history",
+    "sourceHash": "sha256:deacc90ddf5fb0c83b10cf235b8a6ba19ac7c4253e23338cc7a30a25c518de6d",
+    "mappedOn": "2026-10-30",
+    "summary": "Line-level overview of sales and purchase document history with filters.",
     "shape": "usability",
     "primary": [
       {
@@ -31,9 +33,10 @@
       "ng-sales-analytics"
     ],
     "claims": [
-      "Line-based view over all sales and purchase document history",
+      "One view of all sales or purchase documents",
       "Filters by period, customer or vendor and document type",
-      "Filter history by item thanks to line-based view"
+      "Document-line view allows filtering by item",
+      "Requires Business Central Premium"
     ],
     "countries": [
       "AT",
@@ -58,7 +61,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

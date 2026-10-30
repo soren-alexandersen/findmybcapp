@@ -8,19 +8,21 @@
     "publisher": "Theta Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.subscription_management%7CPAPPID.2804d93a-de81-40e9-93b5-92862804d93a",
-    "lastModified": "2026-06-08T08:06:56.112803+00:00",
-    "appVersion": "27.1.3.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-16T07:31:03.8242455+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/SM/docs/Introduction",
-    "sourceHash": "sha256:2ef9b96c4c1bd84742bff11cea23f1fff5c008b463ae05297feaa987f06f35c9",
+    "sourceHash": "sha256:94f83e8eef3f2e350d333512a94ebe3d1529a0cf554343eddb8a022688644e63",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2ef9b96c4c1bd84742bff11cea23f1fff5c008b463ae05297feaa987f06f35c9",
-    "mappedOn": null,
-    "summary": "Subscription management and monetization for app publishers",
-    "shape": "other",
+    "sourceHash": "sha256:94f83e8eef3f2e350d333512a94ebe3d1529a0cf554343eddb8a022688644e63",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets BC app publishers sell subscriptions and take card payments for their apps via Stripe.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-developer-tools",
@@ -28,20 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-subscription-billing",
       "ng-conn-payment-providers"
     ],
     "claims": [
-      "Monetization and subscription management for BC app publishers",
-      "Collects credit card payments inside Business Central",
-      "Backed by Stripe",
-      "Billing models: free trials, flat rate, tiered, per seat, usage-based",
-      "One account for all apps across environments",
-      "135+ currencies and multiple payment intervals",
-      "Customer authentication with single sign-on",
-      "Simple API to integrate an extension",
-      "Runs in the cloud as well as on-premises",
-      "No up-front fee"
+      "End customers pick subscription plans and maintain their payment details themselves",
+      "Card payments are collected inside Business Central",
+      "Handles several products and subscriptions, including free trials",
+      "Payment processing runs on Stripe",
+      "Billing models include flat rate, tiered, per seat and usage-based",
+      "One account covers all of a publisher's apps in any environment",
+      "Over 135 currencies and several payment intervals",
+      "Customer sign-in uses single sign-on",
+      "Publishers hook in their extension through a small API",
+      "Runs on-premises and in the cloud",
+      "No setup fee",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
@@ -56,7 +59,7 @@
     ],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

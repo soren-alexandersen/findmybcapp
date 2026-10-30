@@ -8,23 +8,31 @@
     "publisher": "XPR365",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.xpr365-helpers%7CPAPPID.5d123f56-2b46-4a5b-9c77-e0885b07771f",
-    "lastModified": "2026-07-23T09:31:10.7075718+00:00",
-    "appVersion": "28.0.20260723.72944",
-    "pricingTypes": [],
+    "lastModified": "2026-10-15T06:20:33.3849729+00:00",
+    "appVersion": "28.2.20261008.132902",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/",
-    "sourceHash": "sha256:efdef8d55d488080f748b4737d20944cc11b972ec7ca0a5387d1c77fe30f61e6",
+    "sourceHash": "sha256:60c8753783260cdcc737da8b503d67c4291c8207fb7bfebc46e7732a0b45f89a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:efdef8d55d488080f748b4737d20944cc11b972ec7ca0a5387d1c77fe30f61e6",
-    "mappedOn": null,
-    "summary": "Reusable AL utility library for BC developers",
+    "sourceHash": "sha256:60c8753783260cdcc737da8b503d67c4291c8207fb7bfebc46e7732a0b45f89a",
+    "mappedOn": "2026-10-30",
+    "summary": "Reusable AL helper codeunits library for partner and ISV developers.",
     "shape": "usability",
-    "primary": [],
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "high"
+      }
+    ],
     "secondary": [],
     "claims": [
-      "Collection of helper codeunits for recurring technical tasks"
+      "Collection of helper codeunits for recurring technical tasks",
+      "Intended as a shared foundation across multiple BC solutions"
     ],
     "countries": [],
     "languages": [],
@@ -32,9 +40,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": true,
-    "hideReason": "Developer utility library for AL extensions",
+    "hideReason": "Developer utility library app, not an end-user solution.",
     "noFit": ""
   },
   "curated": {

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.autocontas|AID.pas_2021_5|PAPPID.a90b83b0-d99d-4156-9c65-526b37fe3497",
+  "guid": "a90b83b0-d99d-4156-9c65-526b37fe3497",
+  "publisherId": "autocontas",
+  "offerId": "pas_2021_5",
+  "source": {
+    "name": "SK Language Pack",
+    "publisher": "Aricoma Systems a.s.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.pas_2021_5%7CPAPPID.a90b83b0-d99d-4156-9c65-526b37fe3497",
+    "lastModified": "2026-10-07T16:02:31.7100713+00:00",
+    "appVersion": "28.5.54151.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/SK/sk-language.html",
+    "sourceHash": "sha256:d8d8b66cfc3a2ffb581dcd9669b5d21c685ee5b5b95d6a3e75c003704a1fbaff",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:d8d8b66cfc3a2ffb581dcd9669b5d21c685ee5b5b95d6a3e75c003704a1fbaff",
+    "mappedOn": "2026-10-30",
+    "summary": "Slovak user interface language for the Czech BC localization.",
+    "shape": "language",
+    "primary": [
+      {
+        "need": "ng-lang-ui-language",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Translates the BC interface into Slovak",
+      "Built on top of the Czech BC localization",
+      "Works with Essentials and Premium editions"
+    ],
+    "countries": [
+      "CZ",
+      "SK"
+    ],
+    "languages": [
+      "sk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

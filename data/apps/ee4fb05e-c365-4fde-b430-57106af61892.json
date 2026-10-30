@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.autocontas|AID.aea_2026_09_04|PAPPID.ee4fb05e-c365-4fde-b430-57106af61892",
+  "guid": "ee4fb05e-c365-4fde-b430-57106af61892",
+  "publisherId": "autocontas",
+  "offerId": "aea_2026_09_04",
+  "source": {
+    "name": "Transport Operations",
+    "publisher": "Aricoma Systems a.s.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2026_09_04%7CPAPPID.ee4fb05e-c365-4fde-b430-57106af61892",
+    "lastModified": "2026-10-23T14:00:37.7807831+00:00",
+    "appVersion": "29.0.54011.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/cs-cz/dynamics365/business-central/Solutions/transport-operations.html",
+    "sourceHash": "sha256:b621e4cc8ea7ac5cd06861d25ca4854045e229824ded76587bb5d32b8150acd6",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b621e4cc8ea7ac5cd06861d25ca4854045e229824ded76587bb5d32b8150acd6",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages own vehicle fleet, drivers, ride logs, fuel, maintenance and transport dispatch.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-breakdown",
+      "ng-hr-skills-training"
+    ],
+    "claims": [
+      "Driver cards hold qualifications, licences and permit expiry dates",
+      "Vehicle records with equipment, standard costs, consumption rates and a default driver",
+      "Digital ride log with route, vehicle, driver and operation type, posted as entries",
+      "Fuel journals from supplier fuel purchases generate purchase invoices",
+      "Vehicle maintenance scheduled by mileage or time interval",
+      "Transport requests created from purchase and sales orders",
+      "Dispatcher board shows new, planned and closed transport requests",
+      "Analysis of vehicle cost, fuel use and drive statistics",
+      "Integrated with standard purchase, sales and transfer documents",
+      "Posted ledger entries give an audit history of drives and fuel costs",
+      "Available in English, Czech and Slovak"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en",
+      "sk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

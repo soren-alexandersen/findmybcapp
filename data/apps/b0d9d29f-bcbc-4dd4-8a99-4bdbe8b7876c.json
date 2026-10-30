@@ -8,42 +8,43 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.4a8e4648-d2df-4435-97a1-b57c27cbd400%7CPAPPID.b0d9d29f-bcbc-4dd4-8a99-4bdbe8b7876c",
-    "lastModified": "2026-09-23T17:57:45.0914287+00:00",
-    "appVersion": "28.2.4.163",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T11:42:08.8261034+00:00",
+    "appVersion": "28.2.5.164",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lsexpress.lsretail.com/",
-    "sourceHash": "sha256:52bbe125721b939260dc6af0382a7b8241dd06e27556aaafe87a5d1daa9247c5",
+    "sourceHash": "sha256:e6f2db75136f99cd8d9bd11c5325be37749cb6699cd52bb75ee431a0827136b7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:52bbe125721b939260dc6af0382a7b8241dd06e27556aaafe87a5d1daa9247c5",
-    "mappedOn": null,
-    "summary": "Retail POS for Business Central",
+    "sourceHash": "sha256:e6f2db75136f99cd8d9bd11c5325be37749cb6699cd52bb75ee431a0827136b7",
+    "mappedOn": "2026-10-30",
+    "summary": "Cloud POS for small retailers, built natively into Business Central.",
     "shape": "vertical",
     "primary": [
       {
-        "need": "ng-vert-retail",
+        "need": "ng-retail-pos",
         "confidence": "high"
       },
       {
-        "need": "ng-retail-pos",
+        "need": "ng-vert-retail",
         "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-loc-tax-reporting",
-      "ng-demand-forecast"
+      "ng-conn-payment-providers",
+      "ng-bi-dashboards"
     ],
     "claims": [
-      "Cloud-based POS natively integrated with Business Central",
-      "Designed for small retail companies",
-      "Accepts various combinations of payments, EMV and PCI compliant",
-      "Customer sales history analysis and forecasts in Power BI for purchasing",
-      "Fiscalized by LS Retail in Austria, Belgium, Germany, Norway and Sweden",
-      "In W1-based countries localization and fiscal requirements must be fulfilled by the partner",
-      "Supports Essential and Premium editions",
-      "Languages: Swedish, Spanish, Norwegian, Icelandic, French, German, Dutch, Danish and English"
+      "Online point of sale running natively on BC",
+      "Aimed at small retail companies",
+      "Cloud based, reducing hardware cost",
+      "Accepts mixed payment methods, EMV and PCI compliant",
+      "Customer sales history in Power BI with forecasts for purchasing",
+      "Fiscalized by LS Retail in some countries; partner handles fiscal rules elsewhere",
+      "Works on Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -122,17 +123,15 @@
       "es",
       "fr",
       "is",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [
-      "Retail"
+      "Professional Services",
+      "Retail & Consumer Goods"
     ],
-    "connectsTo": [
-      "Power BI",
-      "LS Pay"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "online",
     "pricing": "free_trial",

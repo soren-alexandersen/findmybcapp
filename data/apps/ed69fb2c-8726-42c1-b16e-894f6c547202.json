@@ -8,18 +8,20 @@
     "publisher": "Ornith GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ornithgmbh1699181648906%7CAID.dwbc_integration%7CPAPPID.ed69fb2c-8726-42c1-b16e-894f6c547202",
-    "lastModified": "2026-09-24T08:03:38.747912+00:00",
-    "appVersion": "27.713.1.6",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T12:06:09.0001974+00:00",
+    "appVersion": "27.713.1.7",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.ornith.de/dwbcmanual",
-    "sourceHash": "sha256:5ce033cd95db590733477f51f91b24199b3d48c796c620410b41cae6811e24a1",
+    "sourceHash": "sha256:ced4f60a836ade564776dfda459054efb9984fdd3c877b3b9707d7b9c3b64a48",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5ce033cd95db590733477f51f91b24199b3d48c796c620410b41cae6811e24a1",
-    "mappedOn": null,
-    "summary": "Integrates DocuWare document management",
+    "sourceHash": "sha256:ced4f60a836ade564776dfda459054efb9984fdd3c877b3b9707d7b9c3b64a48",
+    "mappedOn": "2026-10-30",
+    "summary": "Integrates DocuWare document management with BC for filing, retrieval and invoice data transfer.",
     "shape": "connector",
     "primary": [
       {
@@ -32,12 +34,13 @@
       "ng-ux-attachments"
     ],
     "claims": [
-      "Retrieve and store DocuWare documents from within BC",
-      "Automated indexing and object-specific filing",
-      "Works on-premises and in the cloud",
-      "Documents processed in DocuWare automatically linked and tagged in BC",
-      "Invoice approval data from DocuWare transferred and booked in BC",
-      "Unlimited free testing in CRONUS"
+      "Store and retrieve DocuWare documents without leaving BC",
+      "Indexes and files documents automatically per BC object",
+      "Documents processed in DocuWare are automatically linked and tagged in BC",
+      "Accounting data from DocuWare invoice approval transfers into a BC invoice",
+      "Works with BC on-premises and in the cloud",
+      "Free unlimited testing in the CRONUS demo company",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -50,8 +53,8 @@
       "fr",
       "is",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [],

@@ -4,39 +4,46 @@
   "publisherId": "9altitudes",
   "offerId": "c4ed0cd4-ee0d-4979-85a5-45e1f283be0d",
   "source": {
-    "name": "9A Advanced Manufacturing - Item Configurator",
+    "name": "BIRDS Advanced Manufacturing - Item Configurator",
     "publisher": "9altitudes",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.c4ed0cd4-ee0d-4979-85a5-45e1f283be0d%7CPAPPID.7e2a4238-42fa-463e-9646-03ff81aca9c4",
-    "lastModified": "2026-09-29T12:21:26.4579008+00:00",
-    "appVersion": "28.2.65.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T11:07:01.8085154+00:00",
+    "appVersion": "29.2.80.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
-    "sourceHash": "sha256:642c256b8caee074e4bfbe0300922695f22f4b57dcf863557f2b07d54972ae60",
+    "sourceHash": "sha256:bb4e7116ba51a8172bfdf903d97d20a6c9947dee659ab8003db3384b05222832",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:642c256b8caee074e4bfbe0300922695f22f4b57dcf863557f2b07d54972ae60",
-    "mappedOn": null,
-    "summary": "Configures items in sales and creates products and production orders",
+    "sourceHash": "sha256:bb4e7116ba51a8172bfdf903d97d20a6c9947dee659ab8003db3384b05222832",
+    "mappedOn": "2026-10-30",
+    "summary": "Configure-to-order tool that builds items, BOMs, routings and prices from sales inputs.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-conn-cpq",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-quotes",
-      "ng-bom-formula-engineering"
+      "ng-bom-formula-engineering",
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Item configuration based on parameters from customer or employee",
-      "Automatically generates items, BOMs and routings",
-      "Item selection, dynamic text formulas, rules, formulas and variants are all used",
-      "Component and pricing calculation from contracts and historical data",
-      "Margin-based, attribute-based or custom-logic pricing"
+      "Generates prices for quotes and orders from simple inputs",
+      "Creates the required items, BOMs and routings",
+      "Uses variants, formulas, rules, dynamic text and item selection",
+      "Calculates components and prices from agreements and history",
+      "Supports attribute-based and custom pricing logic",
+      "Supports pricing at a defined margin"
     ],
     "countries": [
       "BE",
@@ -55,7 +62,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,33 +8,37 @@
     "publisher": "Hougaard",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hougaard-4699382%7CAID.portal%7CPAPPID.decade24-c001-1eaf-cafe-cab1ea11abba",
-    "lastModified": "2026-10-05T19:58:18.3306297+00:00",
-    "appVersion": "3.0.0.184",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T22:11:30.8361859+00:00",
+    "appVersion": "3.0.0.190",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/portaldesigner",
-    "sourceHash": "sha256:287a0767b692f49fcd78da55dcbc250c0139ebf7ad28af655b94d2bffe175cac",
+    "sourceHash": "sha256:3911c0ea6c8928d4381f42a23a48af7258ad08126c88e16019f18249c4b74358",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:287a0767b692f49fcd78da55dcbc250c0139ebf7ad28af655b94d2bffe175cac",
-    "mappedOn": null,
-    "summary": "Builds custom portals for customers and partners",
-    "shape": "usability",
+    "sourceHash": "sha256:3911c0ea6c8928d4381f42a23a48af7258ad08126c88e16019f18249c4b74358",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds custom web portals giving customers, vendors and partners secure access to BC data.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-admin-portals",
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-users-signin"
+    ],
     "claims": [
-      "Portal for customers, vendors and business partners",
-      "Portal content with reports, data files and interactive fields",
-      "Filters restrict users to their own data",
-      "Monitor sessions and portal activity",
-      "Login via Auth0 or built-in login",
-      "Hosted on an Azure web service"
+      "Portal for customers, vendors and partners on a public website",
+      "Portal content can include reports, data files and interactive fields",
+      "Filters ensure each portal user only sees their own data",
+      "Monitor portal sessions, activity and access in real time",
+      "Login via Auth0 or built-in portal login",
+      "Portal is hosted on an Azure web service"
     ],
     "countries": [],
     "languages": [
@@ -42,12 +46,12 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Auth0",
-      "Azure"
+      "Azure",
+      "Auth0"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

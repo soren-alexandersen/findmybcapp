@@ -1,0 +1,110 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_landed_costs|PAPPID.5c51693a-7590-48ac-bbf6-dba0e7fe1b29",
+  "guid": "5c51693a-7590-48ac-bbf6-dba0e7fe1b29",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_landed_costs",
+  "source": {
+    "name": "CS Landed Costs",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_landed_costs%7CPAPPID.5c51693a-7590-48ac-bbf6-dba0e7fe1b29",
+    "lastModified": "2026-10-23T12:18:40.4422534+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-landed-costs-help-en/",
+    "sourceHash": "sha256:52ab34d8499cd1da088963a0b4da692ae1937280473551596bdb3621b2c29282",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:52ab34d8499cd1da088963a0b4da692ae1937280473551596bdb3621b2c29282",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds landed cost types to purchases, posting them into item cost and G/L.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Unlimited landed cost types",
+      "Cost types posted to separate G/L balance accounts",
+      "Landed cost as a percentage of purchase price and/or fixed amount per base unit",
+      "Rates defined per vendor and per item, tracked down to order level",
+      "Adds landed costs to the cost of purchase receipts",
+      "Works with Standard, FIFO, LIFO and Specific costing",
+      "Budgeted landed costs compared to actual indirect costs per type",
+      "Dedicated landed cost entry table for analysis",
+      "Posts via standard value entries using General Posting Setup",
+      "Landed costs post automatically",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

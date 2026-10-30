@@ -8,37 +8,44 @@
     "publisher": "JCD A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.salesandpurchasehandling%7CPAPPID.a484cb3d-7a46-4c93-b6af-81cee13ed137",
-    "lastModified": "2026-09-28T08:05:16.1699594+00:00",
-    "appVersion": "1.0.20260928.6",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T08:46:50.990694+00:00",
+    "appVersion": "1.0.20261027.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://jcd.dk/support/",
-    "sourceHash": "sha256:604e934fd1007bf6301dc5655d66864c03218227804600dd9bcb667a0a24bede",
+    "sourceHash": "sha256:0abec861559150adc9157c8165d8f7671e13d6adc1e4771b8daa40e0e754d8ca",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:604e934fd1007bf6301dc5655d66864c03218227804600dd9bcb667a0a24bede",
-    "mappedOn": null,
-    "summary": "Daily enhancements for sales and purchase documents",
-    "shape": "process",
+    "sourceHash": "sha256:0abec861559150adc9157c8165d8f7671e13d6adc1e4771b8daa40e0e754d8ca",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle of small sales and purchase document improvements: templates, block codes, defaults, comments.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-data-entry",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-ux-data-quality",
-      "ng-ux-notes-collaboration"
+      "ng-product-phase-out",
+      "ng-ux-search-navigation"
     ],
     "claims": [
-      "Templates for customers, items and vendors",
-      "Block codes on items and customers control what may be sold, when and to whom",
-      "Brings comments across from master data and source documents",
-      "Remembers user's preferred Ship/Invoice/Receive posting choice",
-      "Automatic reopen of released documents when edited",
-      "Prevents negative inventory",
-      "Helpers for post codes and a better item search"
+      "Templates for creating customers, items and vendors with consistent defaults",
+      "Block codes on items and customers control what can be sold, to whom and when",
+      "Copies comments from master data and source documents onto sales and purchase documents",
+      "Remembers each user's preferred Ship/Invoice/Receive posting choice",
+      "Automatically reopens a released document when it needs editing",
+      "Prevents shipping or consuming stock that is not available",
+      "Post code helpers and improved item search"
     ],
     "countries": [],
     "languages": [],
@@ -46,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.aubadynamicconsultingsolutionssl1734432294835|AID.auba-error-monitor|PAPPID.790f5454-85fd-492c-8b74-d0263825fc53",
+  "guid": "790f5454-85fd-492c-8b74-d0263825fc53",
+  "publisherId": "aubadynamicconsultingsolutionssl1734432294835",
+  "offerId": "auba-error-monitor",
+  "source": {
+    "name": "Auba Error Monitor",
+    "publisher": "Auba Dynamic Consulting Solutions S.L.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aubadynamicconsultingsolutionssl1734432294835%7CAID.auba-error-monitor%7CPAPPID.790f5454-85fd-492c-8b74-d0263825fc53",
+    "lastModified": "2026-10-22T06:47:16.2219284+00:00",
+    "appVersion": "1.0.1.13",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://aubadcs.com/en/productos/error-monitor",
+    "sourceHash": "sha256:3ea74032ff31913221b538e4afc3d461517b358b7eb79fdabed8bfc5c12e21f9",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3ea74032ff31913221b538e4afc3d461517b358b7eb79fdabed8bfc5c12e21f9",
+    "mappedOn": "2026-10-30",
+    "summary": "Monitors job queue, data sync and email outbox errors across all companies, with email digests.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-failures",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-performance"
+    ],
+    "claims": [
+      "One dashboard shows incidents from every company in the environment",
+      "Tracks job queue errors, data sync failures and email outbox problems",
+      "Drill down from an incident straight to the affected record and error log",
+      "Sends scheduled HTML email summaries of errors to IT and support",
+      "Can be extended to catch errors from third-party add-ons and customizations",
+      "Runs entirely in AL with no external servers or middleware",
+      "Professional plan adds error tracking for Continia, PMS and SII processes",
+      "Professional plan supports custom business rules",
+      "Only one subscription is needed per tenant even though it is sold per user",
+      "Works with Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Continia"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

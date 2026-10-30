@@ -8,36 +8,36 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_truck_appointment%7CPAPPID.651556c7-07c5-4bac-84fa-9a92986baf4d",
-    "lastModified": "2026-09-30T20:03:33.6982581+00:00",
-    "appVersion": "28.5.0.80076",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:17:27.9238629+00:00",
+    "appVersion": "29.0.0.80827",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:d4c7ba2d74d776b9b02385b9d4aa848b667fe2a1984c05553fa6a96f1185aa67",
+    "sourceHash": "sha256:c0f808aa30913685158c6814b66903f488c6bf190085e96151b8a4802921999d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d4c7ba2d74d776b9b02385b9d4aa848b667fe2a1984c05553fa6a96f1185aa67",
-    "mappedOn": null,
-    "summary": "Truck appointment scheduling for Navitrans 365",
+    "sourceHash": "sha256:c0f808aa30913685158c6814b66903f488c6bf190085e96151b8a4802921999d",
+    "mappedOn": "2026-10-30",
+    "summary": "Truck appointment module for Navitrans 365.",
     "shape": "addon",
     "primary": [
       {
-        "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
-      },
-      {
         "need": "ng-transport-planning",
         "confidence": "low"
+      },
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS, WMS and forwarding suite for logistic service providers",
-      "e-Navitrans connector imports transport files and inbound/outbound orders from a web portal",
-      "Exports track & trace info and stock insight for customers",
-      "Supports Essential and Premium"
+      "Add-on module for Navitrans 365",
+      "Part of the Navitrans 365 suite covering TMS, WMS and forwarding",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -59,7 +59,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

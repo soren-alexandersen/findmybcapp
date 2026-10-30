@@ -4,48 +4,57 @@
   "publisherId": "posoneas1663056030259",
   "offerId": "pos365",
   "source": {
-    "name": "POS ONE – POS365",
+    "name": "POS-ONE – POS365",
     "publisher": "POS-ONE A/S",
     "productType": "SaaS",
     "url": "https://appsource.microsoft.com/en-us/product/web-apps/posoneas1663056030259.pos365",
-    "lastModified": "2025-12-16T04:24:31.2761121+00:00",
+    "lastModified": "2026-10-27T09:34:54.8750274+00:00",
     "appVersion": null,
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": null,
-    "sourceHash": "sha256:c2df35ccb2e9c7ddc67b019582dd55f5fd4004bf981f0c02cd812ae98679a2f6",
+    "sourceHash": "sha256:bb419442091a4e5649c8d0e4463e8d82ec1ea0bcc49ec631dda1454a5e9582d2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c2df35ccb2e9c7ddc67b019582dd55f5fd4004bf981f0c02cd812ae98679a2f6",
-    "mappedOn": "2026-10-07",
-    "summary": "Cloud point of sale for retailers, syncing master data, payments and sales with BC",
+    "sourceHash": "sha256:bb419442091a4e5649c8d0e4463e8d82ec1ea0bcc49ec631dda1454a5e9582d2",
+    "mappedOn": "2026-10-30",
+    "summary": "Point-of-sale system for multi-store retailers, built only for Business Central",
     "shape": "platform",
     "primary": [
       {
         "need": "ng-retail-pos",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-conn-webshop"
+      "ng-sales-order-entry",
+      "ng-customer-returns"
     ],
     "claims": [
-      "Syncs master data, payments and sales with BC in near real time",
-      "Keeps selling when offline",
-      "Unlimited registers across locations, managed centrally",
-      "Click and collect and Shopify integration",
-      "Subscription pricing"
+      "Checkout with discounts, returns, refunds and parked transactions",
+      "Shows stock availability across stores at the till",
+      "Keeps selling offline when the internet is down",
+      "Customer-specific prices, credit control, sales orders, quotes and prepayments from the POS",
+      "Prices, products, customers, stock and sales kept in sync with BC",
+      "Standard implementation takes about 14 days",
+      "First terminal set up in about an hour, more in about 20 minutes each"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "Shopify"
+    "industries": [
+      "Retail"
     ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "online",
-    "pricing": "subscription",
+    "deployment": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2maddenanalytics%7CPAPPID.e478b6ee-f6fe-48c0-b0ee-3c930886acab",
-    "lastModified": "2025-09-03T09:08:07.0545155+00:00",
+    "lastModified": "2026-10-19T11:56:30.7317721+00:00",
     "appVersion": "26.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:fe846c94911c98add1a9f4a7436d42c371dcabbfe4f39bd65625da0987f0c313",
+    "sourceHash": "sha256:5b22e7b26c373c58eced4244187b990a57328c14555e0969cfab518e2bba566b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fe846c94911c98add1a9f4a7436d42c371dcabbfe4f39bd65625da0987f0c313",
-    "mappedOn": null,
-    "summary": "Integrates Madden Analytics inventory planning with BC",
+    "sourceHash": "sha256:5b22e7b26c373c58eced4244187b990a57328c14555e0969cfab518e2bba566b",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Madden Analytics cloud inventory planning tool.",
     "shape": "connector",
     "primary": [
       {
@@ -27,30 +29,25 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-demand-forecast"
-    ],
+    "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Madden Analytics",
-      "Built on Codeunit OmniConnect integration platform"
+      "Exchanges data between BC and a cloud-based inventory planning service",
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Madden Analytics account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Madden Analytics"
     ],
-    "requires": [
-      "Madden Analytics"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

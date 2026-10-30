@@ -38,7 +38,17 @@
             "from master data",
             "table field values into",
             "mapping",
-            "maps default"
+            "maps default",
+            "propagat",
+            "master-data names",
+            "renames dimension values",
+            "edit dimensions directly",
+            "subledger master",
+            "auto-assigns dimensions",
+            "assigns dimension codes",
+            "automatically assigns dimension",
+            "to dimensions\\b",
+            "sell-to setup"
           ]
         },
         {
@@ -67,7 +77,10 @@
             "force dimension",
             "conditional dimension",
             "rule sets? link",
-            "controls which dimension values"
+            "controls which dimension values",
+            "header vs line",
+            "header and line dimension",
+            "dimensions on headers"
           ]
         },
         {
@@ -82,9 +95,9 @@
         }
       ],
       "coverage": {
-        "Creating dimension values from customers, items, etc.": 0.29,
+        "Creating dimension values from customers, items, etc.": 0.47,
         "Fixing dimensions after posting": 0.22,
-        "Rules so one dimension sets or limits another": 0.2,
+        "Rules so one dimension sets or limits another": 0.29,
         "Keeping entries balanced per dimension": 0.09
       }
     },
@@ -135,7 +148,10 @@
             "all 8 dimensions",
             "shortcut dimensions shown",
             "filterable columns",
-            "6 shortcut dimensions"
+            "6 shortcut dimensions",
+            "all eight dimensions",
+            "additional dimension set field",
+            "extra shortcut dimension"
           ]
         },
         {
@@ -144,8 +160,24 @@
         }
       ],
       "coverage": {
-        "Yes": 0.13
+        "Yes": 0.16
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "works with any table, technical detail",
+      "terms": [
+        "tabl"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'master data' wording",
+      "terms": [
+        "master"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

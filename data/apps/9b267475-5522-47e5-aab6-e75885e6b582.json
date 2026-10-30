@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex060_plantmaintenance%7CPAPPID.9b267475-5522-47e5-aab6-e75885e6b582",
-    "lastModified": "2026-10-01T07:38:26.6053977+00:00",
+    "lastModified": "2026-10-27T11:59:04.4178334+00:00",
     "appVersion": "28.0.16.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/plant-maintenance-plm.html",
-    "sourceHash": "sha256:dff0a7de1a97e958afd14254cd23fc2e22b5593100c04612fe6698ed97a995a9",
+    "sourceHash": "sha256:df587e144cf1b8308ecf67c5d26b8b38305d196566ed41f0fdf70e22bab5b272",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dff0a7de1a97e958afd14254cd23fc2e22b5593100c04612fe6698ed97a995a9",
-    "mappedOn": null,
-    "summary": "Plant and machine maintenance planning with AI request intake",
+    "sourceHash": "sha256:df587e144cf1b8308ecf67c5d26b8b38305d196566ed41f0fdf70e22bab5b272",
+    "mappedOn": "2026-10-30",
+    "summary": "Plans preventive maintenance on plant equipment and tracks downtime, work orders and costs.",
     "shape": "process",
     "primary": [
       {
@@ -33,35 +35,39 @@
     ],
     "secondary": [
       "ng-production-scheduling",
+      "ng-admin-devices",
       "ng-admin-copilot-agents"
     ],
     "claims": [
-      "AI agent handles maintenance request intake from emails",
-      "Tracks scheduled and unscheduled downtime events",
-      "Compares planned costs for labor and materials with actual ones",
-      "Monitors team utilization, parts and vendor spend",
-      "Preventive orders triggered by time, output, runtime hours or custom triggers",
-      "Vendor services via BC purchase documents and requisition worksheets",
-      "Planned maintenance stops considered in production planning",
-      "Maintenance team resource calendar and work allocation",
-      "Maintenance history by equipment or asset group",
-      "Integration with BC Projects for complex maintenance",
-      "Mobile work orders via EOS PowerApps",
-      "Records ready for audits of leases or regulatory reviews",
-      "Premium edition only",
-      "Free trial available"
+      "An AI agent picks up maintenance requests from incoming email and processes them",
+      "Tracks planned and unplanned downtime events in real time",
+      "Compares planned and actual labour and material cost",
+      "Monitors team utilisation, parts used and external vendor spend",
+      "Uses maintenance history to support replace-or-repair decisions",
+      "Preventive orders triggered by time, output quantity, runtime hours or custom triggers",
+      "Parts and vendor services go through standard purchase documents and requisition worksheets",
+      "Planned maintenance stops are taken into account in production planning",
+      "Maintenance team resource calendar with even distribution of work requests",
+      "Maintenance history per equipment or asset group",
+      "Links to BC Projects for larger maintenance and capital improvement jobs",
+      "Technicians view and update work orders on handheld devices via EOS PowerApps",
+      "Keeps audit-ready records for lease or regulatory maintenance reviews",
+      "Requires the Premium edition",
+      "Free trial, then annual pricing"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
     "industries": [
-      "Fleet",
-      "Manufacturing",
-      "Transportation"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

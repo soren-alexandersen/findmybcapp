@@ -8,39 +8,45 @@
     "publisher": "SMART business LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_localization_for_georgia%7CPAPPID.2e2f9b14-1fe2-4bc4-9392-6b80279ffd7c",
-    "lastModified": "2026-09-21T12:12:10.5952231+00:00",
-    "appVersion": "1.17.155929.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T12:42:05.6428807+00:00",
+    "appVersion": "1.18.159538.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://bc.smart-it.com/",
-    "sourceHash": "sha256:db252bffff89bd77fd08f5ad2947cafe3dc77a9a2371133e23ba24fdb6727410",
+    "sourceHash": "sha256:3651471569ae27e01e4b97b5cf73d1d5448c7f3c67f82ac40ed3efdb7b58beca",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:db252bffff89bd77fd08f5ad2947cafe3dc77a9a2371133e23ba24fdb6727410",
-    "mappedOn": null,
-    "summary": "Georgian tax and accounting localization",
+    "sourceHash": "sha256:3651471569ae27e01e4b97b5cf73d1d5448c7f3c67f82ac40ed3efdb7b58beca",
+    "mappedOn": "2026-10-30",
+    "summary": "Georgian accounting and tax localization: chart of accounts, VAT, profit and payroll taxes.",
     "shape": "localization",
     "primary": [
       {
         "need": "ng-loc-country-pack",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vat-tax",
-      "ng-loc-einvoicing",
       "ng-currency",
-      "ng-loc-tax-reporting"
+      "ng-loc-einvoicing",
+      "ng-financial-statements",
+      "ng-hr-employee-expenses"
     ],
     "claims": [
-      "Recommended Georgian chart of accounts",
-      "Exchange rate import from National Bank of Georgia",
-      "RS integration for VAT invoices and waybills",
-      "VAT, profit, pension and property tax",
-      "Business trips",
-      "Internet banking",
-      "Regulated reporting and printed forms"
+      "Ships a recommended Georgian chart of accounts and base setup",
+      "Pulls exchange rates from the National Bank of Georgia automatically",
+      "Integrates with the Revenue Service for VAT invoices and waybills",
+      "Covers VAT, profit, pension and property tax",
+      "Includes business trip handling and internet banking",
+      "Provides local printed forms and regulated reports",
+      "Updates are released quarterly with release notes"
     ],
     "countries": [
       "GE"
@@ -50,13 +56,10 @@
       "ka"
     ],
     "industries": [],
-    "connectsTo": [
-      "National Bank of Georgia",
-      "RS (Revenue Service of Georgia)"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

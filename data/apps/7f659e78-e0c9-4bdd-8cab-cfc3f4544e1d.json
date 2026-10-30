@@ -8,18 +8,20 @@
     "publisher": "Pleo",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pleo%7CAID.pleo-bc%7CPAPPID.7f659e78-e0c9-4bdd-8cab-cfc3f4544e1d",
-    "lastModified": "2026-09-17T04:34:48.9544146+00:00",
+    "lastModified": "2026-10-27T05:42:07.9715715+00:00",
     "appVersion": "1.7.1.2",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.pleo.io/en/support/solutions/folders/103000653337",
-    "sourceHash": "sha256:066dd7afe6441166fad5f64acd6440cee90b6cf6f5ae02d119f5e2194f2ee7d6",
+    "sourceHash": "sha256:56b8d7ce54068775649e0ade2c11b91b9f93887a4a80532d22180139da716d5d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:066dd7afe6441166fad5f64acd6440cee90b6cf6f5ae02d119f5e2194f2ee7d6",
-    "mappedOn": null,
-    "summary": "Syncs Pleo spend and expense data to BC",
+    "sourceHash": "sha256:56b8d7ce54068775649e0ade2c11b91b9f93887a4a80532d22180139da716d5d",
+    "mappedOn": "2026-10-30",
+    "summary": "Exports Pleo card and expense transactions with receipts into BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,15 +30,15 @@
       }
     ],
     "secondary": [
-      "ng-journals"
+      "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Exports Pleo transactions with receipts into BC",
-      "Pushes the chart of accounts, vendors and BC dimensions to Pleo",
+      "Exports Pleo transactions including receipts into BC",
+      "Syncs BC dimensions, vendors and chart of accounts into Pleo",
+      "Covers company cards, employee expenses, reimbursements and invoice management",
       "Supports multiple entities",
-      "Spend approvals and pre-set budgets",
-      "Physical and virtual cards with individual limits",
-      "1% cashback"
+      "Automated spend approvals and pre-set budgets",
+      "Physical and virtual cards with individual limits"
     ],
     "countries": [],
     "languages": [],
@@ -46,7 +48,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

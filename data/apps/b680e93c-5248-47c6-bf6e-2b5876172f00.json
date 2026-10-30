@@ -8,18 +8,20 @@
     "publisher": "Clever Dynamics",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-credit%7CPAPPID.b680e93c-5248-47c6-bf6e-2b5876172f00",
-    "lastModified": "2026-08-28T09:58:23.647037+00:00",
-    "appVersion": "3.0.4.159497",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:04:03.6305189+00:00",
+    "appVersion": "3.1.0.165210",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/Clever%20Credit/User%20Guide/01.%20About/",
-    "sourceHash": "sha256:8be37985dedc04348b34f15b55ebb7248daca1e55946d3325a4ea67e4c65878c",
+    "sourceHash": "sha256:11e30e00e53bafc85e3b0d45bff986776affc60a71aef7110bce60a29f5d3190",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8be37985dedc04348b34f15b55ebb7248daca1e55946d3325a4ea67e4c65878c",
-    "mappedOn": null,
-    "summary": "Credit control and collections",
+    "sourceHash": "sha256:11e30e00e53bafc85e3b0d45bff986776affc60a71aef7110bce60a29f5d3190",
+    "mappedOn": "2026-10-30",
+    "summary": "Puts sales orders on hold for overdue balances or credit limit breaches; supports follow-up.",
     "shape": "process",
     "primary": [
       {
@@ -28,17 +30,20 @@
       },
       {
         "need": "ng-collections",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
     "claims": [
-      "Automatically holds sales orders for overdue balances or exceeded credit limit",
-      "Shows outstanding balances per credit controller and per account",
-      "Auto-diarised follow-up calls and to-dos",
-      "Credit authorisation limits per account to release orders",
-      "Grace periods per account",
-      "Supports dispute resolution with information at hand"
+      "Holds sales orders automatically when a customer has overdue balances",
+      "Holds orders that would exceed the credit limit",
+      "Shows outstanding balances by account and credit controller",
+      "Creates follow-up calls and to-dos automatically",
+      "Credit authorisation limits and grace periods per account",
+      "Part of the Clever Essentials app bundle",
+      "Works with Essentials and Premium"
     ],
     "countries": [
       "AE",

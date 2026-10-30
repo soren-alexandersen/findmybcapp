@@ -8,18 +8,20 @@
     "publisher": "SmartApps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.rillion%7CPAPPID.0e3a5827-f644-47af-b592-76077114664d",
-    "lastModified": "2026-09-18T06:34:12.4018083+00:00",
-    "appVersion": "25.29.86.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:56:38.7056352+00:00",
+    "appVersion": "25.32.96.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/rillion-connect/",
-    "sourceHash": "sha256:1ebf1dc8f1b9bed57d767cf5ad0a441ff4cc4ea301d5670db9ed4523510ffe02",
+    "sourceHash": "sha256:e820412ad36bb7d0f32b63eb10d073370fb0ac4cd37cfa8080914bf053f26064",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1ebf1dc8f1b9bed57d767cf5ad0a441ff4cc4ea301d5670db9ed4523510ffe02",
-    "mappedOn": null,
-    "summary": "Integrates Rillion AP invoice approval with BC",
+    "sourceHash": "sha256:e820412ad36bb7d0f32b63eb10d073370fb0ac4cd37cfa8080914bf053f26064",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings Rillion-approved PO and non-PO supplier invoices into BC.",
     "shape": "connector",
     "primary": [
       {
@@ -27,11 +29,14 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
     "claims": [
-      "Invoices approved in Rillion are forwarded to BC",
+      "Handles both PO and non-PO invoices",
       "Rillion routes invoices to the designated approver",
-      "Handles PO and non-PO invoices"
+      "Approved invoices are transferred to BC",
+      "Works with Essential and Premium"
     ],
     "countries": [
       "BE",
@@ -55,11 +60,9 @@
     "connectsTo": [
       "Rillion"
     ],
-    "requires": [
-      "Rillion"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

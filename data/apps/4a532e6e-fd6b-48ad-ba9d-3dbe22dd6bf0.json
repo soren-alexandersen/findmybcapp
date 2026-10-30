@@ -8,18 +8,20 @@
     "publisher": "MEMENTO SRL",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mementosrls1588695843705%7CAID.bankingcentral%7CPAPPID.4a532e6e-fd6b-48ad-ba9d-3dbe22dd6bf0",
-    "lastModified": "2026-09-28T05:50:00.9423649+00:00",
-    "appVersion": "28.0.0.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-25T15:55:32.2264873+00:00",
+    "appVersion": "28.0.0.5",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://bcapps.mementoas.com/en-US/apps/BankingCentral/intro.html",
-    "sourceHash": "sha256:4e3af7180143fa9df0edd11892c42e97bc8e60e48e8750892a07239d70c4402f",
+    "sourceHash": "sha256:98039d71331a4a7e3c2f319778d2d840980e6415c5cfe02287bf5580db9d4a42",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4e3af7180143fa9df0edd11892c42e97bc8e60e48e8750892a07239d70c4402f",
-    "mappedOn": null,
-    "summary": "Imports bank transactions from 2,000+ European banks",
+    "sourceHash": "sha256:98039d71331a4a7e3c2f319778d2d840980e6415c5cfe02287bf5580db9d4a42",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports bank transactions via open banking into BC reconciliation journals.",
     "shape": "connector",
     "primary": [
       {
@@ -27,20 +29,25 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-customer-payments"
+    ],
     "claims": [
-      "Over 2,000 banks in 31 European countries and UK",
-      "Imports into payment reconciliation journal or bank account reconciliation",
-      "Read-only PSD2 open banking access",
-      "Job queue scheduled or on-demand import",
-      "Email warning before connection expires",
-      "Discards duplicate transactions by bank ID",
-      "Transaction codes assign reason codes; fixed G/L for fees, interest, taxes",
-      "Supports ISO 20022, CBI and ZKA reason codes",
-      "Manual import of any period in bank history",
-      "Role center cues show connections about to expire and errors",
-      "One license per tenant for all companies",
-      "30-day free trial up to 3 bank accounts"
+      "Connects to over 2,000 banks in 31 European countries and the UK",
+      "Transactions land in payment reconciliation journal or bank account reconciliation",
+      "No statement file downloads or bank portal logins",
+      "Read-only PSD2 access through a regulated account information provider",
+      "Scheduled import via job queue or on demand",
+      "Manual import of past periods within the bank's history",
+      "Discards duplicate transactions by bank transaction ID",
+      "Reason codes from bank texts propose the account per line",
+      "Fixed G/L accounts for bank fees, interest and taxes",
+      "Default reason codes for ISO 20022, CBI and ZKA",
+      "Email warning before a bank connection expires, with renewal link",
+      "Role center cues for expiring connections and bank errors",
+      "One licence per tenant covers all companies",
+      "40 EUR per month for up to 3 bank accounts, 10 EUR per extra account",
+      "30-day free trial without payment method"
     ],
     "countries": [],
     "languages": [
@@ -48,12 +55,10 @@
       "it"
     ],
     "industries": [],
-    "connectsTo": [
-      "Open Banking (PSD2)"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_company",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

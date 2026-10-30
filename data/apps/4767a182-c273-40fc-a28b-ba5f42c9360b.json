@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.fbfe99b5-91f6-4ccd-adea-7120c5cac39c%7CPAPPID.4767a182-c273-40fc-a28b-ba5f42c9360b",
-    "lastModified": "2026-07-02T13:25:03.0559821+00:00",
-    "appVersion": "28.1.0.137",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:01:32.6040524+00:00",
+    "appVersion": "29.0.0.147",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:24e61b033cfdafe02d068dfad9f57c0bd07a050a355089a314ac41a231e1e214",
+    "sourceHash": "sha256:728fcc869b15db117b62918b6bc1842544a226d4f94c8af1c8d251d602bd96df",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:24e61b033cfdafe02d068dfad9f57c0bd07a050a355089a314ac41a231e1e214",
-    "mappedOn": null,
-    "summary": "Icelandic language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:728fcc869b15db117b62918b6bc1842544a226d4f94c8af1c8d251d602bd96df",
+    "mappedOn": "2026-10-30",
+    "summary": "Icelandic UI translation of LS Central for users in IS.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,7 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Icelandic",
-      "For users of LS Central SaaS"
+      "Lets staff run the LS Central SaaS base application in Icelandic"
     ],
     "countries": [
       "IS"
@@ -39,6 +40,7 @@
       "is"
     ],
     "industries": [
+      "Hospitality",
       "Retail"
     ],
     "connectsTo": [],
@@ -46,7 +48,7 @@
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

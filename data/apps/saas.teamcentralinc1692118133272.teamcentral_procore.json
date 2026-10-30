@@ -1,0 +1,60 @@
+{
+  "appId": "teamcentralinc1692118133272.teamcentral_procore",
+  "guid": null,
+  "publisherId": "teamcentralinc1692118133272",
+  "offerId": "teamcentral_procore",
+  "source": {
+    "name": "Procore No-Code Integration for Dynamics F&O, Dynamics BC, Rent Manager, and NetSuite",
+    "publisher": "Teamcentral, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/teamcentralinc1692118133272.teamcentral_procore",
+    "lastModified": "2025-12-16T05:59:13.9944941+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:8b9e58520562e499d100cc6b1d99a03abec9bededbd63cf67178913470537e9e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b9e58520562e499d100cc6b1d99a03abec9bededbd63cf67178913470537e9e",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code iPaaS connector syncing Procore construction software with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "No-code integration platform with pre-built and custom connectors",
+      "Publish/subscribe data filtering and business rules changed without code",
+      "Runs on Azure Service Bus, Cosmos DB, API Management and Key Vault",
+      "Cross-referencing of records across systems",
+      "Notification engine for email, SMS and Teams",
+      "Pricing is not consumption based",
+      "Can run alongside Power Automate"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Procore",
+      "Rent Manager",
+      "NetSuite"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -82,11 +82,11 @@
         }
       ],
       "coverage": {
-        "BarTender": 0.22,
-        "NiceLabel / Loftware": 0.22,
-        "Zebra designer or ZPL": 0.14,
-        "Other (TEKLYNX, Easylabel...)": 0.06,
-        "No, design labels in Business Central": 0.19
+        "BarTender": 0.21,
+        "NiceLabel / Loftware": 0.21,
+        "Zebra designer or ZPL": 0.13,
+        "Other (TEKLYNX, Easylabel...)": 0.05,
+        "No, design labels in Business Central": 0.15
       }
     },
     {
@@ -120,8 +120,8 @@
         }
       ],
       "coverage": {
-        "Zebra label printers": 0.14,
-        "Any office or local printer": 0.22
+        "Zebra label printers": 0.13,
+        "Any office or local printer": 0.21
       }
     },
     {
@@ -146,7 +146,7 @@
         }
       ],
       "coverage": {
-        "Yes, SSCC or pallet labels": 0.25
+        "Yes, SSCC or pallet labels": 0.31
       }
     },
     {
@@ -171,7 +171,7 @@
         }
       ],
       "coverage": {
-        "Yes, GS1 / EAN / GTIN": 0.5
+        "Yes, GS1 / EAN / GTIN": 0.54
       }
     },
     {
@@ -200,7 +200,7 @@
         }
       ],
       "coverage": {
-        "Yes, print on events automatically": 0.14
+        "Yes, print on events automatically": 0.15
       }
     },
     {
@@ -228,8 +228,161 @@
         }
       ],
       "coverage": {
-        "Yes, need cloud-to-local printing": 0.31
+        "Yes, need cloud-to-local printing": 0.26
       }
+    },
+    {
+      "id": "do-your-labels-need-data-from-",
+      "text": "Do your labels need data from many places in BC (items, lots, customers) without a developer?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, pick any table or field without coding",
+          "patterns": [
+            "any (source )?table",
+            "multiple bc tables",
+            "table fields",
+            "tables?( and |/)fields?",
+            "label content",
+            "without development"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, pick any table or field without coding": 0.15
+      }
+    },
+    {
+      "id": "do-different-customers-items-o",
+      "text": "Do different customers, items or documents need different labels or printers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, rules choose the label and printer",
+          "patterns": [
+            "assigns labels",
+            "labels? (templates )?tied",
+            "label formats? (assigned|per customer)",
+            "picks the label",
+            "printers per",
+            "label rules",
+            "labels and printers by"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, rules choose the label and printer": 0.15
+      }
+    },
+    {
+      "id": "do-you-need-to-track-what-is-p",
+      "text": "Do you need to track what is packed on each pallet or in each package?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, package types and contents",
+          "patterns": [
+            "package types",
+            "packaging materials?",
+            "container contents",
+            "package contents",
+            "packing proposals?",
+            "build, pack",
+            "mixed (or homogeneous )?pallet"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, package types and contents": 0.15
+      }
+    },
+    {
+      "id": "do-you-also-need-barcodes-prin",
+      "text": "Do you also need barcodes printed on BC documents like invoices or pick lists?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, barcodes on reports and documents",
+          "patterns": [
+            "barcode images?",
+            "barcodes? to reports",
+            "barcodes? (on|in) (reports|documents|invoices)",
+            "extended texts?",
+            "barcode factbox"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, barcodes on reports and documents": 0.1
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'configurable' wording",
+      "terms": [
+        "configurabl"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'custom' wording (custom reports, headers, pages)",
+      "terms": [
+        "custom"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'external' wording (APIs, rendering services)",
+      "terms": [
+        "external"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "label preview is UI detail, not a buying criterion",
+      "terms": [
+        "preview"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "number series wording",
+      "terms": [
+        "sery"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "per-location enablement and package detail trivia",
+      "terms": [
+        "location",
+        "packag"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "configuration-type trivia",
+      "terms": [
+        "type"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

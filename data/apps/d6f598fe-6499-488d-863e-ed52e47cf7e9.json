@@ -8,18 +8,20 @@
     "publisher": "Simply Dynamics Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-cred%7CPAPPID.d6f598fe-6499-488d-863e-ed52e47cf7e9",
-    "lastModified": "2026-07-02T05:16:54.6332653+00:00",
-    "appVersion": "10.2.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T14:21:34.097909+00:00",
+    "appVersion": "11.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-credit-controller/",
-    "sourceHash": "sha256:dbfe1fbc25464df7e261e1ac07b5c3147e69b4587507eabed0296b9fdccfa10d",
+    "sourceHash": "sha256:5994ed17c312abbae105bdbf02f37b0f312c14d2b7e43f2fda9c66e437c1228a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dbfe1fbc25464df7e261e1ac07b5c3147e69b4587507eabed0296b9fdccfa10d",
-    "mappedOn": null,
-    "summary": "Credit control and debt collection",
+    "sourceHash": "sha256:5994ed17c312abbae105bdbf02f37b0f312c14d2b7e43f2fda9c66e437c1228a",
+    "mappedOn": "2026-10-30",
+    "summary": "Credit control workbench for chasing debts, repayment plans and promised payments.",
     "shape": "process",
     "primary": [
       {
@@ -28,54 +30,30 @@
       }
     ],
     "secondary": [
-      "ng-customer-credit-holds"
+      "ng-customer-credit-holds",
+      "ng-intercompany-consolidation"
     ],
     "claims": [
-      "Actionable payment reminders",
-      "Repayment plans",
-      "Group company credit exposure view",
-      "Customer aged debt profiling",
-      "Promised payment tracking",
-      "Assigns and tracks activity per team or credit controller",
-      "KPIs by credit controller and customer",
-      "Log disputes for follow-up"
+      "Logs every credit control event",
+      "Creates internal tasks and external reminders automatically",
+      "Shows credit exposure across group companies",
+      "KPIs by credit controller and by customer",
+      "Flexible repayment plans",
+      "Aged debt profiling per customer",
+      "Tracks promised payments",
+      "Assigns activity to a credit controller or team",
+      "Flags disputes for follow-up",
+      "Reusable template events"
     ],
-    "countries": [
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "GR",
-      "IE",
-      "LT",
-      "LU",
-      "LV",
-      "MT",
-      "NL",
-      "NO",
-      "NZ",
-      "PT",
-      "SE",
-      "TR",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "en"
     ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

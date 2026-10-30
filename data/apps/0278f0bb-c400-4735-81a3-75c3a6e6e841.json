@@ -8,18 +8,20 @@
     "publisher": "GoPro doo",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_si_lan%7CPAPPID.0278f0bb-c400-4735-81a3-75c3a6e6e841",
-    "lastModified": "2026-07-01T07:44:49.3979886+00:00",
-    "appVersion": "26.0.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T10:49:26.97231+00:00",
+    "appVersion": "28.5.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/353/Slovenian-Language",
-    "sourceHash": "sha256:9ab39e93447976743996a4a82e930a9e13881e7bb2a0783e31068c86e5c61b92",
+    "sourceHash": "sha256:3e1092bd4c1b9810f9a7d9922d6ebb689d047a14b19b3c5eea84454aa12972ec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9ab39e93447976743996a4a82e930a9e13881e7bb2a0783e31068c86e5c61b92",
-    "mappedOn": null,
-    "summary": "Slovenian language pack",
+    "sourceHash": "sha256:3e1092bd4c1b9810f9a7d9922d6ebb689d047a14b19b3c5eea84454aa12972ec",
+    "mappedOn": "2026-10-30",
+    "summary": "Slovenian user interface translation for Business Central.",
     "shape": "language",
     "primary": [
       {
@@ -29,9 +31,12 @@
     ],
     "secondary": [],
     "claims": [
-      "Slovenian UI language pack"
+      "Lets users run BC in Slovenian",
+      "Works on Essential and Premium editions"
     ],
-    "countries": [],
+    "countries": [
+      "SI"
+    ],
     "languages": [
       "en",
       "sl"
@@ -40,7 +45,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_additional_lot_no_information%7CPAPPID.5dbd52e1-10e6-56e1-9d11-adbf2e4a75c6",
-    "lastModified": "2026-06-21T15:33:04.6926803+00:00",
-    "appVersion": "28.0.371972.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T21:30:00.4714224+00:00",
+    "appVersion": "28.1.25.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:2b916dadb7e7b105e6091a014d87778c934c990ea27c23e1875059313e724e3f",
+    "sourceHash": "sha256:c0a94ba623ae86d4a4bb61f40b2ee45a3385e396204399c7b8f48f271ec694fd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2b916dadb7e7b105e6091a014d87778c934c990ea27c23e1875059313e724e3f",
-    "mappedOn": null,
-    "summary": "Additional lot information for traceability",
+    "sourceHash": "sha256:c0a94ba623ae86d4a4bb61f40b2ee45a3385e396204399c7b8f48f271ec694fd",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds extra lot properties linked to purchase documents and vendor lot numbers.",
     "shape": "process",
     "primary": [
       {
@@ -29,10 +31,10 @@
     ],
     "secondary": [],
     "claims": [
-      "Lot traceability with additional lot properties",
-      "Links lots to purchase document and vendor lot no.",
-      "Easier creation of multiple lots on item tracking lines",
-      "Supported BC editions as stated"
+      "Stores additional properties per lot number",
+      "Links lots to the purchase document and the vendor's lot number",
+      "Faster creation of multiple lots on item tracking lines",
+      "Requires Business Central Premium"
     ],
     "countries": [
       "AT",
@@ -53,11 +55,13 @@
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

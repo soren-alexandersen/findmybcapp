@@ -8,18 +8,20 @@
     "publisher": "Lithuanian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.ivaz_for_lithuania%7CPAPPID.1fc3a713-3142-4a5c-adcf-293de6646ffe",
-    "lastModified": "2026-07-20T11:39:12.6818219+00:00",
-    "appVersion": "27.0.4.16",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T13:34:11.9431564+00:00",
+    "appVersion": "27.0.4.17",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-iVAZ/",
-    "sourceHash": "sha256:79b4a1f513f70a21ca514e534d75236ad53da46ab452a4085ec71bf5b2ac71cc",
+    "sourceHash": "sha256:aaddda651fd5528f4116b0ffbfde8592c49099badadcbb649b776f34e1f4bc62",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:79b4a1f513f70a21ca514e534d75236ad53da46ab452a4085ec71bf5b2ac71cc",
-    "mappedOn": null,
-    "summary": "Creates i.VAZ transport document XML for Lithuanian tax authority",
+    "sourceHash": "sha256:aaddda651fd5528f4116b0ffbfde8592c49099badadcbb649b776f34e1f4bc62",
+    "mappedOn": "2026-10-30",
+    "summary": "Generates Lithuanian i.VAZ transport document XML for the tax authority.",
     "shape": "localization",
     "primary": [
       {
@@ -27,14 +29,13 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-shipping-carriers"
-    ],
+    "secondary": [],
     "claims": [
-      "Creates i.VAZ transport document XML for the State Tax Inspectorate",
-      "Transport documents from posted sales shipments, invoices, transfer shipments, return shipments and purchase credit memos",
-      "Download transport document XML to device",
-      "Transfer XML to i.VAZ via web services"
+      "Builds transport documents from posted sales shipments and sales invoices",
+      "Also covers posted transfer shipments, return shipments and purchase credit memos",
+      "XML file can be downloaded to a local device",
+      "Sends the XML to i.VAZ through web services",
+      "Works on Essentials and Premium editions"
     ],
     "countries": [
       "LT"
@@ -42,10 +43,11 @@
     "languages": [
       "lt"
     ],
-    "industries": [],
-    "connectsTo": [
-      "i.VAZ"
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

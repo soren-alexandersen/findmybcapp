@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.sign-it-docusign-app%7CPAPPID.62934b23-85c6-44bc-9f75-87bad40cd0e9",
-    "lastModified": "2026-09-28T00:15:28.5011393+00:00",
-    "appVersion": "27.0.260921.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:36:42.578818+00:00",
+    "appVersion": "27.0.261019.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/sign-it-with-docusign/docs/",
-    "sourceHash": "sha256:873d2b126f453c3980f1ae886fb6d4c0bce9800aa4fe08d4dcbd3feb82606320",
+    "sourceHash": "sha256:e0870a4af9beba0315f54b07836a73c7de3cce5ced84bc000c983eaf112e44a7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:873d2b126f453c3980f1ae886fb6d4c0bce9800aa4fe08d4dcbd3feb82606320",
-    "mappedOn": null,
-    "summary": "Sends documents to DocuSign for signature",
+    "sourceHash": "sha256:e0870a4af9beba0315f54b07836a73c7de3cce5ced84bc000c983eaf112e44a7",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends sales quotes, orders and invoices to DocuSign and stores the signed copies.",
     "shape": "connector",
     "primary": [
       {
@@ -28,15 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-sales-quotes"
+      "ng-sales-quotes",
+      "ng-ux-attachments"
     ],
     "claims": [
-      "Sends signature requests to DocuSign",
-      "Signature requests can be sent for sales orders, quotes and invoices",
-      "Tracks signing status",
-      "Default recipient list per customer",
-      "AutoPlace Fields position signature fields from a unique string",
-      "Scheduled job downloads signed documents and attaches them to sales documents"
+      "Starts DocuSign signature requests from sales orders, quotes and invoices",
+      "Tracks signing status inside BC",
+      "Default signer list per customer",
+      "Places signature fields automatically at a marker string in the document",
+      "Background job downloads signed documents and links them back to the sales document",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +51,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

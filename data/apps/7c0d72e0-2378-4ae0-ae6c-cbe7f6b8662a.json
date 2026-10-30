@@ -8,18 +8,20 @@
     "publisher": "Airwallex",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.airwallexptyltd1735333216345%7CAID.airwallex-bc-integration%7CPAPPID.7c0d72e0-2378-4ae0-ae6c-cbe7f6b8662a",
-    "lastModified": "2026-10-02T09:30:12.3886394+00:00",
-    "appVersion": "1.2.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T10:53:25.3625482+00:00",
+    "appVersion": "1.3.2.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.airwallex.com/hc/en-gb/articles/15723011969167-Microsoft-Dynamics-365-Business-Central-Bank-Feed",
-    "sourceHash": "sha256:d395b99cca590ac89ab27e381ef3f335ab6a1217fb901e8211e189d1fa4c7ac0",
+    "sourceHash": "sha256:840f0518afd6d630134d0c9348fd115392d2c1f8f8b5a5b1af0693fa1c0e717b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d395b99cca590ac89ab27e381ef3f335ab6a1217fb901e8211e189d1fa4c7ac0",
-    "mappedOn": null,
-    "summary": "Syncs Airwallex bank feeds and expenses into BC",
+    "sourceHash": "sha256:840f0518afd6d630134d0c9348fd115392d2c1f8f8b5a5b1af0693fa1c0e717b",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs Airwallex multi-currency bank feeds and spend data with BC.",
     "shape": "connector",
     "primary": [
       {
@@ -36,25 +38,22 @@
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Automated bank feed from Airwallex into BC bank statement lines",
-      "No manual statement imports required",
-      "Each Airwallex currency wallet maps to a BC bank account, preserving original currency",
-      "Connects multiple Airwallex entities to multiple BC companies",
-      "Brings BC tax rates, dimensions and expense categories into Airwallex Spend",
+      "Pushes wallet transactions into BC bank statement lines",
+      "Maps each currency wallet to its own BC bank account",
+      "Keeps the original transaction currency",
+      "Maps several Airwallex entities to matching BC companies",
+      "Sends BC expense categories, dimensions and tax rates to Airwallex Spend",
       "Syncs categorised card expenses, reimbursements and bills back to BC"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Financial services",
-      "Professional services"
-    ],
+    "industries": [],
     "connectsTo": [
       "Airwallex"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

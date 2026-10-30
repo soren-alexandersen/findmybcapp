@@ -8,27 +8,29 @@
     "publisher": "KUMAVISION AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.compliance_check%7CPAPPID.027eb41c-2459-4045-b4d2-eeb6e81362fc",
-    "lastModified": "2026-10-02T10:02:02.5041445+00:00",
-    "appVersion": "29.0.765.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T16:38:50.3191502+00:00",
+    "appVersion": "29.0.782.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/cc/",
-    "sourceHash": "sha256:cf2a9d7b37d247f35eca7702e0bb12cae6a9bd4803495e3eb46b4aef1a27a946",
+    "sourceHash": "sha256:74c47596cd948fc18eba06a895c1ce2fbd41af4961d6b4eadb326d59ff22e2a7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:cf2a9d7b37d247f35eca7702e0bb12cae6a9bd4803495e3eb46b4aef1a27a946",
-    "mappedOn": null,
-    "summary": "Checks business contacts against sanction lists",
+    "sourceHash": "sha256:74c47596cd948fc18eba06a895c1ce2fbd41af4961d6b4eadb326d59ff22e2a7",
+    "mappedOn": "2026-10-30",
+    "summary": "Screens business contacts against sanction lists via an external provider and blocks matches.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-conn-company-data",
-        "confidence": "high"
+        "need": "ng-admin-it-compliance",
+        "confidence": "medium"
       },
       {
-        "need": "ng-audit-compliance",
-        "confidence": "medium"
+        "need": "ng-conn-company-data",
+        "confidence": "low"
       }
     ],
     "secondary": [
@@ -36,15 +38,14 @@
       "ng-supplier-onboarding"
     ],
     "claims": [
-      "Checks all contacts against sanction lists automatically",
-      "Covers the EU anti-terror rules EC 881/2002 and EC 2580/2001",
-      "Manual or automatic checks at configurable intervals",
-      "Result shown directly in document or master record",
-      "Logs every check",
-      "Automatically blocks records on hits",
-      "Lists include US SDN, Denied Persons, Entity List, UN and UK HM lists",
-      "Requires contract with BEO or ECOVIUM service provider",
-      "Free 30-day trial"
+      "Checks contacts against sanction lists such as export control and EU anti-terror regulations",
+      "Checks run manually or automatically at chosen intervals",
+      "Result shown directly in the document or master record",
+      "Every check is logged",
+      "Matching records are blocked automatically",
+      "Lists include UK HM, US SDN, US Denied Persons, US Entity List and UN consolidated list",
+      "Requires a contract with a supported screening provider (BEO or ECOVIUM)",
+      "Costs 438 EUR per year per environment after a 30-day trial"
     ],
     "countries": [
       "AT",

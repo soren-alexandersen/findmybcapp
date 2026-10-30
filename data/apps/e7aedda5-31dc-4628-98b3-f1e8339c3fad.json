@@ -8,38 +8,42 @@
     "publisher": "Pinetworks",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pinetworks%7CAID.gst-mdv%7CPAPPID.e7aedda5-31dc-4628-98b3-f1e8339c3fad",
-    "lastModified": "2026-07-22T01:56:23.659007+00:00",
+    "lastModified": "2026-10-22T11:36:26.1118613+00:00",
     "appVersion": "3.3.1.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://pinetworks.net/maldives-tax-localization/",
-    "sourceHash": "sha256:3f5a650f6936c30c394277edf67a4b6083bef45563ea27c456697e758110fef7",
+    "sourceHash": "sha256:53ce24f0221adeccf352bbc8d39659f3b7371b93902ea6fdbcc8e9669ed2b36c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3f5a650f6936c30c394277edf67a4b6083bef45563ea27c456697e758110fef7",
-    "mappedOn": null,
-    "summary": "Maldives tax and regulatory reporting",
+    "sourceHash": "sha256:53ce24f0221adeccf352bbc8d39659f3b7371b93902ea6fdbcc8e9669ed2b36c",
+    "mappedOn": "2026-10-30",
+    "summary": "Maldives GST setup and MIRA tax reporting for BC.",
     "shape": "localization",
     "primary": [
       {
-        "need": "ng-loc-country-pack",
+        "need": "ng-vat-tax",
         "confidence": "high"
       },
       {
-        "need": "ng-vat-tax",
+        "need": "ng-loc-tax-reporting",
         "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-loc-tax-reporting"
+      "ng-loc-country-pack"
     ],
     "claims": [
-      "Supports Maldives Inland Revenue Authority (MIRA) requirements",
+      "Built for Maldives Inland Revenue Authority requirements",
       "Manages tax activity numbers per business activity",
-      "GST setup and reporting per MIRA standards",
+      "GST setup and reporting to MIRA standards",
       "Generates input tax statements",
-      "Monthly or quarterly tax reporting"
+      "Monthly or quarterly tax reports",
+      "Works on Essentials and Premium",
+      "Available in English"
     ],
     "countries": [
       "MV"
@@ -51,7 +55,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

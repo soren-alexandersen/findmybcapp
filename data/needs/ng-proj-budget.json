@@ -28,7 +28,8 @@
     "Our capital projects need a budget and spend tracking in BC",
     "project budget import from excel",
     "Estimate at completion needs to update the budget each month",
-    "We set budget in hours but finance wants it in money as well"
+    "We set budget in hours but finance wants it in money as well",
+    "We want to see what we have already committed on purchase orders against each project budget"
   ],
   "questions": [
     {
@@ -70,9 +71,9 @@
         }
       ],
       "coverage": {
-        "Construction": 0.36,
-        "Equipment manufacturing / engineer-to-order": 0.43,
-        "Customer or service projects": 0.14
+        "Construction": 0.31,
+        "Equipment manufacturing / engineer-to-order": 0.44,
+        "Customer or service projects": 0.12
       }
     },
     {
@@ -128,14 +129,24 @@
           ]
         },
         {
+          "label": "Cost-plus or time and materials with surcharges",
+          "patterns": [
+            "surcharg",
+            "cost-plus",
+            "\\bt&m\\b",
+            "time and material"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Milestones, progress or retention": 0.57,
-        "Fixed price": 0.07,
-        "Several billing models": 0.29
+        "Milestones, progress or retention": 0.56,
+        "Fixed price": 0.06,
+        "Several billing models": 0.25,
+        "Cost-plus or time and materials with surcharges": 0.19
       }
     },
     {
@@ -159,7 +170,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.14
+        "Yes": 0.19
       }
     },
     {
@@ -179,7 +190,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.14
+        "Yes": 0.12
       }
     },
     {
@@ -201,8 +212,130 @@
         }
       ],
       "coverage": {
-        "Yes": 0.5
+        "Yes": 0.56
       }
+    },
+    {
+      "id": "do-you-break-projects-down-int",
+      "text": "Do you break projects down into a structured hierarchy of work packages (WBS)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a work or cost breakdown structure",
+          "patterns": [
+            "breakdown structure",
+            "\\bwbs\\b",
+            "work packages",
+            "control accounts",
+            "\\bcbs\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a work or cost breakdown structure": 0.25
+      }
+    },
+    {
+      "id": "should-purchases-count-against",
+      "text": "Should purchases count against the project budget as soon as you order?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, track commitments from purchase orders",
+          "patterns": [
+            "commitment",
+            "purchase-to-project",
+            "links purchase",
+            "purchase order line is tagged",
+            "purchase.{0,40}to (the )?project"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track commitments from purchase orders": 0.38
+      }
+    },
+    {
+      "id": "do-you-need-to-value-work-in-p",
+      "text": "Do you need to value work in progress based on how far the project has come?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, WIP or percentage of completion",
+          "patterns": [
+            "\\bwip\\b",
+            "percentage[- ]of[- ]completion",
+            "work progress",
+            "based on progress"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, WIP or percentage of completion": 0.44
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "budget vs actual is core to every app in this need",
+      "terms": [
+        "actual"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "budgeting per resource is standard in every app",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'revenue' wording",
+      "terms": [
+        "revenu"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "project archiving, not a budgeting choice",
+      "terms": [
+        "archiv"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "dimension setup detail",
+      "terms": [
+        "dimension"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'level' wording",
+      "terms": [
+        "level"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'process' wording",
+      "terms": [
+        "proces"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

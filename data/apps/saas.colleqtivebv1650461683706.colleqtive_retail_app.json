@@ -1,0 +1,85 @@
+{
+  "appId": "colleqtivebv1650461683706.colleqtive_retail_app",
+  "guid": null,
+  "publisherId": "colleqtivebv1650461683706",
+  "offerId": "colleqtive_retail_app",
+  "source": {
+    "name": "Colleqtive Inventory Hub",
+    "publisher": "Colleqtive bv",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/colleqtivebv1650461683706.colleqtive_retail_app",
+    "lastModified": "2026-10-13T09:28:58.0411801+00:00",
+    "appVersion": "v3.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg",
+      "RequestPrivateOffer"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:6bba62119ac8bdfa5789b603903b3daa15d7a93d10e96f944779e040dcf7a726",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:6bba62119ac8bdfa5789b603903b3daa15d7a93d10e96f944779e040dcf7a726",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile store inventory app for receiving, counting, ordering and click-and-collect across sites.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-order-allocation",
+      "ng-admin-devices",
+      "ng-vert-retail",
+      "ng-scrap-rework"
+    ],
+    "claims": [
+      "Guided goods receipt by line or container with receipt sampling",
+      "Scheduled and recurring full or partial stock counts",
+      "Stock adjustments require reason codes",
+      "Order proposals from min/max levels and recent sales",
+      "Click-and-collect with reservations, picklists, prepayment and delivery slots",
+      "Reads GS1 and weight barcodes",
+      "Enterprise plan adds alerts for negative stock, overdue counts and missing deliveries",
+      "Business Central connects via REST API with signed webhooks or imports",
+      "Food retail module includes expiry checks and recalls",
+      "Ready-made connectors for Retail Pro Prism, RetailVista and WooCommerce",
+      "SOC 2 Type 2 audited",
+      "Licensed per device with a monthly platform fee"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Retail Pro Prism",
+      "RetailVista",
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

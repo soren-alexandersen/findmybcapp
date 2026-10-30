@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_report_dispatch%7CPAPPID.b5b257aa-818d-427e-a75e-3f88440ec9b6",
-    "lastModified": "2026-06-30T08:58:36.4646613+00:00",
-    "appVersion": "28.0.372012.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-16T12:18:38.1772084+00:00",
+    "appVersion": "28.0.376177.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:f6d19b283f0b4871deee22a398c9d2840f7d52542f8a024e84a346b17679560e",
+    "sourceHash": "sha256:c3f43e5ab6e1819093f3ebb58cd93f929baeba41f0462a22dc347362c8c45e66",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f6d19b283f0b4871deee22a398c9d2840f7d52542f8a024e84a346b17679560e",
-    "mappedOn": null,
-    "summary": "Sends multiple reports to different recipients",
+    "sourceHash": "sha256:c3f43e5ab6e1819093f3ebb58cd93f929baeba41f0462a22dc347362c8c45e66",
+    "mappedOn": "2026-10-30",
+    "summary": "Emails several reports per process to chosen recipients as attachments.",
     "shape": "usability",
     "primary": [
       {
@@ -29,9 +31,9 @@
     ],
     "secondary": [],
     "claims": [
-      "Sends multiple reports to different persons",
-      "Assigns reports to a process and sends them directly as email attachment",
-      "Supports CC and BCC recipients"
+      "Assigns multiple reports to a process and sends them as attachments",
+      "Supports CC and BCC recipients",
+      "Works with Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -56,7 +58,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

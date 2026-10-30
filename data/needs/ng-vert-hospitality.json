@@ -79,10 +79,10 @@
         }
       ],
       "coverage": {
-        "Restaurant or café": 0.56,
-        "Hotel or resort": 0.28,
-        "Catering, canteen or central kitchen": 0.22,
-        "Attraction, tours or travel": 0.22
+        "Restaurant or café": 0.5,
+        "Hotel or resort": 0.25,
+        "Catering, canteen or central kitchen": 0.25,
+        "Attraction, tours or travel": 0.25
       }
     },
     {
@@ -118,8 +118,8 @@
         }
       ],
       "coverage": {
-        "Yes, connect it to BC": 0.61,
-        "No, we want it all inside BC": 0.22
+        "Yes, connect it to BC": 0.56,
+        "No, we want it all inside BC": 0.25
       }
     },
     {
@@ -143,7 +143,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.28
+        "Yes": 0.31
       }
     },
     {
@@ -176,15 +176,33 @@
           ]
         },
         {
+          "label": "Order meals for delivery",
+          "patterns": [
+            "delivery app",
+            "covers delivery",
+            "meal planning, delivery"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Book rooms, tables or activities": 0.22,
+        "Book rooms, tables or activities": 0.19,
         "Buy tickets or memberships": 0.06,
-        "Order and pay at a till or table": 0.39
+        "Order and pay at a till or table": 0.31,
+        "Order meals for delivery": 0.19
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "licensing and module packaging",
+      "terms": [
+        "modul"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

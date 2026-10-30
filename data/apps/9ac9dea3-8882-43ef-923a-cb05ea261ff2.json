@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.focubizgmbh1602450433405|AID.pmxim|PAPPID.9ac9dea3-8882-43ef-923a-cb05ea261ff2",
+  "guid": "9ac9dea3-8882-43ef-923a-cb05ea261ff2",
+  "publisherId": "focubizgmbh1602450433405",
+  "offerId": "pmxim",
+  "source": {
+    "name": "PMX E-commerce Integration",
+    "publisher": "focu.biz GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.focubizgmbh1602450433405%7CAID.pmxim%7CPAPPID.9ac9dea3-8882-43ef-923a-cb05ea261ff2",
+    "lastModified": "2026-10-17T01:57:49.1013835+00:00",
+    "appVersion": "19.31.2.54",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.focu.biz/support",
+    "sourceHash": "sha256:3697dc8b7318303a2653d20b8b57a4b48be2e94aaa27610c2fea142ce834fc82",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3697dc8b7318303a2653d20b8b57a4b48be2e94aaa27610c2fea142ce834fc82",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC to webshops and marketplaces like Amazon, Shopify, Walmart and Shopware.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-sales-channels"
+    ],
+    "claims": [
+      "Lists and updates items on connected sales channels automatically",
+      "Pushes price updates automatically",
+      "Updates inventory per location or warehouse",
+      "Downloads customer orders into BC automatically",
+      "Sends tracking information back to the channel",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Amazon",
+      "Shopify",
+      "Walmart",
+      "Shopware"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

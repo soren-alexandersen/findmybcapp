@@ -75,9 +75,9 @@
       ],
       "coverage": {
         "Timber and wood": 0.08,
-        "Steel and sheet metal": 0.58,
+        "Steel and sheet metal": 0.52,
         "Glass": 0.08,
-        "Chemicals": 0.12,
+        "Chemicals": 0.16,
         "Concrete, aggregates and building materials": 0.12
       }
     },
@@ -136,10 +136,10 @@
         }
       ],
       "coverage": {
-        "Quoting and pricing": 0.25,
-        "Cutting, nesting and production": 0.5,
-        "Delivery, transport and weighing": 0.33,
-        "Stock by dimensions, packages or lots": 0.29
+        "Quoting and pricing": 0.24,
+        "Cutting, nesting and production": 0.56,
+        "Delivery, transport and weighing": 0.32,
+        "Stock by dimensions, packages or lots": 0.36
       }
     },
     {
@@ -175,7 +175,7 @@
       ],
       "coverage": {
         "By volume, area or length (m3, m2, board feet, m)": 0.12,
-        "By weight or a formula per material": 0.17
+        "By weight or a formula per material": 0.16
       }
     },
     {
@@ -214,9 +214,9 @@
         }
       ],
       "coverage": {
-        "Metal tolling, metal accounts or subcontracting": 0.21,
+        "Metal tolling, metal accounts or subcontracting": 0.2,
         "Wood certification (FSC, PEFC, EUDR)": 0.08,
-        "Hazardous goods and safety data": 0.08
+        "Hazardous goods and safety data": 0.12
       }
     },
     {
@@ -244,8 +244,17 @@
       ],
       "coverage": {
         "Essentials": 0.08,
-        "Premium": 0.67
+        "Premium": 0.68
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'product' wording",
+      "terms": [
+        "product"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

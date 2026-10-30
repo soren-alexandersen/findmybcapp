@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2nowaste%7CPAPPID.2866ac3f-2f17-4d15-948a-5590e3469057",
-    "lastModified": "2025-06-12T07:30:05.1061971+00:00",
+    "lastModified": "2026-10-19T16:58:30.2781265+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:09684291c53ab7e2694f7d21deaf13a5435badcde076e5b091a158ef547a6939",
+    "sourceHash": "sha256:29c091569d92af9fe1ce3939213926e551998dfbe86f09fb26f462dce7cfd9ef",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:09684291c53ab7e2694f7d21deaf13a5435badcde076e5b091a158ef547a6939",
-    "mappedOn": null,
-    "summary": "Integrates BC with Nowaste Logistics WMS",
+    "sourceHash": "sha256:29c091569d92af9fe1ce3939213926e551998dfbe86f09fb26f462dce7cfd9ef",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Nowaste Logistics warehouse management system.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Nowaste Logistics",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Nowaste Logistics account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Nowaste Logistics"
     ],
-    "requires": [
-      "Nowaste Logistics"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

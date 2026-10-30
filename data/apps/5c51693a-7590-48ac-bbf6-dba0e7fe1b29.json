@@ -8,74 +8,46 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_landed_costs%7CPAPPID.5c51693a-7590-48ac-bbf6-dba0e7fe1b29",
-    "lastModified": "2026-05-11T13:40:16.3005831+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-23T11:52:03.2824442+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-landed-costs-help-en/",
-    "sourceHash": "sha256:5dfec643bbf2ce868d9b9ef15787b14011dbb525c06f1c63944ecbe76854d870",
+    "sourceHash": "sha256:768de20a5cafc2560e128a8f9016428f143b841d71f5192323386d6ce218b54b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5dfec643bbf2ce868d9b9ef15787b14011dbb525c06f1c63944ecbe76854d870",
-    "mappedOn": null,
-    "summary": "Splits and analyzes landed costs by type on purchases",
+    "sourceHash": "sha256:768de20a5cafc2560e128a8f9016428f143b841d71f5192323386d6ce218b54b",
+    "mappedOn": "2026-10-30",
+    "summary": "Splits landed costs by type per item, vendor or order into item cost prices.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-inventory-analysis",
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-procurement-spend",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-procurement-spend",
-      "ng-period-close"
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Splits indirect purchase costs into landed cost types posted to separate accounts",
-      "Landed cost as percentage of purchase price and/or fixed amount per base unit",
-      "Landed costs per item, vendor and purchase order",
-      "Works with all valuation methods (Standard, FIFO, LIFO, Specific)",
-      "Budgeted vs actual landed cost per type",
-      "Landed Costs entry table for analysis",
-      "Unlimited landed cost types",
-      "Automatic posting of landed costs"
+      "Unlimited landed cost types posted to separate G/L accounts",
+      "Costs as a percentage of purchase price and/or fixed amount per base unit",
+      "Landed cost rates per vendor and per item, tracked per order",
+      "Works with Standard, FIFO, LIFO and Specific costing",
+      "Budgeted landed costs compared with actual costs later",
+      "Posted automatically as standard value entries",
+      "Landed costs entry table for analysis per item, vendor and order",
+      "Per-user subscription with 30-day trial"
     ],
-    "countries": [
-      "AR",
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "CO",
-      "DE",
-      "DK",
-      "DO",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "IE",
-      "IS",
-      "IT",
-      "LT",
-      "LU",
-      "LV",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PE",
-      "PL",
-      "SE",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -86,13 +58,11 @@
       "nl",
       "sv"
     ],
-    "industries": [
-      "Distribution"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

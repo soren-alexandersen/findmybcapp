@@ -8,18 +8,20 @@
     "publisher": "Dynamics-Inspire ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.caztaps1613739557990%7CAID.eazy_work%7CPAPPID.05ffd64e-3713-4e4b-a081-68ee669194ad",
-    "lastModified": "2026-10-03T15:56:16.8438516+00:00",
-    "appVersion": "28.0.0.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T13:08:48.2605111+00:00",
+    "appVersion": "28.0.0.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicsinspire.dk/om-os/kontakt/",
-    "sourceHash": "sha256:724d56ed2c8c0d6ad6d82dd91907bccd0fb01705ec9d112e661e8454d372a929",
+    "sourceHash": "sha256:df777988bc30fdec277120dc2bf5dde6ca927d16d3f2ad51b5f16c89fb50fea4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:724d56ed2c8c0d6ad6d82dd91907bccd0fb01705ec9d112e661e8454d372a929",
-    "mappedOn": null,
-    "summary": "Project finance, change orders and invoicing for construction",
+    "sourceHash": "sha256:df777988bc30fdec277120dc2bf5dde6ca927d16d3f2ad51b5f16c89fb50fea4",
+    "mappedOn": "2026-10-30",
+    "summary": "Construction project management: change orders, progress billing, WIP, forecasting and subcontractors.",
     "shape": "vertical",
     "primary": [
       {
@@ -32,7 +34,7 @@
       },
       {
         "need": "ng-proj-billing",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
@@ -42,34 +44,30 @@
       "ng-proj-materials-subcontract"
     ],
     "claims": [
-      "Covers change orders approved by the customer, plus agreements for extra work",
-      "Customer approval workflows for additional work",
-      "Real-time tracking of budgets, actuals, forecasts and contribution margins",
-      "Progress billing, contractual, usage-based and ad-hoc invoicing",
-      "Project periods and WIP calculations",
-      "Pre-registration of project purchase invoices before posting",
-      "Project-based purchase approval",
-      "Project templates for fast project creation",
+      "Extra work agreements and change orders with customer approval",
+      "Progress, contractual, usage-based and ad-hoc invoicing",
+      "Project periods and WIP calculation",
+      "Real-time budget, forecast, actual cost and margin tracking",
+      "Forecast deviation management",
+      "Pre-registration of purchase invoices on projects before posting",
+      "Project-based purchase approvals",
+      "Project templates for quick setup",
       "Project and supplier guarantee management",
       "Piecework (Akkord) administration and settlement",
-      "Connects to payroll systems and wage exports",
+      "Integration with payroll and wage export solutions",
       "Sigma budget import",
       "Project account schedules and Excel export",
-      "Forecast deviation management",
-      "Role centers for site staff and project managers",
-      "Subcontractor and temporary workforce management"
+      "Role centers for project managers and site staff"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Construction"
     ],
-    "connectsTo": [
-      "Sigma"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

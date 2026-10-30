@@ -8,23 +8,27 @@
     "publisher": "Nav24 Sp. z o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.advanced_inventory%7CPAPPID.b57cd935-f0ea-4380-aca0-79b424e243b3",
-    "lastModified": "2026-09-28T12:12:14.2492099+00:00",
-    "appVersion": "26.0.18.4",
+    "lastModified": "2026-10-16T12:25:33.9253745+00:00",
+    "appVersion": "27.0.19.1",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Advanced-Inventory/",
-    "sourceHash": "sha256:f7cf75215d68cd368809a723ed7dd9090ac9d34eaa974af6a52be9b8e09eb494",
+    "sourceHash": "sha256:3e79a7cf85073672d4e079955e23bcfea37cb642c04548c416cb2a353e916320",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f7cf75215d68cd368809a723ed7dd9090ac9d34eaa974af6a52be9b8e09eb494",
-    "mappedOn": null,
-    "summary": "Real-time inventory visibility across locations",
+    "sourceHash": "sha256:3e79a7cf85073672d4e079955e23bcfea37cb642c04548c416cb2a353e916320",
+    "mappedOn": "2026-10-30",
+    "summary": "Stock visibility across companies, custom availability rules and low-stock email alerts.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-inventory-analysis",
         "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
       }
     ],
     "secondary": [
@@ -33,23 +37,28 @@
       "ng-sales-order-entry"
     ],
     "claims": [
-      "Color-coded low and critical stock indicators inside documents",
-      "Custom availability rules",
-      "Trading Hub for fast sales order creation with pricing and costs",
-      "Multi-company inventory view",
-      "Stock levels within sales, purchase and production documents",
-      "User-specific location filtering",
-      "Inventory rotation report with one-click transfer orders",
-      "Low stock email notifications per item, category or global",
-      "Free unlimited sandbox testing and one-month production trial"
+      "Colour-coded indicators on documents flag low and critical stock",
+      "User-defined availability formulas combining inventory, reservations, sales, purchases, production and transfers",
+      "Trading hub page for fast sales order creation showing prices and costs",
+      "One screen showing stock across all BC companies",
+      "Stock levels shown inside sales, purchase and production documents",
+      "Inventory views filtered to each user's own locations",
+      "Rotation report analyses sales and stock to suggest transfers between locations",
+      "Transfer orders created in one click from the rotation report",
+      "Low-stock email alerts with thresholds per item, category or global",
+      "Free unlimited testing in sandbox and one month free in production",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "free_trial",
+    "deployment": "online",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

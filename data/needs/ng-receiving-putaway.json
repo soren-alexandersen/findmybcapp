@@ -52,7 +52,8 @@
     "cross dock production output",
     "Is there a way to link production output directly to the customer shipment?",
     "Our produced pallets go directly to our distribution center but BC does not follow",
-    "When a production order finishes we want the sales order ready to ship immediately"
+    "When a production order finishes we want the sales order ready to ship immediately",
+    "We want to count stock and move it between bins with the same scanners we use for receiving"
   ],
   "questions": [
     {
@@ -95,8 +96,8 @@
         }
       ],
       "coverage": {
-        "Yes, on handheld scanners or phones": 0.52,
-        "Yes, but it must run inside BC with no extra middleware": 0.11
+        "Yes, on handheld scanners or phones": 0.6,
+        "Yes, but it must run inside BC with no extra middleware": 0.08
       }
     },
     {
@@ -142,9 +143,9 @@
         }
       ],
       "coverage": {
-        "Sea containers or consolidated shipments": 0.23,
-        "On pallets I want to track as units": 0.18,
-        "By weight, over a scale or weighbridge": 0.08
+        "Sea containers or consolidated shipments": 0.21,
+        "On pallets I want to track as units": 0.19,
+        "By weight, over a scale or weighbridge": 0.05
       }
     },
     {
@@ -168,7 +169,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.25
+        "Yes": 0.29
       }
     },
     {
@@ -186,7 +187,11 @@
             "short receipt",
             "quantity (fluctuat|difference)",
             "over and under",
-            "partial"
+            "partial",
+            "differing quantit",
+            "excess quantit",
+            "logistic differences",
+            "over the limit"
           ]
         },
         {
@@ -211,10 +216,76 @@
         }
       ],
       "coverage": {
-        "Handle over- or under-deliveries": 0.11,
-        "Add freight and duties to item cost": 0.1,
-        "Print labels": 0.15
+        "Handle over- or under-deliveries": 0.15,
+        "Add freight and duties to item cost": 0.08,
+        "Print labels": 0.2
       }
+    },
+    {
+      "id": "besides-receiving-what-else-sh",
+      "text": "Besides receiving, what else should staff do with the same app?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Count stock",
+          "patterns": [
+            "cycle count",
+            "physical (inventory|count)",
+            "inventory count",
+            "stock count",
+            "counting"
+          ]
+        },
+        {
+          "label": "Move stock between bins or locations",
+          "patterns": [
+            "bin-to-bin",
+            "movements?\\b",
+            "between (locations|bins)",
+            "transfer orders?",
+            "reclassif"
+          ]
+        },
+        {
+          "label": "Pick and ship orders",
+          "patterns": [
+            "\\bpick",
+            "shipping"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Count stock": 0.31,
+        "Move stock between bins or locations": 0.28,
+        "Pick and ship orders": 0.53
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "device licensing and platform details",
+      "terms": [
+        "devic"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "per-location setup, standard in WMS apps",
+      "terms": [
+        "location"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic quantity handling wording",
+      "terms": [
+        "quantity"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

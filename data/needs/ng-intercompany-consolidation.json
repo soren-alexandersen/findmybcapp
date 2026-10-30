@@ -76,7 +76,9 @@
             "different (bc )?(subscriptions|servers|databases)",
             "odata",
             "web services?",
-            "secure api"
+            "secure api",
+            "multiple bc systems",
+            "between databases"
           ]
         },
         {
@@ -107,7 +109,7 @@
       "coverage": {
         "Separate companies in one environment": 0.07,
         "Different environments, tenants or databases": 0.24,
-        "Several legal entities inside one company": 0.09,
+        "Several legal entities inside one company": 0.07,
         "Other ERP systems too": 0.11
       }
     },
@@ -164,16 +166,27 @@
           ]
         },
         {
+          "label": "Chart of accounts, dimensions and setups",
+          "patterns": [
+            "chart of accounts",
+            "dimension codes",
+            "maps? (units|dimensions)",
+            "dimensions (and chart|between)",
+            "centralizes setups"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Sales and purchase orders and invoices": 0.46,
-        "Master data (items, customers, vendors)": 0.3,
-        "Journals and G/L entries": 0.41,
-        "Stock visibility and transfers": 0.28,
-        "Project costs and hours": 0.07
+        "Sales and purchase orders and invoices": 0.44,
+        "Master data (items, customers, vendors)": 0.27,
+        "Journals and G/L entries": 0.38,
+        "Stock visibility and transfers": 0.31,
+        "Project costs and hours": 0.07,
+        "Chart of accounts, dimensions and setups": 0.07
       }
     },
     {
@@ -196,7 +209,7 @@
         }
       ],
       "coverage": {
-        "Yes, consolidated statements or eliminations": 0.26
+        "Yes, consolidated statements or eliminations": 0.27
       }
     },
     {
@@ -219,7 +232,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.15
+        "Yes": 0.16
       }
     },
     {
@@ -242,7 +255,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.17
+        "Yes": 0.18
       }
     },
     {
@@ -263,7 +276,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.15
+        "Yes": 0.16
       }
     }
   ]

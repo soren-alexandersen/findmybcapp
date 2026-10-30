@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex046purchaserequest%7CPAPPID.f2d14c8d-6f8a-45a6-8c0e-5b3db46aa59e",
-    "lastModified": "2026-10-01T07:20:02.4710901+00:00",
-    "appVersion": "28.0.16.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T11:48:47.7424437+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
-    "sourceHash": "sha256:b3d3975738b107ac65fe864e6fdd8a60260166a6297597394fe818d323a50ab9",
+    "sourceHash": "sha256:604bc16be6d4adf37721f52ce332b8e19d9c573f471f4293749eb16d1816e36e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b3d3975738b107ac65fe864e6fdd8a60260166a6297597394fe818d323a50ab9",
-    "mappedOn": null,
-    "summary": "Internal purchase requisitions with AI email intake",
+    "sourceHash": "sha256:604bc16be6d4adf37721f52ce332b8e19d9c573f471f4293749eb16d1816e36e",
+    "mappedOn": "2026-10-30",
+    "summary": "Employee purchase requests with approval, converted into quotes, orders or blanket orders.",
     "shape": "process",
     "primary": [
       {
@@ -29,34 +31,34 @@
     ],
     "secondary": [
       "ng-purchase-orders",
-      "ng-admin-approval-workflows",
-      "ng-admin-copilot-agents",
       "ng-procurement-spend"
     ],
     "claims": [
-      "AI agent converts incoming emails into structured procurement documents",
-      "One or many POs from one request, or pull request lines into an existing PO",
-      "Turns requests into blanket POs, orders or purchase quotes",
+      "One request can create one or several purchase orders, or feed an existing one",
+      "Creates purchase quotes, orders or blanket orders",
       "Approval via BC workflows, Power Automate or EOS Data Security",
-      "Team Member licensed users can create requisitions",
-      "Request lines for G/L accounts, items, fixed assets and resources",
-      "Request by description, converted to new master record later",
-      "Different vendor per line, split into multiple purchase documents",
-      "Links preserved from purchase document back to request line",
-      "Request products by description for review before new item creation",
-      "Free trial available"
+      "Team Member license users can create requisitions",
+      "Lines can be items, G/L accounts, resources or fixed assets",
+      "Request by description, then convert to a new master record after review",
+      "Different vendor per line, splitting into several purchase documents",
+      "Purchase documents keep a link back to the original request line",
+      "AI agent converts incoming emails into procurement documents"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
     "industries": [
-      "Food and beverage",
-      "Medical device manufacturing",
+      "Food and Beverage",
+      "Medical Device Manufacturing",
       "Pharmaceuticals"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

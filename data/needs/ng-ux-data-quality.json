@@ -28,7 +28,8 @@
     "Address autocomplete while typing would save us so many errors",
     "Data quality score for our customer base",
     "Stop people from saving an item without a unit of measure",
-    "We migrated and now have hundreds of duplicate contacts to clean up"
+    "We migrated and now have hundreds of duplicate contacts to clean up",
+    "Some fields should only be required in certain cases"
   ],
   "questions": [
     {
@@ -87,10 +88,10 @@
         }
       ],
       "coverage": {
-        "Records saved with required fields left empty": 0.45,
-        "Wrong addresses, emails or phone numbers": 0.16,
-        "Invalid VAT numbers or bank accounts": 0.06,
-        "Duplicate records": 0.06,
+        "Records saved with required fields left empty": 0.44,
+        "Wrong addresses, emails or phone numbers": 0.15,
+        "Invalid VAT numbers or bank accounts": 0.07,
+        "Duplicate records": 0.11,
         "Personal data and GDPR requests": 0.02
       }
     },
@@ -126,7 +127,7 @@
       ],
       "coverage": {
         "Yes, approval or status steps": 0.24,
-        "No, just check the fields": 0.2
+        "No, just check the fields": 0.16
       }
     },
     {
@@ -156,13 +157,23 @@
           ]
         },
         {
+          "label": "Any table, including custom and other apps' tables",
+          "patterns": [
+            "any table",
+            "custom(ized)? tables",
+            "isv extensions",
+            "related tables?"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Cards: customers, vendors, items": 0.63,
-        "Documents and journals before posting or release": 0.45
+        "Cards: customers, vendors, items": 0.55,
+        "Documents and journals before posting or release": 0.47,
+        "Any table, including custom and other apps' tables": 0.11
       }
     },
     {
@@ -191,7 +202,7 @@
         }
       ],
       "coverage": {
-        "Block the record or posting": 0.45,
+        "Block the record or posting": 0.38,
         "Just warn the user": 0.24
       }
     },
@@ -218,7 +229,32 @@
         }
       ],
       "coverage": {
-        "Our own admin, without a developer": 0.24
+        "Our own admin, without a developer": 0.22
+      }
+    },
+    {
+      "id": "do-your-rules-depend-on-other-",
+      "text": "Do your rules depend on other values, for example only for some customer groups?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, rules with conditions",
+          "patterns": [
+            "conditional",
+            "conditions? on",
+            "formula-based conditions",
+            "based on other field",
+            "by item filter",
+            "depending on"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, rules with conditions": 0.18
       }
     }
   ]

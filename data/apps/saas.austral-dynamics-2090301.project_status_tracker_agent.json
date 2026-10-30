@@ -1,0 +1,63 @@
+{
+  "appId": "austral-dynamics-2090301.project_status_tracker_agent",
+  "guid": null,
+  "publisherId": "austral-dynamics-2090301",
+  "offerId": "project_status_tracker_agent",
+  "source": {
+    "name": "Project Status Tracker Agent",
+    "publisher": "Austral Dynamics Pty Ltd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/austral-dynamics-2090301.project_status_tracker_agent",
+    "lastModified": "2026-10-29T09:51:38.1234693+00:00",
+    "appVersion": "v1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fc8b73b056321dc37dc841b2ec0b25eb2c0c954da20da99f2e5b879935e2ce46",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc8b73b056321dc37dc841b2ec0b25eb2c0c954da20da99f2e5b879935e2ce46",
+    "mappedOn": "2026-10-30",
+    "summary": "Teams chat assistant answering questions on BC project progress and costs.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-office-teams",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Runs inside Microsoft Teams",
+      "Answers natural-language questions about projects",
+      "Retrieves project and cost data from Business Central",
+      "Shows project progress and costs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

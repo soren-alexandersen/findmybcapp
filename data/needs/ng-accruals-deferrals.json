@@ -87,10 +87,10 @@
         }
       ],
       "coverage": {
-        "Goods or services received but not yet invoiced": 0.42,
-        "Prepaid costs or income spread over months": 0.47,
-        "Rebates, bonuses or freight": 0.16,
-        "Subscription revenue or loan interest": 0.11
+        "Goods or services received but not yet invoiced": 0.4,
+        "Prepaid costs or income spread over months": 0.5,
+        "Rebates, bonuses or freight": 0.15,
+        "Subscription revenue or loan interest": 0.1
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Real G/L, reversed automatically": 0.21,
-        "Simulated ledger for interim statements": 0.21
+        "Real G/L, reversed automatically": 0.2,
+        "Simulated ledger for interim statements": 0.2
       }
     },
     {
@@ -142,8 +142,17 @@
         }
       ],
       "coverage": {
-        "Yes, allocate by percentage": 0.21
+        "Yes, allocate by percentage": 0.2
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI language availability",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

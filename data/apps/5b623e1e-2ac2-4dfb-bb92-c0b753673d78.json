@@ -8,18 +8,20 @@
     "publisher": "RUX Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.crm%7CPAPPID.5b623e1e-2ac2-4dfb-bb92-c0b753673d78",
-    "lastModified": "2026-09-14T22:35:21.8607927+00:00",
-    "appVersion": "27.2.0.109",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T15:41:26.0440344+00:00",
+    "appVersion": "27.2.0.116",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/advanced-crm",
-    "sourceHash": "sha256:7d523e41e224ef3022f8573f724314f2d841e9b4959b76e133f9a670201db372",
+    "sourceHash": "sha256:b806b602157db1808038f60a7ce6a2c90f4903570829767a81abe0da4c579a49",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7d523e41e224ef3022f8573f724314f2d841e9b4959b76e133f9a670201db372",
-    "mappedOn": null,
-    "summary": "Enhanced CRM features for contacts, opportunities and sales",
+    "sourceHash": "sha256:b806b602157db1808038f60a7ce6a2c90f4903570829767a81abe0da4c579a49",
+    "mappedOn": "2026-10-30",
+    "summary": "Extends BC's built-in CRM with contact stages, activities, tasks, email campaigns and quoting follow-up.",
     "shape": "process",
     "primary": [
       {
@@ -28,7 +30,7 @@
       },
       {
         "need": "ng-sales-pipeline",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-sales-quotes",
@@ -37,23 +39,22 @@
     ],
     "secondary": [
       "ng-mkt-campaigns",
-      "ng-lead-management"
+      "ng-lead-management",
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "Contact stages lead/opportunity/customer",
-      "Contact card with timeline and profile",
-      "Log emails, calls and meetings on contact card",
-      "Workflow checklists",
-      "Role centers and dashboards for agents and managers",
-      "Task creation and tracking",
-      "Email templates from contact card",
-      "Marketing campaigns",
-      "Automated follow-up emails",
-      "Quote auto follow-ups, win/loss tracking, templates",
-      "Estimates without customer or items",
-      "Order conversion rates, booking log, auto-create new items",
+      "Contacts move through lead, opportunity and customer stages",
+      "Log emails, calls and meetings on the contact card",
+      "Role centers and dashboards for salespeople and managers",
+      "Tasks for leads, opportunities and customers",
+      "Email templates sent from the contact card",
+      "Automated follow-up emails to customers and salespeople",
+      "Quote follow-ups, win/loss tracking and quote templates",
+      "Estimates can be sent without a customer or items",
+      "Conversion rates, booking log and automatic item creation at order",
       "Extended product descriptions and images on printouts",
-      "No integration points needed"
+      "Runs within standard BC with no external integration",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [],

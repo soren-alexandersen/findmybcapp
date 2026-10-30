@@ -8,18 +8,20 @@
     "publisher": "ON720.COM",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.migration720%7CPAPPID.e28151b1-d0de-479a-b1a3-8832080fffcf",
-    "lastModified": "2026-02-19T14:07:39.0574395+00:00",
-    "appVersion": "27.3.260219.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T22:33:53.8387418+00:00",
+    "appVersion": "29.0.261019.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.on720.com/",
-    "sourceHash": "sha256:6f5cec193a3a7a1e9fe690a214b9a2524927375101ac80fb86043f98028e01d7",
+    "sourceHash": "sha256:f66186de2dcd34f4114889b2fea8451f2ba225b66962732451a163ee68e28faa",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6f5cec193a3a7a1e9fe690a214b9a2524927375101ac80fb86043f98028e01d7",
-    "mappedOn": null,
-    "summary": "Migrates transactions and documents into BC",
+    "sourceHash": "sha256:f66186de2dcd34f4114889b2fea8451f2ba225b66962732451a163ee68e28faa",
+    "mappedOn": "2026-10-30",
+    "summary": "Migrates finance history and documents from Visma e-conomic into BC",
     "shape": "usability",
     "primary": [
       {
@@ -27,14 +29,17 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
     "claims": [
-      "Migrates historical financial transactions with PDF documents",
-      "Connects to VISMA or e-conomic via token",
-      "Migrates the chart of accounts, G/L entries, customers, suppliers and payment terms",
-      "Reuse or map chart of accounts",
+      "Moves historical financial transactions with their PDF documents",
+      "Token-based connection to Visma e-conomic",
+      "Migrates G/L entries, chart of accounts, payment terms, customers and vendors",
+      "Reuse the old chart of accounts or map to a new one",
       "Links expense attachments to G/L entries",
-      "Real-time error alerts"
+      "Real-time error alerts during migration",
+      "Live tracking of migration status"
     ],
     "countries": [],
     "languages": [
@@ -43,12 +48,11 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Visma",
-      "e-conomic"
+      "Visma e-conomic"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

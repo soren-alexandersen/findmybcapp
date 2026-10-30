@@ -8,44 +8,54 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.attach-it-app%7CPAPPID.fbd38f3d-18b3-4ec9-bb78-03d32f79cdbb",
-    "lastModified": "2026-09-13T23:42:09.342773+00:00",
-    "appVersion": "26.0.260909.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:36:41.8344395+00:00",
+    "appVersion": "26.0.261020.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-record-links/docs/",
-    "sourceHash": "sha256:a5a561dbb97d6a86a685d7d0055a04e1e6d89afa59ab284231e2e02556ccf7f5",
+    "sourceHash": "sha256:98faa30982fc180105502109640512e908ba37df2cf37b5c2b785d8d48d4de70",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a5a561dbb97d6a86a685d7d0055a04e1e6d89afa59ab284231e2e02556ccf7f5",
-    "mappedOn": null,
-    "summary": "Drag-and-drop attachments with folders",
+    "sourceHash": "sha256:98faa30982fc180105502109640512e908ba37df2cf37b5c2b785d8d48d4de70",
+    "mappedOn": "2026-10-30",
+    "summary": "Drag-and-drop file attachments on records, stored in BC or external storage with folder rules.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-attachments",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-document-storage"
+      "ng-admin-storage-archiving"
     ],
     "claims": [
-      "Drag-and-drop files onto a FactBox to attach to records",
-      "Store files in BC or external storage such as SFTP and cloud storage",
-      "Dynamic folder paths and file names based on record data",
-      "Attachments and links accessible in FactBoxes on master data and document pages",
-      "External storage reduces database size"
+      "Drag-and-drop files onto a factbox to attach them to a record",
+      "Files can be stored in BC or in external storage such as SFTP or cloud storage via Data Integrator",
+      "Dynamic folder paths and file names built from record data",
+      "Attachments and links shown alongside other factboxes on cards and documents",
+      "Works with standard BC attachments, links and notes",
+      "English only"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
     "industries": [],
-    "connectsTo": [],
+    "connectsTo": [
+      "SFTP",
+      "Cloud storage"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

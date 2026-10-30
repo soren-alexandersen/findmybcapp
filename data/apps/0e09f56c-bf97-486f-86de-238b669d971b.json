@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20DocEx/bc28/en-US/index.html",
     "sourceHash": "sha256:40d82897dc8edc7320d14ce05aa86cb42e0c20bd1ab53052c35387a9a4160f08",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:40d82897dc8edc7320d14ce05aa86cb42e0c20bd1ab53052c35387a9a4160f08",

@@ -8,18 +8,20 @@
     "publisher": "Intelligent Systems",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcediintegration-is%7CPAPPID.37c033ba-09b1-4458-b729-eb737b252024",
-    "lastModified": "2026-06-05T11:59:46.5639356+00:00",
-    "appVersion": "20.6.72.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-07T13:57:13.3367437+00:00",
+    "appVersion": "24.0.81.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.isystems-group.com/contacts/",
-    "sourceHash": "sha256:2479b4ac58f8da2e24c6e1b72dc93e46305e26d8144a33010123478facf2d40e",
+    "sourceHash": "sha256:71cbde740d6303fc4344ea34a8edf7a875da0e79288e66b30ff24bb5bf653ff1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2479b4ac58f8da2e24c6e1b72dc93e46305e26d8144a33010123478facf2d40e",
-    "mappedOn": null,
-    "summary": "EDI exchange of sales and purchase documents",
+    "sourceHash": "sha256:71cbde740d6303fc4344ea34a8edf7a875da0e79288e66b30ff24bb5bf653ff1",
+    "mappedOn": "2026-10-30",
+    "summary": "XML-based EDI exchange of orders, invoices and shipment notices with configurable mappings.",
     "shape": "connector",
     "primary": [
       {
@@ -29,19 +31,20 @@
     ],
     "secondary": [
       "ng-sales-order-entry",
-      "ng-ap-invoice-capture"
+      "ng-ap-invoice-capture",
+      "ng-purchase-orders"
     ],
     "claims": [
-      "XML-based EDI exchange",
       "Sends purchase orders to vendors",
       "Imports purchase invoices from vendors",
-      "Sends sales invoices, credit/debit memos and shipment info to customers",
+      "Sends sales invoices, credit and debit memos and shipment information to customers",
       "Imports customer sales orders",
       "Maps any XML structure to BC fields",
-      "Custom ETL functions on import/export",
+      "Custom functions for transformations during import and export",
       "Manual or scheduled batch imports",
-      "Detailed document logs identifying EDI documents",
-      "Unlimited templates per document type"
+      "Document log distinguishes EDI-received documents from manual ones",
+      "Unlimited templates per document type",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -51,7 +54,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,21 @@
+{
+  "id": "ng-company-vehicles",
+  "order": 224,
+  "label": "Running our company vehicles and drivers",
+  "description": "Keeping track of company cars, vans and trucks, their drivers, trips, fuel use and accessories, plus driver behaviour and compliance reminders.",
+  "type": "bpc",
+  "area": "Fixed assets & maintenance",
+  "relevance": "low",
+  "statements": [
+    "Running our company vehicles and drivers",
+    "Keeping track of company cars, vans and trucks, their drivers, trips, fuel use and accessories, plus driver behaviour and compliance reminders.",
+    "We run a fleet of vans and cars and track them outside BC.",
+    "Fuel receipts and trip sheets are typed in by hand.",
+    "We cannot see the fuel consumption per vehicle.",
+    "We want to know which equipment and accessories sit in which vehicle.",
+    "We need to see where our vehicles are and how drivers drive.",
+    "Drivers forget inspections and document renewals unless someone reminds them.",
+    "We want vehicle running costs next to the asset in the books."
+  ],
+  "questions": []
+}

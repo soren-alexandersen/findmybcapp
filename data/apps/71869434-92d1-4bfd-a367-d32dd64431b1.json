@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.qualitycontrolbc%7CPAPPID.71869434-92d1-4bfd-a367-d32dd64431b1",
-    "lastModified": "2026-09-23T05:48:49.4491434+00:00",
-    "appVersion": "2603.2.343967.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:46:29.7409419+00:00",
+    "appVersion": "2604.0.353682.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/QCA/",
-    "sourceHash": "sha256:bb53996d457481444a0864761eb3a0dffe530c9a433004bb0cb53195ad624db3",
+    "sourceHash": "sha256:0df15dd6de8d0d38faede258e2cc258ff387f8ec8da8f793f1f0c4a83818e9b9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bb53996d457481444a0864761eb3a0dffe530c9a433004bb0cb53195ad624db3",
-    "mappedOn": null,
-    "summary": "Quality control tests and processes",
-    "shape": "addon",
+    "sourceHash": "sha256:0df15dd6de8d0d38faede258e2cc258ff387f8ec8da8f793f1f0c4a83818e9b9",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality checks triggered on receipts, shipments and production, with automatic lot holds.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-quality-inspection",
@@ -32,20 +34,24 @@
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-nonconformance-capa"
+      "ng-nonconformance-capa",
+      "ng-admin-devices",
+      "ng-quality-analysis"
     ],
     "claims": [
-      "Quality checks generated automatically at receipt, shipment and production",
-      "Failed lots automatically placed on hold",
-      "Follow-up action lists created on failure",
-      "Runs on tablets via BC mobile app with camera photo attachments",
-      "Periodic inventory spot checks as quality triggers",
-      "Assign quality checks to teams per location, work center and check type",
-      "Customizable scoring criteria determine pass/fail and update lot attributes",
-      "Full history of quality checks and actions",
-      "Integrates with Aptean Shop Floor Production for checks during production",
-      "Quality report from posted checks with photos"
+      "Quality triggers can be set on inbound and outbound documents and production orders",
+      "Supports periodic spot checks of inventory",
+      "Failed lots go on hold automatically",
+      "Creates follow-up action lists when a check fails",
+      "Checks can be assigned to quality teams by location, work center and check type",
+      "Configurable scoring criteria decide pass or fail and update lot attributes",
+      "Touch-friendly interface for tablets on the warehouse floor",
+      "Users can take photos with the device camera and attach them to the check",
+      "Keeps full history of checks and actions",
+      "Runs checks during production when combined with Aptean Shop Floor Production",
+      "Prints a quality report from posted checks including photos",
+      "30-day free trial, then paid subscription",
+      "Works on Essentials and Premium"
     ],
     "countries": [
       "AU",

@@ -8,18 +8,20 @@
     "publisher": "BS-Concepts GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bs-conceptsgmbh1590482979672%7CAID.eplan-anbindung%7CPAPPID.e57c16f6-ca44-4c9a-bf90-a5995c70b17c",
-    "lastModified": "2026-03-10T08:28:10.1500642+00:00",
-    "appVersion": "27.3.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T13:00:36.1176677+00:00",
+    "appVersion": "29.4.7.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.bs-concepts.com/eplan-interface-documents-informations/",
-    "sourceHash": "sha256:a048b58ba34192e1eea0ad0d0bff1d25449dc3b3e4e89c7b19193f6bb2ad864e",
+    "sourceHash": "sha256:9d9a35487240582f74c0bade76bf3b4554cd78d78c2096a0d688a4a1b2e11f26",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a048b58ba34192e1eea0ad0d0bff1d25449dc3b3e4e89c7b19193f6bb2ad864e",
-    "mappedOn": null,
-    "summary": "Transfers EPLAN electrical design data to BC",
+    "sourceHash": "sha256:9d9a35487240582f74c0bade76bf3b4554cd78d78c2096a0d688a4a1b2e11f26",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports items and BOMs from EPLAN into BC for production, assembly and jobs.",
     "shape": "connector",
     "primary": [
       {
@@ -29,37 +31,17 @@
     ],
     "secondary": [
       "ng-bom-formula-engineering",
+      "ng-production-planning",
       "ng-proj-materials-subcontract"
     ],
     "claims": [
-      "Imports items and BOMs from EPLAN",
+      "Imports item and BOM data from EPLAN",
       "Creates assembly and production orders from EPLAN BOMs",
-      "Links EPLAN BOM to a job",
-      "Links sales order with assembly/production order and EPLAN BOM"
+      "Links an EPLAN BOM to a BC job",
+      "Links sales orders with assembly or production orders and the EPLAN BOM",
+      "Production features need Premium edition"
     ],
-    "countries": [
-      "AT",
-      "BE",
-      "CH",
-      "CZ",
-      "DE",
-      "DK",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "HR",
-      "HU",
-      "IS",
-      "IT",
-      "LV",
-      "NL",
-      "NO",
-      "PL",
-      "SE",
-      "SI"
-    ],
+    "countries": [],
     "languages": [
       "de",
       "en"
@@ -70,7 +52,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

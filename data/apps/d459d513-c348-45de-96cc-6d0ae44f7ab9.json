@@ -8,18 +8,20 @@
     "publisher": "SmartApps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.anysys%7CPAPPID.d459d513-c348-45de-96cc-6d0ae44f7ab9",
-    "lastModified": "2026-09-18T06:34:09.0484067+00:00",
-    "appVersion": "25.29.86.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:56:42.4263504+00:00",
+    "appVersion": "25.32.96.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/anysys-connect/",
-    "sourceHash": "sha256:6586c2c6719187fe63a7022d07200fd8234934252684818efbb8f87e0d49a2a1",
+    "sourceHash": "sha256:bd2365a74c75a7a6ac34d87273990f364845db09e8416d3532f2d862cb29730c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6586c2c6719187fe63a7022d07200fd8234934252684818efbb8f87e0d49a2a1",
-    "mappedOn": null,
-    "summary": "Integrates Anysys supplier invoice approval and posting with BC",
+    "sourceHash": "sha256:bd2365a74c75a7a6ac34d87273990f364845db09e8416d3532f2d862cb29730c",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings approved supplier invoices from Anysys into BC.",
     "shape": "connector",
     "primary": [
       {
@@ -27,10 +29,13 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
     "claims": [
-      "Forwards supplier invoices approved in Anysys to BC",
-      "Review, post and approve supplier invoices in Anysys"
+      "Transfers supplier invoices approved in Anysys to BC",
+      "Review, posting and approval happen in Anysys",
+      "Works with Essential and Premium"
     ],
     "countries": [
       "BE",
@@ -53,11 +58,9 @@
     "connectsTo": [
       "Anysys"
     ],
-    "requires": [
-      "Anysys"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

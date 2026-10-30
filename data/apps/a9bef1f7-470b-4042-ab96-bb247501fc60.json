@@ -8,18 +8,20 @@
     "publisher": "IM-PROJECTS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im-stock-optimizer%7CPAPPID.a9bef1f7-470b-4042-ab96-bb247501fc60",
-    "lastModified": "2026-10-01T13:45:52.8987575+00:00",
-    "appVersion": "1.0.0.18",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T09:38:55.0363774+00:00",
+    "appVersion": "1.0.0.21",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://imstockoptimizer.help.im-projects.com/",
-    "sourceHash": "sha256:8873fd0efe25e5548d8560f7c743e48a3ed001d0b4eefc76054be13896219608",
+    "sourceHash": "sha256:667abc68cb56615b8ba6c2987587b1d8b0907643b0fbbb9a80d3a0fbe57a93f0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8873fd0efe25e5548d8560f7c743e48a3ed001d0b4eefc76054be13896219608",
-    "mappedOn": null,
-    "summary": "Balances inventory across retail locations",
+    "sourceHash": "sha256:667abc68cb56615b8ba6c2987587b1d8b0907643b0fbbb9a80d3a0fbe57a93f0",
+    "mappedOn": "2026-10-30",
+    "summary": "Balances inventory levels for retail businesses.",
     "shape": "process",
     "primary": [
       {
@@ -31,7 +33,9 @@
       "ng-vert-retail"
     ],
     "claims": [
-      "Balances inventory"
+      "Balances inventory levels in BC",
+      "Aimed at retail, food services and hospitality",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -61,14 +65,12 @@
       "it"
     ],
     "industries": [
-      "Food services",
-      "Hospitality",
-      "Retail"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

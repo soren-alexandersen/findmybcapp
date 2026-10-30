@@ -8,18 +8,20 @@
     "publisher": "OPEXIS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.opexis%7CAID.ushopfloor%7CPAPPID.3575649c-c1bc-4e04-a96b-79cb7be05b2d",
-    "lastModified": "2026-10-01T08:13:53.7848204+00:00",
-    "appVersion": "1.10.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T14:20:52.3018005+00:00",
+    "appVersion": "1.17.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://opexis.nl/",
-    "sourceHash": "sha256:eb338d52378a4845ebd3e310e9923115f43a96fc2c2c19a8c0212ccfcc8e88b2",
+    "sourceHash": "sha256:6a7fc36e477a50be9a9107b2a6ce640ffd2cfac0a87c22a392bfefbf73e3cd54",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:eb338d52378a4845ebd3e310e9923115f43a96fc2c2c19a8c0212ccfcc8e88b2",
-    "mappedOn": null,
-    "summary": "Touch-friendly shop floor screen for production orders",
+    "sourceHash": "sha256:6a7fc36e477a50be9a9107b2a6ce640ffd2cfac0a87c22a392bfefbf73e3cd54",
+    "mappedOn": "2026-10-30",
+    "summary": "Touch screen for operators to run operations and post time, output, scrap and consumption.",
     "shape": "process",
     "primary": [
       {
@@ -29,33 +31,37 @@
     ],
     "secondary": [
       "ng-hr-time-shifts",
-      "ng-admin-devices"
+      "ng-production-costing"
     ],
     "claims": [
-      "Touch-friendly work screen for released production orders",
-      "Start, pause, resume and finish operations with live timers; setup time separate from run time",
-      "Reports output, scrap and extra component consumption via standard journals",
-      "Creates inventory movements for components of an operation and blocks completion until registered",
-      "Material log showing theoretical vs reported quantity before posting",
-      "Planned breaks automatically pause running operations, then resume them",
-      "Registers non-production time along with clock-in and clock-out",
-      "Multiple operators per operation with own registrations",
-      "Order and operation notes stored on the production order",
-      "Audit trail per operator and operation",
-      "Users only see assigned work centers",
-      "No extra full BC licenses for the shop floor"
+      "Operators see only operations for their own assigned work centers",
+      "Start, pause, resume and finish operations with live timers",
+      "Setup time recorded separately from run time",
+      "Reports produced quantity, output scrap and extra component consumption",
+      "Postings go through standard BC journals and routing statuses",
+      "Creates inventory movements for an operation's components and blocks completion until registered",
+      "Material log compares theoretical and reported consumption before booking",
+      "Scheduled breaks pause and resume running operations automatically",
+      "Records clock-in, clock-out and non-production time",
+      "Several operators can register on one operation individually",
+      "Order and operation notes from the floor are saved on the production order",
+      "Logs every start, pause, note, posting and status change per operator",
+      "Shop floor users do not need extra full BC licenses",
+      "Needs the uTools Base Application and a uTools subscription"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Manufacturing"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "uScheduler"
+    ],
     "requires": [
-      "uTools"
+      "uTools Base Application (OPEXIS)"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,8 +8,8 @@
     "publisher": "Linc Communications (Pty) Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_advanced_logistics%7CPAPPID.a5d251c8-af5d-43d1-a8b3-784338f1757e",
-    "lastModified": "2026-04-29T11:03:11.8568374+00:00",
-    "appVersion": "26.26.2310.610",
+    "lastModified": "2026-10-13T09:31:26.0384815+00:00",
+    "appVersion": "27.26.2477.447",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-Logistics",
@@ -18,23 +18,24 @@
   },
   "mapping": {
     "sourceHash": "sha256:9125b2a0100a7add0f294fba5de93d2d8e77963403fe0863296219791a1fa669",
-    "mappedOn": null,
-    "summary": "Links purchase and sales, as well as transfer documents, to logistics containers",
+    "mappedOn": "2026-10-30",
+    "summary": "Links shipping containers to sales, purchase and transfer documents for tracking.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-transport-planning",
-        "confidence": "low"
+        "need": "ng-import-export-customs",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-ux-custom-fields"
-    ],
+    "secondary": [],
     "claims": [
-      "Create logistics containers and link to transactions",
-      "Links to sales/purchase orders and invoices and transfer orders",
-      "Container info carried to posted documents",
-      "Up to 20 custom fields on containers available in report datasets"
+      "Creates logistics containers for any mode of transport",
+      "Links containers to sales orders and sales invoices",
+      "Links containers to purchase orders and purchase invoices",
+      "Links containers to transfer orders",
+      "Container details carry through to posted documents",
+      "Up to twenty custom fields per container",
+      "Container fields are available in document report datasets"
     ],
     "countries": [],
     "languages": [],

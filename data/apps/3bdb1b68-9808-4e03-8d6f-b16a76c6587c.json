@@ -8,37 +8,46 @@
     "publisher": "Go4Logistics NV",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.go4logistics%7CAID.go4logistics_go4container%7CPAPPID.3bdb1b68-9808-4e03-8d6f-b16a76c6587c",
-    "lastModified": "2026-05-13T14:49:19.6340781+00:00",
-    "appVersion": "28.0.2605.1882",
-    "pricingTypes": [],
+    "lastModified": "2026-10-09T04:28:32.0458873+00:00",
+    "appVersion": "28.1.11.73",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.go4logistics.be/en/help/",
-    "sourceHash": "sha256:f930de2c5e56cf5609195c350d5b20c83f6d00182a75acbf4ddaf54213b67ea3",
+    "sourceHash": "sha256:ea61c4ca49f9a4532656b68e3e3337646253e5d9e6ba73b66d0b9c51d8613287",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:f930de2c5e56cf5609195c350d5b20c83f6d00182a75acbf4ddaf54213b67ea3",
-    "mappedOn": null,
-    "summary": "Plans and manages container transport orders",
+    "sourceHash": "sha256:ea61c4ca49f9a4532656b68e3e3337646253e5d9e6ba73b66d0b9c51d8613287",
+    "mappedOn": "2026-10-30",
+    "summary": "Container transport extension for the Go4TMS transport management system.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
         "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-transport-planning"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Container order data: number, type, seal, vessel, carrier, closing date, pincodes",
-      "Registers container actions such as depot, pickup, customs, weighing",
-      "Visual planning on trucks and container chassis",
-      "Combines pickups and drops to avoid empty trips",
-      "Groups multiple 20ft containers on one chassis",
-      "Alerts when empty container can be reused",
-      "Tracks empty and full container status and drop locations",
-      "Real-time updates to customers on pickup/drop"
+      "Records container details such as container number, type, seal number, vessel and carrier",
+      "Logs container actions such as depot out and in, pick up, drop, customs, cleaning and weighing",
+      "Visual planning board for trucks and container chassis",
+      "Combines pick ups and drops to cut empty trips",
+      "Groups several 20ft containers on one chassis",
+      "Alerts when an empty container can be reused for another order",
+      "Tracks status of empty and full containers",
+      "Tracks where containers are dropped",
+      "Sends real-time pick up and drop updates to customers",
+      "Container orders can be imported with an optional order import module",
+      "Base Go4TMS covers transport files, order administration, planning and invoicing"
     ],
     "countries": [],
     "languages": [],
@@ -47,10 +56,10 @@
     ],
     "connectsTo": [],
     "requires": [
-      "Go4TMS - Transport Software"
+      "Go4TMS"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

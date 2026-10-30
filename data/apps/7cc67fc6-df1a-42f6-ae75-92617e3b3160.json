@@ -8,37 +8,41 @@
     "publisher": "INNOVIO SPA",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.projestspa%7CAID.inte005%7CPAPPID.7cc67fc6-df1a-42f6-ae75-92617e3b3160",
-    "lastModified": "2026-07-15T22:59:19.1173349+00:00",
-    "appVersion": "1.0.0.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-07T11:16:34.8989041+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.innoviogroup.com/software/app/document-management",
-    "sourceHash": "sha256:2e3b880a692a262ff32c856ee9638249b46560d34946037adf1bd33eb9ce5880",
+    "sourceHash": "sha256:ca00d8650d593f46f82cc995b7659292d967f6c278d7e87d753e81ae0245ab05",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2e3b880a692a262ff32c856ee9638249b46560d34946037adf1bd33eb9ce5880",
-    "mappedOn": null,
-    "summary": "Document archiving via SharePoint and Azure Blob Storage",
-    "shape": "connector",
+    "sourceHash": "sha256:ca00d8650d593f46f82cc995b7659292d967f6c278d7e87d753e81ae0245ab05",
+    "mappedOn": "2026-10-30",
+    "summary": "Stores and organises files for BC records in SharePoint Online or Azure Blob Storage.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-document-storage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-ux-attachments"
-    ],
+    "secondary": [],
     "claims": [
-      "Stores documents in SharePoint Online or Azure Blob Storage",
-      "Uploads, downloads, deletes and accesses documents via a FactBox",
-      "Organize documents by customer, vendor or document folder structure",
-      "Generates predefined nested folder structures",
-      "Supports customers, vendors and projects",
-      "Supports sales quotes, orders, posted invoices and credit memos",
-      "Supports purchase orders and posted purchase invoices/credit memos",
-      "Requires a Microsoft Entra app registration"
+      "Upload, download, delete and open files from a FactBox on BC records",
+      "Storage backend can be SharePoint Online or Azure Blob Storage",
+      "Sales and purchase documents can be filed under the related customer or vendor, or in their own folders",
+      "Creates predefined and nested folder structures automatically",
+      "Works on customers, vendors and projects",
+      "Covers sales quotes, orders, posted invoices and credit memos",
+      "Covers purchase orders and posted purchase invoices",
+      "Needs a Microsoft Entra app registration to connect to storage"
     ],
     "countries": [],
     "languages": [],
@@ -49,7 +53,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,19 +8,21 @@
     "publisher": "insightsoftware",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insightsoftwarecomlimited1584800919871%7CAID.jetanalytics%7CPAPPID.ab50eccd-e95c-4d7f-b9db-0a80e29d0738",
-    "lastModified": "2025-11-18T21:07:00.176566+00:00",
-    "appVersion": "1.25.11.3171",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T15:40:38.9465712+00:00",
+    "appVersion": "1.26.10.2781",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://go.jetreports.com/JetDocsSite",
-    "sourceHash": "sha256:ec63741c1fe041b273a046a3829d611d0fffa558479a8100a1c06e8520b1ec18",
-    "mentionsBC": false
+    "sourceHash": "sha256:1dc6aaa5ba9b0eeb669bf092dcd0a9f9ab4d12c91aded8a862a79f83d97f5c33",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ec63741c1fe041b273a046a3829d611d0fffa558479a8100a1c06e8520b1ec18",
-    "mappedOn": null,
-    "summary": "Enterprise BI and analytics on BC data",
-    "shape": "process",
+    "sourceHash": "sha256:1dc6aaa5ba9b0eeb669bf092dcd0a9f9ab4d12c91aded8a862a79f83d97f5c33",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds a governed data warehouse from BC and other sources for Power BI and Excel.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-bi-dashboards",
@@ -28,25 +30,33 @@
       }
     ],
     "secondary": [
-      "ng-ux-excel-reporting"
+      "ng-ux-excel-reporting",
+      "ng-admin-cloud-upgrade"
     ],
     "claims": [
-      "Combines multiple data sources",
-      "Real-time copy of transactional data in a data warehouse",
-      "Builds OLAP cubes and tabular models for Excel and Power BI",
-      "Centralized derived metric definitions",
-      "Tracks data changes over time for historical reporting"
+      "Cloud-deployed data preparation and modelling into a data warehouse",
+      "Combines BC with other data sources",
+      "Tracks data changes over time for historical reporting",
+      "Prebuilt BC data models, OLAP cubes and tabular models",
+      "Library of prebuilt Power BI dashboards",
+      "Incremental loads and scheduled refreshes",
+      "Drag-and-drop modelling with data lineage and impact analysis",
+      "Keeps NAV or GP history alongside BC data",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [
       "Power BI",
-      "Excel"
+      "Microsoft Excel"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

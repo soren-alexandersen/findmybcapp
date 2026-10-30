@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dicobisgmbh1681376310588|AID.dicobis-connect|PAPPID.68d2f359-6c58-4d6c-92e4-7990a88a2676",
+  "guid": "68d2f359-6c58-4d6c-92e4-7990a88a2676",
+  "publisherId": "dicobisgmbh1681376310588",
+  "offerId": "dicobis-connect",
+  "source": {
+    "name": "dicobis.Connect",
+    "publisher": "dicobis GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dicobisgmbh1681376310588%7CAID.dicobis-connect%7CPAPPID.68d2f359-6c58-4d6c-92e4-7990a88a2676",
+    "lastModified": "2026-10-22T12:12:57.5943041+00:00",
+    "appVersion": "2026.3.69.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dicobis.com/de/quick-analysis/",
+    "sourceHash": "sha256:0a4e482c4cc80ce93e79fdb42a9aea6e3c8d834f841ac3464159753dda83cda0",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:0a4e482c4cc80ce93e79fdb42a9aea6e3c8d834f841ac3464159753dda83cda0",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets companies configure their own REST API integrations inside BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Integrates any REST API into BC",
+      "Setup and configuration done by the customer without outside developers",
+      "Several interfaces managed from one app",
+      "Works with the dicobis.ApiHub",
+      "One license per production environment",
+      "Works on Essentials and Premium"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

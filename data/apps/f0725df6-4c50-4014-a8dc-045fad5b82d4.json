@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.21cb9aa0-2f4c-4990-9180-d0962ea6b5bb%7CPAPPID.f0725df6-4c50-4014-a8dc-045fad5b82d4",
-    "lastModified": "2026-08-11T17:32:37.5069664+00:00",
-    "appVersion": "28.1.4.48",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:02:39.0461362+00:00",
+    "appVersion": "29.0.0.137",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:8da85086d09da82e5915ec138a2b0e2caf125f96c7b1f3bfffc01c1966e652a9",
+    "sourceHash": "sha256:9bf6d253b10207729ad554071b00c0ebf045ac75d70c432a5f0e4b552b5dc59f",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:8da85086d09da82e5915ec138a2b0e2caf125f96c7b1f3bfffc01c1966e652a9",
-    "mappedOn": null,
-    "summary": "German language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:9bf6d253b10207729ad554071b00c0ebf045ac75d70c432a5f0e4b552b5dc59f",
+    "mappedOn": "2026-10-30",
+    "summary": "German user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into German",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into German",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "DE"
@@ -39,14 +41,15 @@
       "de"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

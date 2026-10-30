@@ -8,40 +8,47 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.proofofdelivery%7CPAPPID.9db6b9be-d353-4049-ab3b-084136b77b14",
-    "lastModified": "2026-08-26T06:17:22.4603471+00:00",
-    "appVersion": "2504.0.339575.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:16:08.453593+00:00",
+    "appVersion": "2601.0.351681.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PDV",
-    "sourceHash": "sha256:bf69f837f2be0faeabe758f787adc0d5a97da3731bfd50aae4eeefd8b8d6d3d8",
+    "sourceHash": "sha256:752cd991f1aa27c4c3efa4672b9c629fd920bf50acc5a6c832420b63711e3a74",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bf69f837f2be0faeabe758f787adc0d5a97da3731bfd50aae4eeefd8b8d6d3d8",
-    "mappedOn": null,
-    "summary": "Integrates Aptean Proof of Delivery with Food and Beverage",
-    "shape": "addon",
+    "sourceHash": "sha256:752cd991f1aa27c4c3efa4672b9c629fd920bf50acc5a6c832420b63711e3a74",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Aptean Food and Beverage transport orders to Aptean Proof of Delivery.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-transport-planning",
         "confidence": "medium"
       },
       {
-        "need": "ng-shipping-carriers",
-        "confidence": "medium"
+        "need": "ng-sales-invoicing",
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-customer-returns"
+      "ng-customer-returns",
+      "ng-admin-devices",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Sends full truck manifest to Aptean Proof of Delivery when transport order is loaded",
-      "Imports confirmed quantities, rejections, signatures and photos from driver device",
-      "Automatic shipment corrections or sales return for rejected or damaged items",
-      "Generates and sends proof of delivery document to customer with signatures and photos",
-      "Optional auto-invoicing after delivery data processed",
-      "Works alone or with Aptean Routing & Scheduling"
+      "Sends the full truck manifest to Proof of Delivery once a transport order is loaded",
+      "Receives delivery data per stop in real time",
+      "Imports confirmed quantities, rejections, signatures and photos",
+      "Auto-corrects shipments or creates a sales return for rejected or damaged goods",
+      "Generates and sends a proof of delivery document to the customer",
+      "Optional automatic invoice posting after delivery",
+      "Works with or without Aptean Routing & Scheduling",
+      "Proof of Delivery offers a customer portal for tracking scheduled deliveries",
+      "Free app, but needs Aptean Food and Beverage, Proof of Delivery and the Transport app",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -76,23 +83,21 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl",
       "sv"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [
-      "Aptean Proof of Delivery"
+      "Aptean Proof of Delivery",
+      "Aptean Routing & Scheduling"
     ],
     "requires": [
-      "Aptean Food & Beverage",
+      "Aptean Food and Beverage",
       "Aptean Proof of Delivery",
-      "Aptean Transport App"
+      "Aptean Transport for Food and Beverage"
     ],
     "deployment": "not_stated",
     "pricing": "free",

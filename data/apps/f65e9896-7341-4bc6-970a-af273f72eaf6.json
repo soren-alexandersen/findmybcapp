@@ -8,8 +8,8 @@
     "publisher": "AP Commerce",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.salescommisson_apc%7CPAPPID.f65e9896-7341-4bc6-970a-af273f72eaf6",
-    "lastModified": "2026-07-09T17:44:39.0956114+00:00",
-    "appVersion": "1.1.7.0",
+    "lastModified": "2026-10-28T19:57:13.9522088+00:00",
+    "appVersion": "1.1.8.0",
     "pricingTypes": [
       "Free",
       "Payg"

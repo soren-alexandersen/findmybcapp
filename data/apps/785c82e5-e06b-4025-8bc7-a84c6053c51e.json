@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.focubizgmbh1602450433405|AID.pmxsynact|PAPPID.785c82e5-e06b-4025-8bc7-a84c6053c51e",
+  "guid": "785c82e5-e06b-4025-8bc7-a84c6053c51e",
+  "publisherId": "focubizgmbh1602450433405",
+  "offerId": "pmxsynact",
+  "source": {
+    "name": "PMX Synact",
+    "publisher": "focu.biz GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.focubizgmbh1602450433405%7CAID.pmxsynact%7CPAPPID.785c82e5-e06b-4025-8bc7-a84c6053c51e",
+    "lastModified": "2026-10-26T00:54:56.4876815+00:00",
+    "appVersion": "28.0.0.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.focu.biz/support",
+    "sourceHash": "sha256:c44a891618fc5c3cfe96ce4b7f63c8ffd8f9c7c7658ae14bb7d022ddc683a2c8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c44a891618fc5c3cfe96ce4b7f63c8ffd8f9c7c7658ae14bb7d022ddc683a2c8",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs BC users, employees and contacts with Entra ID, SharePoint and Azure services.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-users-signin",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-records"
+    ],
+    "claims": [
+      "Syncs user information between Entra ID and BC",
+      "Can sync BC employees, contacts or users",
+      "Keeps BC data synced with SharePoint and other Azure services",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Professional Services"
+    ],
+    "connectsTo": [
+      "Microsoft Entra ID",
+      "SharePoint",
+      "Azure"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

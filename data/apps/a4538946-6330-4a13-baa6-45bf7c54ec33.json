@@ -8,41 +8,44 @@
     "publisher": "XtensionIT Aps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xtefavacolectconnect%7CPAPPID.a4538946-6330-4a13-baa6-45bf7c54ec33",
-    "lastModified": "2026-04-08T13:46:48.6832485+00:00",
-    "appVersion": "1.0.20260408.4",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T13:48:29.8367576+00:00",
+    "appVersion": "1.0.20261029.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://fava.twoday.dk/",
-    "sourceHash": "sha256:22774942fbbe50ad02709866f3f76823d100eecca75b1b56bf7de2aec4614900",
+    "sourceHash": "sha256:6a4baccf3a43e17aace7554088c42ea7729851c84c13759fa8c7957856607b2b",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:22774942fbbe50ad02709866f3f76823d100eecca75b1b56bf7de2aec4614900",
-    "mappedOn": null,
-    "summary": "Connects FaVa with Colect ordering app",
+    "sourceHash": "sha256:6a4baccf3a43e17aace7554088c42ea7729851c84c13759fa8c7957856607b2b",
+    "mappedOn": "2026-10-30",
+    "summary": "Links FaVa to the Colect sales app: catalog export and order import.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-conn-crm",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "need": "ng-vert-fashion",
+        "need": "ng-sales-order-entry",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-vert-fashion"
     ],
     "claims": [
-      "Exports products, customers and salespeople/agents to Colect",
-      "Imports sales orders created in Colect into FaVa",
-      "Shows collections/seasons in Colect with prices and stock",
-      "Automatic import/export via job queues",
-      "SOAP API communication",
-      "Delta export of inventory",
-      "Supports FaVa sales seasons, brands and variant dimensions",
-      "Depends on LS Central and FaVa"
+      "Exports products, customers and sales agents to Colect",
+      "Imports sales orders taken in Colect",
+      "Shows collections and seasons in Colect with prices and stock",
+      "Import and export run on job queues",
+      "Uses Colect's SOAP API",
+      "Stock is exported as deltas",
+      "Supports FaVa seasons, brands and variant dimensions",
+      "Needs a Colect account with Apptitude BV",
+      "Full item export and order import usually needs a customer-specific extension"
     ],
     "countries": [
       "DK"
@@ -53,17 +56,17 @@
     ],
     "industries": [
       "Fashion",
-      "Wholesale"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [
       "Colect"
     ],
     "requires": [
-      "FaVa by XtensionIT",
-      "LS Central"
+      "LS Central",
+      "FaVa by XtensionIT"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

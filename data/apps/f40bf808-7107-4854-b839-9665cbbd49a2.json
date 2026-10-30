@@ -8,21 +8,21 @@
     "publisher": "AP Commerce",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.freightcontainerreceivingmanagement%7CPAPPID.f40bf808-7107-4854-b839-9665cbbd49a2",
-    "lastModified": "2026-08-10T21:23:29.3704799+00:00",
-    "appVersion": "1.8.18.0",
+    "lastModified": "2026-10-30T07:00:19.0986091+00:00",
+    "appVersion": "1.8.19.0",
     "pricingTypes": [
       "Free",
       "Payg"
     ],
     "freeTrial": null,
-    "helpLink": "https://www.apcdynamics.com/our-products/container-management/",
-    "sourceHash": "sha256:081897ab2c68dbdefd0dbe5f4db6e9e91159ead0440e628192eeee4180c2b11f",
+    "helpLink": "https://kb.apcdynamics.com/books/freight-container-management",
+    "sourceHash": "sha256:f26f59e64bdaa383c0fb0ba31e06987c86cb461735407cbd00417a2c2864c535",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:081897ab2c68dbdefd0dbe5f4db6e9e91159ead0440e628192eeee4180c2b11f",
-    "mappedOn": null,
-    "summary": "Manages inbound freight containers from overseas vendors",
+    "sourceHash": "sha256:f26f59e64bdaa383c0fb0ba31e06987c86cb461735407cbd00417a2c2864c535",
+    "mappedOn": "2026-10-30",
+    "summary": "Groups overseas purchase lines into container records to track, receive and allocate landed costs.",
     "shape": "process",
     "primary": [
       {
@@ -35,17 +35,19 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-freight-cost-audit",
+      "ng-ux-attachments"
     ],
     "claims": [
-      "Combines multiple purchase order lines into one container document mirroring the bill of lading",
-      "Tracks container lifecycle from port of origin to final warehouse",
-      "Allocates landed costs such as tariffs, duties and freight",
-      "Attach scanned BOLs, invoices and customs forms to container records",
-      "Post inventory receipt from the container, updating purchase orders, also with warehouse management",
-      "Over-receive from the container document",
-      "Container status for departure, arrival and receiving",
-      "Up to 5 free sandbox users"
+      "Several purchase order lines combine into one container document matching the bill of lading",
+      "Tracks container status from origin port to destination port to warehouse receipt",
+      "Allocates tariffs, duties and freight as landed costs",
+      "Scanned BOLs, invoices and customs forms attach to container records",
+      "Receipt posted from the container updates the purchase orders, also with warehouse management on",
+      "Over-receiving is possible from the container document",
+      "Priced at $40 per user per month with a 4-user minimum",
+      "Up to 5 free users for sandbox testing",
+      "Available in English and Traditional Chinese"
     ],
     "countries": [],
     "languages": [
@@ -54,7 +56,7 @@
     ],
     "industries": [
       "Distribution",
-      "Manufacturing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],

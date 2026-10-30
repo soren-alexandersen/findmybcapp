@@ -20,7 +20,8 @@
     "Users get lost because the start screen doesn't fit their job",
     "Embed a Power BI chart on my home page",
     "configure cues without a developer",
-    "I want a count of overdue invoices net of credit memos on my start page"
+    "I want a count of overdue invoices net of credit memos on my start page",
+    "We want one home page that shows all our companies without switching"
   ],
   "questions": [
     {
@@ -59,7 +60,8 @@
           "label": "Ready-made role centers for specific jobs",
           "patterns": [
             "role cent(er|re) designs|role centres? (placing|tailored)|enhanced standard role centers",
-            "profiles for|role-based layouts"
+            "profiles for|role-based layouts",
+            "role cent(er|re) built for"
           ]
         },
         {
@@ -68,10 +70,10 @@
         }
       ],
       "coverage": {
-        "Tiles with my own counts and KPIs": 0.67,
-        "Headlines or messages to users": 0.19,
-        "Charts and analysis": 0.26,
-        "Ready-made role centers for specific jobs": 0.19
+        "Tiles with my own counts and KPIs": 0.63,
+        "Headlines or messages to users": 0.17,
+        "Charts and analysis": 0.27,
+        "Ready-made role centers for specific jobs": 0.17
       }
     },
     {
@@ -103,7 +105,7 @@
         }
       ],
       "coverage": {
-        "Each user builds their own": 0.11,
+        "Each user builds their own": 0.1,
         "An admin sets them up per role or group": 0.37
       }
     },
@@ -124,7 +126,7 @@
         }
       ],
       "coverage": {
-        "Yes, any table including add-ons": 0.15
+        "Yes, any table including add-ons": 0.13
       }
     },
     {
@@ -146,8 +148,90 @@
         }
       ],
       "coverage": {
-        "Yes, no code": 0.3
+        "Yes, no code": 0.27
       }
+    },
+    {
+      "id": "do-you-want-one-home-page-that",
+      "text": "Do you want one home page that covers several companies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, an overview across companies",
+          "patterns": [
+            "multiple companies",
+            "cross-company",
+            "tasks across companies",
+            "lists all companies"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, an overview across companies": 0.07
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "admin permissions and licensing",
+      "terms": [
+        "admin"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'between' wording",
+      "terms": [
+        "between"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI detail: drill-down",
+      "terms": [
+        "down",
+        "drill"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "visual indicators, already covered by tiles and KPIs",
+      "terms": [
+        "indicator"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "headline time periods, UI detail",
+      "terms": [
+        "last"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "pricing period and headline periods",
+      "terms": [
+        "month"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'separate' wording",
+      "terms": [
+        "separat"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'built' wording",
+      "terms": [
+        "built"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

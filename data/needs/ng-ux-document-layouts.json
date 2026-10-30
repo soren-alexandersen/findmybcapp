@@ -92,9 +92,9 @@
         }
       ],
       "coverage": {
-        "Point and click inside BC, no code": 0.37,
+        "Point and click inside BC, no code": 0.36,
         "In Microsoft Word": 0.16,
-        "Just install ready-made layouts": 0.36,
+        "Just install ready-made layouts": 0.35,
         "With a reporting tool like ForNAV": 0.04
       }
     },
@@ -144,9 +144,9 @@
         }
       ],
       "coverage": {
-        "Different content or layout per customer": 0.13,
-        "Documents in the customer's language": 0.19,
-        "Layout chosen by rules or conditions": 0.14
+        "Different content or layout per customer": 0.12,
+        "Documents in the customer's language": 0.21,
+        "Layout chosen by rules or conditions": 0.1
       }
     },
     {
@@ -185,7 +185,7 @@
         }
       ],
       "coverage": {
-        "Letterhead / stationery / logo": 0.31,
+        "Letterhead / stationery / logo": 0.32,
         "Append PDFs like terms and conditions": 0.06
       }
     },
@@ -241,8 +241,8 @@
       "coverage": {
         "Quotes with structure (subtotals, numbered lines)": 0.08,
         "Purchase documents": 0.33,
-        "Warehouse, labels and shipping documents": 0.34,
-        "Service documents": 0.12
+        "Warehouse, labels and shipping documents": 0.36,
+        "Service documents": 0.13
       }
     },
     {
@@ -287,15 +287,80 @@
           ]
         },
         {
+          "label": "Extra fields or data not on standard reports",
+          "patterns": [
+            "custom (bc )?data",
+            "custom fields",
+            "extra fields",
+            "additional fields",
+            "extended descriptive fields"
+          ]
+        },
+        {
           "label": "Doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Reusable standard texts": 0.26,
-        "Barcodes or QR codes": 0.15,
-        "Live preview while editing": 0.13
+        "Reusable standard texts": 0.25,
+        "Barcodes or QR codes": 0.14,
+        "Live preview while editing": 0.14,
+        "Extra fields or data not on standard reports": 0.05
       }
+    },
+    {
+      "id": "what-should-happen-to-document",
+      "text": "What should happen to documents once they are created?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Archived and easy to find later",
+          "patterns": [
+            "archiv"
+          ]
+        },
+        {
+          "label": "Sent automatically by email or other channels",
+          "patterns": [
+            "multi-channel",
+            "distribution",
+            "distributes",
+            "mass printing",
+            "output management",
+            "e-?mail(s|ing|ed)? (documents|invoices)",
+            "send by e-?mail"
+          ]
+        },
+        {
+          "label": "Saved as XML, PDF/A or to SharePoint",
+          "patterns": [
+            "pdf/a",
+            "\\bxml\\b",
+            "\\bubl\\b",
+            "sharepoint",
+            "file server",
+            "azure storage"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Archived and easy to find later": 0.16,
+        "Sent automatically by email or other channels": 0.09,
+        "Saved as XML, PDF/A or to SharePoint": 0.15
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'print' wording",
+      "terms": [
+        "print"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

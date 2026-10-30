@@ -137,11 +137,11 @@
         }
       ],
       "coverage": {
-        "Sending reminders and chasing emails": 0.57,
+        "Sending reminders and chasing emails": 0.55,
         "Agreeing payment plans or instalments": 0.2,
-        "Handling disputes and deductions": 0.14,
-        "Writing off or reserving for bad debt": 0.11,
-        "Seeing who owes what and how fast they pay": 0.39
+        "Handling disputes and deductions": 0.12,
+        "Writing off or reserving for bad debt": 0.1,
+        "Seeing who owes what and how fast they pay": 0.37
       }
     },
     {
@@ -179,8 +179,8 @@
         }
       ],
       "coverage": {
-        "Yes, we assign customers or tasks to collectors": 0.3,
-        "No, it should mostly run on its own": 0.48
+        "Yes, we assign customers or tasks to collectors": 0.29,
+        "No, it should mostly run on its own": 0.45
       }
     },
     {
@@ -208,8 +208,8 @@
         }
       ],
       "coverage": {
-        "Regular account statements": 0.23,
-        "Copies of the overdue invoices attached": 0.18
+        "Regular account statements": 0.22,
+        "Copies of the overdue invoices attached": 0.16
       }
     },
     {
@@ -272,9 +272,9 @@
         }
       ],
       "coverage": {
-        "Hand it to a debt collection agency": 0.07,
-        "Put the customer on hold or block orders": 0.16,
-        "Charge interest or late fees": 0.07
+        "Hand it to a debt collection agency": 0.06,
+        "Put the customer on hold or block orders": 0.14,
+        "Charge interest or late fees": 0.08
       }
     },
     {
@@ -297,7 +297,7 @@
         }
       ],
       "coverage": {
-        "Yes, predict late payers": 0.14
+        "Yes, predict late payers": 0.12
       }
     },
     {
@@ -331,9 +331,46 @@
         }
       ],
       "coverage": {
-        "Inside BC only": 0.09,
+        "Inside BC only": 0.08,
         "A dedicated collections service is fine": 0.14
       }
+    },
+    {
+      "id": "should-incoming-payments-be-ma",
+      "text": "Should incoming payments be matched to invoices automatically?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, match and reconcile payments",
+          "patterns": [
+            "reconcil",
+            "match\\w* payments"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, match and reconcile payments": 0.12
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'ledger entries' wording",
+      "terms": [
+        "ledger"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'integration' wording",
+      "terms": [
+        "integration"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

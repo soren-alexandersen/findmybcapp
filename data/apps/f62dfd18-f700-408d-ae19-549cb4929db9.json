@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.mobile_warehouse_registration%7CPAPPID.f62dfd18-f700-408d-ae19-549cb4929db9",
-    "lastModified": "2026-09-29T11:43:27.6592491+00:00",
-    "appVersion": "2603.2.343909.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T08:34:50.3439966+00:00",
+    "appVersion": "2604.0.351708.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/mwr/",
-    "sourceHash": "sha256:a9cc37ed229bd427acc177789fc15d68b68db4938d6d5e323882ddeabcedc233",
+    "sourceHash": "sha256:b5ab71eee93fcf0cf6916b102c0855bc306254445f2c89a5c1535875f1235e70",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a9cc37ed229bd427acc177789fc15d68b68db4938d6d5e323882ddeabcedc233",
-    "mappedOn": null,
-    "summary": "Mobile warehouse handling with barcode scanning",
-    "shape": "addon",
+    "sourceHash": "sha256:b5ab71eee93fcf0cf6916b102c0855bc306254445f2c89a5c1535875f1235e70",
+    "mappedOn": "2026-10-30",
+    "summary": "Handheld barcode scanning app for warehouse and production floor activities.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-admin-devices",
@@ -29,19 +31,26 @@
       {
         "need": "ng-allocation-picking",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
       "ng-barcode-labels",
-      "ng-shop-floor-reporting"
+      "ng-shop-floor-reporting",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Handheld barcode scanning with real-time data to BC",
-      "Quantities and lot numbers entered once",
-      "Mobile profiles for production, inbound and outbound staff",
-      "Assign warehouse activities to specific employees",
-      "Print lot labels from lot info and warehouse receipts"
+      "Handheld barcode scanners send data directly to BC",
+      "Quantities and lot numbers entered once on the scanner",
+      "Mobile profiles group which warehouse activities a user can do",
+      "Separate profiles for production, inbound and outbound staff",
+      "Manager can assign an activity to a specific employee",
+      "Prints lot labels from lot info and warehouse receipts",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,16 +82,13 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl",
       "sv"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

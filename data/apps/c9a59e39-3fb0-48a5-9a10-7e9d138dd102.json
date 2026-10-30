@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-safe-work-bc%7CPAPPID.c9a59e39-3fb0-48a5-9a10-7e9d138dd102",
-    "lastModified": "2026-08-05T10:13:13.7084139+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:22:39.0908115+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/safe-work-for-business-central/",
-    "sourceHash": "sha256:14c3706e7105308de91a9387c0c2366ff03d257f02e3c36130e2f1cab2d9736c",
+    "sourceHash": "sha256:9db57b3769a5cecc4ff1459cff36a90a2cc137f505646826b992eacb6960c8fb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:14c3706e7105308de91a9387c0c2366ff03d257f02e3c36130e2f1cab2d9736c",
-    "mappedOn": null,
-    "summary": "Work permits, lockout/tagout and workplace safety management",
+    "sourceHash": "sha256:9db57b3769a5cecc4ff1459cff36a90a2cc137f505646826b992eacb6960c8fb",
+    "mappedOn": "2026-10-30",
+    "summary": "Workplace safety for maintenance: risk assessments, lockout/tagout and permits to work.",
     "shape": "process",
     "primary": [
       {
@@ -31,30 +33,23 @@
       "ng-maintenance-planned"
     ],
     "claims": [
-      "Risk assessment for working with specified assets, locations and special work orders",
-      "Create maintenance risk plans to mitigate hazards",
-      "Tagout records linked to assets, work orders and functional locations",
-      "Lockout with list of lockout points per work area",
-      "Lockout follows written procedure and is tested before the work order",
-      "Work order permits evaluated and approved before work starts",
-      "Permits linked to work orders with conditions to meet before start",
-      "Permits to work usable on mobile devices",
-      "Supports Essential and Premium editions"
+      "Risk assessment for assets, locations and special work orders",
+      "Maintenance risk plans to mitigate hazards",
+      "Tagout records covering assets, work orders and functional locations",
+      "Lockouts with lockout points to remove residual energy before work",
+      "Lockout follows a written procedure and is tested before the work order",
+      "Work permits tied to work orders must be satisfied before work starts",
+      "Permits to work usable on mobile devices"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [
-      "Energy",
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
-    "requires": [
-      "Dynaway EAM"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

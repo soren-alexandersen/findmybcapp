@@ -79,9 +79,9 @@
         }
       ],
       "coverage": {
-        "Send me an email alert": 0.27,
-        "Require approval first": 0.18,
-        "Let me undo it": 0.27
+        "Send me an email alert": 0.25,
+        "Require approval first": 0.17,
+        "Let me undo it": 0.25
       }
     },
     {
@@ -117,8 +117,8 @@
         }
       ],
       "coverage": {
-        "Any table or master data": 0.64,
-        "Specific risky areas: order changes or vendor bank details": 0.18
+        "Any table or master data": 0.58,
+        "Specific risky areas: order changes or vendor bank details": 0.17
       }
     },
     {
@@ -143,7 +143,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.45
+        "Yes": 0.42
       }
     },
     {
@@ -166,7 +166,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.36
+        "Yes": 0.42
       }
     },
     {
@@ -189,8 +189,17 @@
         }
       ],
       "coverage": {
-        "Yes, need to reduce or move it": 0.18
+        "Yes, need to reduce or move it": 0.25
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "filter UI detail",
+      "terms": [
+        "filter"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

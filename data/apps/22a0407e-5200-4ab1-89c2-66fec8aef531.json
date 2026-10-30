@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.global_trade%7CPAPPID.22a0407e-5200-4ab1-89c2-66fec8aef531",
-    "lastModified": "2026-09-29T10:01:23.7993008+00:00",
-    "appVersion": "2505.10.343970.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T15:23:11.3202775+00:00",
+    "appVersion": "2601.0.351010.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/GTR/",
-    "sourceHash": "sha256:000679bc821d329a76a9eac501866b4e4404769b2c67c5b5badcf51660fc730f",
+    "sourceHash": "sha256:1d500c6d1ca3421e239686d6aa93cb6f13ab76f0b0bb987716e092b78e4c464e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:000679bc821d329a76a9eac501866b4e4404769b2c67c5b5badcf51660fc730f",
-    "mappedOn": null,
-    "summary": "Captures vendor order details for global trade purchasing",
+    "sourceHash": "sha256:1d500c6d1ca3421e239686d6aa93cb6f13ab76f0b0bb987716e092b78e4c464e",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports vendor Excel shipping manifests to create purchase orders with container and vessel data.",
     "shape": "process",
     "primary": [
       {
@@ -27,20 +29,23 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-ux-import-excel",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-import-excel"
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Imports vendor Excel order details",
+      "Imports vendor Excel files with order details",
       "Captures pallets, container numbers and item attributes",
-      "Records port of loading, discharge, vessel and shipping company",
-      "One-click PO creation by GTIN, item, pallet type or container",
-      "Prevents duplicate manifest imports",
-      "Automatic checks on GTIN, attributes, containers and vessels"
+      "Records port of loading, port of discharge, vessel and shipping company",
+      "One-click purchase order creation by GTIN, item number, pallet type or container",
+      "Blocks import of duplicate manifests",
+      "Validates GTIN, attributes, container numbers and vessels on import",
+      "Works with files from growers as well as vendors",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +78,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

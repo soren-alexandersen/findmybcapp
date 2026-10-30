@@ -8,18 +8,20 @@
     "publisher": "iDynamics Business Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_commissions%7CPAPPID.9809764e-634d-48ba-a656-b7b27e2c96b4",
-    "lastModified": "2026-08-31T12:09:16.9285477+00:00",
-    "appVersion": "7.0.2.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T18:02:13.3266269+00:00",
+    "appVersion": "7.2.1.2026102802",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/commissions/index.html",
-    "sourceHash": "sha256:8f16f78e25d5b16906bbf29db7a28d781dde247780067b036a92cb714215cb94",
+    "sourceHash": "sha256:944f73a1a3165bcd23d50af68e9eb0fa675810b0cadae5966ddda9b0364287f7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8f16f78e25d5b16906bbf29db7a28d781dde247780067b036a92cb714215cb94",
-    "mappedOn": null,
-    "summary": "Calculates and settles sales commissions for salespeople and agents",
+    "sourceHash": "sha256:944f73a1a3165bcd23d50af68e9eb0fa675810b0cadae5966ddda9b0364287f7",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates and settles commissions for salespeople, teams and external agents.",
     "shape": "process",
     "primary": [
       {
@@ -31,20 +33,18 @@
       "ng-sales-analytics"
     ],
     "claims": [
-      "Commissions for employees and external agents",
-      "Commission rates by item, item group or combinations of customer, salesperson, dimensions, custom fields",
-      "Tiered commissions based on discount or margin",
-      "Sales targets with tiered commissions by target achievement",
-      "Multiple salespeople per customer, ship-to or document with split rules",
-      "Sales teams with roles and manager commissions",
-      "Customizable Word reports emailed to salespeople without BC access",
-      "Commission penalties for late-paid invoices",
-      "Commission payable on invoice posting or on collection",
-      "Settlement via settlement documents or purchase invoices",
-      "Limited access for salespeople to run reports on own data",
-      "Tool to reassign records when a salesperson leaves",
-      "Sales statistics excluding external costs like shipping",
-      "Separate Spanish version for Cartera support"
+      "Rates per item or item group, or per item, customer, salesperson and dimension combination",
+      "Tiered commissions by discount given or margin achieved",
+      "Tiered commissions against period sales targets",
+      "Several salespeople per customer, ship-to or document with split amounts",
+      "Sales teams with roles and commissions for managers or members",
+      "Word report layouts emailed to salespeople without BC access",
+      "Penalties when invoices are paid late",
+      "Pay on invoice posting or only after collection",
+      "Settles via settlement documents or purchase invoices",
+      "Limited access for salespeople to report on their own data",
+      "Reassigns records when a salesperson leaves or changes",
+      "Separate Spanish version supports the Cartera module"
     ],
     "countries": [],
     "languages": [
@@ -52,14 +52,11 @@
       "es",
       "fr"
     ],
-    "industries": [
-      "Distribution",
-      "Retail and consumer goods"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

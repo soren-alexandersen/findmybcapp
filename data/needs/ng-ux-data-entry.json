@@ -97,7 +97,11 @@
             "long texts?",
             "multiline",
             "continuous text",
-            "full text fields"
+            "full text fields",
+            "pre- and post-texts",
+            "extended text",
+            "text editor",
+            "text codes"
           ]
         },
         {
@@ -106,11 +110,11 @@
         }
       ],
       "coverage": {
-        "Changing or renaming many records at once": 0.24,
-        "Copying documents": 0.22,
-        "Entering order lines": 0.22,
-        "Filling in the same defaults again and again": 0.22,
-        "Writing long texts on documents": 0.08
+        "Changing or renaming many records at once": 0.23,
+        "Copying documents": 0.21,
+        "Entering order lines": 0.21,
+        "Filling in the same defaults again and again": 0.21,
+        "Writing long texts on documents": 0.12
       }
     },
     {
@@ -196,8 +200,8 @@
         }
       ],
       "coverage": {
-        "Admin / super user": 0.14,
-        "Everyday users": 0.51
+        "Admin / super user": 0.13,
+        "Everyday users": 0.5
       }
     },
     {
@@ -222,8 +226,19 @@
         }
       ],
       "coverage": {
-        "A broad bundle": 0.14
+        "A broad bundle": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "country availability",
+      "terms": [
+        "country",
+        "offer",
+        "wher"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,40 +8,45 @@
     "publisher": "K3 Business Technology Group",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3businesstechnologygroup%7CAID.k3_landed_cost%7CPAPPID.b470c09e-b96e-4383-91d5-6fdaf8ccd75b",
-    "lastModified": "2026-07-20T11:31:30.8577889+00:00",
-    "appVersion": "28.1.0.21",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:39:38.2046399+00:00",
+    "appVersion": "28.2.0.24",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
-    "sourceHash": "sha256:81c31f29ba9fc3636205c4ff038a1616b1028a680d4a29f47394f4dcf50adb08",
+    "sourceHash": "sha256:0f5e1868ee8a66af8da010220b001f1483a4dd69c7aab28705def1e72ccbb319",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:81c31f29ba9fc3636205c4ff038a1616b1028a680d4a29f47394f4dcf50adb08",
-    "mappedOn": null,
-    "summary": "Calculates landed costs of shipped products",
-    "shape": "process",
+    "sourceHash": "sha256:0f5e1868ee8a66af8da010220b001f1483a4dd69c7aab28705def1e72ccbb319",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates landed cost, sales price and retail price for fashion items on K3 Pebblestone.",
+    "shape": "addon",
     "primary": [
       {
-        "need": "ng-vert-fashion",
+        "need": "ng-sales-pricing",
         "confidence": "medium"
       },
       {
-        "need": "ng-sales-pricing",
+        "need": "ng-vert-fashion",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-production-costing"
+      "ng-supplier-pricing",
+      "ng-currency"
     ],
     "claims": [
-      "Landed cost groups such as freight, insurance, VAT duty and import duty",
-      "Calculation templates for sales price, landed cost and recommended retail price",
+      "Runs on top of K3 Pebblestone",
+      "Unlimited landed cost groups such as freight, insurance, VAT and import duty",
+      "Calculation templates derive landed cost, sales price and recommended retail price",
+      "Cost elements per item can vary by vendor, country of origin and minimum quantity",
+      "Several calculation worksheets can be attached to one item",
+      "Vendor-specific currency rates for calculations",
       "Calculations include wholesale and retail margins",
-      "Item calculation by minimum quantity, vendor and country of origin",
-      "Vendor-specific currency rates",
-      "Updates price information on item card",
-      "Correct calculation applied when creating purchase orders"
+      "Pushes calculated prices to the item card",
+      "Purchase orders use the item's calculation"
     ],
     "countries": [
       "AE",
@@ -95,7 +100,7 @@
       "K3 Pebblestone"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

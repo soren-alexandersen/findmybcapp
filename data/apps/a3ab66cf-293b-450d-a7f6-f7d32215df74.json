@@ -1,0 +1,112 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-inventory-reconciliation|PAPPID.a3ab66cf-293b-450d-a7f6-f7d32215df74",
+  "guid": "a3ab66cf-293b-450d-a7f6-f7d32215df74",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-inventory-reconciliation",
+  "source": {
+    "name": "Inventory Reconciliation",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-inventory-reconciliation%7CPAPPID.a3ab66cf-293b-450d-a7f6-f7d32215df74",
+    "lastModified": "2026-10-26T15:06:54.9334804+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/inventory-reconciliation/docs/",
+    "sourceHash": "sha256:1bea067120e81df5c5d7582d4aff0f1294abe211dec5c1ad91223dd6fb111c54",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:1bea067120e81df5c5d7582d4aff0f1294abe211dec5c1ad91223dd6fb111c54",
+    "mappedOn": "2026-10-30",
+    "summary": "Finds mismatches between item ledger, warehouse, bins and G/L inventory value, with fixes.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-period-close",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Compares item ledger with warehouse totals per item, variant, location, lot, serial and package",
+      "Flags negative bin content, unit of measure issues and missing or blocked bins",
+      "Detects the known damaged item application issue",
+      "Shows the date each difference first appeared",
+      "Finds cost not yet posted to G/L and unadjusted item cost",
+      "Compares inventory and interim account balances with posted cost",
+      "Flags inventory accounts open for direct posting",
+      "Each finding has severity, probable cause and Microsoft fix advice",
+      "Read-only: never posts or changes ledger entries",
+      "Runs on demand with filters or on the job queue",
+      "Findings export to Excel for auditors",
+      "Licensed per reviewing user with 30-day trial",
+      "Needs BC online 29.0 or later"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

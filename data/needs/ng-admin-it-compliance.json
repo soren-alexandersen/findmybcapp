@@ -44,7 +44,104 @@
     "data breach ERP what to do",
     "We have to notify the data protection authority, what data do we need from BC?",
     "Remediation plan for IT audit findings on our ERP",
-    "Customer complained we kept their data after they asked us to delete it"
+    "Customer complained we kept their data after they asked us to delete it",
+    "We must check customers and vendors against sanction lists",
+    "We need to control who has access to sensitive data in BC",
+    "We want proof for auditors that our checks were done"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-do-you-mainly-need-to-con",
+      "text": "What do you mainly need to control?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Who we trade with (sanction lists)",
+          "patterns": [
+            "sanction",
+            "embargo",
+            "dual-use"
+          ]
+        },
+        {
+          "label": "Who has access to what in BC",
+          "patterns": [
+            "permission",
+            "security risks"
+          ]
+        },
+        {
+          "label": "Protecting confidential data",
+          "patterns": [
+            "encrypt",
+            "password",
+            "pseudonym",
+            "tokeniz"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Who we trade with (sanction lists)": 0.5,
+        "Who has access to what in BC": 0.25,
+        "Protecting confidential data": 0.25
+      }
+    },
+    {
+      "id": "what-do-you-need-to-screen-aga",
+      "text": "What do you need to screen against sanction lists?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customers, vendors and contacts",
+          "patterns": [
+            "contacts",
+            "business partners",
+            "customers, vendors"
+          ]
+        },
+        {
+          "label": "Products and goods (dual-use, export control)",
+          "patterns": [
+            "dual-use",
+            "sanctioned goods"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customers, vendors and contacts": 0.38,
+        "Products and goods (dual-use, export control)": 0.12
+      }
+    },
+    {
+      "id": "do-you-need-a-record-of-checks",
+      "text": "Do you need a record of checks and changes to show auditors?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, logged evidence",
+          "patterns": [
+            "is logged",
+            "logs each",
+            "audit evidence",
+            "evidence obligations"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, logged evidence": 0.5
+      }
+    }
+  ]
 }

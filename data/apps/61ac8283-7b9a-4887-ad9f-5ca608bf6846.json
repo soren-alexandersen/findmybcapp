@@ -8,41 +8,45 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.gp2bc_assistant%7CPAPPID.61ac8283-7b9a-4887-ad9f-5ca608bf6846",
-    "lastModified": "2026-05-20T13:08:52.2582121+00:00",
-    "appVersion": "26.2.97.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:59:00.20334+00:00",
+    "appVersion": "26.4.101.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/gp-to-bc-migration-assistant/",
-    "sourceHash": "sha256:79da0ee4ceab1d90d5e76fc701f44384202994139aa0502bdbb35839b8a8825d",
+    "sourceHash": "sha256:531ccc1c45df00a01905ace07591ba06e9e3e983775752a7119100e710496e98",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:79da0ee4ceab1d90d5e76fc701f44384202994139aa0502bdbb35839b8a8825d",
-    "mappedOn": null,
-    "summary": "Helps users transition process flows from Dynamics GP to BC",
-    "shape": "other",
+    "sourceHash": "sha256:531ccc1c45df00a01905ace07591ba06e9e3e983775752a7119100e710496e98",
+    "mappedOn": "2026-10-30",
+    "summary": "Eases Dynamics GP users into BC with GP-style views, training videos and features.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-training-adoption",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-cloud-upgrade",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-ux-custom-fields",
-      "ng-customer-credit-holds",
-      "ng-financial-statements"
+      "ng-financial-statements",
+      "ng-customer-credit-holds"
     ],
     "claims": [
-      "Embedded training videos comparing GP to BC in each window",
-      "User-definable fields on customers, vendors and transactions",
-      "GP-style interactive trial balance with drilldowns by account-dimension",
-      "Drill into GL distributions for any transaction",
-      "National accounts: parent-child customers, payments and credit checks at parent",
+      "Embeds GP-versus-BC training videos in each transaction window",
+      "Adds user-definable custom fields by label and data type",
+      "Interactive trial balance with drilldown by G/L account and dimension",
+      "Drills into G/L distributions for any transaction",
+      "Parent-child customer accounts for receiving payments and credit checks at parent level",
       "Shows user and creation date on transaction lists for batching",
-      "Avoids burning a new check number for large remittances",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Avoids wasting check numbers on long remittances",
+      "Priced at USD 100 per tenant per month"
     ],
     "countries": [],
     "languages": [
@@ -61,9 +65,11 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Professional Services"
+    ],
     "connectsTo": [
-      "Microsoft Dynamics GP"
+      "Dynamics GP"
     ],
     "requires": [],
     "deployment": "not_stated",

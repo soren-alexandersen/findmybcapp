@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.00881c41-edf5-4831-81b9-ce9afd574e27%7CPAPPID.bd786259-189e-4480-8356-1220bad9d8ca",
-    "lastModified": "2026-07-02T13:35:11.429969+00:00",
-    "appVersion": "28.1.0.125",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:02:08.5058778+00:00",
+    "appVersion": "29.0.0.134",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:fb58afa56fa2d9d45dd06d0c85e62bbf320c1c49ac3250c20ff301bcef48df95",
+    "sourceHash": "sha256:dfc069b442c063bc8fea18866a7d089713dea120e52d5ae7a4d5f2b60175cd47",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:fb58afa56fa2d9d45dd06d0c85e62bbf320c1c49ac3250c20ff301bcef48df95",
-    "mappedOn": null,
-    "summary": "Polish language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:dfc069b442c063bc8fea18866a7d089713dea120e52d5ae7a4d5f2b60175cd47",
+    "mappedOn": "2026-10-30",
+    "summary": "Polish user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Polish",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Polish",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "PL"
@@ -39,14 +41,15 @@
       "pl"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

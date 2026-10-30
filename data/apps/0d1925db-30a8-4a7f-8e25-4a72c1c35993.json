@@ -8,18 +8,20 @@
     "publisher": "Stampli",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.stampli1608225422715%7CAID.globalmicbc%7CPAPPID.0d1925db-30a8-4a7f-8e25-4a72c1c35993",
-    "lastModified": "2026-09-17T09:48:55.8827572+00:00",
-    "appVersion": "1.16.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T09:39:28.2863033+00:00",
+    "appVersion": "1.19.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.stampli.com/",
-    "sourceHash": "sha256:c33e907a681602980507de9676921af86b3cda8bde91f7c72320868329aaa2db",
+    "sourceHash": "sha256:d88501ae2da25f22322d3a5fa9519457213656be28d6fd02884b0a9be6443e22",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c33e907a681602980507de9676921af86b3cda8bde91f7c72320868329aaa2db",
-    "mappedOn": null,
-    "summary": "Integrates Stampli AP automation",
+    "sourceHash": "sha256:d88501ae2da25f22322d3a5fa9519457213656be28d6fd02884b0a9be6443e22",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Stampli AP automation to BC for invoice capture, coding, approvals and PO matching.",
     "shape": "connector",
     "primary": [
       {
@@ -33,35 +35,24 @@
       "ng-hr-employee-expenses"
     ],
     "claims": [
-      "Automates invoice capture, coding and approvals",
-      "AI 'Billy the Bot' automates capture, coding, routing and fraud detection",
-      "2- and 3-way PO matching with partial amounts and line adjustments",
-      "Syncs master data, GLs, dimensions, vendors, locations and POs",
-      "Collaboration and documentation centered on each invoice",
-      "Multi-subsidiary invoice processing and payment",
-      "Vendor onboarding and documentation",
-      "Integrated Direct Pay and credit cards",
-      "AP analytics and reporting",
-      "Deploys in days"
+      "AI bot automates capture, coding, routing and fraud detection",
+      "2- and 3-way PO matching with partial amounts and line edits",
+      "Syncs master data, G/L, dimensions, vendors and POs with BC",
+      "Invoice-level collaboration and documentation",
+      "Handles invoices for multiple companies in one place",
+      "Vendor onboarding and documentation management",
+      "AP analytics on invoices and productivity",
+      "Add-on products for payments and credit cards"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Construction",
-      "Healthcare",
-      "Hospitality",
-      "Manufacturing",
-      "Oil & Gas",
-      "Professional services",
-      "Real estate",
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [
       "Stampli"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

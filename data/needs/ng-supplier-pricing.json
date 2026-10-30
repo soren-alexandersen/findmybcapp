@@ -86,9 +86,9 @@
         }
       ],
       "coverage": {
-        "Excel or CSV price lists": 0.32,
-        "Standard catalog files (BMECat, PRICAT, OCI)": 0.18,
-        "Direct feed from a distributor or wholesaler": 0.32
+        "Excel or CSV price lists": 0.27,
+        "Standard catalog files (BMECat, PRICAT, OCI)": 0.14,
+        "Direct feed from a distributor or wholesaler": 0.27
       }
     },
     {
@@ -138,7 +138,7 @@
         }
       ],
       "coverage": {
-        "Import and update supplier prices": 0.59,
+        "Import and update supplier prices": 0.5,
         "Manage discounts on documents": 0.32,
         "Keep price history and end old prices": 0.23,
         "Calculate purchase price with my own rules": 0.14
@@ -176,7 +176,7 @@
         }
       ],
       "coverage": {
-        "Yes, create items automatically": 0.32,
+        "Yes, create items automatically": 0.27,
         "Only non-stock catalog items": 0.14
       }
     },
@@ -201,7 +201,7 @@
         }
       ],
       "coverage": {
-        "Yes, several companies or tenants": 0.14
+        "Yes, several companies or tenants": 0.09
       }
     },
     {
@@ -227,6 +227,38 @@
       "coverage": {
         "Yes, multi-level discounts": 0.14
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "sales-side price and surcharge calculation, not supplier prices",
+      "terms": [
+        "calculat"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI defaults for price list setup",
+      "terms": [
+        "default"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "trial and subscription terms",
+      "terms": [
+        "paid",
+        "subscription",
+        "then"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'value' wording (field mappings, saved defaults)",
+      "terms": [
+        "valu"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,36 +8,43 @@
     "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-napp-ein%7CPAPPID.3b6dabc8-27de-4fcf-833f-8857154e0662",
-    "lastModified": "2026-10-04T21:06:21.4260301+00:00",
+    "lastModified": "2026-10-26T13:52:17.2087673+00:00",
     "appVersion": "28.0.260924.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-e-invoice",
-    "sourceHash": "sha256:130f13a3275fdf1875b33a2d5fd6e121ad31714e40784a189c88bf023ec4d924",
+    "sourceHash": "sha256:7479aa664ac7887617917ed70e258f4f7c291ca48efd0cc5357e5ab3751c757e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:130f13a3275fdf1875b33a2d5fd6e121ad31714e40784a189c88bf023ec4d924",
-    "mappedOn": null,
-    "summary": "Sends and receives Turkish e-invoices",
+    "sourceHash": "sha256:7479aa664ac7887617917ed70e258f4f7c291ca48efd0cc5357e5ab3751c757e",
+    "mappedOn": "2026-10-30",
+    "summary": "Turkish e-Fatura: send and receive electronic invoices per Revenue Administration rules.",
     "shape": "localization",
     "primary": [
       {
         "need": "ng-loc-einvoicing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture"
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Downloads registered e-invoice parties and links them to customer and vendor cards",
-      "Sends sales invoices, service invoices and purchase credit memos following Turkish Revenue Administration rules",
-      "Queries delivery status of sent invoices and reasons for failure",
-      "Downloads incoming e-invoices into BC",
-      "Creates documents and accounting records from incoming e-invoices",
-      "Sends acceptance or rejection responses to incoming e-invoices",
-      "View sent and received e-invoice outputs in BC"
+      "Downloads parties registered in the e-invoice system and links them to customer and vendor cards",
+      "Sends sales invoices, purchase credit memos and service invoices electronically",
+      "Checks delivery status of sent invoices and reasons for failure",
+      "Imports incoming e-invoices and creates the related documents and ledger entries",
+      "Sends accept or reject responses to incoming e-invoices",
+      "Shows the rendered output of sent and received e-invoices inside BC",
+      "Available in English and Turkish"
     ],
     "countries": [
       "TR"
@@ -47,12 +54,10 @@
       "tr"
     ],
     "industries": [],
-    "connectsTo": [
-      "Turkish Revenue Administration e-Fatura"
-    ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

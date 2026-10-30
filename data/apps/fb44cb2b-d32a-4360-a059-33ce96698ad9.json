@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2reclaimit%7CPAPPID.fb44cb2b-d32a-4360-a059-33ce96698ad9",
-    "lastModified": "2026-06-10T02:54:40.6212304+00:00",
+    "lastModified": "2026-10-19T11:58:37.4831122+00:00",
     "appVersion": "26.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:854baa5c5de1a7c9d833b8f793ee7724cba3f4b52cd722e9f4818e23d335216d",
+    "sourceHash": "sha256:25ccc2f306317f20fb6e596607351db3872abebbada365f7b1372aed03707057",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:854baa5c5de1a7c9d833b8f793ee7724cba3f4b52cd722e9f4818e23d335216d",
-    "mappedOn": null,
-    "summary": "Automates return orders between Reclaimit and Business Central",
+    "sourceHash": "sha256:25ccc2f306317f20fb6e596607351db3872abebbada365f7b1372aed03707057",
+    "mappedOn": "2026-10-30",
+    "summary": "Passes order data to Reclaimit and posts approved returns into BC.",
     "shape": "connector",
     "primary": [
       {
@@ -27,27 +29,27 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
     "claims": [
-      "Looks up the original BC orders in real time once a customer opens a return in Reclaimit",
-      "Returns line-level order detail and related documents (confirmations, shipments, invoices)",
-      "Submits processed returns as BC sales returns",
-      "Optional auto-posting of return orders",
-      "Merchant token mapping to the right BC environment",
-      "Supports separate QA and production Reclaimit environments",
-      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+      "Looks up the original BC order live when a customer starts a return, for open and fulfilled orders",
+      "Returns line detail with quantities, prices, shipping data and related documents",
+      "Creates processed returns as sales return orders in BC",
+      "Optional automatic posting of return orders",
+      "Authenticates each merchant by token and routes to the right BC environment",
+      "Supports separate test and production Reclaimit environments",
+      "Includes a portal to monitor flows, get alerts and resubmit failed transactions"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Reclaimit"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

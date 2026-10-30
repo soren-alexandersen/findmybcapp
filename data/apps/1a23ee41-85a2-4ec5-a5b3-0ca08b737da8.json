@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.indexofsolutions1735901590684|AID.ksazatcaintegration|PAPPID.1a23ee41-85a2-4ec5-a5b3-0ca08b737da8",
+  "guid": "1a23ee41-85a2-4ec5-a5b3-0ca08b737da8",
+  "publisherId": "indexofsolutions1735901590684",
+  "offerId": "ksazatcaintegration",
+  "source": {
+    "name": "ZATCA E-Invoicing Integration",
+    "publisher": "Index Of Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.indexofsolutions1735901590684%7CAID.ksazatcaintegration%7CPAPPID.1a23ee41-85a2-4ec5-a5b3-0ca08b737da8",
+    "lastModified": "2026-10-13T06:01:43.7986821+00:00",
+    "appVersion": "1.4.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.indexofsolutions.com/contact",
+    "sourceHash": "sha256:06d3ac90308f45610eef2fadcdcc31f94975233a4cddc2d823fc18902366a315",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:06d3ac90308f45610eef2fadcdcc31f94975233a4cddc2d823fc18902366a315",
+    "mappedOn": "2026-10-30",
+    "summary": "Clears or reports Saudi sales invoices with ZATCA FATOORA Phase 2 on posting.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Validates, stamps and submits invoices and credit memos to ZATCA on posting",
+      "Picks clearance or reporting from the customer's VAT number, with override per customer",
+      "Writes ZATCA status, UUID, hash and counter back to the posted document",
+      "Shows the QR code in a fact box and prints it on supplied layouts",
+      "Creates an archive PDF with embedded signed XML as an attachment",
+      "Queues and retries when ZATCA is down; bulk resend from posted lists",
+      "Captures and validates Arabic buyer address fields on the customer card",
+      "Requires BC online 26.0 or later",
+      "Requires a subscription to the Index e-Invoicing service"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ZATCA FATOORA",
+      "Index e-Invoicing service"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

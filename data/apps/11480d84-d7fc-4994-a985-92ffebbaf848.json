@@ -8,41 +8,55 @@
     "publisher": "TCOG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tcog%7CAID.itsuitsfashion%7CPAPPID.11480d84-d7fc-4994-a985-92ffebbaf848",
-    "lastModified": "2026-09-23T15:41:03.8872312+00:00",
-    "appVersion": "27.0.60382.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T16:18:02.2808715+00:00",
+    "appVersion": "27.0.63394.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.itsuitsfashion.com/itsuitsfashion365/support/",
-    "sourceHash": "sha256:71d78f900e3a2c19c00bc1d0ee9df2d6bc1083a6b0f50ec7c60b261e30e25908",
+    "sourceHash": "sha256:1c266f9f8171be3eaa50ecb849273eb4cc2320874bbd735fa2e333ea3c32770e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:71d78f900e3a2c19c00bc1d0ee9df2d6bc1083a6b0f50ec7c60b261e30e25908",
-    "mappedOn": null,
-    "summary": "Fashion solution for seasonal item variants",
+    "sourceHash": "sha256:1c266f9f8171be3eaa50ecb849273eb4cc2320874bbd735fa2e333ea3c32770e",
+    "mappedOn": "2026-10-30",
+    "summary": "Fashion industry solution: style-based variants, size matrices, seasons and delivery allocation.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-fashion",
         "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-item-master-data",
-      "ng-sales-order-entry",
-      "ng-customer-consignment"
+      "ng-order-allocation",
+      "ng-customer-consignment",
+      "ng-barcode-labels",
+      "ng-assortment-catalogs"
     ],
     "claims": [
-      "Style master creates items with colors, sizes, cups, lengths or prepacks",
-      "Seasonal collection management",
-      "Matrix order entry by color, size, cup or length",
-      "Replacements and season closings",
+      "Style master creates items by color, size, cup, length or prepack",
+      "Seasonal collection setup and management",
+      "Multi-dimensional size/color matrix for order entry",
+      "Handles replacements and season closings",
       "Barcodes per SKU or prepack",
-      "Receipt worksheet for receiving",
-      "Delivery worksheet by delivery priority and order date",
-      "Customer consignment inventory and invoicing",
-      "Transports to receive containers",
-      "Automatic freight cost calculation"
+      "Purchase orders created from a requisition worksheet",
+      "Receiving via a receipt worksheet",
+      "Delivery worksheet decides what can ship by priority and order date",
+      "Customer consignment stock with invoicing",
+      "Container receipts through transports",
+      "Freight cost calculated automatically",
+      "Configurable code lengths for style, color and prepack",
+      "Works with Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -59,12 +73,13 @@
       "nl"
     ],
     "industries": [
+      "Apparel",
       "Fashion"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

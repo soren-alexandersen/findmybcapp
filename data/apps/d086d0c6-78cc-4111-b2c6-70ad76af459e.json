@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-apparel|PAPPID.d086d0c6-78cc-4111-b2c6-70ad76af459e",
+  "guid": "d086d0c6-78cc-4111-b2c6-70ad76af459e",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-apparel",
+  "source": {
+    "name": "Elevate Apparel",
+    "publisher": "Equerra Limited",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-apparel%7CPAPPID.d086d0c6-78cc-4111-b2c6-70ad76af459e",
+    "lastModified": "2026-10-22T21:54:00.7077314+00:00",
+    "appVersion": "2.0.119.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://portal.equerra.com/isv/docs/elevate-apparel",
+    "sourceHash": "sha256:42cac288a565be425aadc99ec3d77629a4167112500317c1c28904c94f6a435a",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:42cac288a565be425aadc99ec3d77629a4167112500317c1c28904c94f6a435a",
+    "mappedOn": "2026-10-30",
+    "summary": "Style, colour and size matrix product management for apparel brands, generating BC items or variants.",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-phase-out",
+      "ng-product-compliance",
+      "ng-bom-formula-engineering",
+      "ng-ux-data-translation"
+    ],
+    "claims": [
+      "A style is defined once and its colours and sizes generate items or item variants",
+      "Matrix cells can be created one by one, in bulk or by Excel import",
+      "SKU numbering global, per style or by pattern, with GTIN pools and check-digit validation",
+      "Attributes at style, colour or SKU level with storefront translations and a completeness score",
+      "Image references with roles, approval and licence expiry",
+      "Tracks certifications with expiry and a role centre cue for those about to lapse",
+      "Groups styles into seasons, drops and capsules with stock, on-order and open sales rollups",
+      "A collection can be cloned for the next season",
+      "Bulk SKU status changes are logged per batch and reversible",
+      "Rationalisation report finds slow movers",
+      "Blocks reuse of retired SKU codes",
+      "Personalisation BOMs capture embroidery, monograms or thread colours on the sales order",
+      "REST endpoints for all main entities for storefronts, 3PLs or integration platforms",
+      "Dedicated permission sets for apparel users",
+      "No dependency on other apps and no external service calls for its features",
+      "30-day free trial, then licensed directly by Equerra",
+      "BC online, Essentials or Premium, version 28.2 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

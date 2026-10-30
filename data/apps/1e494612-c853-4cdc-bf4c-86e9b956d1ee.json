@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-shipping|PAPPID.1e494612-c853-4cdc-bf4c-86e9b956d1ee",
+  "guid": "1e494612-c853-4cdc-bf4c-86e9b956d1ee",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-shipping",
+  "source": {
+    "name": "Elevate Shipping",
+    "publisher": "Equerra Limited",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-shipping%7CPAPPID.1e494612-c853-4cdc-bf4c-86e9b956d1ee",
+    "lastModified": "2026-10-27T09:18:37.9652597+00:00",
+    "appVersion": "28.1.150.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://portal.equerra.com/docs/elevate-shipping/overview",
+    "sourceHash": "sha256:b1bd006f9c96e98b7b7acfb94db421eee42c07e714b24570fe6bef7cc9e4f677",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1bd006f9c96e98b7b7acfb94db421eee42c07e714b24570fe6bef7cc9e4f677",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks shipping containers and voyages from booking to receipt, with transit accruals and freight allocation.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-period-close",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Records voyages with carrier, vessel, ports, ETD/ETA, bill of lading and booking reference",
+      "Container register keyed on ISO 6346 numbers with seal, weights and dates",
+      "Purchase, sales and transfer lines link to container bookings; edits flag the booking for review",
+      "Optional container column on standard purchase and sales lines pages",
+      "Departure or arrival of a movement posts the linked shipments and receipts",
+      "Handles partial arrivals and actual arrived quantities with over-receipt tolerance",
+      "Month-end goods-in-transit accrual that reverses on arrival without touching vendor ledger",
+      "Allocates item charges across container lines by weight or volume",
+      "Records packing specification per container and reconciles it",
+      "Role centre cues for planned, booked, in-transit and review work",
+      "Freight allocation across vendors or currencies is blocked by default",
+      "No other apps or external services needed; telemetry can be switched off",
+      "BC online version 28.1 or later, Essentials or Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

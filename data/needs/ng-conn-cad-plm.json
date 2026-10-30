@@ -81,11 +81,11 @@
         }
       ],
       "coverage": {
-        "SolidWorks": 0.47,
-        "Autodesk (Inventor, AutoCAD, Vault, Fusion)": 0.47,
-        "Siemens or PTC (Teamcenter, Solid Edge, Creo, Windchill)": 0.41,
-        "EPLAN": 0.47,
-        "Another or in-house system": 0.35
+        "SolidWorks": 0.44,
+        "Autodesk (Inventor, AutoCAD, Vault, Fusion)": 0.44,
+        "Siemens or PTC (Teamcenter, Solid Edge, Creo, Windchill)": 0.39,
+        "EPLAN": 0.44,
+        "Another or in-house system": 0.33
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Both ways": 0.47,
-        "Into BC only": 0.71
+        "Both ways": 0.44,
+        "Into BC only": 0.72
       }
     },
     {
@@ -146,13 +146,21 @@
           ]
         },
         {
+          "label": "Compare CAD with BC and resolve differences",
+          "patterns": [
+            "discrepanc",
+            "compares [^;]{0,20}boms with bc"
+          ]
+        },
+        {
           "label": "Just transfer the latest data",
           "any": true
         }
       ],
       "coverage": {
-        "Track drawing and BOM revisions": 0.24,
-        "Formal change requests and approval": 0.29
+        "Track drawing and BOM revisions": 0.28,
+        "Formal change requests and approval": 0.33,
+        "Compare CAD with BC and resolve differences": 0.28
       }
     },
     {
@@ -184,15 +192,49 @@
           ]
         },
         {
+          "label": "Raw materials and parts that are not in the CAD model",
+          "patterns": [
+            "non-cad parts",
+            "raw materials",
+            "virtual components",
+            "materials missing",
+            "component replacement"
+          ]
+        },
+        {
           "label": "Doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Items and production BOMs with routings": 0.59,
-        "Production, assembly orders or projects": 0.41,
-        "Item attributes and templates": 0.29
+        "Items and production BOMs with routings": 0.56,
+        "Production, assembly orders or projects": 0.39,
+        "Item attributes and templates": 0.28,
+        "Raw materials and parts that are not in the CAD model": 0.28
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "app interface languages",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "also supports Dynamics 365 Finance, not relevant to BC buyers",
+      "terms": [
+        "financ"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'where' wording; where-used lookup is a single-app detail",
+      "terms": [
+        "wher"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

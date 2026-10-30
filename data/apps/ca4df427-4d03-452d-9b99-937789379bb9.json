@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.advance_bundle_life_sciences%7CPAPPID.ca4df427-4d03-452d-9b99-937789379bb9",
-    "lastModified": "2026-09-23T13:51:07.7106052+00:00",
-    "appVersion": "2601.7.345065.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T15:13:14.4418733+00:00",
+    "appVersion": "2602.0.352106.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:ae67520b70ce50a57a25f8bcc0da5faa7e27abaad52270d6d66de8a68f8fcb39",
+    "sourceHash": "sha256:43298078586393815a7e2207db32af06d8a1f96ab3b9bf0f0fa2fa8f131d8149",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ae67520b70ce50a57a25f8bcc0da5faa7e27abaad52270d6d66de8a68f8fcb39",
-    "mappedOn": null,
-    "summary": "ERP bundle for supplement, cosmetic and life sciences manufacturers",
+    "sourceHash": "sha256:43298078586393815a7e2207db32af06d8a1f96ab3b9bf0f0fa2fa8f131d8149",
+    "mappedOn": "2026-10-30",
+    "summary": "Aptean ERP bundle for GMP-regulated life sciences, supplement and cosmetics manufacturers.",
     "shape": "vertical",
     "primary": [
       {
@@ -28,58 +30,31 @@
       },
       {
         "need": "ng-lot-serial-traceability",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-quality-inspection",
+        "need": "ng-nonconformance-capa",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-nonconformance-capa",
-      "ng-demand-forecast"
+      "ng-quality-inspection",
+      "ng-demand-forecast",
+      "ng-conn-esignature"
     ],
     "claims": [
-      "GMP-regulated operations support",
-      "eSignatures, SDS/CoA links and inspection status control",
-      "Non-conformance and CAPA workflows",
-      "Specification management and document publication",
-      "Lot-level forward/backward tracking and recall readiness",
-      "Retention samples and stability program tracking",
-      "Potency-based batch adjustments",
-      "License plating, labeling and mobile scanning",
-      "Shop floor and weigh-scale integration",
-      "Transport scheduling",
-      "Supplier approvals",
-      "Pricing matrices, surcharges, order minimums and backorder handling",
-      "Requires Premium edition"
+      "eSignatures, SDS and CoA links, and inspection status control",
+      "Non-conformance and CAPA workflows with specification management",
+      "Forward and backward lot tracing with recall readiness",
+      "Tracks retention samples and stability programs",
+      "Potency-based batch adjustments and inspection-driven availability",
+      "License plating, labeling, mobile scanning and weigh-scale integration",
+      "Includes demand forecasting",
+      "Supplier approvals, contracts, pricing matrices, surcharges, order minimums and backorders",
+      "Requires the Premium edition",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BR",
-      "CA",
-      "CH",
-      "CR",
-      "DE",
-      "DK",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "GT",
-      "ID",
-      "IN",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "PR",
-      "SE",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -89,9 +64,8 @@
       "nl"
     ],
     "industries": [
-      "Cosmetics",
-      "Life sciences",
-      "Nutraceuticals"
+      "Healthcare",
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],

@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.drinkit_adv_wholesale%7CPAPPID.be283800-400f-4245-9b35-e7cfbecf6e9a",
-    "lastModified": "2026-09-23T13:11:55.72227+00:00",
-    "appVersion": "2601.15.344970.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T05:47:00.0567597+00:00",
+    "appVersion": "2602.0.351762.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:fb7fea77855ebdd7ac715af3e3d312944ccbba309077933a63062210ef917625",
+    "sourceHash": "sha256:0c07f9fb200a6e923aebf11e63fffdec272188f993b098e02ba324046ce9ca29",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fb7fea77855ebdd7ac715af3e3d312944ccbba309077933a63062210ef917625",
-    "mappedOn": null,
-    "summary": "Industry bundle for beverage wholesale and distribution",
+    "sourceHash": "sha256:0c07f9fb200a6e923aebf11e63fffdec272188f993b098e02ba324046ce9ca29",
+    "mappedOn": "2026-10-30",
+    "summary": "Beverage wholesale and distribution suite: excise tax, deposits, conditions, logistics, EMCS.",
     "shape": "vertical",
     "primary": [
       {
@@ -27,34 +29,80 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-wholesale-trading",
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-transport-planning",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vat-tax",
-      "ng-transport-planning",
+      "ng-vert-wholesale-trading",
+      "ng-loc-tax-reporting",
       "ng-customer-rebates",
-      "ng-loc-tax-reporting"
+      "ng-sales-order-entry"
     ],
     "claims": [
-      "Excise tax calculation and reporting on bonded location movements or invoices",
-      "Empties and deposit tracking for kegs, bottles, crates and pallets",
-      "Deposit balances for customers and vendors, split by type",
-      "Multi-level charges, promotional items and discounts with volume commitments",
-      "Fast sales order entry page with sorting, filtering and history",
-      "Order planning with own fleet or third-party shipper with weight and pallet constraints",
-      "EMCS integration with e-AD exchange",
-      "Event management with loan material reservation and returns",
-      "Outlet and pub contracts with rent, loans and volume-based settlements",
-      "Advanced warehouse management extending standard BC"
+      "Calculates and reports excise duty from bonded-location movements or from sales and purchase invoices",
+      "Tracks kegs, bottles, crates and pallets as empties",
+      "Shows deposit balances per type for customers and vendors",
+      "Multi-level charges, promotional items and discounts tied to volume commitments",
+      "Quick sales order entry page with item sorting, filtering and order history",
+      "Order planning for own fleet or external carrier with weight and pallet constraints",
+      "Exchanges e-AD documents with the EU EMCS excise system for goods movements",
+      "Event management covering beverage supply, loan material reservation and returns",
+      "Contracts with outlets and pubs covering rent, loans and loaned items",
+      "Extended warehouse management inside BC",
+      "Tax calculation handles bonded warehouses",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
-    "countries": [],
-    "languages": [],
-    "industries": [
-      "Beverage",
-      "Beverage distribution"
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ET",
+      "FI",
+      "FR",
+      "GB",
+      "GH",
+      "GR",
+      "HR",
+      "ID",
+      "IE",
+      "KE",
+      "LT",
+      "LU",
+      "LV",
+      "MA",
+      "MY",
+      "MZ",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "US"
     ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
     "connectsTo": [
       "EMCS"
     ],

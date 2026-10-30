@@ -125,7 +125,7 @@
         "nShift (incl. Unifaun, Transsmart, Webshipper)": 0.15,
         "Sendcloud": 0.08,
         "Shipmondo": 0.06,
-        "Another platform (Cargoson, EasyPost, Logtrade, ShipStation...)": 0.35,
+        "Another platform (Cargoson, EasyPost, Logtrade, ShipStation...)": 0.37,
         "Directly with the carrier": 0.13
       }
     },
@@ -182,9 +182,9 @@
       ],
       "coverage": {
         "PostNord or Bring": 0.07,
-        "DHL": 0.16,
-        "GLS or DPD": 0.13,
-        "UPS, FedEx or USPS": 0.16,
+        "DHL": 0.22,
+        "GLS or DPD": 0.18,
+        "UPS, FedEx or USPS": 0.23,
         "Royal Mail or other UK carriers": 0.08
       }
     },
@@ -256,15 +256,28 @@
           ]
         },
         {
+          "label": "Let customers pick a delivery option or pickup point",
+          "patterns": [
+            "checkout",
+            "pickup points?",
+            "parcel ?shops?",
+            "service points?",
+            "pick-?up points?",
+            "drop-?off points?",
+            "delivery options"
+          ]
+        },
+        {
           "label": "Just labels / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Compare carrier prices before booking": 0.31,
-        "Add the freight cost to the order or invoice": 0.15,
-        "Send tracking emails or SMS to customers": 0.25,
-        "Check delivery addresses before shipping": 0.05
+        "Compare carrier prices before booking": 0.33,
+        "Add the freight cost to the order or invoice": 0.13,
+        "Send tracking emails or SMS to customers": 0.22,
+        "Check delivery addresses before shipping": 0.05,
+        "Let customers pick a delivery option or pickup point": 0.06
       }
     },
     {
@@ -307,8 +320,8 @@
         }
       ],
       "coverage": {
-        "On handheld scanners in the warehouse": 0.2,
-        "Automatically to a label printer": 0.16
+        "On handheld scanners in the warehouse": 0.21,
+        "Automatically to a label printer": 0.15
       }
     },
     {
@@ -367,10 +380,10 @@
         }
       ],
       "coverage": {
-        "Exports needing customs papers": 0.18,
+        "Exports needing customs papers": 0.19,
         "Dangerous goods (ADR)": 0.13,
-        "Pallets or full truckloads": 0.15,
-        "Return labels": 0.18
+        "Pallets or full truckloads": 0.16,
+        "Return labels": 0.26
       }
     },
     {
@@ -385,7 +398,11 @@
             "number of packages",
             "predefined packages",
             "optimal packaging",
-            "weight, dimensions"
+            "weight, dimensions",
+            "multiple packages",
+            "package templates",
+            "package specifications",
+            "packages per shipment"
           ]
         },
         {
@@ -408,10 +425,19 @@
         }
       ],
       "coverage": {
-        "Several packages with weights and dimensions": 0.1,
+        "Several packages with weights and dimensions": 0.11,
         "Waybills or consignment notes": 0.23,
         "High volumes printed in batches": 0.03
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "technical request/response wording",
+      "terms": [
+        "request"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

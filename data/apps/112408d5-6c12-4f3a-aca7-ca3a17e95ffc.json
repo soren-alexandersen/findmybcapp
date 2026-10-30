@@ -8,18 +8,20 @@
     "publisher": "Cetas Information Technology",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.nb_quality%7CPAPPID.112408d5-6c12-4f3a-aca7-ca3a17e95ffc",
-    "lastModified": "2026-03-18T16:57:34.0355114+00:00",
-    "appVersion": "2.2600.12.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:50:31.9771868+00:00",
+    "appVersion": "29.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbquality",
-    "sourceHash": "sha256:729be7a397fc2e9853213c455dff1a2b9f04672f5dfca344ea25ab685e4fbfe0",
+    "sourceHash": "sha256:3723efee53a421092e52bd989a24fce4cc658a3e2de294d9e92e2b69c01deb9f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:729be7a397fc2e9853213c455dff1a2b9f04672f5dfca344ea25ab685e4fbfe0",
-    "mappedOn": null,
-    "summary": "Quality control inspections for incoming and produced goods",
+    "sourceHash": "sha256:3723efee53a421092e52bd989a24fce4cc658a3e2de294d9e92e2b69c01deb9f",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality control with test parameters, inspection and sampling plans, results and certificates.",
     "shape": "process",
     "primary": [
       {
@@ -28,25 +30,31 @@
       }
     ],
     "secondary": [
-      "ng-supplier-quality-compliance"
+      "ng-supplier-quality-compliance",
+      "ng-quality-hold"
     ],
     "claims": [
-      "Custom test parameters per product or product group",
-      "Inspection plans with acceptable limits",
+      "User-defined test parameters per product or product group",
+      "Inspection plans combine parameters with acceptable limits",
       "Sampling plans",
-      "QC at receipt, production and stock transfer",
-      "In-process testing on routing operations",
-      "Record results and accept or reject",
-      "Prints Certificate of Analysis",
+      "Tools or equipment linked to inspection plans",
+      "QC at receipt, during manufacturing and on transfers",
+      "Test plan assigned per item for incoming and finished goods",
+      "In-process testing tied to routing operations",
+      "Record results and accept or reject goods",
+      "Prints a Certificate of Analysis",
       "Vendor evaluation from QC history",
-      "Testing equipment calibration data",
-      "100 USD/month up to 10 users"
+      "Testing equipment managed with calibration data",
+      "100 USD per month for up to 10 users"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

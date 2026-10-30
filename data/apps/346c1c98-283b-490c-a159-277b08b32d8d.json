@@ -8,18 +8,20 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1026%7CPAPPID.346c1c98-283b-490c-a159-277b08b32d8d",
-    "lastModified": "2026-09-28T09:11:13.5427092+00:00",
-    "appVersion": "2026.9.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T13:05:08.8567835+00:00",
+    "appVersion": "2026.10.1.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/dcj",
-    "sourceHash": "sha256:3f1c7975d4ec66a7941ef0baf0975c07a5dff21b3ae5aad1b2499af88e6f712f",
+    "sourceHash": "sha256:53c4fa2bb690302c05ccb16e991a7d9f6be334af3e2dbb2d6260a4da77e28614",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3f1c7975d4ec66a7941ef0baf0975c07a5dff21b3ae5aad1b2499af88e6f712f",
-    "mappedOn": null,
-    "summary": "Syncs Jira service requests and time with BC",
+    "sourceHash": "sha256:53c4fa2bb690302c05ccb16e991a7d9f6be334af3e2dbb2d6260a4da77e28614",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs BC customers, contacts and project data to Jira Service Management.",
     "shape": "connector",
     "primary": [
       {
@@ -28,17 +30,17 @@
       }
     ],
     "secondary": [
-      "ng-crm-accounts",
-      "ng-proj-time"
+      "ng-proj-time",
+      "ng-crm-accounts"
     ],
     "claims": [
-      "Syncs BC customers to Jira organizations",
-      "Syncs BC contacts to Jira customers incl. name, email, address",
-      "Project and contract details available on Jira work items for time recordings",
-      "Per-customer/contact sync control, manual or rule based",
+      "Creates and updates BC customers as Jira Service Management organizations",
+      "Syncs BC contacts to Jira customers with name, email, address and company",
+      "Makes project and contract details selectable on Jira work items for time entry",
+      "Sync can be controlled per customer and contact, manually or by rule",
       "Maps Jira detail fields to BC fields",
-      "Sync status and history on customer/contact card",
-      "One-way BC to Jira updates on change"
+      "Shows sync status and history on the customer or contact card",
+      "Free of charge for now"
     ],
     "countries": [],
     "languages": [
@@ -46,13 +48,13 @@
       "en"
     ],
     "industries": [
-      "Professional services"
+      "Professional Services"
     ],
     "connectsTo": [
       "Jira Service Management"
     ],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free",
     "hide": false,
     "hideReason": "",

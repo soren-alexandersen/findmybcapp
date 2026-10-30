@@ -8,39 +8,48 @@
     "publisher": "Braintree by Vox",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.braintree_vox%7CAID.inventory_scancapture%7CPAPPID.583640c8-71d2-4a99-b68e-642e1aa28f31",
-    "lastModified": "2026-07-21T06:28:40.2158778+00:00",
-    "appVersion": "27.0.20260720.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:16:21.2334486+00:00",
+    "appVersion": "27.0.20261023.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/Scanning-for-BC/",
-    "sourceHash": "sha256:26bb81e11b0287385ad59bb38783f0b51573f55a3860b07f0f71b43d7db7770c",
+    "sourceHash": "sha256:9bfd21349ba0ae695494b2be705e038ee5860c55548857726e0788e67f37dc6a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:26bb81e11b0287385ad59bb38783f0b51573f55a3860b07f0f71b43d7db7770c",
-    "mappedOn": null,
-    "summary": "Mobile barcode and QR scanning for inventory transactions",
+    "sourceHash": "sha256:9bfd21349ba0ae695494b2be705e038ee5860c55548857726e0788e67f37dc6a",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile barcode and QR scanning for warehouse picks, put-aways, receipts, shipments and counts.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-admin-devices",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
         "need": "ng-allocation-picking",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
-      "ng-stock-counting"
+      "ng-stock-counting",
+      "ng-lot-serial-traceability",
+      "ng-stock-movements"
     ],
     "claims": [
-      "Barcode/QR scanning for picking, put-away, reclassification, physical inventory",
-      "Serial and lot tracking on warehouse receipts and shipments",
-      "User scanning preferences",
-      "Prompts for fresh tracking numbers or expiry dates when items are reclassified",
-      "Role-specific pages for warehouse workers"
+      "Scans barcodes and QR codes from a handheld device",
+      "Covers picking, put-away, reclassification and physical inventory",
+      "Lot and serial tracking on warehouse receipts and shipments",
+      "Per-user scanning preferences",
+      "Can prompt for new tracking or expiry dates during reclassification",
+      "Role-specific pages for warehouse workers",
+      "Adds imaging capability alongside scanning"
     ],
     "countries": [],
     "languages": [],
@@ -48,7 +57,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

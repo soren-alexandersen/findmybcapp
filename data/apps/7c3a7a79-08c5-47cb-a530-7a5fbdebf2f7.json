@@ -8,8 +8,8 @@
     "publisher": "Nubetech SpA",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_copysandbox%7CPAPPID.7c3a7a79-08c5-47cb-a530-7a5fbdebf2f7",
-    "lastModified": "2026-09-07T10:02:42.5754141+00:00",
-    "appVersion": "26.2609.0.0",
+    "lastModified": "2026-10-13T10:03:22.2594461+00:00",
+    "appVersion": "26.2610.0.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"

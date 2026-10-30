@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.peppol-e-invoicing-integration%7CPAPPID.480029d8-ee9b-4624-a226-df9466d02176",
-    "lastModified": "2026-07-16T09:29:39.1100789+00:00",
+    "lastModified": "2026-10-13T06:03:10.8433739+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/solutions/einvoicing-solution-provider/",
-    "sourceHash": "sha256:b40b618b66ff34eca8bda8538fdc55c9a7947ad51a49019142e896246e3b6bfb",
+    "sourceHash": "sha256:90764dcc0ae43cd630768383dc64f7a617a564e30efbf393d746a163a0c00131",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:b40b618b66ff34eca8bda8538fdc55c9a7947ad51a49019142e896246e3b6bfb",
-    "mappedOn": null,
-    "summary": "Peppol e-document exchange",
+    "sourceHash": "sha256:90764dcc0ae43cd630768383dc64f7a617a564e30efbf393d746a163a0c00131",
+    "mappedOn": "2026-10-30",
+    "summary": "Certified Peppol access point for sending and receiving e-invoices from the ERP.",
     "shape": "connector",
     "primary": [
       {
@@ -32,21 +34,21 @@
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Sends and receives e-invoices via the Peppol network",
-      "Fully certified Peppol access point",
-      "Meets EU directives, country VAT rules and Peppol BIS standards",
+      "Certified Peppol access point",
+      "Meets Peppol BIS standards and country VAT rules",
       "Supports UBL, XML and other Peppol formats",
-      "Imports and exports invoices from ERP without manual entry",
-      "Includes compliance checks and processing ready for GDPR",
-      "Real-time invoice status tracking in ERP"
+      "Invoices are imported and exported directly from the ERP",
+      "Invoice status can be tracked in the ERP",
+      "Includes built-in compliance checks"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [
-      "Peppol",
-      "SAP",
-      "Uniconta"
+      "Peppol"
     ],
     "requires": [],
     "deployment": "not_stated",

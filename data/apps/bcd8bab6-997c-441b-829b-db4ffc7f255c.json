@@ -8,18 +8,20 @@
     "publisher": "Seyfor, a. s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soliteabusinesssolutionssro1584442662364%7CAID.click_once_print%7CPAPPID.bcd8bab6-997c-441b-829b-db4ffc7f255c",
-    "lastModified": "2025-10-01T08:53:01.415912+00:00",
-    "appVersion": "20.0.0.15",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T16:05:59.4663513+00:00",
+    "appVersion": "20.0.4.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docsd365.seyfor.com/en-us/",
-    "sourceHash": "sha256:690bd28440545962cd16c1b61dc7ffe2093ba87fb6373a8fb818bc88349b12d3",
+    "sourceHash": "sha256:f3d1f58a299de615a9c416f092d4253d905b16761656be4c98a2a9d4ebea1ba7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:690bd28440545962cd16c1b61dc7ffe2093ba87fb6373a8fb818bc88349b12d3",
-    "mappedOn": null,
-    "summary": "Direct printing to local network printers",
+    "sourceHash": "sha256:f3d1f58a299de615a9c416f092d4253d905b16761656be4c98a2a9d4ebea1ba7",
+    "mappedOn": "2026-10-30",
+    "summary": "Prints directly from Business Central to local network and ZPL label printers.",
     "shape": "usability",
     "primary": [
       {
@@ -31,8 +33,9 @@
       "ng-barcode-labels"
     ],
     "claims": [
-      "Direct printing to local network printers",
-      "Supports Windows printers with PCL or PS drivers and ZPL label printers"
+      "Makes local network printers available to BC",
+      "Supports Windows printers with PCL or PS drivers",
+      "Supports ZPL label printers"
     ],
     "countries": [],
     "languages": [
@@ -43,7 +46,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,37 +8,44 @@
     "publisher": "GoPro doo",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_travel_orders%7CPAPPID.9fdde2d9-3ba8-4e25-b496-3cea15f40989",
-    "lastModified": "2026-05-21T08:28:57.1726208+00:00",
-    "appVersion": "26.0.7.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T16:10:46.166585+00:00",
+    "appVersion": "28.5.2.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/125/Travel-Orders",
-    "sourceHash": "sha256:4d0635106ed158149861301107e585c4fdb140b8d3df89a93f78fe152c9515ae",
+    "sourceHash": "sha256:801e4540c4dd70e299f8545f51e5531ba803a7177383261516f1ce3358d2b42e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4d0635106ed158149861301107e585c4fdb140b8d3df89a93f78fe152c9515ae",
-    "mappedOn": null,
-    "summary": "Business travel orders per Serbian requirements",
+    "sourceHash": "sha256:801e4540c4dd70e299f8545f51e5531ba803a7177383261516f1ce3358d2b42e",
+    "mappedOn": "2026-10-30",
+    "summary": "Serbian business travel orders with daily allowances, expenses and posting.",
     "shape": "localization",
     "primary": [
       {
         "need": "ng-hr-employee-expenses",
         "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-loc-country-pack"
+      "ng-ux-printing"
     ],
     "claims": [
-      "Meets Serbian travel order requirements",
-      "Daily wages per business travel",
-      "Travel expense types, company vehicles, fuel price lists, own-vehicle nontaxable amounts",
-      "Creates travel orders with costs and daily wages",
-      "Controls total hours vs daily wage hours",
+      "Built to Serbian travel order requirements",
+      "Holds daily allowance rates per business trip",
+      "Maintains travel expense types",
+      "Keeps company vehicle records, fuel price lists and nontaxable own-vehicle amounts",
+      "Creates travel orders with assigned costs and daily allowances",
+      "Checks total trip hours against hours assigned to allowance types",
       "Release, print and post travel orders",
-      "Posts advance payments for business travels",
-      "Assigns travel costs to ledger accounts automatically"
+      "Posts advance payments for trips",
+      "Assigns travel costs to G/L accounts automatically"
     ],
     "countries": [
       "RS"
@@ -51,7 +58,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

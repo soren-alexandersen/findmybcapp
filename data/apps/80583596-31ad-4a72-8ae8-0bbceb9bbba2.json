@@ -8,18 +8,20 @@
     "publisher": "Braintree by Vox",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.braintree_vox%7CAID.rsa_bank_integrations%7CPAPPID.80583596-31ad-4a72-8ae8-0bbceb9bbba2",
-    "lastModified": "2026-09-16T13:33:39.3495671+00:00",
-    "appVersion": "27.0.20260916.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T06:10:14.1648842+00:00",
+    "appVersion": "27.0.20261022.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/RSA-Bank-Integration/",
-    "sourceHash": "sha256:1c5fed813e5872a60836f2c0c3b8ef633705803f61b80176ba515d261fa0f284",
+    "sourceHash": "sha256:f538685319e5e978bc5c7af4fabd1e3ca44c430ae33eb58c91d82fdc38819e50",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1c5fed813e5872a60836f2c0c3b8ef633705803f61b80176ba515d261fa0f284",
-    "mappedOn": null,
-    "summary": "South African bank payment export, statement import, direct debits",
+    "sourceHash": "sha256:f538685319e5e978bc5c7af4fabd1e3ca44c430ae33eb58c91d82fdc38819e50",
+    "mappedOn": "2026-10-30",
+    "summary": "South African bank integration for payment files, statement imports and debit orders.",
     "shape": "connector",
     "primary": [
       {
@@ -28,18 +30,19 @@
       },
       {
         "need": "ng-bank-reconciliation",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-collections",
-      "ng-loc-country-pack"
+      "ng-customer-payments"
     ],
     "claims": [
-      "Payment file export, statement import, direct debit",
-      "Direct integration with bank, no third-party data pass-through",
-      "FNB API: direct payments, debit orders, statements, account verification",
-      "CSV integration with FNB, ABSA, Standard Bank"
+      "Exports payment files to the bank",
+      "Imports bank statements",
+      "Processes direct debit (debit order) instructions",
+      "Direct API link to FNB for payments, debit orders, statements and account verification",
+      "CSV file exchange with FNB, ABSA and Standard Bank",
+      "Data goes straight to the bank, not via the publisher"
     ],
     "countries": [
       "ZA"
@@ -53,7 +56,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

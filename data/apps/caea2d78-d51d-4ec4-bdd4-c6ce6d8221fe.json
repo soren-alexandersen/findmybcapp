@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ntribs.notion.site/DocuSign-Contacts-for-Business-Central-1a63995661de8032b5b0f6b023c5241c?pvs=4",
     "sourceHash": "sha256:69c60b2cd18dd28d9bff44f2531c1c33e7e63602c1ea2eb1dca261e0a2ffcf7d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:69c60b2cd18dd28d9bff44f2531c1c33e7e63602c1ea2eb1dca261e0a2ffcf7d",

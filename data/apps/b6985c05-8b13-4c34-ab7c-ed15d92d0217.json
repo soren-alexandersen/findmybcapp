@@ -8,19 +8,21 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex08902_powerwmsforpackinglist%7CPAPPID.b6985c05-8b13-4c34-ab7c-ed15d92d0217",
-    "lastModified": "2026-04-13T15:54:00.756286+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T14:55:33.8869043+00:00",
+    "appVersion": "29.0.2.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
-    "sourceHash": "sha256:79d6a19228127606e2da40ec6f289e08a08c78562e2ba0951394e44e2703c18c",
+    "sourceHash": "sha256:fd3a2a94f49656e5781e759f7c2f4b36b3230d951e75ddee06fb86998b5b98ac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:79d6a19228127606e2da40ec6f289e08a08c78562e2ba0951394e44e2703c18c",
-    "mappedOn": null,
-    "summary": "Mobile warehouse picking and packing list creation",
-    "shape": "process",
+    "sourceHash": "sha256:fd3a2a94f49656e5781e759f7c2f4b36b3230d951e75ddee06fb86998b5b98ac",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets EOS Power WMS users build packing lists with barcodes during warehouse tasks.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-packing-loading",
@@ -31,14 +33,13 @@
       "ng-admin-devices"
     ],
     "claims": [
-      "Creates packing lists by choosing containers",
-      "Composes packing list from items in the shipment",
-      "Suggests the right containers plus how many items to place in each",
-      "Prints the packing list",
+      "Packing lists are built by choosing containers during logistics tasks",
+      "Can suggest containers and the quantity per container",
+      "Barcode scanning on warehouse activities",
       "Multi-language and multi-company",
-      "Barcodes on warehouse activities",
-      "Needs EOS Packing List as well as EOS Power WMS",
-      "Premium edition only"
+      "Prints the packing list",
+      "Needs EOS Power WMS and EOS Packing List subscriptions",
+      "Requires the Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +47,10 @@
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Power WMS",

@@ -8,18 +8,20 @@
     "publisher": "Simova GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dps_by_simova%7CPAPPID.b4055ad5-5d60-475b-b17f-6c27c27adc2e",
-    "lastModified": "2026-09-17T07:27:19.7363817+00:00",
-    "appVersion": "28.1.9.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T11:19:24.3290471+00:00",
+    "appVersion": "28.2.7.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.simova.de/en/",
-    "sourceHash": "sha256:f9ec529d442abe12a2fa4b78b410f09ead3f9056cc7ecd1feefdde1ba56755cb",
+    "sourceHash": "sha256:df05d06b41335c402ceb2f81bd1dbcca431287f8fbb22ce27dd723bfc998460a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f9ec529d442abe12a2fa4b78b410f09ead3f9056cc7ecd1feefdde1ba56755cb",
-    "mappedOn": null,
-    "summary": "Customer and partner portals with BC data",
+    "sourceHash": "sha256:df05d06b41335c402ceb2f81bd1dbcca431287f8fbb22ce27dd723bfc998460a",
+    "mappedOn": "2026-10-30",
+    "summary": "Self-service web portal giving customers and partners role-based access to BC data.",
     "shape": "process",
     "primary": [
       {
@@ -28,19 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-case-customer-updates"
+      "ng-admin-approval-workflows",
+      "ng-admin-devices"
     ],
     "claims": [
-      "External users access BC data without a BC license",
-      "Real-time access without data replication",
+      "External users see BC data without needing a BC licence",
+      "Reads selected data live, with no data replication",
       "Shows orders, quotes, deliveries, invoices, service data and account balances",
-      "Role-based access and permissions",
-      "Customizable portal branding",
-      "Online request and approval workflows such as order releases",
-      "Mobile app that can carry your own branding",
+      "Role-based permissions control what each portal user sees",
+      "Portal branding can be customised",
+      "Online request and approval flows such as order releases",
+      "Mobile app, optionally white-labelled",
       "Optional multi-factor authentication",
-      "Hosted in Microsoft Azure or own environment",
-      "Publishes Document Central documents such as invoices and delivery notes"
+      "Hosted in Azure or in the customer's own environment",
+      "Can publish documents stored in Document Central"
     ],
     "countries": [],
     "languages": [
@@ -48,12 +51,10 @@
       "en"
     ],
     "industries": [],
-    "connectsTo": [
-      "Microsoft Azure"
-    ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

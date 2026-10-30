@@ -8,38 +8,39 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.weighbridge%7CPAPPID.eacb427c-1cb9-4b87-8f98-d794e6595013",
-    "lastModified": "2026-07-22T03:00:25.0893443+00:00",
-    "appVersion": "2601.0.332228.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:02:14.1305376+00:00",
+    "appVersion": "2602.0.350918.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/docs/WBR/",
-    "sourceHash": "sha256:eee96cb75038fbb75746e11c450980bc4d74c16259860daa23c581a76dd2f204",
+    "sourceHash": "sha256:c293d5d2df503844048d611cfb282ee00fcd53c507bca95599ea190be17b0251",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:eee96cb75038fbb75746e11c450980bc4d74c16259860daa23c581a76dd2f204",
-    "mappedOn": null,
-    "summary": "Captures weighbridge vehicle weights on receiving",
-    "shape": "addon",
+    "sourceHash": "sha256:c293d5d2df503844048d611cfb282ee00fcd53c507bca95599ea190be17b0251",
+    "mappedOn": "2026-10-30",
+    "summary": "Weighbridge intake: records inbound and outbound vehicle weights to derive received quantities.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-receiving-putaway",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-fresh-produce-horticulture"
+      "ng-shop-floor-reporting",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Captures inbound vehicle weight with goods",
-      "Records estimated packaging tare and optional outbound packaging tare",
-      "Two-part receiving: inbound load recorded by lot, posted when outbound weight known",
-      "Production can consume before vehicle fully unloaded",
-      "Takes in mixed loads using loading tickets from third parties"
+      "Records the inbound weight of loaded vehicles",
+      "Estimated packaging tare can be recorded on the way in and out",
+      "Built into purchase order and warehouse receipt processing",
+      "Two-step receipt records the load by lot first, then posts once outbound weight is known",
+      "Production can consume a load before the vehicle has been weighed out",
+      "Mixed loads can be received from third-party loading tickets",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",
@@ -74,7 +75,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",

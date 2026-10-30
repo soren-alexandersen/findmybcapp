@@ -20,24 +20,22 @@
   },
   "mapping": {
     "sourceHash": "sha256:d5e3eeab27bb952eb3eef2a04edb5b546032da21bbcca53cba3e0e66f118f350",
-    "mappedOn": null,
-    "summary": "Manages indemnity bonds and financial guarantees",
+    "mappedOn": "2026-10-30",
+    "summary": "Registers indemnity bonds and guarantees issued to customers or received from vendors.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-customer-credit-holds",
-        "confidence": "low"
+        "need": "ng-treasury-investments-guarantees",
+        "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-supplier-contracts",
-      "ng-admin-alerts"
-    ],
+    "secondary": [],
     "claims": [
-      "Register of indemnity bonds issued for customers or received from vendors",
-      "Power Automate notifications for bond expiration dates and values",
-      "Manages tender bonds and payment guarantees",
-      "Manages letters of guarantee from third parties or subcontractors"
+      "Keeps a register of indemnity bonds",
+      "Covers bonds issued for customers and received from vendors",
+      "Expiry and value notifications through Power Automate",
+      "Handles tender bonds and payment guarantees",
+      "Tracks letters of guarantee from third parties or subcontractors"
     ],
     "countries": [],
     "languages": [],
@@ -47,10 +45,10 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Bank guarantee / indemnity bond register has no dedicated need group"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2sitoo%7CPAPPID.490d870c-eeed-463b-8bae-80b0175e9ae8",
-    "lastModified": "2025-06-12T08:54:33.6126529+00:00",
+    "lastModified": "2026-10-19T11:59:38.6926428+00:00",
     "appVersion": "25.0.4.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:18af1e8d6c9a1eec16196ac42aee78a8c824c72cd3ea65cc1efdd747a740f572",
+    "sourceHash": "sha256:0eb48b439a15cd5c2a17ef71cf8ea598960e7343a0d46e224ad2c939d1ef606d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:18af1e8d6c9a1eec16196ac42aee78a8c824c72cd3ea65cc1efdd747a740f572",
-    "mappedOn": null,
-    "summary": "Integrates Sitoo POS with BC",
+    "sourceHash": "sha256:0eb48b439a15cd5c2a17ef71cf8ea598960e7343a0d46e224ad2c939d1ef606d",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Sitoo cloud point of sale for retailers.",
     "shape": "connector",
     "primary": [
       {
@@ -27,28 +29,26 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-vert-retail"
+    ],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Sitoo",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Sitoo account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Sitoo"
     ],
-    "requires": [
-      "Sitoo"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

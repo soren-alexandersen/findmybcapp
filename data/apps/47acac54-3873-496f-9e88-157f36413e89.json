@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.origo|AID.origo_bifrost_warehouse|PAPPID.47acac54-3873-496f-9e88-157f36413e89",
+  "guid": "47acac54-3873-496f-9e88-157f36413e89",
+  "publisherId": "origo",
+  "offerId": "origo_bifrost_warehouse",
+  "source": {
+    "name": "Bifrost Warehouse",
+    "publisher": "Origo",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_warehouse%7CPAPPID.47acac54-3873-496f-9e88-157f36413e89",
+    "lastModified": "2026-10-29T06:53:46.3426287+00:00",
+    "appVersion": "28.3.2.43",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bifrost.origo.is/en-us/warehouse/",
+    "sourceHash": "sha256:729a44f8167e67a7d37f869a982fa287b77f6b2f9e79fe00876150d7ca76ad8c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:729a44f8167e67a7d37f869a982fa287b77f6b2f9e79fe00876150d7ca76ad8c",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets scanner apps, WMS or AI assistants run BC receipts, put-aways, picks and shipments.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-admin-devices",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Shows bin contents and open warehouse activities with lines",
+      "Creates and posts warehouse receipts from released purchase orders",
+      "Creates and registers put-aways for posted receipts",
+      "Creates and registers picks for warehouse shipments",
+      "Creates and posts warehouse shipments, optionally with invoicing",
+      "Posting, registering and invoicing each need separate permission sets",
+      "External systems cannot write warehouse records directly, only through checked tasks",
+      "Requires BC 28.3 or later and Bifrost Foundation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Bifrost Foundation (Origo)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

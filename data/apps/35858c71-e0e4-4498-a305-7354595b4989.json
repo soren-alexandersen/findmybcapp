@@ -8,18 +8,20 @@
     "publisher": "Alna Business",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.alna_additional_reports%7CPAPPID.35858c71-e0e4-4498-a305-7354595b4989",
-    "lastModified": "2026-05-14T05:19:22.1061272+00:00",
-    "appVersion": "27.0.1.27",
-    "pricingTypes": [],
+    "lastModified": "2026-10-13T07:40:44.6424154+00:00",
+    "appVersion": "27.0.1.28",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.digmatix.com/en/products/dynamics-365-business-central",
-    "sourceHash": "sha256:c89d03f3c733b1774486ed618121cb5d40f17e0c0cd5cfc9c177d6e62dff76b7",
+    "sourceHash": "sha256:a40daed9d445af12edc56d1c79d26740c61276dade2fe66ea20e0a6bf7ecd1df",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c89d03f3c733b1774486ed618121cb5d40f17e0c0cd5cfc9c177d6e62dff76b7",
-    "mappedOn": null,
-    "summary": "Additional Lithuanian inventory, reconciliation and FA reports",
+    "sourceHash": "sha256:a40daed9d445af12edc56d1c79d26740c61276dade2fe66ea20e0a6bf7ecd1df",
+    "mappedOn": "2026-10-30",
+    "summary": "Extra Lithuanian-localization reports for inventory, item turnover, reconciliations and fixed assets.",
     "shape": "localization",
     "primary": [
       {
@@ -33,11 +35,11 @@
       "ng-fa-depreciation"
     ],
     "claims": [
-      "Lithuanian inventory reports",
-      "Reconciliation statements",
-      "Item turnover reports",
-      "Fixed asset reports",
-      "Available only in Lithuanian"
+      "Adds inventory reports",
+      "Adds reconciliation statement reports",
+      "Adds item turnover reports",
+      "Adds fixed asset reports",
+      "The app is in Lithuanian"
     ],
     "countries": [
       "AE",
@@ -54,7 +56,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

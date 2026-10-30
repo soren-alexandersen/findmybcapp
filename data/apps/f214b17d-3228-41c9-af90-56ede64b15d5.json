@@ -8,18 +8,20 @@
     "publisher": "Tinx-IT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-shopware-connector%7CPAPPID.f214b17d-3228-41c9-af90-56ede64b15d5",
-    "lastModified": "2026-09-24T11:53:18.443532+00:00",
-    "appVersion": "28.1.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T09:57:28.0163262+00:00",
+    "appVersion": "28.1.352.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://support.tinx-it.com/",
-    "sourceHash": "sha256:cf658af22717917830068d4d6434c1db119f642f3216c9111a48172cf81715c6",
+    "sourceHash": "sha256:3940b33817bdcbfee1dc4c07930e11fd40d9ea9c5912796adc627db721ac2e4b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:cf658af22717917830068d4d6434c1db119f642f3216c9111a48172cf81715c6",
-    "mappedOn": null,
-    "summary": "Integrates Shopware 6 webshop with BC",
+    "sourceHash": "sha256:3940b33817bdcbfee1dc4c07930e11fd40d9ea9c5912796adc627db721ac2e4b",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects a Shopware 6 webshop to BC for products, stock, customers and orders.",
     "shape": "connector",
     "primary": [
       {
@@ -28,17 +30,19 @@
       }
     ],
     "secondary": [
-      "ng-item-master-data"
+      "ng-item-master-data",
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Integrates Shopware 6",
-      "Product information management: texts, cross-sell, up-sell, pictures",
-      "Properties and custom fields on items and customers",
-      "Centralises inventory in BC",
-      "Order import with customer assignment, guest ordering supported",
-      "Returns each order status to the webshop",
-      "Sync history log with email notification on errors",
-      "Monthly fixed fee from EUR 369"
+      "Integrates with Shopware 6",
+      "Product information, cross-sell, up-sell and pictures are maintained in BC",
+      "Properties and custom fields can be set on items and customers",
+      "Stock is held centrally in BC for several sales channels",
+      "Orders are imported automatically, including guest orders",
+      "Order status updates are pushed back to the webshop",
+      "History log shows each sync entry and error details for rejected messages",
+      "Fixed monthly fee from EUR 369, implementation extra"
     ],
     "countries": [],
     "languages": [

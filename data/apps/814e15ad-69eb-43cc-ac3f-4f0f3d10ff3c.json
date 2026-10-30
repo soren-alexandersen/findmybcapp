@@ -8,18 +8,20 @@
     "publisher": "IT.integro sp. z o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_eb-base_001%7CPAPPID.814e15ad-69eb-43cc-ac3f-4f0f3d10ff3c",
-    "lastModified": "2026-09-24T07:51:27.244676+00:00",
-    "appVersion": "6.3.0.28003",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T22:22:21.3783077+00:00",
+    "appVersion": "6.5.0.28003",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/electronic-banking/index.html",
-    "sourceHash": "sha256:4731d831d9c87f293316937468315cefa5cdac461fad4a54e9a296406a737f62",
+    "sourceHash": "sha256:f98549b7a9ec1f25aff9497d3a9714818b6053fd54131db222b5d661d936d707",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4731d831d9c87f293316937468315cefa5cdac461fad4a54e9a296406a737f62",
-    "mappedOn": null,
-    "summary": "Payment export, bank statement import and settlement with local banks",
+    "sourceHash": "sha256:f98549b7a9ec1f25aff9497d3a9714818b6053fd54131db222b5d661d936d707",
+    "mappedOn": "2026-10-30",
+    "summary": "Free banking base: payment export, statement import and AI-assisted settlement for local bank add-ons.",
     "shape": "process",
     "primary": [
       {
@@ -35,14 +37,17 @@
       "ng-customer-payments"
     ],
     "claims": [
-      "Free base app for payment export, statement import and settlement",
-      "Platform for local country bank extensions",
-      "Supports file exchange for SEPA, MT, CSV, XML",
-      "Direct API/web services and host-to-host SFTP communication",
-      "Customizable templates for payment proposals and bank statements",
-      "Copilot/AI-powered bank statement reconciliation",
-      "Remittance advice",
-      "Workflow, approval steps and user roles for electronic banking"
+      "Free base app; local bank integrations come as separate country extensions",
+      "Supports file exchange in SEPA, MT, CSV and XML",
+      "Direct API and host-to-host SFTP bank communication",
+      "Customisable templates for payment proposals and bank statements",
+      "Imports bank statements with automated mapping",
+      "Copilot-assisted settlement of bank statements",
+      "Produces remittance advice",
+      "Electronic Banking Register",
+      "Banking user roles, workflow and approval steps",
+      "Standard process across local banks for multi-country companies",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -50,7 +55,9 @@
       "en",
       "pl"
     ],
-    "industries": [],
+    "industries": [
+      "Financial Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

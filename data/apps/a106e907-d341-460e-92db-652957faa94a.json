@@ -18,22 +18,22 @@
   },
   "mapping": {
     "sourceHash": "sha256:2524b6925a9d363bece26b3805689d10ff3107f4eeca530773bf8a930d4b9ce4",
-    "mappedOn": null,
-    "summary": "Integrates BC with customs4trade CAS customs platform",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends BC transactions to the customs4trade CAS customs platform.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-loc-tax-reporting",
-        "confidence": "low"
+        "need": "ng-import-export-customs",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-admin-integration-sync"
-    ],
+    "secondary": [],
     "claims": [
-      "Connects BC to the customs4trade CAS customs platform",
-      "Sends transactions automatically via job queue",
-      "Full version on request"
+      "Connects BC to customs4trade CAS",
+      "Sends transactions automatically via the job queue",
+      "Avoids double entry of customs data",
+      "Full version is available on request",
+      "Available in all countries, English only"
     ],
     "countries": [],
     "languages": [
@@ -44,7 +44,7 @@
       "customs4trade CAS"
     ],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "contact",
     "hide": false,
     "hideReason": "",

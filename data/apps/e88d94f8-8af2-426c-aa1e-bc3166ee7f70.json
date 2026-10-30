@@ -8,23 +8,25 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.landedcostvalidator%7CPAPPID.e88d94f8-8af2-426c-aa1e-bc3166ee7f70",
-    "lastModified": "2026-10-06T17:23:22.9667878+00:00",
-    "appVersion": "26.12.155.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:40:56.7150126+00:00",
+    "appVersion": "26.19.170.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/landed-cost-validator/",
-    "sourceHash": "sha256:201240a9eefa8a06c9e291d506985b88ddb8a51deea0dde49b0baca8d5e7cb15",
+    "sourceHash": "sha256:81b283836d478f2daaaa1d580f0ee5aa44ad39ba7785214868d0b73da8ba5ebc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:201240a9eefa8a06c9e291d506985b88ddb8a51deea0dde49b0baca8d5e7cb15",
-    "mappedOn": null,
-    "summary": "Calculates landed costs and posts freight accruals",
+    "sourceHash": "sha256:81b283836d478f2daaaa1d580f0ee5aa44ad39ba7785214868d0b73da8ba5ebc",
+    "mappedOn": "2026-10-30",
+    "summary": "Accrues freight as landed cost on receipt and compares accruals with actual carrier invoices.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-production-costing",
-        "confidence": "low"
+        "need": "ng-freight-cost-audit",
+        "confidence": "high"
       },
       {
         "need": "ng-accruals-deferrals",
@@ -32,17 +34,15 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Configurable methods to calculate freight costs at receipt",
+      "Configurable methods calculate freight cost at time of receipt",
+      "Posts freight cost accruals to the general ledger",
       "Creates invoices from landed cost entries",
-      "Variance analysis of invoiced vs accrued",
-      "Reports on state of all accruals",
-      "Posts freight costs to the general ledger",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Shows variances between invoiced and accrued amounts",
+      "Reports on the status of all accruals",
+      "Priced at USD 150 per tenant per year"
     ],
     "countries": [],
     "languages": [
@@ -61,7 +61,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

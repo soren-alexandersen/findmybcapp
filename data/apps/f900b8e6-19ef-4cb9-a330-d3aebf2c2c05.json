@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.bcsitera|AID.latvian-language|PAPPID.f900b8e6-19ef-4cb9-a330-d3aebf2c2c05",
+  "guid": "f900b8e6-19ef-4cb9-a330-d3aebf2c2c05",
+  "publisherId": "bcsitera",
+  "offerId": "latvian-language",
+  "source": {
+    "name": "Latvian Language",
+    "publisher": "DIGMATIX",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.latvian-language%7CPAPPID.f900b8e6-19ef-4cb9-a330-d3aebf2c2c05",
+    "lastModified": "2026-10-20T09:04:58.9548129+00:00",
+    "appVersion": "28.0.26293.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.digmatix.com/en/products/dynamics-365-business-central",
+    "sourceHash": "sha256:2113b1d398c9e89ff751de9af5f0f9efa70116b377691ddd3bc56eb8e79fa50f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2113b1d398c9e89ff751de9af5f0f9efa70116b377691ddd3bc56eb8e79fa50f",
+    "mappedOn": "2026-10-30",
+    "summary": "Latvian user interface translation for Business Central.",
+    "shape": "language",
+    "primary": [
+      {
+        "need": "ng-lang-ui-language",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Translates the BC interface into Latvian",
+      "Part of a set of Latvian localization apps",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "LV"
+    ],
+    "languages": [
+      "en",
+      "lv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

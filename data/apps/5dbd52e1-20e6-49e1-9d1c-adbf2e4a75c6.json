@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_advice_notification_shipment_planning%7CPAPPID.5dbd52e1-20e6-49e1-9d1c-adbf2e4a75c6",
-    "lastModified": "2026-08-21T11:33:09.9853924+00:00",
-    "appVersion": "28.0.373892.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-14T09:51:39.9819315+00:00",
+    "appVersion": "28.0.376130.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:29029cce6a447db1c6cac940c4f6fb9152509a2932daf3f37a48a0c1fbe70d3b",
+    "sourceHash": "sha256:bc4b2306a331271f1784f30c2a1bc576ee1ca35407864c3e071877e2a9b4ad71",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:29029cce6a447db1c6cac940c4f6fb9152509a2932daf3f37a48a0c1fbe70d3b",
-    "mappedOn": null,
-    "summary": "Plans shipments and sends advice notifications",
+    "sourceHash": "sha256:bc4b2306a331271f1784f30c2a1bc576ee1ca35407864c3e071877e2a9b4ad71",
+    "mappedOn": "2026-10-30",
+    "summary": "Plans shipments and sends shipping advice notifications.",
     "shape": "process",
     "primary": [
       {
@@ -27,13 +29,11 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-receiving-putaway"
-    ],
+    "secondary": [],
     "claims": [
-      "Shipment planning and advice notifications",
-      "Individually selectable subcategories",
-      "Supported BC editions as stated"
+      "Shipment planning across the logistics process",
+      "Shipping advice notifications with selectable subcategories",
+      "Works with Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -58,7 +58,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

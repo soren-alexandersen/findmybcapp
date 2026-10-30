@@ -8,18 +8,20 @@
     "publisher": "Data Courage",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.spolandkkarbowiakbdoruchspolkacywilna1607528556434%7CAID.ai-financial-intelligence-data-courage%7CPAPPID.5402f721-4c6b-44b7-9025-78f8f03ec8a8",
-    "lastModified": "2026-09-23T06:28:06.9879081+00:00",
-    "appVersion": "1.0.6.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:45:48.802964+00:00",
+    "appVersion": "1.0.6.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.datacourage.com/knowledge-base/ai-financial-intelligence",
-    "sourceHash": "sha256:327e0081b2ccf2565b77f6d2e5a69276c5a5e36dcad6089dd952945bd34d0648",
+    "sourceHash": "sha256:800e57a6049e3f9d5b689953b8428a283ced9934a9cdc0ccc09aabd164fd8893",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:327e0081b2ccf2565b77f6d2e5a69276c5a5e36dcad6089dd952945bd34d0648",
-    "mappedOn": null,
-    "summary": "AI chat for financial statements and finance questions",
+    "sourceHash": "sha256:800e57a6049e3f9d5b689953b8428a283ced9934a9cdc0ccc09aabd164fd8893",
+    "mappedOn": "2026-10-30",
+    "summary": "AI finance analyst: generates P&L and balance sheets and answers finance questions in chat.",
     "shape": "process",
     "primary": [
       {
@@ -29,22 +31,27 @@
       {
         "need": "ng-ux-ai-assistant",
         "confidence": "high"
+      },
+      {
+        "need": "ng-strategy-longrange",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-cash-forecast",
-      "ng-strategy-longrange"
+      "ng-bi-dashboards",
+      "ng-cash-forecast"
     ],
     "claims": [
-      "Generates P&L and balance sheet from chart of accounts with automatic GL mapping",
-      "FinChat with Nano and Pro models",
-      "Suggested follow-up questions",
-      "Analysis across dimensions, locations, departments, posting groups",
-      "Compare mode and snapshots with AI commentary",
-      "Scenario and cash runway analysis with visible assumptions",
-      "Export to PDF, Excel, Word or emailed dashboard",
-      "Runs natively in BC; data stays in tenant",
-      "Multilingual and usable from phone"
+      "Builds P&L and balance sheet with automatic G/L mapping",
+      "Report templates with version control and validation",
+      "Chat offers a fast model and a deeper analysis model",
+      "Proposes follow-up questions",
+      "Analysis across dimensions, locations, departments and posting groups",
+      "Compares periods and saves report snapshots",
+      "Models revenue drops, cost rises and cash runway",
+      "Exports to PDF, Excel, Word or an emailed dashboard",
+      "Works in any language and on mobile",
+      "Data stays in the customer's Microsoft tenant"
     ],
     "countries": [],
     "languages": [],
@@ -52,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

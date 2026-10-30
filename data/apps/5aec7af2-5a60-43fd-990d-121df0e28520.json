@@ -8,18 +8,20 @@
     "publisher": "SOFTWARE DYNAMICS LIMITED",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softwaredynamicslimited%7CAID.dynamics365procurement%7CPAPPID.5aec7af2-5a60-43fd-990d-121df0e28520",
-    "lastModified": "2026-06-08T15:47:16.0442086+00:00",
-    "appVersion": "1.1.0.11",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T12:23:44.0005896+00:00",
+    "appVersion": "1.1.0.17",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://softwaredynamicsgroup.com/contact-us/",
-    "sourceHash": "sha256:110c31e8295a020813cd89c1d767511b16499b3daeb98b1ba5479d895d31938d",
+    "sourceHash": "sha256:3acf021e53c91b3d43ee48cd11f42f1c1dbd45b66485d2156637097b7c607bff",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:110c31e8295a020813cd89c1d767511b16499b3daeb98b1ba5479d895d31938d",
-    "mappedOn": null,
-    "summary": "Procurement and sourcing",
+    "sourceHash": "sha256:3acf021e53c91b3d43ee48cd11f42f1c1dbd45b66485d2156637097b7c607bff",
+    "mappedOn": "2026-10-30",
+    "summary": "Procurement suite: purchase requisitions, approvals, RFQs, vendor contracts and supplier portal.",
     "shape": "process",
     "primary": [
       {
@@ -36,30 +38,28 @@
       }
     ],
     "secondary": [
-      "ng-procurement-spend",
-      "ng-admin-portals",
+      "ng-purchase-orders",
       "ng-supplier-quality-compliance",
-      "ng-purchase-orders"
+      "ng-procurement-spend",
+      "ng-admin-portals"
     ],
     "claims": [
-      "Purchase requisitions with customizable approval hierarchies",
-      "Generates, compares and evaluates vendor quotes (RFQ)",
-      "Centralizes vendor agreements and tracks supplier performance",
-      "Procurement dashboard for spend, supplier performance and cycle times",
-      "Converts approved requisitions to purchase orders",
-      "Multi-currency and multi-location support",
-      "Enforces budget limits with spend reports",
-      "Supplier portal for quotes, contract updates and order tracking"
+      "Requisition approvals with configurable hierarchies",
+      "Creates, compares and scores vendor quotes",
+      "Stores vendor contracts and tracks supplier performance",
+      "Turns approved requisitions into purchase orders",
+      "Dashboard on spend, supplier performance and cycle times",
+      "Enforces budget limits on purchasing",
+      "Supplier portal for quotes, contract updates and order tracking",
+      "Multi-currency and multi-location"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Public sector"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

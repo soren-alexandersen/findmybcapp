@@ -8,18 +8,20 @@
     "publisher": "Stýr Sp/f",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.styrspf%7CAID.farpay%7CPAPPID.f18de201-0b22-4eff-a4a8-0cb17461d310",
-    "lastModified": "2026-09-11T14:29:26.090863+00:00",
-    "appVersion": "1.0.2.66",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T12:11:40.986544+00:00",
+    "appVersion": "1.0.2.73",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.farpay.io/",
-    "sourceHash": "sha256:d5a675542495efc9534ec16a51944eedb7eaa80cb46b3129fc50a56f59a86ca6",
+    "sourceHash": "sha256:3c5088527f74e45f634bbf778fa0d22a8d089378f8458bf553cf928c7641d55b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d5a675542495efc9534ec16a51944eedb7eaa80cb46b3129fc50a56f59a86ca6",
-    "mappedOn": null,
-    "summary": "Automates receivables collection and payments via FarPay",
+    "sourceHash": "sha256:3c5088527f74e45f634bbf778fa0d22a8d089378f8458bf553cf928c7641d55b",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends invoices via FarPay with card, MobilePay and direct debit options and feeds payments back.",
     "shape": "connector",
     "primary": [
       {
@@ -28,24 +30,26 @@
       },
       {
         "need": "ng-customer-payments",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-collections",
-      "ng-ux-email-sending"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Sends invoices, credit notes, reminders and statements via Farpay",
-      "Direct debit agreements with at least 5 days notice",
-      "Payment status fed back to BC and matched to invoice",
-      "Notifies customer of expiring cards",
-      "Tracks whether email was read and invoice paid",
-      "Payment reminders with timeline of penalties and debt collection date",
-      "Custom branding of customer touchpoints",
-      "Split payments, repayment agreements and installments",
-      "Supports Visa, Mastercard, Dankort, MobilePay, Betalingsservice, Leverandørservice, FIK",
-      "MobilePay ePayment and Recurring"
+      "Sends invoices, credit notes and reminders from BC in one click",
+      "Customers can sign up for direct debit on later invoices",
+      "Payments are matched to invoices back in BC",
+      "Tracks whether invoice emails are read and paid",
+      "Warns customers of expiring cards",
+      "Supports split payments, repayment plans and instalments",
+      "Custom branding on customer touchpoints",
+      "Supports Visa, Mastercard, Dankort, MobilePay, Betalingsservice and FIK",
+      "Usage-based pricing"
     ],
     "countries": [
       "DK",

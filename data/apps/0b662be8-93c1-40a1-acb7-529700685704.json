@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_trade_management%7CPAPPID.0b662be8-93c1-40a1-acb7-529700685704",
-    "lastModified": "2026-09-29T10:03:26.8452398+00:00",
-    "appVersion": "2603.2.344319.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T14:48:30.2450209+00:00",
+    "appVersion": "2604.0.351527.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/TMT/",
-    "sourceHash": "sha256:5d3e1a686d6f6ef2ec98d7126146ef185c60cada57b4e7fd2af46b431723e1aa",
+    "sourceHash": "sha256:1fd5bc1a50b13647dd4f88925a751aaccf5a6d5c042329107455386f37d45ea6",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5d3e1a686d6f6ef2ec98d7126146ef185c60cada57b4e7fd2af46b431723e1aa",
-    "mappedOn": null,
-    "summary": "Customer trade agreements and rates for food and beverage",
-    "shape": "addon",
+    "sourceHash": "sha256:1fd5bc1a50b13647dd4f88925a751aaccf5a6d5c042329107455386f37d45ea6",
+    "mappedOn": "2026-10-30",
+    "summary": "Trade agreements with tiered rebates, royalties, billbacks and broker commissions with accruals.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-customer-rebates",
@@ -28,75 +30,37 @@
       },
       {
         "need": "ng-sales-pricing",
-        "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-supplier-rebates",
       "ng-sales-commissions",
-      "ng-accruals-deferrals"
+      "ng-supplier-rebates",
+      "ng-vert-food-beverage"
     ],
     "claims": [
       "Separate trade plan per trade agreement",
-      "Calculates rebates, royalties, billbacks and payables",
-      "Applied to document or captured as accruals",
+      "Multi-level rates when minimums are met",
+      "Calculates rebates, royalties, billbacks and payables on the document or as accruals",
       "Pays accrued amounts via invoices or sales credit memos",
-      "Multi-level rates based on minimums",
-      "Mark-ups/discounts per item, item group, customer, customer group, ship-to and UoM",
-      "Fixed per UoM, percentage or per gross/net weight",
-      "Calculation levels define sequence of trade agreements",
-      "Manual price/discount override during sales order entry",
-      "Agreements indefinite or time-bound"
+      "Differences between accrual and invoice go back to the original documents",
+      "Mark-ups or discounts per item, customer, ship-to and unit of measure",
+      "Mark-ups as fixed amount, percentage or per gross/net weight",
+      "Calculation levels set the order agreements are applied",
+      "Accruals post automatically to the general ledger",
+      "Agreements can be open-ended or time-limited",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "ET",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "LU",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
-      "nl",
-      "sv"
+      "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

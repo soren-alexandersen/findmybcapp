@@ -76,7 +76,9 @@
     "turn off alert BC",
     "Someone built a flow years ago and now we can't find where to edit it",
     "We moved to new cost centers and all the alerts need updating",
-    "Can I mute an alert for a week while we do stock count?"
+    "Can I mute an alert for a week while we do stock count?",
+    "We only want alerts for the customers or items we care about",
+    "We want a daily summary instead of an email for every change"
   ],
   "questions": [
     {
@@ -129,10 +131,10 @@
         }
       ],
       "coverage": {
-        "Changes to records (orders, stock, customers)": 0.5,
-        "Failed job queue entries": 0.21,
-        "Things about to expire (contracts, quotes, secrets)": 0.36,
-        "Messages from your partner or admin to users": 0.14
+        "Changes to records (orders, stock, customers)": 0.53,
+        "Failed job queue entries": 0.29,
+        "Things about to expire (contracts, quotes, secrets)": 0.29,
+        "Messages from your partner or admin to users": 0.12
       }
     },
     {
@@ -180,10 +182,10 @@
         }
       ],
       "coverage": {
-        "Email": 0.64,
-        "Teams, Slack or Power Automate": 0.21,
-        "SMS": 0.14,
-        "Inside Business Central": 0.43
+        "Email": 0.71,
+        "Teams, Slack or Power Automate": 0.18,
+        "SMS": 0.12,
+        "Inside Business Central": 0.35
       }
     },
     {
@@ -209,7 +211,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.36
+        "Yes": 0.35
       }
     },
     {
@@ -233,7 +235,65 @@
         }
       ],
       "coverage": {
-        "Yes, attachments or formatted emails": 0.57
+        "Yes, attachments or formatted emails": 0.59
+      }
+    },
+    {
+      "id": "should-alerts-only-fire-for-re",
+      "text": "Should alerts only fire for records you pick with filters, such as one customer or a stock level?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, filtered alerts",
+          "patterns": [
+            "record filters",
+            "filters? (on alerts|target records)",
+            "standard bc filters",
+            "picked by filters"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, filtered alerts": 0.24
+      }
+    },
+    {
+      "id": "when-should-alerts-go-out",
+      "text": "When should alerts go out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "As soon as something happens",
+          "patterns": [
+            "real-?time",
+            "instant",
+            "immediately",
+            "event-driven",
+            "subscribe to changes"
+          ]
+        },
+        {
+          "label": "On a schedule or as a digest",
+          "patterns": [
+            "schedul",
+            "recurring",
+            "periodic",
+            "digest",
+            "summar"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "As soon as something happens": 0.24,
+        "On a schedule or as a digest": 0.35
       }
     }
   ]

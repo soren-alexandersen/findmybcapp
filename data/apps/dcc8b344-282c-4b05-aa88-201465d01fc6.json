@@ -8,31 +8,39 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0010%7CPAPPID.dcc8b344-282c-4b05-aa88-201465d01fc6",
-    "lastModified": "2026-10-06T17:39:53.6549222+00:00",
-    "appVersion": "26.2.115.31403",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T08:07:05.4416055+00:00",
+    "appVersion": "26.2.118.34582",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://duveka.net/MicrosoftGraphConnector",
-    "sourceHash": "sha256:d4b38f3b465caa91b1dd1d146c0ad7cc424c4d419e0800ca9d29e15ebf216592",
+    "sourceHash": "sha256:87f6bc7e7947156d2e977b2e5d65609d5441544e4bd5fdcf8266f4698230395f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d4b38f3b465caa91b1dd1d146c0ad7cc424c4d419e0800ca9d29e15ebf216592",
-    "mappedOn": null,
-    "summary": "Cloud Excel file operations via Microsoft Graph",
-    "shape": "connector",
+    "sourceHash": "sha256:87f6bc7e7947156d2e977b2e5d65609d5441544e4bd5fdcf8266f4698230395f",
+    "mappedOn": "2026-10-30",
+    "summary": "Developer connector for reading and writing Excel files in SharePoint/OneDrive via Graph",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-developer-tools",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
     "claims": [
-      "Works with Excel files in SharePoint Online and OneDrive via Microsoft Graph",
-      "OAuth 2.0 authentication, no local Excel needed",
-      "Creates and modifies .xlsx files",
-      "Audit trail for file operations"
+      "Works with Excel files in SharePoint Online and OneDrive through Microsoft Graph",
+      "Uses OAuth 2.0, no local Excel installation needed",
+      "Implements the duveka IExcelProvider interface so local and cloud connectors are interchangeable",
+      "Creates and modifies .xlsx files, switches sheets, works with Excel Buffer",
+      "Single and bulk cell reads and writes",
+      "Access tokens stored securely under BC permissions",
+      "Audit trail of file operations",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -45,14 +53,13 @@
     "connectsTo": [
       "Microsoft Graph",
       "SharePoint Online",
-      "OneDrive",
-      "Microsoft Excel"
+      "OneDrive"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": true,
-    "hideReason": "Technical connector/framework component for duveka Excel apps",
+    "hideReason": "Technical library connector within duveka's Excel Interface Framework; exposes an API for other apps, no end-user process.",
     "noFit": ""
   },
   "curated": {

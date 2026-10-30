@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex055_packinglist%7CPAPPID.4322e2ed-02d4-490b-b644-02235c517973",
-    "lastModified": "2026-08-07T10:54:11.8347856+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T18:24:19.0352579+00:00",
+    "appVersion": "29.0.1.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/packing-list-pck.html",
-    "sourceHash": "sha256:4fd52b9f6e1f97a7daeedbfa09d7cbf365db1a34fa75b9d2c0344cdf0ae9d7dd",
+    "sourceHash": "sha256:ac1b2064da8aaba112ab2cdc65e85ff5a76e72fd7a07af18e5c1aa4107870ebc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4fd52b9f6e1f97a7daeedbfa09d7cbf365db1a34fa75b9d2c0344cdf0ae9d7dd",
-    "mappedOn": null,
-    "summary": "Creates packing lists from orders and shipments",
+    "sourceHash": "sha256:ac1b2064da8aaba112ab2cdc65e85ff5a76e72fd7a07af18e5c1aa4107870ebc",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds and prints packing lists with containers for orders and shipments.",
     "shape": "process",
     "primary": [
       {
@@ -27,15 +29,19 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-warehouse-setup"
+    ],
     "claims": [
-      "Packing list linked to sales, purchase, transfer, return orders and warehouse shipments",
-      "Compose packing list from shipment items",
-      "System suggests containers and quantities per container",
-      "Print packing list",
-      "Define packaging materials",
-      "Nested containers in a tree structure",
-      "Requires EOS Over- and Under-Delivery Quantities"
+      "Packing lists can be linked to sales, purchase, transfer and return orders and warehouse shipments",
+      "Can propose which containers to use and how many items go in each",
+      "Packing lists can also be built by hand by picking containers and adding contents",
+      "Larger containers can be nested in a tree structure",
+      "Packaging materials are set up as master data",
+      "Prints the packing list",
+      "Free version available, full features with a yearly subscription",
+      "Needs the EOS over- and under-delivery app installed and subscribed",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -43,13 +49,16 @@
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Over- and Under-Delivery Quantities"
     ],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

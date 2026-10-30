@@ -8,18 +8,20 @@
     "publisher": "Navitec systems s.r.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.efc%7CPAPPID.5c1e7a3d-2b8f-4e61-9a0c-7d3f1e2b4a91",
-    "lastModified": "2026-10-01T13:52:54.1347552+00:00",
+    "lastModified": "2026-10-26T11:52:22.5901515+00:00",
     "appVersion": "27.0.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dokumentace.navitec.cz/EFSK",
-    "sourceHash": "sha256:6ff89e42a9dcb5bbea43e9338b7f3041a5e037e943aeae3d70c5e6f4e75f0b24",
+    "sourceHash": "sha256:dca747a64501d28e7fc0ea4404cba3657ecf1ff43230ffe9e3aa3b307f5ca838",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6ff89e42a9dcb5bbea43e9338b7f3041a5e037e943aeae3d70c5e6f4e75f0b24",
-    "mappedOn": null,
-    "summary": "Slovak mandatory e-invoicing via Digitálny poštár",
+    "sourceHash": "sha256:dca747a64501d28e7fc0ea4404cba3657ecf1ff43230ffe9e3aa3b307f5ca838",
+    "mappedOn": "2026-10-30",
+    "summary": "Slovak mandatory e-invoicing via Peppol access points (Digitálny poštár) from BC.",
     "shape": "localization",
     "primary": [
       {
@@ -32,20 +34,17 @@
       "ng-sales-invoicing"
     ],
     "claims": [
-      "Connects BC to a Slovak Digital Postman (certified delivery provider)",
-      "Meets Slovak mandatory e-invoicing from 1 January 2027",
-      "Peppol BIS 3.0 with Slovak rules, parties as 0245:DIČ",
-      "Requires a postman supporting SAPI-SK interface",
-      "Automatically creates e-invoice when posting sales and service invoices and credit memos",
-      "Validations at posting: domestic customer, valid tax ID, credit memo reference",
-      "Resend without risk of duplicates",
-      "Status panel on posted invoice and credit memo",
-      "Tracks deadlines for unsent documents with colour warnings",
-      "Downloads received e-invoices manually or via job queue",
-      "Creates purchase invoice or credit memo via standard E-Documents",
-      "Credentials stored in isolated storage",
-      "Trial: 10 documents without license",
-      "Built on Microsoft E-Documents framework"
+      "Sends and receives Slovak mandatory e-invoices for B2B and B2G from 2027",
+      "Peppol BIS 3.0 (EN 16931) format with Slovak rules",
+      "Connects to any provider supporting the SAPI-SK interface, e.g. eFaktúra.sk, SLOVAKODATA, Flowis",
+      "E-invoice created automatically when posting sales and service invoices and credit memos",
+      "Posting checks for domestic customer, valid tax ID and credit memo reference",
+      "Status panel on posted documents and deadline tracking for unsent ones",
+      "Incoming e-invoices downloaded manually or by job queue",
+      "Built on Microsoft's E-Documents framework",
+      "Credentials kept in isolated storage",
+      "Trial covers 10 documents without a licence",
+      "Interface in English and Czech, documentation in Slovak"
     ],
     "countries": [
       "SK"
@@ -56,14 +55,13 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Digitálny poštár",
       "Peppol",
       "eFaktúra.sk",
       "SLOVAKODATA",
       "Flowis"
     ],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free_trial",
     "hide": false,
     "hideReason": "",

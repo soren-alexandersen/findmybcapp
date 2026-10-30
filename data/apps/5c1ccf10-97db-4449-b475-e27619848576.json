@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.requests-bc%7CPAPPID.5c1ccf10-97db-4449-b475-e27619848576",
-    "lastModified": "2026-08-05T08:59:41.481186+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:09:56.7418507+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/requests/",
-    "sourceHash": "sha256:1cf9bfa7d5be9a0c1549b6c9ac56bab4cd06ecac0860e9b42ae475d0ce72eaf3",
+    "sourceHash": "sha256:df04d5b2b2c2cece7a61762b1334d78d7d10247fedff2e15f5f8e562057a4fc9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1cf9bfa7d5be9a0c1549b6c9ac56bab4cd06ecac0860e9b42ae475d0ce72eaf3",
-    "mappedOn": null,
-    "summary": "Employee service requests to maintenance",
+    "sourceHash": "sha256:df04d5b2b2c2cece7a61762b1334d78d7d10247fedff2e15f5f8e562057a4fc9",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets employees report faults to maintenance from mobile, with approval into work orders.",
     "shape": "addon",
     "primary": [
       {
@@ -31,11 +33,12 @@
       "ng-admin-devices"
     ],
     "claims": [
-      "Employees create maintenance requests from BC mobile app",
-      "Add photos to requests",
-      "Approve requests and create work orders",
-      "See others' requests and statuses to avoid duplicates",
-      "Requests can be created with Team Member license"
+      "Requests created from the BC mobile app",
+      "Photos can be attached to a request",
+      "Maintenance manager approves requests and turns them into work orders",
+      "Shows existing requests and statuses to prevent duplicates",
+      "Team Member license users can create requests",
+      "Installs Dynaway EAM along with it"
     ],
     "countries": [],
     "languages": [
@@ -48,14 +51,14 @@
       "sv"
     ],
     "industries": [
-      "Energy",
+      "Energy & Resources",
       "Manufacturing"
     ],
     "connectsTo": [],
     "requires": [
       "Dynaway EAM"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free",
     "hide": false,
     "hideReason": "",

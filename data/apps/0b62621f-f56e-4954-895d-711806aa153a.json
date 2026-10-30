@@ -8,18 +8,20 @@
     "publisher": "Singhammer IT Consulting AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1022%7CPAPPID.0b62621f-f56e-4954-895d-711806aa153a",
-    "lastModified": "2026-10-05T15:44:09.9894818+00:00",
+    "lastModified": "2026-10-24T13:05:18.4727804+00:00",
     "appVersion": "2026.6.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/bs",
-    "sourceHash": "sha256:0f329394b84a08d8d9f8f72131aa525af6a3fd1ff35bd27fd32468c927c67944",
+    "sourceHash": "sha256:03a58313ac450f7e0e5ca9cbee9ec607324bd67f98f30ef2f88c68d7d4bab0a5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0f329394b84a08d8d9f8f72131aa525af6a3fd1ff35bd27fd32468c927c67944",
-    "mappedOn": "2026-10-07",
-    "summary": "Bundle of 70+ helpers for quotes, order-linked purchasing, payment plans and margin pricing",
+    "sourceHash": "sha256:03a58313ac450f7e0e5ca9cbee9ec607324bd67f98f30ef2f88c68d7d4bab0a5",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle of 70+ helpers for quoting, margin pricing, procurement links and payment plans.",
     "shape": "process",
     "primary": [
       {
@@ -27,27 +29,30 @@
         "confidence": "medium"
       },
       {
-        "need": "ng-purchase-orders",
+        "need": "ng-sales-pricing",
         "confidence": "medium"
       },
       {
-        "need": "ng-sales-pricing",
+        "need": "ng-purchase-orders",
         "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-supplier-pricing",
-      "ng-ux-rolecenters",
-      "ng-ux-document-layouts"
+      "ng-sales-invoicing",
+      "ng-ux-document-layouts",
+      "ng-ux-rolecenters"
     ],
     "claims": [
-      "More than 70 process helpers",
-      "Order-related procurement with sales/purchase order linking",
-      "Imports supplier calculations into quotes and creates items",
+      "Order-related procurement links sales orders to purchase orders",
+      "Tracks document links between sales and purchasing",
+      "Imports supplier calculations via CSV or interface and creates items automatically",
       "Milestone and prepayment plans with own number series",
-      "Margin or surcharge based pricing in the sales line",
-      "Document status workflow with Power Automate",
-      "Document tracker for sales-purchase links",
+      "Prices by trade margin or surcharge on the sales line",
+      "Document status workflow with Power Automate integration",
+      "Imports supplier price lists with history and filters",
+      "Sells product bundles",
+      "Teams and Outlook integrations",
       "Sold only as a bundle"
     ],
     "countries": [],
@@ -55,11 +60,18 @@
       "de",
       "en"
     ],
-    "industries": [],
-    "connectsTo": [],
+    "industries": [
+      "IT companies",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Power Automate",
+      "Microsoft Teams",
+      "Outlook"
+    ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

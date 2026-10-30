@@ -8,18 +8,20 @@
     "publisher": "insightsoftware",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insightsoftwarecomlimited1584800919871%7CAID.jetreports%7CPAPPID.f7615001-d15f-4ae9-889e-eca13e1f83f1",
-    "lastModified": "2026-06-18T08:38:46.3195751+00:00",
-    "appVersion": "1.26.6.1631",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T15:44:00.9436292+00:00",
+    "appVersion": "1.26.10.2811",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.insightsoftware.com/hc/en-us",
-    "sourceHash": "sha256:c261f802e55b571d8800cf52492d8d2ddde470cc7825c3a4346b8a332ab88d35",
+    "sourceHash": "sha256:4da00949967985fadd02b545b4835a0c3d46f362e03830e3303e76dc5385c430",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c261f802e55b571d8800cf52492d8d2ddde470cc7825c3a4346b8a332ab88d35",
-    "mappedOn": null,
-    "summary": "Connects insightsoftware reporting tools to BC data",
+    "sourceHash": "sha256:4da00949967985fadd02b545b4835a0c3d46f362e03830e3303e76dc5385c430",
+    "mappedOn": "2026-10-30",
+    "summary": "Free connector linking Jet Reports and Reporting Intelligence Excel reporting to BC online.",
     "shape": "connector",
     "primary": [
       {
@@ -27,28 +29,27 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-financial-statements"
-    ],
+    "secondary": [],
     "claims": [
-      "Connects BC cloud to insightsoftware Excel-based reporting",
+      "Excel reports pull live BC data with no exports",
+      "Only the connector; the reporting product is bought separately",
       "Works with multi-factor authentication",
       "Supports SOAP and OData V4",
-      "Connects to multiple environments",
-      "Automated reporting via service-to-service authentication",
-      "Respects BC permissions",
-      "Compatible with Jet Reports and Reporting Intelligence",
-      "Requires separate insightsoftware subscription"
+      "Connects to multiple environments including sandboxes",
+      "Service-to-service authentication for automated reporting",
+      "Respects BC security and permissions",
+      "Works with Jet Reports and Reporting Intelligence"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
       "Jet Reports",
-      "Reporting Intelligence"
+      "Reporting Intelligence",
+      "Microsoft Excel"
     ],
     "requires": [
-      "Jet Reports or Reporting Intelligence (insightsoftware)"
+      "Jet Reports or Reporting Intelligence"
     ],
     "deployment": "online",
     "pricing": "free",

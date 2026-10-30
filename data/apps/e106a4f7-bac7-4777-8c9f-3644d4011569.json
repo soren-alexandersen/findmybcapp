@@ -8,41 +8,45 @@
     "publisher": "Q-Team Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics_dossier%7CAID.connector%7CPAPPID.e106a4f7-bac7-4777-8c9f-3644d4011569",
-    "lastModified": "2026-08-28T10:12:19.0689276+00:00",
-    "appVersion": "28.0.46161.2",
+    "lastModified": "2026-10-09T06:12:27.748097+00:00",
+    "appVersion": "28.0.46302.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://www.q-teamsolutions.com/docs/apps/cloud-connect/",
-    "sourceHash": "sha256:d1d1d2d1bb31ba253b0f73ed01554b7e4bb20a7cebc6917e54add91b1d9a807d",
+    "sourceHash": "sha256:d51d1963f70c7b5d99ce80120f0b89545ffd17535d92e6ac63922f66f6b3615f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d1d1d2d1bb31ba253b0f73ed01554b7e4bb20a7cebc6917e54add91b1d9a807d",
-    "mappedOn": null,
-    "summary": "Stores BC attachments in external storage",
+    "sourceHash": "sha256:d51d1963f70c7b5d99ce80120f0b89545ffd17535d92e6ac63922f66f6b3615f",
+    "mappedOn": "2026-10-30",
+    "summary": "Stores BC attachments in external cloud storage such as Azure Blob instead of the database.",
     "shape": "usability",
     "primary": [
       {
-        "need": "ng-admin-storage-archiving",
+        "need": "ng-admin-document-storage",
         "confidence": "high"
       },
       {
-        "need": "ng-admin-document-storage",
-        "confidence": "high"
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
     "claims": [
-      "Stores attachments in external cloud storage",
-      "Azure Blob Storage support",
-      "Users attach and view files as before",
-      "Retrieves files from external storage on demand",
-      "Reduces backup times and database size",
-      "Available for BC SaaS",
-      "24/7 online support included"
+      "Attachments are stored with external cloud providers",
+      "Supports Azure Blob Storage",
+      "Users attach and open files in BC as usual",
+      "Files are fetched from external storage on demand",
+      "Rules route document types to different storage providers",
+      "Aims to reduce database size and backup times",
+      "OneDrive support announced as coming",
+      "SaaS only",
+      "Includes 24/7 online support"
     ],
     "countries": [],
     "languages": [],

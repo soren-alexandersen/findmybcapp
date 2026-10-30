@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex070_mesmanufacturingexecutionsystem%7CPAPPID.5becf0fc-053d-4fca-90f9-8c0d7e6ba394",
-    "lastModified": "2026-09-04T17:24:39.7749262+00:00",
-    "appVersion": "28.0.24.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T07:39:47.1157269+00:00",
+    "appVersion": "29.0.6.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mes-manufacturing-execution-system.html",
-    "sourceHash": "sha256:445cc0f4d4838a60ba677e194b78ca53b2a9ae1ad88bd48dd303eb695cac04ce",
+    "sourceHash": "sha256:713dfec2bebff3a87f796eaed8b8048b9dbcab833ce1314ac0e85eafc6295ac4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:445cc0f4d4838a60ba677e194b78ca53b2a9ae1ad88bd48dd303eb695cac04ce",
-    "mappedOn": null,
-    "summary": "Shop floor recording of output and times from workstations",
+    "sourceHash": "sha256:713dfec2bebff3a87f796eaed8b8048b9dbcab833ce1314ac0e85eafc6295ac4",
+    "mappedOn": "2026-10-30",
+    "summary": "Shop floor terminal for reporting produced quantities and times, with barcode scanning.",
     "shape": "process",
     "primary": [
       {
@@ -31,12 +33,13 @@
       "ng-admin-devices"
     ],
     "claims": [
-      "Records produced quantities and times from shop floor workstations",
-      "Barcode scanner input",
-      "Usable from tablet or phone",
-      "Customized coded operations",
-      "Prints reason barcodes, badge barcodes and job card with barcode",
-      "Premium edition only"
+      "Operators record produced quantities and time used at the workstation",
+      "Input by hand or with a barcode reader",
+      "Usable from a tablet or phone",
+      "Custom coded operations can be set up",
+      "Prints reason and badge barcodes and job cards with a barcode header",
+      "Requires the Premium edition",
+      "Free trial, then yearly subscription"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +51,10 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

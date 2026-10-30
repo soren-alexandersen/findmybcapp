@@ -4,42 +4,49 @@
   "publisherId": "9altitudes",
   "offerId": "786458c3-ec12-45b4-a3fb-acddd68ad90c",
   "source": {
-    "name": "9A Advanced Manufacturing - Quality mgt.",
+    "name": "BIRDS Advanced Manufacturing - Quality mgt.",
     "publisher": "9altitudes",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.786458c3-ec12-45b4-a3fb-acddd68ad90c%7CPAPPID.676d4534-49bb-43ad-9656-cdc04ed154ef",
-    "lastModified": "2026-09-29T11:30:37.9184529+00:00",
-    "appVersion": "28.2.9.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T11:18:01.8555899+00:00",
+    "appVersion": "29.2.22.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
-    "sourceHash": "sha256:a1083accd908bd21b10534f02717542278d3bd25bf91f72e38e80c537b51632f",
+    "sourceHash": "sha256:6e3a1b3635f010f2e8f41b762b4590301b64cf2fe856302076a4276e63587446",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a1083accd908bd21b10534f02717542278d3bd25bf91f72e38e80c537b51632f",
-    "mappedOn": null,
-    "summary": "Measures quality in production and warehouse processes",
+    "sourceHash": "sha256:6e3a1b3635f010f2e8f41b762b4590301b64cf2fe856302076a4276e63587446",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality measurement schemes for receiving, shipping and production, with measuring tool tracking.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-quality-inspection",
         "confidence": "high"
+      },
+      {
+        "need": "ng-quality-analysis",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-quality-analysis",
-      "ng-maintenance-planned"
+      "ng-maintenance-planned",
+      "ng-bi-dashboards"
     ],
     "claims": [
-      "Designer tool for measuring flows",
-      "Measurement schemas per item or item group",
-      "Automatic measuring on shipment and receipt of goods",
-      "Automatic measuring orders from production routing",
-      "Attach drawings, pictures or documents to items or measure orders",
-      "Stock keeping of measuring tools with recertification dates",
-      "Measurement reports for certificates",
-      "Replaces Word/Excel measurement schemes and enables statistics"
+      "Designer tool for building measuring flows",
+      "Measuring schemes per item or item group",
+      "Automatic measuring on receipt and shipment of goods",
+      "Creates measuring orders from the production routing",
+      "Attaches files and pictures to items or measure orders",
+      "Keeps stock of measuring tools",
+      "Calculates recertification dates for measuring tools",
+      "Prints measurement reports for certificates",
+      "Replaces Word and Excel measurement sheets"
     ],
     "countries": [
       "BE",
@@ -53,6 +60,7 @@
       "en"
     ],
     "industries": [
+      "Logistics",
       "Manufacturing"
     ],
     "connectsTo": [
@@ -60,7 +68,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

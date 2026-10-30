@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.sales_ops_planning%7CPAPPID.314a3c92-fdbf-4cca-93ce-c7516bd3612e",
-    "lastModified": "2026-09-22T15:25:24.4140223+00:00",
-    "appVersion": "26.8.153.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:06:34.369656+00:00",
+    "appVersion": "26.10.157.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/sales-and-operations-planning/",
-    "sourceHash": "sha256:c197a405194945824cc93b0f60ab6988cc2f41ae37de2b1ebb4ce1266dc1d3b6",
+    "sourceHash": "sha256:839a54e5a4222d98048ae3b932b98d3947906ee6a63715e4bb682e7fe7715ae8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c197a405194945824cc93b0f60ab6988cc2f41ae37de2b1ebb4ce1266dc1d3b6",
-    "mappedOn": null,
-    "summary": "AI sales budgets synced with demand forecasts",
+    "sourceHash": "sha256:839a54e5a4222d98048ae3b932b98d3947906ee6a63715e4bb682e7fe7715ae8",
+    "mappedOn": "2026-10-30",
+    "summary": "S&OP tool generating AI sales budgets synced with BC demand forecasts.",
     "shape": "process",
     "primary": [
       {
@@ -36,15 +38,12 @@
       "ng-ux-import-excel"
     ],
     "claims": [
-      "Synchronizes sales budget and demand forecast",
-      "One-click AI-powered forecasts with seasonality and trends",
-      "Scenario planning adjusting budgets by percentage",
-      "Excel export/import of sales budget and forecast",
-      "Mass populate sales budgets for multiple items",
-      "AI budgeting needs additional licensing",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Synchronises sales budget and demand forecast data",
+      "Generates AI forecasts in one click, accounting for seasonality and trends",
+      "Scenario budgets can be adjusted by a percentage",
+      "Exports and imports sales budgets and demand forecasts via Excel",
+      "Fills budget amounts for many items at once",
+      "Annual license of USD 3,500, AI budgeting licensed separately"
     ],
     "countries": [],
     "languages": [
@@ -63,7 +62,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

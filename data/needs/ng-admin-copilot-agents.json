@@ -84,10 +84,10 @@
         }
       ],
       "coverage": {
-        "Turning customer emails into quotes or orders": 0.21,
-        "Finance chores (collections, bank, expenses)": 0.36,
-        "Production questions and decisions": 0.29,
-        "Build our own agents": 0.29
+        "Turning customer emails into quotes or orders": 0.17,
+        "Finance chores (collections, bank, expenses)": 0.33,
+        "Production questions and decisions": 0.28,
+        "Build our own agents": 0.28
       }
     },
     {
@@ -124,14 +124,22 @@
           ]
         },
         {
+          "label": "In other AI tools like Claude or ChatGPT (via MCP)",
+          "patterns": [
+            "model context protocol",
+            "\\bmcp\\b"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Email": 0.36,
-        "Microsoft Teams": 0.14,
-        "Inside Business Central": 0.36
+        "Email": 0.33,
+        "Microsoft Teams": 0.11,
+        "Inside Business Central": 0.33,
+        "In other AI tools like Claude or ChatGPT (via MCP)": 0.11
       }
     },
     {
@@ -157,7 +165,7 @@
         }
       ],
       "coverage": {
-        "Yes, our own Azure or chosen model": 0.36
+        "Yes, our own Azure or chosen model": 0.5
       }
     },
     {
@@ -176,7 +184,13 @@
             "governed",
             "approval-ready",
             "for approval",
-            "approved orders"
+            "approved orders",
+            "every (call|action)",
+            "actions? (are )?logged",
+            "visible to admins",
+            "human approval",
+            "approval workflow",
+            "human sign-off"
           ]
         },
         {
@@ -185,8 +199,31 @@
         }
       ],
       "coverage": {
-        "Yes, governed and auditable": 0.29
+        "Yes, governed and auditable": 0.56
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "pricing and billing terms",
+      "terms": [
+        "bill"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "AI provider choice already covered by the model question",
+      "terms": [
+        "provider"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "preview status and public API wording",
+      "terms": [
+        "public"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

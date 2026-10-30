@@ -8,18 +8,20 @@
     "publisher": "Nubetech SpA",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_projectbilligandcontroladvanced%7CPAPPID.fc229e1c-3111-41a7-b996-4be2a3ab8ed4",
-    "lastModified": "2025-12-10T13:47:31.0816745+00:00",
-    "appVersion": "26.2512.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-13T14:13:54.7339008+00:00",
+    "appVersion": "26.2610.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/project-billing-control-advanced/project-billing-and-control-advanced",
-    "sourceHash": "sha256:7bd11aea3927231005722d52072b73f6c4c89ad047ea2ebf7145763a8877e010",
+    "sourceHash": "sha256:865e12cd709d3b94a6a0969e135207ddb84926062ff7da64b0dbc376c263f001",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7bd11aea3927231005722d52072b73f6c4c89ad047ea2ebf7145763a8877e010",
-    "mappedOn": null,
-    "summary": "Extended project billing and control",
+    "sourceHash": "sha256:865e12cd709d3b94a6a0969e135207ddb84926062ff7da64b0dbc376c263f001",
+    "mappedOn": "2026-10-30",
+    "summary": "Project budgets, cost breakdown and billing plans with milestones and retention",
     "shape": "process",
     "primary": [
       {
@@ -29,22 +31,27 @@
       {
         "need": "ng-proj-budget",
         "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-proj-status-reporting",
+      "ng-proj-costs",
       "ng-purchase-requisitions"
     ],
     "claims": [
-      "Creates project master data from the customer sales order",
-      "Project budgets with Cost Breakdown Structure analysis",
-      "Compares estimated budget, revisions, POs, accrued invoices and actual costs",
-      "Tracks project production progress for materials and labor",
+      "Creates projects straight from the customer sales order",
+      "Cost breakdown structure comparing estimate, revisions, POs, accruals and actuals",
+      "Tracks invoices still to be received as accrued costs",
+      "Actual costs include purchase invoices, internal hours and travel",
+      "Tracks production progress on materials and labor",
       "Monitors invoiced revenue",
-      "Shipments via sales orders, optionally non-billable",
-      "Billing plan covering advance payments, milestone billing, retention guarantees, credit notes and final billing",
-      "Sales document templates for sales orders and invoices",
-      "Creates purchase requests (RDA) from job planning lines"
+      "Ships through sales orders that can be non-billable",
+      "Billing plan covering milestones, advances, retention, final billing and credit notes",
+      "Templates for sales orders and invoices",
+      "Creates purchase requests from job planning lines"
     ],
     "countries": [],
     "languages": [
@@ -54,7 +61,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

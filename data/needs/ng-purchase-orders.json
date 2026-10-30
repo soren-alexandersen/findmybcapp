@@ -108,9 +108,9 @@
         }
       ],
       "coverage": {
-        "Suppliers don't confirm or deliver late": 0.21,
-        "Tracking imported goods in containers": 0.23,
-        "Orders stay open with small leftover quantities": 0.15,
+        "Suppliers don't confirm or deliver late": 0.25,
+        "Tracking imported goods in containers": 0.25,
+        "Orders stay open with small leftover quantities": 0.13,
         "Creating many orders takes too long": 0.12
       }
     },
@@ -145,8 +145,8 @@
         }
       ],
       "coverage": {
-        "Yes, estimated already when I order": 0.04,
-        "Yes, allocated when the cost invoices arrive": 0.19
+        "Yes, estimated already when I order": 0.02,
+        "Yes, allocated when the cost invoices arrive": 0.17
       }
     },
     {
@@ -199,7 +199,7 @@
       "coverage": {
         "In a web portal we give them": 0.06,
         "By email from BC": 0.04,
-        "Through a supplier network or platform (Jakamo, Floriday, KRAMP...)": 0.15,
+        "Through a supplier network or platform (Jakamo, Floriday, KRAMP...)": 0.13,
         "We chase them ourselves with reminders": 0.1
       }
     },
@@ -271,9 +271,9 @@
         }
       ],
       "coverage": {
-        "Approval before the PO goes out": 0.06,
-        "Limit which items can be bought from which supplier": 0.06,
-        "Tolerances on over or under delivery": 0.06
+        "Approval before the PO goes out": 0.1,
+        "Limit which items can be bought from which supplier": 0.04,
+        "Tolerances on over or under delivery": 0.08
       }
     },
     {
@@ -303,6 +303,30 @@
       "coverage": {
         "Yes, call-offs on blanket orders": 0.04,
         "Yes, we ask several suppliers for quotes first": 0.12
+      }
+    },
+    {
+      "id": "do-you-want-one-screen-showing",
+      "text": "Do you want one screen showing all open purchase lines and expected deliveries?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, an overview across suppliers",
+          "patterns": [
+            "dashboard",
+            "overview",
+            "one page",
+            "\\bmonitor",
+            "all purchase document lines"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, an overview across suppliers": 0.1
       }
     }
   ]

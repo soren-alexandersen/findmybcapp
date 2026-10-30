@@ -8,18 +8,20 @@
     "publisher": "SMART business LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.georgian_language_pack%7CPAPPID.39a7c37b-79b3-4bc3-b7d6-06c1ab8eb06b",
-    "lastModified": "2026-08-11T15:16:07.0915484+00:00",
-    "appVersion": "28.0.145252.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T15:30:26.4601444+00:00",
+    "appVersion": "28.0.159589.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://bc.smart-it.com/",
-    "sourceHash": "sha256:1879fa29f9b45172a903cd2f510576ea302fcb0f487e936be4f31e80ef970557",
+    "sourceHash": "sha256:1a92618a1ca21e282aa06acc8db457954c9be4fd78655ad45bc1c82c9be77d87",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1879fa29f9b45172a903cd2f510576ea302fcb0f487e936be4f31e80ef970557",
-    "mappedOn": null,
-    "summary": "Georgian language for UI",
+    "sourceHash": "sha256:1a92618a1ca21e282aa06acc8db457954c9be4fd78655ad45bc1c82c9be77d87",
+    "mappedOn": "2026-10-30",
+    "summary": "Georgian translation of the Business Central user interface.",
     "shape": "language",
     "primary": [
       {
@@ -29,11 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Georgian translation of standard BC UI",
-      "Menus, actions, messages and tooltips translated",
-      "Georgian characters and fonts supported",
-      "Per-user language selection",
-      "Compatible with BC cloud"
+      "Each user can pick Georgian as their own language",
+      "Translates menus, actions, messages and tooltips",
+      "Supports Georgian characters and fonts",
+      "Leaves business logic unchanged",
+      "Works with the BC cloud version"
     ],
     "countries": [
       "GE"
@@ -45,8 +47,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

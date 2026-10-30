@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_production_differences%7CPAPPID.73395aee-e62f-4b73-b1a2-a0de372539b2",
-    "lastModified": "2026-06-06T00:44:18.9584388+00:00",
-    "appVersion": "28.0.370756.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T21:39:00.6268052+00:00",
+    "appVersion": "28.1.25.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:3f0022f137b0e9977fd6abd01bc200aba4df8cd7a10b69eeedea6968bd94fa9d",
+    "sourceHash": "sha256:c886fb3663a357ec5372407c6edf7bcc8d57d80a8b7a2dfa1565855496d41871",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3f0022f137b0e9977fd6abd01bc200aba4df8cd7a10b69eeedea6968bd94fa9d",
-    "mappedOn": null,
-    "summary": "Handles quantity differences in production orders",
+    "sourceHash": "sha256:c886fb3663a357ec5372407c6edf7bcc8d57d80a8b7a2dfa1565855496d41871",
+    "mappedOn": "2026-10-30",
+    "summary": "Shows and posts quantity differences on production orders.",
     "shape": "process",
     "primary": [
       {
@@ -27,11 +29,13 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-production-costing"
+    ],
     "claims": [
-      "Shows production differences across the full production process",
-      "Value types update production documents with actual quantities",
-      "Requires Premium edition"
+      "Visualises quantity differences across the production process",
+      "Configurable value types update related production documents with quantities",
+      "Requires Business Central Premium"
     ],
     "countries": [
       "AT",
@@ -52,11 +56,13 @@
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

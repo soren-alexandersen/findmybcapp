@@ -8,18 +8,20 @@
     "publisher": "Applibra",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_hierarchical_price_list%7CPAPPID.c58e4308-8b62-4c56-929b-84026a04881d",
-    "lastModified": "2026-06-17T08:15:04.7989014+00:00",
-    "appVersion": "27.0.26.6101556",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T10:20:23.4490389+00:00",
+    "appVersion": "28.0.26.10221237",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://dynamicsapplab.com/apps",
-    "sourceHash": "sha256:bfb9b6436747e43677f6bdbe42becd823fbcb2b745994e4797cff8a6b8a68a48",
+    "helpLink": "https://applibra.com/apps/al-hierarchical-price-list/help",
+    "sourceHash": "sha256:d7c8260f48305511ddc4835a2bef26e33e19bc9bee86056977e18700514ee597",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bfb9b6436747e43677f6bdbe42becd823fbcb2b745994e4797cff8a6b8a68a48",
-    "mappedOn": null,
-    "summary": "Multi-level hierarchical price lists",
+    "sourceHash": "sha256:d7c8260f48305511ddc4835a2bef26e33e19bc9bee86056977e18700514ee597",
+    "mappedOn": "2026-10-30",
+    "summary": "Multi-level hierarchies of sales price sources so exceptions sit under one general price list.",
     "shape": "process",
     "primary": [
       {
@@ -27,28 +29,27 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-customer-rebates"
-    ],
+    "secondary": [],
     "claims": [
-      "Hierarchies of price sources with unlimited levels",
-      "Each node links up with a price source: campaign, group or customer",
-      "Exceptions per retail chain, channel or area",
-      "Hierarchies assigned to customers with start and end dates",
-      "Only certified hierarchies used; non-certified blocks the sales document",
-      "Most specific to most general evaluation; stops at first valid price",
-      "Works with legacy and V16 pricing engine"
+      "Unlimited hierarchy levels, each node tied to a price source like customer, price group or campaign",
+      "Set a general price and override only for areas, channels, chains or customers",
+      "Hierarchies are assigned to customers with optional start and end dates",
+      "Only certified hierarchies are used; uncertified ones block the sales document",
+      "Evaluates from most specific to most general and stops at the first valid price",
+      "Works with both the legacy and V16 pricing engines",
+      "Needs BC 28.0 or later, online and on-premises",
+      "Available in English and Italian"
     ],
     "countries": [],
-    "languages": [],
-    "industries": [
-      "Retail",
-      "Wholesale"
+    "languages": [
+      "en",
+      "it"
     ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "both",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

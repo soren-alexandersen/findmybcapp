@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.tlx%7CPAPPID.714bec9f-fb68-4e29-a1bc-7f404cba7dbf",
-    "lastModified": "2026-08-26T05:25:22.2925683+00:00",
-    "appVersion": "2601.1.339205.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:30.1675661+00:00",
+    "appVersion": "2602.0.350655.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/tlx/",
-    "sourceHash": "sha256:db21f5b7a516da187e98d62dcc69dd4c27016b284eb37a332f077db1ca1e967f",
+    "sourceHash": "sha256:0538caf1e28f07c002919badc44734991a5e9b81ec4b856952c52db56b9df731",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:db21f5b7a516da187e98d62dcc69dd4c27016b284eb37a332f077db1ca1e967f",
-    "mappedOn": null,
-    "summary": "Integrates BC with Aptean Totalogistix logistics",
+    "sourceHash": "sha256:0538caf1e28f07c002919badc44734991a5e9b81ec4b856952c52db56b9df731",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends orders to Aptean Totalogistix for shipment routing and returns status and freight invoices.",
     "shape": "connector",
     "primary": [
       {
@@ -32,14 +34,17 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-freight-cost-audit",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Releases sales or purchase orders to TLx for routing by shipment method",
-      "Two-way updates of order status, shipment details and invoices",
-      "Configure shipment methods that trigger exchange, freight payment types and shipping services per customer/ship-to",
-      "TLx Order Status page shows shipment status, carrier and invoicing status",
-      "Detailed logs of data transfers"
+      "Released sales or purchase orders are sent to TLx automatically by shipment method",
+      "Order status, shipment details and invoices flow back to Business Central",
+      "Shipment methods that trigger the exchange are configurable",
+      "Freight payment types and shipping services can be set per customer or ship-to address",
+      "Shipment progress, carrier and invoicing status shown on a TLx Order Status page",
+      "Detailed transfer logs reachable from setup, sales and purchase orders",
+      "Connector is free with a TLx subscription"
     ],
     "countries": [
       "AU",
@@ -70,7 +75,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
@@ -79,11 +83,9 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Aptean Totalogistix"
-    ],
-    "requires": [
       "Aptean Totalogistix (TLx)"
     ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "free",
     "hide": false,

@@ -8,19 +8,21 @@
     "publisher": "DIGMATIX",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.realtime-bank%7CPAPPID.81092199-0242-437b-8720-a5d0ff0b5b78",
-    "lastModified": "2026-09-29T13:55:44.2322983+00:00",
-    "appVersion": "25.4.26253.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T08:48:32.7985703+00:00",
+    "appVersion": "25.4.26258.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/realtime-bank/docs/et-EE/help",
-    "sourceHash": "sha256:9c481af6504b2c9ca795d20f65b0abc6e36c70f503f4a2e6c27812319bbee459",
+    "sourceHash": "sha256:91247745c6116abbc9a28bbb4347c9f4537d84cd31ceac33cec4a3bd7e43a6ac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9c481af6504b2c9ca795d20f65b0abc6e36c70f503f4a2e6c27812319bbee459",
-    "mappedOn": null,
-    "summary": "Real-time bank transactions and payment transmission",
-    "shape": "connector",
+    "sourceHash": "sha256:91247745c6116abbc9a28bbb4347c9f4537d84cd31ceac33cec4a3bd7e43a6ac",
+    "mappedOn": "2026-10-30",
+    "summary": "Live bank connection: sends payments and imports, applies and posts bank transactions.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-bank-reconciliation",
@@ -32,16 +34,17 @@
       }
     ],
     "secondary": [
-      "ng-customer-payments",
-      "ng-cash-forecast"
+      "ng-customer-payments"
     ],
     "claims": [
-      "Transmits payments directly to the bank",
-      "Loads bank transactions in real time",
+      "Sends payments straight to the bank",
+      "Loads bank transactions into BC as they happen",
       "Shows current bank balance inside BC",
-      "Auto-applies transactions to open invoices or cost accounts",
-      "Auto-posts high-confidence matches",
-      "Supports Swedbank, SEB Baltic, LHV, Coop Bank and Luminor"
+      "Applies transactions to open invoices or cost accounts for charges",
+      "Posts high-confidence matches automatically",
+      "Users only review unmatched or low-confidence lines",
+      "Connectors for Swedbank, SEB Baltic, LHV, Coop Bank and Luminor",
+      "Available in Estonian and English"
     ],
     "countries": [
       "EE"
@@ -52,15 +55,15 @@
     ],
     "industries": [],
     "connectsTo": [
-      "Swedbank",
-      "SEB",
-      "LHV",
-      "Coop Bank",
+      "Swedbank Gateway",
+      "SEB Baltic Gateway",
+      "LHV Connect",
+      "Coop Bank Gateway",
       "Luminor"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,37 +8,34 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_imagecapture_connector%7CPAPPID.940558a2-de24-4783-8e64-592389b1a4a2",
-    "lastModified": "2026-09-30T20:03:36.0689949+00:00",
-    "appVersion": "28.5.0.80085",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:16:21.8999839+00:00",
+    "appVersion": "29.0.0.80841",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:7654b63c99e9f777f7c083a25b07fb31e8638a4435347816802da45cb6019762",
+    "sourceHash": "sha256:29579eb4c374499a88d7f0c3b543f5ebccb54b259a64390b94efaa455fb0e9bc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7654b63c99e9f777f7c083a25b07fb31e8638a4435347816802da45cb6019762",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 with ImageCapture",
-    "shape": "addon",
+    "sourceHash": "sha256:29579eb4c374499a88d7f0c3b543f5ebccb54b259a64390b94efaa455fb0e9bc",
+    "mappedOn": "2026-10-30",
+    "summary": "Navitrans 365 image capture link; listing text only describes the general transport suite.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
-    "secondary": [
-      "ng-ux-attachments"
-    ],
+    "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS covering order registration to invoicing",
-      "FTL and LTL transport orders created from templates",
-      "Planning tools with capacity, combination and qualification checks",
-      "Pricing runs automatically off tariff tables or flat prices",
-      "Works with subcontractors and charters",
-      "Automatic invoicing combining orders on invoices",
-      "Supports Essentials and Premium"
+      "Navitrans suite: FTL and LTL transport orders from templates",
+      "Navitrans suite: capacity, combination and qualification checks when planning",
+      "Navitrans suite: automatic pricing from tariff tables or fixed prices",
+      "Navitrans suite: works with subcontractors and charters",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -66,13 +63,15 @@
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Transport & logistics"
+    ],
     "connectsTo": [],
     "requires": [
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,37 +8,43 @@
     "publisher": "SmartApps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.reconciliations_for_eagle%7CPAPPID.57bfd6b5-5c6f-4c3d-abcb-71ec802e138d",
-    "lastModified": "2026-09-02T12:19:42.6228696+00:00",
-    "appVersion": "28.0.161.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T15:29:27.1094506+00:00",
+    "appVersion": "28.1.176.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/en-us/reconciliations-for-eagle/",
-    "sourceHash": "sha256:b5c25139878f9e3be64ebb7a23e95eac48693b11425cc6932ba0b4799227ca2a",
+    "sourceHash": "sha256:c3c2b14e7a582d3e464f9f25c5b3eefbd44c7db047bc69abd49099de02b074a2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b5c25139878f9e3be64ebb7a23e95eac48693b11425cc6932ba0b4799227ca2a",
-    "mappedOn": null,
-    "summary": "Automated reconciliations with tolerances",
-    "shape": "addon",
+    "sourceHash": "sha256:c3c2b14e7a582d3e464f9f25c5b3eefbd44c7db047bc69abd49099de02b074a2",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based ledger reconciliations with tolerances, review comments and audit exports.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-gl-reconciliation",
         "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-period-close",
       "ng-audit-compliance"
     ],
     "claims": [
       "Reconciles sales, purchases, projects, income statement and balance sheet accounts",
-      "Ledger-agnostic reconciliation engine",
-      "Scheduled recurring reconciliations with dynamic filters",
-      "Commenting, flagging and tracked reviews",
-      "Upper/lower tolerance thresholds per type or line",
-      "Exports reconciliation records for compliance",
-      "Requires and auto-installs Eagle"
+      "Works across all ledger types",
+      "Schedules recurring reconciliations with dynamic filters",
+      "Comments, issue flags and tracked reviews",
+      "Upper and lower tolerance limits per type or line",
+      "Exports specifications and reconciliation records for auditors",
+      "Requires the Eagle app, installed automatically",
+      "Works with Essential and Premium"
     ],
     "countries": [],
     "languages": [
@@ -54,7 +60,7 @@
       "Eagle"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

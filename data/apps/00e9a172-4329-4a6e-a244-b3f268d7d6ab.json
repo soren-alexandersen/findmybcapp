@@ -8,37 +8,37 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex10301_powermesmachinedrivers%7CPAPPID.00e9a172-4329-4a6e-a244-b3f268d7d6ab",
-    "lastModified": "2026-04-11T05:12:36.0227792+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T15:39:03.3210669+00:00",
+    "appVersion": "29.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-mes-pmes.html",
-    "sourceHash": "sha256:fd286f413c8383081ece3e0a2a43006aeafb48568a5e05193f2e9de1b6d26f5c",
+    "sourceHash": "sha256:e28a48f4a7fc41371850b24c9425907bc89027dc4bce616847f9abe4cb513eca",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fd286f413c8383081ece3e0a2a43006aeafb48568a5e05193f2e9de1b6d26f5c",
-    "mappedOn": null,
-    "summary": "Collects machine PLC data into production via Azure IoT",
-    "shape": "process",
+    "sourceHash": "sha256:e28a48f4a7fc41371850b24c9425907bc89027dc4bce616847f9abe4cb513eca",
+    "mappedOn": "2026-10-30",
+    "summary": "Feeds PLC and machine data into BC production via Azure IoT for EOS MES.",
+    "shape": "addon",
     "primary": [
-      {
-        "need": "ng-admin-devices",
-        "confidence": "high"
-      },
       {
         "need": "ng-shop-floor-reporting",
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-devices"
+    ],
     "claims": [
-      "Collects PLC/machine data and sends it to BC via Azure IoT",
-      "Pair/associate machines",
-      "IoT setup",
-      "Custom progress steps driven by incoming machine data",
-      "Requires EOS MES Manufacturing execution system",
-      "Premium edition only"
+      "Collects data from PLCs and machines and sends it to BC through Azure IoT",
+      "Machines are paired with the system",
+      "IoT setup is done inside the app",
+      "Production progress steps can be driven by incoming machine data",
+      "Needs an EOS MES subscription",
+      "Requires the Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -50,7 +50,10 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Sustainability"
+    ],
     "connectsTo": [
       "Azure IoT"
     ],

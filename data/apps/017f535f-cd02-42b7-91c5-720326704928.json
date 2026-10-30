@@ -8,46 +8,50 @@
     "publisher": "NavBiz d.o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_mes%7CPAPPID.017f535f-cd02-42b7-91c5-720326704928",
-    "lastModified": "2026-08-24T06:45:08.3465433+00:00",
-    "appVersion": "28.1.20260821.95510",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T12:35:46.8341423+00:00",
+    "appVersion": "28.1.20261027.120347",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://navbiz.hr/info/",
-    "sourceHash": "sha256:3e3ae997386ad0aaee53888f6e340124e02c4bbadf8e8f7a1e130304c64888bd",
+    "sourceHash": "sha256:8d3d328d0f36bc38dc336cf3cbfbf726a3ad616add9817db4e8506e8fad6d3dd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3e3ae997386ad0aaee53888f6e340124e02c4bbadf8e8f7a1e130304c64888bd",
-    "mappedOn": null,
-    "summary": "Manufacturing execution system",
+    "sourceHash": "sha256:8d3d328d0f36bc38dc336cf3cbfbf726a3ad616add9817db4e8506e8fad6d3dd",
+    "mappedOn": "2026-10-30",
+    "summary": "Shop-floor execution tracking: machine start/stop, downtime, waste and performance per production order.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
         "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-maintenance-breakdown",
-      "ng-lean-production"
+      "ng-lean-production",
+      "ng-scrap-rework"
     ],
     "claims": [
-      "Lets users sign in against one given work center and machine",
-      "Review machine worksheets by production order",
-      "Records machine start, end and stoppages",
-      "Records downtime types and monitors downtime",
+      "Workers register to a specific machine or machine centre",
+      "Machine worksheets reviewed by production order",
+      "Logs machine start, end and production stoppages",
+      "Downtime types recorded and monitored",
       "Records production waste",
-      "Records machine and worker performance per production order"
+      "Tracks machine and worker performance per production order"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Estonian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.einvoicingest%7CPAPPID.d2552bde-4704-4c58-99fa-040fbdea8489",
-    "lastModified": "2026-07-17T19:17:32.2902879+00:00",
-    "appVersion": "26.0.26198.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-08T13:50:35.1807932+00:00",
+    "appVersion": "26.0.26281.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.dynamicspartners.ee/apps/einvoices-for-estonia/docs/en-US/help",
-    "sourceHash": "sha256:be5f3407068bf2003f0ade19e15272e30730bef123b504cc48c365ebaf5bdb5c",
+    "sourceHash": "sha256:494d91bf264bff11ebec0fba4d037c76cdd77efa1447d4ea8fc104b906b7a86c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:be5f3407068bf2003f0ade19e15272e30730bef123b504cc48c365ebaf5bdb5c",
-    "mappedOn": null,
-    "summary": "Estonian e-invoicing via local e-document operators",
+    "sourceHash": "sha256:494d91bf264bff11ebec0fba4d037c76cdd77efa1447d4ea8fc104b906b7a86c",
+    "mappedOn": "2026-10-30",
+    "summary": "Estonian e-invoicing via local operators, sending sales invoices and creating purchase invoices.",
     "shape": "localization",
     "primary": [
       {
@@ -32,23 +34,25 @@
       }
     ],
     "secondary": [
-      "ng-sales-invoicing"
+      "ng-sales-invoicing",
+      "ng-supplier-onboarding"
     ],
     "claims": [
-      "Online connection to Estonian e-document operators Finbite, Unifiedpost and RIK",
-      "Supports Estonian e-invoice standard and EU e-invoice standard",
-      "Sends e-invoices via PEPPOL and other roaming channels",
-      "Supports sales invoices and service invoices",
-      "Sends e-invoices automatically after posting via document sending profiles",
-      "Sends and receives PDF attachment inside e-invoice",
-      "Receives e-invoices online or from an XML file",
-      "Automatically creates new vendors, vendor bank accounts and items from e-invoices",
-      "Text-to-account mapping to find G/L account for invoice lines",
-      "Matches items by EAN (GTIN) or item no.",
-      "Combines lines of an e-invoice per grouping id, VAT code or description",
-      "Duplicate document check",
-      "Automatic rounding of purchase invoices",
-      "Supports Essential and Premium editions"
+      "Connects online to Estonian e-document operators Finbite, Unifiedpost and RIK",
+      "Supports the Estonian e-invoice standard with all supported operators",
+      "Supports the EU e-invoice standard where the operator does",
+      "Can reach international customers over PEPPOL and other roaming channels via the operator",
+      "Handles both sales invoices and service invoices",
+      "Sends e-invoices automatically on posting based on customer document sending profiles",
+      "PDF attachments can travel inside the e-invoice in both directions",
+      "Incoming e-invoices can be imported manually from an XML file",
+      "Creates new vendors, vendor bank accounts and items from incoming e-invoices",
+      "Maps invoice line text to G/L accounts when building purchase invoices",
+      "Finds items for invoice lines by EAN/GTIN or item number",
+      "Groups e-invoice lines by description, VAT code or grouping id",
+      "Detects duplicate documents when creating invoices",
+      "Rounds purchase invoices automatically",
+      "Available in English and Estonian"
     ],
     "countries": [
       "EE"
@@ -61,8 +65,7 @@
     "connectsTo": [
       "Finbite",
       "Unifiedpost",
-      "RIK",
-      "PEPPOL"
+      "RIK"
     ],
     "requires": [],
     "deployment": "not_stated",

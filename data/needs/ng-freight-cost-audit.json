@@ -26,7 +26,178 @@
     "Our shipping costs are much higher than budgeted and we cannot see why",
     "How do we see actual freight cost per order in BC?",
     "Is there a report of estimated versus actual freight per carrier?",
-    "We need freight variances posted to the right accounts"
+    "We need freight variances posted to the right accounts",
+    "We want to check carrier invoices before we pay them",
+    "We need to know what a shipment will cost before we book it",
+    "Freight costs should land on the right orders and items"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-do-you-want-to-do-with-fr",
+      "text": "What do you want to do with freight costs?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Check carrier invoices against expected cost",
+          "patterns": [
+            "carrier invoices?",
+            "freight invoices?",
+            "invoice audit",
+            "freight audit",
+            "freight cost checking",
+            "purchase invoices to transport"
+          ]
+        },
+        {
+          "label": "Work out freight cost on the order up front",
+          "patterns": [
+            "transport cost calculation",
+            "calculates? (transport|freight) costs",
+            "shipping cost calculated",
+            "freight rates",
+            "price catalog",
+            "rate cards",
+            "calculate freight cost"
+          ]
+        },
+        {
+          "label": "Compare carrier rates before booking",
+          "patterns": [
+            "rate shopping",
+            "rate comparison",
+            "compares carrier rates"
+          ]
+        },
+        {
+          "label": "Spread freight onto orders or item cost",
+          "patterns": [
+            "item charges?",
+            "landed cost",
+            "allocat"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Check carrier invoices against expected cost": 0.85,
+        "Work out freight cost on the order up front": 0.46,
+        "Compare carrier rates before booking": 0.38,
+        "Spread freight onto orders or item cost": 0.31
+      }
+    },
+    {
+      "id": "how-do-your-goods-travel",
+      "text": "How do your goods travel?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Parcels and part loads with carriers",
+          "patterns": [
+            "parcel",
+            "\\bltl\\b"
+          ]
+        },
+        {
+          "label": "Containers and ocean freight",
+          "patterns": [
+            "container",
+            "ocean",
+            "vessel",
+            "voyage"
+          ]
+        },
+        {
+          "label": "Full truck loads we plan ourselves",
+          "patterns": [
+            "load (optimization|planning|building)",
+            "one truck",
+            "own fleet",
+            "floor space",
+            "\\bftl\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Parcels and part loads with carriers": 0.23,
+        "Containers and ocean freight": 0.23,
+        "Full truck loads we plan ourselves": 0.46
+      }
+    },
+    {
+      "id": "which-freight-costs-do-you-nee",
+      "text": "Which freight costs do you need to cover?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Outbound freight on sales",
+          "patterns": [
+            "sales freight",
+            "sales orders",
+            "sales documents",
+            "sales shipments",
+            "end customer"
+          ]
+        },
+        {
+          "label": "Inbound freight on purchases",
+          "patterns": [
+            "purchase freight",
+            "purchase orders",
+            "purchase,",
+            "purchase and",
+            "inbound",
+            "at time of receipt"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Outbound freight on sales": 0.38,
+        "Inbound freight on purchases": 0.54
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "integration and connector wording",
+      "terms": [
+        "delivery",
+        "connect",
+        "financ",
+        "quot"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'over' wording (counts, tolerances)",
+      "terms": [
+        "over"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "AI assistant access, too niche to choose on",
+      "terms": [
+        "assistant"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "target-size and accrual wording, not a choice point",
+      "terms": [
+        "month"
+      ],
+      "on": "2026-10-30"
+    }
+  ]
 }

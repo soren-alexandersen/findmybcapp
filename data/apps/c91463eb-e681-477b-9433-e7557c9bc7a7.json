@@ -8,18 +8,20 @@
     "publisher": "BEYONDIT GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-tradein%7CPAPPID.c91463eb-e681-477b-9433-e7557c9bc7a7",
-    "lastModified": "2026-04-17T15:12:56.11667+00:00",
-    "appVersion": "2026.4.147.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T19:01:00.4904471+00:00",
+    "appVersion": "2026.10.161.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/tradein/index.html",
-    "sourceHash": "sha256:b5ff4f9c07fc7e2c27285048711e18496fcb142af1c11e772c914bf85c16b4e4",
+    "sourceHash": "sha256:13ac5158f049db079979a4de61e9d7d51dce756e1e9a43332918bd014d884ca8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b5ff4f9c07fc7e2c27285048711e18496fcb142af1c11e772c914bf85c16b4e4",
-    "mappedOn": null,
-    "summary": "Takes customer items in trade-in via credit memo and receipt",
+    "sourceHash": "sha256:13ac5158f049db079979a4de61e9d7d51dce756e1e9a43332918bd014d884ca8",
+    "mappedOn": "2026-10-30",
+    "summary": "Takes customer items in as trade-ins and credits the customer.",
     "shape": "process",
     "primary": [
       {
@@ -29,9 +31,9 @@
     ],
     "secondary": [],
     "claims": [
-      "Takes customer items in as trade-in",
-      "Creates a sales credit memo for the business partner during the trade-in",
-      "Supports Essentials and Premium editions"
+      "Accepts customer items as trade-in",
+      "Trade-in creates a sales credit memo for the customer",
+      "Available in English and German"
     ],
     "countries": [
       "AT",
@@ -64,7 +66,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

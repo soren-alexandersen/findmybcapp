@@ -8,18 +8,20 @@
     "publisher": "Aricoma Systems a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2024_2%7CPAPPID.30781977-77c6-4a58-8d29-867cf1ebd557",
-    "lastModified": "2026-09-29T13:07:11.3483868+00:00",
-    "appVersion": "28.5.54151.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T12:36:11.9808867+00:00",
+    "appVersion": "29.0.54011.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/business-pack.html",
-    "sourceHash": "sha256:793cbece22ae07c07581919887f5e15d68720446de37748bc4fd97fd3d0f6807",
+    "sourceHash": "sha256:ac0e53787c8fff85443e2c9dae5586efad30d58aa80707b1fa6fbf30e6cb7ac5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:793cbece22ae07c07581919887f5e15d68720446de37748bc4fd97fd3d0f6807",
-    "mappedOn": null,
-    "summary": "Adds commonly used fields and factboxes to pages",
+    "sourceHash": "sha256:ac0e53787c8fff85443e2c9dae5586efad30d58aa80707b1fa6fbf30e6cb7ac5",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds commonly needed fields and factboxes to sales, purchase and item pages.",
     "shape": "usability",
     "primary": [
       {
@@ -28,16 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-ux-custom-fields",
       "ng-ux-notes-collaboration"
     ],
     "claims": [
-      "Adds fields such as VAT number, registration ID, payment method, delivery date and recipient address and city to pages",
-      "Factboxes on sales and purchase orders, shipments and invoices",
-      "All added fields and factboxes visible by default",
-      "Order overviews for sales and purchases showing key details",
-      "Notes on customers and sales documents",
-      "Gives detailed views of inventory and the items behind it"
+      "Shows extra fields such as ship-to address and city, delivery date, payment method, registration ID and VAT number",
+      "Adds factboxes to sales and purchase orders, shipments and invoices",
+      "New fields and factboxes are visible by default with no setup",
+      "Overview pages for sales and purchase orders",
+      "Notes can be added to customers and sales documents",
+      "Detailed item and inventory overviews",
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +50,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

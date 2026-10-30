@@ -18,10 +18,14 @@
   },
   "mapping": {
     "sourceHash": "sha256:047d81bd9f6559a493fce713a48f1c00a8fe66f152482cafca3110234bd5b09c",
-    "mappedOn": null,
-    "summary": "Manages customs clearance and legal requirements across Latin America",
+    "mappedOn": "2026-10-30",
+    "summary": "Latin American localization for managing customs clearance data and local legal requirements.",
     "shape": "localization",
     "primary": [
+      {
+        "need": "ng-import-export-customs",
+        "confidence": "high"
+      },
       {
         "need": "ng-loc-country-pack",
         "confidence": "medium"
@@ -29,10 +33,12 @@
     ],
     "secondary": [],
     "claims": [
-      "Manages customs clearance processes in BC",
-      "Centralizes customs-related data",
-      "Covers multiple Latin American countries and the US",
-      "Updates delivered under annual evolution plan"
+      "Manages customs clearance processes inside BC",
+      "Covers country-specific legal requirements across several Latin American markets",
+      "Centralises customs-related data",
+      "Supports Argentina, Brazil, Chile, Colombia, Mexico, Peru and other Latin American countries",
+      "Updates delivered to customers on the annual evolution plan",
+      "Runs on Essentials and Premium editions"
     ],
     "countries": [
       "AR",
@@ -54,11 +60,11 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Customs clearance / import compliance has no dedicated need group."
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

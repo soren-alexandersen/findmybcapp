@@ -8,19 +8,21 @@
     "publisher": "ComputerCamp A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.computercamp_1155908%7CAID.camp_365_event%7CPAPPID.c365bc19-2019-4e8d-8695-c5b219d28d44",
-    "lastModified": "2026-09-24T08:23:09.1888898+00:00",
-    "appVersion": "28.5.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T20:57:19.9120986+00:00",
+    "appVersion": "29.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.computercamp.dk/",
-    "sourceHash": "sha256:c8c3a86bdb2616cf773876435dc6292ff138289fc414572e13a6faaeadb2beaf",
+    "sourceHash": "sha256:acfd01605a3e1c043242d12679575c18cabdfa01037d544fd5a0244c6e6fb094",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c8c3a86bdb2616cf773876435dc6292ff138289fc414572e13a6faaeadb2beaf",
-    "mappedOn": null,
-    "summary": "Manages events for member organizations",
-    "shape": "process",
+    "sourceHash": "sha256:acfd01605a3e1c043242d12679575c18cabdfa01037d544fd5a0244c6e6fb094",
+    "mappedOn": "2026-10-30",
+    "summary": "Event management for member organisations: registration, waitlists, payment, invoicing, evaluation.",
+    "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-nonprofit-education",
@@ -31,16 +33,24 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-conn-payment-providers"
+    ],
     "claims": [
-      "Manages courses, meetings and conferences",
-      "Event listing with registration, also via website",
-      "Online payment option",
+      "Handles courses, meetings and conferences in one place",
+      "Covers the event lifecycle from registration and waitlist to invoicing and evaluation",
+      "Event listing with sign-up, including through the website",
+      "Online payment for registrations",
       "Participant and waiting lists",
-      "Confirmations and room booking",
-      "Billing and reminder procedure",
+      "Sends confirmations",
+      "Room booking",
+      "Invoicing and reminders for events",
       "Event history stored on member data",
-      "Is a component of the CAMP 365 Member app"
+      "Part of the CAMP 365 Member solution",
+      "Monthly subscription priced by users and chosen features",
+      "Supports BC Essentials",
+      "Available for Denmark in Danish and English"
     ],
     "countries": [
       "DK"
@@ -49,14 +59,11 @@
       "da",
       "en"
     ],
-    "industries": [
-      "Associations",
-      "Member organizations"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "online",
-    "pricing": "subscription",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

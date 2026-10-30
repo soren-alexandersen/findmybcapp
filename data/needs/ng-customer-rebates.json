@@ -80,10 +80,10 @@
         }
       ],
       "coverage": {
-        "Volume rebates or bonuses paid after a period": 0.72,
-        "Promotions applied on the order": 0.34,
+        "Volume rebates or bonuses paid after a period": 0.7,
+        "Promotions applied on the order": 0.36,
         "Billbacks, chargebacks or deductions": 0.09,
-        "Sales rep commissions": 0.19
+        "Sales rep commissions": 0.21
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Chains or hierarchies (head office and stores)": 0.28,
-        "Suppliers too": 0.44
+        "Chains or hierarchies (head office and stores)": 0.27,
+        "Suppliers too": 0.42
       }
     },
     {
@@ -161,9 +161,9 @@
         }
       ],
       "coverage": {
-        "Credit memo to the customer": 0.31,
-        "Free goods": 0.22,
-        "Discount straight on the invoice": 0.25
+        "Credit memo to the customer": 0.3,
+        "Free goods": 0.21,
+        "Discount straight on the invoice": 0.15
       }
     },
     {
@@ -191,7 +191,7 @@
         }
       ],
       "coverage": {
-        "Yes, post accruals or provisions": 0.47,
+        "Yes, post accruals or provisions": 0.45,
         "Just a forecast or simulation before posting": 0.09
       }
     },
@@ -236,10 +236,19 @@
         }
       ],
       "coverage": {
-        "Tiers or thresholds by volume": 0.34,
-        "Fixed amount per unit": 0.16,
-        "Percentage of sales": 0.25
+        "Tiers or thresholds by volume": 0.33,
+        "Fixed amount per unit": 0.09,
+        "Percentage of sales": 0.24
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "mixed meanings of 'charge' (item charges, freight)",
+      "terms": [
+        "charg"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.samadhan1595571675983|AID.gantt_chart_samadhan|PAPPID.d2210a94-74b7-4f8d-ad3b-39c1e9957196",
+  "guid": "d2210a94-74b7-4f8d-ad3b-39c1e9957196",
+  "publisherId": "samadhan1595571675983",
+  "offerId": "gantt_chart_samadhan",
+  "source": {
+    "name": "GANTT Chart Samadhan",
+    "publisher": "Samadhan",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.gantt_chart_samadhan%7CPAPPID.d2210a94-74b7-4f8d-ad3b-39c1e9957196",
+    "lastModified": "2026-10-09T14:20:43.6297795+00:00",
+    "appVersion": "1.0.0.18",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.samadhanindia.com/helpdesk-support/",
+    "sourceHash": "sha256:19236963dff5d507afd166b05cd41142025307458b87190d7a8db79b5980fae1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:19236963dff5d507afd166b05cd41142025307458b87190d7a8db79b5980fae1",
+    "mappedOn": "2026-10-30",
+    "summary": "Interactive Gantt chart to view and drag-reschedule production operations by machine.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Shows all machine and work centers with operations on one timeline",
+      "Drag and drop operations to reschedule",
+      "Arrows show dependencies between routing operations",
+      "Shows load per machine center to spot overload",
+      "Zoom from one day to multiple weeks and search for orders",
+      "Uses existing production orders, routings and machine centers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

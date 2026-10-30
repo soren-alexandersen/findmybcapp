@@ -8,37 +8,46 @@
     "publisher": "DEXPRO Solutions GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.72374%7CPAPPID.b9c8c9cc-8cd1-41cc-bf86-7da37ac74c71",
-    "lastModified": "2026-09-10T12:44:54.4879027+00:00",
-    "appVersion": "1.29.0.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T09:24:24.7792251+00:00",
+    "appVersion": "1.30.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/freeze-for-dynamics-365-bc-de-de",
-    "sourceHash": "sha256:779308a4da85a3aac1d5fcf0d29324be72ce55b674fd139febda34eb74241dbc",
+    "sourceHash": "sha256:7db4c2022fdb55320477b5ae2f616bbd0221379b6423aa48b5b9115706459d4c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:779308a4da85a3aac1d5fcf0d29324be72ce55b674fd139febda34eb74241dbc",
-    "mappedOn": null,
-    "summary": "Accesses audit-proof archived documents from BC",
+    "sourceHash": "sha256:7db4c2022fdb55320477b5ae2f616bbd0221379b6423aa48b5b9115706459d4c",
+    "mappedOn": "2026-10-30",
+    "summary": "Audit-proof archive service linked to BC records with full-text search",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-admin-document-storage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-audit-compliance"
+      "ng-ux-attachments"
     ],
     "claims": [
-      "Audit-proof archive accessible inside BC",
-      "Documents linked automatically to business objects",
-      "Full-text and index search",
-      "GoBD-compliant archiving with retention periods",
-      "Automatic archiving on posting, print and mail",
-      "Archive service operated in Germany",
-      "Search from mobile apps or web clients",
-      "Extendable to full DMS"
+      "Archived documents can be opened directly from BC",
+      "Links archived documents to the related BC records",
+      "Full-text and index-field search",
+      "Archives with legally compliant retention periods",
+      "Archiving follows GoBD and local legal rules",
+      "Archives automatically on posting, print or email",
+      "Search also from other web clients or mobile apps",
+      "Archive service is operated in Germany",
+      "Can be extended to a full document management system",
+      "Billed per processed document",
+      "Available for on-premises and cloud"
     ],
     "countries": [],
     "languages": [
@@ -47,7 +56,7 @@
     ],
     "industries": [],
     "connectsTo": [
-      "DEXPRO FREEZE"
+      "DEXPRO FREEZE Archive"
     ],
     "requires": [],
     "deployment": "both",

@@ -8,18 +8,20 @@
     "publisher": "Lanham Associates",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.lanham_edi_ona01%7CPAPPID.c9ad441e-5b91-4c59-a7d2-f5f502363b63",
-    "lastModified": "2026-10-06T19:25:29.2615765+00:00",
-    "appVersion": "28.3.1.2026",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T18:28:59.9509188+00:00",
+    "appVersion": "28.4.2.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://lanhamedi.helpdocsonline.com/edigettingstarted",
-    "sourceHash": "sha256:3f7df3cffcfaaf90ca58e7307e3a932986dfa2b3b4c96b1c801c4142502e70cc",
+    "sourceHash": "sha256:48dcd5f0b8bc6505cf5fb50d40f4dc8f700e2e0198744b8562f2a782fffac5b9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3f7df3cffcfaaf90ca58e7307e3a932986dfa2b3b4c96b1c801c4142502e70cc",
-    "mappedOn": null,
-    "summary": "EDI trading partner compliance for orders, shipments and invoices",
+    "sourceHash": "sha256:48dcd5f0b8bc6505cf5fb50d40f4dc8f700e2e0198744b8562f2a782fffac5b9",
+    "mappedOn": "2026-10-30",
+    "summary": "EDI inside BC with in-system mapping, multiple standards and compliance labels.",
     "shape": "connector",
     "primary": [
       {
@@ -31,12 +33,13 @@
       "ng-barcode-labels"
     ],
     "claims": [
-      "Mapping and cross-reference inside BC without external translator",
-      "Supports X12, XML, automotive, UCS, EDIFACT and delimited files",
-      "GS1-128, AIAG and custom labels",
-      "Direct communication or via Lanham VAN",
-      "Mapping can be done in-house, by partner, or outsourced to Lanham Services",
-      "Orders in, invoices out compliant with trading partners"
+      "Mapping and cross-reference handled inside BC, no external translator",
+      "Supports X12, XML, automotive, UCS and EDIFACT standards plus delimited files",
+      "Prints GS1-128, AIAG or custom package and item labels",
+      "Direct communication with partners or via the publisher's VAN",
+      "Mapping can be done in-house, by the partner, or outsourced to the publisher",
+      "Over 20 years in the market",
+      "Supports Essentials and Premium"
     ],
     "countries": [
       "AU",
@@ -50,16 +53,11 @@
     "languages": [
       "en"
     ],
-    "industries": [
-      "Automotive",
-      "Distribution"
-    ],
-    "connectsTo": [
-      "Lanham VAN"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,19 +8,21 @@
     "publisher": "Aricoma Systems a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2025_04%7CPAPPID.fc5fa038-1c4d-4d1d-934b-39d6365e1b17",
-    "lastModified": "2026-09-29T12:55:02.850475+00:00",
-    "appVersion": "28.5.54151.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T15:05:42.4220418+00:00",
+    "appVersion": "29.0.54011.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/analytics-suite.html",
-    "sourceHash": "sha256:f38ade9f588734d5ba44183978fcb47b0adb2adf6e2a2f41d526c856681f5174",
+    "sourceHash": "sha256:dcefde6679065040b737f8ee129b74883c4296916240fb2137073ffa6d7edeb9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f38ade9f588734d5ba44183978fcb47b0adb2adf6e2a2f41d526c856681f5174",
-    "mappedOn": null,
-    "summary": "API for analyzing BC data in Power BI",
-    "shape": "connector",
+    "sourceHash": "sha256:dcefde6679065040b737f8ee129b74883c4296916240fb2137073ffa6d7edeb9",
+    "mappedOn": "2026-10-30",
+    "summary": "API plus Power BI reports for finance, bank, receivables, sales and inventory analysis.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-bi-dashboards",
@@ -28,17 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-financial-statements",
-      "ng-sales-analytics"
+      "ng-sales-analytics",
+      "ng-inventory-analysis",
+      "ng-collections"
     ],
     "claims": [
-      "API from BC feeding Power BI for data visualization and analysis",
-      "Power BI dashboards covering finance, banks, receivables, sales and inventory",
-      "Multi-company data in one view",
-      "Compare data over different time periods",
-      "Mobile device access to reports",
-      "Additional data sources can be connected and data model adjusted",
-      "Analysis of project profitability and funds tied up in inventory or receivables"
+      "Has two parts: a BC extension exposing an API and a Power BI report set",
+      "Covers finance, banks, receivables, sales and inventory",
+      "Shows data from several companies in a single view",
+      "Compare figures across different time periods",
+      "Highlights cash tied up in inventory and receivables",
+      "Reports can be viewed on mobile devices",
+      "Other data sources can be added and the data model adjusted",
+      "Users can build and change their own reports and dashboards",
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -51,7 +56,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

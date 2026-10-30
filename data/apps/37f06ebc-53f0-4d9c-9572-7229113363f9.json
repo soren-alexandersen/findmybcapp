@@ -8,18 +8,20 @@
     "publisher": "DEXPRO Solutions GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.78769%7CPAPPID.37f06ebc-53f0-4d9c-9572-7229113363f9",
-    "lastModified": "2026-09-10T12:46:39.0895001+00:00",
-    "appVersion": "2.0.3.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T09:01:50.0840227+00:00",
+    "appVersion": "2.1.1.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/einvoice-sender-for-microsoft-dynamics-365-bc-de-de",
-    "sourceHash": "sha256:2c696de8c22e2353396fbfeca78d14d741b1bb6041893a3c24ff1ce782db116e",
+    "sourceHash": "sha256:879fd1be886b91b8e727ae687e6ebbf176f0cd0f06aded555e72c559c6acdd16",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2c696de8c22e2353396fbfeca78d14d741b1bb6041893a3c24ff1ce782db116e",
-    "mappedOn": null,
-    "summary": "Creates and sends European e-invoices: ZUGFeRD, XRechnung, Factur-X, Peppol",
+    "sourceHash": "sha256:879fd1be886b91b8e727ae687e6ebbf176f0cd0f06aded555e72c559c6acdd16",
+    "mappedOn": "2026-10-30",
+    "summary": "Creates XRechnung and ZUGFeRD/Factur-X e-invoices from BC sales and service documents",
     "shape": "localization",
     "primary": [
       {
@@ -27,17 +29,16 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-sales-invoicing"
-    ],
+    "secondary": [],
     "claims": [
-      "Creates ZUGFeRD/Factur-X and XRechnung e-invoices",
-      "Self-billing support covers purchase credit memos, sales invoices, service invoices and credit memos",
-      "Detects unit codes, VAT categories and payment methods on its own",
-      "Built for BC Cloud with queue-based processing",
-      "Compliance validation before transmission",
-      "Full process logging audit trail",
-      "Implementation in hours"
+      "Produces ZUGFeRD/Factur-X and XRechnung invoices",
+      "Covers sales invoices, credit memos and service invoices",
+      "Supports purchase credit memos for self-billing",
+      "Detects payment method, VAT category and unit codes automatically",
+      "Processes e-invoices through a queue in BC online",
+      "Validates compliance before sending",
+      "Logs the full process for audit",
+      "Works on Essentials and Premium"
     ],
     "countries": [
       "DE",
@@ -51,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

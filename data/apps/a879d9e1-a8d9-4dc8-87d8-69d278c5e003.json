@@ -8,36 +8,40 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex006combine_warehouseshipment_cws%7CPAPPID.a879d9e1-a8d9-4dc8-87d8-69d278c5e003",
-    "lastModified": "2026-07-31T12:10:53.8896983+00:00",
-    "appVersion": "28.0.19.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T11:54:14.0421619+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/combine-warehouse-shipment.html",
-    "sourceHash": "sha256:b8e029ef2965e94a94983bfd159c0cc58ff2a387e7a704a6cd6fd12efd454a2e",
+    "sourceHash": "sha256:13029dbc8e81611f5905a7df15a3eb444197234ba1f8840b700525d081726f8b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b8e029ef2965e94a94983bfd159c0cc58ff2a387e7a704a6cd6fd12efd454a2e",
-    "mappedOn": null,
-    "summary": "Combines orders into warehouse shipments by grouping criteria",
+    "sourceHash": "sha256:13029dbc8e81611f5905a7df15a3eb444197234ba1f8840b700525d081726f8b",
+    "mappedOn": "2026-10-30",
+    "summary": "Combines several orders into one warehouse shipment using configurable grouping rules.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-packing-loading",
         "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-allocation-picking"
-    ],
+    "secondary": [],
     "claims": [
-      "Combines orders into warehouse shipments by configurable grouping criteria",
-      "Applies to sales orders, purchase returns, transfers and service shipments",
-      "Grouping by document header and line fields",
-      "Grouping per location",
-      "Choice of report for printing shipment",
-      "Dedicated number series for combined shipments",
-      "Extend grouping criteria with custom fields"
+      "Works for sales, purchase return, transfer and service shipments",
+      "Grouping rules based on document header and line fields",
+      "Grouping can be defined per location",
+      "Choose standard, custom or EOS Advanced Document Reporting print layout",
+      "Option to post non-item lines on the source document",
+      "Own number series for combined shipments",
+      "Custom fields can be added as grouping criteria"
     ],
     "countries": [],
     "languages": [
@@ -49,10 +53,13 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

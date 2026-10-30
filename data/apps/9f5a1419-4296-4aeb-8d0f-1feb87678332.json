@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evevitafarpay|PAPPID.9f5a1419-4296-4aeb-8d0f-1feb87678332",
+  "guid": "9f5a1419-4296-4aeb-8d0f-1feb87678332",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evevitafarpay",
+  "source": {
+    "name": "EV Evita - Farpay",
+    "publisher": "Elbek & Vejrup A/S",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evevitafarpay%7CPAPPID.9f5a1419-4296-4aeb-8d0f-1feb87678332",
+    "lastModified": "2026-10-29T06:36:07.0361169+00:00",
+    "appVersion": "1.0.231010.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/vidensbank/wiki/business-central/",
+    "sourceHash": "sha256:89f0616ce5da242bc123c44a35b2d414b3ddffa9720ea0c737fdcbf20d704c27",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:89f0616ce5da242bc123c44a35b2d414b3ddffa9720ea0c737fdcbf20d704c27",
+    "mappedOn": "2026-10-30",
+    "summary": "Links the EV Evita utility billing solution with FarPay for payments and collection.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-utilities-energy-waste",
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Transfers payment and settlement data between EV Evita and FarPay",
+      "Receives and processes payment status updates",
+      "Validates data and handles errors during exchange",
+      "Logs integration activity for traceability",
+      "Failed transfers can be reprocessed"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Utilities"
+    ],
+    "connectsTo": [
+      "FarPay"
+    ],
+    "requires": [
+      "EV Evita"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

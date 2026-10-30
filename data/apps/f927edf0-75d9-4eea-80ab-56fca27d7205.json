@@ -8,18 +8,20 @@
     "publisher": "IDYN B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.cargoson%7CPAPPID.f927edf0-75d9-4eea-80ab-56fca27d7205",
-    "lastModified": "2026-10-02T08:29:27.5256916+00:00",
-    "appVersion": "28.2.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T10:48:31.5636885+00:00",
+    "appVersion": "29.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/overview?homepageId=22053055",
-    "sourceHash": "sha256:cd9939ce6c20e3dc4a8c963518a6be95cb4e13b7697fd84139efcf35b48eb150",
+    "sourceHash": "sha256:f89ffb94fd9e515fe5659aadbdf733689816bf6476e8b7709491ff053a0560a3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:cd9939ce6c20e3dc4a8c963518a6be95cb4e13b7697fd84139efcf35b48eb150",
-    "mappedOn": null,
-    "summary": "Ships orders via Cargoson with many carriers",
+    "sourceHash": "sha256:f89ffb94fd9e515fe5659aadbdf733689816bf6476e8b7709491ff053a0560a3",
+    "mappedOn": "2026-10-30",
+    "summary": "Books shipments and prints carrier labels in BC via the Cargoson TMS.",
     "shape": "connector",
     "primary": [
       {
@@ -28,17 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-admin-devices"
     ],
     "claims": [
-      "Compare carrier options and freight charges in BC",
-      "Print shipment labels and track deliveries from BC",
-      "Integrated in sales, warehouse shipment, return, purchase and transfer orders",
-      "Adds freight charges automatically to sales orders",
-      "Real-time track and trace for customers",
-      "Available on Tasklet Mobile WMS and Multisoft Mobile NAV",
-      "Supplier access to book transport with your carriers",
-      "Requires Cargoson contract"
+      "Connects BC to carriers through Cargoson",
+      "Named carriers include DHL, UPS and GLS among others",
+      "Compares carrier options and freight charges inside BC",
+      "Manage shipments, print labels and track deliveries in BC",
+      "Works from sales quotes, orders, shipments, warehouse shipments, return orders and transfer orders",
+      "Adds freight charges to sales orders automatically",
+      "Customers get real-time track and trace updates",
+      "Prints labels and documents at shipping locations or on mobile devices",
+      "Also runs in Tasklet Factory Mobile WMS and Multisoft Mobile NAV",
+      "Requires an active Cargoson contract",
+      "Works on Essential and Premium editions",
+      "Suppliers can be given Cargoson access to book transport with your carriers"
     ],
     "countries": [],
     "languages": [
@@ -47,19 +53,16 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
-      "Cargoson",
-      "DHL",
-      "PostNL",
-      "UPS",
-      "GLS",
-      "Dachser",
-      "Hermes"
+      "Cargoson"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

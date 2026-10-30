@@ -8,42 +8,49 @@
     "publisher": "Estonian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.est-bank-formats%7CPAPPID.2df65f5f-6fde-483e-adb6-aa19b6fcfcd0",
-    "lastModified": "2026-06-16T15:03:10.508624+00:00",
-    "appVersion": "26.0.26167.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T21:01:45.048583+00:00",
+    "appVersion": "26.8.26299.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-banking-formats/docs/en-US/help",
-    "sourceHash": "sha256:fef288ed4473667a0633c8053adfff8360fa2f82aaa8f250d5cff10f3eff81cd",
+    "sourceHash": "sha256:8366e1f33e90622fc0eb10f12d97a53c7f35d012620deee6cbb994a4ec5e0b2d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fef288ed4473667a0633c8053adfff8360fa2f82aaa8f250d5cff10f3eff81cd",
-    "mappedOn": null,
-    "summary": "Estonian banking formats for BC",
+    "sourceHash": "sha256:8366e1f33e90622fc0eb10f12d97a53c7f35d012620deee6cbb994a4ec5e0b2d",
+    "mappedOn": "2026-10-30",
+    "summary": "Estonian banking formats: SEPA payments and statements, reference numbers and payment matching.",
     "shape": "localization",
     "primary": [
       {
-        "need": "ng-loc-country-pack",
+        "need": "ng-ap-payments",
         "confidence": "high"
       },
       {
         "need": "ng-bank-reconciliation",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ap-payments",
+      "ng-loc-country-pack",
       "ng-ux-document-layouts"
     ],
     "claims": [
-      "Payment reference numbers on sales and service invoices",
-      "Estonian sales document layouts",
-      "Estonian SEPA payment format",
-      "Estonian SEPA statement format",
-      "Matches payments to posted invoices using reference and registration numbers",
-      "Payment reconciliation journal shows whether reference no. matches",
-      "Not available in Czechia, Liechtenstein, Italy, San Marino and Switzerland",
-      "Supports Essential and Premium editions"
+      "Adds payment reference numbers to sales and service invoices",
+      "Provides sales order, invoice and credit memo layouts with standard Estonian details",
+      "Exports payments in the Estonian SEPA format",
+      "Imports bank statements in the Estonian SEPA format",
+      "Matches receipts and payments to posted invoices by reference and registration numbers",
+      "Payment reconciliation journal shows whether the applied document reference matches the transaction",
+      "Improves vendor payment and entry application functions",
+      "Not available in Czechia, Liechtenstein, Italy, San Marino or Switzerland",
+      "Available in English and Estonian"
     ],
     "countries": [
       "EE"
@@ -56,7 +63,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

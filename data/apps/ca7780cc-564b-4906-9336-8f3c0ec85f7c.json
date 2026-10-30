@@ -4,22 +4,22 @@
   "publisherId": "sk-global-software",
   "offerId": "e211c36d-a97e-4b3d-9fd2-93d6b02ed6c1",
   "source": {
-    "name": "Cash Application Automation",
+    "name": "Truvio Cash Application Automation",
     "publisher": "SK Global Software, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sk-global-software%7CAID.e211c36d-a97e-4b3d-9fd2-93d6b02ed6c1%7CPAPPID.ca7780cc-564b-4906-9336-8f3c0ec85f7c",
-    "lastModified": "2026-09-21T22:18:27.9329086+00:00",
-    "appVersion": "2.2.0.1474",
+    "lastModified": "2026-10-09T08:22:35.630439+00:00",
+    "appVersion": "2.3.0.1482",
     "pricingTypes": [],
     "freeTrial": null,
-    "helpLink": "https://www.manula.com/manuals/sksoft/banking-automation-suite/3.0/en/topic/introduction?key=Zf37uufViTzz1R0HpYDvkwZtJvAyVY9K41HnlM0uwyTmgTUvHn",
-    "sourceHash": "sha256:18dcfa001033bc5f347d7cbf8f8b61413bafbcb8b5ef79484b4e5bb04b15ef28",
+    "helpLink": "https://truvio.com/contact",
+    "sourceHash": "sha256:d7e52498afe6ea1c5780ace36e3dad40fb093356d4d49f1b3c3b03ee5d976179",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:18dcfa001033bc5f347d7cbf8f8b61413bafbcb8b5ef79484b4e5bb04b15ef28",
-    "mappedOn": null,
-    "summary": "Automatically matches customer payments to open invoices",
+    "sourceHash": "sha256:d7e52498afe6ea1c5780ace36e3dad40fb093356d4d49f1b3c3b03ee5d976179",
+    "mappedOn": "2026-10-30",
+    "summary": "Matches incoming customer payments and lockbox files to open invoices and posts them.",
     "shape": "process",
     "primary": [
       {
@@ -31,26 +31,20 @@
       "ng-bank-reconciliation"
     ],
     "claims": [
-      "Matches incoming payments to open invoices and posts in cash receipt journals",
-      "Lockbox file processing from the bank",
-      "Matches one payment to one item or to many",
-      "Configurable matching rules",
-      "One-click apply across multiple invoices",
-      "SFTP bank connectivity",
-      "Processes structured and unstructured data from lockbox to CSV",
-      "Sorts payments into applied, partially applied and unapplied"
+      "Posts matched payments into cash receipt journals automatically",
+      "Imports bank lockbox files into BC automatically",
+      "Handles one payment against one or many invoices",
+      "Matching rules can be configured per business",
+      "Applies a payment across several invoices in one action",
+      "Single workbench for settling all customer payments",
+      "Connects to the bank over SFTP for file transfer",
+      "Reads structured and unstructured payment data, from lockbox to CSV",
+      "Shows payments as applied, partly applied or unapplied"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Construction",
-      "Distribution",
-      "Professional services"
-    ],
-    "connectsTo": [
-      "BankFabric",
-      "banks"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "not_stated",

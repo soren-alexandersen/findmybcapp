@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.christiaensnv1624023591234|AID.chemdis_etx|PAPPID.762f19a4-c996-4c36-b9a4-914480cf85b2",
+  "guid": "762f19a4-c996-4c36-b9a4-914480cf85b2",
+  "publisherId": "christiaensnv1624023591234",
+  "offerId": "chemdis_etx",
+  "source": {
+    "name": "ChemDis Surcharges",
+    "publisher": "Dynamate",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.christiaensnv1624023591234%7CAID.chemdis_etx%7CPAPPID.762f19a4-c996-4c36-b9a4-914480cf85b2",
+    "lastModified": "2026-10-15T11:05:13.2516519+00:00",
+    "appVersion": "28.0.20261013.133822",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://chemdis.dynamate.be/",
+    "sourceHash": "sha256:6f753cdc2a131a9717f5425a41b91e99a413ca02f272c0c94217cd1c4dfd83b0",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f753cdc2a131a9717f5425a41b91e99a413ca02f272c0c94217cd1c4dfd83b0",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds date-effective energy surcharge percentages to sales documents as item-charge lines.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Surcharge rates set at default, customer or dimension level with start and end dates",
+      "Applies the rate to eligible sales lines and keeps linked item-charge lines",
+      "Surcharge percentage visible on sales documents",
+      "Exclusions by customer, item, inventory posting group or dimension value",
+      "Rate can be based on shipment date",
+      "Pricing can follow the sell-to customer",
+      "Optionally includes non-inventory and service items",
+      "Aimed at chemical manufacturers and distributors"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Chemicals"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

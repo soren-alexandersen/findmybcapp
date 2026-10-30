@@ -111,7 +111,8 @@
             "complaint card",
             "case",
             "gra number",
-            "complaints? linked to customer"
+            "complaints? linked to customer",
+            "complaint"
           ]
         },
         {
@@ -121,7 +122,7 @@
       ],
       "coverage": {
         "In a webshop or online returns portal": 0.31,
-        "Staff register them in BC from a sale or invoice": 0.31
+        "Staff register them in BC from a sale or invoice": 0.5
       }
     },
     {
@@ -148,7 +149,7 @@
         }
       ],
       "coverage": {
-        "Yes, with tasks, reminders or SLAs": 0.44
+        "Yes, with tasks, reminders or SLAs": 0.5
       }
     },
     {
@@ -216,7 +217,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.38
+        "Yes": 0.31
       }
     }
   ]

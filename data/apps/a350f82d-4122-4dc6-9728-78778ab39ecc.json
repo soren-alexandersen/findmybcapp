@@ -8,18 +8,20 @@
     "publisher": "Tasklet Factory",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tasklet_factory%7CAID.mobile_wms_virtual%7CPAPPID.a350f82d-4122-4dc6-9728-78778ab39ecc",
-    "lastModified": "2026-08-11T06:15:37.2921028+00:00",
-    "appVersion": "1.02.280.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:30:38.4819715+00:00",
+    "appVersion": "1.03.280.3",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://taskletfactory.atlassian.net/wiki/x/QZS0B",
-    "sourceHash": "sha256:a2e88e04c307fb3b290420691264e4d67eec4edc8ef24a64be4a33e8c5ba9834",
+    "sourceHash": "sha256:a96f940a061cb4450f5a915066bfd1d2a559611b41a3c645d2286c0d619cc664",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a2e88e04c307fb3b290420691264e4d67eec4edc8ef24a64be4a33e8c5ba9834",
-    "mappedOn": null,
-    "summary": "Virtual device for Tasklet Mobile WMS demos and development",
+    "sourceHash": "sha256:a96f940a061cb4450f5a915066bfd1d2a559611b41a3c645d2286c0d619cc664",
+    "mappedOn": "2026-10-30",
+    "summary": "Other: browser-based virtual scanner for partners to demo and develop Tasklet Mobile WMS.",
     "shape": "addon",
     "primary": [
       {
@@ -27,25 +29,35 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-devices"
+    ],
     "claims": [
-      "Virtual device for Tasklet Mobile WMS without physical hardware",
-      "Cloud sandbox environments only",
-      "No scanning capabilities"
+      "Runs Tasklet Mobile WMS in a virtual device in the browser, no hardware needed",
+      "Only for cloud sandbox environments",
+      "Cannot scan barcodes",
+      "Mobile configurations can be customised only through Tweak",
+      "Installs the Tasklet Mobile WMS app as a dependency",
+      "Access is requested through Tasklet sales"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
-    "connectsTo": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Tasklet Mobile WMS"
+    ],
     "requires": [
       "Tasklet Mobile WMS"
     ],
     "deployment": "online",
-    "pricing": "contact",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "Partner pre-sales/demo tool for Tasklet Mobile WMS, not a customer solution",
+    "hideReason": "Demo and development tool for Tasklet partners, not a customer-facing business app.",
     "noFit": ""
   },
   "curated": {

@@ -8,46 +8,55 @@
     "publisher": "Cepheo A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cepheo1680263445259%7CAID.cepheo_fmci%7CPAPPID.d67165d4-3a51-4e0c-861f-aa508093aa2a",
-    "lastModified": "2026-10-05T16:50:10.5564939+00:00",
+    "lastModified": "2026-10-28T06:59:51.2311819+00:00",
     "appVersion": "29.0.0.0",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://cepheo.com/support/",
-    "sourceHash": "sha256:d9e3d3dbe63a77ef77e616c5e184b21f46f06673a4d1f76ae67034442ee48c62",
+    "sourceHash": "sha256:e02181e513422ef2188a03a88fe50d30825fab26923d8edbc61545e98ba5ca28",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:d9e3d3dbe63a77ef77e616c5e184b21f46f06673a4d1f76ae67034442ee48c62",
-    "mappedOn": null,
-    "summary": "Project manager cockpit for budgets, sourcing and planning in project manufacturing",
-    "shape": "process",
+    "sourceHash": "sha256:e02181e513422ef2188a03a88fe50d30825fab26923d8edbc61545e98ba5ca28",
+    "mappedOn": "2026-10-30",
+    "summary": "Project suite for project-based manufacturers: cockpits, resource planning, contracts, variation orders.",
+    "shape": "vertical",
     "primary": [
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "high"
+      },
       {
         "need": "ng-proj-status-reporting",
         "confidence": "high"
+      },
+      {
+        "need": "ng-proj-change-scope",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-proj-planning",
-      "ng-proj-change-scope",
       "ng-proj-materials-subcontract",
-      "ng-vert-industrial-manufacturing"
+      "ng-supplier-contracts",
+      "ng-vert-construction"
     ],
     "claims": [
-      "Project cockpit comparing status to budgets, expectations and history",
-      "Daily status on invoices, time and material use, margins and deviations",
-      "Plans resources across service, production and projects",
-      "Customer and supplier contract management",
+      "Project cockpit comparing status with budgets, expectations and history",
+      "Daily view of invoices, time and material use, margins and deviations",
+      "Resource planning across projects, production and service",
+      "Contract management for customers and suppliers",
       "Supply Chain Cockpit for subcontractors, production runs and purchasing",
-      "Consolidated financials across projects via Deals",
-      "Variation orders for additional work"
+      "Deals consolidate financials across multiple projects",
+      "Variation Orders control extra project work",
+      "Formerly named FMCI"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Project manufacturing"
+      "Professional Services"
     ],
     "connectsTo": [],
     "requires": [],

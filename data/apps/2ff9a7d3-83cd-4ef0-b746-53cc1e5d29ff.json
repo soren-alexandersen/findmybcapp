@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_prqst%7CPAPPID.2ff9a7d3-83cd-4ef0-b746-53cc1e5d29ff",
-    "lastModified": "2026-10-05T19:06:57.9881307+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:37:27.114963+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2024/11/PurReqUserManual.pdf",
-    "sourceHash": "sha256:0613cbed01896dc32432ea4b4c2fe528975c4c4ab62946ef1880bbd97af4ac4f",
+    "sourceHash": "sha256:2dfbed75742ec3eb598a7cd62b3e19781adc7fca199df82aae54e426ae1aa67e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0613cbed01896dc32432ea4b4c2fe528975c4c4ab62946ef1880bbd97af4ac4f",
-    "mappedOn": null,
-    "summary": "Purchase requests, approvals, quotes and orders",
+    "sourceHash": "sha256:2dfbed75742ec3eb598a7cd62b3e19781adc7fca199df82aae54e426ae1aa67e",
+    "mappedOn": "2026-10-30",
+    "summary": "Purchase requests with approval, vendor quote comparison and conversion to purchase orders.",
     "shape": "process",
     "primary": [
       {
@@ -29,20 +31,27 @@
       {
         "need": "ng-sourcing-rfq",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-purchase-orders"
+      "ng-admin-approval-workflows",
+      "ng-supplier-quality-compliance"
     ],
     "claims": [
-      "Purchase requests with customizable categories (consumables, raw materials)",
-      "Line status tracking Open, Awaiting Approval, Completed",
-      "Automated approval and release workflow with revisions for rejected requests",
-      "Consolidate requests, assign vendors and currency for quoting",
-      "Side-by-side quote price comparison",
-      "Direct purchase order creation for urgent needs",
+      "Request lines carry item type, quantity and delivery date",
+      "Request categories such as consumables or raw materials",
+      "Per-line status: open, awaiting approval, completed",
+      "Approval and release workflow; rejected requests can be revised",
+      "Requests are consolidated into quotes with assigned vendors and currency",
+      "Side-by-side vendor quote comparison",
+      "Purchase orders can be created directly for urgent needs",
       "Tracks outstanding and received quantities per line",
-      "Procurement reports on vendor performance, costs and fulfillment"
+      "Reports on vendor performance, cost and fulfilment rates",
+      "Available in Turkish and English"
     ],
     "countries": [],
     "languages": [
@@ -53,7 +62,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

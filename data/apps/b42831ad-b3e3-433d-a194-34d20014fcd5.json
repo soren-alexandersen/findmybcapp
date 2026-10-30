@@ -8,18 +8,20 @@
     "publisher": "Linc Communications (Pty) Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_approval_workflows%7CPAPPID.b42831ad-b3e3-433d-a194-34d20014fcd5",
-    "lastModified": "2026-08-13T09:38:50.8579182+00:00",
-    "appVersion": "28.26.2416.526",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T09:30:19.4367228+00:00",
+    "appVersion": "28.26.2491.396",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Approval-Workflows",
-    "sourceHash": "sha256:42328b47ce0705d8c97715f3b36f959494e3d8d2322387823a1e7b27db589b4e",
+    "sourceHash": "sha256:763bcb8621be75be502a0a261d5b877bb6c89582aad881871e40cc87654437a9",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:42328b47ce0705d8c97715f3b36f959494e3d8d2322387823a1e7b27db589b4e",
-    "mappedOn": null,
-    "summary": "Additional approval workflows beyond standard",
+    "sourceHash": "sha256:763bcb8621be75be502a0a261d5b877bb6c89582aad881871e40cc87654437a9",
+    "mappedOn": "2026-10-30",
+    "summary": "Extra approval workflows for journals, master data, deletions and purchase tolerances.",
     "shape": "process",
     "primary": [
       {
@@ -29,17 +31,19 @@
     ],
     "secondary": [
       "ng-journals",
-      "ng-supplier-onboarding",
-      "ng-customer-credit-holds"
+      "ng-customer-credit-holds",
+      "ng-admin-change-log",
+      "ng-admin-permissions"
     ],
     "claims": [
-      "Journal approval workflows",
-      "Master data approval workflows",
-      "Approval required for document deletion",
-      "Overdue customer checks",
+      "Approval workflows for journals",
+      "Approval workflows for master data",
+      "Approval required to delete documents",
+      "Checks for overdue customers",
       "Purchase approval tolerance",
-      "Vendor change tracking",
-      "Record restrictions and approval entries factbox",
+      "Tracks changes to vendors",
+      "Record restrictions",
+      "Factbox showing approval entries",
       "Workflow templates"
     ],
     "countries": [],
@@ -48,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

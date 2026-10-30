@@ -8,70 +8,51 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.2025_found_lite%7CPAPPID.e9036f9c-9c27-46f7-859d-11f5938a82e9",
-    "lastModified": "2026-03-26T12:12:14.515075+00:00",
-    "appVersion": "2601.0.306047.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T14:08:37.4199705+00:00",
+    "appVersion": "2602.0.351794.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:38ec1a28ccc2cdbb8375364a05423a05b626e5b3687fe63ac8c3d624764282b8",
+    "sourceHash": "sha256:2b448a5da8c136043ad5ac41704a9f3b362c8fe1f19b9d53b69ad00e73fc12e1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:38ec1a28ccc2cdbb8375364a05423a05b626e5b3687fe63ac8c3d624764282b8",
-    "mappedOn": null,
-    "summary": "Foundation functionality for food and beverage companies",
+    "sourceHash": "sha256:2b448a5da8c136043ad5ac41704a9f3b362c8fe1f19b9d53b69ad00e73fc12e1",
+    "mappedOn": "2026-10-30",
+    "summary": "Entry-level Aptean food and beverage bundle for small manufacturers and distributors.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-food-beverage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-quality-inspection",
       "ng-lot-serial-traceability"
     ],
     "claims": [
-      "Core set for small manufacturers and wholesale/distributors",
-      "Inventory tracking, inspections and simple production",
-      "Covers audit logging, expiration tracking and process manufacturing",
-      "Requires Premium edition"
+      "Covers inventory tracking, inspections and simple production",
+      "Includes expiration tracking, audit logging and process manufacturing",
+      "Designed for small manufacturers and wholesale distributors",
+      "Requires the Premium edition",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "ID",
-      "IE",
-      "IN",
-      "MY",
-      "NL",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

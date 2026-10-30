@@ -1,0 +1,103 @@
+{
+  "appId": "PUBID.defmacrosoftwareprivatelimited1666762633983|AID.cleartax-einvoicing-compliance-peppol|PAPPID.32b6cea4-22d4-4072-b607-60ae93893069",
+  "guid": "32b6cea4-22d4-4072-b607-60ae93893069",
+  "publisherId": "defmacrosoftwareprivatelimited1666762633983",
+  "offerId": "cleartax-einvoicing-compliance-peppol",
+  "source": {
+    "name": "Global ClearTax E-Invoicing",
+    "publisher": "Clear Compliances",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.defmacrosoftwareprivatelimited1666762633983%7CAID.cleartax-einvoicing-compliance-peppol%7CPAPPID.32b6cea4-22d4-4072-b607-60ae93893069",
+    "lastModified": "2026-10-19T13:39:46.8117501+00:00",
+    "appVersion": "1.0.36.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.clear.in/s/contact-us",
+    "sourceHash": "sha256:9cd51d978e9f214aad22ca79689cbe7e92ea0635bf741cfcf3b82338f499eb5e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9cd51d978e9f214aad22ca79689cbe7e92ea0635bf741cfcf3b82338f499eb5e",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends BC sales invoices to ClearTax for PEPPOL and IRN e-invoicing clearance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Creates e-invoices from posted sales invoices and credit memos in one click",
+      "Mapping follows PEPPOL PINT requirements",
+      "Stores returned invoice reference numbers, UUIDs and signed QR codes on the document",
+      "Extract, submit and ingest can run on the job queue",
+      "Maps ClearTax company codes to several BC companies",
+      "Logs each run with timing, record counts, API responses and payloads",
+      "Prevents duplicate submissions",
+      "Connection test, guided setup and optional demo data",
+      "Works on Essentials and Premium"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "SI",
+      "SK"
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ClearTax"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

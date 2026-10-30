@@ -28,7 +28,9 @@
     "Credit memo when the customer returns early",
     "Cross-rent from other rental companies",
     "Construction machinery rental across several depots",
-    "Billing runs for 2,000 open rental contracts"
+    "Billing runs for 2,000 open rental contracts",
+    "We want each rental unit tracked as a fixed asset",
+    "We need to see at a glance which machines are free and which are out on hire"
   ],
   "questions": [
     {
@@ -74,9 +76,9 @@
         }
       ],
       "coverage": {
-        "Machines, vehicles and construction equipment": 0.54,
-        "Bulk items, containers or accessories": 0.32,
-        "Tools, electronics or event gear": 0.11
+        "Machines, vehicles and construction equipment": 0.59,
+        "Bulk items, containers or accessories": 0.31,
+        "Tools, electronics or event gear": 0.1
       }
     },
     {
@@ -111,13 +113,22 @@
           ]
         },
         {
+          "label": "With customer-specific prices and discounts",
+          "patterns": [
+            "discount",
+            "customer-specific price",
+            "prices by customer"
+          ]
+        },
+        {
           "label": "Doesn't matter / Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Per period (day, week, month)": 0.39,
-        "By usage (hours, fuel, wear, meter readings)": 0.25
+        "Per period (day, week, month)": 0.41,
+        "By usage (hours, fuel, wear, meter readings)": 0.24,
+        "With customer-specific prices and discounts": 0.14
       }
     },
     {
@@ -154,8 +165,8 @@
         }
       ],
       "coverage": {
-        "Yes, mobile check-out and return": 0.14,
-        "Yes, with customer signature": 0.21,
+        "Yes, mobile check-out and return": 0.17,
+        "Yes, with customer signature": 0.24,
         "Yes, with photos and checklists": 0.14
       }
     },
@@ -190,7 +201,7 @@
         }
       ],
       "coverage": {
-        "Planned service and maintenance": 0.5,
+        "Planned service and maintenance": 0.52,
         "Damage and history logged per unit": 0.21
       }
     },
@@ -212,7 +223,9 @@
             "intercompany",
             "group companies",
             "across companies",
-            "re-?rent"
+            "re-?rent",
+            "owning company",
+            "sub-?rent"
           ]
         },
         {
@@ -221,9 +234,99 @@
         }
       ],
       "coverage": {
-        "Several depots or locations": 0.18,
-        "Across group companies, or re-rented from other suppliers": 0.11
+        "Several depots or locations": 0.17,
+        "Across group companies, or re-rented from other suppliers": 0.17
       }
+    },
+    {
+      "id": "should-each-rental-unit-also-b",
+      "text": "Should each rental unit also be a fixed asset in your books?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, linked to fixed assets",
+          "patterns": [
+            "fixed asset"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, linked to fixed assets": 0.14
+      }
+    },
+    {
+      "id": "do-you-need-a-planning-board-o",
+      "text": "Do you need a planning board or calendar showing what is free and what is out?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a planning board or availability calendar",
+          "patterns": [
+            "planning board",
+            "rentboard",
+            "availability (matrix|overview|calendar)",
+            "graphical (scheduling|availability)",
+            "dashboard and calendar",
+            "\\bcalendars\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a planning board or availability calendar": 0.28
+      }
+    },
+    {
+      "id": "do-you-run-rentals-as-part-of-",
+      "text": "Do you run rentals as part of projects in Business Central?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, rentals tracked on projects",
+          "patterns": [
+            "bc projects",
+            "creates a job",
+            "jobs charged with"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, rentals tracked on projects": 0.07
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "rental quotes are standard in all rental apps",
+      "terms": [
+        "quot"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'different' wording",
+      "terms": [
+        "different"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic workflow wording",
+      "terms": [
+        "workflow"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

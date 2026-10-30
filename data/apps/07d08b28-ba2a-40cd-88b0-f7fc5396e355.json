@@ -8,18 +8,20 @@
     "publisher": "Atp Yazılım ve Teknoloji A.S.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.raveelektrikgkaynaklarretimvepazticas1619610351109%7CAID.turkishlanguage%7CPAPPID.07d08b28-ba2a-40cd-88b0-f7fc5396e355",
-    "lastModified": "2026-08-12T20:05:58.3625258+00:00",
-    "appVersion": "28.1.0.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-16T07:55:39.7658886+00:00",
+    "appVersion": "29.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.atptech.com/contact/?lang=en",
-    "sourceHash": "sha256:e71614dee869e8dd6326a1a984f500607ee3394e91ae7888214ca73adb3f14ab",
+    "sourceHash": "sha256:5d34ae95c6312259ca59eb6c6e78f11a550f9bd80c0aac2b07b1d8e8451248e7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e71614dee869e8dd6326a1a984f500607ee3394e91ae7888214ca73adb3f14ab",
-    "mappedOn": null,
-    "summary": "Adds Turkish language to the BC user interface",
+    "sourceHash": "sha256:5d34ae95c6312259ca59eb6c6e78f11a550f9bd80c0aac2b07b1d8e8451248e7",
+    "mappedOn": "2026-10-30",
+    "summary": "Turkish translation of the Business Central user interface.",
     "shape": "language",
     "primary": [
       {
@@ -29,15 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Provides Turkish translation of the BC user interface",
+      "Translates BC commands and menus into Turkish",
       "Users can switch between English and Turkish",
-      "Every menu and command is available in Turkish",
-      "Supports Essentials and Premium editions",
-      "Offered in every country where BC is available"
+      "Works with Essentials and Premium editions"
     ],
-    "countries": [
-      "TR"
-    ],
+    "countries": [],
     "languages": [
       "tr"
     ],

@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.ecom%7CPAPPID.c921707a-7266-499b-85b3-e8980873a235",
-    "lastModified": "2026-07-22T02:09:01.2234517+00:00",
-    "appVersion": "2603.0.333003.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T04:50:40.1994434+00:00",
+    "appVersion": "2604.0.351381.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ECM",
-    "sourceHash": "sha256:f49542fcf94565759871a6160e7b1d98cc599a4aa0a46f4bcbf9446ba6626a2b",
+    "sourceHash": "sha256:cbd0b01c3b777c7d9cd5cad8ca399d4d088235b9345bb0d76c28c6d4e0316e37",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f49542fcf94565759871a6160e7b1d98cc599a4aa0a46f4bcbf9446ba6626a2b",
-    "mappedOn": null,
-    "summary": "Connects Aptean Food and Beverage to Aptean E-commerce",
-    "shape": "addon",
+    "sourceHash": "sha256:cbd0b01c3b777c7d9cd5cad8ca399d4d088235b9345bb0d76c28c6d4e0316e37",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Aptean Food and Beverage to Aptean's B2B e-commerce platform.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-webshop",
@@ -32,16 +34,21 @@
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage"
+      "ng-vert-food-beverage",
+      "ng-sales-order-entry"
     ],
     "claims": [
-      "Customers place orders online and review order history and invoices in real time",
-      "Syncs product images from BC",
-      "Customers can cancel existing orders online",
-      "Shows open, shipped and invoiced orders from any channel",
-      "Delivery dates that are valid given the transport routes",
-      "Order cutoff times from call plans and enforced order minimums",
-      "Item catalogs per customer profile"
+      "Syncs product images from BC to the web store",
+      "Customers can place and cancel orders online",
+      "Customers see open, shipped and invoiced orders whatever channel they came from",
+      "Web orders get valid delivery dates from transport routes",
+      "Uses the ERP's advanced pricing logic online",
+      "Applies order cutoff times from call plans",
+      "Shows customer-specific item catalogs",
+      "Item attributes drive filtering and navigation in the shop",
+      "Enforces minimum order amounts",
+      "App itself is free but needs Aptean Food and Beverage and Aptean E-commerce subscriptions",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -74,21 +81,18 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [
       "Aptean E-commerce"
     ],
     "requires": [
       "Aptean Food and Beverage",
-      "Aptean E-commerce"
+      "Aptean E-commerce for Food and Beverage"
     ],
     "deployment": "not_stated",
     "pricing": "free",

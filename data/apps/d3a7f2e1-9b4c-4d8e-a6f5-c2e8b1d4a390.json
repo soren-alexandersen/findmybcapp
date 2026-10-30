@@ -8,34 +8,37 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0020%7CPAPPID.d3a7f2e1-9b4c-4d8e-a6f5-c2e8b1d4a390",
-    "lastModified": "2026-10-06T04:19:09.2115855+00:00",
-    "appVersion": "26.2.4.31051",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T09:31:37.1918203+00:00",
+    "appVersion": "26.2.4.33432",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://duveka.net/clousAI",
-    "sourceHash": "sha256:f4a622326eac564cdcf75b99db6223c72e0a53a4cf8a4ba65cfbc6159bc074df",
+    "sourceHash": "sha256:4af541314d48fe0d4f28e6495381fb8a7a9192c832dc8c0ace363e3d4f7fe043",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f4a622326eac564cdcf75b99db6223c72e0a53a4cf8a4ba65cfbc6159bc074df",
-    "mappedOn": null,
-    "summary": "Connects BC to duveka AI service for chat completions",
+    "sourceHash": "sha256:4af541314d48fe0d4f28e6495381fb8a7a9192c832dc8c0ace363e3d4f7fe043",
+    "mappedOn": "2026-10-30",
+    "summary": "Shared AI connector that gives other duveka apps chat-completion access to the duveka AI service.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-admin-copilot-agents",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Connects BC to the duveka AI service for chat completions",
-      "Secure API key management",
-      "Service registration and onboarding workflow",
-      "Usage tracking and model selection",
-      "AI-enhanced document import with duveka DMS",
+      "Links Business Central to the duveka AI service for chat completions",
+      "Stores and manages API keys securely",
+      "Includes guided self-registration and onboarding for the service",
+      "Tracks usage and lets admins choose the model",
+      "Acts as the common AI base used by other duveka apps",
+      "With duveka DMS, AI interprets incoming invoices, order confirmations and delivery papers into BC data",
       "Built for cloud environments"
     ],
     "countries": [],
@@ -45,10 +48,10 @@
       "duveka AI service"
     ],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "AI service connector that serves as foundation for other duveka apps",
+    "hideReason": "Library/foundation app: serves as the AI layer for other duveka apps rather than a standalone solution.",
     "noFit": ""
   },
   "curated": {
