@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.floqast.com/resources",
     "sourceHash": "sha256:7c0583d668c1370d33debaf3ee985811573fa6b1ee77874f8611f2a78c0e4ca3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7c0583d668c1370d33debaf3ee985811573fa6b1ee77874f8611f2a78c0e4ca3",

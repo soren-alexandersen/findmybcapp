@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledge.qvalia.com/how-to-integrate-qvalia-with-dynamics-365-business-central",
     "sourceHash": "sha256:25d6899af74a99d46687a13be4a22a2bfbff28f548bb11aa938566e94c9d447e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:25d6899af74a99d46687a13be4a22a2bfbff28f548bb11aa938566e94c9d447e",

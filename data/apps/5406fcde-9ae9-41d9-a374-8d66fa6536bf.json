@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/time_registration",
     "sourceHash": "sha256:8f01f6a24d5b12e2e7c0ae3f362d538f08ca7a8275c8fc0f037daf3d8edbe5f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8f01f6a24d5b12e2e7c0ae3f362d538f08ca7a8275c8fc0f037daf3d8edbe5f8",

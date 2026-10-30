@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsapplab.com/apps/al-payment-and-outstanding-balances/help",
     "sourceHash": "sha256:6019f3798441aca97e0c167e611844554a39326f1379b445668d2c192002d9fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6019f3798441aca97e0c167e611844554a39326f1379b445668d2c192002d9fb",

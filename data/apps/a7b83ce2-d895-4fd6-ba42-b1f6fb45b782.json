@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.qualiatechnik.de/advanced-workflow?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=advanced-work-flow&utm_content=support",
     "sourceHash": "sha256:4bf68d63825df9ed446b1579a3b02cbaa3ce29d4ea235eab2ced3a44140a07f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4bf68d63825df9ed446b1579a3b02cbaa3ce29d4ea235eab2ced3a44140a07f1",

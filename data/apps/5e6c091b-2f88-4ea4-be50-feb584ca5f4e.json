@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/timesheet720",
     "sourceHash": "sha256:dab058112955f86c747d894267e986f679ffe8606bb9d9df5122cceb0da93f8e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dab058112955f86c747d894267e986f679ffe8606bb9d9df5122cceb0da93f8e",

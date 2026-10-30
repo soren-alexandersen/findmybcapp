@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://fidesiouspro.nl/en/distribution-management/help/",
     "sourceHash": "sha256:3897ad0bc8be2a1e45a8d0d93563c6dbc57704d90cf161148fa5dbd66de896ef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3897ad0bc8be2a1e45a8d0d93563c6dbc57704d90cf161148fa5dbd66de896ef",

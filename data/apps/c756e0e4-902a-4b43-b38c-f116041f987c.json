@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/transport-order-manager/",
     "sourceHash": "sha256:85a7f84a67e322538f14178bc6c8e1931f5096ba20650c07695cda982820d134",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:85a7f84a67e322538f14178bc6c8e1931f5096ba20650c07695cda982820d134",

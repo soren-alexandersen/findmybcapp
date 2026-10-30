@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.msedoc365.cloud/",
     "sourceHash": "sha256:65c3d7d10031379f874792662abcef68001c206d1a495d215b8e8576b0a98d8b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:65c3d7d10031379f874792662abcef68001c206d1a495d215b8e8576b0a98d8b",

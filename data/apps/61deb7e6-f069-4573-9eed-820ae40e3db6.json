@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-credit-management",
     "sourceHash": "sha256:b356caec81aa537f1adf9827bd19a47e1b58e9ed5adfb621ca8b6be681dd951b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b356caec81aa537f1adf9827bd19a47e1b58e9ed5adfb621ca8b6be681dd951b",

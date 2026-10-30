@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-technical-specifications.html",
     "sourceHash": "sha256:c56012500cf1f4e9e5e30f72b12f087faab903376061c0b4b73f02d7dcd26de2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c56012500cf1f4e9e5e30f72b12f087faab903376061c0b4b73f02d7dcd26de2",

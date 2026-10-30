@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.documentmailqueue.apportunix.com/",
     "sourceHash": "sha256:787192434d8e7f805112c62a9de3fe7c11fba4c8cd17c2cc637fd41e1dafe073",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:787192434d8e7f805112c62a9de3fe7c11fba4c8cd17c2cc637fd41e1dafe073",

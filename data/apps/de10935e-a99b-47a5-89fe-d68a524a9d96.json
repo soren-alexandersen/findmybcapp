@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://globalreader.eu/bchelp",
     "sourceHash": "sha256:ff6b78aa3b4e841526f916e5fed245015444729b96010cac9741699938a4e7a1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ff6b78aa3b4e841526f916e5fed245015444729b96010cac9741699938a4e7a1",

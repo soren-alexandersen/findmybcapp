@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://woocommerce-365.com/help/",
     "sourceHash": "sha256:5d3430b5f28e60cadd4d698697739469f049668e64edb6f77d17a19335cc3f8e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5d3430b5f28e60cadd4d698697739469f049668e64edb6f77d17a19335cc3f8e",

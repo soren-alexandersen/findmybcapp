@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/commerce-manager/#howto",
     "sourceHash": "sha256:a70e767c90417677983501bed47658a97a99af531ec589cd8e24dbf37993d1f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a70e767c90417677983501bed47658a97a99af531ec589cd8e24dbf37993d1f1",

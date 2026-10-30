@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/product/9a-advanced-manufacturing",
     "sourceHash": "sha256:d0399fc9651c368e4fbdb29c1b2074d8f22532ac25baf62dcc9e20906fc9ad03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d0399fc9651c368e4fbdb29c1b2074d8f22532ac25baf62dcc9e20906fc9ad03",

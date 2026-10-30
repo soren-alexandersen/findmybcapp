@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://experlogix.com/cpq/experlogix-cpq-for-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:5f2527e8f359740a85bb8c08ec9c9ead3f7063d8b73b070b6b2c5be8e5c2b8e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f2527e8f359740a85bb8c08ec9c9ead3f7063d8b73b070b6b2c5be8e5c2b8e7",

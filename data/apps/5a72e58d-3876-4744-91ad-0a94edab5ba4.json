@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-message-passing/help",
     "sourceHash": "sha256:ff4db00a024fa6c676c6136cc832cc55618f2a7ce101d5d9292dd8984e4bda95",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ff4db00a024fa6c676c6136cc832cc55618f2a7ce101d5d9292dd8984e4bda95",

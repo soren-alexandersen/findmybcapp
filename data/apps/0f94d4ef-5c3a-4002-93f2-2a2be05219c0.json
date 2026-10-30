@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365businessdev.com/en-US/365-business-api/",
     "sourceHash": "sha256:50710f21cf942fe6d45b0e8503c0136bfc0daac4f8776a3e037dd12b467060af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:50710f21cf942fe6d45b0e8503c0136bfc0daac4f8776a3e037dd12b467060af",

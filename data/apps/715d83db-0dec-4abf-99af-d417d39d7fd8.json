@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.velixo.com/doc/main/business-central/",
     "sourceHash": "sha256:95bafd078e18af9b93bf6863745329bffe8b9d32cb09cca14436fb9218d49495",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:95bafd078e18af9b93bf6863745329bffe8b9d32cb09cca14436fb9218d49495",

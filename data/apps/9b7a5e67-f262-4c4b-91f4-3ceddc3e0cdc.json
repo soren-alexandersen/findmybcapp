@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ntribs.notion.site/DocuSign-for-Business-Central-Sales-Orders-1ac3995661de801dab0af5209edcc136?pvs=74",
     "sourceHash": "sha256:ef80a6413778ed1859a87f08bb2dc6fe1cd8efca29318f2d63eaa7f87d296e7b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ef80a6413778ed1859a87f08bb2dc6fe1cd8efca29318f2d63eaa7f87d296e7b",

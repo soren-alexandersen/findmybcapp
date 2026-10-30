@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innovaonline.es/en-US/INTranslate/Introduction/",
     "sourceHash": "sha256:3bfd88f46ecb6c5d377811c8998c6df6acadede4f4f83206c66a6a21f9f37a9d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3bfd88f46ecb6c5d377811c8998c6df6acadede4f4f83206c66a6a21f9f37a9d",

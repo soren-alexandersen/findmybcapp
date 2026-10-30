@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.trestria.co.uk/services/support-minutes",
     "sourceHash": "sha256:25058b458b9f633e1b7800082432f00445e57eb1e01a4d005195d678a6cd3129",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:25058b458b9f633e1b7800082432f00445e57eb1e01a4d005195d678a6cd3129",

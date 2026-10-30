@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/itemsalesdiscounts",
     "sourceHash": "sha256:1b199b66f5b61dda2cbfafaf4412cdce8322842a90f6d5bc19090cfbc857409d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1b199b66f5b61dda2cbfafaf4412cdce8322842a90f6d5bc19090cfbc857409d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/1135542273",
     "sourceHash": "sha256:66107da2978dda9d939ed2b57198a5d3570d215be32e7eee6e6720c57d8b590f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66107da2978dda9d939ed2b57198a5d3570d215be32e7eee6e6720c57d8b590f",

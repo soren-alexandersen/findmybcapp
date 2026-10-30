@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCXML",
     "sourceHash": "sha256:368cd1962800eff130e8e3f6fe3b55e8f2e2067fb69c91962d16c4f9be7d91cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:368cd1962800eff130e8e3f6fe3b55e8f2e2067fb69c91962d16c4f9be7d91cd",

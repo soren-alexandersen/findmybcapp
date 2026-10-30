@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.dk/legal/funktioner/",
     "sourceHash": "sha256:72f8a9bb9934909b2454f61ec01649aa7da7a090c70c57baabef37233ad196eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:72f8a9bb9934909b2454f61ec01649aa7da7a090c70c57baabef37233ad196eb",

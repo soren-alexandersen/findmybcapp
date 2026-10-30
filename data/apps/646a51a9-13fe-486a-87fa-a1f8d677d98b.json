@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.praxedo.com/erp-crm-accounting-software-connectors-apis/ms-dynamics-365-business-central/",
     "sourceHash": "sha256:98c3eab4ab47de9300be1a890bca15814581527544731d88e351ed49dc478beb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98c3eab4ab47de9300be1a890bca15814581527544731d88e351ed49dc478beb",

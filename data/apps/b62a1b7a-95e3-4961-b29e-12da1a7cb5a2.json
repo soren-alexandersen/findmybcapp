@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/PPWR",
     "sourceHash": "sha256:0ba65b3c57e9833be919516f5792c240a3bd93ce839e8164242b6e0ed970ba19",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0ba65b3c57e9833be919516f5792c240a3bd93ce839e8164242b6e0ed970ba19",

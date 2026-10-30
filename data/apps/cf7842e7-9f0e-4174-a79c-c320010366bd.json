@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/shopware-webshop-anbindung/",
     "sourceHash": "sha256:b1ead70414133fb1bfc3710558ff927e719bb703f390bf4ab1550d14d94f9648",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b1ead70414133fb1bfc3710558ff927e719bb703f390bf4ab1550d14d94f9648",

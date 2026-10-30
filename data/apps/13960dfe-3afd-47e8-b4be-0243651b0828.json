@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/adl/",
     "sourceHash": "sha256:145689ff88d0972b82734dc9840866883519e121824d0458617056b0b76265ef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:145689ff88d0972b82734dc9840866883519e121824d0458617056b0b76265ef",

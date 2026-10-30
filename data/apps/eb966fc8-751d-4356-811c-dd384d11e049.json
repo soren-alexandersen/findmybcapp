@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://confluence.external-share.com/content/287726/tempo_integration_assisted_setup",
     "sourceHash": "sha256:b5ea410dfed47fa74e00bf1d372fac805a49c21d33b9389bcde80e38187ba030",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b5ea410dfed47fa74e00bf1d372fac805a49c21d33b9389bcde80e38187ba030",

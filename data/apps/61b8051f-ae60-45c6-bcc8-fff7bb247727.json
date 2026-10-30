@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.outlay.com/#contact",
     "sourceHash": "sha256:b5ef7c7ef8fd866b5989c7bea4b07ede334b11e845b7b1fa3169afa5fdd2ac76",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b5ef7c7ef8fd866b5989c7bea4b07ede334b11e845b7b1fa3169afa5fdd2ac76",

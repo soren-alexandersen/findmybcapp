@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.pinetworks.net/business-unit",
     "sourceHash": "sha256:2ad48f5be55a414468965f3d32bebd38ff105b5a8e5032762f7d0a150965d731",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2ad48f5be55a414468965f3d32bebd38ff105b5a8e5032762f7d0a150965d731",

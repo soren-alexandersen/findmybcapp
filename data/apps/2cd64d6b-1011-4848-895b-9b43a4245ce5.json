@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Drag_and_Drop_Manual.pdf",
     "sourceHash": "sha256:1ca6643b4adcd0c0c46e87cad7251f2310eab4669f4273b626419ac151b1cfdf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1ca6643b4adcd0c0c46e87cad7251f2310eab4669f4273b626419ac151b1cfdf",

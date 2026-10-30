@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/bc-apps/Correspondly/",
     "sourceHash": "sha256:4680ac976c1329aefd6cef5627bbf933c8dd1a1d6f36a821f74ebd00cb4e1b37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4680ac976c1329aefd6cef5627bbf933c8dd1a1d6f36a821f74ebd00cb4e1b37",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/appmonitorhelp",
     "sourceHash": "sha256:bad0cbd71827c28c9a0da5e45433aae0e8f26b8bc34b8a8033df730f727236e6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bad0cbd71827c28c9a0da5e45433aae0e8f26b8bc34b8a8033df730f727236e6",

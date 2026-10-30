@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-advanced-discounts-and-pricing/help",
     "sourceHash": "sha256:2402fcea00d8a9f5a3eccf84bedf9b6d107485f67421f49ba259800edee595c9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2402fcea00d8a9f5a3eccf84bedf9b6d107485f67421f49ba259800edee595c9",

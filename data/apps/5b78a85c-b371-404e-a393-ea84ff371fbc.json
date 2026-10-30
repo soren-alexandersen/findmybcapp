@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Asset-Management.pdf",
     "sourceHash": "sha256:dd01c23f2d1957b288f41cd3e44ce7fb214a9cfd163e7dcc1bfd87a21ffe4961",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dd01c23f2d1957b288f41cd3e44ce7fb214a9cfd163e7dcc1bfd87a21ffe4961",

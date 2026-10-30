@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apportunix.com/app/convenient-comments",
     "sourceHash": "sha256:7e448b34be9155dfe61cf425978ffb8a11c7d566acf36df7e69f4cd9a7c76dc3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7e448b34be9155dfe61cf425978ffb8a11c7d566acf36df7e69f4cd9a7c76dc3",

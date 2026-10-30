@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-no-invoicing/",
     "sourceHash": "sha256:c4d270917cc55db7833cacea8961077dde7e1fdcdff97165c166dd8ae3157dce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c4d270917cc55db7833cacea8961077dde7e1fdcdff97165c166dd8ae3157dce",

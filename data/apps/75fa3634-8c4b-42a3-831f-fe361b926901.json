@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jetcubeinc.com/product-jetcube-gldetail-apiqry-msbc/",
     "sourceHash": "sha256:4d7b7285311c59295f76e968e28f548274e2378fe72a7157f6eddaca96cea317",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4d7b7285311c59295f76e968e28f548274e2378fe72a7157f6eddaca96cea317",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/safe-work-for-business-central/",
     "sourceHash": "sha256:9db57b3769a5cecc4ff1459cff36a90a2cc137f505646826b992eacb6960c8fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9db57b3769a5cecc4ff1459cff36a90a2cc137f505646826b992eacb6960c8fb",

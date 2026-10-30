@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://pinetworks.net/maldives-tax-localization/",
     "sourceHash": "sha256:53ce24f0221adeccf352bbc8d39659f3b7371b93902ea6fdbcc8e9669ed2b36c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:53ce24f0221adeccf352bbc8d39659f3b7371b93902ea6fdbcc8e9669ed2b36c",

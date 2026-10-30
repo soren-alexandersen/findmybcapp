@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-sales-delivery-route-plan/",
     "sourceHash": "sha256:924a177e0846bf53620de2c6b14192763020178471dbc111295555d18d6a5c66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:924a177e0846bf53620de2c6b14192763020178471dbc111295555d18d6a5c66",

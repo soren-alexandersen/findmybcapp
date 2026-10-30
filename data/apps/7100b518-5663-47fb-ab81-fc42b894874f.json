@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://identifyyou.in/services/retail-pos/",
     "sourceHash": "sha256:cc14ae253691bdd4549620deea7f82a569304777420b4c563a1c159b9389b67b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cc14ae253691bdd4549620deea7f82a569304777420b4c563a1c159b9389b67b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/finance",
     "sourceHash": "sha256:d9efa7895c57cdf51f36c705d70ab039a81610afe9b90f7c14982c19c87fe965",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d9efa7895c57cdf51f36c705d70ab039a81610afe9b90f7c14982c19c87fe965",

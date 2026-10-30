@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.cavallo.com/",
     "sourceHash": "sha256:417cb66e02ff702ed8a62b9de8e76eb1e23c158217e53b2a28475d62f1d961eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:417cb66e02ff702ed8a62b9de8e76eb1e23c158217e53b2a28475d62f1d961eb",

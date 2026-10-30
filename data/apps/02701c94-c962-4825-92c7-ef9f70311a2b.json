@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bifrost.origo.is/en-us/inventory/",
     "sourceHash": "sha256:004942ca0c1c37e68aa734e9b507ac704378110432bd1e2ddd5424df67520e38",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:004942ca0c1c37e68aa734e9b507ac704378110432bd1e2ddd5424df67520e38",

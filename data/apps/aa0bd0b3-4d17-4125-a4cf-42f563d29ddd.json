@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alxia.es/contacto/ayuda/",
     "sourceHash": "sha256:b8908f05b42c153407f06b619c4c0951b245bfad2b6e3abac43003eb36328eb3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b8908f05b42c153407f06b619c4c0951b245bfad2b6e3abac43003eb36328eb3",

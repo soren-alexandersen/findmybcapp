@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nubetech.it/documentation-sales-contract/",
     "sourceHash": "sha256:48fe4a884d0760558d96c966b28269ff86aab7a8cede9091d4dbc4091895689a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:48fe4a884d0760558d96c966b28269ff86aab7a8cede9091d4dbc4091895689a",

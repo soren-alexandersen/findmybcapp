@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://e-inv.armsit.com/",
     "sourceHash": "sha256:b2edb790918e5fa86a0c4eca40357a5e0746218215e8171a6fc137d4e289220e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b2edb790918e5fa86a0c4eca40357a5e0746218215e8171a6fc137d4e289220e",

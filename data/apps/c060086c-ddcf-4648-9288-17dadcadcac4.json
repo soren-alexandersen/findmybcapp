@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/503349249/DataBridge",
     "sourceHash": "sha256:9f5f2c2c83474857918a6fbf2ac2ecf8cf326f0a3bf1060eebcdcd84896c5709",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9f5f2c2c83474857918a6fbf2ac2ecf8cf326f0a3bf1060eebcdcd84896c5709",

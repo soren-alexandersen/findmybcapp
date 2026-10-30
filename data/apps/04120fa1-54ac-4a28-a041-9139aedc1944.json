@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/bulk-email-to-customers-and-vendors.html",
     "sourceHash": "sha256:939edf60ff4ed518efe93cd27d8685bc77b69eee027f2ee89d33fa7af60a6eac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:939edf60ff4ed518efe93cd27d8685bc77b69eee027f2ee89d33fa7af60a6eac",

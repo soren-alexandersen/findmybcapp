@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/budget-pro/",
     "sourceHash": "sha256:6462e356384118b13ca81ecda4d4ab5e8ace18af1f097af191d9cd6cc0241ac8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6462e356384118b13ca81ecda4d4ab5e8ace18af1f097af191d9cd6cc0241ac8",

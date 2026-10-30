@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/ci4o5w16ob-hub-broker",
     "sourceHash": "sha256:5c93aca8d5ff5713469a93cc8ba509a10b41ffefaa0216410eb5f8d6c914af2e",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c93aca8d5ff5713469a93cc8ba509a10b41ffefaa0216410eb5f8d6c914af2e",

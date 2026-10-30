@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.centrify360.com/",
     "sourceHash": "sha256:5524a7ddc3bdde2d8e041b9875def38d234e5cced5b0a555369f635b7547f120",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5524a7ddc3bdde2d8e041b9875def38d234e5cced5b0a555369f635b7547f120",

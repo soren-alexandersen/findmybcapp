@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://syntoralis.github.io/BCApps/index-en.html",
     "sourceHash": "sha256:cc9628a33dbe14652a7bd98fb0f99a10bcc6f0c73ddd5f99a6730625a4d82c29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cc9628a33dbe14652a7bd98fb0f99a10bcc6f0c73ddd5f99a6730625a4d82c29",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.taylordsolutions.com/extensionmanager",
     "sourceHash": "sha256:602aee3df78385882454f4c5519575659eb8a61ca4657c80a02fe2a62f427a76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:602aee3df78385882454f4c5519575659eb8a61ca4657c80a02fe2a62f427a76",

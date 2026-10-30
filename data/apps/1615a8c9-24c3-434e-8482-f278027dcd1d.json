@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCRetail",
     "sourceHash": "sha256:6711cde47ca43ccad6687729a020a88a41a1c898667ee0ba1dd0dcc59aa8af16",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6711cde47ca43ccad6687729a020a88a41a1c898667ee0ba1dd0dcc59aa8af16",

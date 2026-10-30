@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://datawareness.com/",
     "sourceHash": "sha256:02cb63cebc7801393e021207d375cc07f8cc770141b376396b8297757079fbb1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:02cb63cebc7801393e021207d375cc07f8cc770141b376396b8297757079fbb1",

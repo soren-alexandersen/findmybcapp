@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.gmigroup.be/",
     "sourceHash": "sha256:bd06581da08383cf54d92b03ee21388b964331278a3e3be279a13477b1e879f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bd06581da08383cf54d92b03ee21388b964331278a3e3be279a13477b1e879f9",

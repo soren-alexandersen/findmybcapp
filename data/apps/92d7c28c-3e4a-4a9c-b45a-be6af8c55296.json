@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://globeaccounting.com/Mandatory",
     "sourceHash": "sha256:6ee9e7c4832f7855cfcc64d6ccb5ae81784ecf4204f5ba0ae2fa006e11ed07cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6ee9e7c4832f7855cfcc64d6ccb5ae81784ecf4204f5ba0ae2fa006e11ed07cf",

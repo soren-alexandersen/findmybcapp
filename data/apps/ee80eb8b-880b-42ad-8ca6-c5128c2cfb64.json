@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tenging.is/en/Solutions/BCRDLWebEditor",
     "sourceHash": "sha256:19dc3c912175e347ddac782b13b274a9195196aab1de9928f5155ff69df9662e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:19dc3c912175e347ddac782b13b274a9195196aab1de9928f5155ff69df9662e",

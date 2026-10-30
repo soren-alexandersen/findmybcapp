@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.envoice.eu/hc/en-us/articles/360022393393-Dynamics-365-Business-Central",
     "sourceHash": "sha256:568465232f186c520eb7ee25b0838ff7f3bccbbea636fb44189a5179c887dae8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:568465232f186c520eb7ee25b0838ff7f3bccbbea636fb44189a5179c887dae8",

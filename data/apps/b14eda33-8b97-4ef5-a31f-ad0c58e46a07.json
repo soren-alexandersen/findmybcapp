@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://dynasol.tech/monthly-sales-trend/",
     "sourceHash": "sha256:91270d551f755e3cbb009751d88a7604ffa9ec375f683c8845514290d42596d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:91270d551f755e3cbb009751d88a7604ffa9ec375f683c8845514290d42596d2",

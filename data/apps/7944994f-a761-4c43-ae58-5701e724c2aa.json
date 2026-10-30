@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/edx/EDX_WMS/",
     "sourceHash": "sha256:390533971d47d253b4ef6e940106d276374805988cc0347a5b14837fa94828c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:390533971d47d253b4ef6e940106d276374805988cc0347a5b14837fa94828c2",

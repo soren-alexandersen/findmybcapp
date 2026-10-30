@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-edi/",
     "sourceHash": "sha256:7e4e15e994bea605a8314368990eb29500f77c258ada4bc43a9e3d509ca3fa4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7e4e15e994bea605a8314368990eb29500f77c258ada4bc43a9e3d509ca3fa4d",

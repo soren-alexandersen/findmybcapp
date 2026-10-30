@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/sscc/",
     "sourceHash": "sha256:18ea5916b647870bf94932ecf94485952eed34befaa23fb5fc3da1c4361087b2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:18ea5916b647870bf94932ecf94485952eed34befaa23fb5fc3da1c4361087b2",

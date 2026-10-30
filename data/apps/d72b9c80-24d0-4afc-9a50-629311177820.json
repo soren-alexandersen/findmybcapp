@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.6gen.com.tr/product-descriptions/purchase-requisition.pdf",
     "sourceHash": "sha256:1595ecaf41600281714381ba9b18f500961b8158e768e04e87f34bfe7004ceb4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1595ecaf41600281714381ba9b18f500961b8158e768e04e87f34bfe7004ceb4",

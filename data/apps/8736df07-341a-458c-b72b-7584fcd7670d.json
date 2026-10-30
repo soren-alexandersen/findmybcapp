@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.signupsoftware.com/business-central/exflow-co2-insights/",
     "sourceHash": "sha256:294cea81554281c73577c7f27aff616eb28f0f6cfe5cd5217e62169f1186908e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:294cea81554281c73577c7f27aff616eb28f0f6cfe5cd5217e62169f1186908e",

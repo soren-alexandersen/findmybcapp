@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/document-management-system/",
     "sourceHash": "sha256:ac3c939e370aac94502fc17326c5893c544350edd8587981332708cc898aa001",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac3c939e370aac94502fc17326c5893c544350edd8587981332708cc898aa001",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.axtrion.com/",
     "sourceHash": "sha256:6f9116fe2fb86ac84336ae8dc74ecbf6702abde1211c941ff3d3988d562605c5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6f9116fe2fb86ac84336ae8dc74ecbf6702abde1211c941ff3d3988d562605c5",

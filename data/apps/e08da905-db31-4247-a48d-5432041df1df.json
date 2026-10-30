@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kollab.dk/kontakt/",
     "sourceHash": "sha256:50827220b2ad9f2577c7bf769bc5d30e8968ae8ef761b771dd136579a6df1dde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:50827220b2ad9f2577c7bf769bc5d30e8968ae8ef761b771dd136579a6df1dde",

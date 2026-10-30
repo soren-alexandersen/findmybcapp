@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://jrsdynamics.com/contact-us/",
     "sourceHash": "sha256:bbbd84654e3894be5bc53080bf9384edcf292096a5bb3f8ab4b563554e1fe4a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bbbd84654e3894be5bc53080bf9384edcf292096a5bb3f8ab4b563554e1fe4a6",

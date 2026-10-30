@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/compress-journal-entries.html",
     "sourceHash": "sha256:50599de08b1360f860ec490ffcffec53dfa3c4a52492848dd9b0388c03624d14",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:50599de08b1360f860ec490ffcffec53dfa3c4a52492848dd9b0388c03624d14",

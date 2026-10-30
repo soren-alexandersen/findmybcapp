@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-licence-management",
     "sourceHash": "sha256:5147ce61f601ff25fe048d9a53edfa11fbbcd105e5ba0b36c7490d1b7f23703f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5147ce61f601ff25fe048d9a53edfa11fbbcd105e5ba0b36c7490d1b7f23703f",

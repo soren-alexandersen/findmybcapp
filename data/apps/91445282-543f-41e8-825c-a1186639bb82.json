@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.synfynal.com/resources/help",
     "sourceHash": "sha256:462e1faec6ae16b4e8442dec3f3a33e519b30d10cc3d4519f133d2822db7f523",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:462e1faec6ae16b4e8442dec3f3a33e519b30d10cc3d4519f133d2822db7f523",

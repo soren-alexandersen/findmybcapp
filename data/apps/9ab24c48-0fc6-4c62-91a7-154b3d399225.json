@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-finance-ledgerentryletter/index.html",
     "sourceHash": "sha256:2661e693e73ba4146dc2fb73b66a713fd694b403e18669ebc6645d4c52836fee",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2661e693e73ba4146dc2fb73b66a713fd694b403e18669ebc6645d4c52836fee",

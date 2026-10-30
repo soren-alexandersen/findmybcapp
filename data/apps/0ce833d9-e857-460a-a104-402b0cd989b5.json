@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.itclad.com/knowledge-base/it-clad-base/",
     "sourceHash": "sha256:cdb0b48c2f3d31bbceb8c065c36007635640c0c2c7af91f37a0a1cb159c64094",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cdb0b48c2f3d31bbceb8c065c36007635640c0c2c7af91f37a0a1cb159c64094",

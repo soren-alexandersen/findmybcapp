@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/dokumentationen/vat-id-check-app-de",
     "sourceHash": "sha256:fc25553653cf0ce0dc0baaa3fa6f483f7881fffe1b77226a1ac7579bfc511c29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc25553653cf0ce0dc0baaa3fa6f483f7881fffe1b77226a1ac7579bfc511c29",

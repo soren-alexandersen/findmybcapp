@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dignet.hr/en/business-solutions/digimed",
     "sourceHash": "sha256:73020d603a08bdb6830638f5cfcf0f58794e32325698b7a49d28248128905aea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:73020d603a08bdb6830638f5cfcf0f58794e32325698b7a49d28248128905aea",

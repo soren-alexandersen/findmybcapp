@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://appvision.freshdesk.com/",
     "sourceHash": "sha256:466011b014832345ea72259e8be944834edcdfb5a253a010d0ab7ced5c98d7c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:466011b014832345ea72259e8be944834edcdfb5a253a010d0ab7ced5c98d7c0",

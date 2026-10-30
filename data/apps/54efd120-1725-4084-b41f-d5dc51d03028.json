@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/quick-flow/",
     "sourceHash": "sha256:360b313db9825ed0d5f4d6a8d9eccdca831d3dfd7f1598ad25e2fcf4245e59f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:360b313db9825ed0d5f4d6a8d9eccdca831d3dfd7f1598ad25e2fcf4245e59f1",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics.folio3.com/dynamics-ax-shopify-connector/",
     "sourceHash": "sha256:27df43caf09f5cf78d20153efe2524a8fd673a529e90d199fdebf2a220bddcef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:27df43caf09f5cf78d20153efe2524a8fd673a529e90d199fdebf2a220bddcef",

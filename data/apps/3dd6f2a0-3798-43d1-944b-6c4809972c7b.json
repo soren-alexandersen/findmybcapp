@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.compusoftadvisors.com/contact-us/",
     "sourceHash": "sha256:64a4775b1a918d3aabf93b334a9c36f9ec97d7811e90ffec94280a48b037cdc6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:64a4775b1a918d3aabf93b334a9c36f9ec97d7811e90ffec94280a48b037cdc6",

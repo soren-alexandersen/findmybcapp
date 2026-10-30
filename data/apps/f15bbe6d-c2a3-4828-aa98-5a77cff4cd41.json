@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dimescheduler.com/support",
     "sourceHash": "sha256:e34f58b5e8aeb6feec2f66b73da86330a2ae25728006300094f354ece617d341",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e34f58b5e8aeb6feec2f66b73da86330a2ae25728006300094f354ece617d341",

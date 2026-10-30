@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/Object-Management/docs/en-US/help",
     "sourceHash": "sha256:f1ff5580075049063ff07d74557112db262aef44a1180208bab8640822b9467e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f1ff5580075049063ff07d74557112db262aef44a1180208bab8640822b9467e",

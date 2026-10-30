@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/b2b-documentazione",
     "sourceHash": "sha256:b877b2395dcbd77d280d75750e725fac877f54316fcb12315737d28629d4d4fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b877b2395dcbd77d280d75750e725fac877f54316fcb12315737d28629d4d4fd",

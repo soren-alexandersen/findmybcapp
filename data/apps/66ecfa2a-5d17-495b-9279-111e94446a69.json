@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/advancedwarehouse/index.html",
     "sourceHash": "sha256:47694eda3114b3b5cede9ff577c6175e62aa5157614e9061069a31e88050e1d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:47694eda3114b3b5cede9ff577c6175e62aa5157614e9061069a31e88050e1d9",

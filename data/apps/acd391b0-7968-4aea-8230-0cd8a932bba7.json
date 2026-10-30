@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://dynamicspro.ca/help/disassembly-bom-manager",
     "sourceHash": "sha256:115ce23d949ded65c404a6a3e4112a1457e1afc6cd59604799f353806f9ef1e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:115ce23d949ded65c404a6a3e4112a1457e1afc6cd59604799f353806f9ef1e8",

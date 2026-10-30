@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics.folio3.com/dynamics-ax-magento-connector/",
     "sourceHash": "sha256:557389fa3aea6e520c11c94fca3b818718acdb44da8de2217db4efd4d438d793",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:557389fa3aea6e520c11c94fca3b818718acdb44da8de2217db4efd4d438d793",

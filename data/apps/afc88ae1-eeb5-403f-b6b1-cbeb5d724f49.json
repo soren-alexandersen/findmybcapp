@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav-x.com/en/business-central/national-accounts/index.html",
     "sourceHash": "sha256:644af34aeda4d2a6b5312747e283d453ba9350e0d7a540314cb02f7e20ff1343",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:644af34aeda4d2a6b5312747e283d453ba9350e0d7a540314cb02f7e20ff1343",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/dimension-management/docs",
     "sourceHash": "sha256:34652fdd31561a28672a9ff175390c348204b96b40aa651b3197aee7a2c13f53",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:34652fdd31561a28672a9ff175390c348204b96b40aa651b3197aee7a2c13f53",

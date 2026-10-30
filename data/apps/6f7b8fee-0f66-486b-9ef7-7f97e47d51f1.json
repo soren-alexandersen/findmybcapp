@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
     "sourceHash": "sha256:13b0f11f8ce22bc0e93b325ad25987a1e81e88b7d3b4fb4e8a38d8db1a863995",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:13b0f11f8ce22bc0e93b325ad25987a1e81e88b7d3b4fb4e8a38d8db1a863995",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/mercurius-ip/insight-hub/",
     "sourceHash": "sha256:38b2f082c16cce5a21223f90f6a0df617a51fbf6faf8d823c4ff13653a60f7f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:38b2f082c16cce5a21223f90f6a0df617a51fbf6faf8d823c4ff13653a60f7f9",

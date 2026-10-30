@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://analytics.clickdimensions.com/cn/ap8g0/easycontract",
     "sourceHash": "sha256:616701dea65b494ba53fa67fb065bef2fefae19dbe3646fcdb6d70d42e36a818",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:616701dea65b494ba53fa67fb065bef2fefae19dbe3646fcdb6d70d42e36a818",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.cred-it.nl/easyinvoice-connector/",
     "sourceHash": "sha256:4e1980cef66979b2e4590b83a8036d5401da647f95c94ccf48db205a628d816d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4e1980cef66979b2e4590b83a8036d5401da647f95c94ccf48db205a628d816d",

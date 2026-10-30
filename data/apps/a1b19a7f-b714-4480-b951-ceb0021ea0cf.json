@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/tasklet-shipping-connector/",
     "sourceHash": "sha256:a1f0563090532bbec6c8ce07c93da086456af8e41a8eecbee7e735ebc1d982bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a1f0563090532bbec6c8ce07c93da086456af8e41a8eecbee7e735ebc1d982bd",

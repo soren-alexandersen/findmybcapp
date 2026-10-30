@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/cash-desk-management/",
     "sourceHash": "sha256:0d31901878181a3a0d3da8e635d41aec458d50b55a85b261976cfd9d1512426f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0d31901878181a3a0d3da8e635d41aec458d50b55a85b261976cfd9d1512426f",

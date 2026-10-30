@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Sales-Ledger-Entries",
     "sourceHash": "sha256:44a2a5507930eb4c161f34afe63854979046d716346e6eb8725ca054b7032ea1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:44a2a5507930eb4c161f34afe63854979046d716346e6eb8725ca054b7032ea1",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
     "sourceHash": "sha256:29d718cd49b7a4406d7ce954edc2a866b02d061e2573e66a5d69be0f1a606abb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:29d718cd49b7a4406d7ce954edc2a866b02d061e2573e66a5d69be0f1a606abb",

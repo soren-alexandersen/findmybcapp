@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/vrm/",
     "sourceHash": "sha256:e08e9d8620a9ce807c1732ab52adaba7548494f3c932f8834ef481692879ada5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e08e9d8620a9ce807c1732ab52adaba7548494f3c932f8834ef481692879ada5",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eqgroup.nl/en/api-studio",
     "sourceHash": "sha256:952b9cbe3791dcf5136f05e295254b0981b1e04ef3229bcf3c8b1ca4cc265741",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:952b9cbe3791dcf5136f05e295254b0981b1e04ef3229bcf3c8b1ca4cc265741",

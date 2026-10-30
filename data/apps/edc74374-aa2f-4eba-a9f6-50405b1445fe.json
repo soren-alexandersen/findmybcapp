@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynasol.tech/pipedrive-integration-with-dynamics-365-business-central/",
     "sourceHash": "sha256:5740d02d9e9d5332cfec27a77527382e3d669c0d1de237efd75156ab98feef53",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5740d02d9e9d5332cfec27a77527382e3d669c0d1de237efd75156ab98feef53",

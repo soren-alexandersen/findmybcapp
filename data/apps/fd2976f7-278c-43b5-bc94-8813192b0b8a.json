@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/ElevateCreditMemo",
     "sourceHash": "sha256:c8f7c8efcd1fefdc18c6194e42d92c621a780e61700858b4eddb910745ac3bd0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c8f7c8efcd1fefdc18c6194e42d92c621a780e61700858b4eddb910745ac3bd0",

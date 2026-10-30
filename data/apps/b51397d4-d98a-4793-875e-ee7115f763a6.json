@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://supply-logic.com/help",
     "sourceHash": "sha256:e7cffc40973d9346d8588c1a6fad1e10747597b2e0ad810bfc8402dbda6a1e33",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e7cffc40973d9346d8588c1a6fad1e10747597b2e0ad810bfc8402dbda6a1e33",

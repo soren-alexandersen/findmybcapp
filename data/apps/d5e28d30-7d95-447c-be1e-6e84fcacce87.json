@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/imos-integration/",
     "sourceHash": "sha256:6c25b5be72bcb946e797b9d3c5cd4a78550e8a122d129539c426cd5d95a7c8fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c25b5be72bcb946e797b9d3c5cd4a78550e8a122d129539c426cd5d95a7c8fc",

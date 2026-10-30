@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gem365.ca/gem365rac/record-access-control-help.html",
     "sourceHash": "sha256:987ee68df46015e96db9feae88cb29b79cb77f3c9216ce542eabf30b8779238d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:987ee68df46015e96db9feae88cb29b79cb77f3c9216ce542eabf30b8779238d",

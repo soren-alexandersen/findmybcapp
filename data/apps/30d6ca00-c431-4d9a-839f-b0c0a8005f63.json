@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/SingleUseGuide.pdf",
     "sourceHash": "sha256:0d39e7158e5adae7254958e00b118b492c1fad0131a9c9d12245bb36b92aa577",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0d39e7158e5adae7254958e00b118b492c1fad0131a9c9d12245bb36b92aa577",

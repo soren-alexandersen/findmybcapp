@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.simova.de/en/",
     "sourceHash": "sha256:514b29509666d43f4000bf5af3b8a36bfc2cd0af87370b895f7a54aae0cc5f57",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:514b29509666d43f4000bf5af3b8a36bfc2cd0af87370b895f7a54aae0cc5f57",

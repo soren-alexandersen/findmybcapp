@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advanced-manufacturing-pack/DM/dm.html",
     "sourceHash": "sha256:bc4d6d3f33f4aca6c792b80195bdb46f2cd67817593ccea6fb6b272abeaa2294",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bc4d6d3f33f4aca6c792b80195bdb46f2cd67817593ccea6fb6b272abeaa2294",

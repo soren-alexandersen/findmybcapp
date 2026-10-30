@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/running-balances",
     "sourceHash": "sha256:cbf4540c5f1f8ed1a98cdfa60b6bfd789f30e276a8bffc5bb879b93bdeb01445",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cbf4540c5f1f8ed1a98cdfa60b6bfd789f30e276a8bffc5bb879b93bdeb01445",

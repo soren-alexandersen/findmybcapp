@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.qualiatechnik.de/power-automate-connector?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=power-automate-connector&utm_content=support",
     "sourceHash": "sha256:c47e4d9748601385f2212dd8acf0f12fa4201e9c5b71b88d30c784d84278c7f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c47e4d9748601385f2212dd8acf0f12fa4201e9c5b71b88d30c784d84278c7f1",

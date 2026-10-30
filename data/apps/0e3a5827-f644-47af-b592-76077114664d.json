@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/rillion-connect/",
     "sourceHash": "sha256:e820412ad36bb7d0f32b63eb10d073370fb0ac4cd37cfa8080914bf053f26064",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e820412ad36bb7d0f32b63eb10d073370fb0ac4cd37cfa8080914bf053f26064",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/bom-change-control/docs/",
     "sourceHash": "sha256:41b056d49d439bef96283f90404136a65a44d701ef5f807f73cbb054950dadd2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:41b056d49d439bef96283f90404136a65a44d701ef5f807f73cbb054950dadd2",

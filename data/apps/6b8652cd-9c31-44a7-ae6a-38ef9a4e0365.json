@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://grupomas.software/BC/HelpGMParaguay/contact.html",
     "sourceHash": "sha256:569d439b110cac4b1a43f14d9d7575b95fef0d2a850c7a152c631a25d795b412",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:569d439b110cac4b1a43f14d9d7575b95fef0d2a850c7a152c631a25d795b412",

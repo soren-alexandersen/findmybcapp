@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oseberg.atlassian.net/l/c/be9YFxPw",
     "sourceHash": "sha256:c07302ee9261478670c10a237d58efc4f9b805f83aa1c33ac688c3cb6cd2c072",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c07302ee9261478670c10a237d58efc4f9b805f83aa1c33ac688c3cb6cd2c072",

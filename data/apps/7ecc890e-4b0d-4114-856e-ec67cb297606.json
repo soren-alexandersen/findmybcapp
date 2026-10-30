@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/reb/",
     "sourceHash": "sha256:ac06ae81f274bfcc295bbd3d896c9b297932096e041e833b216bb557e7494a74",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ac06ae81f274bfcc295bbd3d896c9b297932096e041e833b216bb557e7494a74",

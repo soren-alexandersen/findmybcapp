@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/intercompany-mdm-enhancements-business-central/",
     "sourceHash": "sha256:f4db379fa868427473755f4a3ed0b964428181cdd4e07a92c919277a5f9199e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f4db379fa868427473755f4a3ed0b964428181cdd4e07a92c919277a5f9199e9",

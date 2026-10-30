@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/alerts/docs",
     "sourceHash": "sha256:3968a835555888be7f8ad48702447efa5210d5cb75a0799b778354ba7065699b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3968a835555888be7f8ad48702447efa5210d5cb75a0799b778354ba7065699b",

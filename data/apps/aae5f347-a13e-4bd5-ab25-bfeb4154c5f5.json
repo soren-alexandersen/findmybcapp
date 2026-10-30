@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.geosonsolutions.com/",
     "sourceHash": "sha256:587dd9ca4c7ebe718878931f771b9de3ac816b9285810852f335f293827f3620",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:587dd9ca4c7ebe718878931f771b9de3ac816b9285810852f335f293827f3620",

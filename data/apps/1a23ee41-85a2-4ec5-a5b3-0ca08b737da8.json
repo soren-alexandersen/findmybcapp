@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.indexofsolutions.com/contact",
     "sourceHash": "sha256:06d3ac90308f45610eef2fadcdcc31f94975233a4cddc2d823fc18902366a315",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:06d3ac90308f45610eef2fadcdcc31f94975233a4cddc2d823fc18902366a315",

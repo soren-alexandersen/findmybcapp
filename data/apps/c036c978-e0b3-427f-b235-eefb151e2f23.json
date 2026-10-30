@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://one-core.com/en-cz/support",
     "sourceHash": "sha256:9982fd362820fe4ca7e7d83b1ca0fe5c6a08ba59f899daee440d5811984e21a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9982fd362820fe4ca7e7d83b1ca0fe5c6a08ba59f899daee440d5811984e21a6",

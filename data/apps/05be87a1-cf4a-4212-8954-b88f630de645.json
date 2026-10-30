@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://plainstaff.com/en/integration/Dynamics-365-Business-Central/",
     "sourceHash": "sha256:bfd589e09641cde7815dcf5ff12a0d5744cb47b7b0795dfebf6b607546cb3f9a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bfd589e09641cde7815dcf5ff12a0d5744cb47b7b0795dfebf6b607546cb3f9a",

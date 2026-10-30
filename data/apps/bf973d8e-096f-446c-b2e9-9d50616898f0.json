@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/ecb-currency-exchange-rates/",
     "sourceHash": "sha256:9bffd3f1469f9284727997590798019b93cf4c9509a67a653500a26efc1cc14c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9bffd3f1469f9284727997590798019b93cf4c9509a67a653500a26efc1cc14c",

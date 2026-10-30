@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartftp/documentation",
     "sourceHash": "sha256:2dde8519dd0fc8ef998ad7f444f3f1f7dd008543de110384641d5537a328d926",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2dde8519dd0fc8ef998ad7f444f3f1f7dd008543de110384641d5537a328d926",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.logicvision.nl/en/support",
     "sourceHash": "sha256:dd06da5b2d87cc3c497df793e92ff02c7e8ed14e38314be0187483dc3a318532",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd06da5b2d87cc3c497df793e92ff02c7e8ed14e38314be0187483dc3a318532",

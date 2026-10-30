@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fenixconsultoria.com/en/help/",
     "sourceHash": "sha256:06d62487b596a840653cf5c8be213560743e2ace33ca0de10037de13bb0ff061",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:06d62487b596a840653cf5c8be213560743e2ace33ca0de10037de13bb0ff061",

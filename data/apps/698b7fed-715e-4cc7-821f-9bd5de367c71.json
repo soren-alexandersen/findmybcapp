@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/matters/",
     "sourceHash": "sha256:442746a0f069bb2ebcb45a551f6361ebe60ed7b16b4aebdb643684f73afad6ef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:442746a0f069bb2ebcb45a551f6361ebe60ed7b16b4aebdb643684f73afad6ef",

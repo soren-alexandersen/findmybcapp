@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ckl365.com/de/kostenrechnung365.html",
     "sourceHash": "sha256:dde23703bf97f7566c0e611b23549f23ac715c9993307cc202503dffeca7cbbe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dde23703bf97f7566c0e611b23549f23ac715c9993307cc202503dffeca7cbbe",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/BTZGBC/Public/_wiki/wikis/Public.wiki/27/Smart-Job-Queue-Control",
     "sourceHash": "sha256:16f25c02b10b2a5cc66056c93b8f6e9b7e231bef615d126808f524ebe2a81d41",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:16f25c02b10b2a5cc66056c93b8f6e9b7e231bef615d126808f524ebe2a81d41",

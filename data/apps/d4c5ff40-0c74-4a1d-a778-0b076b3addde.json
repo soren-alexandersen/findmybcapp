@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kb.dmsiworks.com/knowledge-base/welcome-to-the-insight-works-support-knowledge-base/?seq_no=2",
     "sourceHash": "sha256:d477725cc6967a245eaecaa562963bb8d3df5434d99b05223ee9118ed096ab6d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d477725cc6967a245eaecaa562963bb8d3df5434d99b05223ee9118ed096ab6d",

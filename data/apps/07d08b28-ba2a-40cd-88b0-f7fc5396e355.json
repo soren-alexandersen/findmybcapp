@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.atptech.com/contact/?lang=en",
     "sourceHash": "sha256:5d34ae95c6312259ca59eb6c6e78f11a550f9bd80c0aac2b07b1d8e8451248e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5d34ae95c6312259ca59eb6c6e78f11a550f9bd80c0aac2b07b1d8e8451248e7",

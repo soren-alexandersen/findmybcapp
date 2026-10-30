@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/dokumentationen/shipping-pro-app-de",
     "sourceHash": "sha256:496d31d55c258ced189c224f031db79ddb3b2401189db62fadc363fffe79baef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:496d31d55c258ced189c224f031db79ddb3b2401189db62fadc363fffe79baef",

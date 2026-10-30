@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navigate-pro.com/help",
     "sourceHash": "sha256:52e243dc5fe04413239fe93fde4c00e489cd10cc9de382dfd1dfe5c3b729d12d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:52e243dc5fe04413239fe93fde4c00e489cd10cc9de382dfd1dfe5c3b729d12d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/en/apps/dokumentpakke",
     "sourceHash": "sha256:5952318076ccbcffc9106e31a4185b3e49ad3db93ca99b4f815a63288cb099a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5952318076ccbcffc9106e31a4185b3e49ad3db93ca99b4f815a63288cb099a3",

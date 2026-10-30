@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/RefreshPickWorksheet",
     "sourceHash": "sha256:05281b0c3cbc4d6f3429d7bcc3f9f534be02b6a7109cc749e77e93d58cf91ac3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:05281b0c3cbc4d6f3429d7bcc3f9f534be02b6a7109cc749e77e93d58cf91ac3",

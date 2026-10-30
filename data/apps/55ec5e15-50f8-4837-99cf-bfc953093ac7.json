@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apportunix.com/app/document-archive",
     "sourceHash": "sha256:43212fdc63c9cfe609ef05d82234e60cb369f383536e25a2d3da460ffe2e8d01",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:43212fdc63c9cfe609ef05d82234e60cb369f383536e25a2d3da460ffe2e8d01",

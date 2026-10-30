@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/sms-integrator/docs/",
     "sourceHash": "sha256:3458b53c41598c6a43d62b4bbf447a3ccb9930d39823f5301e3c0c6d0c2d4a7e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3458b53c41598c6a43d62b4bbf447a3ccb9930d39823f5301e3c0c6d0c2d4a7e",

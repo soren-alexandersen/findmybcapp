@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-posting-description-template",
     "sourceHash": "sha256:2c35599bc0d359560d7ab7880ddc23d4ca0bbe487f77715490cf110083a099d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2c35599bc0d359560d7ab7880ddc23d4ca0bbe487f77715490cf110083a099d8",

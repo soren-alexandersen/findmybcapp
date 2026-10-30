@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scanqa/index.html",
     "sourceHash": "sha256:58b52534a575480663dbc3ea476b3bcecf4bab63f4bc8db280685d3e4cdddb5a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:58b52534a575480663dbc3ea476b3bcecf4bab63f4bc8db280685d3e4cdddb5a",

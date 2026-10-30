@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/y8k4x6w4ok-pdf-2-xml",
     "sourceHash": "sha256:a8fe68d6e0d775bb27cfef430d92cc62ff59d8a790fa5dc6a8d1da58fa1f5cc9",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a8fe68d6e0d775bb27cfef430d92cc62ff59d8a790fa5dc6a8d1da58fa1f5cc9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eynasofteam.com/soluciones/production-time-control/",
     "sourceHash": "sha256:b7bbe8ec0fab943e312a10e89253926e9e0503bda32e11df9e4c296e407438fe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b7bbe8ec0fab943e312a10e89253926e9e0503bda32e11df9e4c296e407438fe",

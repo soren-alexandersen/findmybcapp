@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eynasofteam.com/soluciones/detailed-inventory/",
     "sourceHash": "sha256:863197678579268d43a94f5146f76de5a00ee19cdf346ccd104785889fed92f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:863197678579268d43a94f5146f76de5a00ee19cdf346ccd104785889fed92f6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.digmatix.com/en/products/dynamics-365-business-central",
     "sourceHash": "sha256:507c756be4e599a59b495672440f794a278e96a88464654215b91a645aacb771",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:507c756be4e599a59b495672440f794a278e96a88464654215b91a645aacb771",

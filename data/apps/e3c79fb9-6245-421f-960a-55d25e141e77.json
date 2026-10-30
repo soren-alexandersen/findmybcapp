@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://iao.atlassian.net/wiki/spaces/OAD/pages/32997980/OC+Loans+App+Functionality",
     "sourceHash": "sha256:1df6819410e77826bbd77c9b2b914fca1e80f630f5b36c7c86edf08a0ce599a6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1df6819410e77826bbd77c9b2b914fca1e80f630f5b36c7c86edf08a0ce599a6",

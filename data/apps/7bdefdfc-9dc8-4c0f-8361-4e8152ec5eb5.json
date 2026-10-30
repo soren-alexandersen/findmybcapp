@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/07/app-financial-leasing-pdf.pdf",
     "sourceHash": "sha256:e7a03a3ea18875dca9f003eaab64c70fe11acf5a037838e1cd4f680f836a070d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e7a03a3ea18875dca9f003eaab64c70fe11acf5a037838e1cd4f680f836a070d",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.netronic.com/visual-production-scheduler-vps-for-dynamics-365-business-central",
     "sourceHash": "sha256:6ab3b2cca223a3fdc2298bae3a28a2a8759ede7e2ef631a6a0bfd4fe3d0c0c7f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6ab3b2cca223a3fdc2298bae3a28a2a8759ede7e2ef631a6a0bfd4fe3d0c0c7f",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
     "sourceHash": "sha256:f67e79c4ea33893364189e58d113615f48dba4af88ed2201e4a4f25d57dc5941",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f67e79c4ea33893364189e58d113615f48dba4af88ed2201e4a4f25d57dc5941",

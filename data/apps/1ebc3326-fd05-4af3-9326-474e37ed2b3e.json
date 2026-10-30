@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://tog-downloads.azurewebsites.net/2022/NP-User-Manual/Nepal-CBMS-User-Guide.pdf",
     "sourceHash": "sha256:3be9912a259e7693198c82cdaf3581b068120a61292f014cd6d501e5aa298f43",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3be9912a259e7693198c82cdaf3581b068120a61292f014cd6d501e5aa298f43",

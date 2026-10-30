@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/order-fulfillment-worksheet/product-help/",
     "sourceHash": "sha256:ccd41aeb593fca2caed173efccf3c6acc9a0eafc2bc86d2c96b7d4921972d58f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ccd41aeb593fca2caed173efccf3c6acc9a0eafc2bc86d2c96b7d4921972d58f",

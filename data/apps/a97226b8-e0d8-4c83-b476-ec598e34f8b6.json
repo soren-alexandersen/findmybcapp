@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.q-teamsolutions.com/product/pdf-preview/",
     "sourceHash": "sha256:25d48628b97af6b8e369169fa468ceef49e2e8ada23f24099c9d66cc8a9c5e67",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:25d48628b97af6b8e369169fa468ceef49e2e8ada23f24099c9d66cc8a9c5e67",

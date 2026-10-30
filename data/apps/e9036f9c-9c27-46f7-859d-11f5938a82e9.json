@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
     "sourceHash": "sha256:2b448a5da8c136043ad5ac41704a9f3b362c8fe1f19b9d53b69ad00e73fc12e1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2b448a5da8c136043ad5ac41704a9f3b362c8fe1f19b9d53b69ad00e73fc12e1",

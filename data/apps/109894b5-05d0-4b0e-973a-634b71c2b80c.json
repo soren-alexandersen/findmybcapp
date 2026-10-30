@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/supply-chain/",
     "sourceHash": "sha256:5a7d45c629bd00c3f469d19fed6c66083878b257f0b038ef18155e5a929122f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5a7d45c629bd00c3f469d19fed6c66083878b257f0b038ef18155e5a929122f8",

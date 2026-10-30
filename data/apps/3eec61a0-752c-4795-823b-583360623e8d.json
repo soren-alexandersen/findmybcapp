@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-for-manufacturing.html",
     "sourceHash": "sha256:55aa4d57de2b3e971344f482f43b3fc83d4bd96965c12bf2ed83f61d88a181cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55aa4d57de2b3e971344f482f43b3fc83d4bd96965c12bf2ed83f61d88a181cc",

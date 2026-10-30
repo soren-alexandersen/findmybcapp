@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/ebanking/bpay/docs/",
     "sourceHash": "sha256:fd6688cde3d68b0bc9d24ee6a8949180faf2295d1ef1a0613016dacc8d5f9494",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fd6688cde3d68b0bc9d24ee6a8949180faf2295d1ef1a0613016dacc8d5f9494",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-sales-costs-help-en/",
     "sourceHash": "sha256:cf83b81dce4ac88102de3f4ed35be9b59b1c6635939d7b26d4b33eb019a5397e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cf83b81dce4ac88102de3f4ed35be9b59b1c6635939d7b26d4b33eb019a5397e",

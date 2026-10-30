@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.easy-cloud.de/365BC-cloud/en-US/65284679.html",
     "sourceHash": "sha256:13f10eb13ea2589a52adbe4cd692eaee83f59c48ff3d156decd3c711bf84f67c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:13f10eb13ea2589a52adbe4cd692eaee83f59c48ff3d156decd3c711bf84f67c",

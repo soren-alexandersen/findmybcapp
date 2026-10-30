@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/ADI/docs/Introduction",
     "sourceHash": "sha256:be9983b32e855d5d7356e6b6b5dbcc792e2a96b280d145c8415668d9a066fcda",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:be9983b32e855d5d7356e6b6b5dbcc792e2a96b280d145c8415668d9a066fcda",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.oixio.eu/relitems/relitems_index.en/",
     "sourceHash": "sha256:d76df14bf2c0bd7149e892e5a8fed551ae71887fa275f178c0612498c84bde6e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d76df14bf2c0bd7149e892e5a8fed551ae71887fa275f178c0612498c84bde6e",

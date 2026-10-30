@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Warehouse%20Mobile%20Application/Index/",
     "sourceHash": "sha256:4ea17a7144e23f38919e05b1dd7f98273bbce652a141878df28e2560f68953c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4ea17a7144e23f38919e05b1dd7f98273bbce652a141878df28e2560f68953c4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://admiral.dynamicscloud.net/advanced_allocations/Advanced%20Allocations%20for%20BC%20Guide%203-25.pdf",
     "sourceHash": "sha256:fc677ab1aab68244f989cf470a751bdb1789071f58538006944611123a00aee6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fc677ab1aab68244f989cf470a751bdb1789071f58538006944611123a00aee6",

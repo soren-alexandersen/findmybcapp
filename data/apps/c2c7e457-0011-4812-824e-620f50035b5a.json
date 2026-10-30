@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://anago.dk/dk/navision-business-central/gavekort",
     "sourceHash": "sha256:bdd0f0457e4ca8756ea0d111731f30dc483e5daa6131a7670a6ebed3360b2427",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bdd0f0457e4ca8756ea0d111731f30dc483e5daa6131a7670a6ebed3360b2427",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://brightpointinfotech.com/services/student-information-systemsis-solution/",
     "sourceHash": "sha256:45599d37f2c5ffa1f4aaf51ebc39c6b1161ffc7c7174f426ed0dcfe8dec9c6c9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:45599d37f2c5ffa1f4aaf51ebc39c6b1161ffc7c7174f426ed0dcfe8dec9c6c9",

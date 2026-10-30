@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ienigmatech.in/api-tester.html",
     "sourceHash": "sha256:74366f16abf215fddf775f389956dfef2789a35a22e5eecc94e0d8b34141bd4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74366f16abf215fddf775f389956dfef2789a35a22e5eecc94e0d8b34141bd4d",

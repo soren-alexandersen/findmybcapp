@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.innoviogroup.com/software/app/advanced-projects-management",
     "sourceHash": "sha256:5b5a88695e3fc43a8cca6062cd5be0774c880c2c42f68ec6d5dfa6afd4dd9ba6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b5a88695e3fc43a8cca6062cd5be0774c880c2c42f68ec6d5dfa6afd4dd9ba6",

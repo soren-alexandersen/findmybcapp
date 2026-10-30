@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.timetrackcentral.com/en/tools/event-bridge/",
     "sourceHash": "sha256:30f664f5ee14fe4b4343602963a31eeb46ef27dc2ff92c724faa2d576b8fe30d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:30f664f5ee14fe4b4343602963a31eeb46ef27dc2ff92c724faa2d576b8fe30d",

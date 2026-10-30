@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bill-to.com/produkt/uebersicht/",
     "sourceHash": "sha256:db60633a3b1db0a08b8b006f08c1d021882731179eb3a6ad658c8aefb155f0b2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:db60633a3b1db0a08b8b006f08c1d021882731179eb3a6ad658c8aefb155f0b2",

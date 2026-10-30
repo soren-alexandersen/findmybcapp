@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/integrationaccelerator/overview",
     "sourceHash": "sha256:c55e4e7f0cfc87336f30399b813fa265e29c8d9d59392d9736f6d5a381d8a382",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c55e4e7f0cfc87336f30399b813fa265e29c8d9d59392d9736f6d5a381d8a382",

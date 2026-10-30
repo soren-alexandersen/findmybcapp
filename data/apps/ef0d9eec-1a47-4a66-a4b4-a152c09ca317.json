@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://styr.fo/samband/",
     "sourceHash": "sha256:54d71d6971f877a584518a949bb0aa418827160173670bcd48c971d66b0ea714",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:54d71d6971f877a584518a949bb0aa418827160173670bcd48c971d66b0ea714",

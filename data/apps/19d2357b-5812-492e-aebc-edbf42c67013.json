@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/sales-configurator/#howto",
     "sourceHash": "sha256:cbb093efc2ea6e5276e2b8ecae817f9976100acb64d637fbaa470cfc94944cf9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cbb093efc2ea6e5276e2b8ecae817f9976100acb64d637fbaa470cfc94944cf9",

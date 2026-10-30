@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simova.de/simovazone",
     "sourceHash": "sha256:c5b0e3ed9c2485c598207acecd92f670d015e34ca412bb406532694afb79ba14",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c5b0e3ed9c2485c598207acecd92f670d015e34ca412bb406532694afb79ba14",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.ipaas.com/en/collections/11328920-shipstation",
     "sourceHash": "sha256:d4bfcdff96a23c09918c61dc72a022cc953f18a8d62522a9a2d27f34936bb69b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d4bfcdff96a23c09918c61dc72a022cc953f18a8d62522a9a2d27f34936bb69b",

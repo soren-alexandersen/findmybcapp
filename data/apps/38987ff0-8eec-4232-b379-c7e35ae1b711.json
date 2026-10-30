@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/da-dk/continia-collection-management",
     "sourceHash": "sha256:289eed77a547889230bdb3e87404ffcd36c1c76d77b1c053bd90422703de3b51",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:289eed77a547889230bdb3e87404ffcd36c1c76d77b1c053bd90422703de3b51",

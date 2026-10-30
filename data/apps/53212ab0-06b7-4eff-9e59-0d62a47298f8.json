@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.velosio.com/products/",
     "sourceHash": "sha256:ad21e0db5099f65fbeaa79c541ceac586a4ae5a718f16c58653e36a86e79fcf3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ad21e0db5099f65fbeaa79c541ceac586a4ae5a718f16c58653e36a86e79fcf3",

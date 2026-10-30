@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.etiscan.de/en/kontakt",
     "sourceHash": "sha256:33ac3e88d979d66aedb19b7cbf0f2fdbe20ce61755ef665f4211a0508558c0ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33ac3e88d979d66aedb19b7cbf0f2fdbe20ce61755ef665f4211a0508558c0ec",

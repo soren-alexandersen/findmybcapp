@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://consiliumtech.se/docs",
     "sourceHash": "sha256:3ee45bfca0896b89bd50dcd2d851916a4b49efff35bff1bb6513e40835ae4537",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3ee45bfca0896b89bd50dcd2d851916a4b49efff35bff1bb6513e40835ae4537",

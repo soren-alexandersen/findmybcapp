@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.wise.is/smartpos",
     "sourceHash": "sha256:c83f209bd583c111c7ce7665dbd020b97aa750a2c2fd81fb10eeaada3875fb12",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c83f209bd583c111c7ce7665dbd020b97aa750a2c2fd81fb10eeaada3875fb12",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/portaldesigner",
     "sourceHash": "sha256:3911c0ea6c8928d4381f42a23a48af7258ad08126c88e16019f18249c4b74358",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3911c0ea6c8928d4381f42a23a48af7258ad08126c88e16019f18249c4b74358",

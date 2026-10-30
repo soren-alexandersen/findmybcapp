@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/430374955/Direct+Debit+ANZ",
     "sourceHash": "sha256:897d5f8fa0f2dec116de492a6b7104a136364277bd4e9183498f2252bc713497",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:897d5f8fa0f2dec116de492a6b7104a136364277bd4e9183498f2252bc713497",

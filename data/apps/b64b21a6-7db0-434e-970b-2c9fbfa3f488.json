@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-advanced-projects/",
     "sourceHash": "sha256:191943eedf9b4dc7c3ad192d9c5318c555773305f61964b9e99e6d7cf0e8a003",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:191943eedf9b4dc7c3ad192d9c5318c555773305f61964b9e99e6d7cf0e8a003",

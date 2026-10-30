@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-cloud-collection",
     "sourceHash": "sha256:f3c8f2759321ee7b20d3766beeb2e5913c7189fadf749da0e27dcbc2fec8bcc7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f3c8f2759321ee7b20d3766beeb2e5913c7189fadf749da0e27dcbc2fec8bcc7",

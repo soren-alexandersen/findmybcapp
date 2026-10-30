@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://tuetech.io/claimlane/documentation/",
     "sourceHash": "sha256:dff100eaa3804fb42b0ab97163ae03aeb076bd8cb21411f24816000b96e631c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dff100eaa3804fb42b0ab97163ae03aeb076bd8cb21411f24816000b96e631c8",

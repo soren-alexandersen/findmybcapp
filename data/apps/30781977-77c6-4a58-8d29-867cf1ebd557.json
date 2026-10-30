@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/business-pack.html",
     "sourceHash": "sha256:ac0e53787c8fff85443e2c9dae5586efad30d58aa80707b1fa6fbf30e6cb7ac5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ac0e53787c8fff85443e2c9dae5586efad30d58aa80707b1fa6fbf30e6cb7ac5",

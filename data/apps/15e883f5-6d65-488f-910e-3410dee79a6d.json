@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.pargesoft.com/AppsourceHelpDocuments/EInvoice.pdf",
     "sourceHash": "sha256:d06e9501652b4a794c7e5c14edac760aec89df9a3cbf0825d86dac8c75b283e0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d06e9501652b4a794c7e5c14edac760aec89df9a3cbf0825d86dac8c75b283e0",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.yavr.io/support",
     "sourceHash": "sha256:699fa2338608f394867d223e5ac145457543a10af34bb731f72de97b2bd6e9d0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:699fa2338608f394867d223e5ac145457543a10af34bb731f72de97b2bd6e9d0",

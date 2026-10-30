@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://bittaapps.com/solutions/bittapos",
     "sourceHash": "sha256:51172e345c09bf175a89eacf93e2526a8931320573cc9d24f51bd87e0f36fa5d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:51172e345c09bf175a89eacf93e2526a8931320573cc9d24f51bd87e0f36fa5d",

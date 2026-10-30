@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.webexpenses.com/microsoft-dynamics-365-integration/",
     "sourceHash": "sha256:45c69377d8f9143c5d5d1b8c10427a1b455851e722142086c59baed684aabda0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:45c69377d8f9143c5d5d1b8c10427a1b455851e722142086c59baed684aabda0",

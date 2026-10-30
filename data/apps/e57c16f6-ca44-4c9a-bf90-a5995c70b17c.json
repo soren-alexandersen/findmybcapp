@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bs-concepts.com/eplan-interface-documents-informations/",
     "sourceHash": "sha256:9d9a35487240582f74c0bade76bf3b4554cd78d78c2096a0d688a4a1b2e11f26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9d9a35487240582f74c0bade76bf3b4554cd78d78c2096a0d688a4a1b2e11f26",

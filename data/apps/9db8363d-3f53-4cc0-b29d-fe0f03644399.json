@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.unitechitsolutions.com/support",
     "sourceHash": "sha256:44797dbd7cfd2f315274f9f7292314bfc13874ed60a46662eb515f560da59b50",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:44797dbd7cfd2f315274f9f7292314bfc13874ed60a46662eb515f560da59b50",

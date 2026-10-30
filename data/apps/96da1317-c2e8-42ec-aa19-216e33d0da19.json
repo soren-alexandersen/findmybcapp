@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://scaptify.com/#User-guide",
     "sourceHash": "sha256:c8eb215598642ecf32ed678ca23584dba6200cce71951fc0914ad37238a12a13",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c8eb215598642ecf32ed678ca23584dba6200cce71951fc0914ad37238a12a13",

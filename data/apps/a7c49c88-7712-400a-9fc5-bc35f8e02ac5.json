@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.business-central.app/public/app365azure_help.pdf",
     "sourceHash": "sha256:11961febd31dade3e31bce744a05028cd5ac4ba67808fd46a5100860c4b55937",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:11961febd31dade3e31bce744a05028cd5ac4ba67808fd46a5100860c4b55937",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/show-comments-on-documents-scd-ex040.html",
     "sourceHash": "sha256:bdc6d6d337ca2877510361a35c7a4360b69714662dece5a6f65ad53d705f45db",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bdc6d6d337ca2877510361a35c7a4360b69714662dece5a6f65ad53d705f45db",

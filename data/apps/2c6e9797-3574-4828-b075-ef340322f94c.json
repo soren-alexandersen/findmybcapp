@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/balance-statements/docs/en-US/help",
     "sourceHash": "sha256:28dd89b5e1f1a63bb338dff2d61eab39dd7af6fe93e803d883907d4b6c15a3d4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:28dd89b5e1f1a63bb338dff2d61eab39dd7af6fe93e803d883907d4b6c15a3d4",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advanced-manufacturing-pack/",
     "sourceHash": "sha256:3e27eaac9792e89badb68ca88efaa1fb7b1d57a374717514c5e5459e54908f6c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e27eaac9792e89badb68ca88efaa1fb7b1d57a374717514c5e5459e54908f6c",

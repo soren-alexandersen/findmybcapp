@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicseip.com/docs/invoice-mail-queue-eng/",
     "sourceHash": "sha256:4d773a1b161993ecf5a891f6eea03587ca96c7611e9d1800c03b429ab7002f4d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4d773a1b161993ecf5a891f6eea03587ca96c7611e9d1800c03b429ab7002f4d",

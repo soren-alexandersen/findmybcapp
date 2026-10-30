@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.kolleno.com/",
     "sourceHash": "sha256:abbd2796bb9089273dadc9c9be0df967ed0f70b61cdd96340c09e7700518cfec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:abbd2796bb9089273dadc9c9be0df967ed0f70b61cdd96340c09e7700518cfec",

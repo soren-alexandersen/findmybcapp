@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.tacto.ai/en/articles/737323-automatic-data-export-from-microsoft-dynamics-365-business-central",
     "sourceHash": "sha256:8d58eb1bde7cfd7f8ee67394bad37c105301dfd72ab39429ea6ed4e8961d1d39",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8d58eb1bde7cfd7f8ee67394bad37c105301dfd72ab39429ea6ed4e8961d1d39",

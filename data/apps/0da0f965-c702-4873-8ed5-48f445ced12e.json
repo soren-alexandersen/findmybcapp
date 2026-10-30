@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-rental/",
     "sourceHash": "sha256:d76e4d5711b4522929a9248043f40e63238ac5bf7e8be47af78b6c6b1227625c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d76e4d5711b4522929a9248043f40e63238ac5bf7e8be47af78b6c6b1227625c",

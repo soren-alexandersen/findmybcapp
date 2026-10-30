@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Company%20Lookup%20Manual.pdf",
     "sourceHash": "sha256:febc880fafb42915edf71bc62b2dfc5a32d3ad6f358ca51e6906b79361f5cd6d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:febc880fafb42915edf71bc62b2dfc5a32d3ad6f358ca51e6906b79361f5cd6d",

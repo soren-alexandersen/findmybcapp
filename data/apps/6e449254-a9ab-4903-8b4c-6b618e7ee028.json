@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.agrio.software/",
     "sourceHash": "sha256:96447d0251609c857493d28a8afa19f0282a9f89328d22cad5196377385a2c29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:96447d0251609c857493d28a8afa19f0282a9f89328d22cad5196377385a2c29",

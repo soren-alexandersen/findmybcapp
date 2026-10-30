@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/PA",
     "sourceHash": "sha256:c38bff51034e16de9e798439b6e5a28ed53cc9670c2be22662be13bf32726a0b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c38bff51034e16de9e798439b6e5a28ed53cc9670c2be22662be13bf32726a0b",

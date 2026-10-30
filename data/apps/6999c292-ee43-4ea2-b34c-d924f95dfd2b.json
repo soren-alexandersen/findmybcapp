@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://profacto.dk/en/global-master/",
     "sourceHash": "sha256:21e23e62ab757d046e3c84ad676170e79d5764e179953b1f870d13c90587a86e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:21e23e62ab757d046e3c84ad676170e79d5764e179953b1f870d13c90587a86e",

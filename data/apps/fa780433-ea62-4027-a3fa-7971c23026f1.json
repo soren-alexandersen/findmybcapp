@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/soft4inventory-1",
     "sourceHash": "sha256:017a25e5e020c318805c0777a5f06f64b09f3f686164b1f52883f6e4e00dc9b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:017a25e5e020c318805c0777a5f06f64b09f3f686164b1f52883f6e4e00dc9b7",

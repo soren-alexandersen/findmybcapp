@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.corpayone.com/en/articles/8262948-how-to-setup-corpay-one-integration-with-microsoft-dynamics-365-business-central-via-the-business-central-directly",
     "sourceHash": "sha256:0f346bb1d0a659699ba0093e78cb92cd06ce17d9897e968e74d587bd78d57184",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0f346bb1d0a659699ba0093e78cb92cd06ce17d9897e968e74d587bd78d57184",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "http://ADP_PS_Intergration_Support@adp.com/",
     "sourceHash": "sha256:f0e5ec46408034b7a6e9e023eef9a11a0fdaafe55ba579bc4ec326619efa5f4f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f0e5ec46408034b7a6e9e023eef9a11a0fdaafe55ba579bc4ec326619efa5f4f",

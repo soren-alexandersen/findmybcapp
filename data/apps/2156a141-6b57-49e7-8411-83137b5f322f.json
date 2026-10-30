@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://naviators.dk/en/time-management-help-en/",
     "sourceHash": "sha256:3c6d7f9d295c0b602497bacc3893eb099c400b4644185a6c48558cd0ca6defac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3c6d7f9d295c0b602497bacc3893eb099c400b4644185a6c48558cd0ca6defac",

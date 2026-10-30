@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://fm-it.dk/products/review-management/help/",
     "sourceHash": "sha256:677e3fd8d8827e11c7ad3575eb93710fc020348d272dbf2665ccf7cd3faa083e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:677e3fd8d8827e11c7ad3575eb93710fc020348d272dbf2665ccf7cd3faa083e",

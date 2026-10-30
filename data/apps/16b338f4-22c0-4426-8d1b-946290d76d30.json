@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://gmsoftdynamics.com/apps/free/inventory-planning/docs/",
     "sourceHash": "sha256:fb942e244702d932f9fd66438386f21d9184bd1b02207eb2e30a98f577362835",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fb942e244702d932f9fd66438386f21d9184bd1b02207eb2e30a98f577362835",

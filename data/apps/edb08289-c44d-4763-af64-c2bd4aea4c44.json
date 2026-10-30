@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-tech/edb08289-c44d-4763-af64-c2bd4aea4c44.html",
     "sourceHash": "sha256:20855610dc06850c746f2e720ae831ccedfa510bc525eee1fbd408371269cd80",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:20855610dc06850c746f2e720ae831ccedfa510bc525eee1fbd408371269cd80",

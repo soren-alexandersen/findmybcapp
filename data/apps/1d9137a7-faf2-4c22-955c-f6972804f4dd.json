@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/bydynamics/AL-BankTransactionDetails-Support",
     "sourceHash": "sha256:c207ca0cda1d858c12f6cb34fbc6662497699092a0653acb3d38b900f3a2c396",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c207ca0cda1d858c12f6cb34fbc6662497699092a0653acb3d38b900f3a2c396",

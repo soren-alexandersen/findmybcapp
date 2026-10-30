@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/item-attributes/",
     "sourceHash": "sha256:606c9635a8141a98e932fb0dfa8a0d2c0528752a0596750752f62c36f2264447",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:606c9635a8141a98e932fb0dfa8a0d2c0528752a0596750752f62c36f2264447",

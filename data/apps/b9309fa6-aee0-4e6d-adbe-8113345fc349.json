@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://iqaccountant.com/cashflow-app-installation/",
     "sourceHash": "sha256:401ebd7885dd8e862ad9a96a8b6bcab80ade070be83c4be45962be1c594d255b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:401ebd7885dd8e862ad9a96a8b6bcab80ade070be83c4be45962be1c594d255b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/adi/",
     "sourceHash": "sha256:bc155b0af50220ae887ec4d4fd603134ba2eb931d8210b39b9ada9be1cf41a2e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bc155b0af50220ae887ec4d4fd603134ba2eb931d8210b39b9ada9be1cf41a2e",

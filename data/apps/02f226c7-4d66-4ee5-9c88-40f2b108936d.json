@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/sandbox/",
     "sourceHash": "sha256:69452995d1e166d439d0319f22d0224ca36d4d83f6e6203f62146f7d97bbf4c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69452995d1e166d439d0319f22d0224ca36d4d83f6e6203f62146f7d97bbf4c8",

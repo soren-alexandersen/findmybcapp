@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://partner.multisoft.hu/help-aip/",
     "sourceHash": "sha256:154e19fb774af592e75d16624f941678ba6ca98954d862fd1bca27c9d879d952",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:154e19fb774af592e75d16624f941678ba6ca98954d862fd1bca27c9d879d952",

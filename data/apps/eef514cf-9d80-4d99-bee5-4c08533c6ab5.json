@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dbexcellence.online/support-appsource/",
     "sourceHash": "sha256:c7ac436da2aa2e99739bff96c5ad46ea8d15ddc88d83036f751aa3ce211ba099",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c7ac436da2aa2e99739bff96c5ad46ea8d15ddc88d83036f751aa3ce211ba099",

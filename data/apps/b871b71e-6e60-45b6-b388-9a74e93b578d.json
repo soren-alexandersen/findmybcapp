@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/OMN/",
     "sourceHash": "sha256:aed66d5e6b2f25674c263396b4385bce6b9225a8dbd7b1390b250c2126917bc6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aed66d5e6b2f25674c263396b4385bce6b9225a8dbd7b1390b250c2126917bc6",

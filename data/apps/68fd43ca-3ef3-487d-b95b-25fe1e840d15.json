@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.abd.es/formacion/",
     "sourceHash": "sha256:fbd5d27fe38fed364377a885bfe2bbe611fb7dd7c688fc3e5dad296b071f4dd6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fbd5d27fe38fed364377a885bfe2bbe611fb7dd7c688fc3e5dad296b071f4dd6",

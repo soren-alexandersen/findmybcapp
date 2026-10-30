@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/bcbackuphelp",
     "sourceHash": "sha256:eccfcc13201f859c79eac97dc9f975bf30472b2e29050034826cc43b3ece1bde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:eccfcc13201f859c79eac97dc9f975bf30472b2e29050034826cc43b3ece1bde",

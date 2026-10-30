@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/Manufacturing",
     "sourceHash": "sha256:871fb87dbcc7058e923633814b83b5b9383f9804e1a4f482a9152de4070f5092",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:871fb87dbcc7058e923633814b83b5b9383f9804e1a4f482a9152de4070f5092",

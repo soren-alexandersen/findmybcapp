@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-TabletPos-Integration",
     "sourceHash": "sha256:fce1ce2b9a38b18ab01f6ac1dfb3194f3b6a3046305d9d4983f5260faf31a6b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fce1ce2b9a38b18ab01f6ac1dfb3194f3b6a3046305d9d4983f5260faf31a6b8",

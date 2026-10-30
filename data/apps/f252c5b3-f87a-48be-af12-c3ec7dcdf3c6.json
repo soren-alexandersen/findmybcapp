@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://skanderby.dk/kontakt",
     "sourceHash": "sha256:50251090af81063e65f21195223cb588bae599c886114ad144280bdfe222bad2",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:50251090af81063e65f21195223cb588bae599c886114ad144280bdfe222bad2",

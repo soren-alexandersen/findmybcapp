@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bystronic.com/esp/es/contact/espana",
     "sourceHash": "sha256:c2939aa21a20761689a6553e10eefb1b7d20644c302b1520e3860420c4e7c434",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2939aa21a20761689a6553e10eefb1b7d20644c302b1520e3860420c4e7c434",

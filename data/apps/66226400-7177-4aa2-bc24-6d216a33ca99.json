@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-JobQueue",
     "sourceHash": "sha256:d0cdc745051a742d0c49a8c92bc9053d035738f284ef066ffa3529adecff5260",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d0cdc745051a742d0c49a8c92bc9053d035738f284ef066ffa3529adecff5260",

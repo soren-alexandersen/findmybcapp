@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.samadhanindia.com/helpdesk-support",
     "sourceHash": "sha256:e5d590958316b6cdce878d50641a25ed5be6047c8732e45c2e5dc411feb6629e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e5d590958316b6cdce878d50641a25ed5be6047c8732e45c2e5dc411feb6629e",

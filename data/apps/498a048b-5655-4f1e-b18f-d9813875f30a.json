@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Blue-PEPPOL-Participation-Manual.pdf",
     "sourceHash": "sha256:77e77cb4613d6a5ec1e9a843906e2211d260473984d3725b30ffe9c40f2a2674",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:77e77cb4613d6a5ec1e9a843906e2211d260473984d3725b30ffe9c40f2a2674",

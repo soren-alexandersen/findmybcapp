@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.woongjin.co.kr/side/wj_family.aspx",
     "sourceHash": "sha256:26ee9a18dbcc3e355b32995568ab82357f4c992a26dab95fbb09a5161e939d4b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:26ee9a18dbcc3e355b32995568ab82357f4c992a26dab95fbb09a5161e939d4b",

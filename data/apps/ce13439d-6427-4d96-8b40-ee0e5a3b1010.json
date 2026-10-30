@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://eliteit.dk/mobil-vedligeholdelses-app/",
     "sourceHash": "sha256:9c1a6904d3680252df4f7e53734c0186d3e2fdd76b7b2f9c3f13eb01e57b53b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9c1a6904d3680252df4f7e53734c0186d3e2fdd76b7b2f9c3f13eb01e57b53b7",

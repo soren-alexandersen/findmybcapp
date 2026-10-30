@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicspartners.ee/apps/einvoices-for-estonia/docs/en-US/help",
     "sourceHash": "sha256:494d91bf264bff11ebec0fba4d037c76cdd77efa1447d4ea8fc104b906b7a86c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:494d91bf264bff11ebec0fba4d037c76cdd77efa1447d4ea8fc104b906b7a86c",

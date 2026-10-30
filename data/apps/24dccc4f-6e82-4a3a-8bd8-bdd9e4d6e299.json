@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d365zone.com/business-central/zatca-integration",
     "sourceHash": "sha256:74312221090b70fe5b149b15321c22d341cc1fbc0e32c70330e208a3a7b530a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74312221090b70fe5b149b15321c22d341cc1fbc0e32c70330e208a3a7b530a3",

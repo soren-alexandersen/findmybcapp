@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bitlogwms.com/hubfs/content/Bitlog_WMS_Connector_Documentation.pdf",
     "sourceHash": "sha256:3e8bbb5bb59bb5f0fb74d031c55c3d44fec9c5328add3dec5cc1a0d8d134a09a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e8bbb5bb59bb5f0fb74d031c55c3d44fec9c5328add3dec5cc1a0d8d134a09a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki-apps.2-controlware.com/",
     "sourceHash": "sha256:0bbdd7e86ed9214295ee7953334e062b8b1bc3a963356133e0fc040070ab94f5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0bbdd7e86ed9214295ee7953334e062b8b1bc3a963356133e0fc040070ab94f5",

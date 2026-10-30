@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.solidexpert.com/cadconnector/en_US/index.html",
     "sourceHash": "sha256:996817f7c146324aeb111260a8e914466044551c9d7cd928a3041b08ec99a01b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:996817f7c146324aeb111260a8e914466044551c9d7cd928a3041b08ec99a01b",

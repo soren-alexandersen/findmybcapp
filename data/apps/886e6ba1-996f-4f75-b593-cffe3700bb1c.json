@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviworld.com.vn/vietnam-localization-pack/",
     "sourceHash": "sha256:49fe11411c140a14da781a1e7a7baa139ce285c03c23379ccdfd5ae4bca276e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:49fe11411c140a14da781a1e7a7baa139ce285c03c23379ccdfd5ae4bca276e7",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/badger/",
     "sourceHash": "sha256:6a17969450bc2dc47dfff6c319e6a39c93e74624d075c983c8e1271f1da56ded",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6a17969450bc2dc47dfff6c319e6a39c93e74624d075c983c8e1271f1da56ded",

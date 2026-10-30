@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/nshift/#howto",
     "sourceHash": "sha256:69e932761a6180654caf48c668d672ce8ad05e4fddcca008fbaa9fd234986e13",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69e932761a6180654caf48c668d672ce8ad05e4fddcca008fbaa9fd234986e13",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://2ca.com/get-in-touch",
     "sourceHash": "sha256:0964737211a3651a9b440dcb3ce8efda25a39d10eec2af0fd6f7731b4060430f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0964737211a3651a9b440dcb3ce8efda25a39d10eec2af0fd6f7731b4060430f",

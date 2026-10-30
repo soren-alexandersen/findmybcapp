@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/foundation",
     "sourceHash": "sha256:61661276ba045d94c1f13095a563aaef6f13eb339dc2c16fe35557f876247c14",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:61661276ba045d94c1f13095a563aaef6f13eb339dc2c16fe35557f876247c14",

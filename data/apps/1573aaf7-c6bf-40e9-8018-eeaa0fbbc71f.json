@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-barcode-management-help-en/",
     "sourceHash": "sha256:fa1d8dc4c7bb12f46b7830108b265da7b9655f113e8f04300430cd7e56e22e66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fa1d8dc4c7bb12f46b7830108b265da7b9655f113e8f04300430cd7e56e22e66",

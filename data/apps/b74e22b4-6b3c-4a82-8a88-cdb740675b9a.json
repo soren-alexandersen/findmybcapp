@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.ipaas.com/en/collections/19636544-virtuous-crm",
     "sourceHash": "sha256:99654e6913f018c6ce6b79b6e6b3e525a386903c412a32e021ff3999e129e04d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:99654e6913f018c6ce6b79b6e6b3e525a386903c412a32e021ff3999e129e04d",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/analytics-suite.html",
     "sourceHash": "sha256:dcefde6679065040b737f8ee129b74883c4296916240fb2137073ffa6d7edeb9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dcefde6679065040b737f8ee129b74883c4296916240fb2137073ffa6d7edeb9",

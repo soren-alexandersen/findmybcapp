@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486670518/Batch+Posting",
     "sourceHash": "sha256:2ebc1f25e12952bd6ec6044bcd5851f88a6a3d9d26fcdfae9bf65cb33c6c6f79",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2ebc1f25e12952bd6ec6044bcd5851f88a6a3d9d26fcdfae9bf65cb33c6c6f79",

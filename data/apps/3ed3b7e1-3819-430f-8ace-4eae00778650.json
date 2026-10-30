@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/2notify-instructions-for-partners",
     "sourceHash": "sha256:374f4a8b16c2b25237e35cfb59e5ed9e622bbbcc6e0ebe79503f5ea683af23d1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:374f4a8b16c2b25237e35cfb59e5ed9e622bbbcc6e0ebe79503f5ea683af23d1",

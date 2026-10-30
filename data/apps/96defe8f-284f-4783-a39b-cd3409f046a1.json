@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Manufacturing-Cost-Distribution-Help.pdf",
     "sourceHash": "sha256:907872b60b837c705c3831e8e64744afae1107a4a9f12c1ddd56c8dac0f82645",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:907872b60b837c705c3831e8e64744afae1107a4a9f12c1ddd56c8dac0f82645",

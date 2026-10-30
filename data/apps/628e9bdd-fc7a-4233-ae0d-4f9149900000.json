@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://confluence.external-share.com/content/827540/citibank_api_integration_release_notes",
     "sourceHash": "sha256:808d79236b453aec4894dadc9ceb01182cd27560e38c0d89563dd21308904763",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:808d79236b453aec4894dadc9ceb01182cd27560e38c0d89563dd21308904763",

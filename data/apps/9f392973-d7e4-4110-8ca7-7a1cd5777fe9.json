@@ -16,7 +16,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/schedulemrp",
     "sourceHash": "sha256:4626b178f9c48c414d0556465ed4350e941dae528a27dd59664c2236a0507b91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4626b178f9c48c414d0556465ed4350e941dae528a27dd59664c2236a0507b91",

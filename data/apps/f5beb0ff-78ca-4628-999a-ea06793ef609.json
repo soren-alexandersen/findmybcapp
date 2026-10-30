@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/mail-experience-pro/",
     "sourceHash": "sha256:82213967cb62a1e750b15262d00e5c82f1d9361be25be22c23effd914afa31fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:82213967cb62a1e750b15262d00e5c82f1d9361be25be22c23effd914afa31fc",

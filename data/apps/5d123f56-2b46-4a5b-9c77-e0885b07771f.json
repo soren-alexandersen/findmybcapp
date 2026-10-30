@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/",
     "sourceHash": "sha256:60c8753783260cdcc737da8b503d67c4291c8207fb7bfebc46e7732a0b45f89a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:60c8753783260cdcc737da8b503d67c4291c8207fb7bfebc46e7732a0b45f89a",

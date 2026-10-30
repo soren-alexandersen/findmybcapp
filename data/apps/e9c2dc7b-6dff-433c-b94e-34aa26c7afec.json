@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nubetech.helpjuice.com/en_US/vendor-portal/vendor-web-portal",
     "sourceHash": "sha256:55b5d398ba4a66513ac33ec800da4efa1b98e80faa5338997d04d73968a9bb19",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55b5d398ba4a66513ac33ec800da4efa1b98e80faa5338997d04d73968a9bb19",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/da/dynamics-365/apps/sproom/#howto",
     "sourceHash": "sha256:2c6bae1858f7355956a7b2a22fdac1784789cb8e65b22b53e430fe54fb5f04e0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2c6bae1858f7355956a7b2a22fdac1784789cb8e65b22b53e430fe54fb5f04e0",

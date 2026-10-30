@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/documents/pop-up-notes/",
     "sourceHash": "sha256:694dfab163b89414afc06edf2f6f16d2d8696db9190b00925c974cb489f67c79",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:694dfab163b89414afc06edf2f6f16d2d8696db9190b00925c974cb489f67c79",

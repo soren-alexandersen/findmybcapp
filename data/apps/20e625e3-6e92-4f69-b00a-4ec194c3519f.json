@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://documizers.atlassian.net/wiki/spaces/DK/overview",
     "sourceHash": "sha256:4497e44d74044f36715b78bc3fb2aeb3f95493137bbe44fd4eb535ab443b2811",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4497e44d74044f36715b78bc3fb2aeb3f95493137bbe44fd4eb535ab443b2811",

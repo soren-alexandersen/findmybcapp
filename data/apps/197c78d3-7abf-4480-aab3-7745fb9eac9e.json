@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://topaz-gitadmin.github.io/Manual/AddOns-Integration/NZBN/NZBN-Manual/",
     "sourceHash": "sha256:f19a1fb4192665eb6aeae7000a9582d65b0a9c87ffdb6b07678c0528f844842c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f19a1fb4192665eb6aeae7000a9582d65b0a9c87ffdb6b07678c0528f844842c",

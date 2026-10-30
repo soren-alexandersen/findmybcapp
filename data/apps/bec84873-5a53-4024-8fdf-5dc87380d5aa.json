@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://amjs-consulting.com/solutions/customer-bank",
     "sourceHash": "sha256:bcb20e6ea9e480a302c8695583154741e2bcd6e77bcf9b3efab68b63a952233f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bcb20e6ea9e480a302c8695583154741e2bcd6e77bcf9b3efab68b63a952233f",

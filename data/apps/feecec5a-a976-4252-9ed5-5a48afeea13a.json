@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://partner.multisoft.hu/help-hungarian-localization/",
     "sourceHash": "sha256:e203e24d61eae0762944f675f0d94b66ab4f46620bc8c0d3aba7329bb2b4c69b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e203e24d61eae0762944f675f0d94b66ab4f46620bc8c0d3aba7329bb2b4c69b",

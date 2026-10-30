@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.com/apps/adyen-payment-by-link",
     "sourceHash": "sha256:082f357accc6bc64591fa0f1c01809eaa70bb60b21de93944c7ee715dd4ab5bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:082f357accc6bc64591fa0f1c01809eaa70bb60b21de93944c7ee715dd4ab5bb",

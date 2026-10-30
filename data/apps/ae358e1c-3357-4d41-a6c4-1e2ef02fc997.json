@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/en-us/eagle-free/",
     "sourceHash": "sha256:249fa1e56d9c7e04ca6645778b03e2ca630c05b40c76e64456788f50da364cfd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:249fa1e56d9c7e04ca6645778b03e2ca630c05b40c76e64456788f50da364cfd",

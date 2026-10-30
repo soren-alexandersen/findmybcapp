@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Planning_and_Dispatch_Manual.pdf",
     "sourceHash": "sha256:aeb7730994e527dcf0a89028ab2f0e43228c305c2c104a120d7a8ad112546a3f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aeb7730994e527dcf0a89028ab2f0e43228c305c2c104a120d7a8ad112546a3f",

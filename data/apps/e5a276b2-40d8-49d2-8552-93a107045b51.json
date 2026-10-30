@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://52leasing.com/produktvideo/",
     "sourceHash": "sha256:7d8a9ce6191e6ce120f73cb0025d6954ee80d20dec52be0f15679ad97665fce5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d8a9ce6191e6ce120f73cb0025d6954ee80d20dec52be0f15679ad97665fce5",

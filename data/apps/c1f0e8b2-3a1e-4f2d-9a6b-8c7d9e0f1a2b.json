@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Waiting-List",
     "sourceHash": "sha256:5dd5c4c1bf6898122b8739c781988ee20d5c14c30f9316ed0581a05ba2972c3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5dd5c4c1bf6898122b8739c781988ee20d5c14c30f9316ed0581a05ba2972c3a",

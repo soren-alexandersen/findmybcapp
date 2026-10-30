@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Norwegian-Business-Register-Manual.pdf",
     "sourceHash": "sha256:53ab310c18205ec2e95b0e3d4f73cd493c5de93c9fb2951b241614d23e76c008",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:53ab310c18205ec2e95b0e3d4f73cd493c5de93c9fb2951b241614d23e76c008",

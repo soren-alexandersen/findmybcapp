@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jemel.lv/docs/bank-gateway",
     "sourceHash": "sha256:6cd047303edf57c80ce795b5256063b853fbee72d3ec31e72b395d60d6b0829a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6cd047303edf57c80ce795b5256063b853fbee72d3ec31e72b395d60d6b0829a",

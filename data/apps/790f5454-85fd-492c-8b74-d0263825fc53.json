@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://aubadcs.com/en/productos/error-monitor",
     "sourceHash": "sha256:3ea74032ff31913221b538e4afc3d461517b358b7eb79fdabed8bfc5c12e21f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3ea74032ff31913221b538e4afc3d461517b358b7eb79fdabed8bfc5c12e21f9",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubone.no/bigapp",
     "sourceHash": "sha256:e2f30dd9f635086d2022b58eb28adac96bd1915e9af8d83c4a46c067ee56d1de",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e2f30dd9f635086d2022b58eb28adac96bd1915e9af8d83c4a46c067ee56d1de",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://pargesoft.com.tr/AppsourceHelpDocuments/CostAccReflDoc.pdf",
     "sourceHash": "sha256:21a3e5697f58394587faf54423f85c89eb73f7c6eb086aee6ac01726fe533b76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:21a3e5697f58394587faf54423f85c89eb73f7c6eb086aee6ac01726fe533b76",

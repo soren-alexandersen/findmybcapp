@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/enterprisesuite/overview/",
     "sourceHash": "sha256:ca8dec056c7aa0cc122402d3f99d685f0be0a194015103f0ebb76a9771fbfea1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca8dec056c7aa0cc122402d3f99d685f0be0a194015103f0ebb76a9771fbfea1",

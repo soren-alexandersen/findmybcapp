@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.gsgroup.de/",
     "sourceHash": "sha256:acfa8ff4d8c726e16142e65e845e495c61364fc9f8909d61ced01c064843c3e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:acfa8ff4d8c726e16142e65e845e495c61364fc9f8909d61ced01c064843c3e8",

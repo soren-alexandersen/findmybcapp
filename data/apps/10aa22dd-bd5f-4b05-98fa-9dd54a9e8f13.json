@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-exchange-notes",
     "sourceHash": "sha256:f952d4ad0aab480b055c29ce1f1b06c699ca3badcdd6f5af412f5895825c4c88",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f952d4ad0aab480b055c29ce1f1b06c699ca3badcdd6f5af412f5895825c4c88",

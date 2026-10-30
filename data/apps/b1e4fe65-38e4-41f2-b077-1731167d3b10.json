@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://exsion365.com/trainingcenter",
     "sourceHash": "sha256:1554e85094ae8a9561a2576e744c23064d80da54d490705cb132a7644b31fac4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1554e85094ae8a9561a2576e744c23064d80da54d490705cb132a7644b31fac4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://konzeptwerkgmbh.zammad.com/help/de-de/65-eis-konnektor",
     "sourceHash": "sha256:192b898e28975eac4bd92d2fc6a5d91f7a02542d221e8c06b64464014a318856",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:192b898e28975eac4bd92d2fc6a5d91f7a02542d221e8c06b64464014a318856",

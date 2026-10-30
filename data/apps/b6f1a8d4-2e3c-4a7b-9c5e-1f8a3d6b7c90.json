@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/docuattachhelp",
     "sourceHash": "sha256:03762045f9bd65e6103050022494bc45564255a8ba2d324ef3b1895335bdf46b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:03762045f9bd65e6103050022494bc45564255a8ba2d324ef3b1895335bdf46b",

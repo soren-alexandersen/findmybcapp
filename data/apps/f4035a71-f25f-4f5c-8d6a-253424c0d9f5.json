@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelp-d365-innovation.de/",
     "sourceHash": "sha256:6156ba248d3d90597d43b771149e734d68d073033a25338a357d2bf4e99ba820",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6156ba248d3d90597d43b771149e734d68d073033a25338a357d2bf4e99ba820",

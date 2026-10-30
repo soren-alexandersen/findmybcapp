@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/shopify-edi-integration/",
     "sourceHash": "sha256:f8ebd304982b87d2987f4decb2d7d868f457a87eb72d52400da65c466b0960b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f8ebd304982b87d2987f4decb2d7d868f457a87eb72d52400da65c466b0960b8",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/da/email720",
     "sourceHash": "sha256:a599afdd8ae45c876dd0c1d3ac0d74c59b657d5049c271c2dcd9696b88b02e65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a599afdd8ae45c876dd0c1d3ac0d74c59b657d5049c271c2dcd9696b88b02e65",

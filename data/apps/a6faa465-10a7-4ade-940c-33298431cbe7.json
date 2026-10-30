@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://flankspeed.se/en/timely-connector/",
     "sourceHash": "sha256:ae6b125fb9230c26d8c776847855c4e83e4e54ccc942c3645184c905ef149e89",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ae6b125fb9230c26d8c776847855c4e83e4e54ccc942c3645184c905ef149e89",

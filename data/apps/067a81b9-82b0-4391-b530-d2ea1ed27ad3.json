@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-fashion-central-premium-help-en/",
     "sourceHash": "sha256:81cbcfd12ddb0187d00ddc28254c89193defa178b51e0dbb19607b69502b23f5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:81cbcfd12ddb0187d00ddc28254c89193defa178b51e0dbb19607b69502b23f5",

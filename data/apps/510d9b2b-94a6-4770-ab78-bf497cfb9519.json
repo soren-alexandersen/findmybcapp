@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/persondataforordning",
     "sourceHash": "sha256:fbbb07f7acf5704ba8a92eb2dfebd683982112061d0c687784dfe7954b9d47c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fbbb07f7acf5704ba8a92eb2dfebd683982112061d0c687784dfe7954b9d47c4",

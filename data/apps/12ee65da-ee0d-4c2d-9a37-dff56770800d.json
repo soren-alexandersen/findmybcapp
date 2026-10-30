@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/apps/project-forecasting",
     "sourceHash": "sha256:18357b72db9d09d24c07f77e8e1e80e7ee474776bbf373f4c02abc616af19d7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18357b72db9d09d24c07f77e8e1e80e7ee474776bbf373f4c02abc616af19d7c",

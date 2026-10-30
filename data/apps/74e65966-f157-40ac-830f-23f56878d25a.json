@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PRM/",
     "sourceHash": "sha256:33ed473986d18a653c12b74c09da5bf0bdfe6b1abbd0a59cff2bd129f4061cc9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33ed473986d18a653c12b74c09da5bf0bdfe6b1abbd0a59cff2bd129f4061cc9",

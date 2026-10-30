@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-e-ledger",
     "sourceHash": "sha256:c8750e13a4b712415b6255af83950bae129a90763156824d24e4c8991f3664d6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c8750e13a4b712415b6255af83950bae129a90763156824d24e4c8991f3664d6",

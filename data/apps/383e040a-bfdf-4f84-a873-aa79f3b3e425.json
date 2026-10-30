@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.netronic.com/visual-jobs-scheduler-vjs-for-dynamics-365-business-central",
     "sourceHash": "sha256:c76788ac2fbcee623bcfb76af7ff4c7273b288785f43aa17754c64b40f0ad678",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c76788ac2fbcee623bcfb76af7ff4c7273b288785f43aa17754c64b40f0ad678",

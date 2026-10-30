@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://commercium-help.constacloud.com/article/microsoft-business-central-configuration",
     "sourceHash": "sha256:a784c18f40848e1c10f0733319e6dab21dc91c364a305389008daa6b3ebd1080",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a784c18f40848e1c10f0733319e6dab21dc91c364a305389008daa6b3ebd1080",

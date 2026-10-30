@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/squeeze-for-dynamics-365-bc-de-de",
     "sourceHash": "sha256:57d32ee50bd595317cfea764f4a4ac44f4c0701c51faef5abd493aec2d49549c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:57d32ee50bd595317cfea764f4a4ac44f4c0701c51faef5abd493aec2d49549c",

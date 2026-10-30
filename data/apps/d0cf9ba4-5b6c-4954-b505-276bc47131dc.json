@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cloudiaresearch.com/?lang=en",
     "sourceHash": "sha256:752520183e2bce470f12aae45be30b61f4aad8498d0731f4fe86e3d864309406",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:752520183e2bce470f12aae45be30b61f4aad8498d0731f4fe86e3d864309406",

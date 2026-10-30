@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://saifytech.com/contact-us",
     "sourceHash": "sha256:49160b7395c39a4db32c9fea3675c78048397feea1d20448b55b9e4371e2361d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:49160b7395c39a4db32c9fea3675c78048397feea1d20448b55b9e4371e2361d",

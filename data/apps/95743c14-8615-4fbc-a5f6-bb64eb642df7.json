@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/MaddenAnalytics",
     "sourceHash": "sha256:6ad91e678f35c9eed8e7bdc56828d98793900af9fd2f10f2360e7a9cbbb227b6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6ad91e678f35c9eed8e7bdc56828d98793900af9fd2f10f2360e7a9cbbb227b6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/incoming_container_handling",
     "sourceHash": "sha256:bbb9c3f4500d5d1517d5401e933e3ff3219e80202211d4d1657973f24354374c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bbb9c3f4500d5d1517d5401e933e3ff3219e80202211d4d1657973f24354374c",

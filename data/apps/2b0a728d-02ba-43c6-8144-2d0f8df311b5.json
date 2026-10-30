@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/subscriptioninvoice",
     "sourceHash": "sha256:2d5b8b6f9d11d3fd3ba79a2a4ec72c5d694bce0419ee9f98036c9e456fb31004",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2d5b8b6f9d11d3fd3ba79a2a4ec72c5d694bce0419ee9f98036c9e456fb31004",

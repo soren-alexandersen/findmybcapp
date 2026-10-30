@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/quality-management-upgrade-powertool/product-help/",
     "sourceHash": "sha256:2547b6cd0f27141ba069825d422d84f2260d285b48bc66c3a9c772df97bbb80e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2547b6cd0f27141ba069825d422d84f2260d285b48bc66c3a9c772df97bbb80e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/license-plating/product-help/",
     "sourceHash": "sha256:e78d2af93a5ad073192cf3c215a2742d21e07f478c189fe63628b3e9b1b52b9c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e78d2af93a5ad073192cf3c215a2742d21e07f478c189fe63628b3e9b1b52b9c",

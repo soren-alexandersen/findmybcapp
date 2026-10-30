@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://volodver.com/apps/data-editor-tool",
     "sourceHash": "sha256:649b86d5d01c99276c7a4648847a82f9cc8b7be529605d59856454f15d6b8259",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:649b86d5d01c99276c7a4648847a82f9cc8b7be529605d59856454f15d6b8259",

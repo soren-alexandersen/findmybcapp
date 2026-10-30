@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.chift.eu/help/connectors/8012",
     "sourceHash": "sha256:73057a0a08fc0c74a1d6109c03340a0b889c8ae0bc7e9598411c7609e9c86911",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:73057a0a08fc0c74a1d6109c03340a0b889c8ae0bc7e9598411c7609e9c86911",

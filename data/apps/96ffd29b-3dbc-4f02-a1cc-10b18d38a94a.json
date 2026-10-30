@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bittaapps.com/solutions/universal-search",
     "sourceHash": "sha256:c0063d175db96c35b4dd99dfe36000f5f1d46d52fcd401ae50e43e232e16e9a9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c0063d175db96c35b4dd99dfe36000f5f1d46d52fcd401ae50e43e232e16e9a9",

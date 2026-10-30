@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/ui-extensions-tax-file-formats-dk",
     "sourceHash": "sha256:7687ffa2b2779f760007c96eef76762e8e0ebef5146a26f7ae0690e3c95dc180",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7687ffa2b2779f760007c96eef76762e8e0ebef5146a26f7ae0690e3c95dc180",

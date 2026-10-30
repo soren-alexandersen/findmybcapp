@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/engineering-to-order.html",
     "sourceHash": "sha256:2cd9baccea5fc5eb0919fbbec2bcc31b013366d114e5d227ad3614f52d9db2c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2cd9baccea5fc5eb0919fbbec2bcc31b013366d114e5d227ad3614f52d9db2c2",

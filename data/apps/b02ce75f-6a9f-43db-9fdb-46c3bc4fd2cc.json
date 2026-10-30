@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-add-ons/be-terna-reactor-mobile-logistics",
     "sourceHash": "sha256:5c80d2eeb4ec994997829b6b4f7fd2a77c011b2b2edfc770d0f6513fffaec2b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c80d2eeb4ec994997829b6b4f7fd2a77c011b2b2edfc770d0f6513fffaec2b3",

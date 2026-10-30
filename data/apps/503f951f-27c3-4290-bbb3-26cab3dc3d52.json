@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.one-it.nl/contact",
     "sourceHash": "sha256:b9a57f5424eadca56a2e32d1753a309c398aed0462e2034ba107d9f8a0b35e98",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b9a57f5424eadca56a2e32d1753a309c398aed0462e2034ba107d9f8a0b35e98",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/inventory-planner",
     "sourceHash": "sha256:8abc344326751c8d25d017d8591f97aff7058051936983d2ed1b2c9e4d72f9c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8abc344326751c8d25d017d8591f97aff7058051936983d2ed1b2c9e4d72f9c2",

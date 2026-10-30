@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PDV",
     "sourceHash": "sha256:752cd991f1aa27c4c3efa4672b9c629fd920bf50acc5a6c832420b63711e3a74",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:752cd991f1aa27c4c3efa4672b9c629fd920bf50acc5a6c832420b63711e3a74",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcdocs.staedean.com/md/en-US/CONPE_1001",
     "sourceHash": "sha256:e80251df6baa4e9e582b8c48e09d6ab010ec53efcd83ef8ac661c8244a992dbe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e80251df6baa4e9e582b8c48e09d6ab010ec53efcd83ef8ac661c8244a992dbe",

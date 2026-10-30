@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/WSC/",
     "sourceHash": "sha256:7b5d2bf2628579bb60952be35905cef8a08a496c306438378b49489f3617aa31",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7b5d2bf2628579bb60952be35905cef8a08a496c306438378b49489f3617aa31",

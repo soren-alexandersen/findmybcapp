@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.itsuitsfashion.com/itsuitsfashion365/support/",
     "sourceHash": "sha256:1c266f9f8171be3eaa50ecb849273eb4cc2320874bbd735fa2e333ea3c32770e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1c266f9f8171be3eaa50ecb849273eb4cc2320874bbd735fa2e333ea3c32770e",

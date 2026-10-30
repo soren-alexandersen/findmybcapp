@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://portal.bydynamics.com/",
     "sourceHash": "sha256:324aa68ef747e65e78913a81ca37e94773a0c5a9abad158a685437bf6a458610",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:324aa68ef747e65e78913a81ca37e94773a0c5a9abad158a685437bf6a458610",

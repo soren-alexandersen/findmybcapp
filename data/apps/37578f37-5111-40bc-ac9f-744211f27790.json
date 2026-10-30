@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.starshipit.com/",
     "sourceHash": "sha256:86df33f31bf895de8aacd18d4bf54d5a4784cacca79c60717e3fcef31c1a999e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86df33f31bf895de8aacd18d4bf54d5a4784cacca79c60717e3fcef31c1a999e",

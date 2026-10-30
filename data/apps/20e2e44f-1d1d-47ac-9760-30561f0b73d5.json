@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/user-restrictions-by-dimensions",
     "sourceHash": "sha256:935a6bb61426cf80832ab3035d3c88e9af810347139b84bc2a5a99d67b8913a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:935a6bb61426cf80832ab3035d3c88e9af810347139b84bc2a5a99d67b8913a7",

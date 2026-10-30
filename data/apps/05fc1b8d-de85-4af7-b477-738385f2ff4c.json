@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/commissions-management/",
     "sourceHash": "sha256:cf538de5a3941e674e3dcf32a0d9a7b028b0c18ffacbabd6fac45326a35cf63a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cf538de5a3941e674e3dcf32a0d9a7b028b0c18ffacbabd6fac45326a35cf63a",

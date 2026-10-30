@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.on720.com/",
     "sourceHash": "sha256:c3cb1e51384f941ac949e9dec8a918d4b938d6cf1c06182131ad0249e7b298f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c3cb1e51384f941ac949e9dec8a918d4b938d6cf1c06182131ad0249e7b298f1",

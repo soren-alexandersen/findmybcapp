@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-intercompany-engine/",
     "sourceHash": "sha256:5930b3106bdb90659523b8e3d05ee7355d08ad186846487aba95ab0e0c97225b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5930b3106bdb90659523b8e3d05ee7355d08ad186846487aba95ab0e0c97225b",

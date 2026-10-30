@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/115/",
     "sourceHash": "sha256:a4b0f9b09bf31bedfbd791af3cc119962b11404378c025b9c8c99ec9b7b074e4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a4b0f9b09bf31bedfbd791af3cc119962b11404378c025b9c8c99ec9b7b074e4",

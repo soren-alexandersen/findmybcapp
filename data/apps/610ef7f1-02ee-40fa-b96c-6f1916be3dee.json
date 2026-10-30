@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartedit/documentation",
     "sourceHash": "sha256:31350b1f8958789df26c100198b35ec2b0de4a6a1d15e1a2b71f41697170f07e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:31350b1f8958789df26c100198b35ec2b0de4a6a1d15e1a2b71f41697170f07e",

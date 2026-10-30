@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/project-billing-control/project-billing-and-control",
     "sourceHash": "sha256:3cb211bcdc89e054ef3f8b282412ab5aac9f950e694894e495c3c52627a13923",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3cb211bcdc89e054ef3f8b282412ab5aac9f950e694894e495c3c52627a13923",

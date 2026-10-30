@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/quality-inspector/product-help/",
     "sourceHash": "sha256:3139302d4e0ec3e5912d0ebc43159bc911b23ddec529f4363996be6ee88c9c6d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3139302d4e0ec3e5912d0ebc43159bc911b23ddec529f4363996be6ee88c9c6d",

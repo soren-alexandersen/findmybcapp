@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.pa.com.au/client-support/",
     "sourceHash": "sha256:9e4b99fc8fc50abf03fe33586e952d776b5707c54477a6ea28bb23eab55571a1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e4b99fc8fc50abf03fe33586e952d776b5707c54477a6ea28bb23eab55571a1",

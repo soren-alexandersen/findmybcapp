@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://kb.validsign.eu/",
     "sourceHash": "sha256:c1a7c70d146d46b2fdac48a72a479fd247b49f7685686e7fa5658c49f64566f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1a7c70d146d46b2fdac48a72a479fd247b49f7685686e7fa5658c49f64566f6",

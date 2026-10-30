@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/advanced_pricing_discounts",
     "sourceHash": "sha256:c0169c500a74fb9823ff58d5ad260c800571f0e036d18818ea9465ff2db5747e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c0169c500a74fb9823ff58d5ad260c800571f0e036d18818ea9465ff2db5747e",

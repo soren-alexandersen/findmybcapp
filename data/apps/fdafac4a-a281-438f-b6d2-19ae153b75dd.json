@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.expandit.com/en/expandit-connector---support",
     "sourceHash": "sha256:1872116467ab06dbee1a515a9c2ce09bacd09660d62c6ba4f4ff5928d29e90bc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1872116467ab06dbee1a515a9c2ce09bacd09660d62c6ba4f4ff5928d29e90bc",

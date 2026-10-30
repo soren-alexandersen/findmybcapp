@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/LS-Retail/eCommerce/BC-Shopify/About.htm",
     "sourceHash": "sha256:75f4534b2f5584063675893bfee218529fee1b3eed4d808e6456e2f041ec0936",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:75f4534b2f5584063675893bfee218529fee1b3eed4d808e6456e2f041ec0936",

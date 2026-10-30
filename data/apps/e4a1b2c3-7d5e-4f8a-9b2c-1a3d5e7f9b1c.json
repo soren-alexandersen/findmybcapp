@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wrenchtime.io/docs/maintenancePro/manufacturing/",
     "sourceHash": "sha256:9b3adeaa34780f7b1ce604ac0faf110587120b36d141a6d5d81791099eb61c43",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9b3adeaa34780f7b1ce604ac0faf110587120b36d141a6d5d81791099eb61c43",

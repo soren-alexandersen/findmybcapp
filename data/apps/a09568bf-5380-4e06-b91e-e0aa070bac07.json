@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sealfx.se/en/kontakt-eng",
     "sourceHash": "sha256:e63daa3deba87c7a7091dc8f935f63874325ca34db16b021409733ae34eba7fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e63daa3deba87c7a7091dc8f935f63874325ca34db16b021409733ae34eba7fd",

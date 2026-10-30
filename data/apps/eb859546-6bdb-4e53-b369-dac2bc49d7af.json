@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/log_units",
     "sourceHash": "sha256:dd7a5e6baec42a9aa35b99848d920f0131b403450248d68baeead3d32c87e1b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dd7a5e6baec42a9aa35b99848d920f0131b403450248d68baeead3d32c87e1b7",

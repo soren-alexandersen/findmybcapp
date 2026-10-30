@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/acadon_packaging/1.0.0.0/en-US/index.html",
     "sourceHash": "sha256:c240ef8cbf947df91ee91894d22be69eba02fc2b7e09a4475eda0da948f242b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c240ef8cbf947df91ee91894d22be69eba02fc2b7e09a4475eda0da948f242b0",

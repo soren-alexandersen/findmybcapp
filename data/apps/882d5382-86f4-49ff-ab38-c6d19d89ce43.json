@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-nav-addons/visionclaim",
     "sourceHash": "sha256:0e65666892996a6f8f953dba2253ded1a30c9fb9d0ae86ee48ee956b370ab416",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0e65666892996a6f8f953dba2253ded1a30c9fb9d0ae86ee48ee956b370ab416",

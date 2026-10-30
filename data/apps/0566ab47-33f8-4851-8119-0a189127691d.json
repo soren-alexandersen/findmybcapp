@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-gs1",
     "sourceHash": "sha256:1ef2ff18cbc2e6bb3e2caa452bd4ee3def80408a56a0e3dbc3f4b27e59e34ef9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1ef2ff18cbc2e6bb3e2caa452bd4ee3def80408a56a0e3dbc3f4b27e59e34ef9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-turkish-language",
     "sourceHash": "sha256:c4b95ea7bd6930ad4907e2fd98fac09f60f475223b8f4feb5ca510440a5fa369",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c4b95ea7bd6930ad4907e2fd98fac09f60f475223b8f4feb5ca510440a5fa369",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2026/01/Blue-Customs-Tariff-Manual.pdf",
     "sourceHash": "sha256:613cf2e8469fe067d94122521015f1e774750c3db2d716e54ff9aa37a742cbf6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:613cf2e8469fe067d94122521015f1e774750c3db2d716e54ff9aa37a742cbf6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-processing-charge",
     "sourceHash": "sha256:fc6cb4e576a48961defe862fe7e3d02ba075df96ee57d88039359c70956901cb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc6cb4e576a48961defe862fe7e3d02ba075df96ee57d88039359c70956901cb",

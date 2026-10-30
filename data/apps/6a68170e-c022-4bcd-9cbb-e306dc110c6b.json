@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-packing-list/",
     "sourceHash": "sha256:27b3c4b957234ea11f0ba44ece663af743e6416db9cb1c517e620144cb633d5e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:27b3c4b957234ea11f0ba44ece663af743e6416db9cb1c517e620144cb633d5e",

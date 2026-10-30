@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/api",
     "sourceHash": "sha256:c547eac8f327c7ce2a726eccb3f0bd107b8c8049a840fd76f1a58313fc24b0f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c547eac8f327c7ce2a726eccb3f0bd107b8c8049a840fd76f1a58313fc24b0f8",

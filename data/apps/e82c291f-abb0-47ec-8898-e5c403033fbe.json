@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-stores-logistics/",
     "sourceHash": "sha256:cd16023c88cd677680c002b7a1c0dc2bc0f2ae3939fb90fd0d04eca5626f4805",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cd16023c88cd677680c002b7a1c0dc2bc0f2ae3939fb90fd0d04eca5626f4805",

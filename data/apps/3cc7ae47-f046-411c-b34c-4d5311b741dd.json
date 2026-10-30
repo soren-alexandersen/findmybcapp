@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.4qsolutions.com/application-support/",
     "sourceHash": "sha256:ca9de900e566492ab5450f93a8eff33dbc0436a0e0f9a36c90970e667d8a16ea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca9de900e566492ab5450f93a8eff33dbc0436a0e0f9a36c90970e667d8a16ea",

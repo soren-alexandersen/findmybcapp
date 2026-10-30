@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/itrs",
     "sourceHash": "sha256:80e4dc7b73f8cc50a11051cd5ba67b69a650ecb5329d68bb08df52afd16875b1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:80e4dc7b73f8cc50a11051cd5ba67b69a650ecb5329d68bb08df52afd16875b1",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/freightman/",
     "sourceHash": "sha256:640144a8e4a97e4119e42371dc645e15c20b9923b5704a210da06693f5fa0776",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:640144a8e4a97e4119e42371dc645e15c20b9923b5704a210da06693f5fa0776",

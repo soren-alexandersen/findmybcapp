@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.incentx.com/",
     "sourceHash": "sha256:da2053360e753a4e6869d56dc48e0283e0f01f6d1487380b297e2bd5a8313b1b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:da2053360e753a4e6869d56dc48e0283e0f01f6d1487380b297e2bd5a8313b1b",

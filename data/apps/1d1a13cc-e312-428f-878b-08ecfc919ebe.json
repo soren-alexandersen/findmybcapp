@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/inbound-container-handling/",
     "sourceHash": "sha256:dd3ef9bf1605acb8803e5ba50a8a82b1cca38103a66df655a7a611e1715d44f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd3ef9bf1605acb8803e5ba50a8a82b1cca38103a66df655a7a611e1715d44f6",

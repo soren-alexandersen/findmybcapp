@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-trade-counter/",
     "sourceHash": "sha256:6fb1830940199b49ba73bcec1f57adc2692cfc753ed9097fd552ab66b61395bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6fb1830940199b49ba73bcec1f57adc2692cfc753ed9097fd552ab66b61395bb",

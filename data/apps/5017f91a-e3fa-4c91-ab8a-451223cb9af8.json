@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.smartappbs.com.au/360-insights-for-business-central",
     "sourceHash": "sha256:5b8c5f1baab398f5804f0bad5321ddbf6985bdb4cecd0ef12b33b2a78d106e32",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5b8c5f1baab398f5804f0bad5321ddbf6985bdb4cecd0ef12b33b2a78d106e32",

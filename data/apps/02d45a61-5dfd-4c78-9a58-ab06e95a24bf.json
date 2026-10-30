@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/arxeia-365-connector-ews/",
     "sourceHash": "sha256:03d757810fd2e8b1691ecdafab512c3d655ac803c73886d0b2205f36616bb3d4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:03d757810fd2e8b1691ecdafab512c3d655ac803c73886d0b2205f36616bb3d4",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/split-payment",
     "sourceHash": "sha256:37e56f2dc02959389c95981bdc26a075323ddcc2fd3a0a0bc345eea695fd2b99",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:37e56f2dc02959389c95981bdc26a075323ddcc2fd3a0a0bc345eea695fd2b99",

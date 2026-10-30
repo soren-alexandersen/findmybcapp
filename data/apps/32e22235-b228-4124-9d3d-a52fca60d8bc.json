@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bts.konicaminolta.eu/bt-de/business-transformation-suite",
     "sourceHash": "sha256:6f3bb32d1377dd0c799e023a7ac1c7246279f3733c6a4d1fbf572113a4e2e967",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6f3bb32d1377dd0c799e023a7ac1c7246279f3733c6a4d1fbf572113a4e2e967",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/plm-connector/",
     "sourceHash": "sha256:56aa2169fd7d5d5e09f9c007ab105c096017a467eddb5ce7488fdb8cbebb1438",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:56aa2169fd7d5d5e09f9c007ab105c096017a467eddb5ce7488fdb8cbebb1438",

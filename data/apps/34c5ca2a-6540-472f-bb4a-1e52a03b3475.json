@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-expense-document",
     "sourceHash": "sha256:caeec87b933a135ff81d4f8e1058311ca9b2c3c8eda20594d855ed7b4cff7217",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:caeec87b933a135ff81d4f8e1058311ca9b2c3c8eda20594d855ed7b4cff7217",

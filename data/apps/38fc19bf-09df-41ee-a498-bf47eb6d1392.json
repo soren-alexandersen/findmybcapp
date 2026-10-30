@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bluefort.eu/contact/",
     "sourceHash": "sha256:7bc1ab6327fc742372a38deb16078ad530cd58b45a7d4fc6ba21c6c261015cb2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7bc1ab6327fc742372a38deb16078ad530cd58b45a7d4fc6ba21c6c261015cb2",

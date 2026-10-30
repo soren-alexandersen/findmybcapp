@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/",
     "sourceHash": "sha256:176df1b56896930505f8c9252b0e03d49ea5884d8e966934527e9beebb532b4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:176df1b56896930505f8c9252b0e03d49ea5884d8e966934527e9beebb532b4d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Rental_and_Consumption_Manual.pdf",
     "sourceHash": "sha256:23e5a0eab18f45c50e527cdac56d6eecfd414bc2d8d397aa2a7c7270334f2f94",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:23e5a0eab18f45c50e527cdac56d6eecfd414bc2d8d397aa2a7c7270334f2f94",

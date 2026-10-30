@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://2clickaccounting.support/",
     "sourceHash": "sha256:ec703ea9d3c914e72610b14b779bb2098512290e4e82c519f63daab856778912",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec703ea9d3c914e72610b14b779bb2098512290e4e82c519f63daab856778912",

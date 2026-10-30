@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/LS-Duty-Free.htm",
     "sourceHash": "sha256:8cc82cd0a527069d1c5588526d6a29ba57a642f978fb7474af2664e4fe864b40",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8cc82cd0a527069d1c5588526d6a29ba57a642f978fb7474af2664e4fe864b40",

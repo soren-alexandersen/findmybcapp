@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Voyado%20Integration.htm?Highlight=voyado",
     "sourceHash": "sha256:9a2635b5045101865df996d40529992ca25281e7fd6ee6b5909dd16407353a93",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9a2635b5045101865df996d40529992ca25281e7fd6ee6b5909dd16407353a93",

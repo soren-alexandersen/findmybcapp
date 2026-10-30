@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-weight-management/help",
     "sourceHash": "sha256:1e1907c6ed2f1deca0a19663d19fa2243743a33cc54e07ad8622791118d99959",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1e1907c6ed2f1deca0a19663d19fa2243743a33cc54e07ad8622791118d99959",

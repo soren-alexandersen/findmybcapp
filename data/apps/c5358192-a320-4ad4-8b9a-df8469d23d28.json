@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/products/timber/en-US/index.html",
     "sourceHash": "sha256:a2e5bfadebf5da4c753332c03d0fc8ca695cb585c4db2949804fd8487b91a8d7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a2e5bfadebf5da4c753332c03d0fc8ca695cb585c4db2949804fd8487b91a8d7",

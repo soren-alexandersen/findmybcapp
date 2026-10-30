@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://jemel.lv/docs/notify-user",
     "sourceHash": "sha256:6398366d0c0c3389120a4b121d035c53e52c5e4eba8fab54c013a9606d16e531",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6398366d0c0c3389120a4b121d035c53e52c5e4eba8fab54c013a9606d16e531",

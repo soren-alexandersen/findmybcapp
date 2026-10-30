@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.dynamics.azure.it.konicaminolta.de/AutomaticPostingDate/en-US/intro.html",
     "sourceHash": "sha256:30ccfbcc6bdbb6fc83f47243597d26d8fa99a18764fd4e099693ebc5ad3d1b1b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:30ccfbcc6bdbb6fc83f47243597d26d8fa99a18764fd4e099693ebc5ad3d1b1b",

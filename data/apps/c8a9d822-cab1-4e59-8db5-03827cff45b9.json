@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/production-scheduler/docs",
     "sourceHash": "sha256:4a037987cbaa0ab66135fb0a80c7565a82485e907f4483db6c5cb8e8febdd9d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4a037987cbaa0ab66135fb0a80c7565a82485e907f4483db6c5cb8e8febdd9d8",

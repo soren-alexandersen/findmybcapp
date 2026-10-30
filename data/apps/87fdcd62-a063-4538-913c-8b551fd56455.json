@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ledgercentral.ch/knowledge-base/",
     "sourceHash": "sha256:482b0637b0651c3b25eaa54d419ad9fafbeed0f3cb7071d475a6b91ce16d0760",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:482b0637b0651c3b25eaa54d419ad9fafbeed0f3cb7071d475a6b91ce16d0760",

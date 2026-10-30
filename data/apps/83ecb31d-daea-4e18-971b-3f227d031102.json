@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/docuworkshelp",
     "sourceHash": "sha256:af1e7d10922fcb5802162eb06c46e986ae1aa33ae2a1b0611cf074ef01af22f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:af1e7d10922fcb5802162eb06c46e986ae1aa33ae2a1b0611cf074ef01af22f3",

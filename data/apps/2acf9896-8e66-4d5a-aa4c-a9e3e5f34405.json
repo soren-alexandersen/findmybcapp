@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/extended-combine-shipment.html",
     "sourceHash": "sha256:3c5a913bdd24df7984d33c3a3167c9d5f7afaeb1d55c962b557e6c1a52bade8a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3c5a913bdd24df7984d33c3a3167c9d5f7afaeb1d55c962b557e6c1a52bade8a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.sana-commerce.com/Content/ERP-User-Guide/D365BC/D365BC.htm?tocpath=ERP%20User%20Guide%7CMicrosoft%20Dynamics%20365%20Business%20Central%7C_____1",
     "sourceHash": "sha256:684f6fd3ab0bc5317b3dc6e4553087feaafc6e4841fb4dcaf4cc6a479d5b5a2c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:684f6fd3ab0bc5317b3dc6e4553087feaafc6e4841fb4dcaf4cc6a479d5b5a2c",

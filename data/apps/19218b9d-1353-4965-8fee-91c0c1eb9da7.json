@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/AH",
     "sourceHash": "sha256:b258a100cc53d33bfc012353cfce17373e3f4886261c88b51a9589d3127384c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b258a100cc53d33bfc012353cfce17373e3f4886261c88b51a9589d3127384c8",

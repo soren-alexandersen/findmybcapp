@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/vendor-contract-maintenance/",
     "sourceHash": "sha256:9e915acb77307a8fca08b5484376efbf6a2bdd7cc6eba494afb161e88c5199a1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9e915acb77307a8fca08b5484376efbf6a2bdd7cc6eba494afb161e88c5199a1",

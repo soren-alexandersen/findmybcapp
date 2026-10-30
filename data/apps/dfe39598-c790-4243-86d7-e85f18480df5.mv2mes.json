@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iseteam.com/support/",
     "sourceHash": "sha256:bb433bc44efa25e1a7866a26dae333d34bb19886bd417c818a67669f3af9edad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bb433bc44efa25e1a7866a26dae333d34bb19886bd417c818a67669f3af9edad",

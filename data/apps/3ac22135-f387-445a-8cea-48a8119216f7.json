@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naveksa.com/",
     "sourceHash": "sha256:66d7ef66cd86c810620ed97029981c1df3b53d6bbb12dbee0fc45d4b72e3bc00",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66d7ef66cd86c810620ed97029981c1df3b53d6bbb12dbee0fc45d4b72e3bc00",

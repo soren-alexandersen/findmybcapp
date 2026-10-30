@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.coderhino.net/apps/abc-inventory-classification",
     "sourceHash": "sha256:ac7b2f5179fa27ac7ac2ef919da4b5dce003af272d6b374089b607267bb319d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac7b2f5179fa27ac7ac2ef919da4b5dce003af272d6b374089b607267bb319d5",

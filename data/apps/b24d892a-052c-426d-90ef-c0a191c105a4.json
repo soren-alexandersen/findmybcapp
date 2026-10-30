@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://curabis.dk/en/apps-for-business-central/project-management-365-app/",
     "sourceHash": "sha256:362bf6cbfc7d09c8173c8ca795f8b96d58c56a5a0b2e171cbe20c7c9a53f633b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:362bf6cbfc7d09c8173c8ca795f8b96d58c56a5a0b2e171cbe20c7c9a53f633b",

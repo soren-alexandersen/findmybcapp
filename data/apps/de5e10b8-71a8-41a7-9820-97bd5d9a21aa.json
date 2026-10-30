@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://syssolutionsllc.com/user-guides/sellercloud-integration-for-d365-business-central/",
     "sourceHash": "sha256:ed5e77fb5cb84fdca4a97800c516954d4ac774561e90cf20d0c34817766d2bf0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ed5e77fb5cb84fdca4a97800c516954d4ac774561e90cf20d0c34817766d2bf0",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-item-contribution/",
     "sourceHash": "sha256:b3d5bf1fcf02424b031e150dd1bf2f1811e138f70237d6c1db8f8a1e60a6af82",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b3d5bf1fcf02424b031e150dd1bf2f1811e138f70237d6c1db8f8a1e60a6af82",

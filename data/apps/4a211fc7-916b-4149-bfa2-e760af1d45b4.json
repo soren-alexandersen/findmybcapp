@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://flankspeed.se/en/mediusgo/",
     "sourceHash": "sha256:b70bb6b75438cd8204882724ad55e95eac61253ecd86db611e4e9c7a30f87fbb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b70bb6b75438cd8204882724ad55e95eac61253ecd86db611e4e9c7a30f87fbb",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.apcommerce.com/contact-us/",
     "sourceHash": "sha256:dcfefc94bd2dfb2bd8e2bd0839d4bd2fef661b13d7601a9832cb1b8797f71393",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dcfefc94bd2dfb2bd8e2bd0839d4bd2fef661b13d7601a9832cb1b8797f71393",

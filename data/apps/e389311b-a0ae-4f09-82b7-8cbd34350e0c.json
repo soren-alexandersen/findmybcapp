@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics-inspire.com/wp-content/uploads/2024/06/eazyhrm.pdf",
     "sourceHash": "sha256:4c149e6c2e8d12a92fb2f7e66ddfe053f78e0b9ba7a8703a9de7396f8d740567",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c149e6c2e8d12a92fb2f7e66ddfe053f78e0b9ba7a8703a9de7396f8d740567",

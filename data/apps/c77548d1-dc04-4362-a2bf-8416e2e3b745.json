@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-telesales/",
     "sourceHash": "sha256:be4985d95c38e2bfaef6f0edc50ac1b599ea322ccad86db6e25df4da346a761a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:be4985d95c38e2bfaef6f0edc50ac1b599ea322ccad86db6e25df4da346a761a",

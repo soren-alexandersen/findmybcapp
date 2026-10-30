@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics-connect.co.uk/Apps/dcx-customer-portal",
     "sourceHash": "sha256:071f1130a4678cbbb253eb5b61b25e05b8e2e711603e0a588f6269ff42cbfc73",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:071f1130a4678cbbb253eb5b61b25e05b8e2e711603e0a588f6269ff42cbfc73",

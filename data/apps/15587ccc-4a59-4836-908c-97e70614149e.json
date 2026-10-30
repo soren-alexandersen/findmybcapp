@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://awlatam.com/#contacto",
     "sourceHash": "sha256:90d451b375332f2271db68ec4c2fadecaeb08945fb12aea09483a88517a101f9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:90d451b375332f2271db68ec4c2fadecaeb08945fb12aea09483a88517a101f9",

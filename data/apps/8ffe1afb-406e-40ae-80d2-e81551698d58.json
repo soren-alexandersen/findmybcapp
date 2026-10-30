@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/salon",
     "sourceHash": "sha256:5cbee9d88ce3a6776eaff8022d885ac5ee78849c4de78475284969f28d87e54a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5cbee9d88ce3a6776eaff8022d885ac5ee78849c4de78475284969f28d87e54a",

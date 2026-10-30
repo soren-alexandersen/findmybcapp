@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/parrot/",
     "sourceHash": "sha256:c238bcf3972cacf67cdac3ce32fe8fa0feddcc2116cee852c5911cf66d509c4d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c238bcf3972cacf67cdac3ce32fe8fa0feddcc2116cee852c5911cf66d509c4d",

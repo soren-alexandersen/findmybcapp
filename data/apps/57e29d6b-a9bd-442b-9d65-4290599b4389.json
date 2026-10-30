@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/production-batching",
     "sourceHash": "sha256:b15b2fdc6b1af8ae448920d8c2fa3a7efd0a6b7643eeafc07953009267db3584",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b15b2fdc6b1af8ae448920d8c2fa3a7efd0a6b7643eeafc07953009267db3584",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-physical-inventory-localization-for-lithuania/",
     "sourceHash": "sha256:7a40b712fa1ba57acf56b8205b5cc317bb1dd5d209d7e77ece9baee2d36e652f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7a40b712fa1ba57acf56b8205b5cc317bb1dd5d209d7e77ece9baee2d36e652f",

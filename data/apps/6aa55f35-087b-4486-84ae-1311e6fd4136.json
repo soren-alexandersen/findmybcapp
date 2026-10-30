@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/153/Multi-Currency-Pricing",
     "sourceHash": "sha256:d3c8ca96de3eea84ee6b622f961207f069c7f113af159a455b659d52911d8d58",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d3c8ca96de3eea84ee6b622f961207f069c7f113af159a455b659d52911d8d58",

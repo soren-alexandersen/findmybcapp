@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://lanhamedi.helpdocsonline.com/edigettingstarted",
     "sourceHash": "sha256:48dcd5f0b8bc6505cf5fb50d40f4dc8f700e2e0198744b8562f2a782fffac5b9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:48dcd5f0b8bc6505cf5fb50d40f4dc8f700e2e0198744b8562f2a782fffac5b9",

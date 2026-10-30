@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ttsolutions.com.au/help-installation-guide-terms-of-use/",
     "sourceHash": "sha256:afe16e2b9e7e1cf35abf4e3a23a43328c7637acb8af5c389fe1a384040a33859",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:afe16e2b9e7e1cf35abf4e3a23a43328c7637acb8af5c389fe1a384040a33859",

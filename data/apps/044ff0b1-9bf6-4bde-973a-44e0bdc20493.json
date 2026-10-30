@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bluestarplm.com/business-central-help/",
     "sourceHash": "sha256:405ddba0c418e863de2796464b4d44bb2e7d0705ebc7822c661d469dddc821f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:405ddba0c418e863de2796464b4d44bb2e7d0705ebc7822c661d469dddc821f8",

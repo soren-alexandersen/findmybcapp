@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/documentscanning",
     "sourceHash": "sha256:bb7406fe3de821cef1eb4b7fdc5985fa21d9d1702e706c933480de332a89c0db",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bb7406fe3de821cef1eb4b7fdc5985fa21d9d1702e706c933480de332a89c0db",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/pms-gateway-I56",
     "sourceHash": "sha256:4ca4aaa61fe7fa634e0253b33f1407dc154e8fe57beb22876c820e4022db2185",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ca4aaa61fe7fa634e0253b33f1407dc154e8fe57beb22876c820e4022db2185",

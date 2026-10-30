@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcxray.com/",
     "sourceHash": "sha256:f05191b45637ab3659659e6ef94605c784c7c397ca602ccfb8750e28c063ee3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f05191b45637ab3659659e6ef94605c784c7c397ca602ccfb8750e28c063ee3a",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-tracking/help",
     "sourceHash": "sha256:4c6c58f2869fd4a7b2b6fcb3947778fc4d5ef5f7b7e0896dbfe9a56e7e9c0ad7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c6c58f2869fd4a7b2b6fcb3947778fc4d5ef5f7b7e0896dbfe9a56e7e9c0ad7",

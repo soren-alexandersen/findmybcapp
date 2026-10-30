@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/0ip1a6aptw-shopify-orders-to-msdynamics",
     "sourceHash": "sha256:d06bd32c38c28eea85481fa4799ea6d528a4710c0e5f4a55c90ec578fc43e4b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d06bd32c38c28eea85481fa4799ea6d528a4710c0e5f4a55c90ec578fc43e4b3",

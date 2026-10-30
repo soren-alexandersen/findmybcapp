@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-office-printerconnectors/user-guide.html",
     "sourceHash": "sha256:2ba436ecd9d9b774f2e6674f8a54bebd1c5aa3a5695530e761e9e8b13ff7f610",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2ba436ecd9d9b774f2e6674f8a54bebd1c5aa3a5695530e761e9e8b13ff7f610",

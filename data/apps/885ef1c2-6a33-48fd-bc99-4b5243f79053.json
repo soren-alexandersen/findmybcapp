@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynasol.tech/business-central-multi-bank-payment-export/",
     "sourceHash": "sha256:4556a4af4c6e282d5ae0de5b1b66bf21b5d6a6f64a972a8fd72cbe78fa91ef86",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4556a4af4c6e282d5ae0de5b1b66bf21b5d6a6f64a972a8fd72cbe78fa91ef86",

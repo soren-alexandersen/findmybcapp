@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.verosoftdesign.com/software-products/docstash",
     "sourceHash": "sha256:3a73e44a8520368c274a4164d32991fef2fb4b84c77150a4014d69e53069f216",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3a73e44a8520368c274a4164d32991fef2fb4b84c77150a4014d69e53069f216",

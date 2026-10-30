@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://imstockoptimizer.help.im-projects.com/",
     "sourceHash": "sha256:667abc68cb56615b8ba6c2987587b1d8b0907643b0fbbb9a80d3a0fbe57a93f0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:667abc68cb56615b8ba6c2987587b1d8b0907643b0fbbb9a80d3a0fbe57a93f0",

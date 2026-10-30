@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.intelegain.com/help-support/",
     "sourceHash": "sha256:99e2474bbc43a4ee6c4a3aae8f080953357af73297573d8d96b34a0060b211e4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:99e2474bbc43a4ee6c4a3aae8f080953357af73297573d8d96b34a0060b211e4",

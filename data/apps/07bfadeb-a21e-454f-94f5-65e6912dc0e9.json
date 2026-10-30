@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://tetra365.hu/en/docs/dynamics-365-business-central-pdf-viewer",
     "sourceHash": "sha256:fc20184de29cd724cb58e9b0aad9d2ece21081ad9e9049a2576e7d8aa27b8d76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fc20184de29cd724cb58e9b0aad9d2ece21081ad9e9049a2576e7d8aa27b8d76",

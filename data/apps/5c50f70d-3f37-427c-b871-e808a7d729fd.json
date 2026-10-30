@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tvisiontech.co.uk/business-central-add-ons/",
     "sourceHash": "sha256:fe04812af79813867975b3640b4fa2fbbef7a254ff452f1965108d8d20cba999",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fe04812af79813867975b3640b4fa2fbbef7a254ff452f1965108d8d20cba999",

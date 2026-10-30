@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.invoiced.com/accounts-receivable/integrations",
     "sourceHash": "sha256:fca91f38143c45bfe701fb16224c7a64eb8187cc268253538e48875be018ab48",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fca91f38143c45bfe701fb16224c7a64eb8187cc268253538e48875be018ab48",

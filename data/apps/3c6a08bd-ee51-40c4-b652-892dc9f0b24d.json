@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/auto/index.html",
     "sourceHash": "sha256:6709800156f6ff1579e758cdd8e47a481a2d8a9535d989e45886ce47139042b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6709800156f6ff1579e758cdd8e47a481a2d8a9535d989e45886ce47139042b7",

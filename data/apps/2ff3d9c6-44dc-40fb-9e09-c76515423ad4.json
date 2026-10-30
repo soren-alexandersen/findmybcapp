@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.axians.fr/segment/bms/notre-offre/",
     "sourceHash": "sha256:2917e23ed66e8a6443d8cc55acb784638930e9a87f85378a17522ec9e3671538",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2917e23ed66e8a6443d8cc55acb784638930e9a87f85378a17522ec9e3671538",

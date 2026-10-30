@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/viesconnecthelp",
     "sourceHash": "sha256:72aad0180604d0b0160a466c34ab5f9925fa0fdb1101b59182b44d7589a4f6a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:72aad0180604d0b0160a466c34ab5f9925fa0fdb1101b59182b44d7589a4f6a8",

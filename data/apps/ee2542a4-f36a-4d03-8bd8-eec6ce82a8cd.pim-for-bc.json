@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://doc.dynamicweb.com/service-desk#sideNavTitle1-2",
     "sourceHash": "sha256:b806d7fcfe54922ba39baf1177af627fdb6e6d32332cc936c0b45799fb038a2c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b806d7fcfe54922ba39baf1177af627fdb6e6d32332cc936c0b45799fb038a2c",

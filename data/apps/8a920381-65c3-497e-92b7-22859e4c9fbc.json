@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/time/",
     "sourceHash": "sha256:a1594ee4c8c33eab9dead8805a01877adba09b86c1a7dbc5b9b3d5658c216cff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a1594ee4c8c33eab9dead8805a01877adba09b86c1a7dbc5b9b3d5658c216cff",

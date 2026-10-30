@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/dcj",
     "sourceHash": "sha256:53c4fa2bb690302c05ccb16e991a7d9f6be334af3e2dbb2d6260a4da77e28614",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:53c4fa2bb690302c05ccb16e991a7d9f6be334af3e2dbb2d6260a4da77e28614",

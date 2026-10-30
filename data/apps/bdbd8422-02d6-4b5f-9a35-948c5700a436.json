@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://go.microsoft.com/fwlink/?linkid=2115116",
     "sourceHash": "sha256:69c339aa5989ba53f34c7dbbd42b58f059c269f575bea85ccbe6938e9d227e7c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69c339aa5989ba53f34c7dbbd42b58f059c269f575bea85ccbe6938e9d227e7c",

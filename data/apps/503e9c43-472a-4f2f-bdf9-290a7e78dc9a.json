@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://draycir.freshdesk.com/support/solutions/folders/6000045986/",
     "sourceHash": "sha256:15379517233fa1a4a517bb3c71273281c90b8416caf94664e2ca2b6b1fc895c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:15379517233fa1a4a517bb3c71273281c90b8416caf94664e2ca2b6b1fc895c0",

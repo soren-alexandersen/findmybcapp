@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-annual-leave-management",
     "sourceHash": "sha256:982ac8e4598588c13604fa3bb498b13d0f15cdcca87c8afe5895ba890329fdb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:982ac8e4598588c13604fa3bb498b13d0f15cdcca87c8afe5895ba890329fdb8",

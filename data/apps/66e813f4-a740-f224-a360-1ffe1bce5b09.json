@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.huameisoft.com/index.php?c=show&id=110",
     "sourceHash": "sha256:90c02c9d9727b74d9fd86f52aa882e36e132614aa92a294d807517de8a342b15",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:90c02c9d9727b74d9fd86f52aa882e36e132614aa92a294d807517de8a342b15",

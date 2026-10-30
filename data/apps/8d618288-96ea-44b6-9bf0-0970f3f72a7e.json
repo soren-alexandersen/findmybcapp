@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/cloud-companion-for-outlook/",
     "sourceHash": "sha256:c3b1cdebf32cdbe7545afd6be45d356f4edff7dc88a7d9e162150f0fac7c6b02",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c3b1cdebf32cdbe7545afd6be45d356f4edff7dc88a7d9e162150f0fac7c6b02",

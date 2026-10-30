@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartfinance/documentation/",
     "sourceHash": "sha256:4d5f712590d30e5946483d79db6b286559c1351358a0757ae74f1bc10b0f5ac6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4d5f712590d30e5946483d79db6b286559c1351358a0757ae74f1bc10b0f5ac6",

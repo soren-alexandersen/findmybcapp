@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.navtilus.dk/epr-packaging/introduction/",
     "sourceHash": "sha256:614f073f19eb1680c63606aeab8f0d53312d955bb6708416904fed5134a347d3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:614f073f19eb1680c63606aeab8f0d53312d955bb6708416904fed5134a347d3",

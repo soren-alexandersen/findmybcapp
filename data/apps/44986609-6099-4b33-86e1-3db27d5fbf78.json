@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dsvc.pro/ExportSOtoXML/ExportSOtoXML.htm",
     "sourceHash": "sha256:01d3def6e6b8b9d9d2f52ead2126de6bb2b4eca982854123ed28170fdcdf00c5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:01d3def6e6b8b9d9d2f52ead2126de6bb2b4eca982854123ed28170fdcdf00c5",

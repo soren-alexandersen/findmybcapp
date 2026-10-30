@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/sales-dashboard",
     "sourceHash": "sha256:14e7def6b6b10b42d7c6304001d954bd9e4dd528ee992c7037749dbd5e6713cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:14e7def6b6b10b42d7c6304001d954bd9e4dd528ee992c7037749dbd5e6713cc",

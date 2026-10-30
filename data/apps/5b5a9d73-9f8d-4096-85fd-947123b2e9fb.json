@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/trd/",
     "sourceHash": "sha256:45888b77b23826fe147d6f4e4f429eed3861e5c728071861710f3c46a481d382",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:45888b77b23826fe147d6f4e4f429eed3861e5c728071861710f3c46a481d382",

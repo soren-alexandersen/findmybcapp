@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/FTPClient",
     "sourceHash": "sha256:b665e4f446638ed5b183210cb4638df4e065a7140dc30165d2e5a9e8875f3e73",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b665e4f446638ed5b183210cb4638df4e065a7140dc30165d2e5a9e8875f3e73",

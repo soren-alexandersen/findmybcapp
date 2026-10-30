@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://gmsoftdynamics.com/apps/free/abc-inventory-analysis/docs/",
     "sourceHash": "sha256:9f492f841587d2b73fa69f104bb22a8ce6fcde4e4d532d615abce1b83686a555",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9f492f841587d2b73fa69f104bb22a8ce6fcde4e4d532d615abce1b83686a555",

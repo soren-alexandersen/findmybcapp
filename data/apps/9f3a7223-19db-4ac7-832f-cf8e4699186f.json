@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.combineit.se/",
     "sourceHash": "sha256:25ba9bad9e2e48d77cb002d27999769cc9d5dd11ab8746319a915265e3d9794d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:25ba9bad9e2e48d77cb002d27999769cc9d5dd11ab8746319a915265e3d9794d",

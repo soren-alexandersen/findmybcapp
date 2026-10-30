@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/EIC/docs/Introduction",
     "sourceHash": "sha256:b49bdbc49943054c848a0948b313f8429efa002d264497329a9d42944c6dd6f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b49bdbc49943054c848a0948b313f8429efa002d264497329a9d42944c6dd6f6",

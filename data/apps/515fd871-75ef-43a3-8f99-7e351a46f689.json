@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://rts-business-solutions.github.io/dvm-docs/",
     "sourceHash": "sha256:063c11d0451bebf7896a670f4bca7a8a94d3cdbfd30b76bd8bd471fd6411632b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:063c11d0451bebf7896a670f4bca7a8a94d3cdbfd30b76bd8bd471fd6411632b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sbsiconsulting.fr/apps/data-customizer/",
     "sourceHash": "sha256:2da8afd1783c2f19965e30d210cc6b5a4c570a2d02b997b5b4d4aa9a0787a3b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2da8afd1783c2f19965e30d210cc6b5a4c570a2d02b997b5b4d4aa9a0787a3b5",

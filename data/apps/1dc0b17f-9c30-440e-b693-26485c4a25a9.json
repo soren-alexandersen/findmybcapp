@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.xpandsoftware.com/xpand-portal/xpand-portal-overview.htm",
     "sourceHash": "sha256:d120a3fdd0f2395ea5aa3f3244847a02964508f826b6cd30553a7614a7a4a6ca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d120a3fdd0f2395ea5aa3f3244847a02964508f826b6cd30553a7614a7a4a6ca",

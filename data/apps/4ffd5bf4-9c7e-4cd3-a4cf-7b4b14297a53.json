@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-without-inventory/",
     "sourceHash": "sha256:17a4cafd03d4e9711872c7fcc517ce7de74bbfddeeb786d7e59c990c8c11ea5f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:17a4cafd03d4e9711872c7fcc517ce7de74bbfddeeb786d7e59c990c8c11ea5f",

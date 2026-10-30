@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-ground-control/",
     "sourceHash": "sha256:0266e7cb12176b77f2eee3a811abc76237606251e0d31bd74e7fa17efdd9f873",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0266e7cb12176b77f2eee3a811abc76237606251e0d31bd74e7fa17efdd9f873",

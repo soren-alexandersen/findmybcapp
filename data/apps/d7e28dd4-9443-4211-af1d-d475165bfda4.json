@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.cloudtalk.io/en/articles/7052011-configure-microsoft-dynamics-365-sales?utm_campaign=42250000-Microsoft%20Dynamics%20365%20Marketplace&utm_source=microsoft_dynamics_marketplace&utm_medium=referral",
     "sourceHash": "sha256:0aaf5e5292f4e76dc6277dc6156478a15394d60d6a857744f3cf331fc32517d2",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0aaf5e5292f4e76dc6277dc6156478a15394d60d6a857744f3cf331fc32517d2",

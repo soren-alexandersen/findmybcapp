@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eynasofteam.com/soluciones/fcs/",
     "sourceHash": "sha256:993c3e2e090151cc81afb947212ae7f4e60354d40b98669b6c3073bbbe07da8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:993c3e2e090151cc81afb947212ae7f4e60354d40b98669b6c3073bbbe07da8c",

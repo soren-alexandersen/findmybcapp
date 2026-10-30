@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://arquiconsult.com/yaveon-probatch/",
     "sourceHash": "sha256:3787fdedce49a34990fbdf6aade92a78070d1e5349146e747a1fa2cfeec0133a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3787fdedce49a34990fbdf6aade92a78070d1e5349146e747a1fa2cfeec0133a",

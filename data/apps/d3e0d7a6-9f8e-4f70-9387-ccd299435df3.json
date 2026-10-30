@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/APMOEE/",
     "sourceHash": "sha256:683a46173e392c355b7fc42a40f60566c7b41b5da8f65c725c97da8339f49871",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:683a46173e392c355b7fc42a40f60566c7b41b5da8f65c725c97da8339f49871",

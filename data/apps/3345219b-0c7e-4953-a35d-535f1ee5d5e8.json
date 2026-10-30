@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/time/",
     "sourceHash": "sha256:ed6ac81dd6a1be265760d11661a369aaecbc2de7e8bcf2be5cfe05bd08ab744c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ed6ac81dd6a1be265760d11661a369aaecbc2de7e8bcf2be5cfe05bd08ab744c",

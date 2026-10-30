@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/apps/dcx-process-suite/",
     "sourceHash": "sha256:27a5edbb6865015bf334755990888065a9db38dd45e76a94096d4f5dfadcc22e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:27a5edbb6865015bf334755990888065a9db38dd45e76a94096d4f5dfadcc22e",

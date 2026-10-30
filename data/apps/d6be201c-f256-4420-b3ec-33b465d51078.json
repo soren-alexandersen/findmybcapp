@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.collanashield.com/",
     "sourceHash": "sha256:94232f29d316b318923b624c02ccaa90de62eca7371336add20d6d2cccf21afe",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94232f29d316b318923b624c02ccaa90de62eca7371336add20d6d2cccf21afe",

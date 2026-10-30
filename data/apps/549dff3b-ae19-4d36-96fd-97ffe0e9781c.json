@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://companial.com/empowered-support/",
     "sourceHash": "sha256:fe0e85c0322bc0ef01d8f9a4ce8ab3c592f65b8eec582c88e351762aab23d39c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fe0e85c0322bc0ef01d8f9a4ce8ab3c592f65b8eec582c88e351762aab23d39c",

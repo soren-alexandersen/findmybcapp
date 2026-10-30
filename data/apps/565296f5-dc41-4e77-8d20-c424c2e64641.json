@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.appower.io/",
     "sourceHash": "sha256:e0b8e42af6ebec4515b6bdcca2fc79c87a17e091ca7e695df6703a8b82980cd6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e0b8e42af6ebec4515b6bdcca2fc79c87a17e091ca7e695df6703a8b82980cd6",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-license-manager",
     "sourceHash": "sha256:3609c6599ef7779b8820a11d1872e0d6d8be057ccda7a10646d11494714892e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3609c6599ef7779b8820a11d1872e0d6d8be057ccda7a10646d11494714892e7",

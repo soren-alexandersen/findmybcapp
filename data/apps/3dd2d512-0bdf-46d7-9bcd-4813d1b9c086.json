@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/bydynamics/AL-DynamicDeferrals-Support",
     "sourceHash": "sha256:9ec51c6c92299907141d539bf271e3fb109ad377a5b4007ef176e66f74f076a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9ec51c6c92299907141d539bf271e3fb109ad377a5b4007ef176e66f74f076a5",

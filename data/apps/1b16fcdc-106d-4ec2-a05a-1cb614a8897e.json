@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/softera-delivery",
     "sourceHash": "sha256:5f367814c65350edebfb146c48ae35360f885e0245d7d0287b7647e9c7fe7c64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f367814c65350edebfb146c48ae35360f885e0245d7d0287b7647e9c7fe7c64",

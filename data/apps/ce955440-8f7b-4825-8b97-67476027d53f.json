@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://microcloud360.com.au/contact-us",
     "sourceHash": "sha256:beefa90afa6a57d1527e3ceeba564eafe16c1422d085f11363d62beb094222a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:beefa90afa6a57d1527e3ceeba564eafe16c1422d085f11363d62beb094222a7",

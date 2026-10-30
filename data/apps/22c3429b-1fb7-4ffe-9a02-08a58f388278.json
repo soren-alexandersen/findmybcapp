@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCB",
     "sourceHash": "sha256:5c5b7575ebc16386f961c5eb451d14f708fc002d63f3caa51276653998b1c5a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c5b7575ebc16386f961c5eb451d14f708fc002d63f3caa51276653998b1c5a2",

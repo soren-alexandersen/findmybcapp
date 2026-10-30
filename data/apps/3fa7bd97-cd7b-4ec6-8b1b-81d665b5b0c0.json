@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sherpas.se/boardeaser-for-bc/",
     "sourceHash": "sha256:0a0aba8f54a4f5cb5ba8751691474e79eca74d10bede3182f0bfde62f301e6c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0a0aba8f54a4f5cb5ba8751691474e79eca74d10bede3182f0bfde62f301e6c2",

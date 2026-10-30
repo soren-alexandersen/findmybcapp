@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartsync/documentation/get-started/",
     "sourceHash": "sha256:34221eb1616cebdbaa68de3a50187d5b770cec752b7ed6336ab86047eeb0c7f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:34221eb1616cebdbaa68de3a50187d5b770cec752b7ed6336ab86047eeb0c7f6",

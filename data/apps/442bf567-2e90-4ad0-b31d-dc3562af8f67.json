@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/docfinance-connector-dcf.html",
     "sourceHash": "sha256:0e94db814f115c112c06daf88597884e5f8a5f3641a8156a172ee3e42569c63e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0e94db814f115c112c06daf88597884e5f8a5f3641a8156a172ee3e42569c63e",

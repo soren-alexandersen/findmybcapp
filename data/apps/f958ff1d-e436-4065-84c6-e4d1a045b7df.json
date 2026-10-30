@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/acumens-deposits-prepayments-management/",
     "sourceHash": "sha256:a40218fda0bcd8615d939eb9206761a9c45efe35bebc12c66317b22fc51ea54a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a40218fda0bcd8615d939eb9206761a9c45efe35bebc12c66317b22fc51ea54a",

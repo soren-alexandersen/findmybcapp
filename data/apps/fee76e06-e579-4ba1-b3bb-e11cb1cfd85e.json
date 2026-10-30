@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dicobis.com/apps/#contact",
     "sourceHash": "sha256:3b200520fb245f3d995334bdf02354948916ad149e71437ea3baf091bd94dd14",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3b200520fb245f3d995334bdf02354948916ad149e71437ea3baf091bd94dd14",

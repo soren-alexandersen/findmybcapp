@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://central-solutions.nl/cs-sscc-management-help-en/",
     "sourceHash": "sha256:949e600a70cbc3594cbf4b1ffd442010ef2f477b3e6959d3e1acc3ab639927a9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:949e600a70cbc3594cbf4b1ffd442010ef2f477b3e6959d3e1acc3ab639927a9",

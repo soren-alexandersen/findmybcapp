@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.navtilus.dk/WEEE-BAT-Guide.pdf",
     "sourceHash": "sha256:7f874843e0818523d519295178d4b62c6c845a64627d1880d523611ae8d982cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f874843e0818523d519295178d4b62c6c845a64627d1880d523611ae8d982cc",

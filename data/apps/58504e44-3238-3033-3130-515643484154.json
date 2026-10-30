@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.xpandsoftware.com/qvaba-chat/qvaba-chat-overview.htm",
     "sourceHash": "sha256:8f2dfdbe961528f41721873a048d4390f36f5082360fadf8adde457d6e46c493",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8f2dfdbe961528f41721873a048d4390f36f5082360fadf8adde457d6e46c493",

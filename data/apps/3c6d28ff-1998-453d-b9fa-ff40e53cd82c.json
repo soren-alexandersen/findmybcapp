@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onetech.eu/wms-one/",
     "sourceHash": "sha256:a1944370a60cfb7c6f8b9dcceee40a20a19b92a5dfabc5c130845d2c66b0eb5c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a1944370a60cfb7c6f8b9dcceee40a20a19b92a5dfabc5c130845d2c66b0eb5c",

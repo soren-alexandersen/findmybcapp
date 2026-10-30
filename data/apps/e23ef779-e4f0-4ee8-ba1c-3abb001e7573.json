@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics.folio3.com/dynamics-ax-amazon-connector/",
     "sourceHash": "sha256:b0c56b9702b25308d99d0caf5b1f18cc17474de7b85a34b0196af3369b2571cb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b0c56b9702b25308d99d0caf5b1f18cc17474de7b85a34b0196af3369b2571cb",

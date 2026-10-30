@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bmsgmbh.atlassian.net/wiki/spaces/BD",
     "sourceHash": "sha256:5a50ee55f12bc18a81085da37b1aca86dee642da93ac01a4e9ace704875418af",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5a50ee55f12bc18a81085da37b1aca86dee642da93ac01a4e9ace704875418af",

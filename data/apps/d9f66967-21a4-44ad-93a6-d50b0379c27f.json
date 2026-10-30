@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://queueassoc.com/home/support/",
     "sourceHash": "sha256:0797e7bb9773ea1aabe37b8e7674374294fe02fca1289c812cdc7b826bc220a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0797e7bb9773ea1aabe37b8e7674374294fe02fca1289c812cdc7b826bc220a7",

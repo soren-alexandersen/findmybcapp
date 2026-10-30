@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://amjs-consulting.com/solutions/transfer-order",
     "sourceHash": "sha256:69a74a12c2a2bb687068b6b6c361afd5c966dcfae0b799d711a81c80f8fe6450",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69a74a12c2a2bb687068b6b6c361afd5c966dcfae0b799d711a81c80f8fe6450",

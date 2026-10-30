@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://affiniti.biz/corporate/",
     "sourceHash": "sha256:1da48c00ff5ca555ed4da0e4da1c55693492696bb6ecff04d83667e7cf3a2a4e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1da48c00ff5ca555ed4da0e4da1c55693492696bb6ecff04d83667e7cf3a2a4e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamicpoint.com/customer-and-vendor-portal/",
     "sourceHash": "sha256:00746feef20cba5222c6e43e7a1f05e9e076d9cdb58621d6515f2a0704f68ab8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:00746feef20cba5222c6e43e7a1f05e9e076d9cdb58621d6515f2a0704f68ab8",

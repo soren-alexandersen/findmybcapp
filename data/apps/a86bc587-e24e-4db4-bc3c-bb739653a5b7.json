@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/resources/k3-pebblestone-cargo-management/",
     "sourceHash": "sha256:d8d1b89cfd1d750adee56bc6a64e4ededb22f49e16b7cfb0c70e01a8a8c05f34",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d8d1b89cfd1d750adee56bc6a64e4ededb22f49e16b7cfb0c70e01a8a8c05f34",

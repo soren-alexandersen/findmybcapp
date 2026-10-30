@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.northerndynamic.de/",
     "sourceHash": "sha256:46789fbfb1e42eaf5aeac54f5f8bd48946f5a40d442439623142aa5dddbcd61b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:46789fbfb1e42eaf5aeac54f5f8bd48946f5a40d442439623142aa5dddbcd61b",

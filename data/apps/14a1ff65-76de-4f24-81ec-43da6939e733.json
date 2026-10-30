@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-quality-assurance.html",
     "sourceHash": "sha256:d2904ffcfe26da5336af1618185a121e50984c1d52a8e871750f0388bef1a2fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d2904ffcfe26da5336af1618185a121e50984c1d52a8e871750f0388bef1a2fb",

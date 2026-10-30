@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://novasoft.global/support/",
     "sourceHash": "sha256:39a62b1d29f715bdb0f46f5eba827c3e0d0fd187719c423536e86d4c03247a6e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:39a62b1d29f715bdb0f46f5eba827c3e0d0fd187719c423536e86d4c03247a6e",

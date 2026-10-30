@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Pricing_and_Discounts_Manual.pdf",
     "sourceHash": "sha256:79300732a6e57f9a62bec5f6d6357517eb7a3d0c4c57c3de29f34b2581c9754f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:79300732a6e57f9a62bec5f6d6357517eb7a3d0c4c57c3de29f34b2581c9754f",

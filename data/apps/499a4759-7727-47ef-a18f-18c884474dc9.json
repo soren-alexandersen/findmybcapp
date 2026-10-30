@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bi4dynamics.com/support-app-bc-connector/",
     "sourceHash": "sha256:2f0548d21b53be500557ece0839bc7c83d4b479e49efc5a1eb32b54ef5981f19",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2f0548d21b53be500557ece0839bc7c83d4b479e49efc5a1eb32b54ef5981f19",

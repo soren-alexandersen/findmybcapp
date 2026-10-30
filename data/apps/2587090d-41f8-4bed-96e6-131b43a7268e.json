@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.purchasereminders.apportunix.com/",
     "sourceHash": "sha256:eb554a00d2760dfcb25e10b1e5bc5ad1daaba487c90c4d65ddd99ef4e33866e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:eb554a00d2760dfcb25e10b1e5bc5ad1daaba487c90c4d65ddd99ef4e33866e2",

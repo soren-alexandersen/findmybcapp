@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/regulatory-affairs/",
     "sourceHash": "sha256:7f28f37ca6a1b6392d497d9c70acf197c310f548481dfd6a316c110180825692",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f28f37ca6a1b6392d497d9c70acf197c310f548481dfd6a316c110180825692",

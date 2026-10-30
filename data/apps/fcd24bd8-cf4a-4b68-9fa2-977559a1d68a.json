@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/smart-id/docs/en-US/help",
     "sourceHash": "sha256:e2ab37ea07e18767f111f98f4c86a84b03ce266c87459c113be46ecd1730f9a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e2ab37ea07e18767f111f98f4c86a84b03ce266c87459c113be46ecd1730f9a2",

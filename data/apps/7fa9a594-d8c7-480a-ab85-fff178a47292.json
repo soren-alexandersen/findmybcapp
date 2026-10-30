@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/good-looking-documents/docs",
     "sourceHash": "sha256:22de34a1113de4d3ab8dc22cffee48845e5f9b16243d474b8dcbfead4bc93a51",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:22de34a1113de4d3ab8dc22cffee48845e5f9b16243d474b8dcbfead4bc93a51",

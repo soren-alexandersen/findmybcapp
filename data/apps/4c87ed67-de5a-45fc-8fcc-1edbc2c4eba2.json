@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/qua/",
     "sourceHash": "sha256:94b488df3ff9a5793dd748fd465df3c9cf6e8cd0d0a2eb996773efdf97adbd79",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:94b488df3ff9a5793dd748fd465df3c9cf6e8cd0d0a2eb996773efdf97adbd79",

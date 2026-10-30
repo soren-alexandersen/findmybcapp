@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://extendo.dk/cvr/help.html",
     "sourceHash": "sha256:27f49d0fe838c30c54753802c4d68ee0f867d7ded723334c28f9c7ea91e1aee5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:27f49d0fe838c30c54753802c4d68ee0f867d7ded723334c28f9c7ea91e1aee5",

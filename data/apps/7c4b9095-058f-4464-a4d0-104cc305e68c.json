@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/security",
     "sourceHash": "sha256:f2a95c7511d110172eb049e31fedb0d71a915c14e223f88acb6e549fa93346fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f2a95c7511d110172eb049e31fedb0d71a915c14e223f88acb6e549fa93346fb",

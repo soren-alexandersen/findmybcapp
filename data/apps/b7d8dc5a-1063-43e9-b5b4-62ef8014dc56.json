@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://navcoredev.com/help/DGKUserGuide",
     "sourceHash": "sha256:6000d176cf76c5736ac33a25cb5c5e3b211cb72db7461478a8f8085019f37912",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6000d176cf76c5736ac33a25cb5c5e3b211cb72db7461478a8f8085019f37912",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/docs/en/dms/",
     "sourceHash": "sha256:9fee04149fdd30e82a3b4dcd649d3143f894c32649571b437791b1c2484ab3d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9fee04149fdd30e82a3b4dcd649d3143f894c32649571b437791b1c2484ab3d9",

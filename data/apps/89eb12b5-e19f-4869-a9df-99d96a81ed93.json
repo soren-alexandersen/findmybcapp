@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/dokumentationen/eu-extension-app-de",
     "sourceHash": "sha256:ffeb978a66e61235a8e997729a5030d6c9b4676aea44b52866f82a85a0af07d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ffeb978a66e61235a8e997729a5030d6c9b4676aea44b52866f82a85a0af07d8",

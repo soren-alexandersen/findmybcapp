@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/mdms/index.html",
     "sourceHash": "sha256:8cd2a2f1f55b2f6234a311a1297e97b2f09224e101e81599f12fad167bf3c90a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8cd2a2f1f55b2f6234a311a1297e97b2f09224e101e81599f12fad167bf3c90a",

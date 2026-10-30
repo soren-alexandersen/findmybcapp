@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://kb.apcdynamics.com/books/freight-container-management",
     "sourceHash": "sha256:f26f59e64bdaa383c0fb0ba31e06987c86cb461735407cbd00417a2c2864c535",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f26f59e64bdaa383c0fb0ba31e06987c86cb461735407cbd00417a2c2864c535",

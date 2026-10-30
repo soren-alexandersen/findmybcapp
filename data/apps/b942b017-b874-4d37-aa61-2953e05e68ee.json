@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://intech-systems.com/wp-content/uploads/2021/12/Item_code_generator_usermanual.pdf",
     "sourceHash": "sha256:4bd7c998f87755eac50963e614a9e6416a7a120ba63b6c88eea55721108ec3a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4bd7c998f87755eac50963e614a9e6416a7a120ba63b6c88eea55721108ec3a4",

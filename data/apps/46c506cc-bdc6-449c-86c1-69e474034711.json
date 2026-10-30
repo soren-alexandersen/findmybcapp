@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pay-it/docs/",
     "sourceHash": "sha256:ff7cf9a7915c724e30e0e9fb5b596d647a13d88355de7949fee08083641b1e37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ff7cf9a7915c724e30e0e9fb5b596d647a13d88355de7949fee08083641b1e37",

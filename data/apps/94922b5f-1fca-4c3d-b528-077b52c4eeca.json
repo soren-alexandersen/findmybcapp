@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/Additional-Goods/docs/en-US/help",
     "sourceHash": "sha256:d7a92f145d8453e7b819ef9a43907871dccef1579f92fdf62952ed80180803ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d7a92f145d8453e7b819ef9a43907871dccef1579f92fdf62952ed80180803ab",

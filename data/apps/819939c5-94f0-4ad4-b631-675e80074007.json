@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-auto-mail",
     "sourceHash": "sha256:24b83f2499dc940c96aa568831cffe45e3ec213b34ce40518689a6cb04722530",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:24b83f2499dc940c96aa568831cffe45e3ec213b34ce40518689a6cb04722530",

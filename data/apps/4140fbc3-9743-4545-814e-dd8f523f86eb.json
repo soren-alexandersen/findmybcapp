@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/APR/",
     "sourceHash": "sha256:6012892108836c2216c97c0059dc54cd3f718a3ae1316cfe4835b9eae8ed430c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6012892108836c2216c97c0059dc54cd3f718a3ae1316cfe4835b9eae8ed430c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://staedean.com/data/solution/dynamics-365-edi-integration",
     "sourceHash": "sha256:3e2131654d7a9913b72c4db9462ccee8dbe23a1930031f44edd9e51f9fae249e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e2131654d7a9913b72c4db9462ccee8dbe23a1930031f44edd9e51f9fae249e",

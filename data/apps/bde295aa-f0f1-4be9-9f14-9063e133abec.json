@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/gaeb/",
     "sourceHash": "sha256:6cf1401fac1b0cddfe720925385f44d26fad498b8b10ba18a08d0f05c409d003",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6cf1401fac1b0cddfe720925385f44d26fad498b8b10ba18a08d0f05c409d003",

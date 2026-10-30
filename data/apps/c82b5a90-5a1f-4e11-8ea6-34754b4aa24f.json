@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nodefusion.com/en-us/solutions/",
     "sourceHash": "sha256:860b1e4f289091bc3f53f8bdc9d36d96a4738ded3b95d5128c0930a796f77e37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:860b1e4f289091bc3f53f8bdc9d36d96a4738ded3b95d5128c0930a796f77e37",

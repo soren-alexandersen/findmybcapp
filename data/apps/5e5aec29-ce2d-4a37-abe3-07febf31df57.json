@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navtilus.dk/SimpleAPI-UserGuide.pdf",
     "sourceHash": "sha256:464a7f37812a356a29cca07034dec17418ec3556da7b2e7c78f89fb2934512f2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:464a7f37812a356a29cca07034dec17418ec3556da7b2e7c78f89fb2934512f2",

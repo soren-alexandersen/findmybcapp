@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralRecurringInvoices/Help",
     "sourceHash": "sha256:a42381b07bd9fe72d50038a4880ca6edce8dc123a59d084ec319fef8920d41e0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a42381b07bd9fe72d50038a4880ca6edce8dc123a59d084ec319fef8920d41e0",

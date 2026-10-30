@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-turkish-localization-legislation",
     "sourceHash": "sha256:153dc1613d138a3cc1c2e40b2d6d632df84b114250a3b073f23291831495b7c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:153dc1613d138a3cc1c2e40b2d6d632df84b114250a3b073f23291831495b7c4",

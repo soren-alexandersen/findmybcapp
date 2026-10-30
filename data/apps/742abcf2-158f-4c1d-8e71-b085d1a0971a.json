@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/whse/index.html",
     "sourceHash": "sha256:87113a860380d1e3790fec9289d10609d38244bcbb8e4a740484d5df578ef18d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:87113a860380d1e3790fec9289d10609d38244bcbb8e4a740484d5df578ef18d",

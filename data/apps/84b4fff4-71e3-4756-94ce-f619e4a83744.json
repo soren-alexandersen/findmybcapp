@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://closecore.com/",
     "sourceHash": "sha256:f97e83ffbd1734ffa483410c472bb0062afe61a3b8dbc725cd9505b62e924ffe",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f97e83ffbd1734ffa483410c472bb0062afe61a3b8dbc725cd9505b62e924ffe",

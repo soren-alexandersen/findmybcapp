@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://edoc.de/softwareprodukte/edoc-digital-solutions-for-microsoft-dynamics-erp",
     "sourceHash": "sha256:1e3bb0c322b83fc86991cf1fc5cf9ad6eca7c8a1617ca707efd73a9a0bd12de8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1e3bb0c322b83fc86991cf1fc5cf9ad6eca7c8a1617ca707efd73a9a0bd12de8",

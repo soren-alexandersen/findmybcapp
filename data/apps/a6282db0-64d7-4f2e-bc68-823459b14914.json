@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.adbriq.com/bisting_core_bc/Help.pdf",
     "sourceHash": "sha256:37d267d32e71e16c1d3d9824501c26705b8dcc743ec82265bd508dacc856617a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:37d267d32e71e16c1d3d9824501c26705b8dcc743ec82265bd508dacc856617a",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ornith.de/dwbcmanual",
     "sourceHash": "sha256:ced4f60a836ade564776dfda459054efb9984fdd3c877b3b9707d7b9c3b64a48",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ced4f60a836ade564776dfda459054efb9984fdd3c877b3b9707d7b9c3b64a48",

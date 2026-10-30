@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tso.de/dmscmf/en/",
     "sourceHash": "sha256:7b071b9350f0d6ecf8cb387be547a4ccb9b895a84781a8cd597c12c915fae3b6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7b071b9350f0d6ecf8cb387be547a4ccb9b895a84781a8cd597c12c915fae3b6",

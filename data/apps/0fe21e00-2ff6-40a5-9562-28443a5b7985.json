@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/auto-add-item-lines/",
     "sourceHash": "sha256:00b605ee96e0dade5a27f14abecdd72e53e2364b110193ee0927825d040561c3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:00b605ee96e0dade5a27f14abecdd72e53e2364b110193ee0927825d040561c3",

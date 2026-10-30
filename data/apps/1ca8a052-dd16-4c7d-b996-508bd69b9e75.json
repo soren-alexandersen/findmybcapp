@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nbgroup.es/wp-content/uploads/nbconectorPrestaShop_BC_en_v.1.0.pdf",
     "sourceHash": "sha256:1dd9235894330a0a3af62c1e538a7234fd6a769baa4e2036b09612bb18ebb04c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1dd9235894330a0a3af62c1e538a7234fd6a769baa4e2036b09612bb18ebb04c",

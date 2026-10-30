@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.dynamics.azure.it.konicaminolta.de/AlternatePositions/en-US/intro.html",
     "sourceHash": "sha256:1fdba18ce271cb64db5bdda5704963908cb1b547ea5ac8ea3065b06019f6ac0a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1fdba18ce271cb64db5bdda5704963908cb1b547ea5ac8ea3065b06019f6ac0a",

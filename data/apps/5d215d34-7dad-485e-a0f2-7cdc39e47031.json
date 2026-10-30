@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navitec.cz/sprava-smluv",
     "sourceHash": "sha256:487d03904c36deac94ce1afd42798cfe395487dfa3dbf5619152fd06fd75398d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:487d03904c36deac94ce1afd42798cfe395487dfa3dbf5619152fd06fd75398d",

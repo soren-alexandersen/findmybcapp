@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.novaterrae.nl/support/",
     "sourceHash": "sha256:a4977342ef532146dcf4b6b64bcafef1c95820b549e7829c340fa5d918db7c66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a4977342ef532146dcf4b6b64bcafef1c95820b549e7829c340fa5d918db7c66",

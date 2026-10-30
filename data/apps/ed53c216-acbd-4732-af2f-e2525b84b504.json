@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.one-core.com/onecore-docs",
     "sourceHash": "sha256:ad6f0042f6fa3d8c2565b2c15cfbe0f0102d7bce5dafc0ed7d2217f58ac74acb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ad6f0042f6fa3d8c2565b2c15cfbe0f0102d7bce5dafc0ed7d2217f58ac74acb",

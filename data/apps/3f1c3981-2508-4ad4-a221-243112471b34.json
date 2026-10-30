@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.rsbt.de/wp-content/uploads/onlinehelp/fastcore/en-EN/index.html",
     "sourceHash": "sha256:991799a025bdd4acc967d1025b027483d8626bccd19329b75baa8a43ee3941ca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:991799a025bdd4acc967d1025b027483d8626bccd19329b75baa8a43ee3941ca",

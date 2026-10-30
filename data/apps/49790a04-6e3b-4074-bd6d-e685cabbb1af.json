@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/global-master-data-sync/#howto",
     "sourceHash": "sha256:7c10ec1a58932a28c4d77c48df3f017134efd747302179346bfe612a49b9d793",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7c10ec1a58932a28c4d77c48df3f017134efd747302179346bfe612a49b9d793",

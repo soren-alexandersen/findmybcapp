@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.fs-soft.at/",
     "sourceHash": "sha256:5e3d8b09d83a21f781b7fa78c11de4b67323fabf196355b7bb7028f68e84ab26",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5e3d8b09d83a21f781b7fa78c11de4b67323fabf196355b7bb7028f68e84ab26",

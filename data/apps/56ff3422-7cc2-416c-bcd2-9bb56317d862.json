@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/multi-level-bom-viewer/product-help/",
     "sourceHash": "sha256:609eec8276e2c3ab63d6f85adfce966cb79bd32ddb1b43254b051d3eed2c76d1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:609eec8276e2c3ab63d6f85adfce966cb79bd32ddb1b43254b051d3eed2c76d1",

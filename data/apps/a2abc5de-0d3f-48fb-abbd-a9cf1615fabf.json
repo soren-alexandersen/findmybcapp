@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/help/warehouseq",
     "sourceHash": "sha256:8ad2580aee3602a90f70f91fc63975afc848f5df7edef09126446d0751976e64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8ad2580aee3602a90f70f91fc63975afc848f5df7edef09126446d0751976e64",

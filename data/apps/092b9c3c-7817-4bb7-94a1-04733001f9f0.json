@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Contract%20Billing/Index/",
     "sourceHash": "sha256:05011a43e28a47248a5408805976b7f3260372bae01bb99f6494512c1d082a77",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:05011a43e28a47248a5408805976b7f3260372bae01bb99f6494512c1d082a77",

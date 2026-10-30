@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/PublicHolidays",
     "sourceHash": "sha256:2a48e489404060a8534d1d9923c050ade5890696225ba95bfdd67f574a617a3b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2a48e489404060a8534d1d9923c050ade5890696225ba95bfdd67f574a617a3b",

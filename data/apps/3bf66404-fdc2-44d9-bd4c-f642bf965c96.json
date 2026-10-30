@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/TMS/",
     "sourceHash": "sha256:83d163129ff8252aff62783f8fda0721692f395e982b1f4b4c1141102e46b44b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:83d163129ff8252aff62783f8fda0721692f395e982b1f4b4c1141102e46b44b",

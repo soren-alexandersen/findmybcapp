@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/QCA/",
     "sourceHash": "sha256:0df15dd6de8d0d38faede258e2cc258ff387f8ec8da8f793f1f0c4a83818e9b9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0df15dd6de8d0d38faede258e2cc258ff387f8ec8da8f793f1f0c4a83818e9b9",

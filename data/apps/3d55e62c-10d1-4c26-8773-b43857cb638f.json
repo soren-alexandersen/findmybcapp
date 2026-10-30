@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/import-export-powertool/product-help/",
     "sourceHash": "sha256:a3cd5572fcb8f469246cba47cea607156263e042a3e91488f7990bc88227b85d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a3cd5572fcb8f469246cba47cea607156263e042a3e91488f7990bc88227b85d",

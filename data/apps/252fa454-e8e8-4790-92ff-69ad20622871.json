@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/company-as-dimension-1",
     "sourceHash": "sha256:ec223a5ee48b66766b414d3d9e4d12a112e8e422a9452ed88e7818614aac3d18",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec223a5ee48b66766b414d3d9e4d12a112e8e422a9452ed88e7818614aac3d18",

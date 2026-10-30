@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/localfunctionality/unitedkingdom/united-kingdom-local-functionality",
     "sourceHash": "sha256:5d388b3864fba5198e3853031de68846545d43ffc431418bb426b566518ff9bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5d388b3864fba5198e3853031de68846545d43ffc431418bb426b566518ff9bb",

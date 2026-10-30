@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/QCL/",
     "sourceHash": "sha256:90d9f00fcea7fd6b277318ed45a45aa30ad30a5728a17508c9b61dd48bf7cd68",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:90d9f00fcea7fd6b277318ed45a45aa30ad30a5728a17508c9b61dd48bf7cd68",

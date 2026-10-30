@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/edi/docs/",
     "sourceHash": "sha256:7494bc347901ad757a36fca3e97f3c91b8a7b3ab684503ec6ef82eea71f95b67",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7494bc347901ad757a36fca3e97f3c91b8a7b3ab684503ec6ef82eea71f95b67",

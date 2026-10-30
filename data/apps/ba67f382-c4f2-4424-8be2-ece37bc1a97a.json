@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Parallel-Cost-Posting/",
     "sourceHash": "sha256:726eced40e9c4d83ed1955361bf637124b89a8008100322bd7c6623f051235f4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:726eced40e9c4d83ed1955361bf637124b89a8008100322bd7c6623f051235f4",

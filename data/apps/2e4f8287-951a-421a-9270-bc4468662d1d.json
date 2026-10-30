@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://deltanexx.com/helpdexx-support/",
     "sourceHash": "sha256:f4e7438e447f66dbe0c5a517880e31e15cb509e6a3565c5b7d3d12190da97eaa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f4e7438e447f66dbe0c5a517880e31e15cb509e6a3565c5b7d3d12190da97eaa",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://appsource.prodwaregroup.com/help/distribution",
     "sourceHash": "sha256:a1e98b7539df0dc5d08df3114f0c54a18e40af3f48dfbc08e0ed28ee799f0a5c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a1e98b7539df0dc5d08df3114f0c54a18e40af3f48dfbc08e0ed28ee799f0a5c",

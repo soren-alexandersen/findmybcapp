@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kb.mpzmail.com/hc/en-us/articles/360030860151-Connect-Dynamics-CRM-to-MPZMail",
     "sourceHash": "sha256:d907330589c564d8c86ddb0b66daba3d52789b604ae5bd2a78bc447670500e7a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d907330589c564d8c86ddb0b66daba3d52789b604ae5bd2a78bc447670500e7a",

@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ofchu.com/help_support.html",
     "sourceHash": "sha256:e5c8cc4afe90dbdfee8da85c5ceb52ef3185a412ea58ba953b011e99426d2e1a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e5c8cc4afe90dbdfee8da85c5ceb52ef3185a412ea58ba953b011e99426d2e1a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://analytics.clickdimensions.com/cn/ap8g0/easyintegrate",
     "sourceHash": "sha256:3a978981aba0965213414d84ebdf46614bef81488cd675f97dfadbc6a48d25c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3a978981aba0965213414d84ebdf46614bef81488cd675f97dfadbc6a48d25c6",

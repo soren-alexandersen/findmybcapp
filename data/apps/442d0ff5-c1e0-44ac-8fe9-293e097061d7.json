@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eliteit.dk/en/contact/",
     "sourceHash": "sha256:c9600dc792ffa8b8af4658be18a5e0add3d18b1b53bab0c6246885442556bc92",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c9600dc792ffa8b8af4658be18a5e0add3d18b1b53bab0c6246885442556bc92",

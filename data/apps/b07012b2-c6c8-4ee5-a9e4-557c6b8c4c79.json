@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/DLC/",
     "sourceHash": "sha256:3cf09cc190c671e8cab440b772ce60ed26b647722d7d607afc2394cb8f631ba7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3cf09cc190c671e8cab440b772ce60ed26b647722d7d607afc2394cb8f631ba7",

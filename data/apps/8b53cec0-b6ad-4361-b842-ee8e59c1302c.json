@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/DMS",
     "sourceHash": "sha256:4a0aa60c1756f05352b0c75813e53979a280eb8c29e9b3387334f6c4c1b6748e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4a0aa60c1756f05352b0c75813e53979a280eb8c29e9b3387334f6c4c1b6748e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralApply/Help",
     "sourceHash": "sha256:3ed9d1009ecbe527bfb7221bd5bf368e3c953be772e882a4ca923a85b259c01a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3ed9d1009ecbe527bfb7221bd5bf368e3c953be772e882a4ca923a85b259c01a",

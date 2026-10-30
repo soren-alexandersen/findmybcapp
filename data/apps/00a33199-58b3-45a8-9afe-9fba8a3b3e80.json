@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-tire-sales/",
     "sourceHash": "sha256:7cecc02343d29e6e20086e17d10a5e40e6c1c45b28b12311610c8f1cbec9f3a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7cecc02343d29e6e20086e17d10a5e40e6c1c45b28b12311610c8f1cbec9f3a4",

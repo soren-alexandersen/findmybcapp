@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.davisa.es/soporte/",
     "sourceHash": "sha256:54c67d2b242838ce88debb3a05824d945d4479f6ee128d19e5e573876c8249ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:54c67d2b242838ce88debb3a05824d945d4479f6ee128d19e5e573876c8249ec",

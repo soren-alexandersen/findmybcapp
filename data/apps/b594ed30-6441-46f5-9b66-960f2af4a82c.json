@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Container%20Shipment%20Manual.pdf",
     "sourceHash": "sha256:0aff435e87029f94b965a409aa95fed9be1d9f3761b91c60b0c89b6bf495923d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0aff435e87029f94b965a409aa95fed9be1d9f3761b91c60b0c89b6bf495923d",

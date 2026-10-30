@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.i95dev.com/shopify-erp-integration/shopify-microsoft-dynamics-365-business-central-connect/?utm_source=sbcappsource&utm_medium=longdesc&utm_campaign=appsourcelisting&utm_content=help",
     "sourceHash": "sha256:9d3eb02e41815b660b53a2a752baf739845065bdbbeeb070b906850561cfcba1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9d3eb02e41815b660b53a2a752baf739845065bdbbeeb070b906850561cfcba1",

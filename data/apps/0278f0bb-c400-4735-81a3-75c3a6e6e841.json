@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/353/Slovenian-Language",
     "sourceHash": "sha256:3e1092bd4c1b9810f9a7d9922d6ebb689d047a14b19b3c5eea84454aa12972ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3e1092bd4c1b9810f9a7d9922d6ebb689d047a14b19b3c5eea84454aa12972ec",

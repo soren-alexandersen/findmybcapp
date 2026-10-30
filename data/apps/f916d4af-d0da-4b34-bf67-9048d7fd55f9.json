@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/pdm/",
     "sourceHash": "sha256:e36ed062aaa3b4701b798ef7d0354dc7672fc379794020d7c8fb2729b254844b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e36ed062aaa3b4701b798ef7d0354dc7672fc379794020d7c8fb2729b254844b",

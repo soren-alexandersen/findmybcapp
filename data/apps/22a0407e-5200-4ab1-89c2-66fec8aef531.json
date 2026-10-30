@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/GTR/",
     "sourceHash": "sha256:1d500c6d1ca3421e239686d6aa93cb6f13ab76f0b0bb987716e092b78e4c464e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1d500c6d1ca3421e239686d6aa93cb6f13ab76f0b0bb987716e092b78e4c464e",

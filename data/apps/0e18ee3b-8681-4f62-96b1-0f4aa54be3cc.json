@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.n3vis.com/",
     "sourceHash": "sha256:e85c23efc4dc484163568c84cc2a86bf00d042dd3973252ea1d57782412acfce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e85c23efc4dc484163568c84cc2a86bf00d042dd3973252ea1d57782412acfce",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/EV/overview",
     "sourceHash": "sha256:6530c01fe3de20d293e521f4928bc7da4ff2c3ead3695955ad3363c9355ca194",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6530c01fe3de20d293e521f4928bc7da4ff2c3ead3695955ad3363c9355ca194",

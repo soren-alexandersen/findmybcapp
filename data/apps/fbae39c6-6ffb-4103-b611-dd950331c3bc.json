@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.prisma-informatik.ch/",
     "sourceHash": "sha256:b65bc4a68cc55130832a1eb27e81675ca67d14935e147b7717fe8f1e652daf17",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b65bc4a68cc55130832a1eb27e81675ca67d14935e147b7717fe8f1e652daf17",

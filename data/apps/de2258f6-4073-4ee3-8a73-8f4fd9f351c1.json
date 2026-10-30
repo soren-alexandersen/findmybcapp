@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
     "sourceHash": "sha256:67fe5deb0bd56fa7c41f9ae7fd159baff2483e17ae90ec94d65aec7d36d4e05b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:67fe5deb0bd56fa7c41f9ae7fd159baff2483e17ae90ec94d65aec7d36d4e05b",

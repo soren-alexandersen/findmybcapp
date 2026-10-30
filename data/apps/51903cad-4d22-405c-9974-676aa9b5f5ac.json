@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://rinnovacion.com/",
     "sourceHash": "sha256:7326f4a2fe6b9318943e6083c75b1ba89d344b510dd7ba914f7429763e12aaf4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7326f4a2fe6b9318943e6083c75b1ba89d344b510dd7ba914f7429763e12aaf4",

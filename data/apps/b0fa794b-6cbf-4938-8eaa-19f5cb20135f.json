@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.unifytechnologies.co.uk/contact/",
     "sourceHash": "sha256:8c4c2b1d5923a927adffc135f66c1782faeb6c1062a41174adfcbae14d3eaee4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8c4c2b1d5923a927adffc135f66c1782faeb6c1062a41174adfcbae14d3eaee4",

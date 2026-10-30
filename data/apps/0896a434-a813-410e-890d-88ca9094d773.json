@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-intercompany/",
     "sourceHash": "sha256:f3248b3c74f7e7519f3386b36e62f3ab6300bd10128b37722f56a20e4b41f4a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f3248b3c74f7e7519f3386b36e62f3ab6300bd10128b37722f56a20e4b41f4a5",

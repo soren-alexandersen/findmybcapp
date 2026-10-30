@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-account-ledger-type",
     "sourceHash": "sha256:a84028d1991b8dd4d5e7547411ca0e076f9f8ef9a5b89d128fc3e52b68b92cce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a84028d1991b8dd4d5e7547411ca0e076f9f8ef9a5b89d128fc3e52b68b92cce",

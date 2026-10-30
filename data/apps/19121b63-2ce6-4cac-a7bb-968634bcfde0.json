@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-business-register/docs/en-US/help",
     "sourceHash": "sha256:22eafc2082c7bdefac0a79807e9830d60454e840f9cfa9fd1489b325336c3c80",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:22eafc2082c7bdefac0a79807e9830d60454e840f9cfa9fd1489b325336c3c80",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dionix.co.uk/paladinhr.html",
     "sourceHash": "sha256:582c99c8c0aebf215333e5dddb41cfc2129b384d276ff16622b624599cb79643",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:582c99c8c0aebf215333e5dddb41cfc2129b384d276ff16622b624599cb79643",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/inventory-shelf-life",
     "sourceHash": "sha256:59a0295af8cf87b729a5da1a4d0df5b1e083550dff6a1894b1812c014b4ff5ba",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:59a0295af8cf87b729a5da1a4d0df5b1e083550dff6a1894b1812c014b4ff5ba",

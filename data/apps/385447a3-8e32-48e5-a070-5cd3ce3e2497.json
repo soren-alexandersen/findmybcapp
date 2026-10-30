@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/peach-payment-link",
     "sourceHash": "sha256:245d6ace34696e0559c1fd70f8f9f89563bbe3018bfce9494843d0db3018fc90",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:245d6ace34696e0559c1fd70f8f9f89563bbe3018bfce9494843d0db3018fc90",

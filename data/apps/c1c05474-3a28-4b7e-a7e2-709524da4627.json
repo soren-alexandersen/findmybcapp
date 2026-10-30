@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/Lightspeed-Support/",
     "sourceHash": "sha256:f36a22d911f91cc4f6c166807cd4ef49153c53097a6879e5b2e2916c3caee3b8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f36a22d911f91cc4f6c166807cd4ef49153c53097a6879e5b2e2916c3caee3b8",

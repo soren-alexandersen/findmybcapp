@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/mes/",
     "sourceHash": "sha256:e1520470f157c9e1c200f6257ef068af621d9cf0edb1a3062f77ab666c76000a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e1520470f157c9e1c200f6257ef068af621d9cf0edb1a3062f77ab666c76000a",

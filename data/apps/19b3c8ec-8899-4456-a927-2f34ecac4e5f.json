@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.axtrion.com/",
     "sourceHash": "sha256:876fdb04d3620d19866f7e80eaa41d82dd1c71da0906c3be032585334314858b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:876fdb04d3620d19866f7e80eaa41d82dd1c71da0906c3be032585334314858b",

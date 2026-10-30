@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.qezaro.com/",
     "sourceHash": "sha256:a7046b33ab5e2e8361b050b5ee0118b0941075d13c0dcf7ca4b48db224b33ec6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a7046b33ab5e2e8361b050b5ee0118b0941075d13c0dcf7ca4b48db224b33ec6",

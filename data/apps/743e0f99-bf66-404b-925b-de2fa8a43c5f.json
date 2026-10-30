@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://identifyyou.in/services/inventory-aging-dashboard/",
     "sourceHash": "sha256:804c415a06f0694e69a20b626055a2e47ebbab47a86bdb3f13dfaec5e8cbcdb1",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:804c415a06f0694e69a20b626055a2e47ebbab47a86bdb3f13dfaec5e8cbcdb1",

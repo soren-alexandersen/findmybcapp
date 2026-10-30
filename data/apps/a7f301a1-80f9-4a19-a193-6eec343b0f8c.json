@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.elysys.com/",
     "sourceHash": "sha256:7b7cb4a93ea3a7f8f0260d230f2265cbd63527623f32b7bdb671cdbe53866f2d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7b7cb4a93ea3a7f8f0260d230f2265cbd63527623f32b7bdb671cdbe53866f2d",

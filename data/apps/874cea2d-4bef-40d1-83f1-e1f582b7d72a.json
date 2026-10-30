@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/modul-extension/texteditor/",
     "sourceHash": "sha256:004995cf9a12629914c6c39eb8baf5e56925bb1218aa0bf3dfbeb12f6b4658f4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:004995cf9a12629914c6c39eb8baf5e56925bb1218aa0bf3dfbeb12f6b4658f4",

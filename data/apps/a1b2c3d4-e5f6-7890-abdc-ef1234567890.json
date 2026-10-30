@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.realconsulting.gr/contact-us",
     "sourceHash": "sha256:a0e1e3b11d585e8f26285772753ebbb9d7d36d19b3e02ff171ff1a8b097c2c88",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a0e1e3b11d585e8f26285772753ebbb9d7d36d19b3e02ff171ff1a8b097c2c88",

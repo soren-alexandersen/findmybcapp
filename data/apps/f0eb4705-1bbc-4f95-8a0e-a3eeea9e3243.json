@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://essentialrental.h2business.systems/docs/index.html",
     "sourceHash": "sha256:d5c3ad9e73c0a9befc334cda070f885b2dd5ca28bfb7ee6652da86246a234b98",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d5c3ad9e73c0a9befc334cda070f885b2dd5ca28bfb7ee6652da86246a234b98",

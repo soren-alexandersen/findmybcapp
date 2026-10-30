@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/nss-contracts",
     "sourceHash": "sha256:13dae4755c4a5f6387ddedf4bb199f8345e7b36271a989fd7216c86b35dab082",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:13dae4755c4a5f6387ddedf4bb199f8345e7b36271a989fd7216c86b35dab082",

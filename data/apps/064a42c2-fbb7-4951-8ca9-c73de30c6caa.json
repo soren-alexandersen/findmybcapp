@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
     "sourceHash": "sha256:19a96ccda36bc36c2479ae321491ac89c4a3fa558f3ce4f992d0ea40c829759f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:19a96ccda36bc36c2479ae321491ac89c4a3fa558f3ce4f992d0ea40c829759f",

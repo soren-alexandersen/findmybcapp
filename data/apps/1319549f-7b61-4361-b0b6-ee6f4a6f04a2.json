@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/ebanking/advanced-eft/docs/",
     "sourceHash": "sha256:eff0f817e47ff33971cf2f91e83a63c518af3d8fc8e33c8a2a14212a922758d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:eff0f817e47ff33971cf2f91e83a63c518af3d8fc8e33c8a2a14212a922758d8",

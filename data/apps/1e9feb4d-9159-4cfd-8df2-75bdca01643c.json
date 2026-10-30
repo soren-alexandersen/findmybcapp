@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/sell-to-buy-from/docs",
     "sourceHash": "sha256:382931a8e43d0aa63d28978fd7e447450ab6869f3a400d207ec3cab1133c4845",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:382931a8e43d0aa63d28978fd7e447450ab6869f3a400d207ec3cab1133c4845",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/ui-specify-printer-selection-reports#set-up-universal-print",
     "sourceHash": "sha256:db9470609c53c6d81e34dd40430f6506b6a3fb81d435e95d848ed6b8cba705b7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:db9470609c53c6d81e34dd40430f6506b6a3fb81d435e95d848ed6b8cba705b7",

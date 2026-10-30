@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365businessdev.com/en-US/365-business-address-validation/",
     "sourceHash": "sha256:84a57850b5d9782328104268d6e417825282827523bfa8496f41b7cc4f69ee0b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:84a57850b5d9782328104268d6e417825282827523bfa8496f41b7cc4f69ee0b",

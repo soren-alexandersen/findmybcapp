@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Micros-Integration",
     "sourceHash": "sha256:68283ab7424e1fe7b0f19fb4986449e2691c7d5b6251197bef273d511ba4414d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:68283ab7424e1fe7b0f19fb4986449e2691c7d5b6251197bef273d511ba4414d",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.qualiatechnik.de/businessrule-app?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=business-rules&utm_content=support",
     "sourceHash": "sha256:fb603c2a0857382348f66ff424fd847549e4c8fc245171b3016c90eff925222e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fb603c2a0857382348f66ff424fd847549e4c8fc245171b3016c90eff925222e",

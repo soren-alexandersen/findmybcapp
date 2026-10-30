@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Quality-Management.pdf",
     "sourceHash": "sha256:832fd983d895f2aba4eedb8ff01ae39390e14ef99f672022259059d690f8812d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:832fd983d895f2aba4eedb8ff01ae39390e14ef99f672022259059d690f8812d",

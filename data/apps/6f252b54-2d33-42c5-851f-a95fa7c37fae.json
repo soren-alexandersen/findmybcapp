@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/flexible_order_promising",
     "sourceHash": "sha256:87f8b4787231a161f7ec8a1d5ad919904cd1fe937cf05f8d7d68d35103a27e0e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:87f8b4787231a161f7ec8a1d5ad919904cd1fe937cf05f8d7d68d35103a27e0e",

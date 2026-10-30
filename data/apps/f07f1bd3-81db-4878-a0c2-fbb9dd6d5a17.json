@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://structure.rocks/",
     "sourceHash": "sha256:0851f8b885bdc3c0e28ecb0810a88e7b3d58ea07328742d3c807a7d627b5516d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0851f8b885bdc3c0e28ecb0810a88e7b3d58ea07328742d3c807a7d627b5516d",

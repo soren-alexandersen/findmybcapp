@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/116/Cash-Desk",
     "sourceHash": "sha256:9fc1deced83112203a2d6cc4530a7cd6f31a12efa9010b19c4eb13db6275fa0d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9fc1deced83112203a2d6cc4530a7cd6f31a12efa9010b19c4eb13db6275fa0d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/DocuVault/",
     "sourceHash": "sha256:2f79aa3aa171dd8d9698e4e718455ad8b40bc649620c33fb492a4b576772bb07",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2f79aa3aa171dd8d9698e4e718455ad8b40bc649620c33fb492a4b576772bb07",

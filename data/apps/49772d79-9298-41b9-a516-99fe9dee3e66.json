@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.statusmanagement.apportunix.com/",
     "sourceHash": "sha256:58682bd542d6d776aceb9f17eff7585a61c2379a0ca072d71ed8decb04685a4a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:58682bd542d6d776aceb9f17eff7585a61c2379a0ca072d71ed8decb04685a4a",

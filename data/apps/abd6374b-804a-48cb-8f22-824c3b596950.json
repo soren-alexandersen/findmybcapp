@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/mobilewaste/docs",
     "sourceHash": "sha256:65d02c06c191877a71e72266710732ec7b36a1f15771fac438a74294e465b371",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:65d02c06c191877a71e72266710732ec7b36a1f15771fac438a74294e465b371",

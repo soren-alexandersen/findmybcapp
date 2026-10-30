@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/warehouse-insight/product-help/",
     "sourceHash": "sha256:0a5d0fad9ce5b57609d271a1b1761abc02571c27405d44c0def01fb78d55a7dd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0a5d0fad9ce5b57609d271a1b1761abc02571c27405d44c0def01fb78d55a7dd",

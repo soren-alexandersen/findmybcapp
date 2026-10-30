@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.traser-software.de/de-DE/aptean-equipment-bi-connect/documentation",
     "sourceHash": "sha256:f5dc7c7e7208ead3a2ce20f2fdd521b37c588c6f551944b764a13e2ca0bb82cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f5dc7c7e7208ead3a2ce20f2fdd521b37c588c6f551944b764a13e2ca0bb82cf",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.amjs-consulting.com/vendor-bank-account-approval-workflow/",
     "sourceHash": "sha256:99c64b3b1f910a82d528f5ad9afa266a4101ab9fe38c43f72af2a94fc3d2f543",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:99c64b3b1f910a82d528f5ad9afa266a4101ab9fe38c43f72af2a94fc3d2f543",

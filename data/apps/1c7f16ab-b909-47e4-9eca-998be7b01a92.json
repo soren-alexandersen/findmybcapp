@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/moniroo-budgeting/",
     "sourceHash": "sha256:4909ce7d2ccd19d0c51562254f7c31db57d0b4d08f52a847ae6f9d3d0d4f14e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4909ce7d2ccd19d0c51562254f7c31db57d0b4d08f52a847ae6f9d3d0d4f14e7",

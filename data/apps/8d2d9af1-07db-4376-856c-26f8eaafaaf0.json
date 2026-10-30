@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/DRP/",
     "sourceHash": "sha256:e305f3c5f2cf32aa11914a087df6fc40533616e24941093e9113fce882e74144",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e305f3c5f2cf32aa11914a087df6fc40533616e24941093e9113fce882e74144",

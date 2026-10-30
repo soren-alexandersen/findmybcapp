@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/intercompany-accounting-eliminations.html",
     "sourceHash": "sha256:eb2d8739372ab4a46695b85a98d96900c891c895fe819303daf563314ca081c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:eb2d8739372ab4a46695b85a98d96900c891c895fe819303daf563314ca081c0",

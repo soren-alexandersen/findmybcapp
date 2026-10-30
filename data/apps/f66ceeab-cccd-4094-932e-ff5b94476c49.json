@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help/item-tracking",
     "sourceHash": "sha256:97b73fd2138640bdfe23da4ab88dc9bdb55ca6d6d4404b952f47a249de15ea12",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:97b73fd2138640bdfe23da4ab88dc9bdb55ca6d6d4404b952f47a249de15ea12",

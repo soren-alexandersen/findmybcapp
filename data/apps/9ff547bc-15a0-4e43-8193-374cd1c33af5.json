@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/reservation-enhancer/",
     "sourceHash": "sha256:db72cab192c8ba3acbc0aa74e092ca4ed04d622cdcb0ae3fded3f07e23d3768c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:db72cab192c8ba3acbc0aa74e092ca4ed04d622cdcb0ae3fded3f07e23d3768c",

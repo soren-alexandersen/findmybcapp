@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynasys.tech/solutions/dynasys-insights/docs",
     "sourceHash": "sha256:e70ddcf82b425873da3d70e5775fc9987ae310a326799f9361749b4739fd4ba1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e70ddcf82b425873da3d70e5775fc9987ae310a326799f9361749b4739fd4ba1",

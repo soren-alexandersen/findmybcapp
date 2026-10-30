@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/stock_control",
     "sourceHash": "sha256:0baae87f86c5089d19ec06f24f25259c7e5c9730f9bf2d302d4a960caf56464c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0baae87f86c5089d19ec06f24f25259c7e5c9730f9bf2d302d4a960caf56464c",

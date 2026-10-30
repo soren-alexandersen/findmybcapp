@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/MD",
     "sourceHash": "sha256:c720408ab16472715d1ad0a36ba4f15e2b26a43576b3a4d8b9d5ad4069331b98",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c720408ab16472715d1ad0a36ba4f15e2b26a43576b3a4d8b9d5ad4069331b98",

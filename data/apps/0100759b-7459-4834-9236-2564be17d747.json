@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/prepaid-services",
     "sourceHash": "sha256:96a68cf0482fa0ba11222d784161fb77cdb8b8ce2037e8b306339b9a75ded96c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:96a68cf0482fa0ba11222d784161fb77cdb8b8ce2037e8b306339b9a75ded96c",

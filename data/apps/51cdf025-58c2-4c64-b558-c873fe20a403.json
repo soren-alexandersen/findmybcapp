@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning-help/",
     "sourceHash": "sha256:c4794c773d6d396f35a26f2fee7f4faa2f96b4228d5eb9469a4fe9afe7c84bd4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c4794c773d6d396f35a26f2fee7f4faa2f96b4228d5eb9469a4fe9afe7c84bd4",

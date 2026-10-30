@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/credit-control",
     "sourceHash": "sha256:ea8771cc942d30f308686f0aa56735bda64326be4c025025bf7687f32ec0acd1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ea8771cc942d30f308686f0aa56735bda64326be4c025025bf7687f32ec0acd1",

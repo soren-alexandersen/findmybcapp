@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/PaymentPortal_BC_Help/Content/Topics/Portal/Portal_Splash_v2.htm",
     "sourceHash": "sha256:87950fb0d7925395fa0eb6c054c90f127b1b538a6df664f989ea88e5774ca5aa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:87950fb0d7925395fa0eb6c054c90f127b1b538a6df664f989ea88e5774ca5aa",

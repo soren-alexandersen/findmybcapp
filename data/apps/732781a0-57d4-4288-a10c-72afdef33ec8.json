@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/quality_control",
     "sourceHash": "sha256:6dc0e276c44ef36b960c6df3a3c5f5156477ecc9c8b4f3d31fb2838a290f5c48",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6dc0e276c44ef36b960c6df3a3c5f5156477ecc9c8b4f3d31fb2838a290f5c48",

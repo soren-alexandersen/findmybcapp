@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/ElevateSolutionBuilder",
     "sourceHash": "sha256:42082d6f4c9fb76a3b699efaf409f3367ddfded528a6a4b0de6393e9bc1ba065",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:42082d6f4c9fb76a3b699efaf409f3367ddfded528a6a4b0de6393e9bc1ba065",

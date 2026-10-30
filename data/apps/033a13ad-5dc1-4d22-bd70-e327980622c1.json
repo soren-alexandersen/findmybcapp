@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/manufacturing-masterdata-management.html",
     "sourceHash": "sha256:c3052a94cfa0be6241193e127875da57d6bee3cf7ba4c68662f383ddcb094218",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c3052a94cfa0be6241193e127875da57d6bee3cf7ba4c68662f383ddcb094218",

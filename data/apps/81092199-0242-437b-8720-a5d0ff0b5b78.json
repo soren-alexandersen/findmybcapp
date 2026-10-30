@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/realtime-bank/docs/et-EE/help",
     "sourceHash": "sha256:91247745c6116abbc9a28bbb4347c9f4537d84cd31ceac33cec4a3bd7e43a6ac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:91247745c6116abbc9a28bbb4347c9f4537d84cd31ceac33cec4a3bd7e43a6ac",

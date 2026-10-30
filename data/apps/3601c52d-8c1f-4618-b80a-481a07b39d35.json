@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/inventory-freshness",
     "sourceHash": "sha256:9a1d1d329c7ab4beb7d12080d2711a07b9dfe778e93359a963f60ea552f7b26b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9a1d1d329c7ab4beb7d12080d2711a07b9dfe778e93359a963f60ea552f7b26b",

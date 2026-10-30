@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-split-merge-company/",
     "sourceHash": "sha256:b217d6c2a5e293a1b7bb35d0e07a1187d951ca4b330829e15091d1446ac023ed",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b217d6c2a5e293a1b7bb35d0e07a1187d951ca4b330829e15091d1446ac023ed",

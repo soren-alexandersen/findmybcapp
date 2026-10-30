@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/businesscentralapps/HelloWorld.AppSource",
     "sourceHash": "sha256:1e458490852598021c6599c2da98412607685d3afc69abe86272fe6c57ef04b2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1e458490852598021c6599c2da98412607685d3afc69abe86272fe6c57ef04b2",

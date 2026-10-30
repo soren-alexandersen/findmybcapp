@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/vensco/index.html",
     "sourceHash": "sha256:4acbec8e6c792af416de027b3abe7b3d527f3374e3eb6cc699618144d93de699",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4acbec8e6c792af416de027b3abe7b3d527f3374e3eb6cc699618144d93de699",

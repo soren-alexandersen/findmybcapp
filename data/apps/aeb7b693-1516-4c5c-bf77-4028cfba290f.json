@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://gem365.ca/AAI/help.html",
     "sourceHash": "sha256:1a382bf4dac99f023f60c7cbaebdda0ce97976b2d1c957eae55f0bf518940171",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1a382bf4dac99f023f60c7cbaebdda0ce97976b2d1c957eae55f0bf518940171",

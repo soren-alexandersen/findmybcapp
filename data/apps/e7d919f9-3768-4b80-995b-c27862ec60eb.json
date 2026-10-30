@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/Address-Autocomplete/docs/en-US/help",
     "sourceHash": "sha256:e4048d3165b728b48023388cc20bbd6f637e24ca718547b2a00778b334d38434",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e4048d3165b728b48023388cc20bbd6f637e24ca718547b2a00778b334d38434",

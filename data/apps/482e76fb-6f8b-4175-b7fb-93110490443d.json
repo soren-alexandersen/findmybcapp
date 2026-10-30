@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://nprogression.com/tools/investments",
     "sourceHash": "sha256:ca2ac86dae85f262eb0147444d9b78ba826b8ba0a51dd720e3a0647d13a34121",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ca2ac86dae85f262eb0147444d9b78ba826b8ba0a51dd720e3a0647d13a34121",

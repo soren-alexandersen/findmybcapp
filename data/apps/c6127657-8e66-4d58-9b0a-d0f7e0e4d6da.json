@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/solutions/erp-edi-integration-services/",
     "sourceHash": "sha256:2d5646bbb900cc9d6c12fabb743af4e3b3536fe781e00441c821eeb836d54402",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2d5646bbb900cc9d6c12fabb743af4e3b3536fe781e00441c821eeb836d54402",

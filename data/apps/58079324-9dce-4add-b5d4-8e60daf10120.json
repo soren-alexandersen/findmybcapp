@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-CommLinc",
     "sourceHash": "sha256:9754ec2a066b717201d7c6a4161fedf4ec3fed0a8405310d0ddab3b0853c7da0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9754ec2a066b717201d7c6a4161fedf4ec3fed0a8405310d0ddab3b0853c7da0",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://learn.xpr365.com/en/bigcommerce/index.html",
     "sourceHash": "sha256:0204fe68e29121f9ca098c0385671f5bd99e89c0ef32de00cc12392710e8d51b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0204fe68e29121f9ca098c0385671f5bd99e89c0ef32de00cc12392710e8d51b",

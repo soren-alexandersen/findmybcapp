@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/dynaconnect/",
     "sourceHash": "sha256:4ec6e07343cfe987459205eaaeea4116a82b5d9a32ab6d6bb462d6cb08541656",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ec6e07343cfe987459205eaaeea4116a82b5d9a32ab6d6bb462d6cb08541656",

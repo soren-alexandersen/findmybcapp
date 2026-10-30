@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/apps/difot-reporting/docs/",
     "sourceHash": "sha256:d0f503dd57e1242fc439eb3a509e99648ec625b5be43d83e57496697565e2992",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d0f503dd57e1242fc439eb3a509e99648ec625b5be43d83e57496697565e2992",

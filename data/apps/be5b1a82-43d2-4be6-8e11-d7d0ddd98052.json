@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.cash-it.se/support/",
     "sourceHash": "sha256:ccf24a6f37e142d8df2ddacae6c561b36716e2de4ac459436ff130ac3aaf5705",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ccf24a6f37e142d8df2ddacae6c561b36716e2de4ac459436ff130ac3aaf5705",

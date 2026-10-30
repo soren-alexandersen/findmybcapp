@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
     "sourceHash": "sha256:37c374d2da9aed9209d1daf7c2af9ec35662f9165436029146111ed3bbc46827",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:37c374d2da9aed9209d1daf7c2af9ec35662f9165436029146111ed3bbc46827",

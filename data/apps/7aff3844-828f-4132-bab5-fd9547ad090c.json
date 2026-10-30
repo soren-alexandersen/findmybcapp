@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/help/connector/",
     "sourceHash": "sha256:05affa7f23f5c70b9f9eff972d2ecab668eb04a5af7c2a7ca83ff497a985deef",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:05affa7f23f5c70b9f9eff972d2ecab668eb04a5af7c2a7ca83ff497a985deef",

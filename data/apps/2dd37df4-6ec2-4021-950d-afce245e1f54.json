@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://datarename.plus/bc-app/help/",
     "sourceHash": "sha256:09b88ac1c6c959e0707a314c318d6214b7d6d4dbb22957908dc8f205305b694b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:09b88ac1c6c959e0707a314c318d6214b7d6d4dbb22957908dc8f205305b694b",

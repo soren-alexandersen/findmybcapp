@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ifacto.be/",
     "sourceHash": "sha256:fe1605cdd289a15bcf519da4c83fe0df728f20baf0e2139644f71da7ab391a2c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fe1605cdd289a15bcf519da4c83fe0df728f20baf0e2139644f71da7ab391a2c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://grupoactive.es/es/software/erp/business-central",
     "sourceHash": "sha256:d5ac60226f8fd2ca6a001eda202c4f7cb89bcb2030607961576d96d52c0043ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5ac60226f8fd2ca6a001eda202c4f7cb89bcb2030607961576d96d52c0043ab",

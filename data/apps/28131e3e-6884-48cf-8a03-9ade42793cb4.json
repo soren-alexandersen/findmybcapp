@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/bus/",
     "sourceHash": "sha256:238f4292b8bad372e34419f8013c6e69a4a20a8e517c3187eff5edbed739b332",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:238f4292b8bad372e34419f8013c6e69a4a20a8e517c3187eff5edbed739b332",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.lits.services/contact-us/",
     "sourceHash": "sha256:9e7819c6b6df476fadf5535d06d8f74587294d54d6320c5082c8ffef27fae27c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e7819c6b6df476fadf5535d06d8f74587294d54d6320c5082c8ffef27fae27c",

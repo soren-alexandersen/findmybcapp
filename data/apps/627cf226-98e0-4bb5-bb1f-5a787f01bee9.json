@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/property_management",
     "sourceHash": "sha256:8f8dc3513f8e3fa844d026178e46cebcfe69a6cb74fb2f337a0b8c273a937794",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8f8dc3513f8e3fa844d026178e46cebcfe69a6cb74fb2f337a0b8c273a937794",

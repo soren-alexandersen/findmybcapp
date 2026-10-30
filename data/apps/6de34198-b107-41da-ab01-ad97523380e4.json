@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.absyscyborg.com/fr/logiciels/microsoft/erp-microsoft-dynamics-365/microsoft-dynamics-365-probatch",
     "sourceHash": "sha256:0689920afa0ac655e854b55712fd7db7a10318b9c234db448dc7acf9efe582bf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0689920afa0ac655e854b55712fd7db7a10318b9c234db448dc7acf9efe582bf",

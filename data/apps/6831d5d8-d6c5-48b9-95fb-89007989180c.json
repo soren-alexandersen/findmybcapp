@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ibis.rs/help/",
     "sourceHash": "sha256:32a71acb05f6e50379e887460bfb3b4aa3bfa9f962e82373b4e167546a884f06",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:32a71acb05f6e50379e887460bfb3b4aa3bfa9f962e82373b4e167546a884f06",

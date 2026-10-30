@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-interface-yokoy",
     "sourceHash": "sha256:8521cb9c05fb3977377971cbeb9e2656f62588efc41d8730af786f16d667fc9e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8521cb9c05fb3977377971cbeb9e2656f62588efc41d8730af786f16d667fc9e",

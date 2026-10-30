@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://jcd.dk/microsoft-dynamics/xml-attachments-for-digital-documents-in-business-central/",
     "sourceHash": "sha256:a8b3e5fd9f3eb1ba76711164b1da760647fe93abc1806c7b6c7462cac6364c25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a8b3e5fd9f3eb1ba76711164b1da760647fe93abc1806c7b6c7462cac6364c25",

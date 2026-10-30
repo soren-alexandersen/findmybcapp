@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/webshop-anbindungen/",
     "sourceHash": "sha256:161c49986ae64f29d7d613a4ea485288e743a083e303e5600195d75a4541a632",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:161c49986ae64f29d7d613a4ea485288e743a083e303e5600195d75a4541a632",

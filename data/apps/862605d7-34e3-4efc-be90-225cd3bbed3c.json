@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://konsolidator.com/contact/",
     "sourceHash": "sha256:cb29aaa030d54de42d0cfc69c2433e0f03a8b26bc91625828b2bb2cda11f57f3",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cb29aaa030d54de42d0cfc69c2433e0f03a8b26bc91625828b2bb2cda11f57f3",

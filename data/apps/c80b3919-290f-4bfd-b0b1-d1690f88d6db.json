@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/en-US/Dynamics365/ProBatch/qa/index.html",
     "sourceHash": "sha256:08a6371e5a3f82736601326b1286dcc0d34137370b606bff5e42a55beac95308",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:08a6371e5a3f82736601326b1286dcc0d34137370b606bff5e42a55beac95308",

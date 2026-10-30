@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/gl-accounts-review",
     "sourceHash": "sha256:17ec92f3db000bf952eea3f743e80f33f3a65610525af6d3f28bc6b4c14d242d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:17ec92f3db000bf952eea3f743e80f33f3a65610525af6d3f28bc6b4c14d242d",

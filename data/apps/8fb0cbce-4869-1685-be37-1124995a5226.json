@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dedomind.com/docs/advanced-notifications/",
     "sourceHash": "sha256:a94c75ad82dd7fb0cd18977f4e3b2fc5a5228162820bb88d2d30e3deaaf9a8c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a94c75ad82dd7fb0cd18977f4e3b2fc5a5228162820bb88d2d30e3deaaf9a8c6",

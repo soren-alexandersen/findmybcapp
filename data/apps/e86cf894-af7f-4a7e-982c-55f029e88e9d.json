@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.connamix.com/cxtime/",
     "sourceHash": "sha256:93a7260ef46bc3d5b575cd2d2a6200134b1dcb735ea237a37826c5f710867e91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:93a7260ef46bc3d5b575cd2d2a6200134b1dcb735ea237a37826c5f710867e91",

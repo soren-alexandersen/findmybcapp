@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://easypdf365.com/help",
     "sourceHash": "sha256:5f0b8bdc92248d654288e4f8754bdaed282ea79640d67d1c9ff24d4584f8baf7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5f0b8bdc92248d654288e4f8754bdaed282ea79640d67d1c9ff24d4584f8baf7",

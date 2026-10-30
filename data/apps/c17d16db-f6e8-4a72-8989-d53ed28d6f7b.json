@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://soft4realestate.com/faq/",
     "sourceHash": "sha256:e54b3aac24ef4cd2d1daab4e31810790c03fd047b1d88d3ae6ecf177bbd49053",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e54b3aac24ef4cd2d1daab4e31810790c03fd047b1d88d3ae6ecf177bbd49053",

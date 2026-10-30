@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-package-excise/docs/en-US/help",
     "sourceHash": "sha256:8c1164bebfbb972c05499aa003d0fb7dd13e1b15067f496fa85ea3d7fedf6f83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8c1164bebfbb972c05499aa003d0fb7dd13e1b15067f496fa85ea3d7fedf6f83",

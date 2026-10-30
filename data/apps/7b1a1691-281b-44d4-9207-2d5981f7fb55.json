@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://charon-inc.co.jp/product/business-central/",
     "sourceHash": "sha256:6bdece8cdc4c7066eb0cc148e624b6443c9ac7555b07c46a4630c8911f1bcccd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6bdece8cdc4c7066eb0cc148e624b6443c9ac7555b07c46a4630c8911f1bcccd",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/close-documents-without-invoicing.html",
     "sourceHash": "sha256:55d7b3cf7974fe4f2962f0d5a871625c4b3fcee7165615075bd97869b8a8ad90",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55d7b3cf7974fe4f2962f0d5a871625c4b3fcee7165615075bd97869b8a8ad90",

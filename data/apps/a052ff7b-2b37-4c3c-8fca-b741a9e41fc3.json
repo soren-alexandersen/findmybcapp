@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartpush/documentation/get-started/",
     "sourceHash": "sha256:ccb632d289e4cde6eb557db89fc72320e7d54779f8925c68daecce3270ed72a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ccb632d289e4cde6eb557db89fc72320e7d54779f8925c68daecce3270ed72a7",

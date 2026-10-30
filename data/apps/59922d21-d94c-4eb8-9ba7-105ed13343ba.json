@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sambaash.com/products/omnimentor",
     "sourceHash": "sha256:50dbbfd25113faf4b3f294258455117630b6267b08fc749fad4d2f4387927789",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:50dbbfd25113faf4b3f294258455117630b6267b08fc749fad4d2f4387927789",

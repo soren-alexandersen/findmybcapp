@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nprogression.com/tools/powercentral-user-manual",
     "sourceHash": "sha256:e97c3e20a65c78375004d29f784b1b7805d5f844988c4379717722ff106e2ae5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e97c3e20a65c78375004d29f784b1b7805d5f844988c4379717722ff106e2ae5",

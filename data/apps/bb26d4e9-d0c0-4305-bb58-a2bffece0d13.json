@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Contributions_and_Declarations_Manual.pdf",
     "sourceHash": "sha256:0069a74685017b5b0e37f3d8e612636dea299b89c19743eb2b4b1cf78d04b11e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0069a74685017b5b0e37f3d8e612636dea299b89c19743eb2b4b1cf78d04b11e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oixio.eu/company-transport-accounting-help/",
     "sourceHash": "sha256:be3c1ecbcfe8e8d9e386701411845af3f55eb7605ad3673cff65390b09254bc6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:be3c1ecbcfe8e8d9e386701411845af3f55eb7605ad3673cff65390b09254bc6",

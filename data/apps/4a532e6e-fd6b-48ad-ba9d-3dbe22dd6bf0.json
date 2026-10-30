@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://bcapps.mementoas.com/en-US/apps/BankingCentral/intro.html",
     "sourceHash": "sha256:98039d71331a4a7e3c2f319778d2d840980e6415c5cfe02287bf5580db9d4a42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98039d71331a4a7e3c2f319778d2d840980e6415c5cfe02287bf5580db9d4a42",

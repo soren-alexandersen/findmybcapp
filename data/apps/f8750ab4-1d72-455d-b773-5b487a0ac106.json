@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ebchelplanhamassoc.helpdocsonline.com/home",
     "sourceHash": "sha256:8283bfb3011a47877c84e2b8292e209bec0215d82c81c263306f6ce91f63fc5d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8283bfb3011a47877c84e2b8292e209bec0215d82c81c263306f6ce91f63fc5d",

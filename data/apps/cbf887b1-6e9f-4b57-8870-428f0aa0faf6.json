@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.cosmoconsult.com/en/contact",
     "sourceHash": "sha256:a3f421b51afc9559da246155fc2011ae4a8c964cee8417c2dd46b9b9fad6486a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a3f421b51afc9559da246155fc2011ae4a8c964cee8417c2dd46b9b9fad6486a",

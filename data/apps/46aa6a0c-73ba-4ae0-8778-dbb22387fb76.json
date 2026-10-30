@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://globeaccounting.com/saft",
     "sourceHash": "sha256:5a03e8b21812e918af2276aec28c519917366a050acb5aa6f611249b6178c321",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5a03e8b21812e918af2276aec28c519917366a050acb5aa6f611249b6178c321",

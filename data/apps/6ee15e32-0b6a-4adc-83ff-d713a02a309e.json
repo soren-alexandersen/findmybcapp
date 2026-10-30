@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ktc.de/bc/app/asp",
     "sourceHash": "sha256:aa96077ec881b893076c1d340e2c1fe93436b6c97d0d060729d67fb8d4aecbad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aa96077ec881b893076c1d340e2c1fe93436b6c97d0d060729d67fb8d4aecbad",

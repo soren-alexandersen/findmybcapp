@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://exigotech.com.au/product-support/",
     "sourceHash": "sha256:d6ccd61dfefe4e7f99cebaef10ec63ed8760b469610fcf6085f546c108562695",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d6ccd61dfefe4e7f99cebaef10ec63ed8760b469610fcf6085f546c108562695",

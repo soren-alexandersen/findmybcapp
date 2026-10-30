@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/automated-order-management/",
     "sourceHash": "sha256:3d13088adcf5c5ac5bbf6b496f1c4acbf8740bc014c1049ea89d3cd0c6f6202f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3d13088adcf5c5ac5bbf6b496f1c4acbf8740bc014c1049ea89d3cd0c6f6202f",

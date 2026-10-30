@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nicsystemslearning.com/help",
     "sourceHash": "sha256:e4b183c00f0c62b4b5836d642d851486348a93992215cc9eb349eed239c11842",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e4b183c00f0c62b4b5836d642d851486348a93992215cc9eb349eed239c11842",

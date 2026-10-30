@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/app-e-invoice-help.pdf",
     "sourceHash": "sha256:0ec79abb0ae54a0eaffb4773b0bf4ee2a37a1936e81a5f5f82e8769d88dde6c3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0ec79abb0ae54a0eaffb4773b0bf4ee2a37a1936e81a5f5f82e8769d88dde6c3",

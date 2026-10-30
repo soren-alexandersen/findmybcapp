@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/trade/clever-trade-plus/user-guide-trade-plus",
     "sourceHash": "sha256:6a65d67d638089f9f6e133df4be5a214f9c664645c6ad6732489b83ac1bf5121",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6a65d67d638089f9f6e133df4be5a214f9c664645c6ad6732489b83ac1bf5121",

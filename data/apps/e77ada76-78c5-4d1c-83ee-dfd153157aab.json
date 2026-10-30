@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://evergrowth.ca/help/dimlogic",
     "sourceHash": "sha256:da48c7cad4efe3e8cbe74295fe54c2975e23866dc08d502136ea36af1a0f93a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:da48c7cad4efe3e8cbe74295fe54c2975e23866dc08d502136ea36af1a0f93a3",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.oixio.eu/jobqueue/jobqueue_index.en/",
     "sourceHash": "sha256:9dbb444f0a274d2f540eb1e228e69feb67ee8fb88b0f44190f5cf4f14dbf2d18",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:9dbb444f0a274d2f540eb1e228e69feb67ee8fb88b0f44190f5cf4f14dbf2d18",

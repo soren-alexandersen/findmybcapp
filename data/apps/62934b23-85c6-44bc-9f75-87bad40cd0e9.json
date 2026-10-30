@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/sign-it-with-docusign/docs/",
     "sourceHash": "sha256:e0870a4af9beba0315f54b07836a73c7de3cce5ced84bc000c983eaf112e44a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e0870a4af9beba0315f54b07836a73c7de3cce5ced84bc000c983eaf112e44a7",

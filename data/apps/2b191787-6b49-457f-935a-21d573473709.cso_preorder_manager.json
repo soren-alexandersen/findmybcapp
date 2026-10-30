@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-preorder-manager-help-en/",
     "sourceHash": "sha256:f2ee1b78968c272eb894ccd12b008bc74092bad6bfd5203ff27c8f6ebb7bcc95",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f2ee1b78968c272eb894ccd12b008bc74092bad6bfd5203ff27c8f6ebb7bcc95",

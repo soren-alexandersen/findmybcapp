@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/warehouse-dashboard",
     "sourceHash": "sha256:d403ce870201b25ebfb71c99aeed1179a0b4093b3f009ef7fbc6e8f7b8b65ce3",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d403ce870201b25ebfb71c99aeed1179a0b4093b3f009ef7fbc6e8f7b8b65ce3",

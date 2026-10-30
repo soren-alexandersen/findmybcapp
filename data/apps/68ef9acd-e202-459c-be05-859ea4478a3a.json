@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://experlogixut.mcoutput.com/preview/Resources/0_Front%20Matter/SmartFlows%20Landing%20Page.html",
     "sourceHash": "sha256:d363559a4c9521fe3228bf6eac1afb7fd101cfae6cf937fc4746056afab86b97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d363559a4c9521fe3228bf6eac1afb7fd101cfae6cf937fc4746056afab86b97",

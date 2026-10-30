@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-foundation-layer",
     "sourceHash": "sha256:c5aae9cc2945de421ca1e5103811d40bcb4c4f1a89c5877be341f526ad811e56",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c5aae9cc2945de421ca1e5103811d40bcb4c4f1a89c5877be341f526ad811e56",

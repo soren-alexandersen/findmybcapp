@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://companial.com/localization-for-poland-support/",
     "sourceHash": "sha256:7dd0bcee88b05d6d5576d2886bb52c9e2778231618cdfac207b1d5d52e34e68d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7dd0bcee88b05d6d5576d2886bb52c9e2778231618cdfac207b1d5d52e34e68d",

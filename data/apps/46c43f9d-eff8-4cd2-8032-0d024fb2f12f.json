@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.rsbt.de/wp-content/uploads/onlinehelp/fastedit/en-EN/index.html",
     "sourceHash": "sha256:79f8578e4c4aa37daee46e8f78615f16ccd93cb6994e9b839f148f2462d1186e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:79f8578e4c4aa37daee46e8f78615f16ccd93cb6994e9b839f148f2462d1186e",

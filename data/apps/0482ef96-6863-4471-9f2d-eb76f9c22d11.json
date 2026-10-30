@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-field-service",
     "sourceHash": "sha256:f431a5b360e74b12854289c183e769519e8701b04986aa904a559f9637affc42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f431a5b360e74b12854289c183e769519e8701b04986aa904a559f9637affc42",

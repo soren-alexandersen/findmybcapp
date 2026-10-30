@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/data-integration-framework/",
     "sourceHash": "sha256:41c5b4f419a86bc8f13f929939f13ab2a8485a762953d683753b848d15a91c85",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:41c5b4f419a86bc8f13f929939f13ab2a8485a762953d683753b848d15a91c85",

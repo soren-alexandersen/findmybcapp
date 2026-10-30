@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/mail-experience-plus/",
     "sourceHash": "sha256:656aafe4ec3ca527d19016f300aea725476fb5cebaf83d12eeb2fd9654c03610",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:656aafe4ec3ca527d19016f300aea725476fb5cebaf83d12eeb2fd9654c03610",

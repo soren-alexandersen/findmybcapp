@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://confluence.external-share.com/content/808917/docusign_anything_release_notes",
     "sourceHash": "sha256:0fc00ceea158c5ff80765f2613321bc7aa8ec164beb4217e5ed1e3eea50a83b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0fc00ceea158c5ff80765f2613321bc7aa8ec164beb4217e5ed1e3eea50a83b3",

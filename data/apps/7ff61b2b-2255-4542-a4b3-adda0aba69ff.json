@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-landed-costs/user-guide/about",
     "sourceHash": "sha256:227fdad0bd75ce4737e17858c891605f699f4ca64da1512ab8474a27e8e99339",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:227fdad0bd75ce4737e17858c891605f699f4ca64da1512ab8474a27e8e99339",

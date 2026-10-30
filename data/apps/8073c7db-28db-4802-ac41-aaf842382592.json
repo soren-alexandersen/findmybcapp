@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lighthouseexperts.com/sales-invoice-import-help/",
     "sourceHash": "sha256:b1db6384d7f253570cfbd7351f34be250e444ad513161fd8d128049121e629e5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b1db6384d7f253570cfbd7351f34be250e444ad513161fd8d128049121e629e5",

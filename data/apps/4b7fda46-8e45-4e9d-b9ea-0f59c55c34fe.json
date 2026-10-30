@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/rhf",
     "sourceHash": "sha256:ff1f29203281b4cffe2cbbc219a178251a2c7815b9dddd66286f5136b77dce1b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ff1f29203281b4cffe2cbbc219a178251a2c7815b9dddd66286f5136b77dce1b",

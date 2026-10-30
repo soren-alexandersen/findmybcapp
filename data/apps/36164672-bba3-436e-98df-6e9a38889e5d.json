@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://online.superoffice.com/cust11537/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=dk&&noCookies=true&action=viewKbCategory&id=16",
     "sourceHash": "sha256:4e543191dea1ebd86264e54de368c211aa278f5db07ae09d86da9811e972bf2f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4e543191dea1ebd86264e54de368c211aa278f5db07ae09d86da9811e972bf2f",

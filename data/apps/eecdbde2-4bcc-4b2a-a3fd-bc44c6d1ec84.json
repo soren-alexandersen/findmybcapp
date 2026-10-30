@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/help/documentq",
     "sourceHash": "sha256:a714e5ef677d7faddb1ae9a59d20f0dd9fdd85f4de9ef33b2600945889beda6d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a714e5ef677d7faddb1ae9a59d20f0dd9fdd85f4de9ef33b2600945889beda6d",

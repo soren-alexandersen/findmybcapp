@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/131/MES-%E2%80%93-Shop-Floor-Barcode-Data-Collection",
     "sourceHash": "sha256:6c970603380a7a08739bbdcdf48778f5e437ccd5a08229accbb5e6d161b7aa83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6c970603380a7a08739bbdcdf48778f5e437ccd5a08229accbb5e6d161b7aa83",

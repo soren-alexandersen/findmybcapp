@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://haal.ba/#contact-1",
     "sourceHash": "sha256:34556684a737eb546d75abf41010bb1c830dc62d6a356aa361eb0154536c99fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:34556684a737eb546d75abf41010bb1c830dc62d6a356aa361eb0154536c99fa",

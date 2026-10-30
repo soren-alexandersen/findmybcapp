@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/branche/erhvervsvirksomheder/logistik-produktion/",
     "sourceHash": "sha256:f025cc8c91db93ca80f7644c759d1ee33a58a05a5d5acf736091e14fd7c012ad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f025cc8c91db93ca80f7644c759d1ee33a58a05a5d5acf736091e14fd7c012ad",

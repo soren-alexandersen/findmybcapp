@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sbsiconsulting.fr/entries-source-names",
     "sourceHash": "sha256:53b0e16b7e319d7c043789057ccb506ff764dbaa25163839fa787675117344c4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:53b0e16b7e319d7c043789057ccb506ff764dbaa25163839fa787675117344c4",

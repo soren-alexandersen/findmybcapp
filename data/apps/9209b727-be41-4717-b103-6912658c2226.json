@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/help/forecastq",
     "sourceHash": "sha256:9c15477b432fcce1d62e95c025d3a727c833be52e222c0edb543d472e623ef2d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9c15477b432fcce1d62e95c025d3a727c833be52e222c0edb543d472e623ef2d",

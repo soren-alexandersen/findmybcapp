@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sncdocumentations.blob.core.windows.net/products/SIEVERS%20DATEV_documentation_de-DE.html",
     "sourceHash": "sha256:5875d152d88e22d3961d49bee927f070ebf0e59db79efe7a6dc976081ddbafe5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5875d152d88e22d3961d49bee927f070ebf0e59db79efe7a6dc976081ddbafe5",

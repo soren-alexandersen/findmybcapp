@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/LMT/",
     "sourceHash": "sha256:e015660bb2a3705d6a76b60e5d78f7ff551c87fa8989ed9af460b5c4392521d4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e015660bb2a3705d6a76b60e5d78f7ff551c87fa8989ed9af460b5c4392521d4",

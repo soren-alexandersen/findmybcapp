@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://invice.com/support",
     "sourceHash": "sha256:3e2d74e7471dbcbb96ac612abbcb27859f72dc789d3502dac7d927ca294d1e8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3e2d74e7471dbcbb96ac612abbcb27859f72dc789d3502dac7d927ca294d1e8f",

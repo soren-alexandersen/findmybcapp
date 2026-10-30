@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/dynamic-ship/product-help/",
     "sourceHash": "sha256:1de31122958234165c94aad678ce30d0ac6e92fda9bf99d788a71ea43f23af15",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1de31122958234165c94aad678ce30d0ac6e92fda9bf99d788a71ea43f23af15",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/cti-for-starface/",
     "sourceHash": "sha256:5fa2bbbd925aeeb29ec40041d6531c857c41966a6699ff34677aab0a9ead5619",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5fa2bbbd925aeeb29ec40041d6531c857c41966a6699ff34677aab0a9ead5619",

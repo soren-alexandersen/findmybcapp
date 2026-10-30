@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/shipping-manager/#howto",
     "sourceHash": "sha256:4dfd26ac4864bf78e0831ff8212b83511dda4927092740a034d930031239d098",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4dfd26ac4864bf78e0831ff8212b83511dda4927092740a034d930031239d098",

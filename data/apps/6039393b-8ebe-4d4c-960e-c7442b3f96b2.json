@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://braintree-brainworx.github.io/PowerFlow/",
     "sourceHash": "sha256:98def9bea2a26ced2b817fd078044fcf2196e4c3cef63cb08176e8b5d911705f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98def9bea2a26ced2b817fd078044fcf2196e4c3cef63cb08176e8b5d911705f",

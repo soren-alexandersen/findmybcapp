@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/lotmgt/index.html",
     "sourceHash": "sha256:3ad175e078bcf5e4fc30023fa3654d65566cc5e0ffffddb8440ee0f1b8842286",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3ad175e078bcf5e4fc30023fa3654d65566cc5e0ffffddb8440ee0f1b8842286",

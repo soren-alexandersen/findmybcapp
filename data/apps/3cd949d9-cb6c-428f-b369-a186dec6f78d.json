@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/Astraleversign/Help",
     "sourceHash": "sha256:5dd287ff558a8acbf7d2249700dabc8b9c7257fbe4997db89eaee6c719b1e8b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5dd287ff558a8acbf7d2249700dabc8b9c7257fbe4997db89eaee6c719b1e8b0",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://jcd.dk/microsoft-dynamics/job-queue-tools-for-business-central/",
     "sourceHash": "sha256:7db7364f377017d56b7b7576a7fa88044afedea3626d52cbee246b5583380e04",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7db7364f377017d56b7b7576a7fa88044afedea3626d52cbee246b5583380e04",

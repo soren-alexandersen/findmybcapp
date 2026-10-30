@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://minteo.io/support",
     "sourceHash": "sha256:52820c2d6a0804b7bcee4b08a4c79ac66b34d4a146e1d12d3cec412c63a0a46c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:52820c2d6a0804b7bcee4b08a4c79ac66b34d4a146e1d12d3cec412c63a0a46c",

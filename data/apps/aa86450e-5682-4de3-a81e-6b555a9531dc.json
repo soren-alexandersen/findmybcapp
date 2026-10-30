@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.ipaas.com/",
     "sourceHash": "sha256:7ba7b587718ce80617ce68a58e5fa54ab60bf590ccdd0e01a78a0aae30c89406",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7ba7b587718ce80617ce68a58e5fa54ab60bf590ccdd0e01a78a0aae30c89406",

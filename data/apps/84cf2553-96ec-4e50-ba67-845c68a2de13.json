@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-DEA/en-US/DEA/index.html",
     "sourceHash": "sha256:966128cafaa878b31c090d627585d2f4fe6656e3af19e06a106cf156d926343c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:966128cafaa878b31c090d627585d2f4fe6656e3af19e06a106cf156d926343c",

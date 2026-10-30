@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/engineering-change-management/",
     "sourceHash": "sha256:8dcb21c149d8481e8a76d817bb2a87260bf13194868533f6fa03356e3339734a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dcb21c149d8481e8a76d817bb2a87260bf13194868533f6fa03356e3339734a",

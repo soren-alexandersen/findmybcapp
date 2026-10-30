@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-real-estate-management",
     "sourceHash": "sha256:e2b4b0bf43c759749b8756ceffe5302749aac6c6ac92a52e2abd9d7535da9013",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e2b4b0bf43c759749b8756ceffe5302749aac6c6ac92a52e2abd9d7535da9013",

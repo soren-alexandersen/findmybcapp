@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/docsolutions-for-arxivar-next.html",
     "sourceHash": "sha256:f59d8fd49eb8bb54c1d33b175dec0e468655fdedea4251c9c599ba60b6f1cbde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f59d8fd49eb8bb54c1d33b175dec0e468655fdedea4251c9c599ba60b6f1cbde",

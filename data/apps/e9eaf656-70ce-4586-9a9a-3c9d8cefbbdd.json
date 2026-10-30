@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apportunix.com/app/confidential-data-protection",
     "sourceHash": "sha256:844d64d8f6d0bdb6028186f70c164d1b749faaa35cbef77ab6d574ee708318fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:844d64d8f6d0bdb6028186f70c164d1b749faaa35cbef77ab6d574ee708318fb",

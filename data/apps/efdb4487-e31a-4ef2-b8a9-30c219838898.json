@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.astral365.com/Products/AstralPay/Help",
     "sourceHash": "sha256:3119205cfe9b859c8ac4fce2fe738addffd05c91ca6302edcbda9f9dba43aa49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3119205cfe9b859c8ac4fce2fe738addffd05c91ca6302edcbda9f9dba43aa49",

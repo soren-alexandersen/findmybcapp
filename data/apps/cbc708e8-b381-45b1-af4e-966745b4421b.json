@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/en-us/smartcompanyinfo/documentation",
     "sourceHash": "sha256:56fc74182a3f4c6be4a62da8baf9604d49aec680409af7e29d6b8de9594dc195",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:56fc74182a3f4c6be4a62da8baf9604d49aec680409af7e29d6b8de9594dc195",

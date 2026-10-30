@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://intercompany.help.be-terna.com/de/",
     "sourceHash": "sha256:1d6221d9abf439d3277be215b98032fccd9700efeae0c53e67d034183686536e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1d6221d9abf439d3277be215b98032fccd9700efeae0c53e67d034183686536e",

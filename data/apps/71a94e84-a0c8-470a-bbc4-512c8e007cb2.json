@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/auto-create-dimensions",
     "sourceHash": "sha256:fd0fee94f0fb91c924eeb9a3092e0b213f85b76125b06b06b9748289821b9320",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fd0fee94f0fb91c924eeb9a3092e0b213f85b76125b06b06b9748289821b9320",

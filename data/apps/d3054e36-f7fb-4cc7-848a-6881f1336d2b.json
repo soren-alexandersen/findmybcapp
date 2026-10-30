@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/app-e-archive-help-1.pdf",
     "sourceHash": "sha256:19cbe4fb2f323cc4e2ba4794840e2dca712ba8f4706d822a03b265b75905f53e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:19cbe4fb2f323cc4e2ba4794840e2dca712ba8f4706d822a03b265b75905f53e",

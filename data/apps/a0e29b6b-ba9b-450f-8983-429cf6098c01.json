@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/alterna-platform-for-k3-pebblestone/",
     "sourceHash": "sha256:8be71b10fa73eb7a9b726d8310a9442f0ff8ad394a48349c9adaf3eb45f661fd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8be71b10fa73eb7a9b726d8310a9442f0ff8ad394a48349c9adaf3eb45f661fd",

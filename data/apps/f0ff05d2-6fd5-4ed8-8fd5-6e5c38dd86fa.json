@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apportsystems.freshdesk.com/support/home",
     "sourceHash": "sha256:60607739296bacb23e1fb91a91299daf55529c3666e26604e787e730327a8b35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:60607739296bacb23e1fb91a91299daf55529c3666e26604e787e730327a8b35",

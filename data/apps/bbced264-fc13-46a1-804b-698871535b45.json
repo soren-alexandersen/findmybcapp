@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/procon-unified-project-and-contract-for-dynamics-365-business-central/",
     "sourceHash": "sha256:739a3c2254c13e4137db486ec2b4732b046ddf2734660dbaa9c1bc7ac4101df3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:739a3c2254c13e4137db486ec2b4732b046ddf2734660dbaa9c1bc7ac4101df3",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Supply-Chain-Budgets",
     "sourceHash": "sha256:1e21e17d2b0ce3a54d282f3fb992045cb1872247ffad503900bab5fc152f51bd",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1e21e17d2b0ce3a54d282f3fb992045cb1872247ffad503900bab5fc152f51bd",

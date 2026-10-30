@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://stefanmaronconsulting.com/contact/",
     "sourceHash": "sha256:669811d4b9c320ecf2ece67be7ab8508edb00a49e4998322c94b192d05cee158",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:669811d4b9c320ecf2ece67be7ab8508edb00a49e4998322c94b192d05cee158",

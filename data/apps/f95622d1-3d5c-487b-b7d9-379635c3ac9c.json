@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://business-central.refined.site/space/EDIA",
     "sourceHash": "sha256:f95d934223138237084123cb34057b9a42aac1c360281f211602303ac7f1e66d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f95d934223138237084123cb34057b9a42aac1c360281f211602303ac7f1e66d",

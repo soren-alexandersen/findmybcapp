@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PRC/",
     "sourceHash": "sha256:46f798ec1572ea7317b7af092100ff28b234581587a469000b27ee8840d5a1c0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:46f798ec1572ea7317b7af092100ff28b234581587a469000b27ee8840d5a1c0",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/apps/advanced-shopify-pricing/",
     "sourceHash": "sha256:3505c54b1bfac0288f4f910bbaaac3bf468efc5ae535270581a89606e73636e4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3505c54b1bfac0288f4f910bbaaac3bf468efc5ae535270581a89606e73636e4",

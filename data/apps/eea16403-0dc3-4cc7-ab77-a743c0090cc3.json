@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/general-ledger-application.html",
     "sourceHash": "sha256:50494272902d4d04a88cf2783378bc1eb1d2c4c4f77536ef1497740fb4f67f4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:50494272902d4d04a88cf2783378bc1eb1d2c4c4f77536ef1497740fb4f67f4c",

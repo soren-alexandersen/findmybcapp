@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.computercamp.dk/",
     "sourceHash": "sha256:d6dd662a2addd1e4add88ff7e3998baf794286261d58ce0263d2efc7996ef43b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d6dd662a2addd1e4add88ff7e3998baf794286261d58ce0263d2efc7996ef43b",

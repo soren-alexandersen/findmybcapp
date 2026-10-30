@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.appcore-solutions.com/extensions",
     "sourceHash": "sha256:5c4041d94e9bc0da98e2d4fe9c2b3fd3bc4bae9cc0186a662caa92b6a59560cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c4041d94e9bc0da98e2d4fe9c2b3fd3bc4bae9cc0186a662caa92b6a59560cd",

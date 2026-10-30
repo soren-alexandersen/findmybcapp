@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.creditsafe.com/se/sv/kontakt/kundservice/kontakta-oss.html",
     "sourceHash": "sha256:7d3c484a78cd50c9736a8731a89a3002b7d5a01773c4b5db28cb34c0bdbc1f1c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d3c484a78cd50c9736a8731a89a3002b7d5a01773c4b5db28cb34c0bdbc1f1c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/jobmanagement",
     "sourceHash": "sha256:791fa3bb9f0900bdaeeb8ed3550db9c82e57ed67b572cea1e380ae142feda58f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:791fa3bb9f0900bdaeeb8ed3550db9c82e57ed67b572cea1e380ae142feda58f",

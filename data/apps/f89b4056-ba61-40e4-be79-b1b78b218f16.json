@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/usedynamics/#howto",
     "sourceHash": "sha256:c700ce9b5c5553b40233914aaf716cdab4a7a404845dacb39300d1d54eb5a2bf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c700ce9b5c5553b40233914aaf716cdab4a7a404845dacb39300d1d54eb5a2bf",

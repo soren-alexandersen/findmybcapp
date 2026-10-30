@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/brancheloesninger/forsyningsvirksomheder",
     "sourceHash": "sha256:25be1675afb3a05f90cbcdd738f092ad4d97226cb1d37f7135d0df6be53f708a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:25be1675afb3a05f90cbcdd738f092ad4d97226cb1d37f7135d0df6be53f708a",

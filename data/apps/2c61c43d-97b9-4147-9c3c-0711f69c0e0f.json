@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/arxeia-365-connector/",
     "sourceHash": "sha256:0a2aa5fe72a9844cfc155f638a57bff0aeb727175f8c6f9f0e27bf9a6abef1fc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0a2aa5fe72a9844cfc155f638a57bff0aeb727175f8c6f9f0e27bf9a6abef1fc",

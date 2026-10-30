@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/advanced-manufacturing-suite/",
     "sourceHash": "sha256:91d7aa4114ecc793152eb515186e7e8b63aa765a26fe36779ad476b0c75e2f1e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:91d7aa4114ecc793152eb515186e7e8b63aa765a26fe36779ad476b0c75e2f1e",

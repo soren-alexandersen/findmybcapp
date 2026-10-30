@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.appsfordynamics365.com/iw/",
     "sourceHash": "sha256:8635a60104f3e2f7a57e8fc959409713fd667a0085369031fc5901052c12adf3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8635a60104f3e2f7a57e8fc959409713fd667a0085369031fc5901052c12adf3",

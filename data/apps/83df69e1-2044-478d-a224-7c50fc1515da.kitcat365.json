@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.wissberg.com/kontakt/",
     "sourceHash": "sha256:7d5cb910ce4d3a72779bad77b5194e84e1862d77589e45fe64054945d0e5ae4d",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d5cb910ce4d3a72779bad77b5194e84e1862d77589e45fe64054945d0e5ae4d",

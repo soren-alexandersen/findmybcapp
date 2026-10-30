@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nbdynamics.com/contacto/",
     "sourceHash": "sha256:d81799cd1b51ce8768f9be3d5f01f54bdcf353874e522f151e44897752d7cbf9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d81799cd1b51ce8768f9be3d5f01f54bdcf353874e522f151e44897752d7cbf9",

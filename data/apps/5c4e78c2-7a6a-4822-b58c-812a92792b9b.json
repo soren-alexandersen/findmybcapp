@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/transport-cost-etc-ex038.html",
     "sourceHash": "sha256:97521b2e794c56059ff32e55f7c50df640b11959e8c4a84c9813bc4127339cb4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:97521b2e794c56059ff32e55f7c50df640b11959e8c4a84c9813bc4127339cb4",

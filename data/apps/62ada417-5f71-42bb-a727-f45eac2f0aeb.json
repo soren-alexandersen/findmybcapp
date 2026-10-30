@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/unidat/index.html",
     "sourceHash": "sha256:4db0d76509d6e3f28715acd292cb77be156e47992c49f13b445e55ff57719700",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4db0d76509d6e3f28715acd292cb77be156e47992c49f13b445e55ff57719700",

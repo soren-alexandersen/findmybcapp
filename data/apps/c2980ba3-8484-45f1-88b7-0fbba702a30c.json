@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Bank-Account-Enhancements",
     "sourceHash": "sha256:b06f4c89f6f9e23de55a783dfe1dfcc5cab0f441885cf5a765f74cf09f6977a6",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b06f4c89f6f9e23de55a783dfe1dfcc5cab0f441885cf5a765f74cf09f6977a6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.staedean.com/products/anywhere-for-sales-microsoft-dynamics-bc/",
     "sourceHash": "sha256:d5f437f327bf26dfbb1656066735d191b19fff595d6b88d4dcd76e87d70cdc26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5f437f327bf26dfbb1656066735d191b19fff595d6b88d4dcd76e87d70cdc26",

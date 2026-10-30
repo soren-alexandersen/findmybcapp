@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.mydbsync.com/cloud-workflow/connectors/microsoft-dynamics-365-business-central",
     "sourceHash": "sha256:a6ed148f62850e42c51e85cc0cae0b58cb11e91a4b79641d19afdf77db600d01",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6ed148f62850e42c51e85cc0cae0b58cb11e91a4b79641d19afdf77db600d01",

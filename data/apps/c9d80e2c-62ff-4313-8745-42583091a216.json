@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/Purchase-Ledger-Entries",
     "sourceHash": "sha256:858655e5745c19947d4081c1c1ac1c5add9c7b30cd575d16822a11a5ce5e9b0d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:858655e5745c19947d4081c1c1ac1c5add9c7b30cd575d16822a11a5ce5e9b0d",

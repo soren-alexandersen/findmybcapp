@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Proudct%20Platform%20Management/",
     "sourceHash": "sha256:11a81de7b498b562e4cba28f0879460452c4cb1a9899df64a99c3b0b2a141efa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:11a81de7b498b562e4cba28f0879460452c4cb1a9899df64a99c3b0b2a141efa",

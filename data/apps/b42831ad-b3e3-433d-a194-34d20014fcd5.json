@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Approval-Workflows",
     "sourceHash": "sha256:763bcb8621be75be502a0a261d5b877bb6c89582aad881871e40cc87654437a9",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:763bcb8621be75be502a0a261d5b877bb6c89582aad881871e40cc87654437a9",

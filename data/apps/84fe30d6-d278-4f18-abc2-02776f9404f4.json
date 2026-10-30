@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sambaash.com/products/omnicom",
     "sourceHash": "sha256:06e0af7eed03277e2ea619a9aa654c525232bdbadc161fad0ccbc8f73c4ca7ba",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:06e0af7eed03277e2ea619a9aa654c525232bdbadc161fad0ccbc8f73c4ca7ba",

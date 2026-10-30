@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.orgavision.app/en/sanction-list-screening/",
     "sourceHash": "sha256:e73cbe5ad84e27957ac753982b05a043ac2717700b94962cbdeb8474b9618b97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e73cbe5ad84e27957ac753982b05a043ac2717700b94962cbdeb8474b9618b97",

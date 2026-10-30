@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aasatwork.nl/",
     "sourceHash": "sha256:ebfc3eb65ec8c29d8b8dc0d329aaff606524567a8bb2fbe6d45aeff132198524",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ebfc3eb65ec8c29d8b8dc0d329aaff606524567a8bb2fbe6d45aeff132198524",

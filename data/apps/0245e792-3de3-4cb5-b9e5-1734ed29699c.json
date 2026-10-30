@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nmatrixcs.com/Features.html",
     "sourceHash": "sha256:1f24248f8064875cd5445dad22f593b960eee8fe76604436dd8044fe3665cf6b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1f24248f8064875cd5445dad22f593b960eee8fe76604436dd8044fe3665cf6b",

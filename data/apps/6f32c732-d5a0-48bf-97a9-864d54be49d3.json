@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/advanced-dimensions-management.html",
     "sourceHash": "sha256:c1ea4e6d4b0d73daa4f38af9354092a39dec4800049dac7d28e57f599b10cd9b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c1ea4e6d4b0d73daa4f38af9354092a39dec4800049dac7d28e57f599b10cd9b",

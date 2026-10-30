@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.roimaint.com/en/content/logia-wms-integration-to-business-central",
     "sourceHash": "sha256:70bd3bf98e189279af259844aca916fd805fef2816f610887086758a4713d5e1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:70bd3bf98e189279af259844aca916fd805fef2816f610887086758a4713d5e1",

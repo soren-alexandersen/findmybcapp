@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/cc/",
     "sourceHash": "sha256:74c47596cd948fc18eba06a895c1ce2fbd41af4961d6b4eadb326d59ff22e2a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74c47596cd948fc18eba06a895c1ce2fbd41af4961d6b4eadb326d59ff22e2a7",

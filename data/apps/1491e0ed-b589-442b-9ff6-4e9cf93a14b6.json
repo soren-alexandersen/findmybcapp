@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/ams/",
     "sourceHash": "sha256:ff59526f29344afa12e2943c7647d7bd133f49ba7d8daf7269343d3bf71d8c80",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ff59526f29344afa12e2943c7647d7bd133f49ba7d8daf7269343d3bf71d8c80",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/barcodes/index.html",
     "sourceHash": "sha256:8dcca7f61585a4956160d8cce122b6ef304acbb9894e9ce851d59e0b215514da",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dcca7f61585a4956160d8cce122b6ef304acbb9894e9ce851d59e0b215514da",

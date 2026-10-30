@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/cut-to-length/docs/",
     "sourceHash": "sha256:06292068d9dcfc91531d839a760944143661c708dcb55efcbc98eec2ff0b6d8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:06292068d9dcfc91531d839a760944143661c708dcb55efcbc98eec2ff0b6d8f",

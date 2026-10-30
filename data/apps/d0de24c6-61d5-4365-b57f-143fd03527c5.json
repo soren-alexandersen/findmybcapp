@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-synchronize-databases",
     "sourceHash": "sha256:ef36775800517e980ec1bb8d28bb532f8ad697cbdda0e95fcfff449ed44bebfe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ef36775800517e980ec1bb8d28bb532f8ad697cbdda0e95fcfff449ed44bebfe",

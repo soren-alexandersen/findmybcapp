@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-store-document-attachments-externally",
     "sourceHash": "sha256:4b57b7bd655efa6551198adffc036cd3459b131281acd72981325922b8da5f96",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4b57b7bd655efa6551198adffc036cd3459b131281acd72981325922b8da5f96",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.qbsgroup.com/solutions/qbs-extension-agent/",
     "sourceHash": "sha256:6bf306dff45b2e83dacab4a93d35a8f8494cd3c3d85ebe2893107c1b39b00e64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6bf306dff45b2e83dacab4a93d35a8f8494cd3c3d85ebe2893107c1b39b00e64",

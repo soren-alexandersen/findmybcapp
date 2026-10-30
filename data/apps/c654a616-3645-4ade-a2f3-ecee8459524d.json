@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex035-bulk-vat-number-check.html",
     "sourceHash": "sha256:e4ebb8f8573e849bd663af5a43cf1b74801fa56a1e6b050312ff66d18c5e269a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e4ebb8f8573e849bd663af5a43cf1b74801fa56a1e6b050312ff66d18c5e269a",

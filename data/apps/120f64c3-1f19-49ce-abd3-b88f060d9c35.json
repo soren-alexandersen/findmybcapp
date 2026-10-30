@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "http://smartict.al/index.php/project-01/",
     "sourceHash": "sha256:a047d5e756b0968aba1d4ce133bb72f2c416a721302433712b8f1df17431108c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a047d5e756b0968aba1d4ce133bb72f2c416a721302433712b8f1df17431108c",

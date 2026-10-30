@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/printixconnecthelp",
     "sourceHash": "sha256:c878170ed76af8055a4c17c5f74133d6159ab13d8777c4725b8ff9089a311f3d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c878170ed76af8055a4c17c5f74133d6159ab13d8777c4725b8ff9089a311f3d",

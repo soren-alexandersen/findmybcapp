@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://extentions.soak.dk/soak-taxes-business-central-documentation/",
     "sourceHash": "sha256:3379ddbaa8b82d3fe3a63a8f2a023576235e1aa85484d034e6c6a8b4e7dc0046",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3379ddbaa8b82d3fe3a63a8f2a023576235e1aa85484d034e6c6a8b4e7dc0046",

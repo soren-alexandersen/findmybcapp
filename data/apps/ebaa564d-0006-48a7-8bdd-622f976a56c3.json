@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://navbiz.hr/info/",
     "sourceHash": "sha256:18f36296c26f6e19221a491826597144f6ba5a180d067de5af1e89eae7f0d868",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18f36296c26f6e19221a491826597144f6ba5a180d067de5af1e89eae7f0d868",

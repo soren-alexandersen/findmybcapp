@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.docubizz.com/wp-content/uploads/2022/06/User-Manual-DocuBizz-Dynamics-365-BC-Integration.pdf",
     "sourceHash": "sha256:666f25493afe42db57986d32172ed03146dff9cfa7d375642345b6c9a4c1cc3f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:666f25493afe42db57986d32172ed03146dff9cfa7d375642345b6c9a4c1cc3f",

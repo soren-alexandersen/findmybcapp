@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-measure-calculation/help",
     "sourceHash": "sha256:7f14921939bd89239f3fd644497001e18621cccd04104bea609c6a929e34687e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f14921939bd89239f3fd644497001e18621cccd04104bea609c6a929e34687e",

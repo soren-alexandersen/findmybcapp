@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/PowerBox/",
     "sourceHash": "sha256:6ac128e8a2ac915504264bd89b530ce0325880d197f92b7dd83cee01ba42e8a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6ac128e8a2ac915504264bd89b530ce0325880d197f92b7dd83cee01ba42e8a2",

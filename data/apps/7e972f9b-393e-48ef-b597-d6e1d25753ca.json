@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bms-gmbh.com/kontakt/",
     "sourceHash": "sha256:d74e4054cf19de6e4d5c84dec8e20c1a2335f359e43ff2130160a5abba158fcc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d74e4054cf19de6e4d5c84dec8e20c1a2335f359e43ff2130160a5abba158fcc",

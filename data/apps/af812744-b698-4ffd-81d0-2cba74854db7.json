@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/EUT/",
     "sourceHash": "sha256:e5139a1ca724163c3e8b767af53bf9526431f729eddca11bead5b410bc67f57a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e5139a1ca724163c3e8b767af53bf9526431f729eddca11bead5b410bc67f57a",

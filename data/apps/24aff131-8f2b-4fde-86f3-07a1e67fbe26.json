@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dvp.net/documentation/NTN10/Help/en-US/",
     "sourceHash": "sha256:ee739e6d134b7f2c1c44c18526444450d7d03c5e0a631cd06b3544d984e9a0cf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ee739e6d134b7f2c1c44c18526444450d7d03c5e0a631cd06b3544d984e9a0cf",

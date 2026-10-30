@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://navsolutions.dk/alternate-bill-to-address",
     "sourceHash": "sha256:f3fd0766fcbff8636a9af26a405c71877ee06c556d95f4fdc47dc686a8f09d46",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f3fd0766fcbff8636a9af26a405c71877ee06c556d95f4fdc47dc686a8f09d46",

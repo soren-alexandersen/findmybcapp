@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-bank-reconciliation/docs/",
     "sourceHash": "sha256:24bc2893e491c50c609631d9bc8da4e673ade67af7f757a87ddfec5c782e42b3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:24bc2893e491c50c609631d9bc8da4e673ade67af7f757a87ddfec5c782e42b3",

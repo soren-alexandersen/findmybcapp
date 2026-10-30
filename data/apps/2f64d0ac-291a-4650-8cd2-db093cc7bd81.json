@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bizzcore.de/wsmgr",
     "sourceHash": "sha256:5ecbb0ac868841d1c726566e226718a05cd53aebc3bc0b182f569bf94aebc341",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ecbb0ac868841d1c726566e226718a05cd53aebc3bc0b182f569bf94aebc341",

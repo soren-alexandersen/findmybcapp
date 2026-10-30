@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/baddebtmanagement",
     "sourceHash": "sha256:4569442e011b2aa1e499cb7c92929da4fe4b524d6bbfab8b5d9e6e515b6d7c65",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4569442e011b2aa1e499cb7c92929da4fe4b524d6bbfab8b5d9e6e515b6d7c65",

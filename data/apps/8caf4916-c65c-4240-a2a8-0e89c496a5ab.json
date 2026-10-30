@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://eliteit.dk/en/packaging-waste-reporting-app/",
     "sourceHash": "sha256:a70ea25205fee5d01b9440e3f3715d4751138478cbaa0ca72c72c0c03c35ff97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a70ea25205fee5d01b9440e3f3715d4751138478cbaa0ca72c72c0c03c35ff97",

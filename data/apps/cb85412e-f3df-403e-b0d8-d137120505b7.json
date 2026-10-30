@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://micro-apps.abcebusiness.nl/en/rolecenter-app-for-business-central",
     "sourceHash": "sha256:db5118456b12dfc0fc5b30942d8259d4897f08e6313ff6f6f0a61ac1f47fb61d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:db5118456b12dfc0fc5b30942d8259d4897f08e6313ff6f6f0a61ac1f47fb61d",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://help.accessorange.com/en-us/article/business-central-singapore-gst-localization-pack-1u5uzc5/?bust=1771224204615",
     "sourceHash": "sha256:a147e9544427cc80d53ea1d4ef086a5a5ea576bf601bf4b6f675794a517e1ccc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a147e9544427cc80d53ea1d4ef086a5a5ea576bf601bf4b6f675794a517e1ccc",

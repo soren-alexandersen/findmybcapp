@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://eliteit.dk/biogasanlaeg/",
     "sourceHash": "sha256:9a0a71851b0e01831edb2ce6694930db287e960d47f7909519c7c2984b2e28b5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9a0a71851b0e01831edb2ce6694930db287e960d47f7909519c7c2984b2e28b5",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/NPSBeograd/NPS-Support/wiki",
     "sourceHash": "sha256:f7e702698fe84b4c6a14dd89d3d0de305eb4b8656d0b863ee6a10977361fc9a9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f7e702698fe84b4c6a14dd89d3d0de305eb4b8656d0b863ee6a10977361fc9a9",

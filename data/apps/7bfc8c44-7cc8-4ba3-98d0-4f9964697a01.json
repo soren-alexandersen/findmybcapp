@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://tms.extensions-lab.com/",
     "sourceHash": "sha256:911b2c8e4c16c0edc3391d267c3bffb7434d04f969bb1d6a95ccb828c53fc0ba",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:911b2c8e4c16c0edc3391d267c3bffb7434d04f969bb1d6a95ccb828c53fc0ba",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://navsherpa.com/help",
     "sourceHash": "sha256:cbfee4f965683dba34f3a3d009cdb404c62b8f5201607c3dd2a3a3fec5403f5d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cbfee4f965683dba34f3a3d009cdb404c62b8f5201607c3dd2a3a3fec5403f5d",

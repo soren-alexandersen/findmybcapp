@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://myronsoft.com.tr/en/contact/",
     "sourceHash": "sha256:63b388ff69b37648876cf021a3df9a0f0a7b628526e267c644997b068afaa688",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:63b388ff69b37648876cf021a3df9a0f0a7b628526e267c644997b068afaa688",

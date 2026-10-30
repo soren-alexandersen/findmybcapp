@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://publicproductdocsbravx.blob.core.windows.net/documents/Trade365_for_Business_Central_Help.pdf",
     "sourceHash": "sha256:e3679ef13b7f7de9afd2a6b6d54da2d7b6a0a7290243ed7f5911767b725723c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e3679ef13b7f7de9afd2a6b6d54da2d7b6a0a7290243ed7f5911767b725723c6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eurisdynamics.com/app-hr/",
     "sourceHash": "sha256:1abc04cf6d36ceacdf16972f9bcd85137ea4296dc815da730eb297154fc0500e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1abc04cf6d36ceacdf16972f9bcd85137ea4296dc815da730eb297154fc0500e",

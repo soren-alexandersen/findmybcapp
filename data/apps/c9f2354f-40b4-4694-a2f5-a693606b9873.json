@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.smart-it.com/",
     "sourceHash": "sha256:467681759418bf04407a80aa639275d8f0402e773db817f6714a4afa817cca15",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:467681759418bf04407a80aa639275d8f0402e773db817f6714a4afa817cca15",

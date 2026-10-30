@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://claude.ai/code/artifact/f83fc564-0261-4aeb-b204-b729c654b6f8",
     "sourceHash": "sha256:b942feef90956ccb46c3ef2cf907721e1d7e57fa4eb92ae02042a69a232efe11",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b942feef90956ccb46c3ef2cf907721e1d7e57fa4eb92ae02042a69a232efe11",

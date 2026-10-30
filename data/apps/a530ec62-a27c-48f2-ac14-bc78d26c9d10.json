@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/ElevateAdmin",
     "sourceHash": "sha256:f48cc34350f9dde1395b4d6de93f7534a05c6e483e1718f7700352dff64ee850",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f48cc34350f9dde1395b4d6de93f7534a05c6e483e1718f7700352dff64ee850",

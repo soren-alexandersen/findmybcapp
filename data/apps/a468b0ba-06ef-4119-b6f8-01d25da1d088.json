@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://posone365.com/",
     "sourceHash": "sha256:a621b58089280d57422c6284feb956fe0fff7e60d8b5181ba60a414b21279be0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a621b58089280d57422c6284feb956fe0fff7e60d8b5181ba60a414b21279be0",

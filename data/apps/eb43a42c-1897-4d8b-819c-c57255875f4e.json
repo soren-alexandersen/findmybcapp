@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/nab-support/",
     "sourceHash": "sha256:fdc9283654e0fc108a4ccec191fa4c5edd36b767eee18247adf4481ca3793e80",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fdc9283654e0fc108a4ccec191fa4c5edd36b767eee18247adf4481ca3793e80",

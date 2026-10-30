@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.dk/advokat/app/#userguide",
     "sourceHash": "sha256:c13d52ed798b6efda370f74a6564b7fbca075ba5929c0798a1c308beca1c6dbd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c13d52ed798b6efda370f74a6564b7fbca075ba5929c0798a1c308beca1c6dbd",

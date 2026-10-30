@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fieldservice.dk/",
     "sourceHash": "sha256:74a00f6bd99b42e07a32e030a827629115dadc82cd4cbed9d4a252c2c7e90948",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:74a00f6bd99b42e07a32e030a827629115dadc82cd4cbed9d4a252c2c7e90948",

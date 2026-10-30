@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/Clever%20Credit/User%20Guide/01.%20About/",
     "sourceHash": "sha256:11e30e00e53bafc85e3b0d45bff986776affc60a71aef7110bce60a29f5d3190",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:11e30e00e53bafc85e3b0d45bff986776affc60a71aef7110bce60a29f5d3190",

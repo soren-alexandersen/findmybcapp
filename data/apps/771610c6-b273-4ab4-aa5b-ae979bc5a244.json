@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/financeapps",
     "sourceHash": "sha256:81b6e20ec8c476a607d0711793d82e4814fe8dc63d5da459981d3898604d5f56",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:81b6e20ec8c476a607d0711793d82e4814fe8dc63d5da459981d3898604d5f56",

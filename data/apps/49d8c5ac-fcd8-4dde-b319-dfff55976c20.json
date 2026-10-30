@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/attributesmgtbridge/index.html",
     "sourceHash": "sha256:160c7ff5e987df2beca3d7adb0028c646d7a103f4d8c17aacc71360a2ffb4528",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:160c7ff5e987df2beca3d7adb0028c646d7a103f4d8c17aacc71360a2ffb4528",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ntribs.notion.site/DocuSign-for-Business-Central-Sales-Quotes-1ab3995661de80848177f863771d4a96?pvs=4",
     "sourceHash": "sha256:a5fc634c743bf06f40f4fbcf901455f228a8d7a96380c9536362be4529d5af80",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a5fc634c743bf06f40f4fbcf901455f228a8d7a96380c9536362be4529d5af80",

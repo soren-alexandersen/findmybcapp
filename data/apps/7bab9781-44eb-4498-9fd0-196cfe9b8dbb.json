@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://elva-d365-bc.github.io/localization/en-US/articles/latvian_language/overview.html",
     "sourceHash": "sha256:c4582234a07e6b071ed9bc96a1aeee78b3656c6a50dc1e87940e71e896e2a2f5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c4582234a07e6b071ed9bc96a1aeee78b3656c6a50dc1e87940e71e896e2a2f5",

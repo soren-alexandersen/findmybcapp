@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/SM/docs/Introduction",
     "sourceHash": "sha256:94f83e8eef3f2e350d333512a94ebe3d1529a0cf554343eddb8a022688644e63",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:94f83e8eef3f2e350d333512a94ebe3d1529a0cf554343eddb8a022688644e63",

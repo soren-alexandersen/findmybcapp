@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/payment_terminal",
     "sourceHash": "sha256:3cd23ebcfd0e2f1841c93039859a7e1943ed20b858cbba837a8881b3b3aa3662",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3cd23ebcfd0e2f1841c93039859a7e1943ed20b858cbba837a8881b3b3aa3662",

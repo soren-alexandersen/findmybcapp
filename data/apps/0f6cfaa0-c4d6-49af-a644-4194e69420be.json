@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/telema-edi/docs/en-US/help",
     "sourceHash": "sha256:6b7071d68271d19ec2a420a2f15e706972251abe942bb507a5da040f0e916e4e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6b7071d68271d19ec2a420a2f15e706972251abe942bb507a5da040f0e916e4e",

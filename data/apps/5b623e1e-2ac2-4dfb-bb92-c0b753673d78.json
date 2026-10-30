@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/advanced-crm",
     "sourceHash": "sha256:b806b602157db1808038f60a7ce6a2c90f4903570829767a81abe0da4c579a49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b806b602157db1808038f60a7ce6a2c90f4903570829767a81abe0da4c579a49",

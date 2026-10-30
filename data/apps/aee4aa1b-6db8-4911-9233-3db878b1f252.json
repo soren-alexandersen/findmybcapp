@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/",
     "sourceHash": "sha256:4a12f21a9434ec3bf56e9d950e40a5f62284f39cc2902f54ad5fc9444e1f2068",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4a12f21a9434ec3bf56e9d950e40a5f62284f39cc2902f54ad5fc9444e1f2068",

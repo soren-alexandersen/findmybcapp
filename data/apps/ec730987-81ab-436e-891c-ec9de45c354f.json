@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nprogression.com/pdf/d365-sendgrid",
     "sourceHash": "sha256:24a7f6f8a2320d7a80fa1af34e3e848a9cfeba39973f36495ba514ed5ae57e2a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:24a7f6f8a2320d7a80fa1af34e3e848a9cfeba39973f36495ba514ed5ae57e2a",

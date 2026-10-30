@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.business-central.app/public/app365amex_help.pdf",
     "sourceHash": "sha256:2d519efdc7a9cf59b974fbb264fe3b079f0a8e9b0beb89db3c75923933643f71",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2d519efdc7a9cf59b974fbb264fe3b079f0a8e9b0beb89db3c75923933643f71",

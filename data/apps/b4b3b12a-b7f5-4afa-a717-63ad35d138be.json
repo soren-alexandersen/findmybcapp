@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.apcdynamics.com/business-central-add-ons/payment-terms/",
     "sourceHash": "sha256:d0948aead2fab458b64c3185e6c12088b234830cefa24d1b36cf543d9c0c04a8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d0948aead2fab458b64c3185e6c12088b234830cefa24d1b36cf543d9c0c04a8",

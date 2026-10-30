@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/cost/index.html",
     "sourceHash": "sha256:476b2a5c58fba13a65238ef2203041cf8665cfbfb8b779ca704fc580617c2afa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:476b2a5c58fba13a65238ef2203041cf8665cfbfb8b779ca704fc580617c2afa",

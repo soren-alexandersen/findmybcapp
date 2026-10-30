@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/159/Vehicle-Service-Management",
     "sourceHash": "sha256:7d7b504851e68a7abf89894681b36fbb02e9ac65102a665ddc4c0fccec0ab943",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d7b504851e68a7abf89894681b36fbb02e9ac65102a665ddc4c0fccec0ab943",

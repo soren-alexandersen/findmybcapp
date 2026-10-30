@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-mes-pmes.html",
     "sourceHash": "sha256:e28a48f4a7fc41371850b24c9425907bc89027dc4bce616847f9abe4cb513eca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e28a48f4a7fc41371850b24c9425907bc89027dc4bce616847f9abe4cb513eca",

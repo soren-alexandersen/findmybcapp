@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/data-access-hub/",
     "sourceHash": "sha256:ee372d6736744f4eca63311e0889d7cad5ee51801cb0313d30ed9b40e57f72d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ee372d6736744f4eca63311e0889d7cad5ee51801cb0313d30ed9b40e57f72d5",

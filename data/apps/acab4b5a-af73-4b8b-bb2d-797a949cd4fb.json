@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/acumens-crm-enhancements/",
     "sourceHash": "sha256:b72c4f07c9a85fd21c81684226bac5d8b507226b484f463326850219090bb08f",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b72c4f07c9a85fd21c81684226bac5d8b507226b484f463326850219090bb08f",

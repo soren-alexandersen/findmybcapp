@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/servicerequisition/index.html",
     "sourceHash": "sha256:4fdfb5d7f23c285c10d23b011d590fc85a4005b2dc9aa3c55378c3a120497843",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4fdfb5d7f23c285c10d23b011d590fc85a4005b2dc9aa3c55378c3a120497843",

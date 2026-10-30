@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://applibra.com/apps/al-combined-shipments/help",
     "sourceHash": "sha256:4ff9d44a35a40ccc2a9ebcb133e6b381b0fc701d61ca2da84db1f342f30afe24",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ff9d44a35a40ccc2a9ebcb133e6b381b0fc701d61ca2da84db1f342f30afe24",

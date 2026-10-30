@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/childcare",
     "sourceHash": "sha256:5dbc56fcdc896676eab4e80c5a3d661051db98fd0c0e0d5927708613b23307c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5dbc56fcdc896676eab4e80c5a3d661051db98fd0c0e0d5927708613b23307c8",

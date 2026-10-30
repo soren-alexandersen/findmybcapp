@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/125/Travel-Orders",
     "sourceHash": "sha256:801e4540c4dd70e299f8545f51e5531ba803a7177383261516f1ce3358d2b42e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:801e4540c4dd70e299f8545f51e5531ba803a7177383261516f1ce3358d2b42e",

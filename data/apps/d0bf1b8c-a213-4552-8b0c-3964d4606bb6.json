@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-exchange-rate-adjustment-tr",
     "sourceHash": "sha256:1e7843d3ad547224e067a37e5e9bc43186ee2ec0198574ba5c6f205057d54e3e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1e7843d3ad547224e067a37e5e9bc43186ee2ec0198574ba5c6f205057d54e3e",

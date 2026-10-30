@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.ipaas.com/en/collections/17046927-linnworks",
     "sourceHash": "sha256:301c5c68f2ad4af2d346b89adb00489c79c9777d069acbdd3086d228e0abec08",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:301c5c68f2ad4af2d346b89adb00489c79c9777d069acbdd3086d228e0abec08",

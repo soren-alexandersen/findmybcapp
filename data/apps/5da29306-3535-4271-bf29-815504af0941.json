@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-exchange-notes-account-ledger-type-connector",
     "sourceHash": "sha256:05bd3b249e290fc9ae68a34d57be4f727ea6dfacfe81fc7551fadab286520d66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:05bd3b249e290fc9ae68a34d57be4f727ea6dfacfe81fc7551fadab286520d66",

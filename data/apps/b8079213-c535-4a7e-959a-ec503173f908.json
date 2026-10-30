@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/TRB/",
     "sourceHash": "sha256:5f54b2192ec1479533936330f964672bdad38875adb8bd5f80da70a645feb4cc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f54b2192ec1479533936330f964672bdad38875adb8bd5f80da70a645feb4cc",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://go-apps.collana.com/fwlink/?linkid=2303698",
     "sourceHash": "sha256:94ac25382b27d0d95c6b8ca9a3d633454ac74bd0346fbc31d78d665364d65e8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94ac25382b27d0d95c6b8ca9a3d633454ac74bd0346fbc31d78d665364d65e8c",

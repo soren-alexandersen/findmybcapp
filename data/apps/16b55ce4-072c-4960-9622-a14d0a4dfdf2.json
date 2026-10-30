@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.dynamicsproperty.dk/208325-Vidensbase",
     "sourceHash": "sha256:ac96e7abdfb98d03d91bc8b1e5f211b045a4566b73fd60201d6b2ebf0bdcdd37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac96e7abdfb98d03d91bc8b1e5f211b045a4566b73fd60201d6b2ebf0bdcdd37",

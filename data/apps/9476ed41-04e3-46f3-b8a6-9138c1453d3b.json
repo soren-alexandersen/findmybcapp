@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vinya.com.tr/en/microsoft-appsource/turkish-translation-package/",
     "sourceHash": "sha256:8d78d815772882606a874796cf18cc167b85960c30582f56201cd0559396b420",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8d78d815772882606a874796cf18cc167b85960c30582f56201cd0559396b420",

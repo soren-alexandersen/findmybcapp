@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://e-consolutions.com/install-e-con-cpq-inside-microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:f8844c154a2aa5ea5d2b37a5041acd47b36672f75210ce545075a319b193cb5b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f8844c154a2aa5ea5d2b37a5041acd47b36672f75210ce545075a319b193cb5b",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.q-teamsolutions.com/product/drag-and-drop/",
     "sourceHash": "sha256:d23ca0d6ff82813c6280dbb329c3e537f135078ccef191dd8b4c8dd990f6bde9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d23ca0d6ff82813c6280dbb329c3e537f135078ccef191dd8b4c8dd990f6bde9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ETM/",
     "sourceHash": "sha256:c4dace916223f123a106885282259f9ff05d8e7de2b979c1ab20d40eb8b18899",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c4dace916223f123a106885282259f9ff05d8e7de2b979c1ab20d40eb8b18899",

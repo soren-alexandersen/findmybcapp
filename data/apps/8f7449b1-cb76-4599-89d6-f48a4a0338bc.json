@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://app01.naviworldth.com/document/UMD-V4-ThaiLocalization-20210520.pdf",
     "sourceHash": "sha256:0ab815e1267f0c39ed00a9f0e254cb0dc2ed427dde9c164fe97bbf1c2ff3e2d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0ab815e1267f0c39ed00a9f0e254cb0dc2ed427dde9c164fe97bbf1c2ff3e2d2",

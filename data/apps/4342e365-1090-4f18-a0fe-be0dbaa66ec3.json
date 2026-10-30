@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-purchase-management",
     "sourceHash": "sha256:fdffbae0fda095987420d22aef5e02f8c90995b5898987f5524e849d9c3d6049",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fdffbae0fda095987420d22aef5e02f8c90995b5898987f5524e849d9c3d6049",

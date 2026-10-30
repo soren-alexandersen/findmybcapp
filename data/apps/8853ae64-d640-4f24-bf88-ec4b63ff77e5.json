@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-payment-request",
     "sourceHash": "sha256:317cff43b6c56934e474ac4fdd50a1f2553fcc2caa7a5d966edb1cae48d82439",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:317cff43b6c56934e474ac4fdd50a1f2553fcc2caa7a5d966edb1cae48d82439",

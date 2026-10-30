@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bcapps.co/BulkDelete/",
     "sourceHash": "sha256:e61543b63da913a27f39c78241d045f126e9cb81db1aadffc880c0e485931ec1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e61543b63da913a27f39c78241d045f126e9cb81db1aadffc880c0e485931ec1",

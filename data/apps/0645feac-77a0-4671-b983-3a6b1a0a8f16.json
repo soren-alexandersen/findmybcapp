@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.alna.lt/business/en/solutions/alna-hr-office",
     "sourceHash": "sha256:f1bf4f574bf4421005db0ce7d6dd6eda41581a7a446e14be0cd8c221ac92d48b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1bf4f574bf4421005db0ce7d6dd6eda41581a7a446e14be0cd8c221ac92d48b",

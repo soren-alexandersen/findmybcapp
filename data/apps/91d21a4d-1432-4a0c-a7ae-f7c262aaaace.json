@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/back-order-management/docs",
     "sourceHash": "sha256:14e3e30e4eb48738ad123b436f6c783bb222fe9b642356009ddc5eca70f9ea85",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:14e3e30e4eb48738ad123b436f6c783bb222fe9b642356009ddc5eca70f9ea85",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartexpense/documentation/get-started/",
     "sourceHash": "sha256:57d240ed6c0e55c6453efa79a87550de72626856aabdb667006427d16ed25fb3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:57d240ed6c0e55c6453efa79a87550de72626856aabdb667006427d16ed25fb3",

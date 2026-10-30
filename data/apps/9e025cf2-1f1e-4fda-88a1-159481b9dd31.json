@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.innoviogroup.com/software/app/smart-project-manufacturing",
     "sourceHash": "sha256:4e9355941e52bacc829447561c250f47de229754d286470939d28e3f63ccdc87",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4e9355941e52bacc829447561c250f47de229754d286470939d28e3f63ccdc87",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/dataimporter/index.html",
     "sourceHash": "sha256:61e9d2310c458d59e11ce15b28a982d311b26b90e6459cea471f4999d7ff6114",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:61e9d2310c458d59e11ce15b28a982d311b26b90e6459cea471f4999d7ff6114",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://acumenconsulting.co.nz/contact/",
     "sourceHash": "sha256:506e93d23d67598bfda1e1f813e58f5a0d53ccf7c5ff8b02fd12e123a682106e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:506e93d23d67598bfda1e1f813e58f5a0d53ccf7c5ff8b02fd12e123a682106e",

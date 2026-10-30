@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.customfields.apportunix.com/",
     "sourceHash": "sha256:f8eaf98dd204ff0ad1b58c9c01e639a9384780a0d1f884943d2aba875c37fc25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f8eaf98dd204ff0ad1b58c9c01e639a9384780a0d1f884943d2aba875c37fc25",

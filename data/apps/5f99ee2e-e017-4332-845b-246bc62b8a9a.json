@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lighthouseexperts.com/purchase-invoice-import-help/",
     "sourceHash": "sha256:15fa0cbe51ca9b52f2b31189322852ad2db46efd93661f6c6ccb50c820daf37c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:15fa0cbe51ca9b52f2b31189322852ad2db46efd93661f6c6ccb50c820daf37c",

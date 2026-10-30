@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Record-Extensions/",
     "sourceHash": "sha256:1146316a95c613704d41478111801afbbc313e0664b481538d15c0976fb20b66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1146316a95c613704d41478111801afbbc313e0664b481538d15c0976fb20b66",

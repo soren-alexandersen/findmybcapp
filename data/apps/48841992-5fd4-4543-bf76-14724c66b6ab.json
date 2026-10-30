@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/resources/k3-pebblestone-manufacturing/",
     "sourceHash": "sha256:e95dda0acb9c60aa1f75fd7126a7c4cced877810c223b09066d86948614c6bf2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e95dda0acb9c60aa1f75fd7126a7c4cced877810c223b09066d86948614c6bf2",

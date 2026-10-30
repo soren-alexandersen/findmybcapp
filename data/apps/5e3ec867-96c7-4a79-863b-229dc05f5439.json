@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-exchange-rate-types",
     "sourceHash": "sha256:d472f1194080a2f3b2bb5647df16568606614b4061a57dcf50d0b133d55d3f7d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d472f1194080a2f3b2bb5647df16568606614b4061a57dcf50d0b133d55d3f7d",

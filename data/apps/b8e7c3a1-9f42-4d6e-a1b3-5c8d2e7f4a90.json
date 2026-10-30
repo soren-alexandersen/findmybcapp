@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/keep-in-stock",
     "sourceHash": "sha256:33e195d8b88a9cbbc026078028761200ce4d3943a97f09988c0fc7585fe07342",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:33e195d8b88a9cbbc026078028761200ce4d3943a97f09988c0fc7585fe07342",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kies-systems.atlassian.net/wiki/spaces/WDB/overview",
     "sourceHash": "sha256:7c8cc3e3e0704fcbfbf1c52be6ec3864e9df15d26277a9e5a0cc209242322d4e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7c8cc3e3e0704fcbfbf1c52be6ec3864e9df15d26277a9e5a0cc209242322d4e",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://in2.rs/",
     "sourceHash": "sha256:eaacedca9fcbcf5ec4435f71732e2963a4be86298a30ed15ac885ac7b4dfcd18",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:eaacedca9fcbcf5ec4435f71732e2963a4be86298a30ed15ac885ac7b4dfcd18",

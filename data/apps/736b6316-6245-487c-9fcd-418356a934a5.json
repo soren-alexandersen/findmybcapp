@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-quality/",
     "sourceHash": "sha256:48cd49e631d40127f75cccb04b8f82aa096c84850406381a62c64bf6bdf6d9d7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:48cd49e631d40127f75cccb04b8f82aa096c84850406381a62c64bf6bdf6d9d7",

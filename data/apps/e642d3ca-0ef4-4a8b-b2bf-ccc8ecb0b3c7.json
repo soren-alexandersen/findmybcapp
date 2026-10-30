@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-language/docs/en-US/help",
     "sourceHash": "sha256:a9ab11de5eb7a36bb633566888a0492a23ebe2c2c1abbcfa62446267beef7211",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a9ab11de5eb7a36bb633566888a0492a23ebe2c2c1abbcfa62446267beef7211",

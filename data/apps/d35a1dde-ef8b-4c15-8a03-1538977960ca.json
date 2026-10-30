@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-origins-operation-extended/",
     "sourceHash": "sha256:77fbf80adcb9969d6bf8604b234b7ce92e91c1e75960b6ff96b1a55e2cb2c1f4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:77fbf80adcb9969d6bf8604b234b7ce92e91c1e75960b6ff96b1a55e2cb2c1f4",

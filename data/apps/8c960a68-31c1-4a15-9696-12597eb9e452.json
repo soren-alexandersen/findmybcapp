@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://sarakadiya.com/autotask-integration-business-central/",
     "sourceHash": "sha256:8fc86f2f5dea09fa67dac0ecee85cf3fb433f7782e4d8c34fe69dc5994970818",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8fc86f2f5dea09fa67dac0ecee85cf3fb433f7782e4d8c34fe69dc5994970818",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/administration/",
     "sourceHash": "sha256:ed81b1293d5d5f362f124ac2c34f4c309732f07a6986c5c8c1cc85bc845e963a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ed81b1293d5d5f362f124ac2c34f4c309732f07a6986c5c8c1cc85bc845e963a",

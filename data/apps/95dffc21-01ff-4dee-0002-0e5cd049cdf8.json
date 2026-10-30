@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://simplexsolution.de/wp/help/universal-printer-connector/",
     "sourceHash": "sha256:df6c94031218bb67a20def92124e338758bafe9a34f9672128360d9ece1119fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df6c94031218bb67a20def92124e338758bafe9a34f9672128360d9ece1119fa",

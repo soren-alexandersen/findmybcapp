@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.amcbanking.com/bc-plus/",
     "sourceHash": "sha256:72d504aa3e8863a48ad0517fc245798867a61683e42e020b6f42276ee6ec43d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:72d504aa3e8863a48ad0517fc245798867a61683e42e020b6f42276ee6ec43d9",

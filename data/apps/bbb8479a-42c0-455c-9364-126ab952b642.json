@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/workflow",
     "sourceHash": "sha256:64c3e37f33feddf780edd61264ff8548a7b065d1475bad2c5a4172f8cdeb7eb4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:64c3e37f33feddf780edd61264ff8548a7b065d1475bad2c5a4172f8cdeb7eb4",

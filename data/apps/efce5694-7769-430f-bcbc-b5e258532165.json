@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://eurisdynamics.com/en/app-localization-in-italy/",
     "sourceHash": "sha256:829032d35c31fc3f17d2fba87ac77ccbf5d273d320404ca8ae0f05af9dcf7c5a",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:829032d35c31fc3f17d2fba87ac77ccbf5d273d320404ca8ae0f05af9dcf7c5a",

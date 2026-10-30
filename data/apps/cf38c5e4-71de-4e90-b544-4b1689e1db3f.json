@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.365businessdev.com/en-US/365-business-e-invoice/",
     "sourceHash": "sha256:bef04698c50be4cfd2cdda8850848feaa0c8efdb68e2a71259eb18b5de1cdb8d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bef04698c50be4cfd2cdda8850848feaa0c8efdb68e2a71259eb18b5de1cdb8d",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/660931282/EDI+File+Bridge",
     "sourceHash": "sha256:945f2e0f9db06e0cb9fdf4d713b082d985a5da6cc64af7ce71ab8a31498f8cf5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:945f2e0f9db06e0cb9fdf4d713b082d985a5da6cc64af7ce71ab8a31498f8cf5",

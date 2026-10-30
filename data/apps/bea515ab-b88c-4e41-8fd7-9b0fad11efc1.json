@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/power-bi-gold-for-finance/docs/",
     "sourceHash": "sha256:5e0f7eb503678407a932626dbfff0ad3669379d69629630f951aba518afff2d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5e0f7eb503678407a932626dbfff0ad3669379d69629630f951aba518afff2d8",

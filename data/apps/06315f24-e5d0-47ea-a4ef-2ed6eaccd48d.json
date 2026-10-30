@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://gmsoftdynamics.com/apps/supply-chain-suite/vendor-dispute/",
     "sourceHash": "sha256:e5630500946909126699926cc5f2713f55b46d10082b95614d0d590f6de343ff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e5630500946909126699926cc5f2713f55b46d10082b95614d0d590f6de343ff",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/sales-assist",
     "sourceHash": "sha256:d7b0bae61603d701ffb27a5496cff3a58646887f7277c22396963bf8c334d3a7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d7b0bae61603d701ffb27a5496cff3a58646887f7277c22396963bf8c334d3a7",

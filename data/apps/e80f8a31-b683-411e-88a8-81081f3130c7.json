@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.freightpop.com/contact",
     "sourceHash": "sha256:9139f9c7e58f32eea97ac7caf5294ab5bc0065705d7d8f567d65deb2ed97138b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9139f9c7e58f32eea97ac7caf5294ab5bc0065705d7d8f567d65deb2ed97138b",

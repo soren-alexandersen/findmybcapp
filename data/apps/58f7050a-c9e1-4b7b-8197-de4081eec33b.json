@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vtsinfosoft.com/contact/",
     "sourceHash": "sha256:eba2fb1b654b32261bc777758fa9235348fdba899c1eaba85b79307739fe2357",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:eba2fb1b654b32261bc777758fa9235348fdba899c1eaba85b79307739fe2357",

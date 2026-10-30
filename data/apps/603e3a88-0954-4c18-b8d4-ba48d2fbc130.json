@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/record-deletion-tool/",
     "sourceHash": "sha256:5ea1cca06381f54d1efe4f19cf4015919eb677f6d388ef4bfdbb03c82a973255",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5ea1cca06381f54d1efe4f19cf4015919eb677f6d388ef4bfdbb03c82a973255",

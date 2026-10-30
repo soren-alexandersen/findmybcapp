@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/extended-warehouse-suite/",
     "sourceHash": "sha256:0d35eaaec70f93d700da8b67c696bce8e036059ff7d2030c6d0832793c6a5bfe",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0d35eaaec70f93d700da8b67c696bce8e036059ff7d2030c6d0832793c6a5bfe",

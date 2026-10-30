@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/production-order-cost-calculation/#howto",
     "sourceHash": "sha256:d6c5c60f1e1a3e71027ea1a2dc20bf513ca415f2b6fd4a5e2946c146994f421e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d6c5c60f1e1a3e71027ea1a2dc20bf513ca415f2b6fd4a5e2946c146994f421e",

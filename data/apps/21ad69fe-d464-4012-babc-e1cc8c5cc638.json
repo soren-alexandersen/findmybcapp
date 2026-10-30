@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/smartpack/#howto",
     "sourceHash": "sha256:91092730877c6a61be0a5023de5420c59b48b7b9507277896c6075aafbf93237",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:91092730877c6a61be0a5023de5420c59b48b7b9507277896c6075aafbf93237",

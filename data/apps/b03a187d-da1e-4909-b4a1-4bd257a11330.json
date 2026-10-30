@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/enhanced-planning-pack/product-help/",
     "sourceHash": "sha256:a458518d19854be60999bcf425408d72b81273f3c07be4ed1babc137fbc44e01",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a458518d19854be60999bcf425408d72b81273f3c07be4ed1babc137fbc44e01",

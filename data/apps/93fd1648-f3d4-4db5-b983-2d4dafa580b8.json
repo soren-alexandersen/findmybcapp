@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.infostudi.it/cost-accounting/costaccounting-help",
     "sourceHash": "sha256:152b6913818dff8638009bbc8d2c28aa1f3a04c66e9bb881bca3ae52b1dd1812",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:152b6913818dff8638009bbc8d2c28aa1f3a04c66e9bb881bca3ae52b1dd1812",

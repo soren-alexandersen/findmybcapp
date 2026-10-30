@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.erpgruppen.dk/kontakt/",
     "sourceHash": "sha256:a21eba1a819584c38283e3a346573d41d9dbd11a465deaa724c110605d2e2095",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a21eba1a819584c38283e3a346573d41d9dbd11a465deaa724c110605d2e2095",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.plumblineconsulting.com/dynamics-365-business-central/change-tracking/",
     "sourceHash": "sha256:cf909c7765d9e06e5ea4af6563e1d3408cb150d5f472497cf779eb21e1032700",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cf909c7765d9e06e5ea4af6563e1d3408cb150d5f472497cf779eb21e1032700",

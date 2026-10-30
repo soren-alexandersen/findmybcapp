@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/document-set/",
     "sourceHash": "sha256:acfce429505ffadec77555d0c361ceb144324350a873346061dd120b9e3e86bc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:acfce429505ffadec77555d0c361ceb144324350a873346061dd120b9e3e86bc",

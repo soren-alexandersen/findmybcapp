@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://innoware.com/D365BusinessCentral/D365_BusinessCentral_IW_Ukrainian_Localization_Cash_Acconting_UserDocumentation.pdf",
     "sourceHash": "sha256:a0d984ec6f452709edc8f248dc7fc4d17709476ed59652351e3672d3bec43add",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a0d984ec6f452709edc8f248dc7fc4d17709476ed59652351e3672d3bec43add",

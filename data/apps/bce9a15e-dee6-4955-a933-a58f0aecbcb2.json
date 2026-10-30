@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.validis.com/hc/en-gb",
     "sourceHash": "sha256:f617797e0c565cec4d63da59d9816d73a6bc3b00fe21792fb809521845d72c66",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f617797e0c565cec4d63da59d9816d73a6bc3b00fe21792fb809521845d72c66",

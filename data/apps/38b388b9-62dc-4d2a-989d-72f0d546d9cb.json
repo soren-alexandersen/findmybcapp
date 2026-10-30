@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/bicon/index.html",
     "sourceHash": "sha256:57e9a3291a4b9cd8147b13c0b6d5bb0bb814edcdb038436e27efecd5881226bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:57e9a3291a4b9cd8147b13c0b6d5bb0bb814edcdb038436e27efecd5881226bd",

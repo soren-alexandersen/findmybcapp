@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms.html",
     "sourceHash": "sha256:2e54f1db75432ebe131bbab2f635da95a2fe4e4248a2c82ef13ba3d5374f5763",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2e54f1db75432ebe131bbab2f635da95a2fe4e4248a2c82ef13ba3d5374f5763",

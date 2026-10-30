@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/servicetimetracking/index.html",
     "sourceHash": "sha256:7c2cfa02cec0594246c9d5f0bbb54965c73b65bf91b897e1e1e52abbea940005",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7c2cfa02cec0594246c9d5f0bbb54965c73b65bf91b897e1e1e52abbea940005",

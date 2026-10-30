@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicseip.com/en/contact/",
     "sourceHash": "sha256:156eb0827e4999702fc6f8663cca3a4fd429e76b77254960aa40b44f61f845d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:156eb0827e4999702fc6f8663cca3a4fd429e76b77254960aa40b44f61f845d5",

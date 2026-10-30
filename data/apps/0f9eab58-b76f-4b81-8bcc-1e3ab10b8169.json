@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/med/",
     "sourceHash": "sha256:5942a556e2f613b935161246ec8bfffe2fa034ba3566c5cd82132c59c7fd7d5b",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5942a556e2f613b935161246ec8bfffe2fa034ba3566c5cd82132c59c7fd7d5b",

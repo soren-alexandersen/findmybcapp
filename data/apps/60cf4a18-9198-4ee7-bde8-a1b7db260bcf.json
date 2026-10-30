@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/mail-attachments-plus/",
     "sourceHash": "sha256:e770c70972fa2f40f4b4787f42d82c8f991e2786d44e83a9d555a19fd0dad9d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e770c70972fa2f40f4b4787f42d82c8f991e2786d44e83a9d555a19fd0dad9d2",

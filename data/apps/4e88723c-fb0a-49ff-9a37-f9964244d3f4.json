@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/customer-test-suite.html",
     "sourceHash": "sha256:0e81bca40b272b5c430000c7fb756ae4944390db6b59531597190a01feb55baf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0e81bca40b272b5c430000c7fb756ae4944390db6b59531597190a01feb55baf",

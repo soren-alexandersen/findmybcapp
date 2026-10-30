@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/reverse-planning/#howto",
     "sourceHash": "sha256:3d898544679f369d36a62192056bcf56dac55e4a6abf422b08552125bae6ca1e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3d898544679f369d36a62192056bcf56dac55e4a6abf422b08552125bae6ca1e",

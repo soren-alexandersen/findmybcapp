@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mes-manufacturing-execution-system.html",
     "sourceHash": "sha256:7cd536af44412497bce912e8f81621d0ff430ac8d93ff726707cc7519e49f6ea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7cd536af44412497bce912e8f81621d0ff430ac8d93ff726707cc7519e49f6ea",

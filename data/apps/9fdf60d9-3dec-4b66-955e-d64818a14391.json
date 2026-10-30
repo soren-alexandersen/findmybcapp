@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sambaash.com/products/eclairs",
     "sourceHash": "sha256:aa17de08ea604490368459df9547922ad383fe40a972297bd6b6569c24f96272",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aa17de08ea604490368459df9547922ad383fe40a972297bd6b6569c24f96272",

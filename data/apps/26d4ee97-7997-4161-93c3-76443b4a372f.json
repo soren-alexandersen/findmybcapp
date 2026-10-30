@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Purchase-Accruals",
     "sourceHash": "sha256:5ee5d3bbc7d5de688c15a7ecf2b0da7ddde17857159b03a7de7cac59f9cd1485",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ee5d3bbc7d5de688c15a7ecf2b0da7ddde17857159b03a7de7cac59f9cd1485",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://myeasy.me/docster-backend/ebc/en-US/content/addons/service/",
     "sourceHash": "sha256:48c284c0a334394da3c12cf6d2db4202a6d238083b8306294562c5253235cf41",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:48c284c0a334394da3c12cf6d2db4202a6d238083b8306294562c5253235cf41",

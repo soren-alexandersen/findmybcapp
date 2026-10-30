@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dsc-group.net/dyna-ai-studio/",
     "sourceHash": "sha256:fd560caee5951a070d09e960f40420f87f42bfd67d2972f4c64725ac93e6313d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fd560caee5951a070d09e960f40420f87f42bfd67d2972f4c64725ac93e6313d",

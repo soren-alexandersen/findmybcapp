@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/advanced-integrations/",
     "sourceHash": "sha256:b0ef2831cce8a68f78e95990ed6183a76100c2e4ad039f8e6a597b0220a3ce36",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b0ef2831cce8a68f78e95990ed6183a76100c2e4ad039f8e6a597b0220a3ce36",

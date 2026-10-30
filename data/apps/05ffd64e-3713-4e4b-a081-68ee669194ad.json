@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicsinspire.dk/om-os/kontakt/",
     "sourceHash": "sha256:df777988bc30fdec277120dc2bf5dde6ca927d16d3f2ad51b5f16c89fb50fea4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:df777988bc30fdec277120dc2bf5dde6ca927d16d3f2ad51b5f16c89fb50fea4",

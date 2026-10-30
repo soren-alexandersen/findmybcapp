@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://erpdocs.apteancloud.com/bc/docs/AIP",
     "sourceHash": "sha256:77fd3eedaa6e4958722da93934c119de4f832be35c41522c347d68352e6c3f8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:77fd3eedaa6e4958722da93934c119de4f832be35c41522c347d68352e6c3f8c",

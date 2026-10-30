@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/advanced-workflow-for-dynamics-365-bc-de-de",
     "sourceHash": "sha256:76fde4d350cd78fa0d37f284fd21ea55303a53510303263d7654cf6b8d5c233c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:76fde4d350cd78fa0d37f284fd21ea55303a53510303263d7654cf6b8d5c233c",

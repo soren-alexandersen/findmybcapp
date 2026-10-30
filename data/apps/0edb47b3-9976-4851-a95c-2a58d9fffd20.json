@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://portal.fourvision.com/",
     "sourceHash": "sha256:5c595c7f20b8cc45fc6e896d81aa57b09c7e63e25bf2134e4a0c6e1712358585",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c595c7f20b8cc45fc6e896d81aa57b09c7e63e25bf2134e4a0c6e1712358585",

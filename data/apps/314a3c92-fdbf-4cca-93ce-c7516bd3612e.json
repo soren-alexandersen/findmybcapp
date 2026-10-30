@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/sales-and-operations-planning/",
     "sourceHash": "sha256:839a54e5a4222d98048ae3b932b98d3947906ee6a63715e4bb682e7fe7715ae8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:839a54e5a4222d98048ae3b932b98d3947906ee6a63715e4bb682e7fe7715ae8",

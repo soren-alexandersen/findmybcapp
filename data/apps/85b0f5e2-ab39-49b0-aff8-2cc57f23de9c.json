@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/demand-forecasting/",
     "sourceHash": "sha256:802bfc0f9a863919f72cb91bc995b18fd462cdc27292d42cb5b01c5ae0cd0216",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:802bfc0f9a863919f72cb91bc995b18fd462cdc27292d42cb5b01c5ae0cd0216",

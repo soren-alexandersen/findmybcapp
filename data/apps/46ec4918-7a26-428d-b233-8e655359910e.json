@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://d365zone.com/business-central/uae-e-invoice",
     "sourceHash": "sha256:53d24ccfe309e52fee7174cbcaf30a8cf35b02874a65b7cbd61ff6465aee7d3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:53d24ccfe309e52fee7174cbcaf30a8cf35b02874a65b7cbd61ff6465aee7d3a",

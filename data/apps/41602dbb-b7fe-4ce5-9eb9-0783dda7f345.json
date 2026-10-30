@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.agriware.cloud/",
     "sourceHash": "sha256:1339d0b2b463227d21cf93580b1e7bd98526d11638c4eb10adc02163161b7445",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1339d0b2b463227d21cf93580b1e7bd98526d11638c4eb10adc02163161b7445",

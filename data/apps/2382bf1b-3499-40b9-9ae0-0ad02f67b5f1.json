@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartsms/documentation/",
     "sourceHash": "sha256:3766e5fa79c6990dad3c726a0240864217b29a405c30585324291db876115323",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3766e5fa79c6990dad3c726a0240864217b29a405c30585324291db876115323",

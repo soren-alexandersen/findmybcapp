@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/it_IT/dimension-management",
     "sourceHash": "sha256:dd601d1b6a1420edc4f78b2eeaba3d09708e297a4cce35779e81c82d1a5f5579",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd601d1b6a1420edc4f78b2eeaba3d09708e297a4cce35779e81c82d1a5f5579",

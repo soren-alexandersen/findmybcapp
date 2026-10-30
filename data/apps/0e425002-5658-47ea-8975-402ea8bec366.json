@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dokumentace.navitec.cz/DCD",
     "sourceHash": "sha256:4c053ac32c3cc4a2ef575fc6cc43356941b880c000ed76a3b765e91ab5d8c296",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c053ac32c3cc4a2ef575fc6cc43356941b880c000ed76a3b765e91ab5d8c296",

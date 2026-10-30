@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/EDIfusion/docs/",
     "sourceHash": "sha256:a33086324bb2382003e01861bea1a415fb2099ca64250f6680379d33ec361881",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a33086324bb2382003e01861bea1a415fb2099ca64250f6680379d33ec361881",

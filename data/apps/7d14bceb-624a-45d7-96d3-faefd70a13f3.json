@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-data-interchange-asdx",
     "sourceHash": "sha256:8a368749ec7dc198b95f0bfb9fabff92cf83dee084bb0a1c14279fce88552b5c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8a368749ec7dc198b95f0bfb9fabff92cf83dee084bb0a1c14279fce88552b5c",

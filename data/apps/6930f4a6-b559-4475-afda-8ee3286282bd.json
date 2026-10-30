@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://asktally.com/help",
     "sourceHash": "sha256:3298e364a6f02236733e3d33d9fd1d0a5d8359c38fc3b9b2b54c4b48a589851d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3298e364a6f02236733e3d33d9fd1d0a5d8359c38fc3b9b2b54c4b48a589851d",

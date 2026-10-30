@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bcdocs.staedean.com/",
     "sourceHash": "sha256:319684df7a558a1472d596d743ef621f9cc6bceb9e701e1f08f145ffdf0e9e03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:319684df7a558a1472d596d743ef621f9cc6bceb9e701e1f08f145ffdf0e9e03",

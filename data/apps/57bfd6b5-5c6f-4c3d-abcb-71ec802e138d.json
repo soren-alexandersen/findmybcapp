@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/en-us/reconciliations-for-eagle/",
     "sourceHash": "sha256:c3c2b14e7a582d3e464f9f25c5b3eefbd44c7db047bc69abd49099de02b074a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c3c2b14e7a582d3e464f9f25c5b3eefbd44c7db047bc69abd49099de02b074a2",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.dinit.dk/index.html#kontakt",
     "sourceHash": "sha256:e951c1dd874d006dc69f9598f4ede615bf4b9aa9263f1d3e550ab5ebbac7ce32",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e951c1dd874d006dc69f9598f4ede615bf4b9aa9263f1d3e550ab5ebbac7ce32",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://myronsoft.com.tr/Turkish%20Language%20App%20User%20Guide_ENU.pdf",
     "sourceHash": "sha256:d4ba3b5b7805b0b68508b09f6d463b6aa4e13207ac687fd5b2fe964800e58f97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d4ba3b5b7805b0b68508b09f6d463b6aa4e13207ac687fd5b2fe964800e58f97",

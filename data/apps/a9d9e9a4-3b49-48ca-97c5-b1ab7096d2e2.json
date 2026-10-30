@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://telosteam.dk/apps/wim/#helppage",
     "sourceHash": "sha256:2aaa05ee17b1d6c59c64c3a11b08108871c0dd6557a1e67d65ae12f352d2cf47",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2aaa05ee17b1d6c59c64c3a11b08108871c0dd6557a1e67d65ae12f352d2cf47",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://redandbundle.github.io/Red.MultipleLayouts.Doc/#/",
     "sourceHash": "sha256:7928c7424b0f19920121e001f7034fc0ff2c9578f4fa51646772b9142d552ba7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7928c7424b0f19920121e001f7034fc0ff2c9578f4fa51646772b9142d552ba7",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/inflation-accouting-app/",
     "sourceHash": "sha256:7c5d455b789d9b51f4d32d19bb40042014cd9940c7ff1727f2694c4b3abc04b9",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7c5d455b789d9b51f4d32d19bb40042014cd9940c7ff1727f2694c4b3abc04b9",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://perseusenterprisesinc.com/aegis/docs/",
     "sourceHash": "sha256:d5c6b0bfababc7a5cff082087c64fbc01506633048190fac91f4ee9a1a497921",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5c6b0bfababc7a5cff082087c64fbc01506633048190fac91f4ee9a1a497921",

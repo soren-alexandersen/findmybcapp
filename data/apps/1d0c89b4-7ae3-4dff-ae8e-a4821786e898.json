@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-delivery-plans-help-en/",
     "sourceHash": "sha256:2bcea86f4c11339adce13f1fca4294bb2525ba87dc5c07be3ff41b6e6c1d1d13",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2bcea86f4c11339adce13f1fca4294bb2525ba87dc5c07be3ff41b6e6c1d1d13",

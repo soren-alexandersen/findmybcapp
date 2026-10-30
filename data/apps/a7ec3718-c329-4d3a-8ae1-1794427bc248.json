@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/goods-return-authorisation/",
     "sourceHash": "sha256:b363c428b52cf695ffa9c3677e551c572f974d39d2d6fe14e619d19a678f94ea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b363c428b52cf695ffa9c3677e551c572f974d39d2d6fe14e619d19a678f94ea",

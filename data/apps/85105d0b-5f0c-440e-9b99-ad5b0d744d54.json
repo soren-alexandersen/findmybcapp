@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-wms/clever-containers/user-guide",
     "sourceHash": "sha256:a26cec5ad2cfd8a01b9d537a491ec888ca39a4bea838a67a2b609db3ea1cab89",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a26cec5ad2cfd8a01b9d537a491ec888ca39a4bea838a67a2b609db3ea1cab89",

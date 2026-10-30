@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/clever-essentials/clever-comments/user-guide/about",
     "sourceHash": "sha256:8688cdd25e83db8ff439faad6a63ed7378dd7af8694a634acf2a6f9574666ebd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8688cdd25e83db8ff439faad6a63ed7378dd7af8694a634acf2a6f9574666ebd",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-whatsup-headline/",
     "sourceHash": "sha256:83f0cfea67a8ffe33d38eaec75a39b48188e5e79b8722a292d48e434d91fd7c1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:83f0cfea67a8ffe33d38eaec75a39b48188e5e79b8722a292d48e434d91fd7c1",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.eskape.fr/docuware-bc-gateway/",
     "sourceHash": "sha256:9717f4b87a1ffa11ab942a4ec2114c98edb3b7c8d5c422df095849ca3b8439c9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9717f4b87a1ffa11ab942a4ec2114c98edb3b7c8d5c422df095849ca3b8439c9",

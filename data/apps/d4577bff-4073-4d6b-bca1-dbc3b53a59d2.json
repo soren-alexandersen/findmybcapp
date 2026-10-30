@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/06/app-turkey-localization-pdf.pdf",
     "sourceHash": "sha256:c1585247ebc98fd1eae40b9049d171027d9fce04d5648f6de0d5c9fe12e77e96",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c1585247ebc98fd1eae40b9049d171027d9fce04d5648f6de0d5c9fe12e77e96",

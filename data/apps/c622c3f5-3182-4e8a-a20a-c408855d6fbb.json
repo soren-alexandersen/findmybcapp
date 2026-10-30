@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/edi",
     "sourceHash": "sha256:30ca0d6f2f8c87f894981752923187fb9857e13dbbd58a9894d06dfe78f8a730",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:30ca0d6f2f8c87f894981752923187fb9857e13dbbd58a9894d06dfe78f8a730",

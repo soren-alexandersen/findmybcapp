@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.simplybc.com/",
     "sourceHash": "sha256:0eb013e35b21db4afba52d311954634545f59bc4f014a34aa2727a1add344772",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0eb013e35b21db4afba52d311954634545f59bc4f014a34aa2727a1add344772",

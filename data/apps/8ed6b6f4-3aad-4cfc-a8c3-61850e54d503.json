@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/cwt/",
     "sourceHash": "sha256:86a3df040d6a48862df614e33cdb2fa6c6d95a204243cb947cccda0422c31d21",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:86a3df040d6a48862df614e33cdb2fa6c6d95a204243cb947cccda0422c31d21",

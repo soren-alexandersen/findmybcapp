@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/tlx/",
     "sourceHash": "sha256:0538caf1e28f07c002919badc44734991a5e9b81ec4b856952c52db56b9df731",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0538caf1e28f07c002919badc44734991a5e9b81ec4b856952c52db56b9df731",

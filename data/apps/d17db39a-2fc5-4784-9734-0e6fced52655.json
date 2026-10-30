@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.portal.flexport.com/hc/en-us",
     "sourceHash": "sha256:2670bb037a587ba2f99ae4af497307735238f587d282d8268a83e5d18fcf4df7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2670bb037a587ba2f99ae4af497307735238f587d282d8268a83e5d18fcf4df7",

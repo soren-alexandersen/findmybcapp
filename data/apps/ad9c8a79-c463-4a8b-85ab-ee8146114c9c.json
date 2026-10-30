@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Finance_WW_and_BE_Manual.pdf",
     "sourceHash": "sha256:e1b4b0c55808c98cdc6fc2f646304eea1908144924681d5ae6e2c389d0cf1dce",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e1b4b0c55808c98cdc6fc2f646304eea1908144924681d5ae6e2c389d0cf1dce",

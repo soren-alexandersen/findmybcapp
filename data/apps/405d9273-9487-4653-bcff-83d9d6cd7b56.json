@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/lightspeed-vend-connector/",
     "sourceHash": "sha256:51a68f9133588e93d279e87e5398b4ab1734b6bc88fae5da2b025b5da9ffc508",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:51a68f9133588e93d279e87e5398b4ab1734b6bc88fae5da2b025b5da9ffc508",

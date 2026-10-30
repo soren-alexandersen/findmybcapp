@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
     "sourceHash": "sha256:fc85c786c397725b5ba9a33f2087c207a43ff8f5cdde38f63bbce2e5a2056026",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fc85c786c397725b5ba9a33f2087c207a43ff8f5cdde38f63bbce2e5a2056026",

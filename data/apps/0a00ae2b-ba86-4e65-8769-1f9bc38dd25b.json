@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://equity.credit/no/integrations/microsoft-business-central",
     "sourceHash": "sha256:75dd8a1ec4b8e5a45e8c1f42bac15fc1f5886b9c65e656392b2b2889b0134197",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:75dd8a1ec4b8e5a45e8c1f42bac15fc1f5886b9c65e656392b2b2889b0134197",

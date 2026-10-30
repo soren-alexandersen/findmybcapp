@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Trade_Manual.pdf",
     "sourceHash": "sha256:06f25ffe0853adcdbe5e303b752dd5fc20e61b8f2b9522fa74ac156aa08d4995",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:06f25ffe0853adcdbe5e303b752dd5fc20e61b8f2b9522fa74ac156aa08d4995",

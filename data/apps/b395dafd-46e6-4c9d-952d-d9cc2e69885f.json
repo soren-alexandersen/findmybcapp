@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fiftytwodynamics.com/kontakt-os/",
     "sourceHash": "sha256:1669d812e59611bb79e3a09d8d35b92591e2ebce7335afc9b902ed1266649729",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1669d812e59611bb79e3a09d8d35b92591e2ebce7335afc9b902ed1266649729",

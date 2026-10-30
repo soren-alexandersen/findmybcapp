@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.52leasing.dk/support",
     "sourceHash": "sha256:521ab5e5b82e480573637ba2182907a41ad53485ac6f9f7240134f333c32073b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:521ab5e5b82e480573637ba2182907a41ad53485ac6f9f7240134f333c32073b",

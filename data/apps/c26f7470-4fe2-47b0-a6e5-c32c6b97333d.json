@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://goapps4bc.com/goapps4bc-customer-support/",
     "sourceHash": "sha256:06af073229d7e676150d9d21204d1e8d2722e5bf32c2a20f7b207e1d93fb78a0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:06af073229d7e676150d9d21204d1e8d2722e5bf32c2a20f7b207e1d93fb78a0",

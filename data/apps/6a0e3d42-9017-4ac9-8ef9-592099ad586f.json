@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-record-links/docs/",
     "sourceHash": "sha256:1cb37ba4145d28529c33859de521e65dcc3bd24b743e8b94cc3f3f2b6da54647",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1cb37ba4145d28529c33859de521e65dcc3bd24b743e8b94cc3f3f2b6da54647",

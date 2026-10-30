@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Annual%20No%20Series%20Creator%20Manual.pdf",
     "sourceHash": "sha256:54b7c427f1270869ed0f57d0e5c0447d80f07a905d9337c90756dd9655d5ed88",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:54b7c427f1270869ed0f57d0e5c0447d80f07a905d9337c90756dd9655d5ed88",

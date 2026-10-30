@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-for-sepa/",
     "sourceHash": "sha256:bb3cbf04548d8de44973c3e48b48b986fba87e8f49bb719fe5994a7bb7c1494e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bb3cbf04548d8de44973c3e48b48b986fba87e8f49bb719fe5994a7bb7c1494e",

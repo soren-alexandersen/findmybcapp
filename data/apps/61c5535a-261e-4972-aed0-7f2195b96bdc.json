@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mercuriusit.com/mercurius-ip/purchase-requisition/",
     "sourceHash": "sha256:3888d6b27be1d3e39ebd5fee369629227d797e72badadb739717a6f3e72e1873",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3888d6b27be1d3e39ebd5fee369629227d797e72badadb739717a6f3e72e1873",

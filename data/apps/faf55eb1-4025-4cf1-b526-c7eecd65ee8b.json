@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/psc/",
     "sourceHash": "sha256:864a9d46fed71b528a5de9526c25d345fafe8908af0632c6f72c09715d54d3cf",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:864a9d46fed71b528a5de9526c25d345fafe8908af0632c6f72c09715d54d3cf",

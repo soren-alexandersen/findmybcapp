@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ka-ching.zendesk.com/hc/en-us",
     "sourceHash": "sha256:41d0f796b00d7aa2acf266ef4274abf0e42da81c5f240af47f1998b57e2f8ff1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:41d0f796b00d7aa2acf266ef4274abf0e42da81c5f240af47f1998b57e2f8ff1",

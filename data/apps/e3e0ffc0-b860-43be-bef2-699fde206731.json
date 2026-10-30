@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/smartman/",
     "sourceHash": "sha256:3efac04cbb7b49a4d387f804dac8879d4c6b0f6682436fc56dc8aa2a4a1f6d3a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3efac04cbb7b49a4d387f804dac8879d4c6b0f6682436fc56dc8aa2a4a1f6d3a",

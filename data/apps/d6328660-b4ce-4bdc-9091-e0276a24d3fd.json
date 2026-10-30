@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/your-gls/#howto",
     "sourceHash": "sha256:3d37a96a1742398abe7693cf767551b7002d3b56ec7e9777204c7b88eef40b30",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3d37a96a1742398abe7693cf767551b7002d3b56ec7e9777204c7b88eef40b30",

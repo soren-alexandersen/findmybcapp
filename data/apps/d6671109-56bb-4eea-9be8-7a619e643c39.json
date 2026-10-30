@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advanced-manufacturing-pack/PM/pm.html",
     "sourceHash": "sha256:4c4c7802308feb207b5195b03e64f34578214d9fef7ce1dbc6c948015b495c49",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4c4c7802308feb207b5195b03e64f34578214d9fef7ce1dbc6c948015b495c49",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.midtfactoring.dk/da-dk/online-services/support",
     "sourceHash": "sha256:e59d5e3b63d909a9db43fa9e2618eeb8363c4ba04dbd0b3d80c988c95b6c2a09",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e59d5e3b63d909a9db43fa9e2618eeb8363c4ba04dbd0b3d80c988c95b6c2a09",

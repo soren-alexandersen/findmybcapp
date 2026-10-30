@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/price-management",
     "sourceHash": "sha256:76c71eb3c4e1bda8e9bb80c18a28d701c80c3810b7e58179ff302aaa8c466a42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:76c71eb3c4e1bda8e9bb80c18a28d701c80c3810b7e58179ff302aaa8c466a42",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/Cash_Register_Lite",
     "sourceHash": "sha256:a72d1d25dd3a75fc40fac74e49c01164d9977d07dbec485859310e766602cc43",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a72d1d25dd3a75fc40fac74e49c01164d9977d07dbec485859310e766602cc43",

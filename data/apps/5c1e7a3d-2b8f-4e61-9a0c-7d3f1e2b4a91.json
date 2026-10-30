@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dokumentace.navitec.cz/EFSK",
     "sourceHash": "sha256:dca747a64501d28e7fc0ea4404cba3657ecf1ff43230ffe9e3aa3b307f5ca838",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dca747a64501d28e7fc0ea4404cba3657ecf1ff43230ffe9e3aa3b307f5ca838",

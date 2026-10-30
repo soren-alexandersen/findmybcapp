@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.smartappsford365.com/anysys-connect/",
     "sourceHash": "sha256:bd2365a74c75a7a6ac34d87273990f364845db09e8416d3532f2d862cb29730c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bd2365a74c75a7a6ac34d87273990f364845db09e8416d3532f2d862cb29730c",

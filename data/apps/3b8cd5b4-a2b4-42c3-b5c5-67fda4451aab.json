@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.shiptheory.com/support/home",
     "sourceHash": "sha256:5753def38b0f6952df4afae27388d975e8730af9029d4cd159daa2ecfc8c8cc6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5753def38b0f6952df4afae27388d975e8730af9029d4cd159daa2ecfc8c8cc6",

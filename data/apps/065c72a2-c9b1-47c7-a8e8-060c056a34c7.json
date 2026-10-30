@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.equerra.com/docs/ElevateOperations",
     "sourceHash": "sha256:459179ffb580f5011fc465c11567e4df991970cf292b982224b103f844aa9384",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:459179ffb580f5011fc465c11567e4df991970cf292b982224b103f844aa9384",

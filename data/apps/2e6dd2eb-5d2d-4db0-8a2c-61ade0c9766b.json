@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.codadot.nl/",
     "sourceHash": "sha256:ad999fdffb33a9d65097a7ccbd3f46322f508ec77737fe1342ba26259f2995d5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ad999fdffb33a9d65097a7ccbd3f46322f508ec77737fe1342ba26259f2995d5",

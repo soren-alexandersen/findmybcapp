@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.grupodynasoft.com/books/",
     "sourceHash": "sha256:972d4defc8290d39b5debc690bfcf7634a2fc16338844930b0128c87eae996e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:972d4defc8290d39b5debc690bfcf7634a2fc16338844930b0128c87eae996e7",

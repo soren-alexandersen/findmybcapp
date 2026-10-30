@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/apps/subscription-management/",
     "sourceHash": "sha256:6b7aa284b4130efe1d8517f6976fdce02fe38bb9e4cc2aea4949ecd1f09ee2f2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6b7aa284b4130efe1d8517f6976fdce02fe38bb9e4cc2aea4949ecd1f09ee2f2",

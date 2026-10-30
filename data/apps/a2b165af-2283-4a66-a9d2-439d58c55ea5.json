@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://instrukcijos.softera.lt/docs/powerbi",
     "sourceHash": "sha256:d45f2a127cc43da95f6a6e3e5d121e12c0e75d5fd8d7e1a540cf6efd3bf98edd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d45f2a127cc43da95f6a6e3e5d121e12c0e75d5fd8d7e1a540cf6efd3bf98edd",

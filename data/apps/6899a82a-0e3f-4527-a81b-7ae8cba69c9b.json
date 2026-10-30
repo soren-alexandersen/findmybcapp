@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Drag-%26-Drop/",
     "sourceHash": "sha256:6cca0f1bc5272295610b5508b9ec998a05a51e0bb20a2fc526bf29405d8c9278",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6cca0f1bc5272295610b5508b9ec998a05a51e0bb20a2fc526bf29405d8c9278",

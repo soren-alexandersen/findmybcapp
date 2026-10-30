@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.elo.com/user/integrations/en-us/elo-integration-client/",
     "sourceHash": "sha256:313d9552eb60e43081ae107374376fd1e9321c3a3dbf29f9a29c1f676959c34d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:313d9552eb60e43081ae107374376fd1e9321c3a3dbf29f9a29c1f676959c34d",

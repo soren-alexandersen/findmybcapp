@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.kitcat365.com/help/?lang=en",
     "sourceHash": "sha256:0dac16606b60d9d7f4fc9c2c1e55b7cd7fd7af44fc5f95b3b4a12e1c832e9126",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0dac16606b60d9d7f4fc9c2c1e55b7cd7fd7af44fc5f95b3b4a12e1c832e9126",

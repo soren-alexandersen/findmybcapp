@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/BUF/",
     "sourceHash": "sha256:63efb4f55358f25d3cb0baeafd4d400a8346276179cc994ca62153ab26a7f01b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:63efb4f55358f25d3cb0baeafd4d400a8346276179cc994ca62153ab26a7f01b",

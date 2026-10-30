@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://binarylab.co.za/pricing-oversight",
     "sourceHash": "sha256:fd048d2d6b80a614cf998b4e9c52174aa2497fe7cf440cdbf802fc26189ace26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fd048d2d6b80a614cf998b4e9c52174aa2497fe7cf440cdbf802fc26189ace26",

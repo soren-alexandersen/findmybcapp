@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sbsiconsulting.fr/extensions/finance-basics-plus/",
     "sourceHash": "sha256:82323026a498da92e50fa2e24677ad1bb48bb085686f6810ec5aa294bbe8896d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:82323026a498da92e50fa2e24677ad1bb48bb085686f6810ec5aa294bbe8896d",

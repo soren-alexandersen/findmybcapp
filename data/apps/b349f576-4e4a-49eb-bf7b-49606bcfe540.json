@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-RDA/en-US/RDA/index.html",
     "sourceHash": "sha256:2a1428311db16aee73de8f3c5599f21d656b1bbf04c39b5640193003fd451b18",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2a1428311db16aee73de8f3c5599f21d656b1bbf04c39b5640193003fd451b18",

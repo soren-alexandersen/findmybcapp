@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://grupomas.software/BC/HelpGMUruguay/TermsofUse.html",
     "sourceHash": "sha256:450d8ac33fda88955422481c09db79be71cfd173d709208fb7bbaa9672665a3f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:450d8ac33fda88955422481c09db79be71cfd173d709208fb7bbaa9672665a3f",

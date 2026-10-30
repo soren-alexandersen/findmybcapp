@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-logistics-warehouse-operations/",
     "sourceHash": "sha256:e699f971acfab4c23d13bc45529adfa5e4dd4ba4e61e19f1ba0ff30cab2754f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e699f971acfab4c23d13bc45529adfa5e4dd4ba4e61e19f1ba0ff30cab2754f8",

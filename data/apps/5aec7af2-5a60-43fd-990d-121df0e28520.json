@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://softwaredynamicsgroup.com/contact-us/",
     "sourceHash": "sha256:3acf021e53c91b3d43ee48cd11f42f1c1dbd45b66485d2156637097b7c607bff",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3acf021e53c91b3d43ee48cd11f42f1c1dbd45b66485d2156637097b7c607bff",

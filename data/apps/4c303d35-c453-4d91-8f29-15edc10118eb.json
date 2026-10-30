@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://robosol.com/microsoft-dynamics-nav",
     "sourceHash": "sha256:a669efc3a7bf5dd5c738b687b9c6c353ff22ac30401cb5ee62a197b0c07661ab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a669efc3a7bf5dd5c738b687b9c6c353ff22ac30401cb5ee62a197b0c07661ab",

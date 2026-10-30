@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "http://docs.navision-beratung.de/de/edoc-app-online-help/latest",
     "sourceHash": "sha256:c2a7aa4b88add1c0109192a324ab05e9bbba46111a13c9bb1c16701997b9c483",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2a7aa4b88add1c0109192a324ab05e9bbba46111a13c9bb1c16701997b9c483",

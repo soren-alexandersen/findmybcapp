@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.evidi.com/en/help/articles/8522845-introduction",
     "sourceHash": "sha256:515835e79f28e50845b8c891dad283b9b71ac696ca8a452fb67964a09002c723",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:515835e79f28e50845b8c891dad283b9b71ac696ca8a452fb67964a09002c723",

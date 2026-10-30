@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.allcloud.es/wp-content/uploads/2025/07/Manual-de-configuracion-VeriFactu-Business-Central.pdf",
     "sourceHash": "sha256:7d39d1a4118f82d687b0068ddb01b08af1672d83548c0247615598413b982f59",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d39d1a4118f82d687b0068ddb01b08af1672d83548c0247615598413b982f59",

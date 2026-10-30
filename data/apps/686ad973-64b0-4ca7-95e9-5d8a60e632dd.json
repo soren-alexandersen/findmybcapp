@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://atradius-flow.com/help-center",
     "sourceHash": "sha256:66c6cd6b059c7ed8ac9de4f1bad209dfa768fee7e3bd1a1e61a254d436ac161b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66c6cd6b059c7ed8ac9de4f1bad209dfa768fee7e3bd1a1e61a254d436ac161b",

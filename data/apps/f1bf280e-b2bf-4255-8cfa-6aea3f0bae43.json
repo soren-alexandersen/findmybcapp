@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/PermissionChatAI/",
     "sourceHash": "sha256:1070700165c37ef0ed72988736c054a99bf70f9787b74855c607b0e4cbd8099b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1070700165c37ef0ed72988736c054a99bf70f9787b74855c607b0e4cbd8099b",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/status-management.html",
     "sourceHash": "sha256:d07d9d1212217a28d1f3d5fea116e270885ee010bae6b1827b940d35feebb275",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d07d9d1212217a28d1f3d5fea116e270885ee010bae6b1827b940d35feebb275",

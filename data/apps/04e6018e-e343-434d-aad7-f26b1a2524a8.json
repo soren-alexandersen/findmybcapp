@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://clarityukraine.sharepoint.com/:f:/g/EtkyrrhIVxZJgB7D2Leq7cMBI0vbwq7iO2swlCYNK1oLkQ?e=GBAqFA",
     "sourceHash": "sha256:3acc0a8fdff9146a5c57331a26fd2390e1e564f357bf15710872e86c50b83e79",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3acc0a8fdff9146a5c57331a26fd2390e1e564f357bf15710872e86c50b83e79",

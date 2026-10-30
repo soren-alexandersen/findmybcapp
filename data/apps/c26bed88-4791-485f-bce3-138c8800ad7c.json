@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://beesolved.ai/docs/ai-assistant/",
     "sourceHash": "sha256:1171965d9a9f7c7f702268b193bc61f4bad4a9b8adb419e9f090ae4bb9fc61f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1171965d9a9f7c7f702268b193bc61f4bad4a9b8adb419e9f090ae4bb9fc61f3",

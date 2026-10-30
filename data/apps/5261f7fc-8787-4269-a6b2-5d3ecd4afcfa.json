@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/interface-controller/docs",
     "sourceHash": "sha256:2b44219cb5f1dd29f88333fabe89e503d0a470aee3c5058322cf5151a2ee492b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2b44219cb5f1dd29f88333fabe89e503d0a470aee3c5058322cf5151a2ee492b",

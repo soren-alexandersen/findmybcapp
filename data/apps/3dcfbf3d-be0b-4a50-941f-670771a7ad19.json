@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Myver%20Integration.htm",
     "sourceHash": "sha256:c026189b6b6e0cdb191b34be1f812b0db792b01a237d08b8f54ff1ec1ee84a53",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c026189b6b6e0cdb191b34be1f812b0db792b01a237d08b8f54ff1ec1ee84a53",

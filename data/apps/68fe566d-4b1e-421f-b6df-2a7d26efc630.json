@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/WMS/",
     "sourceHash": "sha256:b31089875c094b74f16a21865e0240d68f540f828dc1ca1be6bd05a50ee3edd9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b31089875c094b74f16a21865e0240d68f540f828dc1ca1be6bd05a50ee3edd9",

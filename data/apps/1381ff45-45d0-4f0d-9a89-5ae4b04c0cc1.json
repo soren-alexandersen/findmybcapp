@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innovaonline.es/en-US/INDataManager/Introduction/",
     "sourceHash": "sha256:65a2718ffafac4b5320c7073644704355e7253b23dee0e86bb7771317bebafcd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:65a2718ffafac4b5320c7073644704355e7253b23dee0e86bb7771317bebafcd",

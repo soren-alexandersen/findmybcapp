@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://bdl.dk/",
     "sourceHash": "sha256:ac367fc2a261cd89b71c3ba4f098f236eddfd4a001b70a2c6f6566abb0ba8a86",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac367fc2a261cd89b71c3ba4f098f236eddfd4a001b70a2c6f6566abb0ba8a86",

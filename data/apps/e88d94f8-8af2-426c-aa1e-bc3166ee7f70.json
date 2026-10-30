@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/landed-cost-validator/",
     "sourceHash": "sha256:81b283836d478f2daaaa1d580f0ee5aa44ad39ba7785214868d0b73da8ba5ebc",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:81b283836d478f2daaaa1d580f0ee5aa44ad39ba7785214868d0b73da8ba5ebc",

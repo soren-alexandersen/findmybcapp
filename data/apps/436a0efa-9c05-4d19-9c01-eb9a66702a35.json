@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://matchbusinesscentral.com/pages/IBAN-Validation",
     "sourceHash": "sha256:5c4f67057723f6a0c612083588aae314f7f34cd0aebc2a8c9abd546f4fa4eeba",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5c4f67057723f6a0c612083588aae314f7f34cd0aebc2a8c9abd546f4fa4eeba",

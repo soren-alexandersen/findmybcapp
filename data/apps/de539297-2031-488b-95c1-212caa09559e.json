@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://mms.cartsoftware.eu/bc/help/",
     "sourceHash": "sha256:20c893bdb4c38400e0dba51da564a23390bbddde4ce04b78d4299a0b8e075d11",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:20c893bdb4c38400e0dba51da564a23390bbddde4ce04b78d4299a0b8e075d11",

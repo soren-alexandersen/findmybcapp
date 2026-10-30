@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://binarylab.co.za/time-off-managment",
     "sourceHash": "sha256:f21bcef47f5d45c162ee7b3a4c6f7ad418fea5d9524f47a6a104583a6af26c54",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f21bcef47f5d45c162ee7b3a4c6f7ad418fea5d9524f47a6a104583a6af26c54",

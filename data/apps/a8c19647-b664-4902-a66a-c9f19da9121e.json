@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dpla.helpdocsonline.com/home",
     "sourceHash": "sha256:6ee4af84dfd64d1d5fa495a3eb8814d4f22955e368cc5916e078911ee60eefe0",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6ee4af84dfd64d1d5fa495a3eb8814d4f22955e368cc5916e078911ee60eefe0",

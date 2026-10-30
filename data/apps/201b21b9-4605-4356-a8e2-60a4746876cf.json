@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.navision-beratung.de/eBANF-App/",
     "sourceHash": "sha256:231aa9f8b72e82044c967258c6848f48e4c19a20dab8c409ee29d9d510343696",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:231aa9f8b72e82044c967258c6848f48e4c19a20dab8c409ee29d9d510343696",

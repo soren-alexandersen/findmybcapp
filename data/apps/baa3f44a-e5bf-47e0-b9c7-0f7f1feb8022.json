@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Extended-Document-Attachments",
     "sourceHash": "sha256:a733e888fcc3f9c7a8fb23b6617bbaddae3ea2f14c0fd47c3eff0f49b7dc2bc2",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a733e888fcc3f9c7a8fb23b6617bbaddae3ea2f14c0fd47c3eff0f49b7dc2bc2",

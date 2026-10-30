@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nav24.pl/en-US/Transport-Cost/",
     "sourceHash": "sha256:a2feccea2b34ca6b3626c9766690de65d7283cb3f6e7c4372fd8184943a4a583",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a2feccea2b34ca6b3626c9766690de65d7283cb3f6e7c4372fd8184943a4a583",

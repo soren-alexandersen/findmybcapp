@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/changeserialno/index.html",
     "sourceHash": "sha256:9b269f21848b5f3020b96a896b110f6f71dd7af93dd4fd9936de18a5f8fe875d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9b269f21848b5f3020b96a896b110f6f71dd7af93dd4fd9936de18a5f8fe875d",

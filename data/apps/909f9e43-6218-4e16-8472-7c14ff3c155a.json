@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/inventorydetails/index.html",
     "sourceHash": "sha256:21275d33701a0c9072d41b68ae2c7a02abb65c229f22931ceb43385fa4a83c72",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:21275d33701a0c9072d41b68ae2c7a02abb65c229f22931ceb43385fa4a83c72",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.oanda.com/bvi-en/",
     "sourceHash": "sha256:8772dffa008f02359c6a4860d891f538fb866be255ab5565a98ed0f1a0a7c99f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8772dffa008f02359c6a4860d891f538fb866be255ab5565a98ed0f1a0a7c99f",

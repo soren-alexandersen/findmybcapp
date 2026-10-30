@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/labelcon/index.html",
     "sourceHash": "sha256:60f90b8d605fb303c00e6c24ecea978e2b1ee0f53ac8ff487fcf4eb774470d3c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:60f90b8d605fb303c00e6c24ecea978e2b1ee0f53ac8ff487fcf4eb774470d3c",

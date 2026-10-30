@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://profacto.dk/en/Material-Shortage-Calculation/",
     "sourceHash": "sha256:5e49047a7df070a68e0787d63d3267d77331a908a28d7342085b9da4795495a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5e49047a7df070a68e0787d63d3267d77331a908a28d7342085b9da4795495a2",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.idynamics.es/en/printingdocs/index.html",
     "sourceHash": "sha256:e3ac53435f2791f9b19057031738923724091a71ee082f8a068db3b6ec6ffb10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e3ac53435f2791f9b19057031738923724091a71ee082f8a068db3b6ec6ffb10",

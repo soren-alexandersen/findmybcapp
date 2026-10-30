@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://3ktechnologies.com/wp-content/uploads/2025/08/Post-dated-cheque-document-.pdf",
     "sourceHash": "sha256:8b7e50eb0c879385e935390fb8f46e70fa36652cf1a2258040289881d1558029",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8b7e50eb0c879385e935390fb8f46e70fa36652cf1a2258040289881d1558029",

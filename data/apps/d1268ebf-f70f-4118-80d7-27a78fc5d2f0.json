@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-core-reports/",
     "sourceHash": "sha256:9e2616d82a15197939af108bc475b848e313862b59608b267ae1fd3d604b9ca7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9e2616d82a15197939af108bc475b848e313862b59608b267ae1fd3d604b9ca7",

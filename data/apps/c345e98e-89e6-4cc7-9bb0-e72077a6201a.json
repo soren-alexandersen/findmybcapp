@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-long-short-term-accounts-account-ledger-type-connector",
     "sourceHash": "sha256:b83a74f218ac98663b88381a3d1f7668daaefd2f6d8d00d624c8ea0008c7a9f2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b83a74f218ac98663b88381a3d1f7668daaefd2f6d8d00d624c8ea0008c7a9f2",

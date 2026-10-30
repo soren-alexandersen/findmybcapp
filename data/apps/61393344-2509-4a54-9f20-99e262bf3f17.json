@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://itm8.dk/forretningssystemer/erp/addons/extended-manufacturing-registration",
     "sourceHash": "sha256:ab758c1476535c34d2b1fe4c8c7d8981b6d2423b4ba435939eaa5ae627dda2ae",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ab758c1476535c34d2b1fe4c8c7d8981b6d2423b4ba435939eaa5ae627dda2ae",

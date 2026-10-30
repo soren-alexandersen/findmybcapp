@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/53ccslw82r-microsoft-dynamics-365-export-customer-invoices",
     "sourceHash": "sha256:9685e889a7c4a5930ca3948f45c0a2ad528d81014ba8038f40f8d088388fcec7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9685e889a7c4a5930ca3948f45c0a2ad528d81014ba8038f40f8d088388fcec7",

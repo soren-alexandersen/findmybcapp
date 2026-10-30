@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://alfapeople.com/contact/",
     "sourceHash": "sha256:5cbe83009269773191d8fa39754fb9e0ddeaf46cb0674b24ba253299ff3506c8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5cbe83009269773191d8fa39754fb9e0ddeaf46cb0674b24ba253299ff3506c8",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.samadhanindia.com:444/learn/files/?CLOUD_GATEWAY/",
     "sourceHash": "sha256:91d084e41f0652a53b06b4a4bdb48c60c8f466a2df0a92cf82c4baaf5ac78b1e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:91d084e41f0652a53b06b4a4bdb48c60c8f466a2df0a92cf82c4baaf5ac78b1e",

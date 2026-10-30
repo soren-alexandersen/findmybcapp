@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.9itgroup.com/contact-us/",
     "sourceHash": "sha256:a02f3a549d6908dea7d0847ce616aaeb5d3d51a9c44d262d7c7851d9fa9b222c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a02f3a549d6908dea7d0847ce616aaeb5d3d51a9c44d262d7c7851d9fa9b222c",

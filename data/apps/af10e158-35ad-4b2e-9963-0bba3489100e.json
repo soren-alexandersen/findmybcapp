@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.sana-commerce.com/Content/Home.htm",
     "sourceHash": "sha256:5bf893f37ceb8e8ff0998a85be6793e9a8fc332f939f14bae7bf171811bcd84c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5bf893f37ceb8e8ff0998a85be6793e9a8fc332f939f14bae7bf171811bcd84c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.boltrics.com/en/support/",
     "sourceHash": "sha256:a464c83ed1f16addb8a82f625596ab31acec743a46c03ed7358a61f1d9fd5c38",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a464c83ed1f16addb8a82f625596ab31acec743a46c03ed7358a61f1d9fd5c38",

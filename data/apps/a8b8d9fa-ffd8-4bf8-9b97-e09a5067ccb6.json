@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.gestisoft.com/en/support/product-documentation",
     "sourceHash": "sha256:29a75eeb5b039a8550cf7595951e44020242bec1568f8537f527ac89f7231cb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:29a75eeb5b039a8550cf7595951e44020242bec1568f8537f527ac89f7231cb8",

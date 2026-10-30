@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nprogression.com/",
     "sourceHash": "sha256:d2e73e04bb1214a5242023a882c9871cb09b8f2b91bae8468da00fe430e99252",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d2e73e04bb1214a5242023a882c9871cb09b8f2b91bae8468da00fe430e99252",

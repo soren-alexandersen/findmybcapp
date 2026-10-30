@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-en/business-central/digital-consultant/digital_consultant_intro.html",
     "sourceHash": "sha256:1a5f8509d56284ed9c747125eae6a346522fc97deb6ec1d9b38d62ee970e9e3e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1a5f8509d56284ed9c747125eae6a346522fc97deb6ec1d9b38d62ee970e9e3e",

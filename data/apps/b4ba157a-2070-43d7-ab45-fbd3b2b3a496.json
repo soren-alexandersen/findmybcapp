@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.core-suite.com/hc/en-us",
     "sourceHash": "sha256:ae2dcda7732a4a1e05c8b2288f9e64b2d63a167a15e8d5dd9485f13aaacd2aca",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ae2dcda7732a4a1e05c8b2288f9e64b2d63a167a15e8d5dd9485f13aaacd2aca",

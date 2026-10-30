@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Cross-Sell_Manual.pdf",
     "sourceHash": "sha256:dd1e6573c539e2bee7691f61a54e40e72a910679dc7325c991c8a8ff1b590421",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:dd1e6573c539e2bee7691f61a54e40e72a910679dc7325c991c8a8ff1b590421",

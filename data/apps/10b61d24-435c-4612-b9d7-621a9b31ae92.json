@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/unique-device-identification/",
     "sourceHash": "sha256:c478414b28747bb38d13dc54210ad6a5539c85fec1031343bf1d38e2939e10f8",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c478414b28747bb38d13dc54210ad6a5539c85fec1031343bf1d38e2939e10f8",

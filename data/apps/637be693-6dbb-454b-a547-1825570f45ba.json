@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/sos/",
     "sourceHash": "sha256:e6367df19710077f6eb8fa167e93411ead2111cff9f873b2e994fbd435f36690",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e6367df19710077f6eb8fa167e93411ead2111cff9f873b2e994fbd435f36690",

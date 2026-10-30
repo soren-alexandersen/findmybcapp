@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/plant-maintenance-plm.html",
     "sourceHash": "sha256:df587e144cf1b8308ecf67c5d26b8b38305d196566ed41f0fdf70e22bab5b272",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:df587e144cf1b8308ecf67c5d26b8b38305d196566ed41f0fdf70e22bab5b272",

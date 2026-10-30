@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynasys.tech/solutions/dynasys-crm/docs",
     "sourceHash": "sha256:fdcfe926614d0c4cb3e4c859e77f8bd723f7df43574f1c36b2551322cf0aee37",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fdcfe926614d0c4cb3e4c859e77f8bd723f7df43574f1c36b2551322cf0aee37",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.perk.com/hc/en-us/articles/22004183966108-About-the-Perk-Spend-Management-Connector-for-MS-Dynamics-365-Business-Central",
     "sourceHash": "sha256:f9cc3f6d266eff1fb980cc4b8a64cde2cf16a028e49f5b66314b1382a6f16a5a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f9cc3f6d266eff1fb980cc4b8a64cde2cf16a028e49f5b66314b1382a6f16a5a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/asbconnection",
     "sourceHash": "sha256:0eb9ceec14d8e87eba76e759f41e3d1594230f20139782f1b7bb3d4ff2cb9063",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0eb9ceec14d8e87eba76e759f41e3d1594230f20139782f1b7bb3d4ff2cb9063",

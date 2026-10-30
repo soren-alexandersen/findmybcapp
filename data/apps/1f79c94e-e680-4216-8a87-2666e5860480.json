@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://exsion365.com/en/support",
     "sourceHash": "sha256:ef30fdffd5cc53dc0e71afbef81ba42129e98f81c5d9378954796bc131329702",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ef30fdffd5cc53dc0e71afbef81ba42129e98f81c5d9378954796bc131329702",

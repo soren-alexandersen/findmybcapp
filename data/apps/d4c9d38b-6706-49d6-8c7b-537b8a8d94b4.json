@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-stocktake/docs",
     "sourceHash": "sha256:952a34b28e8b535bbfae62ea08a8f8c3ad885416395779c49729cbc7877c3d90",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:952a34b28e8b535bbfae62ea08a8f8c3ad885416395779c49729cbc7877c3d90",

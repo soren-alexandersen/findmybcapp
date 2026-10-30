@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://mdcnordic.com/en/bc-apps/mdc-import/",
     "sourceHash": "sha256:a5efa7319eecb9616eb05687be58c094e8dc3548a5738fa2c237bec4024fe330",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a5efa7319eecb9616eb05687be58c094e8dc3548a5738fa2c237bec4024fe330",

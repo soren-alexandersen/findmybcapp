@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/GSSI",
     "sourceHash": "sha256:4ee3f1966d9564526d8d67cd630b2461e942127066ac9601ea2bc71505408323",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4ee3f1966d9564526d8d67cd630b2461e942127066ac9601ea2bc71505408323",

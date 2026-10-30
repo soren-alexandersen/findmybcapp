@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://jemel.lv/docs/idealo-connector",
     "sourceHash": "sha256:01feaa75bd00b67155a1ec5270cfc4db9b997ee0c00e28d0521d3dd39eb57088",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:01feaa75bd00b67155a1ec5270cfc4db9b997ee0c00e28d0521d3dd39eb57088",

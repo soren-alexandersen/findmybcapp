@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "http://helpdesk.deex.co.kr/en/support/discussions",
     "sourceHash": "sha256:8462e70516d61159b2b2b8d7086da065802e1608d93bbc5909dbc11b159ad271",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:8462e70516d61159b2b2b8d7086da065802e1608d93bbc5909dbc11b159ad271",

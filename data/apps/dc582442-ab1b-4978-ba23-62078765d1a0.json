@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/eos-food-deliveries.html",
     "sourceHash": "sha256:e7bce629dae6be14a90d9b3cc0ac7eee31441642749cf2ad137c13b05adfc870",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e7bce629dae6be14a90d9b3cc0ac7eee31441642749cf2ad137c13b05adfc870",

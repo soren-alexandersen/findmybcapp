@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://techsarwar.com/xero-help.html",
     "sourceHash": "sha256:356b4720c874115ca13a9ecbc5bc48b708f9b3e5b315e2d151fb9a07cb29d78e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:356b4720c874115ca13a9ecbc5bc48b708f9b3e5b315e2d151fb9a07cb29d78e",

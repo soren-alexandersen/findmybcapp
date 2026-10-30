@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://naveksa.com/shopfloor-365",
     "sourceHash": "sha256:5e7363ea36a31d1f67195080f3bb215052fc8236d4007845c02e567bec6998e6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5e7363ea36a31d1f67195080f3bb215052fc8236d4007845c02e567bec6998e6",

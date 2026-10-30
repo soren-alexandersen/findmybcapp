@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://rillion.com/bchelp/",
     "sourceHash": "sha256:60ca4d1e0b10665608050d76f20016879edbf6cea9c89d88696d8fbaf2d1b061",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:60ca4d1e0b10665608050d76f20016879edbf6cea9c89d88696d8fbaf2d1b061",

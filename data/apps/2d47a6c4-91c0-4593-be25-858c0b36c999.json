@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lsexpress.lsretail.com/",
     "sourceHash": "sha256:e20abfa47f83ff786906e06c727debbfe86e48d0d4e2a532be902aebdd485ec5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e20abfa47f83ff786906e06c727debbfe86e48d0d4e2a532be902aebdd485ec5",

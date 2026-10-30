@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.erphotel.com/hc/da/articles/13421452213277",
     "sourceHash": "sha256:001bed3d2ae296f0fd80729fcdc71c0332d611dc674e8a0af5433718a564653f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:001bed3d2ae296f0fd80729fcdc71c0332d611dc674e8a0af5433718a564653f",

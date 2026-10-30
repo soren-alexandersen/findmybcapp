@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://stati-cal.com/PrismForAL/Learn/FullSolutionDownload",
     "sourceHash": "sha256:6b92cc059e8779161eeecf71ba96a09331634caaaaca9a2d4dbdf60c318f2e83",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6b92cc059e8779161eeecf71ba96a09331634caaaaca9a2d4dbdf60c318f2e83",

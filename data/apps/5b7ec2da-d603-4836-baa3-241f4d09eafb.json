@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Elfsquad_Connector_Manual.pdf",
     "sourceHash": "sha256:4dc6ef28cb2d27d2be48775bf3f83b16f25dc950e833c917f628548affc5ee1a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:4dc6ef28cb2d27d2be48775bf3f83b16f25dc950e833c917f628548affc5ee1a",

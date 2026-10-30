@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://msscc.mecalux.com/bc/configuration",
     "sourceHash": "sha256:b2760d3665ccd847ec3e3052281027e08b753a96295e6687804493973324b11a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b2760d3665ccd847ec3e3052281027e08b753a96295e6687804493973324b11a",

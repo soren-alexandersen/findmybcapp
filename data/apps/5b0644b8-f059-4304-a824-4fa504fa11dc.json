@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aviron.ai/",
     "sourceHash": "sha256:a788a11785b109a71d248b2d92505b70803acb1eae8bfecbb0f6302586961514",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a788a11785b109a71d248b2d92505b70803acb1eae8bfecbb0f6302586961514",

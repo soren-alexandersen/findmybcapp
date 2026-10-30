@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/nordtoft/NordtoftShippingCore-Documentation/blob/main/README.md",
     "sourceHash": "sha256:98c80bf82636714db0f5f6eaee357d9ec2a6eaceb1e084b90ef95b0e9ce6784c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:98c80bf82636714db0f5f6eaee357d9ec2a6eaceb1e084b90ef95b0e9ce6784c",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/salpur/index.html",
     "sourceHash": "sha256:a4f452ae8cb41afdeea82ae6473f44bb3a2c6a2f981caf4e11ce7c5cca3a78e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a4f452ae8cb41afdeea82ae6473f44bb3a2c6a2f981caf4e11ce7c5cca3a78e2",

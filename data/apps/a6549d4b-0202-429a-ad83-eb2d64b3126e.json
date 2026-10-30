@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://jcd.dk/support/",
     "sourceHash": "sha256:8f6888d87221abae469f15d781f206319c370ea7da14d6fe64650d8b3108e64f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8f6888d87221abae469f15d781f206319c370ea7da14d6fe64650d8b3108e64f",

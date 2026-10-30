@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bc2sql.com/support",
     "sourceHash": "sha256:6eee2d8057e4e3b0e02bee712e574c6b6de9fe43c40c9a699dba3899bfea64e4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6eee2d8057e4e3b0e02bee712e574c6b6de9fe43c40c9a699dba3899bfea64e4",

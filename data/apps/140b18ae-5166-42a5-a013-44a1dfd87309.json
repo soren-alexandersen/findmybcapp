@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/procbase/inventory-summary.html",
     "sourceHash": "sha256:2bf530549e46d413cbc208f2107c1ab6cab916c89ef4711c73aa47d81a687dfb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2bf530549e46d413cbc208f2107c1ab6cab916c89ef4711c73aa47d81a687dfb",

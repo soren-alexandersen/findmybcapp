@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/STM/",
     "sourceHash": "sha256:48bdad43862d25f26a23afecdad24fb19ac6ae767d990a370237550eeb71efb4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:48bdad43862d25f26a23afecdad24fb19ac6ae767d990a370237550eeb71efb4",

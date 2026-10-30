@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.dc.ag/docs/en/bc-coupon-codes/user-guide/overview",
     "sourceHash": "sha256:d5c9a1484ad8906ea16c27f51036def9b4c971042470c36eda27cf470ea85a02",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d5c9a1484ad8906ea16c27f51036def9b4c971042470c36eda27cf470ea85a02",

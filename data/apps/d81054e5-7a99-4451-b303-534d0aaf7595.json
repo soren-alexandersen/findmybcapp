@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://nivy.watch/nivy-watch-for-microsoft-business-central/",
     "sourceHash": "sha256:f0a2153e6743570e8ab518b0da32bd2b69b53b8038a000a3c145fc59bc74e44a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f0a2153e6743570e8ab518b0da32bd2b69b53b8038a000a3c145fc59bc74e44a",

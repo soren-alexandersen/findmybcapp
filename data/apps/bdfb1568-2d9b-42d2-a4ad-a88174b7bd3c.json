@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/en/printvisForBigCommerce/index.html",
     "sourceHash": "sha256:332dac054eae9ed02bd2fe4c59a0483cbf5154d270e71d0db853843faf147a87",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:332dac054eae9ed02bd2fe4c59a0483cbf5154d270e71d0db853843faf147a87",

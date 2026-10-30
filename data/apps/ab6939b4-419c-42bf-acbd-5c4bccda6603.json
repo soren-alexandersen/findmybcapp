@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/item-packaging-tracking/",
     "sourceHash": "sha256:27acd07fecb48b4b9c7ef55ffa4c716fa07320c82c3a72afd2120e9b8b746c7f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:27acd07fecb48b4b9c7ef55ffa4c716fa07320c82c3a72afd2120e9b8b746c7f",

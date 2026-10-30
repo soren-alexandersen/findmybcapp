@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.costcontrolsoftware.com/job-manager/",
     "sourceHash": "sha256:ac65130149d26e01f0adb6696a6b227648c639b0716ff8c780f2e409069cabbb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac65130149d26e01f0adb6696a6b227648c639b0716ff8c780f2e409069cabbb",

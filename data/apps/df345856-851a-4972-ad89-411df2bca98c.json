@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bysoft.kurago.software/contact",
     "sourceHash": "sha256:8cc8f0b65d2a8c1acdee0390834e16b267ac61756a2e4ee5e0b78c136d7d99e8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8cc8f0b65d2a8c1acdee0390834e16b267ac61756a2e4ee5e0b78c136d7d99e8",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-wms/",
     "sourceHash": "sha256:3051a400615a49de97af088fd8310261e1d0da5747254e500a7715f9cc7fd156",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3051a400615a49de97af088fd8310261e1d0da5747254e500a7715f9cc7fd156",

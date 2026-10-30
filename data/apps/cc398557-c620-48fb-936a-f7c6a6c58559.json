@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-overhead-distribution",
     "sourceHash": "sha256:7806489f23c370af9c59776e7e942e88675fe678e47f845a9ee6d545ef19242c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7806489f23c370af9c59776e7e942e88675fe678e47f845a9ee6d545ef19242c",

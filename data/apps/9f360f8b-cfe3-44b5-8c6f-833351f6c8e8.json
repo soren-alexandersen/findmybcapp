@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bewo.io/",
     "sourceHash": "sha256:c256dd1d6a8ab58001dba83358ed88e7f043cc0a5864a36a61513f9adce46e34",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c256dd1d6a8ab58001dba83358ed88e7f043cc0a5864a36a61513f9adce46e34",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/microsoft/bcsamples-onboarding",
     "sourceHash": "sha256:ddbc11f084035cd13728a1651031277ab0316bc1e7c8f3c6d8db717bacc2e03a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ddbc11f084035cd13728a1651031277ab0316bc1e7c8f3c6d8db717bacc2e03a",

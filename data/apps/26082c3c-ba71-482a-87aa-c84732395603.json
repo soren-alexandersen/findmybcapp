@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://rhythmsoft-global.com/contact-us/",
     "sourceHash": "sha256:b3bd528e48ae905c5c1fc887b04b3d75b5556e38875e7f4c7d08e270274091a5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3bd528e48ae905c5c1fc887b04b3d75b5556e38875e7f4c7d08e270274091a5",

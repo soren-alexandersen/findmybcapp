@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/extended_fields-app-in-business-central",
     "sourceHash": "sha256:364c832396f5dd6d4dcbde3d73493686d99be81ddc1eafa061347b841d085084",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:364c832396f5dd6d4dcbde3d73493686d99be81ddc1eafa061347b841d085084",

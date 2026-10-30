@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.binarystream.com/HelpFiles/MEM_D365BC_Help/Content/Topics/NAV_MEM/MEM.htm",
     "sourceHash": "sha256:d4ea831099089bd23f300c0ba19999d13bcd3152ff2397020951ba61f54f5b42",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d4ea831099089bd23f300c0ba19999d13bcd3152ff2397020951ba61f54f5b42",

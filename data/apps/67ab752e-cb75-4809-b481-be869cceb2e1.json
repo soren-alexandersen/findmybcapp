@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/empties-management-epm.html",
     "sourceHash": "sha256:18e8d0eed620de341326fda02c8c35d60163bed6d0fa7cc8b1a50e7042518337",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:18e8d0eed620de341326fda02c8c35d60163bed6d0fa7cc8b1a50e7042518337",

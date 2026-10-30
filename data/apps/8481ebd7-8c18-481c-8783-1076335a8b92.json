@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/document-handling/#howto",
     "sourceHash": "sha256:728c3b560b5bd527ca1fe8957543dc75b0f2faeb5989b7fcedbd5d6c15ab9728",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:728c3b560b5bd527ca1fe8957543dc75b0f2faeb5989b7fcedbd5d6c15ab9728",

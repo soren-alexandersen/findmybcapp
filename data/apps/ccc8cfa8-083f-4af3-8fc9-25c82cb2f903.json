@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://documents.wise.is/help/wnrl/Wise_e-Invoices_AppSourceHelp_IS.pdf",
     "sourceHash": "sha256:ffc2822b1184150f50ab91405100a7e4e67363628eb2da854ad8a169442c9090",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ffc2822b1184150f50ab91405100a7e4e67363628eb2da854ad8a169442c9090",

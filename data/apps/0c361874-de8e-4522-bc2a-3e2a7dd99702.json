@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://developers.allianz-trade.com/support",
     "sourceHash": "sha256:7192f8bfdc7739adda646e6b2d61c0845872db3699383ab4b8760ec44e50faa5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7192f8bfdc7739adda646e6b2d61c0845872db3699383ab4b8760ec44e50faa5",

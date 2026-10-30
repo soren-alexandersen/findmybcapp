@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-tcmb-download-exchange-rates",
     "sourceHash": "sha256:584cfea7cdbd1c6a091c92029d90ee7ad8fffbe10c4f4eea1ed594b88f7d6c09",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:584cfea7cdbd1c6a091c92029d90ee7ad8fffbe10c4f4eea1ed594b88f7d6c09",

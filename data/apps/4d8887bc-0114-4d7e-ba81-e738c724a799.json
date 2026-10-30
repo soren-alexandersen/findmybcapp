@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://learning.clicklearn.com/",
     "sourceHash": "sha256:6e541f6b946963c1900443e7c82c933b78fa16602c527195a72ae92fff9d47f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6e541f6b946963c1900443e7c82c933b78fa16602c527195a72ae92fff9d47f6",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.innovaonline.es/en-US/INAppsAnalyzer/Introduction/",
     "sourceHash": "sha256:995eb9d3d571860c84eb11af2ff44a654196683968d58ce5c195d0dceabd04da",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:995eb9d3d571860c84eb11af2ff44a654196683968d58ce5c195d0dceabd04da",

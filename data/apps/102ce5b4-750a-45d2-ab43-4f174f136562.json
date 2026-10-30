@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/446595073/Purchase+Line+Approval",
     "sourceHash": "sha256:a06740b7b9bc68d7ea962345f91de8879f5c02363c927a70ac9043a708c2c47f",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a06740b7b9bc68d7ea962345f91de8879f5c02363c927a70ac9043a708c2c47f",

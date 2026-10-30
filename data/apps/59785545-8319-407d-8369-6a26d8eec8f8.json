@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-mobile-data-collection",
     "sourceHash": "sha256:8d65f1f5f3969e4c54425d95f1d2ed1d5b3d60fbd8e4f3a6b9cb745c900c3f64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8d65f1f5f3969e4c54425d95f1d2ed1d5b3d60fbd8e4f3a6b9cb745c900c3f64",

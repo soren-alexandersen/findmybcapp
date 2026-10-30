@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/1333592337/Purchase+Accruals",
     "sourceHash": "sha256:5d9258885821e57d0999415de07977b525a07ebb3afba6693b52db3f9e967d8b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5d9258885821e57d0999415de07977b525a07ebb3afba6693b52db3f9e967d8b",

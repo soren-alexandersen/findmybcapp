@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/discontinued-master-data/docs",
     "sourceHash": "sha256:a8e9e65b645dce49c78b004aa2563751337ddcf993574782a1392ddad6a4fe19",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a8e9e65b645dce49c78b004aa2563751337ddcf993574782a1392ddad6a4fe19",

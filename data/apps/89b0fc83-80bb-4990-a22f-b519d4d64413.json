@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCGLA",
     "sourceHash": "sha256:3cb6942e3df88d16ac139b934949ce6d20b01a85473835aea59f53f44a714207",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3cb6942e3df88d16ac139b934949ce6d20b01a85473835aea59f53f44a714207",

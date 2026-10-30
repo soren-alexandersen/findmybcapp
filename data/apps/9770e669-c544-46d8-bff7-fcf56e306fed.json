@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.xli.dk/",
     "sourceHash": "sha256:b970fd03f4f2ffed8b60890b28df06b636f87958fe1be8875f4a534426c6b308",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b970fd03f4f2ffed8b60890b28df06b636f87958fe1be8875f4a534426c6b308",

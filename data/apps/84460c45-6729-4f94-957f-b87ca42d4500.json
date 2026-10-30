@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/bidrento/docs/en-US/app",
     "sourceHash": "sha256:5a23a1cf283346a776503cc7343d3c7155bb0e1b06515cb9c066a3c37c141541",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5a23a1cf283346a776503cc7343d3c7155bb0e1b06515cb9c066a3c37c141541",

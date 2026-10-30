@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Handling%20Units/Index/",
     "sourceHash": "sha256:d8293ab0e4034a2dbb0c92d3362d75512fa9e5c85ff873aa9e52935df6a5543b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d8293ab0e4034a2dbb0c92d3362d75512fa9e5c85ff873aa9e52935df6a5543b",

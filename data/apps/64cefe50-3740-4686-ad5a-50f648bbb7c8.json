@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wye.com/help/snap-real-time-power-bi-streaming",
     "sourceHash": "sha256:c168fdbbfa398fece89e2c5687c310c2f533aa7c66b563ee9d75a35480544e25",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c168fdbbfa398fece89e2c5687c310c2f533aa7c66b563ee9d75a35480544e25",

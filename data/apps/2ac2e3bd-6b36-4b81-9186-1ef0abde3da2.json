@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://oixio.eu/help-oixio-leasing-loans/",
     "sourceHash": "sha256:59a9c3b64b63264ed83a8bad1c0e63dfa2575ea8fee75f73e27685374ce355a9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:59a9c3b64b63264ed83a8bad1c0e63dfa2575ea8fee75f73e27685374ce355a9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.taigsolutions.co.uk/support",
     "sourceHash": "sha256:0e34516c3f7074341e5708768d3dfe599b83ea487ce19369445a8e93e6516c1a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0e34516c3f7074341e5708768d3dfe599b83ea487ce19369445a8e93e6516c1a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://biaas.kb.accobat.com/kb/en",
     "sourceHash": "sha256:5e28dde2967f35dec0fc9abe6492396cba7d8bf6b026c63294a719bdd995db2b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5e28dde2967f35dec0fc9abe6492396cba7d8bf6b026c63294a719bdd995db2b",

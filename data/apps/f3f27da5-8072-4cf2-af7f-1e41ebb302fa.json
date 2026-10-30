@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.azetsops.com/",
     "sourceHash": "sha256:882c6e73a65b1be8817e4e95e94451f26b2b4e90b9930d5acf4db22a00517152",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:882c6e73a65b1be8817e4e95e94451f26b2b4e90b9930d5acf4db22a00517152",

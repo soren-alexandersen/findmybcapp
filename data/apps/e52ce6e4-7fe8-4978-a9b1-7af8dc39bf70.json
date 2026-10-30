@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ACP/",
     "sourceHash": "sha256:cd65e67ccb9d736d07566a43c825991cfc01bae544828edcafbf13643a398154",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cd65e67ccb9d736d07566a43c825991cfc01bae544828edcafbf13643a398154",

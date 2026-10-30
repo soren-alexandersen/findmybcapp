@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.indagia.com/",
     "sourceHash": "sha256:f376eeffc683aab3602f6899225ada05a76a47001331b4408ddce0be7437ce85",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f376eeffc683aab3602f6899225ada05a76a47001331b4408ddce0be7437ce85",

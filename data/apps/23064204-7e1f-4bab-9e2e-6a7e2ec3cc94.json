@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/acumens-e-payments-for-worldpay/",
     "sourceHash": "sha256:1d4c8535c08e8ddec370ec01162bb20888b70e9d414fdbfc98b01b0495655346",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1d4c8535c08e8ddec370ec01162bb20888b70e9d414fdbfc98b01b0495655346",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-credit-management-account-ledger-type-connector",
     "sourceHash": "sha256:bde6be0cf3c56e2d62c944c11ffd7b6870922f2e14a700d759a9933027eb4129",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bde6be0cf3c56e2d62c944c11ffd7b6870922f2e14a700d759a9933027eb4129",

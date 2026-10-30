@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.qualiatechnik.de/advancedemail?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=email-automation&utm_content=support",
     "sourceHash": "sha256:cff6fcb87236d492e2428e8d8264bb3dcc1437a76d0b69c2b6d568336ad9a0cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cff6fcb87236d492e2428e8d8264bb3dcc1437a76d0b69c2b6d568336ad9a0cd",

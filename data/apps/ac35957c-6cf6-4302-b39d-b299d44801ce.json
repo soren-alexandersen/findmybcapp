@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.data-8.co.uk/resources/how-to-guides/business-central-installation-guide",
     "sourceHash": "sha256:cec9aedd4238149f406c5f96567f124431b3f1db8f35535b30feca7f44a235a1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:cec9aedd4238149f406c5f96567f124431b3f1db8f35535b30feca7f44a235a1",

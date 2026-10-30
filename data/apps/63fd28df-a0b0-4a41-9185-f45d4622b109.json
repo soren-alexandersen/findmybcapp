@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/advanced-cost-allocations/index.html",
     "sourceHash": "sha256:00ab3d2858cf13136b9a43a98b8aeba3c599544eb51cc8754505c9ec8d309832",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:00ab3d2858cf13136b9a43a98b8aeba3c599544eb51cc8754505c9ec8d309832",

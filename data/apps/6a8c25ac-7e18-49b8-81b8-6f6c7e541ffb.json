@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/bc-apps/ledgerly/",
     "sourceHash": "sha256:f093cbbe931c6b3f2fa7404e736133aab61ee2296a98b75a4bfd33bb7b09cc4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f093cbbe931c6b3f2fa7404e736133aab61ee2296a98b75a4bfd33bb7b09cc4c",

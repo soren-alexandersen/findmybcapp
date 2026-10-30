@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://nav2day.com/docs/tariff-management/",
     "sourceHash": "sha256:bb66e8b649c25c9b2f2aed3bd12e54022fb2f1d3b6d28c046d5d563d7fd81eb9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bb66e8b649c25c9b2f2aed3bd12e54022fb2f1d3b6d28c046d5d563d7fd81eb9",

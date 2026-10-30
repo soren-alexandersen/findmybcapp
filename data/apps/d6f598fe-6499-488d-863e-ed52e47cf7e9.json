@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-credit-controller/",
     "sourceHash": "sha256:5994ed17c312abbae105bdbf02f37b0f312c14d2b7e43f2fda9c66e437c1228a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5994ed17c312abbae105bdbf02f37b0f312c14d2b7e43f2fda9c66e437c1228a",

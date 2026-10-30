@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.bcwizards.com/",
     "sourceHash": "sha256:03096b368001284f7a6b4f8458747bc610591dd0710b065a6ad44c70dd7f9a16",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:03096b368001284f7a6b4f8458747bc610591dd0710b065a6ad44c70dd7f9a16",

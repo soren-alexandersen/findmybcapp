@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://hubs.li/H0JLHT30",
     "sourceHash": "sha256:7b8a15f605965c29f98dd33a87ef6f01e7bec8adf1ffe4787c2c939ea0750550",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7b8a15f605965c29f98dd33a87ef6f01e7bec8adf1ffe4787c2c939ea0750550",

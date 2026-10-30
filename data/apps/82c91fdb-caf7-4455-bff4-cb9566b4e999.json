@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/financemonthend",
     "sourceHash": "sha256:5c7eaf6ab7579e60cdba4d2526a4228d671cc4c13a6ef220cfd65e518bd81695",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5c7eaf6ab7579e60cdba4d2526a4228d671cc4c13a6ef220cfd65e518bd81695",

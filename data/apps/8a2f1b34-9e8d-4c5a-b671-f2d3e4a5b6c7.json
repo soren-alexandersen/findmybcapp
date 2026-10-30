@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://schedulingbay.com/contact",
     "sourceHash": "sha256:bf2b1819f9552fd0968356c81dfc438b32792088b24073dd25701b71b4e731fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bf2b1819f9552fd0968356c81dfc438b32792088b24073dd25701b71b4e731fa",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/customer-item-invoice-history/",
     "sourceHash": "sha256:1480551ab5eeec1e709d4292d04fb75051c037490172dadda318e5663b9b8bb8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1480551ab5eeec1e709d4292d04fb75051c037490172dadda318e5663b9b8bb8",

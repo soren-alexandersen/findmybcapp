@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
     "sourceHash": "sha256:fdeaeb3cfefbbf93fb7cca3db6dccb958dd14c4f970d41c437571836c5296e24",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fdeaeb3cfefbbf93fb7cca3db6dccb958dd14c4f970d41c437571836c5296e24",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/bmd-ntcs-interface/",
     "sourceHash": "sha256:73ac1d2f7e4e3654852251bb3b7e73a96b1c6c54e6d4d898e545bf13f5c56b1f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:73ac1d2f7e4e3654852251bb3b7e73a96b1c6c54e6d4d898e545bf13f5c56b1f",

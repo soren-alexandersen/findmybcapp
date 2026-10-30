@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.global-mediator.com/global-mediator-contact-us",
     "sourceHash": "sha256:16bb76748da2c1fce97b78e1490eaae94e7969cf0563bda560699e3da6015820",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:16bb76748da2c1fce97b78e1490eaae94e7969cf0563bda560699e3da6015820",

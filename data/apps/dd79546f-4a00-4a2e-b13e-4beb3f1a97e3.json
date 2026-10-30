@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.xolyd.com/4lsp",
     "sourceHash": "sha256:e4970f37a99b75d4b94b425072649a426f3cee4b2ae9c6015a109a8d06225c55",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e4970f37a99b75d4b94b425072649a426f3cee4b2ae9c6015a109a8d06225c55",

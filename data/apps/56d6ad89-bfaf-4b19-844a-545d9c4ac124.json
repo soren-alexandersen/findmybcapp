@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/job-time-entry",
     "sourceHash": "sha256:27df08f52491225af77c7815dbbb6ef84f191a8e61774acbe7e4e0bd5ab8ca54",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:27df08f52491225af77c7815dbbb6ef84f191a8e61774acbe7e4e0bd5ab8ca54",

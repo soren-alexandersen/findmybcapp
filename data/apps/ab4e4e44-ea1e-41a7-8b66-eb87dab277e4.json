@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/mobile-solutions/",
     "sourceHash": "sha256:ce6a7db961dd4414b0e92be3aecb15a976a2436330ce964a5001b61ddc8c8ede",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ce6a7db961dd4414b0e92be3aecb15a976a2436330ce964a5001b61ddc8c8ede",

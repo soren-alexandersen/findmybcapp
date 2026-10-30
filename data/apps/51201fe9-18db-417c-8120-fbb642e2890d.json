@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.techventuresglobal.com/lease-management/",
     "sourceHash": "sha256:d3ba8f9a9197c1fdec15768d170136d7bb97d83ac9278b73e5be3e2f460e67d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d3ba8f9a9197c1fdec15768d170136d7bb97d83ac9278b73e5be3e2f460e67d8",

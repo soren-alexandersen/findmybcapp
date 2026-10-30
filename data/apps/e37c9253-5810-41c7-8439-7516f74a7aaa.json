@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/user-sentiment-tracker/",
     "sourceHash": "sha256:3c1f012fc1bd3bbad4ab93668c12dc409e0a3283bf865d3321a03305658b5686",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3c1f012fc1bd3bbad4ab93668c12dc409e0a3283bf865d3321a03305658b5686",

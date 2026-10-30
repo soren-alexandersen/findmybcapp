@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/product-data-management/",
     "sourceHash": "sha256:8dacb60105275844625b5550e583d6ed4eb8cf564543b4b49ae84f69421e2dd6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8dacb60105275844625b5550e583d6ed4eb8cf564543b4b49ae84f69421e2dd6",

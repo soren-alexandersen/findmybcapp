@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.iskon.mk/learning-resources-loc",
     "sourceHash": "sha256:4a09f6284d7372d7191466860ede437e1e18952a4e4549e49b016638333b78bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4a09f6284d7372d7191466860ede437e1e18952a4e4549e49b016638333b78bb",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://posconnectorfoundation.help.im-projects.com/",
     "sourceHash": "sha256:00e78571b763905c446c21c0384d0dea192c9cfbb36a9dc33be87983d6517029",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:00e78571b763905c446c21c0384d0dea192c9cfbb36a9dc33be87983d6517029",

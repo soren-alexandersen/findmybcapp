@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sanbs.nl/",
     "sourceHash": "sha256:7a4c558a6782fdc4260e7938c0840e0998cb96c3d93dce44c3f7fc176562b07f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7a4c558a6782fdc4260e7938c0840e0998cb96c3d93dce44c3f7fc176562b07f",

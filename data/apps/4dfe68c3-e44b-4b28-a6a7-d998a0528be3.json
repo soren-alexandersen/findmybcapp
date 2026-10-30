@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/Reports",
     "sourceHash": "sha256:5ad5f59636705f03b1e3c1a699052e5bd4bf7328857b09d36ed24892298a8a8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ad5f59636705f03b1e3c1a699052e5bd4bf7328857b09d36ed24892298a8a8f",

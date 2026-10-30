@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/order-pick-wave-builder/",
     "sourceHash": "sha256:f2d28f5d96ad1f375abc674e5db8cf0d44f06b524ba0146542b3098f38946034",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f2d28f5d96ad1f375abc674e5db8cf0d44f06b524ba0146542b3098f38946034",

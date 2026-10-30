@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/649396225/External+Attachment+Storage",
     "sourceHash": "sha256:af5b1fab414dc070ecbfb7dbecadf0c24c39f579d25e028e0c850daeabc6ea2b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:af5b1fab414dc070ecbfb7dbecadf0c24c39f579d25e028e0c850daeabc6ea2b",

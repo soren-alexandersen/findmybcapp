@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Central-Connect.htm?tocpath=Product%20Overview%7CLS%20Central%20Add-ons%7CCentralConnect%7C_____0",
     "sourceHash": "sha256:f36499a6ddc9b342ae0a415bfe929cc49bdb8bd18c61fe90314715ae8695cdd0",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f36499a6ddc9b342ae0a415bfe929cc49bdb8bd18c61fe90314715ae8695cdd0",

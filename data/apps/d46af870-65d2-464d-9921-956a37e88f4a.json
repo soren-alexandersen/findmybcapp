@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.creditsolution2dynamics.cloud/en/support",
     "sourceHash": "sha256:e6438e85a48c1b224e2e1c3c5cf394212ff17d8565d78af7c42a2737666ef1d7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e6438e85a48c1b224e2e1c3c5cf394212ff17d8565d78af7c42a2737666ef1d7",

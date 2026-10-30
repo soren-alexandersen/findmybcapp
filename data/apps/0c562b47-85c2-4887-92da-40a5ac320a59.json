@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://likely-parts-831360.framer.app/faq",
     "sourceHash": "sha256:77d533292c35fae3ce7be220906fc1817ac1d838d1c0af308dad5bdfa3a64054",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:77d533292c35fae3ce7be220906fc1817ac1d838d1c0af308dad5bdfa3a64054",

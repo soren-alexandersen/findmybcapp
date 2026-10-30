@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aonflow.com/privacy-policy",
     "sourceHash": "sha256:517257889e156b33b178de9efbc6f530d1e5f547815daa4d9a12f3bbf40082eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:517257889e156b33b178de9efbc6f530d1e5f547815daa4d9a12f3bbf40082eb",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://maaztechnologies.com/contact-center-services/intelligent-communications-manager-for-microsoft/",
     "sourceHash": "sha256:2cd509a79269d56dc3000a2eea72da17fb82a9f2dd13d4d4113a80ddff3390ea",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2cd509a79269d56dc3000a2eea72da17fb82a9f2dd13d4d4113a80ddff3390ea",

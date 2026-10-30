@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-courier/",
     "sourceHash": "sha256:b04641bb001dc00d963389f84f332c462d05815ce6dca8c7d1e9157c1ab55190",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b04641bb001dc00d963389f84f332c462d05815ce6dca8c7d1e9157c1ab55190",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.n.vision/support/solutions/80000461659",
     "sourceHash": "sha256:6a45b3f8f87553c2bef6cbe7cbce22584d814c870d4178f84fe1ae58d505f7f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6a45b3f8f87553c2bef6cbe7cbce22584d814c870d4178f84fe1ae58d505f7f1",

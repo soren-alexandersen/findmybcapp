@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SPR/",
     "sourceHash": "sha256:1f61de66e25599e6483c36401c01fcf7fb83e7697bf618b75bceda25242d99bd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1f61de66e25599e6483c36401c01fcf7fb83e7697bf618b75bceda25242d99bd",

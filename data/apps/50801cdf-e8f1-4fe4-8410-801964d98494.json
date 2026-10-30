@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PCA/",
     "sourceHash": "sha256:631b062da723d8491590d6526dc7b41f59b10cb77382e6df5413e21d26cde4a3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:631b062da723d8491590d6526dc7b41f59b10cb77382e6df5413e21d26cde4a3",

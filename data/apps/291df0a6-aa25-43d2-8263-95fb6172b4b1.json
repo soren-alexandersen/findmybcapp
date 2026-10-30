@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/pricecare/index.html",
     "sourceHash": "sha256:c6df6730c98c4858c411822e4ae169117d00ca3ac98c6c63bdf5a67f020aba27",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c6df6730c98c4858c411822e4ae169117d00ca3ac98c6c63bdf5a67f020aba27",

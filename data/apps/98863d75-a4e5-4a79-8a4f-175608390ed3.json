@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://123bravo.com/help/",
     "sourceHash": "sha256:bb11c403fbc4c861317e4ed34a50453695286f9520651427c98c5c70b00e43d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bb11c403fbc4c861317e4ed34a50453695286f9520651427c98c5c70b00e43d8",

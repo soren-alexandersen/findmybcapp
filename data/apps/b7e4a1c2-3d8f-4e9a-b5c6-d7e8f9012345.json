@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dokumentace.navitec.cz/NBC",
     "sourceHash": "sha256:164369bcc5c9d5fedeb8dcf3872db1798f439096e094396afe010ef613ade3d3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:164369bcc5c9d5fedeb8dcf3872db1798f439096e094396afe010ef613ade3d3",

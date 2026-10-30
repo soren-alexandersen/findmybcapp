@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.smart-it.com/en/smart-payroll/",
     "sourceHash": "sha256:c44ec6583d75c08b7d6be012e1a314a1fae1fe69d873dffa183c67746bbb6f10",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c44ec6583d75c08b7d6be012e1a314a1fae1fe69d873dffa183c67746bbb6f10",

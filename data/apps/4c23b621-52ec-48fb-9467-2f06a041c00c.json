@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://partner.multisoft.hu/help-rebils/",
     "sourceHash": "sha256:e1b6cfb966accfffa3f951aabcb7c2c0e59059baf795bab246a01e4181e847a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e1b6cfb966accfffa3f951aabcb7c2c0e59059baf795bab246a01e4181e847a4",

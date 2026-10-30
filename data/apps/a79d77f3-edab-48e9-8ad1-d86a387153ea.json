@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://support.venasolutions.com/hc/en-us",
     "sourceHash": "sha256:3778898179da5cac589f150c91196093bcbe71cdaa7f74533643be71e80a7bfd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3778898179da5cac589f150c91196093bcbe71cdaa7f74533643be71e80a7bfd",

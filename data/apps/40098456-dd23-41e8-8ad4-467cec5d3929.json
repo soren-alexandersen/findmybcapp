@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.interform400.com/en/support/support",
     "sourceHash": "sha256:fc60dc14532c9e3af009fef8265c5393eca8dcd29e3c403541f19195ba2fc5d0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:fc60dc14532c9e3af009fef8265c5393eca8dcd29e3c403541f19195ba2fc5d0",

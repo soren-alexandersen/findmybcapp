@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/shipmentextender/dangerousgoods/overview/",
     "sourceHash": "sha256:65a28325bbdb92a88900a5b2dde8b0125bea0797e1c1dcde323808087222b3d9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:65a28325bbdb92a88900a5b2dde8b0125bea0797e1c1dcde323808087222b3d9",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.agrinventory.help/en/articles/8379973-install-the-agr-data-integrator#h_7ea2edbfc1",
     "sourceHash": "sha256:55208ebf5ab00e5a435804b00b7ad13534636ba7025dbef19273890a6c6d881c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:55208ebf5ab00e5a435804b00b7ad13534636ba7025dbef19273890a6c6d881c",

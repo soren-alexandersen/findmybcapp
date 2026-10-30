@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/overview?homepageId=22053055",
     "sourceHash": "sha256:f9d92c735d05fe7d0fca036ec47e96466a5ba52cac7ac881f80f2735091eb856",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f9d92c735d05fe7d0fca036ec47e96466a5ba52cac7ac881f80f2735091eb856",

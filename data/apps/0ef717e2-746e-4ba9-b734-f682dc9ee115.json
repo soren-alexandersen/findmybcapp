@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vokeso.com/solutions/vokbil-by-vokeso/",
     "sourceHash": "sha256:b62c26868aec2e62f970b28be3f6c6ae3d3a87d7ced4a53310b51a8bb499a150",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b62c26868aec2e62f970b28be3f6c6ae3d3a87d7ced4a53310b51a8bb499a150",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alfapeople.com/br/microsoft-dynamics-365-business-central/",
     "sourceHash": "sha256:0e7733306b58d64fcd00feafc2d1c91f21efdd71739e8082cfbe638a4b91f54b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0e7733306b58d64fcd00feafc2d1c91f21efdd71739e8082cfbe638a4b91f54b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Production-Enhancements",
     "sourceHash": "sha256:c0109ae4d0789ad89c06fa1d02c5cfd908515c76cb790c633a8463b7a80e9596",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c0109ae4d0789ad89c06fa1d02c5cfd908515c76cb790c633a8463b7a80e9596",

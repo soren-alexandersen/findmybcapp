@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aritma.com/support",
     "sourceHash": "sha256:d9732b9791c3eeb53f6de9e09d29b27f9d7b89b7e745355ab1b823b0e6b8aca3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d9732b9791c3eeb53f6de9e09d29b27f9d7b89b7e745355ab1b823b0e6b8aca3",

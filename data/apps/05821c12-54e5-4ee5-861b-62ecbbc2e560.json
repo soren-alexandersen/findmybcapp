@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/recordsearchcatalogbridge/index.html",
     "sourceHash": "sha256:f1d0eac58ac726d66b2e4b2918aa7216c0a33aba5172a0f06809f7f1ffb0f9bb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1d0eac58ac726d66b2e4b2918aa7216c0a33aba5172a0f06809f7f1ffb0f9bb",

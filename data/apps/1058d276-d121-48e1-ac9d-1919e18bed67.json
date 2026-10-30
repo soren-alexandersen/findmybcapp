@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://itm8.dk/forretningssystemer/erp/addons/action-list",
     "sourceHash": "sha256:e705346fc6beed30629b11dd9a81e0124f791be62f0d38d862670110b64b614b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e705346fc6beed30629b11dd9a81e0124f791be62f0d38d862670110b64b614b",

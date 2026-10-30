@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.nicsystemslearning.com/help/teklynx-sentinel-connector",
     "sourceHash": "sha256:338cc0dfaaea7c3dab5dbdd1940ef646023967b5bfd670654c730f53e2be6e40",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:338cc0dfaaea7c3dab5dbdd1940ef646023967b5bfd670654c730f53e2be6e40",

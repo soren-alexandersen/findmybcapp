@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/easy-custom-field-extender/",
     "sourceHash": "sha256:6b1acb203b834c036ea351d41d8fcf85c24f2e4d66007f6bf669b412e0d0e4d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6b1acb203b834c036ea351d41d8fcf85c24f2e4d66007f6bf669b412e0d0e4d8",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help/help-for-iVAZ/",
     "sourceHash": "sha256:aaddda651fd5528f4116b0ffbfde8592c49099badadcbb649b776f34e1f4bc62",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aaddda651fd5528f4116b0ffbfde8592c49099badadcbb649b776f34e1f4bc62",

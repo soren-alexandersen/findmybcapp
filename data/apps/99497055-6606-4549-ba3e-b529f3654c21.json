@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Consignment-Management.pdf",
     "sourceHash": "sha256:e14589324b4ce6bdb1dded966300ea177088f67580bc896e54434999ba7a7cde",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e14589324b4ce6bdb1dded966300ea177088f67580bc896e54434999ba7a7cde",

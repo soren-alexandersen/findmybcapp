@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ema-extended-management-accounting.html",
     "sourceHash": "sha256:0fcda172c0d4de768b154238c5d4d60f97943f670b998cccf863e446c8a43003",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0fcda172c0d4de768b154238c5d4d60f97943f670b998cccf863e446c8a43003",

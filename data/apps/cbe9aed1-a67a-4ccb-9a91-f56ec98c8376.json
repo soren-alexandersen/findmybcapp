@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://learn.xpr365.com/",
     "sourceHash": "sha256:a93af4cd089fa1f5ee695d488e4779d5d44064994fab2700de4ecefc16844827",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a93af4cd089fa1f5ee695d488e4779d5d44064994fab2700de4ecefc16844827",

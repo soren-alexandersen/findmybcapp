@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://ienigmatech.in/",
     "sourceHash": "sha256:abd8d93d812605d58f996a3fc3e262898bd0690ef58fefebd75f0199a7dc6a7d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:abd8d93d812605d58f996a3fc3e262898bd0690ef58fefebd75f0199a7dc6a7d",

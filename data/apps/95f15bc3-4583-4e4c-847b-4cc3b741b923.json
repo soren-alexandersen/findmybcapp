@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/app-expenditure-management/",
     "sourceHash": "sha256:297144477606dedcef97374f5498ae81cf645f6f930568a6dfd42dcdfb6041e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:297144477606dedcef97374f5498ae81cf645f6f930568a6dfd42dcdfb6041e9",

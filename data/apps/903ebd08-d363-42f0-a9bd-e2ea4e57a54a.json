@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/apl/",
     "sourceHash": "sha256:f1f830c03728c663f42938503bc5ac47c2b4dc4a971b76f6bbf99bf33dda6c35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1f830c03728c663f42938503bc5ac47c2b4dc4a971b76f6bbf99bf33dda6c35",

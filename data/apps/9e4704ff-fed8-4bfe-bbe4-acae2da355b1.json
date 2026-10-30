@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://costcontrolsoftware.com/customer-deposits/",
     "sourceHash": "sha256:081440ef122603a146c3ce1b85d7e352735f720c89153668e92aba92898ba9c3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:081440ef122603a146c3ce1b85d7e352735f720c89153668e92aba92898ba9c3",

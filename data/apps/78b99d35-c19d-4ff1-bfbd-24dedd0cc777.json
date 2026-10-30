@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/Dino/pages/84771221/Introduction",
     "sourceHash": "sha256:164fe045af584416673ed1965b17c9d7301b9ca5b256ba02f2482ec3cf031aab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:164fe045af584416673ed1965b17c9d7301b9ca5b256ba02f2482ec3cf031aab",

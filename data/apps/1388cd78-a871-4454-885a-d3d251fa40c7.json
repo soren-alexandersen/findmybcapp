@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.xenatusglobal.com/contact",
     "sourceHash": "sha256:56e6e01a6376a71b885607d4cceeddb689a054cc2e2a5a9ad102115162383f1b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:56e6e01a6376a71b885607d4cceeddb689a054cc2e2a5a9ad102115162383f1b",

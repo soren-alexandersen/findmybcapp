@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://globalsourcedynamics.com/globalflows",
     "sourceHash": "sha256:f67ffcef39f9b3dbecc066adca18f19151aca42ff220e680b990c92187e897e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f67ffcef39f9b3dbecc066adca18f19151aca42ff220e680b990c92187e897e7",

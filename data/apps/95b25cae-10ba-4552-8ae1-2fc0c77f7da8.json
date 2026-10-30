@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://bc.staedean.com/products/replication-management-microsoft-dynamics-bc/",
     "sourceHash": "sha256:853741f9edca19d7eaffdd1bbb4c9485c8e09e1ef80ad3ac6025225634d9c154",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:853741f9edca19d7eaffdd1bbb4c9485c8e09e1ef80ad3ac6025225634d9c154",

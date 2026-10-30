@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-Advanced-Logistics",
     "sourceHash": "sha256:9125b2a0100a7add0f294fba5de93d2d8e77963403fe0863296219791a1fa669",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9125b2a0100a7add0f294fba5de93d2d8e77963403fe0863296219791a1fa669",

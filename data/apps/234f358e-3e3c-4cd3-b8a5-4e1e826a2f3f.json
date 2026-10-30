@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.elo.com/user/integrations/en-us/elo-output-link-for-business-central-user-documentation/",
     "sourceHash": "sha256:de9fe45099464604cf51ac994a1e83b13579897bc88754c140bc5ab7fea9adad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:de9fe45099464604cf51ac994a1e83b13579897bc88754c140bc5ab7fea9adad",

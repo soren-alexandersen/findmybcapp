@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/bydynamics/AL-SkipReferenceLine-Support",
     "sourceHash": "sha256:a061996c03a52268e78d3059e601621a080dc50adc84a4d91cf534bba3d6568c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a061996c03a52268e78d3059e601621a080dc50adc84a4d91cf534bba3d6568c",

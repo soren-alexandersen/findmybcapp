@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-advanced-availability-by-location/",
     "sourceHash": "sha256:0d2d8f04303391dc13e1cb7235fcc117d4c1a9a640b7894947049d6af07b66b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0d2d8f04303391dc13e1cb7235fcc117d4c1a9a640b7894947049d6af07b66b0",

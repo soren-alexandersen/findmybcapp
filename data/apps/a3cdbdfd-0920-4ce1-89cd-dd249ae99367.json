@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://galax.com.hk/contact-us/",
     "sourceHash": "sha256:09bc8aac4f9db3fd981d234dc4389e97bd6a7d0f828efcf6691bc3ccf5618e29",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:09bc8aac4f9db3fd981d234dc4389e97bd6a7d0f828efcf6691bc3ccf5618e29",

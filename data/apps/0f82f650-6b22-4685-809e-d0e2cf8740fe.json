@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/customer-vendor-compensation.html",
     "sourceHash": "sha256:05cfd50548fe20778dce79f753f68cd914cdb97924fe5446b09ce00ad61771c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:05cfd50548fe20778dce79f753f68cd914cdb97924fe5446b09ce00ad61771c6",

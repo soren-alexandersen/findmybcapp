@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://apptitude.solutions/support",
     "sourceHash": "sha256:c341c44a008aac67e06fecfef9e71a2040f4a0713a3815a35dc7dae2df26e1c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c341c44a008aac67e06fecfef9e71a2040f4a0713a3815a35dc7dae2df26e1c2",

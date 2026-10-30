@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://power-bi-reporting.ha-consultancy.com/Power%20BI%20-%20App%20Documentation.pdf",
     "sourceHash": "sha256:80feb055d5d597623136f9d020f5cd48ff21a90064fd18e980e09d6a3906b695",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:80feb055d5d597623136f9d020f5cd48ff21a90064fd18e980e09d6a3906b695",

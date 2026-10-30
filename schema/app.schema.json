@@ -32,6 +32,7 @@
         "helpLink": {"type": ["string", "null"]},
         "sourceHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
         "mentionsBC": {"type": "boolean", "description": "Title or description names Business Central (NAV never counts). A SaaS offer is shown only when this is set, and then as working with Business Central."},
+        "allCountries": {"type": "boolean", "description": "Listing says the app works in every country where Business Central is available. Shown when no specific countries are mapped."},
         "removedOn": {"type": ["string", "null"], "description": "Set when the listing disappears from the catalog."}
       }
     },

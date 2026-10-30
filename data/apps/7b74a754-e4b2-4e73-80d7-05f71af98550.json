@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/projectwork/",
     "sourceHash": "sha256:aad00d19cc620f77f067db7f1082b813d283b784905c4d4a55bfc94aa745fca0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:aad00d19cc620f77f067db7f1082b813d283b784905c4d4a55bfc94aa745fca0",

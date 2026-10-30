@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/LC",
     "sourceHash": "sha256:542f9188227b284830e26d5b8716d5e294d5bcd247d0d758da6b1edbb24aa7ec",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:542f9188227b284830e26d5b8716d5e294d5bcd247d0d758da6b1edbb24aa7ec",

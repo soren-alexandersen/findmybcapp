@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/assign-quantity/#howto",
     "sourceHash": "sha256:fee95c21b9b7faa079e923a42de3c91a5e2e17f58fdd55d6a02bfa87d34cecbd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fee95c21b9b7faa079e923a42de3c91a5e2e17f58fdd55d6a02bfa87d34cecbd",

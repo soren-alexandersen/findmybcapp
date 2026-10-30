@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-3pl/",
     "sourceHash": "sha256:87e59ef4991dcfbc5f6d5b0757d8e267b09b2be6c9f25794a09b8e2710317820",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:87e59ef4991dcfbc5f6d5b0757d8e267b09b2be6c9f25794a09b8e2710317820",

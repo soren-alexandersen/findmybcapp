@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.vizier.it/viz-chatbridge-365",
     "sourceHash": "sha256:17608e8c5ffb691300400a311d40a59fea479a7136f42f9e973d4766c66e85b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:17608e8c5ffb691300400a311d40a59fea479a7136f42f9e973d4766c66e85b0",

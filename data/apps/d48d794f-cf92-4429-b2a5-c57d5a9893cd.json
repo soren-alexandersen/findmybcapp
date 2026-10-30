@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.efoqus.ca/products/other/quickbooks-qbo-setup/",
     "sourceHash": "sha256:69e3eb27fd35197b9f65ab2c8b4e8467fac2d83b99e1a3d8f2d8a15cedaa3d30",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:69e3eb27fd35197b9f65ab2c8b4e8467fac2d83b99e1a3d8f2d8a15cedaa3d30",

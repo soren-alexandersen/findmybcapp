@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Sync_Manual.pdf",
     "sourceHash": "sha256:ce53e4c16d064eba7c2713c7320c5ff9d7cf1fc27c43d57c397d959cb48f7563",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ce53e4c16d064eba7c2713c7320c5ff9d7cf1fc27c43d57c397d959cb48f7563",

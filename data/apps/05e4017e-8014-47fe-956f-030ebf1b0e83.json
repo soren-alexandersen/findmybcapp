@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/inspectorman/",
     "sourceHash": "sha256:18be6640139cf1ba68f1a051058602c158a15a91cb71a9ef01552b0f19a4783b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:18be6640139cf1ba68f1a051058602c158a15a91cb71a9ef01552b0f19a4783b",

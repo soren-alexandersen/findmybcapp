@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynasys.tech/solutions/dynasys-workflow/docs",
     "sourceHash": "sha256:f1fcbb01912eebaf322e268cdd762d331cfa679c2513bb07764738192d3b6c31",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f1fcbb01912eebaf322e268cdd762d331cfa679c2513bb07764738192d3b6c31",

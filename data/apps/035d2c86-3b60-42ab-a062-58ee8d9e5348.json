@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://leaplinkdata.com/knowledge-center/",
     "sourceHash": "sha256:22550f314de8ba09537f8e9e7e2e3653529cdf650be7e753c71c1a5f2a2af65b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:22550f314de8ba09537f8e9e7e2e3653529cdf650be7e753c71c1a5f2a2af65b",

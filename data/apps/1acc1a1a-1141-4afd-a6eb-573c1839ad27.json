@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-creditsafe/",
     "sourceHash": "sha256:e6a55ac4d960e1a619c59266cea2bee737bfcc8b4d57a51dade2f3efc0095444",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e6a55ac4d960e1a619c59266cea2bee737bfcc8b4d57a51dade2f3efc0095444",

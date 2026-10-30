@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://vinya.com.tr/en/microsoft-appsource/vin2b-b2b-sales-platform/",
     "sourceHash": "sha256:c791ef0b18ca4584ceae6dbac617f3bb8389ddfcfabd1928a7283e91982f32e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c791ef0b18ca4584ceae6dbac617f3bb8389ddfcfabd1928a7283e91982f32e2",

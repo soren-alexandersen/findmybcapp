@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.pinetworks.net/budget-control",
     "sourceHash": "sha256:ca18c8c9ccf6986655b3952e184fa74b6c0fc9274af9f173c338d2dcf60607da",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ca18c8c9ccf6986655b3952e184fa74b6c0fc9274af9f173c338d2dcf60607da",

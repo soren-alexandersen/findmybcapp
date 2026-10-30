@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.costbits.com/onboarding",
     "sourceHash": "sha256:595d5e392525a38706d11e8e8fe551ef7cda40976c6886c35a4acf62eae30d11",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:595d5e392525a38706d11e8e8fe551ef7cda40976c6886c35a4acf62eae30d11",

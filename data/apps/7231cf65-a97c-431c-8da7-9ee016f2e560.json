@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/eos-power-business-intelligence-connector.html",
     "sourceHash": "sha256:af6d6e17f555675ba62d1f276f579f1b7de15e59ad0497d462da5ffb51254fb5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:af6d6e17f555675ba62d1f276f579f1b7de15e59ad0497d462da5ffb51254fb5",

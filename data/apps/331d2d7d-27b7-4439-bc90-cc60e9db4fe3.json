@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/kba/",
     "sourceHash": "sha256:258a1cf4337a63c9181232c7d4aaf36797da49aad23f55b1721c3c860ab31d46",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:258a1cf4337a63c9181232c7d4aaf36797da49aad23f55b1721c3c860ab31d46",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://duveka.net/MicrosoftGraphConnector",
     "sourceHash": "sha256:87f6bc7e7947156d2e977b2e5d65609d5441544e4bd5fdcf8266f4698230395f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:87f6bc7e7947156d2e977b2e5d65609d5441544e4bd5fdcf8266f4698230395f",

@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://globeaccounting.com/ADD",
     "sourceHash": "sha256:b799ba5d38b88c941f3a562c1a444d738cd327e9b92dc7b8f38abf4d9e505543",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b799ba5d38b88c941f3a562c1a444d738cd327e9b92dc7b8f38abf4d9e505543",

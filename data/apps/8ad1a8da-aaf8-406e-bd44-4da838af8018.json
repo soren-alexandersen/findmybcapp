@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/report-layout-pro-help/",
     "sourceHash": "sha256:a5ee2697b5d04f35ede9daccbc3ca4217d2d48358f6e49033207e33c986555be",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a5ee2697b5d04f35ede9daccbc3ca4217d2d48358f6e49033207e33c986555be",

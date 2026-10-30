@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.isystems-group.com/contacts/",
     "sourceHash": "sha256:c2037f9adb6c1d456674dab181a2b2b6a46ee9fe301ac1314bf925c9313bbe79",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:c2037f9adb6c1d456674dab181a2b2b6a46ee9fe301ac1314bf925c9313bbe79",

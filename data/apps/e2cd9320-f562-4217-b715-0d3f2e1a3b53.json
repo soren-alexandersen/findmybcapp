@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/NR/overview",
     "sourceHash": "sha256:bac2fae890375ec7abc84bdd8a71ee7b05cc71a006e3c02aac72b9f89c6d4fab",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bac2fae890375ec7abc84bdd8a71ee7b05cc71a006e3c02aac72b9f89c6d4fab",

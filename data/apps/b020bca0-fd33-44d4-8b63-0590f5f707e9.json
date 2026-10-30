@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.com/apps/rest-api-integrator",
     "sourceHash": "sha256:960f56d63844158427fc8c4b9f68104a7106a5dee61308d0772068133b763e9d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:960f56d63844158427fc8c4b9f68104a7106a5dee61308d0772068133b763e9d",

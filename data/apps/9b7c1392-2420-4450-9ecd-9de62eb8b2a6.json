@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.blueaudit.ch/",
     "sourceHash": "sha256:0c1910b45647c6cc12a35b73a26bc79e00817f918a27dcfcb7e7801a28df5348",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0c1910b45647c6cc12a35b73a26bc79e00817f918a27dcfcb7e7801a28df5348",

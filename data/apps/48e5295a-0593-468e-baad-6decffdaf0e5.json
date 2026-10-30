@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.idexa.eu/",
     "sourceHash": "sha256:613240cd2da78655929ccc60d13ad7db4520053683f8c30759003845c7d2a726",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:613240cd2da78655929ccc60d13ad7db4520053683f8c30759003845c7d2a726",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/sendcloud/#howto",
     "sourceHash": "sha256:221bd5245e5c463d346f78cbb3cba5efe4bad6a8cc88d41673ad57ba9e18b315",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:221bd5245e5c463d346f78cbb3cba5efe4bad6a8cc88d41673ad57ba9e18b315",

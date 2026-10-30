@@ -18,7 +18,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://peritossolutions.com/products/delegation-for-business-central/",
     "sourceHash": "sha256:4044ac4c3dd80235fe0d199e5aa63481c7515163118eb7666ca5a3b7bd49aae1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4044ac4c3dd80235fe0d199e5aa63481c7515163118eb7666ca5a3b7bd49aae1",

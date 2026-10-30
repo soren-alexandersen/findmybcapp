@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.leapit.no/product/visma-sign/documentation",
     "sourceHash": "sha256:5de587255abbbade1fc154b146d900c4c260b2c22233291a19506ca005944e4c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5de587255abbbade1fc154b146d900c4c260b2c22233291a19506ca005944e4c",

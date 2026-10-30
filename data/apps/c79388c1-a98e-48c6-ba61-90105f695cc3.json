@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://publicproductdocsbravx.blob.core.windows.net/documents/Supply_Connector_Hub_Help.pdf",
     "sourceHash": "sha256:79121b27bc19fa6e0e98b3524624ed18412411b92a554d763958cae49eaeb2e7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:79121b27bc19fa6e0e98b3524624ed18412411b92a554d763958cae49eaeb2e7",

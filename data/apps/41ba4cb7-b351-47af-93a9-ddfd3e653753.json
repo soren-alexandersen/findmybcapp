@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/notifications.html",
     "sourceHash": "sha256:24182900defd94b74a56571601e583db0d3561621686d20f13fc740231e93785",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:24182900defd94b74a56571601e583db0d3561621686d20f13fc740231e93785",

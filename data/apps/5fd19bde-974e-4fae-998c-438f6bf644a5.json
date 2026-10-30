@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.weihansoft.com/contact-us/",
     "sourceHash": "sha256:4d927e295ee51a256813a04ccc232f47513301ea92710576c61bc4c254b27432",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4d927e295ee51a256813a04ccc232f47513301ea92710576c61bc4c254b27432",

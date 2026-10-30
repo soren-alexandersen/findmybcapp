@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/attributescore/index.html",
     "sourceHash": "sha256:057d24a99f166bc6a9c82a1b7135673714ea02d9f7e62071d8c7bf90b8efdecf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:057d24a99f166bc6a9c82a1b7135673714ea02d9f7e62071d8c7bf90b8efdecf",

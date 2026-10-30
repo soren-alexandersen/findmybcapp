@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/mpo/",
     "sourceHash": "sha256:232494942dc689318f6bdc57694ee1c895ce60ab74ba33c721971eac1a41cccf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:232494942dc689318f6bdc57694ee1c895ce60ab74ba33c721971eac1a41cccf",

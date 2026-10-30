@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-banking",
     "sourceHash": "sha256:48df03a0d0d83da02dc8654fcf63703ae0b49e1ae4696b41a6a19d7132f574fa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:48df03a0d0d83da02dc8654fcf63703ae0b49e1ae4696b41a6a19d7132f574fa",

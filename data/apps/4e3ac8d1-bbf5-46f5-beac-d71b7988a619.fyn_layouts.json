@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.fynancy.com/",
     "sourceHash": "sha256:9d89f883b0e65e61541381c5fd2593777a5049490c6a2080d165f9a478b9eead",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9d89f883b0e65e61541381c5fd2593777a5049490c6a2080d165f9a478b9eead",

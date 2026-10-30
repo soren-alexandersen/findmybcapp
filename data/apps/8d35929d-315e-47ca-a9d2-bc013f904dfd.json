@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.connamix.com/cxscheduler/",
     "sourceHash": "sha256:a14fa0072ec760d5b14cdaba5ba9df2c3eef5bf5e306b3332c061b324054c299",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a14fa0072ec760d5b14cdaba5ba9df2c3eef5bf5e306b3332c061b324054c299",

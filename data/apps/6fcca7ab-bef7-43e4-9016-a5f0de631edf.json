@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/advancedserialno/preface/preface.html",
     "sourceHash": "sha256:7ed25017894c96794ab58871b794120f16a768754fc2be71bc5b0fa84259ed1a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7ed25017894c96794ab58871b794120f16a768754fc2be71bc5b0fa84259ed1a",

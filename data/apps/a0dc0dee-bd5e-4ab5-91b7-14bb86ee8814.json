@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/apps/dcx-ai-manufacturing-suite/",
     "sourceHash": "sha256:7f001b859754a259282249f0a818edb289e3c040ffe356a3edf9ad90ed1ef52f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f001b859754a259282249f0a818edb289e3c040ffe356a3edf9ad90ed1ef52f",

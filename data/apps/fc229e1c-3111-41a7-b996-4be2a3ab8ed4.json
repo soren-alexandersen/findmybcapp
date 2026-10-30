@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/project-billing-control-advanced/project-billing-and-control-advanced",
     "sourceHash": "sha256:865e12cd709d3b94a6a0969e135207ddb84926062ff7da64b0dbc376c263f001",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:865e12cd709d3b94a6a0969e135207ddb84926062ff7da64b0dbc376c263f001",

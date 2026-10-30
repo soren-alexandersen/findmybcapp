@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SFL/",
     "sourceHash": "sha256:828469bfbc9f0a39888a0178b1b6035fc1383a5e3592818352c59d6df06f5c91",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:828469bfbc9f0a39888a0178b1b6035fc1383a5e3592818352c59d6df06f5c91",

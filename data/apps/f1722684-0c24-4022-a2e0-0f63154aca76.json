@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bifrost.origo.is/en-us/apps/",
     "sourceHash": "sha256:1f7459927373fa924ef07e1530b43030edd3f6e737afcf833105b6a9905d7b7b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1f7459927373fa924ef07e1530b43030edd3f6e737afcf833105b6a9905d7b7b",

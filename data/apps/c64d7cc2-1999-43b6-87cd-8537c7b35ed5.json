@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://wrenchtime.io/docs/",
     "sourceHash": "sha256:727b38436f604006fd58addb4bee7e8a34ec7c5a19315c12df1da7ba891f3828",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:727b38436f604006fd58addb4bee7e8a34ec7c5a19315c12df1da7ba891f3828",

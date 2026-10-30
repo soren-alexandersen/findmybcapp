@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nasconception.de/nc365-tdsynnex-ion-connect",
     "sourceHash": "sha256:373a4e4edbd85426e3ab225c6838ac7183a5fb0b702bd42253887ca6c3d219cd",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:373a4e4edbd85426e3ab225c6838ac7183a5fb0b702bd42253887ca6c3d219cd",

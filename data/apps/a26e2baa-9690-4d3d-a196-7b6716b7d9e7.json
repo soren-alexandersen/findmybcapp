@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://business-central.to-increase.com/md/en-US/CONIEM_1024",
     "sourceHash": "sha256:aa881f3fc5d6cfda0efe19d8eb3918b5bc5529b618d46fc88c6cdf6d1b111c8c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:aa881f3fc5d6cfda0efe19d8eb3918b5bc5529b618d46fc88c6cdf6d1b111c8c",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-food",
     "sourceHash": "sha256:f5a69df7b0985ce83ed14501be8d4d8e84047eee089c3fa2427768ed3f68a42c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f5a69df7b0985ce83ed14501be8d4d8e84047eee089c3fa2427768ed3f68a42c",

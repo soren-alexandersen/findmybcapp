@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://d365zone.com/",
     "sourceHash": "sha256:f4baec5b497634c83462ca1586299e1a2d29a6671dbc7560ae9349db1f9fe96d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f4baec5b497634c83462ca1586299e1a2d29a6671dbc7560ae9349db1f9fe96d",

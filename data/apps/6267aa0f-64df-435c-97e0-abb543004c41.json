@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fts-bulgaria.github.io/D365BC_BGLanguage",
     "sourceHash": "sha256:d3eb4ae54764fbd1761f57423cdf6da696265e6952ec99e59f08c8184ee46f23",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d3eb4ae54764fbd1761f57423cdf6da696265e6952ec99e59f08c8184ee46f23",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://parcel.4dynamics.com/4",
     "sourceHash": "sha256:c2e8d2c9864b76511c767682326fba11c66caad659cad83a7baf5f73fe65bcad",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c2e8d2c9864b76511c767682326fba11c66caad659cad83a7baf5f73fe65bcad",

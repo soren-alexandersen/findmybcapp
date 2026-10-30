@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_WhiteDoc_UserDocumentation.pdf",
     "sourceHash": "sha256:faa1e58bd954ccdb286ef5c4ca49098b64863c261f07ea1fb42143ccad4fa1d2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:faa1e58bd954ccdb286ef5c4ca49098b64863c261f07ea1fb42143ccad4fa1d2",

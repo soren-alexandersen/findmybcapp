@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://doc.dynamicweb.com/documentation-9/integration/integration-framework/erp-plug-in-units/business-central-cloud",
     "sourceHash": "sha256:0ac0c561040dc0a6ebcd98338283094713c67fade8e1d89e3a7f4dc226cf21e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0ac0c561040dc0a6ebcd98338283094713c67fade8e1d89e3a7f4dc226cf21e2",

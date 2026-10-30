@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/nss-logistics",
     "sourceHash": "sha256:7d219105ff5b2c44a96dff52014aff4290096a0ab54ee12ff51c54a021d5981a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7d219105ff5b2c44a96dff52014aff4290096a0ab54ee12ff51c54a021d5981a",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/smartreports/documentation",
     "sourceHash": "sha256:66441e290add3755d336f67bb2cac08477569fb6a1c435286f2fd06822a37c35",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66441e290add3755d336f67bb2cac08477569fb6a1c435286f2fd06822a37c35",

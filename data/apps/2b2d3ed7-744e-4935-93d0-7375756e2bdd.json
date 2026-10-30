@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/parcels.html",
     "sourceHash": "sha256:1a98f7795c313d4142c0bcbe4e14ff06f3bf9e027c2eda1fde50a3bff0ff361c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1a98f7795c313d4142c0bcbe4e14ff06f3bf9e027c2eda1fde50a3bff0ff361c",

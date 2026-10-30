@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/user-access-audit/",
     "sourceHash": "sha256:1b43c129e6515052f75a6cf052eedd925073e1e885e9ee68727142eab98b6074",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1b43c129e6515052f75a6cf052eedd925073e1e885e9ee68727142eab98b6074",

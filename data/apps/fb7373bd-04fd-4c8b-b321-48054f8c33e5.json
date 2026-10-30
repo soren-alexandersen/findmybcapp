@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/docs/business-central/72369702-e32b-47a4-9864-788130385dd2?originalUrl=https%3A%2F%2Fdocs.cosmoconsult.com%2Fen-us%2Fbusiness-central%2Fworkflow%2Fworkflow-demo-data%2Foverview-demo.html",
     "sourceHash": "sha256:5d6f9f00901c1cdfb13fc86c31fac7229ce7c926840a0072d5aedf0e844cfda7",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5d6f9f00901c1cdfb13fc86c31fac7229ce7c926840a0072d5aedf0e844cfda7",

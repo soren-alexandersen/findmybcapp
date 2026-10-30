@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/365loen/",
     "sourceHash": "sha256:2f4d40a1dfb498add657c5187daaa12df8f006d705aab60969cac2064818ee1d",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2f4d40a1dfb498add657c5187daaa12df8f006d705aab60969cac2064818ee1d",

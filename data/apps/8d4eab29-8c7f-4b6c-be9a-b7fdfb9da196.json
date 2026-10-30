@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-expense-management",
     "sourceHash": "sha256:b9c0143d4ba8911147c6d8562e03d7c9055fa9acd998ab98e6c2c589bd02504f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b9c0143d4ba8911147c6d8562e03d7c9055fa9acd998ab98e6c2c589bd02504f",

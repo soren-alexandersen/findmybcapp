@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dionix.co.uk/",
     "sourceHash": "sha256:ac414c4990a0ef7eeb66f072fe8599134d0bc9b7a0151bf97314ad4170b37e48",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ac414c4990a0ef7eeb66f072fe8599134d0bc9b7a0151bf97314ad4170b37e48",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.robo-soft.com/support/",
     "sourceHash": "sha256:e87aa983f62ecbbfcb436384e614fc4752b9d06f10b1add35a8ac055a72d1dbf",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e87aa983f62ecbbfcb436384e614fc4752b9d06f10b1add35a8ac055a72d1dbf",

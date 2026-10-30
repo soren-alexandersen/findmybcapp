@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Bertverbeek4PS/bc2adls/wiki",
     "sourceHash": "sha256:4a33ac4709c55ce8f558f6d05e33a5879bc3ca6eb2ac1f32acdbee9bf17b0371",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4a33ac4709c55ce8f558f6d05e33a5879bc3ca6eb2ac1f32acdbee9bf17b0371",

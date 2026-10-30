@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/moniroo-production-time-management/",
     "sourceHash": "sha256:4867d5c4bc33accda0be8b0b7d87995ad3eaa218b16a5574eac1ed0ad08cfd34",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4867d5c4bc33accda0be8b0b7d87995ad3eaa218b16a5574eac1ed0ad08cfd34",

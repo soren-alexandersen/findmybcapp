@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbassets",
     "sourceHash": "sha256:16103b22a8e1d007571ea3e495a7c16c1156000ecaf5d8372d91020e78a1e240",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:16103b22a8e1d007571ea3e495a7c16c1156000ecaf5d8372d91020e78a1e240",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/advanced-quality-management/",
     "sourceHash": "sha256:46560b1aa4b6b66bf068a7180270818c461d3037525c1ea1f9dda4523a7cc101",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:46560b1aa4b6b66bf068a7180270818c461d3037525c1ea1f9dda4523a7cc101",

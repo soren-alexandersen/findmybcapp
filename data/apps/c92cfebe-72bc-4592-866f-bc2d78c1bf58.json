@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamics-whatsapp-integration-api.ha-consultancy.com/Documentation.pdf",
     "sourceHash": "sha256:9010838ebffbbd9861d0cda011253c32b6487f3b5b4c8479d7176d1e70a24e03",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:9010838ebffbbd9861d0cda011253c32b6487f3b5b4c8479d7176d1e70a24e03",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/personincharge/index.html",
     "sourceHash": "sha256:bdbec13af11b7648c6dd1af5d232fae7eac5107b27c0a922a7ba5a1ba595cad3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bdbec13af11b7648c6dd1af5d232fae7eac5107b27c0a922a7ba5a1ba595cad3",

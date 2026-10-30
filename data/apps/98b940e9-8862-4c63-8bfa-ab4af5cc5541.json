@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.tegos-group.com/documentation/what3words/tegossuite-what3words.html",
     "sourceHash": "sha256:56718b74b7bf0bf7611bbb0a3f56fecf03314a93a08fe57d4fb4214cc2b634f3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:56718b74b7bf0bf7611bbb0a3f56fecf03314a93a08fe57d4fb4214cc2b634f3",

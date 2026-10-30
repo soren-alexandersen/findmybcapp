@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.twoday.dk/twoday-support",
     "sourceHash": "sha256:6077c7f571932f90f69e047879d119d8db2c0d440a791d259b8d55c88cb74337",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:6077c7f571932f90f69e047879d119d8db2c0d440a791d259b8d55c88cb74337",

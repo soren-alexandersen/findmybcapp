@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.svaneit.dk/download/",
     "sourceHash": "sha256:dd247afa0e65d3c21ea719cc0abfdf4ce69ca87d49a80083dbfd7ee1c3dfac6e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:dd247afa0e65d3c21ea719cc0abfdf4ce69ca87d49a80083dbfd7ee1c3dfac6e",

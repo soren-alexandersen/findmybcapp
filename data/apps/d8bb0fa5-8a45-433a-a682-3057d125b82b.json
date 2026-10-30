@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dibs.nl/nl/support/",
     "sourceHash": "sha256:2246c9334784869a8a829c1286b8edae965215fd35b555e640ca54fc150d1bd5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2246c9334784869a8a829c1286b8edae965215fd35b555e640ca54fc150d1bd5",

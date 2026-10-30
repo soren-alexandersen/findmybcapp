@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://navtech365.net/categories/70-autofleet-management",
     "sourceHash": "sha256:91eea38cbc7303f5c9409891f0fc065d313c514e5cb058c2abf8b44b630e3b6c",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:91eea38cbc7303f5c9409891f0fc065d313c514e5cb058c2abf8b44b630e3b6c",

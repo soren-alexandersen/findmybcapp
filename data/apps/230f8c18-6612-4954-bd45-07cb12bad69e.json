@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision%20Cloud%20POS%20Light%20Manual.pdf",
     "sourceHash": "sha256:cea3f03abb278f14882ba9e634203a3c688254248dbe96554ae30c8984a72217",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cea3f03abb278f14882ba9e634203a3c688254248dbe96554ae30c8984a72217",

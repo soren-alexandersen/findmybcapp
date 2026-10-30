@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/electronic-banking/index.html",
     "sourceHash": "sha256:c1877168a343a4367072107c7f7527cfb526cf22ead800ac3d3d3898128492a9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c1877168a343a4367072107c7f7527cfb526cf22ead800ac3d3d3898128492a9",

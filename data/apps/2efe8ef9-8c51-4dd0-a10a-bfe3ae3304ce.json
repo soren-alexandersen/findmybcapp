@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/nss-projects",
     "sourceHash": "sha256:7e3ded0719078655a00cb086d79585c32417d015a5afbbb69d1db6c75b045b92",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7e3ded0719078655a00cb086d79585c32417d015a5afbbb69d1db6c75b045b92",

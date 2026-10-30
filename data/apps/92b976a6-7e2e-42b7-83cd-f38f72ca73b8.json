@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/carrierman/",
     "sourceHash": "sha256:7edfeb3a21cb335fae22364aa5ee9915c3915c4ff40e66791dae0b9fa14a2947",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7edfeb3a21cb335fae22364aa5ee9915c3915c4ff40e66791dae0b9fa14a2947",

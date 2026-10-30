@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://syssolutionsllc.com/user-guides/autoquotes-integration-for-d365-business-central/",
     "sourceHash": "sha256:78f04696ed37b56d75c4268f2c65f12ff2041b95aece5538702dd63a09dbb22a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:78f04696ed37b56d75c4268f2c65f12ff2041b95aece5538702dd63a09dbb22a",

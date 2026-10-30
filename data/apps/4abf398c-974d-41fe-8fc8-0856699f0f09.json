@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.aproda.ch/aproda-dms-on-azure",
     "sourceHash": "sha256:eba5cc97528100dab5c9786ab2a0970339bb73db466e27cdcfeb6cfac6793af3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:eba5cc97528100dab5c9786ab2a0970339bb73db466e27cdcfeb6cfac6793af3",

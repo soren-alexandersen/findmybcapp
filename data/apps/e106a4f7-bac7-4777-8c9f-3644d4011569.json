@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.q-teamsolutions.com/docs/apps/cloud-connect/",
     "sourceHash": "sha256:d51d1963f70c7b5d99ce80120f0b89545ffd17535d92e6ac63922f66f6b3615f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d51d1963f70c7b5d99ce80120f0b89545ffd17535d92e6ac63922f66f6b3615f",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/bauind/",
     "sourceHash": "sha256:c666c396427a2ab72798c1ea1b420c320ab9a2adcccb495158cde6c19f3ad773",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c666c396427a2ab72798c1ea1b420c320ab9a2adcccb495158cde6c19f3ad773",

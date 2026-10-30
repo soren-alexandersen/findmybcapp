@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/DB1/pages/24084481/Introduction",
     "sourceHash": "sha256:bb58fca8b290c26d13080e6ce1587dd8c75a02fd1f3f9752be10bca254c797fb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:bb58fca8b290c26d13080e6ce1587dd8c75a02fd1f3f9752be10bca254c797fb",

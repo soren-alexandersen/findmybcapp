@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://dynamicspartners.lt/help-for-i-saf/",
     "sourceHash": "sha256:e1b18a512d23199333bfc205d8b79f3944b260005e6447ecaef70bf8e279683a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e1b18a512d23199333bfc205d8b79f3944b260005e6447ecaef70bf8e279683a",

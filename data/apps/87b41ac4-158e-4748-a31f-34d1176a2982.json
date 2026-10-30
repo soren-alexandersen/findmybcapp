@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ioi.gmbh/contact-us/?lang=en",
     "sourceHash": "sha256:d87144a05b68b7345e13726ee543f221785969d65c21ac58d0388e663e4a164b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:d87144a05b68b7345e13726ee543f221785969d65c21ac58d0388e663e4a164b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/netstock-importer/docs",
     "sourceHash": "sha256:5e47427fa1862cc36aacc6754cf2d61130727910e6a29670ae83a336096c1439",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:5e47427fa1862cc36aacc6754cf2d61130727910e6a29670ae83a336096c1439",

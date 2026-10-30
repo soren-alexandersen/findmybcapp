@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://matchbusinesscentral.com/pages/posting-date-is-today",
     "sourceHash": "sha256:8d9364e0f17df507dbc2692bca1bfa9b816eaab74b0bb07d63afc35657a6e3a0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:8d9364e0f17df507dbc2692bca1bfa9b816eaab74b0bb07d63afc35657a6e3a0",

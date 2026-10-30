@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/bring-shelfless/#howto",
     "sourceHash": "sha256:35b64ea6b6edf13c0680ce1af6761ec957d18c0884777cfa9964d15d940737e9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:35b64ea6b6edf13c0680ce1af6761ec957d18c0884777cfa9964d15d940737e9",

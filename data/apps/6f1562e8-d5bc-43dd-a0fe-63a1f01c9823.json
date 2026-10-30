@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://tog-downloads.azurewebsites.net/2022/NP-User-Manual/User-Guide-Aged-Report-Dynamic-Periods-V1.1.pdf",
     "sourceHash": "sha256:405f573c5f1016ba62cbd873c4ee7bbecaa4ff8314497caefa596695570e3970",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:405f573c5f1016ba62cbd873c4ee7bbecaa4ff8314497caefa596695570e3970",

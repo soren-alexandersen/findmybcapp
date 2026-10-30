@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/smtp2fax/",
     "sourceHash": "sha256:be5210f22c9e1afcd556d85f26fa0dfce36c737e80b428ddead590e87012a917",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:be5210f22c9e1afcd556d85f26fa0dfce36c737e80b428ddead590e87012a917",

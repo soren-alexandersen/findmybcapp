@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Complaint%20Management/Index/",
     "sourceHash": "sha256:e69940685502dec8c311f7c9aee068f64c3b7c71342ff49e3aa476485c7e131e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e69940685502dec8c311f7c9aee068f64c3b7c71342ff49e3aa476485c7e131e",

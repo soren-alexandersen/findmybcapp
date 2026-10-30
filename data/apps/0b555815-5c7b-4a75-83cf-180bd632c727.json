@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dataipa.pro/powens365",
     "sourceHash": "sha256:b36e1771ac33297eacfbb825c731b1a1ff020ebca42e48bae55020eb07a5c786",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b36e1771ac33297eacfbb825c731b1a1ff020ebca42e48bae55020eb07a5c786",

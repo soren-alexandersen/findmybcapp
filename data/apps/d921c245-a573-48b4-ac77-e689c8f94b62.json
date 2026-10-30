@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/pack/manufacturing",
     "sourceHash": "sha256:2e26c1b5b3e7e6341ca15460cb43e63435a9ff4f0385156529b5308a02e7251c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2e26c1b5b3e7e6341ca15460cb43e63435a9ff4f0385156529b5308a02e7251c",

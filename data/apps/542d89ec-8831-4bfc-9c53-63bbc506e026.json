@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.9altitudes.com/services-solutions/9a-raptor-document-warehouse",
     "sourceHash": "sha256:bdf69768deb055553e0b09849e8fb29b5354fff7e5de08f5f252a8d4c8bf0547",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bdf69768deb055553e0b09849e8fb29b5354fff7e5de08f5f252a8d4c8bf0547",

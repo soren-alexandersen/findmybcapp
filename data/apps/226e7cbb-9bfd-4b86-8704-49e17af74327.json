@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/Postnord",
     "sourceHash": "sha256:72b1d42c8a10b05659634506522e2d6cc41c9d5997fdc525ab520682561b2e27",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:72b1d42c8a10b05659634506522e2d6cc41c9d5997fdc525ab520682561b2e27",

@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://docs.solutioo.de/picsart-image-editing-integration",
     "sourceHash": "sha256:ec3950a29adeee7ec3056db4c815fecef66187422433a876c29a2799956796eb",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:ec3950a29adeee7ec3056db4c815fecef66187422433a876c29a2799956796eb",

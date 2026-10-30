@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://profacto.dk/four-eyes-approval",
     "sourceHash": "sha256:a6d9d88709a5c358acdd8670b31487136111da29b08150864dd77ad76d43b3b0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:a6d9d88709a5c358acdd8670b31487136111da29b08150864dd77ad76d43b3b0",

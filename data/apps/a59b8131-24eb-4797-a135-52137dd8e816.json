@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/better-role-centers/docs",
     "sourceHash": "sha256:f92835f08ea8d6289dd70b8ceaefbb9b532a785dbc5b07ee97e25120972acf97",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:f92835f08ea8d6289dd70b8ceaefbb9b532a785dbc5b07ee97e25120972acf97",

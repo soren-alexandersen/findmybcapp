@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/apps/advanced-prices/docs/",
     "sourceHash": "sha256:72861658f44e1e240e6b7afe1f3b52ed470e0125bb6fb90f4954e81e2d43b706",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:72861658f44e1e240e6b7afe1f3b52ed470e0125bb6fb90f4954e81e2d43b706",

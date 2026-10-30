@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://help.airwallex.com/hc/en-gb/articles/15723011969167-Microsoft-Dynamics-365-Business-Central-Bank-Feed",
     "sourceHash": "sha256:840f0518afd6d630134d0c9348fd115392d2c1f8f8b5a5b1af0693fa1c0e717b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:840f0518afd6d630134d0c9348fd115392d2c1f8f8b5a5b1af0693fa1c0e717b",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-advance-request",
     "sourceHash": "sha256:cc3c0eb5157dc5e5d549c0f6fb9248d19e347ca860e816accbf408a9533e9cfa",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:cc3c0eb5157dc5e5d549c0f6fb9248d19e347ca860e816accbf408a9533e9cfa",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-long-short-term-accounts",
     "sourceHash": "sha256:39abff100deed96f4597091cee257ac5dca642f6242319a4742b76320c7e8873",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:39abff100deed96f4597091cee257ac5dca642f6242319a4742b76320c7e8873",

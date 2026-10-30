@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/paymentconnecthelp/",
     "sourceHash": "sha256:bda41a55110dc5fc620a6328a0cdb228d5b55727d3a03aa19e0bbf4d80b79680",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:bda41a55110dc5fc620a6328a0cdb228d5b55727d3a03aa19e0bbf4d80b79680",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-transfer-management-help-en/",
     "sourceHash": "sha256:289fae99334a2503bc6bf0cf53c95900945de3d1db3eb67fe3ae55e3e8f85fd6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:289fae99334a2503bc6bf0cf53c95900945de3d1db3eb67fe3ae55e3e8f85fd6",

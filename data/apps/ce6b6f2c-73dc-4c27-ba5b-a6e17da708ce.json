@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/catalog_import",
     "sourceHash": "sha256:a90a4943bb377fe473fe625d4e735a1af7aec31c209aa97ab3b2144bec3f9a0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:a90a4943bb377fe473fe625d4e735a1af7aec31c209aa97ab3b2144bec3f9a0f",

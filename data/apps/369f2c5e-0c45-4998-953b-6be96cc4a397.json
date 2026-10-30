@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.pryme.app/projectsubcontracting/",
     "sourceHash": "sha256:0f67773c5b0ffdfa44a7bcc67488ded473ebd147069cd1bfe6d1adff8338de32",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:0f67773c5b0ffdfa44a7bcc67488ded473ebd147069cd1bfe6d1adff8338de32",

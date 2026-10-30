@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://dicobis.com/de/solutions/dicobis-connect/",
     "sourceHash": "sha256:25f9271a4753954d6a08f822b2587a86b695de8b0d594219ad9cecd29a528ea3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:25f9271a4753954d6a08f822b2587a86b695de8b0d594219ad9cecd29a528ea3",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-fulfilment-crowd-integration",
     "sourceHash": "sha256:288790967f85195d446d87213b4a6344408470fc2f8597c4b9303e71d454b6bf",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:288790967f85195d446d87213b4a6344408470fc2f8597c4b9303e71d454b6bf",

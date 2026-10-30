@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.navipartner.com/index.html",
     "sourceHash": "sha256:1663d8460d76d6b50c1fd5cd8519097086861164ef10fe8c0efc53922338a521",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1663d8460d76d6b50c1fd5cd8519097086861164ef10fe8c0efc53922338a521",

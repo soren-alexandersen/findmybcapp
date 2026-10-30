@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.techventuresglobal.com/expense-claim-management/",
     "sourceHash": "sha256:e38dde1b02e81ab5f141ae4e410e75da34f00ffbaf6dce0bccc5a4f06d7cf924",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e38dde1b02e81ab5f141ae4e410e75da34f00ffbaf6dce0bccc5a4f06d7cf924",

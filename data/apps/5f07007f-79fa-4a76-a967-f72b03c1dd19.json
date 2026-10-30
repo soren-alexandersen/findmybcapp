@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://tvision.tech/add-ons/tvt/auto-apply-customer-ledger/",
     "sourceHash": "sha256:4aa867db77c8eb0930e370860ab55cc24cac7f972d3a3886230364e87688aa64",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:4aa867db77c8eb0930e370860ab55cc24cac7f972d3a3886230364e87688aa64",

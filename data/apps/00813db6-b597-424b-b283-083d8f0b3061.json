@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://support.visualsp.com/knowledge-base/using-visualsp-with-dynamics/",
     "sourceHash": "sha256:89a3aeb15163c9694e431149e919803d10c28485e0ce8a19046297c1fa4ef193",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:89a3aeb15163c9694e431149e919803d10c28485e0ce8a19046297c1fa4ef193",

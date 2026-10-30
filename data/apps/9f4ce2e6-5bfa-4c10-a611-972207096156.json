@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/over-and-under-delivery-quantities.html",
     "sourceHash": "sha256:3fc89127c118360fc23397317efa3a0c372bf1e39711e56a9ef61efb946ae490",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:3fc89127c118360fc23397317efa3a0c372bf1e39711e56a9ef61efb946ae490",

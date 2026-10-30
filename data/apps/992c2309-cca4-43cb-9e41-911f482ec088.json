@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.navipartner.com/product/retail-gettingstarted-intro/",
     "sourceHash": "sha256:40de384b4fd8e68b2072074aae267be49e02fea924df1f12175ab7162c08a0f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:40de384b4fd8e68b2072074aae267be49e02fea924df1f12175ab7162c08a0f6",

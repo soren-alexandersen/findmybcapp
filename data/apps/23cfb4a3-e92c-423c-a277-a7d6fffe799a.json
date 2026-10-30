@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.verosoftdesign.com/",
     "sourceHash": "sha256:451856207bc4dacbb03e65ec8e34d712ec1c2597f98c94f24773286fa193ede4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:451856207bc4dacbb03e65ec8e34d712ec1c2597f98c94f24773286fa193ede4",

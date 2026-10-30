@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.bricklead.eu/en-us/apps/pck/",
     "sourceHash": "sha256:836a734b1b8872ef3e386d720cd45b9f3b549886e193a0e9ac7c7d6dbdd1554b",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:836a734b1b8872ef3e386d720cd45b9f3b549886e193a0e9ac7c7d6dbdd1554b",

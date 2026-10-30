@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/DMHelp/DM.htm",
     "sourceHash": "sha256:e8b7b1fc04fbd49d654f3bae7f6931b93b85a71247ea494785786dc8f1d48e33",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:e8b7b1fc04fbd49d654f3bae7f6931b93b85a71247ea494785786dc8f1d48e33",

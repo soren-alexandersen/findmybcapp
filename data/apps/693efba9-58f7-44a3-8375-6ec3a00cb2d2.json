@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://kb.it-s.co.za/",
     "sourceHash": "sha256:b3524f702e04fbeaa5cac31ea15c517bbfacadb5c67f159fe2de97d0d9cbf0c7",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b3524f702e04fbeaa5cac31ea15c517bbfacadb5c67f159fe2de97d0d9cbf0c7",

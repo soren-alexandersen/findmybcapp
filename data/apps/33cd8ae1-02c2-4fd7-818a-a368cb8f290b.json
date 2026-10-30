@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dotapp.atlassian.net/servicedesk/customer/portal/6",
     "sourceHash": "sha256:fd3ecc05e1685be3c93e25b01d3e2acb30ec69aa07c764945180f5b335996416",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:fd3ecc05e1685be3c93e25b01d3e2acb30ec69aa07c764945180f5b335996416",

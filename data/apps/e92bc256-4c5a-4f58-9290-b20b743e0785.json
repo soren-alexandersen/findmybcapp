@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://otisco.atlassian.net/servicedesk/customer/user/login?destination=portals",
     "sourceHash": "sha256:d2c625facdede95ddd4b8a1eb0916df9a29cf96b6949cc0c9c96835bb27f3767",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:d2c625facdede95ddd4b8a1eb0916df9a29cf96b6949cc0c9c96835bb27f3767",

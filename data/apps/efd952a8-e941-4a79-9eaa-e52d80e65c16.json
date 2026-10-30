@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCE",
     "sourceHash": "sha256:70268d2c2f0cbfc781d64ccfb121450c44275fdc28c0ec9e0d542d5e2de8ef04",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:70268d2c2f0cbfc781d64ccfb121450c44275fdc28c0ec9e0d542d5e2de8ef04",

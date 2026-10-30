@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.ksinform.com/bc/HelpDocumentation_TWLanguagePack.pdf",
     "sourceHash": "sha256:b7b32787c0fb8ad06aa6c70e426bd0caeb8b04e9b479d09180624cc34f48a3e2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:b7b32787c0fb8ad06aa6c70e426bd0caeb8b04e9b479d09180624cc34f48a3e2",

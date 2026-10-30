@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/financial-dashboard",
     "sourceHash": "sha256:f740f534e51efb6644d658f9108577efafe6357453e3c94dc7bfc5d169c6ada2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f740f534e51efb6644d658f9108577efafe6357453e3c94dc7bfc5d169c6ada2",

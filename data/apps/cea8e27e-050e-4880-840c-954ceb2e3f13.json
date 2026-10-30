@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://intech-systems.com/contact-us/",
     "sourceHash": "sha256:83323f1858f37ba5739a7111442eea3c015a3c860e2f7ca25c5bf1005f87e2b1",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:83323f1858f37ba5739a7111442eea3c015a3c860e2f7ca25c5bf1005f87e2b1",

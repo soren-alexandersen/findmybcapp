@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func.html",
     "sourceHash": "sha256:73f1c9eaa45cf2c4e44887efbf71584f8cc6bb6e07d8cc9d721a050f13f015b9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:73f1c9eaa45cf2c4e44887efbf71584f8cc6bb6e07d8cc9d721a050f13f015b9",

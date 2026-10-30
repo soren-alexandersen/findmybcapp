@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://ibizcs-my.sharepoint.com/:b:/p/balachandar/ERifMlQOlRdKuA26bo5a6TIBLPFJxlQpMI06i7-VM3715Q?e=f4iM0U",
     "sourceHash": "sha256:ae64ef124aabad6f0ff1a32df7452233cc84b2ce7fb9242345bcd814338be9a0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:ae64ef124aabad6f0ff1a32df7452233cc84b2ce7fb9242345bcd814338be9a0",

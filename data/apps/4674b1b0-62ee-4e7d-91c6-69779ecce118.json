@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/levy-manager/",
     "sourceHash": "sha256:7d1128140e89b03928b0a595c84217409fe0ecad84116d5d9d53b939ee3b3a26",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:7d1128140e89b03928b0a595c84217409fe0ecad84116d5d9d53b939ee3b3a26",

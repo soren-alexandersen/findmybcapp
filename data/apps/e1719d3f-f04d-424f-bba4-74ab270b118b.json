@@ -17,7 +17,8 @@
     "freeTrial": null,
     "helpLink": "https://www.tso.de/fileadmin/Dokumente/PhoneticSearchExtensionEN_BusinessCentral.pdf",
     "sourceHash": "sha256:66f989aa614dd30268dd5721b4ed5709ea4e83e44b3e478d406b8d6d6b6fb286",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:66f989aa614dd30268dd5721b4ed5709ea4e83e44b3e478d406b8d6d6b6fb286",

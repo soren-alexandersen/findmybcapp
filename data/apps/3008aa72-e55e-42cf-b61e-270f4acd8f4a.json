@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://lincza.github.io/Linc-WooCommerce-Integration",
     "sourceHash": "sha256:3a8b45222af7c2f1423890e607673334fbf709e66f766579308b30f7403e9d78",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:3a8b45222af7c2f1423890e607673334fbf709e66f766579308b30f7403e9d78",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.corporateserve.com/contact/",
     "sourceHash": "sha256:996897b6992f8b4e5b34062b02ec79e9a9c9b744c0bea16f898d6acb8d30d637",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:996897b6992f8b4e5b34062b02ec79e9a9c9b744c0bea16f898d6acb8d30d637",

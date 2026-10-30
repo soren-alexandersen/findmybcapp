@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.carbonquota.co.uk/support/",
     "sourceHash": "sha256:520f5fead6aba0c2ef4e0a47bd7f7b55c29c91c0a3e6cb20bf634054d837b756",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:520f5fead6aba0c2ef4e0a47bd7f7b55c29c91c0a3e6cb20bf634054d837b756",

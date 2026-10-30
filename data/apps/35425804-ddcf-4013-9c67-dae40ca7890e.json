@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://abakion.com/dynamics-365/apps/document-customizer/#howto",
     "sourceHash": "sha256:2b1c1f2c75cf7fd54e28331cdd844f67d0c78136a57e37a4dd8243f0a5ea6084",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:2b1c1f2c75cf7fd54e28331cdd844f67d0c78136a57e37a4dd8243f0a5ea6084",

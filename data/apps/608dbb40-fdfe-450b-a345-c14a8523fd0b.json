@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.dionix.co.uk/orasiscapture.html",
     "sourceHash": "sha256:5da42965eb4a0a1e09812428c2b0479aeb3a6912a68129f9e7add701903b2b69",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5da42965eb4a0a1e09812428c2b0479aeb3a6912a68129f9e7add701903b2b69",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486965429/IT+Pack",
     "sourceHash": "sha256:f77d374904d2965c6db427cbe6261d389245ffc994010cb77501e54be37024f1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:f77d374904d2965c6db427cbe6261d389245ffc994010cb77501e54be37024f1",

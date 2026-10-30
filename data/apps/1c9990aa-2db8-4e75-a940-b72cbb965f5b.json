@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.nubetech.it/en_US/docpilot",
     "sourceHash": "sha256:6e209951baf9d869b763d2d778a5aa68cdbe1c6f6282a1f23f61fab73cfe2da0",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:6e209951baf9d869b763d2d778a5aa68cdbe1c6f6282a1f23f61fab73cfe2da0",

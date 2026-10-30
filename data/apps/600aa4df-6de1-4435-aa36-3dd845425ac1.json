@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.acadon.de/ProductCatalog/en-US/Apps/ComplaintManagement/Docs/Business%20Value.html",
     "sourceHash": "sha256:7f6c7d0fad5a7d925336b34204c8beb150fb0f06a4bb9b8d756324735c8689f6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:7f6c7d0fad5a7d925336b34204c8beb150fb0f06a4bb9b8d756324735c8689f6",

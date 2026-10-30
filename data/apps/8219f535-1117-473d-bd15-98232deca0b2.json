@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/GRR/",
     "sourceHash": "sha256:141251bf7fe65cdb6bc48e31678dd17bcd2afb63bb3742f3f5c198b60fe07904",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:141251bf7fe65cdb6bc48e31678dd17bcd2afb63bb3742f3f5c198b60fe07904",

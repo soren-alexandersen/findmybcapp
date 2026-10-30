@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCCHT",
     "sourceHash": "sha256:963e113153b3fde3fb7e6f78c3fc7dcc7391c3c59085e36f227083553be476a4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:963e113153b3fde3fb7e6f78c3fc7dcc7391c3c59085e36f227083553be476a4",

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.shipcentric.com/",
     "sourceHash": "sha256:5ca16156ae79132949de539d396e3282b8be1f3ff854d00a1b4c797f6187ba21",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5ca16156ae79132949de539d396e3282b8be1f3ff854d00a1b4c797f6187ba21",

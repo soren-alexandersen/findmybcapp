@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/web-integration",
     "sourceHash": "sha256:99323a4e1ea8c6ac537d00cf06e16332cde6a9153f476be772f2734181fa7316",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:99323a4e1ea8c6ac537d00cf06e16332cde6a9153f476be772f2734181fa7316",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://fm-it.dk/products/ShpfyConnExtend/help/",
     "sourceHash": "sha256:70d080244c1defc0734e08afde431fa4df79f9d0fa7957db4867589f30cfe72c",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:70d080244c1defc0734e08afde431fa4df79f9d0fa7957db4867589f30cfe72c",

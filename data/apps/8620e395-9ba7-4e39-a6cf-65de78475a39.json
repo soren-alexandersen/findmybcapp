@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/en/app-allocation-deferral/",
     "sourceHash": "sha256:593213ed32e485fd402b3cf034809f7298b90769d72b7ee4e331b94876caefb4",
-    "mentionsBC": false
+    "mentionsBC": false,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:593213ed32e485fd402b3cf034809f7298b90769d72b7ee4e331b94876caefb4",

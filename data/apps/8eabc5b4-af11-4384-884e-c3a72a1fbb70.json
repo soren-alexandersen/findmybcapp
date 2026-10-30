@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/counter-sales/product-help/",
     "sourceHash": "sha256:85237ea0ebcab3d5954a60759c8fcbd04db117fbee88ce16a8344d971a721445",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:85237ea0ebcab3d5954a60759c8fcbd04db117fbee88ce16a8344d971a721445",

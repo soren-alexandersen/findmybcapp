@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.365businessdev.com/en-US/365-business-barcode/",
     "sourceHash": "sha256:2d6053ccf0d80ab41e72533899c045ac9f45830d15e4a8b13418671aa1adbb0a",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:2d6053ccf0d80ab41e72533899c045ac9f45830d15e4a8b13418671aa1adbb0a",

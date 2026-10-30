@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://wipfli.com/",
     "sourceHash": "sha256:b4b72cb00f2e893e75f6c2b6282f1193c51f19157b2e595479c1b43b7c443af3",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b4b72cb00f2e893e75f6c2b6282f1193c51f19157b2e595479c1b43b7c443af3",

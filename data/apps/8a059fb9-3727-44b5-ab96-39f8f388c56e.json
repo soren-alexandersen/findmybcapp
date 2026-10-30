@@ -18,7 +18,8 @@
     "freeTrial": null,
     "helpLink": "https://datainvent.com/",
     "sourceHash": "sha256:1a948d3d26c39adec70ea70c6d63ca657995379c76eb58ab96c9989e7fd9d743",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:1a948d3d26c39adec70ea70c6d63ca657995379c76eb58ab96c9989e7fd9d743",

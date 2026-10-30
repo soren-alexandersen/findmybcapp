@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://help.d365bc.is/azureblobstorage",
     "sourceHash": "sha256:1cabd2a6fdfeea2ac19a280aeba380585b2100a7823a58f981dce686936174b4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1cabd2a6fdfeea2ac19a280aeba380585b2100a7823a58f981dce686936174b4",

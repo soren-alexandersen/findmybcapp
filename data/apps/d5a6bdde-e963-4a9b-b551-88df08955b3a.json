@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.4app.hr/en/home-2/#contact",
     "sourceHash": "sha256:c3ab898de4572409a8ed1d1d3b7bf910367b987602339359fe962c473c5b7700",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c3ab898de4572409a8ed1d1d3b7bf910367b987602339359fe962c473c5b7700",

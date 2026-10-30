@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.nubetech.it/documentation-origins-production-web-interface/",
     "sourceHash": "sha256:be10d48d145013185a1f75651232257aaccaf8069bfb962572be9a7f9fc2d1f8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:be10d48d145013185a1f75651232257aaccaf8069bfb962572be9a7f9fc2d1f8",

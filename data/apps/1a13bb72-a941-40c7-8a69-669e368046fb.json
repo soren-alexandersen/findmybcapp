@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Drag%20and%20Drop%20manual.pdf",
     "sourceHash": "sha256:b39a9a866420124ee2945c290d401d7b79ed51ee01b6899155371938a7dcc042",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b39a9a866420124ee2945c290d401d7b79ed51ee01b6899155371938a7dcc042",

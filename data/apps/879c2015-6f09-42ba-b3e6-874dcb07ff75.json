@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.belware.de/en-us/apps/custom-filename/",
     "sourceHash": "sha256:b30d7d2d8425eabfd8db6f66e68f653d555de86f67956857636c9ea228b5adf4",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:b30d7d2d8425eabfd8db6f66e68f653d555de86f67956857636c9ea228b5adf4",

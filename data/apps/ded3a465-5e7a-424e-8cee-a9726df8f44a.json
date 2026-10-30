@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/recordsearch/preface/preface.html",
     "sourceHash": "sha256:1b6fabdb6affc7c41f859ad580944c6b64d99483a7b2fad67a651c109fe172a2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:1b6fabdb6affc7c41f859ad580944c6b64d99483a7b2fad67a651c109fe172a2",

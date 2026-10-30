@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://www.mscrm-addons.com/Products/DocumentsCorePack/DocumentsCorePack-Resources",
     "sourceHash": "sha256:e9095cba42a72597006b1272179733e9bf2e28a111b238808dd0112558a811c1",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:e9095cba42a72597006b1272179733e9bf2e28a111b238808dd0112558a811c1",

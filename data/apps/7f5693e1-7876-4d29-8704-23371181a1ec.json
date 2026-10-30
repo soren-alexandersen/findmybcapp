@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.norriq.com/en-us/BTA/index.html",
     "sourceHash": "sha256:5f598dee2b35177df6261d65b80751b78a418608aeb5fc19cf412a6331d5d8c6",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:5f598dee2b35177df6261d65b80751b78a418608aeb5fc19cf412a6331d5d8c6",

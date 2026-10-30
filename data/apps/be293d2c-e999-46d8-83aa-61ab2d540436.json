@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://apps.itera.ee/apps/cargoson/docs/en-US/help",
     "sourceHash": "sha256:caedc81f4c93c892c57495a3979cbb243299a639489fde6d169da98ba509d63e",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": true
   },
   "mapping": {
     "sourceHash": "sha256:caedc81f4c93c892c57495a3979cbb243299a639489fde6d169da98ba509d63e",

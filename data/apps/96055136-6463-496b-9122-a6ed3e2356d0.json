@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://www.navitec.cz/digitalizace-a-erp-sluzby/navitec-fidoo-bridge",
     "sourceHash": "sha256:94c1128709756a9b628db8027e6b3fb4b7265325f4004f9278a654ae3cce34d8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:94c1128709756a9b628db8027e6b3fb4b7265325f4004f9278a654ae3cce34d8",

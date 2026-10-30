@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://docs.timetrackcentral.com/",
     "sourceHash": "sha256:0195d89ffa0abaf2de127844407b72e7369b0c3d19722606bf76ab37f30bbc0f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:0195d89ffa0abaf2de127844407b72e7369b0c3d19722606bf76ab37f30bbc0f",

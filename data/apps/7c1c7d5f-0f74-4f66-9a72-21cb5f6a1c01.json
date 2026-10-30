@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://novaterrae.nl/health-scan-installation-guide",
     "sourceHash": "sha256:c5a233ae5ed3d7983dca6c39937593c527435b4c507f10c5583691f21bd717c2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "allCountries": false
   },
   "mapping": {
     "sourceHash": "sha256:c5a233ae5ed3d7983dca6c39937593c527435b4c507f10c5583691f21bd717c2",
