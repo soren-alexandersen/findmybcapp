@@ -4,61 +4,78 @@
   "publisherId": "squareinternationaltechnologyconsultingdmcc",
   "offerId": "businesscentral_hrms_payroll",
   "source": {
-    "name": "Square People",
+    "name": "Square People – HR, Payroll & ESS for Business Central",
     "publisher": "SQUARE INTERNATIONAL TECHNOLOGY CONSULTING DMCC",
     "productType": "SaaS",
     "url": "https://appsource.microsoft.com/en-us/product/web-apps/squareinternationaltechnologyconsultingdmcc.businesscentral_hrms_payroll",
-    "lastModified": "2026-07-23T10:57:31.9721935+00:00",
+    "lastModified": "2026-10-14T11:25:22.9289914+00:00",
     "appVersion": "1.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": null,
-    "sourceHash": "sha256:ebcbaf1c786810ea554db78959cc87d27b8f6c25d29de46419a912a7b64809dc",
+    "sourceHash": "sha256:e04a8d499da5f230cf2bd51654c06334b135ade014bb8761a45f119f9fff9701",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ebcbaf1c786810ea554db78959cc87d27b8f6c25d29de46419a912a7b64809dc",
-    "mappedOn": "2026-10-07",
-    "summary": "UAE and GCC payroll and HR inside BC, including gratuity and end-of-service calculations",
-    "shape": "process",
+    "sourceHash": "sha256:e04a8d499da5f230cf2bd51654c06334b135ade014bb8761a45f119f9fff9701",
+    "mappedOn": "2026-10-30",
+    "summary": "GCC HR, payroll and employee self-service built inside Business Central",
+    "shape": "localization",
     "primary": [
       {
         "need": "ng-hr-payroll-comp",
         "confidence": "high"
       },
       {
-        "need": "ng-loc-country-pack",
-        "confidence": "medium"
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
       },
       {
-        "need": "ng-hr-absence-leave",
+        "need": "ng-hr-time-shifts",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-hr-time-shifts"
+      "ng-hr-employee-records",
+      "ng-loc-country-pack"
     ],
     "claims": [
-      "Follows UAE payroll rules and regulations",
-      "End of service and gratuity calculated in one click",
-      "Payroll for UAE, Saudi Arabia, Oman and other GCC countries",
-      "Covers time and attendance, benefits, accruals, leave, allowances and loans",
-      "Loans and advances"
+      "Localized for UAE, Saudi Arabia, Oman, Qatar, Bahrain and Kuwait",
+      "Generates WPS salary files including UAE SIF",
+      "Calculates GOSI contributions and Mudad/WPS files for Saudi Arabia",
+      "End-of-service gratuity per local labour law",
+      "Multi-country, multi-entity payroll on one BC tenant",
+      "Final settlement with gratuity, leave encashment and deductions in one run",
+      "Payroll posts automatically to G/L with dimensions and audit trail",
+      "Trial payroll runs for review before posting",
+      "Overtime per local labour law with compensatory off",
+      "Ramadan working hours and country public holidays",
+      "Integrates biometric attendance devices",
+      "Staff loans and salary advances deducted through payroll",
+      "Tracks annual and family air ticket entitlements",
+      "Employee self-service app on web, iOS and Android",
+      "Managers approve requests from their phone",
+      "Priced at USD 3,600 per company per year",
+      "Arabic language and multi-currency payroll"
     ],
     "countries": [
       "AE",
+      "BH",
+      "KW",
       "OM",
+      "QA",
       "SA"
     ],
-    "languages": [],
-    "industries": [
-      "Distribution",
-      "Manufacturing & Mobility"
+    "languages": [
+      "ar"
     ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "per_company",
     "hide": false,
     "hideReason": "",
     "noFit": ""

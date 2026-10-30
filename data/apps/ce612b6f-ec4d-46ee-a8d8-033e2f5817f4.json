@@ -8,39 +8,43 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware365_production_scenarios%7CPAPPID.ce612b6f-ec4d-46ee-a8d8-033e2f5817f4",
-    "lastModified": "2026-09-29T10:01:06.5428826+00:00",
-    "appVersion": "2603.1.344024.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:19.925902+00:00",
+    "appVersion": "2604.0.351082.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PSC/",
-    "sourceHash": "sha256:8adbf4c0de4b3127665ca6d09dd08e271b7fe0a7cf5637ee076b8d9d0f4333d6",
+    "sourceHash": "sha256:88f4374a5b988b8e5c3a52d95bb8231c023935ad5daca7b740a4a13c17f2ac4b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8adbf4c0de4b3127665ca6d09dd08e271b7fe0a7cf5637ee076b8d9d0f4333d6",
-    "mappedOn": null,
-    "summary": "Production scenarios for food and beverage manufacturing",
-    "shape": "addon",
+    "sourceHash": "sha256:88f4374a5b988b8e5c3a52d95bb8231c023935ad5daca7b740a4a13c17f2ac4b",
+    "mappedOn": "2026-10-30",
+    "summary": "Multiple BOM and routing combinations per item and location, switchable on production orders.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-bom-formula-engineering",
         "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-routings-workcenters",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-routings-workcenters",
-      "ng-production-planning"
+      "ng-production-planning",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Multiple BOM and routing combinations per item per location",
-      "Default production scenario per item/location",
-      "Default scenario used in manual production orders and Planning Worksheet",
-      "Change BOM and routing on an existing production order",
-      "Requires BC Premium"
+      "Several BOM and routing combinations per item per location",
+      "One scenario set as default per item and location",
+      "Components on an existing production order can be changed ad hoc",
+      "Default scenario is used when creating production orders manually or from the planning worksheet",
+      "Swap BOM and routing on a production order with a change-scenario function",
+      "Free for 30 days, then a paid subscription",
+      "Requires Premium edition"
     ],
     "countries": [
       "AU",
@@ -72,15 +76,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

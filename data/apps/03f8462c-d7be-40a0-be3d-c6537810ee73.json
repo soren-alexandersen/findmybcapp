@@ -8,36 +8,42 @@
     "publisher": "KUMAVISION AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.dms_interface_sharepoint%7CPAPPID.03f8462c-d7be-40a0-be3d-c6537810ee73",
-    "lastModified": "2026-10-02T11:44:25.0693506+00:00",
-    "appVersion": "29.0.296.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T09:10:56.6123638+00:00",
+    "appVersion": "29.0.300.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/docs/en/dms/",
-    "sourceHash": "sha256:eb49207b7f4109fa777d6b28f1efb306f5890b86f590e99eb5c2b36e963d97c8",
+    "sourceHash": "sha256:065265c61c7c1a8cd1ff653f2fcdc9e9a6cd3266ef17346defc85059aa465656",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:eb49207b7f4109fa777d6b28f1efb306f5890b86f590e99eb5c2b36e963d97c8",
-    "mappedOn": null,
-    "summary": "Document management interface to SharePoint Online",
+    "sourceHash": "sha256:065265c61c7c1a8cd1ff653f2fcdc9e9a6cd3266ef17346defc85059aa465656",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC with SharePoint Online as document archive with automatic archiving and search.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-admin-document-storage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-ux-attachments"
-    ],
+    "secondary": [],
     "claims": [
-      "Connects SharePoint Online as DMS with Business Central",
-      "Drag and drop archiving",
-      "Export multiple documents as a zip package",
-      "Automatic document archiving",
-      "Metadata updated automatically when master data changes",
-      "Dynamic structures in factbox, document search and preview",
-      "Setup wizard"
+      "Connects BC with SharePoint Online for paperless document handling",
+      "Drag-and-drop archiving of documents",
+      "Exports multiple documents as a zip package",
+      "Archives documents automatically",
+      "Updates document metadata when master data changes",
+      "Dynamic folder structures in a factbox",
+      "Document search and high-quality preview",
+      "Setup wizard",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [

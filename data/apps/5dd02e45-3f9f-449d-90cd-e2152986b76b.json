@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365rd%7CPAPPID.5dd02e45-3f9f-449d-90cd-e2152986b76b",
-    "lastModified": "2026-09-23T14:34:32.0805927+00:00",
-    "appVersion": "13.5.132.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:15.7175886+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/rd/index.html",
-    "sourceHash": "sha256:e5614cf04eb356740c7a67acdf45522f3962bfdd181cec399463a1334dd82b34",
+    "sourceHash": "sha256:df7ccc6415ee702a3e3d50fe458c9813fcffe4629062c5a8cb74ba8e32196aa0",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:e5614cf04eb356740c7a67acdf45522f3962bfdd181cec399463a1334dd82b34",
-    "mappedOn": null,
-    "summary": "Product and recipe development integrated with BC",
+    "sourceHash": "sha256:df7ccc6415ee702a3e3d50fe458c9813fcffe4629062c5a8cb74ba8e32196aa0",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages R&D recipes, development items and samples alongside normal BC processes.",
     "shape": "process",
     "primary": [
       {
@@ -32,17 +34,22 @@
       }
     ],
     "secondary": [
-      "ng-product-portfolio-launch"
+      "ng-product-portfolio-launch",
+      "ng-production-costing"
     ],
     "claims": [
-      "Development recipes with input materials and production steps",
-      "R&D items with own number series and reduced master data",
-      "R&D items can be purchased and sold as samples",
-      "Sample processing with customers and suppliers",
-      "A/B comparison of development recipes and manufacturing specifications",
-      "Calculates feature values of development product from components",
-      "Cost and price calculation of development products with Yaveon 365 Costing",
-      "Requires Premium edition"
+      "Development recipes hold input materials and production steps for an R&D item",
+      "Development recipes can be used to improve or cheapen existing items",
+      "R&D items have their own number series and a slimmed-down master data set",
+      "R&D items can be bought and sold as samples using normal logistics and inventory",
+      "Handles samples with both customers and suppliers",
+      "Sample quality can be checked when combined with Yaveon 365 Quality Assurance",
+      "A-to-B comparison shows differences between development recipes and production specifications",
+      "Item features from Yaveon 365 Base can be viewed and edited during development",
+      "Calculates feature values of a development product from its components",
+      "Cost and price calculation for development products requires the Yaveon 365 Costing app",
+      "Automatic documentation supports A/B comparisons of formulation levels across the product life cycle",
+      "Requires BC Premium edition"
     ],
     "countries": [
       "AD",
@@ -138,11 +145,13 @@
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

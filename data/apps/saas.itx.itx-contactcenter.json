@@ -1,0 +1,78 @@
+{
+  "appId": "itx.itx-contactcenter",
+  "guid": null,
+  "publisherId": "itx",
+  "offerId": "itx-contactcenter",
+  "source": {
+    "name": "ITX – CRM & Contact Center",
+    "publisher": "ITX",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/itx.itx-contactcenter",
+    "lastModified": "2026-10-21T10:18:58.0732909+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:1d021dceeda03e6f59e586f9ca2eb69cb3b949c755786178dd4467a67cfc64df",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d021dceeda03e6f59e586f9ca2eb69cb3b949c755786178dd4467a67cfc64df",
+    "mappedOn": "2026-10-30",
+    "summary": "Nordic CRM and contact center platform that shows BC orders and invoices to agents",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-case-intake",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-routing",
+      "ng-admin-portals",
+      "ng-case-analytics"
+    ],
+    "claims": [
+      "Handles calls, email, tickets, SMS, chat and social media in one workspace",
+      "Stores every interaction on a shared customer profile",
+      "Intelligent call routing and ticket handling",
+      "AI-generated summaries of conversations",
+      "Customer portal for information and case handling",
+      "Real-time KPI reporting on customer service",
+      "Agents see live BC orders, quotes and invoices while handling inquiries",
+      "Logs calls automatically and shows customer info on incoming calls in Dynamics 365",
+      "Data stored in the Nordics, developed in Norway",
+      "Local teams in Norway and Sweden provide support"
+    ],
+    "countries": [
+      "NO",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -93,10 +93,10 @@
         }
       ],
       "coverage": {
-        "Not trading with sanctioned or embargoed parties": 0.31,
-        "Show who changed what, and when": 0.31,
-        "Approval or separation of duties for sensitive changes": 0.31,
-        "Help the auditor check the books": 0.31
+        "Not trading with sanctioned or embargoed parties": 0.24,
+        "Show who changed what, and when": 0.18,
+        "Approval or separation of duties for sensitive changes": 0.24,
+        "Help the auditor check the books": 0.29
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       ],
       "coverage": {
-        "Customers, vendors and contacts": 0.25,
+        "Customers, vendors and contacts": 0.18,
         "Products and goods (export control)": 0.12
       }
     },
@@ -177,10 +177,10 @@
         }
       ],
       "coverage": {
-        "GMP / FDA (pharma, medtech, food)": 0.19,
+        "GMP / FDA (pharma, medtech, food)": 0.06,
         "SOX or GDPR": 0.12,
         "Danish bookkeeping act (digital vouchers)": 0.12,
-        "EU / US sanctions regulations": 0.31
+        "EU / US sanctions regulations": 0.24
       }
     },
     {
@@ -216,8 +216,29 @@
         }
       ],
       "coverage": {
-        "A log of changes or checks nobody can edit": 0.62,
-        "Reports or exports (Excel, PDF, data feed)": 0.38
+        "A log of changes or checks nobody can edit": 0.41,
+        "Reports or exports (Excel, PDF, data feed)": 0.41
+      }
+    },
+    {
+      "id": "should-the-right-people-be-ale",
+      "text": "Should the right people be alerted automatically when something is flagged?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, email or Teams alerts",
+          "patterns": [
+            "notification",
+            "\\balerts?\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, email or Teams alerts": 0.18
       }
     }
   ]

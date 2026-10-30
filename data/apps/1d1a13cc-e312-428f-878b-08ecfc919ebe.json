@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.dynamics-containerization-001%7CPAPPID.1d1a13cc-e312-428f-878b-08ecfc919ebe",
-    "lastModified": "2026-10-06T16:45:52.7679364+00:00",
-    "appVersion": "26.13.298.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T17:38:25.9833142+00:00",
+    "appVersion": "26.21.317.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/inbound-container-handling/",
-    "sourceHash": "sha256:a8d82b834d447ac04c15d3fa99f5b0fdddccd7159ec53707ce62525e47005d98",
+    "sourceHash": "sha256:dd3ef9bf1605acb8803e5ba50a8a82b1cca38103a66df655a7a611e1715d44f6",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a8d82b834d447ac04c15d3fa99f5b0fdddccd7159ec53707ce62525e47005d98",
-    "mappedOn": null,
-    "summary": "Assigns purchases to inbound shipping containers",
+    "sourceHash": "sha256:dd3ef9bf1605acb8803e5ba50a8a82b1cca38103a66df655a7a611e1715d44f6",
+    "mappedOn": "2026-10-30",
+    "summary": "Groups purchase lines into shipping containers for tracking, bulk receipt and landed cost.",
     "shape": "process",
     "primary": [
       {
@@ -32,21 +34,18 @@
       }
     ],
     "secondary": [
-      "ng-transport-planning"
+      "ng-freight-cost-audit"
     ],
     "claims": [
-      "Assigns purchase order lines to shipping containers",
-      "Mass update and receive POs per container",
-      "Supports over and under-receiving",
-      "Item reservations supported",
+      "Assigns purchase order lines to containers",
+      "Mass-updates and receives purchase orders by container, allowing over and under receipt",
+      "Supports item reservations",
       "Processes FOB receipts",
-      "Triggers transactions from third-party applications",
-      "Auto-allocates landed costs (freight) to container goods",
-      "Single-click receiving of container contents including non-inventory items",
-      "Basic container tracking free without license",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Transactions can be triggered from third-party applications",
+      "Allocates freight charges as landed cost to goods in a container",
+      "Receives a whole container in one click, including non-inventory items",
+      "Basic container tracking is free without a license",
+      "Priced at USD 90 per tenant per month"
     ],
     "countries": [],
     "languages": [
@@ -65,7 +64,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

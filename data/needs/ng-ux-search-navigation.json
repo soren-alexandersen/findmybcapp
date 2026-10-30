@@ -53,7 +53,10 @@
             "business case",
             "current and past documents",
             "items purchased by a customer",
-            "previously delivered"
+            "previously delivered",
+            "related document",
+            "related purchase invoice",
+            "opens? (the )?(source|related|linked) document"
           ]
         },
         {
@@ -103,7 +106,7 @@
       ],
       "coverage": {
         "Finding customers, items or other records": 0.15,
-        "Seeing which documents belong together": 0.18,
+        "Seeing which documents belong together": 0.23,
         "Ledger entries missing names or balances": 0.21,
         "Key info hidden behind extra clicks": 0.51,
         "Getting to the right page or record quickly": 0.13
@@ -199,9 +202,25 @@
       ],
       "coverage": {
         "Sales and purchase documents": 0.33,
-        "Finance and ledger entries": 0.23,
-        "Inventory, warehouse and production": 0.23
+        "Finance and ledger entries": 0.26,
+        "Inventory, warehouse and production": 0.21
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic filtering wording",
+      "terms": [
+        "filter"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "supported editions wording",
+      "terms": [
+        "stat"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

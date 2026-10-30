@@ -76,10 +76,10 @@
         }
       ],
       "coverage": {
-        "Attach files by drag and drop": 0.59,
+        "Attach files by drag and drop": 0.58,
         "Preview files without downloading": 0.32,
         "Scan paper documents": 0.06,
-        "Merge, split, edit or sign PDFs": 0.12
+        "Merge, split, edit or sign PDFs": 0.1
       }
     },
     {
@@ -125,8 +125,8 @@
         }
       ],
       "coverage": {
-        "Inside Business Central": 0.18,
-        "SharePoint or OneDrive": 0.23,
+        "Inside Business Central": 0.15,
+        "SharePoint or OneDrive": 0.26,
         "Azure, S3, Dropbox or other cloud storage": 0.21
       }
     },
@@ -164,7 +164,7 @@
         }
       ],
       "coverage": {
-        "Yes, carry to posted documents": 0.15,
+        "Yes, carry to posted documents": 0.14,
         "Attach to journals and ledger entries": 0.11
       }
     },
@@ -246,10 +246,19 @@
         }
       ],
       "coverage": {
-        "PDFs": 0.42,
-        "Word and Excel files": 0.15,
-        "Images or videos": 0.27
+        "PDFs": 0.4,
+        "Word and Excel files": 0.17,
+        "Images or videos": 0.25
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "UI detail: factbox placement",
+      "terms": [
+        "factbox"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

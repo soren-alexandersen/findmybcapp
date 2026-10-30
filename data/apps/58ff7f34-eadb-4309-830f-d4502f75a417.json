@@ -8,18 +8,20 @@
     "publisher": "Payhawk",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.payhawk1674380496828%7CAID.payhawk_bc_integration%7CPAPPID.58ff7f34-eadb-4309-830f-d4502f75a417",
-    "lastModified": "2026-10-01T10:44:41.1740151+00:00",
-    "appVersion": "1.3.4.4",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T13:09:30.8448103+00:00",
+    "appVersion": "1.3.4.6",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.payhawk.com/en/",
-    "sourceHash": "sha256:b3cd0caa1454a25e7726d77deb6b798baa26492d13719c524b12130c48f93cf8",
+    "sourceHash": "sha256:c337b6058cddbf7933eb3212577de3ff8451f67b24e7e79fc485e6c5d15d5c05",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b3cd0caa1454a25e7726d77deb6b798baa26492d13719c524b12130c48f93cf8",
-    "mappedOn": null,
-    "summary": "Syncs Payhawk card spend and expenses",
+    "sourceHash": "sha256:c337b6058cddbf7933eb3212577de3ff8451f67b24e7e79fc485e6c5d15d5c05",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Payhawk corporate cards and expense management to BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,20 +30,22 @@
       }
     ],
     "secondary": [
-      "ng-ap-payments",
-      "ng-admin-approval-workflows"
+      "ng-admin-approval-workflows",
+      "ng-supplier-onboarding",
+      "ng-ap-payments"
     ],
     "claims": [
-      "Physical and virtual Visa company credit and debit cards",
-      "Processes per diems, mileage and reimbursable expenses",
-      "Real-time expense reports in the Payhawk app",
-      "Subscriptions tracking",
+      "Provides physical and virtual Visa company credit and debit cards",
+      "Debit cards available for companies in 32 countries across Europe, UK and US",
+      "Card payments in multiple currencies including EUR, GBP, USD, RON and BGN",
+      "Handles per diems, mileage and reimbursable expenses",
       "Receipt scanning with OCR in 60+ languages",
+      "Tracks subscriptions",
       "Custom approval workflows for expenses",
-      "Card limits and spend controls including ATM and online",
-      "Bank transfers in multiple currencies and dedicated IBAN",
-      "Supplier data synced with BC",
-      "Group dashboard for multi-entity spend"
+      "Card limits per day or per transaction and control of ATM and online spend",
+      "Bank transfers in multiple currencies with dedicated IBAN",
+      "Supplier data kept in sync with BC",
+      "Group dashboard for spend across multiple entities"
     ],
     "countries": [],
     "languages": [],
@@ -49,11 +53,9 @@
     "connectsTo": [
       "Payhawk"
     ],
-    "requires": [
-      "Payhawk"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

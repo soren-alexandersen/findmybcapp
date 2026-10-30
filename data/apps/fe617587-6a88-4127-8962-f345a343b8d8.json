@@ -8,18 +8,20 @@
     "publisher": "bartolome röder AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bartolomerderag1639056596814%7CAID.edoc_module_brag_365%7CPAPPID.fe617587-6a88-4127-8962-f345a343b8d8",
-    "lastModified": "2026-09-18T05:28:26.8092746+00:00",
-    "appVersion": "28.6.4.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T10:24:21.9393642+00:00",
+    "appVersion": "28.6.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "http://docs.navision-beratung.de/de/edoc-app-online-help/latest",
-    "sourceHash": "sha256:8868a0a1c73ca1b2defdf61a84946c6b45d519c05b27e59e12dce694ad1070a5",
+    "sourceHash": "sha256:c2a7aa4b88add1c0109192a324ab05e9bbba46111a13c9bb1c16701997b9c483",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8868a0a1c73ca1b2defdf61a84946c6b45d519c05b27e59e12dce694ad1070a5",
-    "mappedOn": null,
-    "summary": "Creates, receives and sends legally compliant e-invoices",
+    "sourceHash": "sha256:c2a7aa4b88add1c0109192a324ab05e9bbba46111a13c9bb1c16701997b9c483",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends and receives e-invoices in many European formats with configurable mapping.",
     "shape": "localization",
     "primary": [
       {
@@ -32,30 +34,38 @@
       }
     ],
     "secondary": [
+      "ng-sales-invoicing",
       "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Receives, processes and sends electronic invoices; also supports Dynamics NAV",
-      "Formats: ZUGFeRD, XRechnung, ebInterface, FatturaPA, KSeF, Factur-X, FacturaE, OIOUBL, PEPPOL, RO e-Factura, UBL BE",
-      "Requires paid token and mapping",
-      "Custom fields read from inbound e-invoices into BC documents",
-      "Embeds extra attachments in hybrid ZUGFeRD/Factur-X PDFs",
-      "Imports purchase invoices/credit memos; exports sales and service invoices/credit memos",
-      "Generic mapping, own formats possible even outside EN 16931",
-      "Supports CII and UBL syntaxes",
-      "Incoming invoices checked and matched against preceding documents",
-      "Transmission via email, clearing houses, web portals, file exchange, PEPPOL, cloud services, API",
-      "Approval workflow before posting in Enterprise package"
+      "Supports ZUGFeRD and XRechnung for Germany",
+      "Supports ebInterface (Austria), FatturaPA (Italy) and KSeF (Poland)",
+      "Supports Factur-X (France), FacturaE (Spain) and OIOUBL (Denmark)",
+      "Supports PEPPOL and Belgian UBL e-invoices",
+      "Requires a paid token and mapping",
+      "Reads custom e-invoice fields into target documents on import",
+      "Embeds extra attachments into hybrid PDF formats like ZUGFeRD and Factur-X",
+      "Imports purchase invoices and credit memos, exports sales and service invoices and credit memos",
+      "Generic mapping that can be extended, including custom formats outside EN 16931",
+      "Transformation rules convert data on import and export",
+      "Supports both CII and UBL XML syntax",
+      "Staged batch import of incoming invoices",
+      "Validates incoming invoices against preceding documents",
+      "Transmission by email, clearing houses, portals, file exchange, PEPPOL and API",
+      "Approval workflow before posting in the Enterprise package",
+      "Works in cloud environments"
     ],
     "countries": [
       "AT",
       "BE",
+      "BG",
       "CH",
       "DE",
       "DK",
       "ES",
       "FI",
       "FR",
+      "GB",
       "GR",
       "IT",
       "LU",
@@ -63,16 +73,21 @@
       "NO",
       "PL",
       "RO",
-      "SE"
+      "SE",
+      "US"
     ],
-    "languages": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
     "industries": [],
     "connectsTo": [
       "PEPPOL"
     ],
     "requires": [],
-    "deployment": "both",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

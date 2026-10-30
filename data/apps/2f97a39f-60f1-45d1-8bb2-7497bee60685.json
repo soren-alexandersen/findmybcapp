@@ -8,18 +8,20 @@
     "publisher": "NAVAX Consulting GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.ncdt%7CPAPPID.2f97a39f-60f1-45d1-8bb2-7497bee60685",
-    "lastModified": "2026-08-07T13:47:44.1841068+00:00",
-    "appVersion": "28.4.4.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T06:23:00.7503234+00:00",
+    "appVersion": "28.4.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navax.app/help.php?AppID=NCDT",
-    "sourceHash": "sha256:06298221412ae83757deb277dcee679e854712c818a42631c25e985af38e7533",
+    "sourceHash": "sha256:712a3b1e6160729285380e1d8f4fc8d76cc924d75e7144ddef6e0267b72ce169",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:06298221412ae83757deb277dcee679e854712c818a42631c25e985af38e7533",
-    "mappedOn": null,
-    "summary": "Beginning, ending and line texts on documents",
+    "sourceHash": "sha256:712a3b1e6160729285380e1d8f4fc8d76cc924d75e7144ddef6e0267b72ce169",
+    "mappedOn": "2026-10-30",
+    "summary": "Formatted header, footer and line texts on sales, purchase and service documents.",
     "shape": "usability",
     "primary": [
       {
@@ -28,15 +30,18 @@
       }
     ],
     "secondary": [
-      "ng-ux-notes-collaboration"
+      "ng-ux-data-entry"
     ],
     "claims": [
-      "Pre- and post-texts on sales, purchase and service documents, general or per customer/vendor",
-      "Payment term and delivery term texts",
-      "Document texts, set per type of service order and contract",
+      "Stores reusable texts in master data for consistent wording",
+      "Pre- and post-texts, general or per customer or vendor",
+      "Texts for payment terms, delivery terms and service order and contract types",
       "Text blocks per item, resource and G/L account",
-      "Rich formatting: font color, style, size, alignment",
-      "Includes advanced standard document reports with the texts; own layouts via Word"
+      "Rich formatting: font colour, style, size and paragraph alignment",
+      "Ships enhanced standard document reports that print the texts",
+      "Custom documents can be built with Word layouts",
+      "30-day free trial, then licence required",
+      "Available in German and English"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +51,7 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free_trial",
     "hide": false,
     "hideReason": "",

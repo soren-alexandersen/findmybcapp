@@ -8,38 +8,39 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_lot_management%7CPAPPID.c61fb0b8-e088-41c8-8a98-0ffe33f645b3",
-    "lastModified": "2026-09-29T12:28:26.4861801+00:00",
-    "appVersion": "2603.2.344055.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:48:48.8998046+00:00",
+    "appVersion": "2604.0.350894.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/LMT/",
-    "sourceHash": "sha256:ddd5ce937a42ec328531640dacd842681972311442fc57c0867efecf55900a31",
+    "sourceHash": "sha256:e015660bb2a3705d6a76b60e5d78f7ff551c87fa8989ed9af460b5c4392521d4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ddd5ce937a42ec328531640dacd842681972311442fc57c0867efecf55900a31",
-    "mappedOn": null,
-    "summary": "Expanded lot numbering and tracking for food and beverage",
-    "shape": "vertical",
+    "sourceHash": "sha256:e015660bb2a3705d6a76b60e5d78f7ff551c87fa8989ed9af460b5c4392521d4",
+    "mappedOn": "2026-10-30",
+    "summary": "Extended lot numbering and lot data for food traceability, visible on document lines.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-lot-serial-traceability",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-fresh-produce-horticulture"
+      "ng-ux-data-entry",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Lot profiles to generate lot numbers by criteria",
-      "Stores vendor lot numbers, production date and country of origin",
-      "Grower information and certificate numbers on lots",
-      "Document lines show if lot assignment is required and satisfied",
-      "Item Tracking and Assigned Lot(s) fields on lines"
+      "Lot profiles generate lot numbers from configurable elements",
+      "Records country of origin, production date and vendor lot numbers on lots",
+      "Lots can also hold grower information and certificate numbers",
+      "Sales and purchase lines show whether a lot is required and fully assigned",
+      "Item Tracking and Assigned Lot(s) fields on document lines",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +74,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

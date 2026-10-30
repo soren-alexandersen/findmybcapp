@@ -4,22 +4,24 @@
   "publisherId": "9altitudes",
   "offerId": "3aa51d0f-d0c4-4f19-ad2c-03deead169a1",
   "source": {
-    "name": "9A Advanced Manufacturing - Project Based",
+    "name": "BIRDS Advanced Manufacturing - Project Based",
     "publisher": "9altitudes",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.3aa51d0f-d0c4-4f19-ad2c-03deead169a1%7CPAPPID.db9d19fb-4b2f-4e81-98d1-a89e7781bbfe",
-    "lastModified": "2026-09-29T09:46:22.5135502+00:00",
-    "appVersion": "28.2.17.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T11:41:53.5857338+00:00",
+    "appVersion": "29.2.29.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
-    "sourceHash": "sha256:bbeec7746386caf748dc036812865129c5419d31d276264d04dc89b47e2396bd",
+    "sourceHash": "sha256:304a0ee0fabb78058da6431bc5df7b1aac27a4ee558d2baf67ba88bfe8d52029",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bbeec7746386caf748dc036812865129c5419d31d276264d04dc89b47e2396bd",
-    "mappedOn": null,
-    "summary": "Combines projects, production, warehouse and finance for project-based manufacturing",
+    "sourceHash": "sha256:304a0ee0fabb78058da6431bc5df7b1aac27a4ee558d2baf67ba88bfe8d52029",
+    "mappedOn": "2026-10-30",
+    "summary": "Engineer-to-order manufacturing on BC, tying projects, production, purchasing and finance together.",
     "shape": "vertical",
     "primary": [
       {
@@ -27,29 +29,32 @@
         "confidence": "high"
       },
       {
-        "need": "ng-proj-materials-subcontract",
+        "need": "ng-proj-budget",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-wip",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-proj-budget",
-      "ng-proj-wip",
+      "ng-proj-materials-subcontract",
+      "ng-sourcing-rfq",
       "ng-conn-cad-plm",
-      "ng-sourcing-rfq"
+      "ng-admin-document-storage"
     ],
     "claims": [
-      "Project hierarchy linking several projects",
-      "Project budget versions with cost tracking",
-      "Integration to PLM/PDM/CAD from PTC, SolidWorks, Autodesk",
-      "Project library of documents, drawings and 3D models",
-      "Create purchase, production or assembly orders from the project",
-      "Request for quote functionality for purchasing",
-      "Task management with process status per task",
-      "Shipments on project parts, drawings or spare parts",
-      "WIP recognition based on EAC/ETC per task or project",
-      "Data structured for Power BI",
-      "Role centers for procurement, warehouse, project managers and finance",
-      "Handles BOM iterations within engineering projects"
+      "Links several projects in a hierarchy",
+      "Budget versions with cost tracking",
+      "Integrates with PTC, Solidworks and Autodesk PLM/PDM/CAD",
+      "Library for project documents, drawings and 3D models",
+      "Creates purchase, production and assembly orders from the project",
+      "Request-for-quote handling for purchasing",
+      "Shipments on project parts, drawings, items or spare parts",
+      "WIP recognition based on EAC/ETC at task or project level",
+      "Prepares data for Power BI project reporting",
+      "Role centers for finance, project managers, warehouse and purchasing",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "BE",
@@ -63,17 +68,18 @@
       "en"
     ],
     "industries": [
-      "Engineer-to-order manufacturing"
+      "Engineer-to-order",
+      "Industrial manufacturing"
     ],
     "connectsTo": [
       "PTC",
-      "SolidWorks",
+      "Solidworks",
       "Autodesk",
       "Power BI"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

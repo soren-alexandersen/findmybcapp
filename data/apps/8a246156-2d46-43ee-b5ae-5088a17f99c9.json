@@ -8,18 +8,20 @@
     "publisher": "Canary Technology Solutions Pty limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.canarytechnologysolutionsptylimited1731475938027%7CAID.mobile_quick_entry%7CPAPPID.8a246156-2d46-43ee-b5ae-5088a17f99c9",
-    "lastModified": "2026-09-30T00:04:46.0115288+00:00",
-    "appVersion": "26.0.9.7",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T06:30:04.943713+00:00",
+    "appVersion": "26.0.17.9",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://info.canaryit.com.au/support-services",
-    "sourceHash": "sha256:ee37d3c922a7ee382c0edbbcc4624ca73f3d7ce53cf6c48824edab52c8ad63fa",
+    "sourceHash": "sha256:fec33867c34731066b6e9476290b02ae4b63e1f7762baf856e6e79e4ffa75f14",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ee37d3c922a7ee382c0edbbcc4624ca73f3d7ce53cf6c48824edab52c8ad63fa",
-    "mappedOn": null,
-    "summary": "Mobile scanner data entry for LS Central store inventory worksheets",
+    "sourceHash": "sha256:fec33867c34731066b6e9476290b02ae4b63e1f7762baf856e6e79e4ffa75f14",
+    "mappedOn": "2026-10-30",
+    "summary": "Handheld scanner app for LS Central store inventory worksheets: counts, adjustments and transfers.",
     "shape": "addon",
     "primary": [
       {
@@ -27,20 +29,21 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-retail",
-        "confidence": "medium"
+        "need": "ng-admin-devices",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-admin-devices"
+      "ng-stock-movements",
+      "ng-vert-retail"
     ],
     "claims": [
-      "Mobile UI for handheld/PDE scanners",
-      "Integrates with LS Central Store Inventory Worksheets",
-      "Stocktaking and cycle counts",
+      "Feeds LS Central store inventory worksheets",
+      "Stocktaking and cycle counts in store",
       "Inventory adjustments and transfers",
-      "Purchase and sales order line entry",
-      "Barcode scanning"
+      "Purchase and sales order line entry where applicable",
+      "Barcode scanning on compatible PDE devices",
+      "Submits data to BC in real time"
     ],
     "countries": [],
     "languages": [
@@ -49,14 +52,12 @@
     "industries": [
       "Retail"
     ],
-    "connectsTo": [
-      "LS Central"
-    ],
+    "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

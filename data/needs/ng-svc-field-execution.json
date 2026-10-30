@@ -101,9 +101,9 @@
         }
       ],
       "coverage": {
-        "Service orders": 0.71,
-        "Projects / jobs": 0.1,
-        "Sales orders": 0.1
+        "Service orders": 0.73,
+        "Projects / jobs": 0.09,
+        "Sales orders": 0.09
       }
     },
     {
@@ -122,7 +122,7 @@
         }
       ],
       "coverage": {
-        "Yes, must work offline": 0.33
+        "Yes, must work offline": 0.36
       }
     },
     {
@@ -138,7 +138,9 @@
             "route",
             "resource planner",
             "resource allocation",
-            "planning integration"
+            "planning integration",
+            "resource planning",
+            "\\bgps\\b"
           ]
         },
         {
@@ -147,7 +149,7 @@
         }
       ],
       "coverage": {
-        "Yes, scheduling and dispatch too": 0.43
+        "Yes, scheduling and dispatch too": 0.55
       }
     },
     {
@@ -195,10 +197,10 @@
         }
       ],
       "coverage": {
-        "Customer signature": 0.52,
-        "Photos": 0.33,
-        "Checklists or forms": 0.52,
-        "Parts used (with scanning)": 0.43
+        "Customer signature": 0.5,
+        "Photos": 0.32,
+        "Checklists or forms": 0.55,
+        "Parts used (with scanning)": 0.45
       }
     },
     {
@@ -224,8 +226,24 @@
         }
       ],
       "coverage": {
-        "Yes": 0.33
+        "Yes": 0.36
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "setup and prerequisite wording ('both apps')",
+      "terms": [
+        "both"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resources' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

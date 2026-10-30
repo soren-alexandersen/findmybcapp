@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pe365extwarehouse%7CPAPPID.f0593ebd-dd00-4c09-badf-d6fb1d66726e",
-    "lastModified": "2026-09-16T16:58:24.3505806+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:52.9081426+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/3pl/index.html",
-    "sourceHash": "sha256:3e1e0dd5176dbbc642c4d45655ac38ec5ba98f3c07d5470d415eecec8889b68a",
+    "sourceHash": "sha256:120f40c7f6f3da6281a0d34c61e902545acd0f7c5779dd8a6882b0b087e7f4d3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3e1e0dd5176dbbc642c4d45655ac38ec5ba98f3c07d5470d415eecec8889b68a",
-    "mappedOn": null,
-    "summary": "Standard interface to logistics service providers",
+    "sourceHash": "sha256:120f40c7f6f3da6281a0d34c61e902545acd0f7c5779dd8a6882b0b087e7f4d3",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC to one or more 3PL logistics providers via built-in EDI messages.",
     "shape": "connector",
     "primary": [
       {
@@ -27,16 +29,21 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-conn-edi"
+    ],
     "claims": [
       "Connects one or more logistics service providers",
-      "No external EDI converter needed",
-      "Communication via Azure File Share, AS2 or REST",
-      "Configurable EDIFACT, AnsiX12, XML, IDoc, text mappings",
-      "Sends customer/delivery addresses (PARTIN) and item master (PRICAT)",
-      "Sends warehouse shipment (INSDES) and receipt (DESADV) notifications",
+      "No external EDI converter or EDI provider needed",
+      "Ready-made mappings with business settings separate from technical formats",
+      "Transfers via Azure File Share, AS2 or REST services",
+      "Supports EDIFACT, ANSI X12, XML, IDoc and text formats",
+      "Handles SSCC, GTIN, GLN, DUNS and packing hierarchies",
+      "Sends customer addresses (PARTIN) and item master data (PRICAT) to the 3PL",
+      "Sends shipment (INSDES) and receipt (DESADV) notifications",
       "Processes shipment and receipt confirmations with packing hierarchy",
-      "Processes inventory reports (INVRPT)"
+      "Processes inventory reports and special movements (INVRPT)",
+      "Works with BC Essentials and Premium"
     ],
     "countries": [
       "AD",
@@ -133,13 +140,10 @@
       "en"
     ],
     "industries": [],
-    "connectsTo": [
-      "Azure File Share",
-      "AS2"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

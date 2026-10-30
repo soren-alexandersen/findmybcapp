@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.production-apportionment%7CPAPPID.4363be8d-3ff1-43d2-9b2e-b3da880c9a66",
-    "lastModified": "2026-08-26T05:38:21.1668271+00:00",
-    "appVersion": "2504.3.339280.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:51:09.8885739+00:00",
+    "appVersion": "2601.0.350897.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PCA/",
-    "sourceHash": "sha256:125585b9bd5500f535b8ec524413a503ae160e580cf36a76261e82198a160c22",
+    "sourceHash": "sha256:87ef8af1549c2f9c0a46f4ffae4a64d17fb26a18355367a26fcb43f692732b5d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:125585b9bd5500f535b8ec524413a503ae160e580cf36a76261e82198a160c22",
-    "mappedOn": null,
-    "summary": "Apportions production costs across products",
+    "sourceHash": "sha256:87ef8af1549c2f9c0a46f4ffae4a64d17fb26a18355367a26fcb43f692732b5d",
+    "mappedOn": "2026-10-30",
+    "summary": "Allocates direct production costs across products using a predefined formula.",
     "shape": "process",
     "primary": [
       {
@@ -27,19 +29,20 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-cost-allocation",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-cost-allocation"
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Allocates direct production costs among products",
-      "Assigns direct costs to particular products using a predetermined formula",
-      "Uses cost drivers to give each product its share of direct expenses",
-      "Identifies cost inefficiencies in supply chain and production processes",
-      "Supports BC Essential and Premium editions"
+      "Distributes direct costs among products in production",
+      "Uses cost drivers to set each product's share",
+      "Allocation follows a predetermined formula",
+      "Helps spot cost inefficiencies in supply chain and production",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +76,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

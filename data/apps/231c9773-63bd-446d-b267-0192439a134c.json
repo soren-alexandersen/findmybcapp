@@ -8,18 +8,18 @@
     "publisher": "Team VISION - BULGARIA Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_purch_request%7CPAPPID.231c9773-63bd-446d-b267-0192439a134c",
-    "lastModified": "2026-09-25T08:16:36.1211529+00:00",
+    "lastModified": "2026-10-09T13:39:05.5217116+00:00",
     "appVersion": "28.0.2609.03",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://team-vision.bg/en/support/",
-    "sourceHash": "sha256:f9b07cc486717a6eec5a7030d7b0887df9090f13186949b6be243d3407dea578",
+    "sourceHash": "sha256:0ce688e3cac8f3bf280cb216c62033beffb5179f293d7c858d1ddcae257c45bf",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f9b07cc486717a6eec5a7030d7b0887df9090f13186949b6be243d3407dea578",
-    "mappedOn": null,
-    "summary": "Internal purchase requests with approvals, convertible to orders",
+    "sourceHash": "sha256:0ce688e3cac8f3bf280cb216c62033beffb5179f293d7c858d1ddcae257c45bf",
+    "mappedOn": "2026-10-30",
+    "summary": "Employee purchase requests with approval, converted into quotes or orders.",
     "shape": "process",
     "primary": [
       {
@@ -28,18 +28,19 @@
       }
     ],
     "secondary": [
-      "ng-purchase-orders",
-      "ng-sourcing-rfq"
+      "ng-admin-approval-workflows",
+      "ng-sourcing-rfq",
+      "ng-purchase-orders"
     ],
     "claims": [
-      "Request fixed assets, item charges, resources, G/L accounts or items",
-      "Multi-level approval using native BC approval management",
-      "Resolves prices and discounts from purchase price lists",
-      "Creates new items from request lines using item templates",
-      "Emails quotation requests to vendors",
+      "Requests can cover items, G/L accounts, resources, fixed assets and item charges",
+      "Multi-level approval using standard BC approvals",
+      "Fills prices and discounts from active purchase price lists",
+      "Create new items from request lines using templates",
+      "Emails quote requests to vendors with custom templates",
       "Generates purchase quotes, orders and blanket orders grouped by vendor",
-      "Get Purchase Request Lines action on purchase orders",
-      "Dimension inheritance to generated documents",
+      "Pull request lines into standard purchase orders",
+      "Dimensions carry through to generated purchase documents",
       "Item pictures, comments and attachments on requests",
       "Archives requests with version history"
     ],

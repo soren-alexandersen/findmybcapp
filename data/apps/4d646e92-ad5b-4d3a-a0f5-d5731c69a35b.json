@@ -8,38 +8,38 @@
     "publisher": "1Vision365",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1vision3651683641940304%7CAID.1vision365-iot2printvis-moxa-1%7CPAPPID.4d646e92-ad5b-4d3a-a0f5-d5731c69a35b",
-    "lastModified": "2026-08-26T12:11:55.5574802+00:00",
-    "appVersion": "28.3.240.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T00:12:40.0068702+00:00",
+    "appVersion": "28.5.302.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://1vision365.com/support/",
-    "sourceHash": "sha256:6ae6d559406c705a741f5e2e3a08491c5817ba6c66fed4c29a7a986f8f98d66a",
+    "sourceHash": "sha256:e5af5005ebace021e86e62afa800f79cf2084066a94d2c1da6881bf797ba6cf9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6ae6d559406c705a741f5e2e3a08491c5817ba6c66fed4c29a7a986f8f98d66a",
-    "mappedOn": null,
-    "summary": "Feeds Moxa IoT device signals into PrintVis",
+    "sourceHash": "sha256:e5af5005ebace021e86e62afa800f79cf2084066a94d2c1da6881bf797ba6cf9",
+    "mappedOn": "2026-10-30",
+    "summary": "Adapter linking Moxa IoT devices to PrintVis via the 1Vision connector.",
     "shape": "addon",
     "primary": [
       {
-        "need": "ng-vert-printing-packaging",
-        "confidence": "high"
-      },
-      {
         "need": "ng-admin-devices",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-shop-floor-reporting"
+      "ng-vert-printing-packaging"
     ],
     "claims": [
-      "Connects Moxa devices to PrintVis",
-      "Receives IoT device signals and processes them into PrintVis",
-      "Suited to machines without JDF/JMF communication",
-      "Push-based data flow instead of PrintVis default pull from Moxa devices, reducing job queue overhead",
-      "Only devices that need to send data push to PrintVis"
+      "Uses push rather than pull, so only devices with data send it",
+      "Targets machines without JDF/JMF communication",
+      "Connects Moxa devices to PrintVis"
     ],
     "countries": [],
     "languages": [],
@@ -56,7 +56,7 @@
       "1Vision IoT-2-PrintVis Connector"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

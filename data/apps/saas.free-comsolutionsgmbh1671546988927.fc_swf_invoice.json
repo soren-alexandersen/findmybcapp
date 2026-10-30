@@ -1,0 +1,72 @@
+{
+  "appId": "free-comsolutionsgmbh1671546988927.fc_swf_invoice",
+  "guid": null,
+  "publisherId": "free-comsolutionsgmbh1671546988927",
+  "offerId": "fc_swf_invoice",
+  "source": {
+    "name": "smartWorkflow - Invoice Processing & Approval",
+    "publisher": "free-com solutions GmbH",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/free-comsolutionsgmbh1671546988927.fc_swf_invoice",
+    "lastModified": "2025-12-17T08:34:53.474598+00:00",
+    "appVersion": "1.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a68be55d33a7d80cf749bdb8b485264372b9c0dcd93b8a2f704ff8666372459b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a68be55d33a7d80cf749bdb8b485264372b9c0dcd93b8a2f704ff8666372459b",
+    "mappedOn": "2026-10-30",
+    "summary": "Cloud invoice capture with AI extraction, configurable approvals and archiving in Microsoft 365.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-admin-document-storage",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "AI extracts invoice data without per-layout training",
+      "Handles PDF, paper, XRechnung and ZUGFeRD invoices",
+      "AI learns and pre-fills accounts and cost centres",
+      "Approval flow is configurable",
+      "Invoices can be approved on mobile devices",
+      "Archives documents and audit trail in your own Microsoft 365 tenant",
+      "Reminders for payment due dates and cash discounts",
+      "Plausibility and compliance checks on invoice data",
+      "Scales from 10 to over 10,000 invoices a day",
+      "Integrates with BMD, DATEV, Business Central and SAP S/4HANA"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365",
+      "DATEV"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

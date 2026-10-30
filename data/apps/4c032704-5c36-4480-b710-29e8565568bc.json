@@ -8,18 +8,20 @@
     "publisher": "Hougaard",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hougaard-4699382%7CAID.designer%7CPAPPID.4c032704-5c36-4480-b710-29e8565568bc",
-    "lastModified": "2026-10-01T17:26:00.6497773+00:00",
-    "appVersion": "14.0.0.702",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T23:43:10.4755247+00:00",
+    "appVersion": "14.0.0.707",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.hougaard.com/designer/",
-    "sourceHash": "sha256:29b8a800b4fb3706e84cfc092d026e5e59fc7790c1fd64f8eae9ad48513cd423",
+    "sourceHash": "sha256:0dd8aaccb035fb16e12328de54e1cae9e4d058b69c35cc1db7640c439ff7f8e2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:29b8a800b4fb3706e84cfc092d026e5e59fc7790c1fd64f8eae9ad48513cd423",
-    "mappedOn": null,
-    "summary": "No-code customization of fields, APIs and report layouts",
+    "sourceHash": "sha256:0dd8aaccb035fb16e12328de54e1cae9e4d058b69c35cc1db7640c439ff7f8e2",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code tool to add fields, features, APIs and design report layouts in BC.",
     "shape": "usability",
     "primary": [
       {
@@ -33,25 +35,26 @@
     ],
     "secondary": [
       "ng-ux-data-quality",
+      "ng-admin-integration-sync",
       "ng-ux-rolecenters",
-      "ng-admin-integration-sync"
+      "ng-ux-developer-tools"
     ],
     "claims": [
-      "Creates fields on any table and places them on pages and reports",
-      "Surfaces hidden existing fields",
-      "Transfers field data between documents",
-      "Calculated fields with expression editor",
+      "Adds fields to any table and places them on pages and reports",
+      "Shows existing hidden fields",
+      "Links fields between tables and carries data between documents",
+      "Calculated fields with an expression editor",
       "Mandatory field rules",
       "Builds new tables, pages and logic from templates",
-      "Exposes data as APIs without code",
+      "Publishes data and logic as APIs without code",
       "Custom role centers",
-      "Compiles customizations into a standard extension",
-      "Visual report designer without RDLC or Word",
-      "Drag-and-drop layout supporting MICR check fonts, barcodes, QR codes, charts and images",
-      "AI agent designs a layout from a description or a PDF/photo of an existing form",
-      "Report Sets apply one style to all documents",
-      "Subtotals, running totals, conditional sections, watermarks and stationery backgrounds",
-      "PDF output rendered inside BC with optional encryption"
+      "Compiles changes into a standard, upgrade-safe extension",
+      "Visual drag-and-drop report designer with images, charts, QR codes, barcodes and MICR fonts",
+      "AI agent designs layouts from a description or a PDF or photo of an existing form",
+      "One style applied across quotes, orders, invoices, credit memos, reminders and statements",
+      "Layouts support grouping, subtotals, running totals, conditional sections and watermarks",
+      "PDF rendered inside BC with embedded fonts and optional encryption",
+      "Report designer is an optional paid edition"
     ],
     "countries": [],
     "languages": [

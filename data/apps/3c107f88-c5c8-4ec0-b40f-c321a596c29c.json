@@ -8,18 +8,20 @@
     "publisher": "IT.integro sp. z o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_mdms_001%7CPAPPID.3c107f88-c5c8-4ec0-b40f-c321a596c29c",
-    "lastModified": "2026-09-29T15:38:26.4201212+00:00",
-    "appVersion": "5.18.2.28002",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T08:04:37.7532208+00:00",
+    "appVersion": "5.19.0.29002",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.it.integro.pl/en-us/mdms/index.html",
-    "sourceHash": "sha256:da66fa4d1cd8e1cc1940e26cb8c89b2d32297bb55c268b381af34a7431410c0f",
+    "sourceHash": "sha256:8cd2a2f1f55b2f6234a311a1297e97b2f09224e101e81599f12fad167bf3c90a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:da66fa4d1cd8e1cc1940e26cb8c89b2d32297bb55c268b381af34a7431410c0f",
-    "mappedOn": null,
-    "summary": "Synchronizes master data across BC tenants and databases",
+    "sourceHash": "sha256:8cd2a2f1f55b2f6234a311a1297e97b2f09224e101e81599f12fad167bf3c90a",
+    "mappedOn": "2026-10-30",
+    "summary": "Replicates master data from a master company to other group companies and tenants.",
     "shape": "process",
     "primary": [
       {
@@ -28,16 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-intercompany-consolidation"
+      "ng-intercompany-consolidation",
+      "ng-admin-integration-sync"
     ],
     "claims": [
-      "Master company replicates data to receiving companies/tenants",
-      "Replicates data from standard tables and other apps/extensions",
-      "Typical data: items, G/L accounts, customers, vendors, dimensions, posting groups, user roles",
-      "Unlimited receivers",
-      "Field-level data sets",
-      "Full or incremental replication",
-      "Used by 140 corporate groups with 1000 companies"
+      "Syncs data across multiple BC tenants and databases, not only companies in one tenant",
+      "One company is designated as master where master data is maintained",
+      "Can replicate data from standard tables as well as tables from other apps and extensions",
+      "Typical replicated data includes items, G/L accounts, customers, vendors, dimensions, posting groups and user roles",
+      "Unlimited target companies (receivers) can be defined",
+      "Data sets define which fields are replicated",
+      "Supports full and incremental replication",
+      "Also has an on-premises predecessor, used by 140 corporate groups",
+      "Part of the publisher's Global Integration App package",
+      "Available in all countries where BC is offered",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -53,7 +60,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

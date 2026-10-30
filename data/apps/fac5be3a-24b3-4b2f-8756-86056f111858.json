@@ -8,32 +8,31 @@
     "publisher": "NAVERTICA a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-localfs%7CPAPPID.fac5be3a-24b3-4b2f-8756-86056f111858",
-    "lastModified": "2026-01-29T14:18:35.489801+00:00",
-    "appVersion": "26.0.283495.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:34:20.0921862+00:00",
+    "appVersion": "27.0.373987.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Local%20FS/Index/",
-    "sourceHash": "sha256:251afb541ba1c33fccb92866e6fd075b763c8b3bf09cae7826a6f564b1fd06fd",
+    "sourceHash": "sha256:a6fedb1c8273f38b16b8fdd1403119a22aee5ebd05cd7e8fabbf6e7e4af250e8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:251afb541ba1c33fccb92866e6fd075b763c8b3bf09cae7826a6f564b1fd06fd",
-    "mappedOn": null,
-    "summary": "Access to local file system from BC",
+    "sourceHash": "sha256:a6fedb1c8273f38b16b8fdd1403119a22aee5ebd05cd7e8fabbf6e7e4af250e8",
+    "mappedOn": "2026-10-30",
+    "summary": "Library giving BC apps read/write access to local files via a local service.",
     "shape": "usability",
     "primary": [
       {
-        "need": "ng-admin-integration-sync",
-        "confidence": "medium"
+        "need": "ng-ux-developer-tools",
+        "confidence": "low"
       }
     ],
-    "secondary": [
-      "ng-ux-developer-tools"
-    ],
+    "secondary": [],
     "claims": [
-      "Reads, writes and lists files on the local file system via a locally running service",
-      "Provides local file system access to other apps",
-      "Supports Essentials and Premium editions; Premium not required"
+      "Reads, writes and lists files on the local file system through a locally running service",
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -43,10 +42,10 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
-    "hide": false,
-    "hideReason": "",
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": true,
+    "hideReason": "Technical library that gives other apps local file access; no business process.",
     "noFit": ""
   },
   "curated": {

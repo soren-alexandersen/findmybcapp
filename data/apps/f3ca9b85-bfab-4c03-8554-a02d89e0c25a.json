@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2omniprice%7CPAPPID.f3ca9b85-bfab-4c03-8554-a02d89e0c25a",
-    "lastModified": "2025-07-17T15:17:24.2169408+00:00",
+    "lastModified": "2026-10-19T11:57:00.1183316+00:00",
     "appVersion": "25.0.94.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:14cbb5649d4b4011fb7817c9f60163d9bdea84930998118a42323089af65f8af",
+    "sourceHash": "sha256:1a3578bd544753f1ffef215eb8f028cc00a57cdc26ff85838006a0cfbfc8a947",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:14cbb5649d4b4011fb7817c9f60163d9bdea84930998118a42323089af65f8af",
-    "mappedOn": null,
-    "summary": "Integrates OmniPrice pricing engine with BC",
+    "sourceHash": "sha256:1a3578bd544753f1ffef215eb8f028cc00a57cdc26ff85838006a0cfbfc8a947",
+    "mappedOn": "2026-10-30",
+    "summary": "Pricing API that serves BC prices to every sales channel.",
     "shape": "connector",
     "primary": [
       {
@@ -29,22 +31,20 @@
     ],
     "secondary": [],
     "claims": [
-      "Price API delivering BC pricing to all sales channels",
-      "Supports all BC price logic",
-      "Serverless Azure microservice that scales with usage",
-      "Built on Codeunit OmniConnect integration platform"
+      "Delivers prices to all sales channels from one service instead of rebuilding price logic in each system",
+      "Reads its data from BC via OmniConnect",
+      "Covers the full set of BC pricing rules",
+      "Runs as serverless microservices on Azure that scale with load",
+      "Works with BC Essentials and Premium",
+      "Interface in English only"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
-    "connectsTo": [
-      "OmniPrice"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

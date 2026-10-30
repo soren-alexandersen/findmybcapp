@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.splashcollect|AID.ro-vat-validation-anaf|PAPPID.9630f053-3bb2-4cbf-8e3a-503d62d715d2",
+  "guid": "9630f053-3bb2-4cbf-8e3a-503d62d715d2",
+  "publisherId": "splashcollect",
+  "offerId": "ro-vat-validation-anaf",
+  "source": {
+    "name": "Romanian VAT Validation (ANAF)",
+    "publisher": "SplashDev",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.splashcollect%7CAID.ro-vat-validation-anaf%7CPAPPID.9630f053-3bb2-4cbf-8e3a-503d62d715d2",
+    "lastModified": "2026-10-28T13:08:44.0430755+00:00",
+    "appVersion": "1.0.20.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://splashdev.at/romanian-vat-validation-anaf-for-business-central/",
+    "sourceHash": "sha256:608b434bbc7a244bb70324cff9baad99a2561a41c0ee6c168ef8877b0d56fc0e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:608b434bbc7a244bb70324cff9baad99a2561a41c0ee6c168ef8877b0d56fc0e",
+    "mappedOn": "2026-10-30",
+    "summary": "Checks Romanian customers and vendors against ANAF and keeps VAT status current.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-supplier-onboarding",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Fills name, address, county, post code and trade register number from the VAT number",
+      "Rechecks all partners every night",
+      "Warns or blocks posting for inactive taxpayers",
+      "Shows VAT on cash basis, split VAT and e-Factura registration on partner cards",
+      "Check on demand or when the VAT number is entered",
+      "Logs every check for audit",
+      "Runs alongside any Romanian localization",
+      "Free"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ANAF"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

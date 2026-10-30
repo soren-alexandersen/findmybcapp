@@ -1,0 +1,106 @@
+{
+  "appId": "adaequareinfopvtltd1753770879586.taxilla_e-invoice_v1",
+  "guid": null,
+  "publisherId": "adaequareinfopvtltd1753770879586",
+  "offerId": "taxilla_e-invoice_v1",
+  "source": {
+    "name": "Global eInvoice Taxilla",
+    "publisher": "Taxilla IT Solutions",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/adaequareinfopvtltd1753770879586.taxilla_e-invoice_v1",
+    "lastModified": "2026-10-13T12:35:35.1926119+00:00",
+    "appVersion": "0.0.0.1",
+    "pricingTypes": [
+      "Payg",
+      "RequestPrivateOffer"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:c962b132713493179fc78fe743500235ead141e9ca7d14150d3e6a269b203622",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c962b132713493179fc78fe743500235ead141e9ca7d14150d3e6a269b203622",
+    "mappedOn": "2026-10-30",
+    "summary": "Hosted e-invoicing and tax clearance service connecting BC to authorities in many countries.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Generates, validates, submits and tracks invoices from Business Central",
+      "Supports Peppol, tax-authority clearance, CTC and real-time reporting models",
+      "Connects to India IRP, ZATCA, UAE FTA, MyInvois, Fawtara, KSeF, DGFiP and SAT/CFDI",
+      "Receives and validates supplier e-invoices",
+      "Writes IRNs, clearance references, UUIDs and QR codes back to Business Central",
+      "Detects duplicates and mismatches across systems and authorities",
+      "Handles acceptance, clearance and rejection responses",
+      "Supports B2B and B2G invoicing",
+      "Sold via private offer"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BE",
+      "BH",
+      "BR",
+      "DE",
+      "EG",
+      "ES",
+      "FR",
+      "GR",
+      "IN",
+      "JO",
+      "KE",
+      "LU",
+      "MU",
+      "MW",
+      "MX",
+      "MY",
+      "NG",
+      "NO",
+      "NZ",
+      "OM",
+      "PH",
+      "PL",
+      "QA",
+      "RO",
+      "SA",
+      "SE",
+      "SG",
+      "SK",
+      "ZM"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "ZATCA",
+      "KSeF",
+      "MyInvois",
+      "SAT"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

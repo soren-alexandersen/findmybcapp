@@ -8,39 +8,43 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.forecasting%7CPAPPID.afc9c957-f615-43d5-9141-386278248148",
-    "lastModified": "2026-08-26T05:37:58.5623806+00:00",
-    "appVersion": "2601.2.339236.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:54:18.1615334+00:00",
+    "appVersion": "2602.0.350890.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/FOR/",
-    "sourceHash": "sha256:3302a14f625264d88079f2fd65db145adbd0ac897713886bc0706e2f4ec69f5d",
+    "sourceHash": "sha256:46177fada220c57a3c7a4aec38a4294a571ad41303d0d1e01c40be16645361bc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3302a14f625264d88079f2fd65db145adbd0ac897713886bc0706e2f4ec69f5d",
-    "mappedOn": null,
-    "summary": "Sales forecasting from history and supply",
-    "shape": "addon",
+    "sourceHash": "sha256:46177fada220c57a3c7a4aec38a4294a571ad41303d0d1e01c40be16645361bc",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds demand forecasts from sales or consumption history and current supply.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-demand-forecast",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-production-planning"
+      "ng-replenishment-planning",
+      "ng-production-planning",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Forecasts from historical sales or consumption and on-hand supply",
-      "Imports and applies sales or consumption history in seconds",
-      "Accounts for daily supply and demand",
-      "Create production orders from projected shortages",
-      "Customer-specific forecasts",
-      "Configurable forecast formulas"
+      "Forecasts based on historical sales or consumption",
+      "Takes current on-hand supply into account",
+      "Imports and applies demand history inside BC without exporting",
+      "Considers daily supply and demand figures",
+      "Several options for projecting history into the future",
+      "Create production orders directly when a shortage is projected",
+      "Forecasts can be made per customer",
+      "Forecast formulas can be adjusted",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -73,15 +77,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

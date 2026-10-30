@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.simplexsolution|AID.document-text-modules|PAPPID.d7a213ae-8bc4-4cc0-9820-54c78623bc47",
+  "guid": "d7a213ae-8bc4-4cc0-9820-54c78623bc47",
+  "publisherId": "simplexsolution",
+  "offerId": "document-text-modules",
+  "source": {
+    "name": "Document Text Modules",
+    "publisher": "Simplex Solution",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplexsolution%7CAID.document-text-modules%7CPAPPID.d7a213ae-8bc4-4cc0-9820-54c78623bc47",
+    "lastModified": "2026-10-19T11:27:26.3188037+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://simplexsolution.de/wp/help/document-text-modules/",
+    "sourceHash": "sha256:c0bc7af00aae7dcbce0f8fb94fa6def62de4b319314106f8b0d8291d5de73ca1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0bc7af00aae7dcbce0f8fb94fa6def62de4b319314106f8b0d8291d5de73ca1",
+    "mappedOn": "2026-10-30",
+    "summary": "Reusable header and footer text blocks for sales, purchase and service documents.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-translation"
+    ],
+    "claims": [
+      "Central library of reusable intro and closing texts for documents",
+      "Language variants chosen by document language with a fallback text",
+      "Auto-assigns texts by area, usage, validity period and conditions like customer, country or currency",
+      "Placeholders pull in document, customer, vendor, contact and company data",
+      "Supports bold, italic, underline and font colours per text block",
+      "Texts for follow-on documents can be prepared on the order",
+      "Texts on posted and archived documents stay read-only",
+      "Covers quotes, orders, purchase orders, shipments, invoices, credit memos and service documents",
+      "Ships adapted Word and RDLC layouts for supported standard reports",
+      "Requires BC Online version 28 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

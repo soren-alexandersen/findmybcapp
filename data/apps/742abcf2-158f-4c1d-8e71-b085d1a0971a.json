@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365wms%7CPAPPID.742abcf2-158f-4c1d-8e71-b085d1a0971a",
-    "lastModified": "2026-09-23T14:34:00.4906649+00:00",
-    "appVersion": "13.5.132.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:43:43.3865378+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/whse/index.html",
-    "sourceHash": "sha256:606f249dd22f9b7fc12704581105c193bb1c7afcc0a5277b1d7ee32518220e93",
+    "sourceHash": "sha256:87113a860380d1e3790fec9289d10609d38244bcbb8e4a740484d5df578ef18d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:606f249dd22f9b7fc12704581105c193bb1c7afcc0a5277b1d7ee32518220e93",
-    "mappedOn": null,
-    "summary": "Warehouse storage and movement automation",
+    "sourceHash": "sha256:87113a860380d1e3790fec9289d10609d38244bcbb8e4a740484d5df578ef18d",
+    "mappedOn": "2026-10-30",
+    "summary": "Extends BC warehousing with load carriers, put-away strategies, pick sequences and replenishment.",
     "shape": "process",
     "primary": [
       {
@@ -28,24 +30,30 @@
       },
       {
         "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-packing-loading",
       "ng-warehouse-setup",
-      "ng-stock-movements"
+      "ng-ux-document-layouts",
+      "ng-admin-data-migration"
     ],
     "claims": [
-      "Advanced put-away strategies",
-      "Load carriers / license plate numbers and shipping units",
-      "Picking sequence and stock selection",
-      "Replenishment of picking area from other zones",
-      "Production provisioning and requirement calculation",
-      "Warehouse shipment control area",
-      "Mobile execution with Tasklet Mobile WMS and Warehouse Scanning",
-      "Includes free Yaveon 365 Base App with rule-based traffic lights, extended texts, inventory summary and data migration tools",
-      "Extended texts on master data, purchasing documents and sales documents",
-      "Corporate design for documents"
+      "Manages load carriers, license plate numbers and shipping units",
+      "Advanced put-away strategies suggest bins",
+      "Control area gives an overview of orders in warehouse shipment",
+      "Pick sequence and stock selection ensure the chosen stock is shipped",
+      "Replenishes pick zones from other storage areas",
+      "Supports production provisioning and calculating production requirements",
+      "Up-to-date inventory summary",
+      "Includes the free Yaveon 365 Base app with traffic lights, extended texts, item features, document design and migration tools",
+      "Mobile execution possible together with Tasklet Mobile WMS and Yaveon 365 Warehouse Scanning",
+      "Works with BC Essentials and Premium"
     ],
     "countries": [
       "AD",
@@ -143,11 +151,14 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Healthcare",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

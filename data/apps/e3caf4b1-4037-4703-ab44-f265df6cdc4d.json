@@ -8,36 +8,42 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex09202_deliveryrouteplannerfortransportcosts%7CPAPPID.e3caf4b1-4037-4703-ab44-f265df6cdc4d",
-    "lastModified": "2026-06-26T10:28:16.5366199+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T16:10:22.9626707+00:00",
+    "appVersion": "28.0.12.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/delivery-route-planner.html",
-    "sourceHash": "sha256:2750d4f62b82028795e1a6ccb7954c77ae64de8993b16c72e80abf47f56385fa",
+    "sourceHash": "sha256:112dd6a60b8d8e8dae675938762b7e2d4f733e435a3921ca2caa9dbb2d0d5594",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2750d4f62b82028795e1a6ccb7954c77ae64de8993b16c72e80abf47f56385fa",
-    "mappedOn": null,
-    "summary": "Plans delivery routes and calculates transport costs",
-    "shape": "process",
+    "sourceHash": "sha256:112dd6a60b8d8e8dae675938762b7e2d4f733e435a3921ca2caa9dbb2d0d5594",
+    "mappedOn": "2026-10-30",
+    "summary": "Links EOS delivery route planning with transport cost calculation on sales and purchase documents.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-transport-planning",
         "confidence": "high"
       },
       {
-        "need": "ng-shipping-carriers",
-        "confidence": "medium"
+        "need": "ng-sales-pricing",
+        "confidence": "low"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
     "claims": [
-      "Calculates transport costs for delivery routes from sales/purchase documents",
-      "Shipping costs on the sales order card are displayed",
-      "Manual override of shipping cost",
-      "Calculates and optimizes routes",
-      "Depends on EOS Transport Costs as well as EOS Delivery Route Planner"
+      "Plans delivery tours from sales and purchase documents",
+      "Calculates and optimises transfer times and routes",
+      "Shipping cost is calculated on the sales order",
+      "Planned routes can be printed and exported",
+      "Shipping cost can be overridden by hand",
+      "Free app, but EOS Delivery Route Planner and Transport Costs subscriptions are needed",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -45,7 +51,10 @@
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Delivery Route Planner",

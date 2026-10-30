@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.autoordermgmt%7CPAPPID.a742a62a-6ea2-4535-9c7b-b32e9d2faa70",
-    "lastModified": "2026-10-06T20:48:20.1461124+00:00",
-    "appVersion": "26.3.106.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T15:48:51.5455887+00:00",
+    "appVersion": "26.5.110.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/automated-order-management/",
-    "sourceHash": "sha256:225b17c2b50a0575bfb6e1b7989fdf1b1105383efeb3c80693c179bea1b525e0",
+    "sourceHash": "sha256:3d13088adcf5c5ac5bbf6b496f1c4acbf8740bc014c1049ea89d3cd0c6f6202f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:225b17c2b50a0575bfb6e1b7989fdf1b1105383efeb3c80693c179bea1b525e0",
-    "mappedOn": null,
-    "summary": "Allocates limited inventory to orders",
+    "sourceHash": "sha256:3d13088adcf5c5ac5bbf6b496f1c4acbf8740bc014c1049ea89d3cd0c6f6202f",
+    "mappedOn": "2026-10-30",
+    "summary": "Decides which sales orders to fulfil first when stock is short, using priorities.",
     "shape": "process",
     "primary": [
       {
@@ -31,15 +33,13 @@
       "ng-allocation-picking"
     ],
     "claims": [
-      "Allocates sales orders when inventory is limited",
-      "Fulfillment criteria at item and customer level",
-      "Prioritizes most important customers",
-      "Calculates net available quantity",
-      "Auto-creates warehouse shipments, picks and order confirmations",
-      "Available globally except Czechia",
+      "Allocates limited inventory across sales orders",
+      "Fulfilment criteria can be set per item and per customer",
+      "Serves priority customers first",
+      "Calculates net available quantity from defined criteria",
+      "Creates warehouse shipments, picks and order confirmations automatically",
       "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard",
-      "Supports Essentials and Premium"
+      "Priced at USD 100 per tenant per year"
     ],
     "countries": [],
     "languages": [
@@ -58,7 +58,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

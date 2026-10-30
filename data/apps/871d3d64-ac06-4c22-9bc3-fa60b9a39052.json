@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-scheduling-board-bc%7CPAPPID.871d3d64-ac06-4c22-9bc3-fa60b9a39052",
-    "lastModified": "2026-08-05T10:28:54.5051543+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:24:14.3285047+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/resource-scheduling-board/",
-    "sourceHash": "sha256:b915188533f209641618384efbf7dd8b32cdf62a566c74c991e6e06cc1d66ac6",
+    "sourceHash": "sha256:7e2448c0fbca172a158e5c363b767a686a3d1e7d0a2f342cca051102094513a2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b915188533f209641618384efbf7dd8b32cdf62a566c74c991e6e06cc1d66ac6",
-    "mappedOn": null,
-    "summary": "Visual drag-and-drop scheduling of maintenance work orders",
+    "sourceHash": "sha256:7e2448c0fbca172a158e5c363b767a686a3d1e7d0a2f342cca051102094513a2",
+    "mappedOn": "2026-10-30",
+    "summary": "Drag-and-drop calendar board for scheduling maintenance work order jobs to technicians.",
     "shape": "addon",
     "primary": [
       {
@@ -27,16 +29,17 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-svc-capacity"
+    ],
     "claims": [
-      "Visual calendar board of work orders and resources",
-      "Schedules work order jobs to asset technicians",
-      "Drag unscheduled jobs onto the calendar",
+      "Calendar view of work orders and resources",
+      "Unscheduled jobs are dragged from a side list onto the calendar",
       "Filters by work type or specific work order",
-      "Resources can be internal or external contractors",
-      "Warns when worker capacity is exceeded",
-      "Overview of worker capacity",
-      "Requires Dynaway EAM installed first"
+      "Resources can include external contractors",
+      "Shows worker capacity and warns on overbooking",
+      "Requires Dynaway EAM to be installed and set up first",
+      "Works on Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -49,15 +52,15 @@
       "sv"
     ],
     "industries": [
-      "Energy",
+      "Energy & Resources",
       "Manufacturing"
     ],
     "connectsTo": [],
     "requires": [
       "Dynaway EAM"
     ],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

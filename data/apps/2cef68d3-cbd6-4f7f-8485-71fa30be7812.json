@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.pleconsulting|AID.kvitta|PAPPID.2cef68d3-cbd6-4f7f-8485-71fa30be7812",
+  "guid": "2cef68d3-cbd6-4f7f-8485-71fa30be7812",
+  "publisherId": "pleconsulting",
+  "offerId": "kvitta",
+  "source": {
+    "name": "Kvitta",
+    "publisher": "Ple Consulting AB",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pleconsulting%7CAID.kvitta%7CPAPPID.2cef68d3-cbd6-4f7f-8485-71fa30be7812",
+    "lastModified": "2026-10-23T12:17:42.0518549+00:00",
+    "appVersion": "2.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://usekvitta.com/docs/business-central",
+    "sourceHash": "sha256:0558fcd42a18c345366c2c715eff266ce373733f149be9b9f9366dc1b846af42",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:0558fcd42a18c345366c2c715eff266ce373733f149be9b9f9366dc1b846af42",
+    "mappedOn": "2026-10-30",
+    "summary": "Reconciles e-commerce payment provider payouts against open customer entries and writes journals.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Works with settlement files from providers such as Adyen, Avarda, Vipps and American Express",
+      "Matches each settlement line to the invoice or credit memo it settles",
+      "Separates provider fees from payments",
+      "Writes the reconciled journal into a chosen batch with applies-to fields filled",
+      "Refuses to write into batches not explicitly allowed",
+      "Posts only in permitted batches holding only its own journal",
+      "Custom fields like a payment reference can be mapped for matching",
+      "Logs every journal written or refused with reason",
+      "No credentials stored in BC",
+      "Requires a Kvitta account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Kvitta",
+      "Adyen",
+      "Avarda",
+      "Vipps",
+      "American Express"
+    ],
+    "requires": [
+      "Kvitta service account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

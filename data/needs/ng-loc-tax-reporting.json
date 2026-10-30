@@ -75,7 +75,10 @@
             "electronic tax invoice",
             "e-?invoic",
             "transmits? sales invoices",
-            "syncs sales data"
+            "syncs sales data",
+            "state register",
+            "register of vat invoices",
+            "cash registers?"
           ]
         },
         {
@@ -105,17 +108,29 @@
           ]
         },
         {
+          "label": "VAT return or OSS statement",
+          "patterns": [
+            "vat statement",
+            "\\boss\\b",
+            "one stop shop",
+            "vat returns?",
+            "vat declaration",
+            "input tax statement"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Audit file of the books (SAF-T, e-ledger)": 0.15,
+        "Audit file of the books (SAF-T, e-ledger)": 0.16,
         "Intrastat or EU sales list": 0.22,
-        "Invoices or shipments reported to the tax authority in real time": 0.19,
-        "Withholding tax (WHT, TDS, CIS)": 0.1,
-        "Excise or customs duties": 0.13,
-        "Bookkeeping export for our accountant (e.g. DATEV)": 0.04
+        "Invoices or shipments reported to the tax authority in real time": 0.23,
+        "Withholding tax (WHT, TDS, CIS)": 0.09,
+        "Excise or customs duties": 0.12,
+        "Bookkeeping export for our accountant (e.g. DATEV)": 0.03,
+        "VAT return or OSS statement": 0.13
       }
     },
     {
@@ -161,7 +176,7 @@
         }
       ],
       "coverage": {
-        "Sent straight from BC": 0.24,
+        "Sent straight from BC": 0.22,
         "We export a file and upload it ourselves": 0.36
       }
     },
@@ -199,14 +214,41 @@
           ]
         },
         {
+          "label": "Closing VAT periods once they are filed",
+          "patterns": [
+            "vat period clos",
+            "closes vat periods",
+            "period closure",
+            "period closing",
+            "declaration periods"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Checks that catch errors before filing": 0.3,
-        "Tracking status, rejections and corrections afterwards": 0.12
+        "Checks that catch errors before filing": 0.29,
+        "Tracking status, rejections and corrections afterwards": 0.13,
+        "Closing VAT periods once they are filed": 0.06
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "local banking, not tax filing",
+      "terms": [
+        "bank"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "country-specific cash wording, not a common choice point",
+      "terms": [
+        "cash"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

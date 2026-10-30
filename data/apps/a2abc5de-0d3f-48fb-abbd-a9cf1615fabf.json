@@ -8,20 +8,21 @@
     "publisher": "Business Dynamics Pro Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_warehouseq%7CPAPPID.a2abc5de-0d3f-48fb-abbd-a9cf1615fabf",
-    "lastModified": "2026-08-17T08:47:50.073678+00:00",
-    "appVersion": "2.0.122.0",
+    "lastModified": "2026-10-28T09:11:06.0830225+00:00",
+    "appVersion": "2.0.167.0",
     "pricingTypes": [
+      "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/help/warehouseq",
-    "sourceHash": "sha256:5f10db1e48102b7d83f6d81d6c6b5eda63fc36e480d2ca143655bf4f9e8abc5f",
+    "sourceHash": "sha256:8ad2580aee3602a90f70f91fc63975afc848f5df7edef09126446d0751976e64",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5f10db1e48102b7d83f6d81d6c6b5eda63fc36e480d2ca143655bf4f9e8abc5f",
-    "mappedOn": null,
-    "summary": "Mobile barcode scanning for warehouse operations",
+    "sourceHash": "sha256:8ad2580aee3602a90f70f91fc63975afc848f5df7edef09126446d0751976e64",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile WMS scanning for receiving, picking, shipping, counting, moves and production inside BC.",
     "shape": "process",
     "primary": [
       {
@@ -31,25 +32,30 @@
       {
         "need": "ng-allocation-picking",
         "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-receiving-putaway",
       "ng-stock-counting",
-      "ng-shop-floor-reporting",
+      "ng-stock-movements",
+      "ng-lot-serial-traceability",
       "ng-barcode-labels"
     ],
     "claims": [
-      "Runs in BC web client, no separate server",
-      "Scanning on phone, tablet or paired scanner",
-      "Warehouse tasks: replenish, transfer, adjust, move, count, ship, pick, put away and receive",
-      "Production output and consumption, assembly, license plates",
-      "Adapts to location setup up to directed put-away and pick",
+      "Runs inside the BC web client, no separate server or login",
+      "Scans on phone, tablet or paired barcode scanner",
+      "Covers receive, put-away, pick, ship, count, move, transfer and replenish",
+      "Handles production output, consumption, assembly and license plates",
+      "Every scan posts through BC posting and is verified afterwards",
+      "Adapts menus to each location's setup up to directed put-away and pick",
       "Lot, serial and package tracking with FEFO guidance",
-      "Offline scanning queues and syncs later",
+      "Offline scans queue and sync later",
       "Hardware wedge scanners and camera scanning",
-      "GS1 label printing via on-site print connector",
-      "Per user, 3-seat minimum, 30-day trial"
+      "GS1 label printing via on-site print connector, included in price",
+      "Per scanning user per month, 3-seat minimum, 30-day trial"
     ],
     "countries": [],
     "languages": [],

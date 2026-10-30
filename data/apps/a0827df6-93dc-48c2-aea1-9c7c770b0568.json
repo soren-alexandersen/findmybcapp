@@ -8,18 +8,20 @@
     "publisher": "TRASER Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-continia-document-output%7CPAPPID.a0827df6-93dc-48c2-aea1-9c7c770b0568",
-    "lastModified": "2026-09-01T07:37:36.5923308+00:00",
-    "appVersion": "2800.260800.20260828.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T15:19:34.9498049+00:00",
+    "appVersion": "2800.260800.20261019.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://academy.traser-software.de/",
-    "sourceHash": "sha256:1fe700811baf8d186ca4225083e1a8a3cb71b3e9e50c556bf964e008c2e4985d",
+    "sourceHash": "sha256:aa59cc0229bd6ad45b9c5a175bf21cc0b22522d77de2a2d903b312b07bf0305b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1fe700811baf8d186ca4225083e1a8a3cb71b3e9e50c556bf964e008c2e4985d",
-    "mappedOn": null,
-    "summary": "Uses Continia Document Output with Aptean ECM Connect",
+    "sourceHash": "sha256:aa59cc0229bd6ad45b9c5a175bf21cc0b22522d77de2a2d903b312b07bf0305b",
+    "mappedOn": "2026-10-30",
+    "summary": "Archives the final Continia Document Output PDFs through Aptean ECM Connect.",
     "shape": "addon",
     "primary": [
       {
@@ -29,8 +31,9 @@
     ],
     "secondary": [],
     "claims": [
-      "Archives fully processed outgoing documents from Continia Document Output",
-      "Archived PDFs include backgrounds and merge files"
+      "Archives the fully processed document after Document Output changes, not the raw report",
+      "Archived files keep backgrounds and merge files",
+      "Covers outgoing documents like invoices, credit memos and sales orders"
     ],
     "countries": [],
     "languages": [],
@@ -43,7 +46,7 @@
       "Continia Document Output"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

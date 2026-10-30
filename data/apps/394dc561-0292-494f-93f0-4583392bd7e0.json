@@ -8,18 +8,20 @@
     "publisher": "Allium",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allium%7CAID.pimics%7CPAPPID.394dc561-0292-494f-93f0-4583392bd7e0",
-    "lastModified": "2026-09-23T04:50:17.9153202+00:00",
-    "appVersion": "14.0.4.17403",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:04:07.6359227+00:00",
+    "appVersion": "14.0.7.17766",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.pimics.com/",
-    "sourceHash": "sha256:36feba3dfbd8fa32e867fda764ccf5cc70d417f51ef84512b369ac8e625480e7",
+    "sourceHash": "sha256:0fefd94bfb7eb3a5f9d395eea7dd0dca09447eb2b9d4c5a4bc030d90c042b282",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:36feba3dfbd8fa32e867fda764ccf5cc70d417f51ef84512b369ac8e625480e7",
-    "mappedOn": null,
-    "summary": "Product information management inside BC",
+    "sourceHash": "sha256:0fefd94bfb7eb3a5f9d395eea7dd0dca09447eb2b9d4c5a4bc030d90c042b282",
+    "mappedOn": "2026-10-30",
+    "summary": "Product information management inside BC: rich item data, assets, supplier imports, channel publishing.",
     "shape": "process",
     "primary": [
       {
@@ -28,22 +30,29 @@
       },
       {
         "need": "ng-assortment-catalogs",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-data-translation"
+      "ng-ux-import-excel",
+      "ng-supplier-pricing",
+      "ng-ux-data-translation",
+      "ng-admin-document-storage"
     ],
     "claims": [
-      "PIM inside BC instead of standalone PIM",
-      "Digital asset management",
-      "Feature inheritance in product tree",
-      "Bulk changes and mass imports from suppliers",
-      "Automated sync to multiple sales and marketing channels",
-      "Structured and unstructured product data incl. documents and videos",
-      "Multi-language product data",
-      "Supports eCl@ss and ETIM classification, BMECat and DataNorm exchange",
-      "Product data included in ERP database backup"
+      "Keeps extended product data inside BC rather than a separate PIM system",
+      "Includes digital asset management for product media",
+      "Product features are inherited down a product tree",
+      "Bulk editing of product data",
+      "Imports large volumes of supplier product data for review and completion",
+      "Publishes product data automatically to several sales and marketing channels",
+      "Handles structured attributes plus documents, videos and texts",
+      "Includes data integrity checks on product data",
+      "Supports eCl@ss and ETIM classification",
+      "Supports BMECat and DataNorm exchange formats",
+      "Product data is backed up with the BC database",
+      "Available in English, German, Spanish, French and Czech",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -54,14 +63,10 @@
       "fr"
     ],
     "industries": [],
-    "connectsTo": [
-      "Shopify",
-      "Sana Commerce",
-      "Shopware"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

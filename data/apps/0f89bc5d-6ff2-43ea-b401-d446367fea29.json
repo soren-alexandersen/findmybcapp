@@ -8,47 +8,52 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2plytix%7CPAPPID.0f89bc5d-6ff2-43ea-b401-d446367fea29",
-    "lastModified": "2025-06-12T09:36:20.1787171+00:00",
-    "appVersion": "25.0.8.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T04:53:08.8874743+00:00",
+    "appVersion": "28.0.0.5",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:37acc635f5d7d21a34d02233fa28e5f524aed4d3df2b673379a9bfa998263f23",
+    "sourceHash": "sha256:1abbd1fc519f5aa89595e7897038747d23869a4578ddf4cdbaed071bbc5b1364",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:37acc635f5d7d21a34d02233fa28e5f524aed4d3df2b673379a9bfa998263f23",
-    "mappedOn": null,
-    "summary": "Integrates Plytix PIM product data with BC",
+    "sourceHash": "sha256:1abbd1fc519f5aa89595e7897038747d23869a4578ddf4cdbaed071bbc5b1364",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way sync of items, variants, attributes and images between BC and Plytix PIM.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-item-master-data",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Plytix",
-      "Built on Codeunit OmniConnect integration platform"
+      "Creates or updates BC items as Plytix products with SKU, GTIN, label and family",
+      "Publishes variant groups as parent products with linked variants",
+      "Maps item attributes to six Plytix attribute types, targeting parent, variant or both",
+      "Adds new dropdown values in Plytix automatically during export",
+      "Stores Plytix product and parent IDs on the BC item",
+      "Imports products changed in Plytix on a schedule, batching large catalogues",
+      "Imports only products changed since the last run",
+      "Imports locale-specific attribute values and supports calculated attributes",
+      "Brings product images into BC and sets the Plytix thumbnail as main image",
+      "Checks for existing products by SKU before export to avoid duplicates",
+      "Includes a portal to monitor flows, get alerts and resubmit failed transactions"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Plytix"
     ],
-    "requires": [
-      "Plytix"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

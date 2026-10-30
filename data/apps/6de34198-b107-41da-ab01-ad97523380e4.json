@@ -8,19 +8,21 @@
     "publisher": "ABSYS CYBORG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.absyscyborg1592234227333%7CAID.probatch365frenchlanguagepack%7CPAPPID.6de34198-b107-41da-ab01-ad97523380e4",
-    "lastModified": "2026-09-22T08:06:50.6494098+00:00",
-    "appVersion": "1.27.26264.1551",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T13:42:57.0654157+00:00",
+    "appVersion": "1.28.26299.1551",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.absyscyborg.com/fr/logiciels/microsoft/erp-microsoft-dynamics-365/microsoft-dynamics-365-probatch",
-    "sourceHash": "sha256:543885582d0a203ebd10fc2454c7fac6523678b54cff873f8fb838d85bc12346",
+    "sourceHash": "sha256:0689920afa0ac655e854b55712fd7db7a10318b9c234db448dc7acf9efe582bf",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:543885582d0a203ebd10fc2454c7fac6523678b54cff873f8fb838d85bc12346",
-    "mappedOn": null,
-    "summary": "French business terms for Yaveon ProBatch 365",
-    "shape": "addon",
+    "sourceHash": "sha256:0689920afa0ac655e854b55712fd7db7a10318b9c234db448dc7acf9efe582bf",
+    "mappedOn": "2026-10-30",
+    "summary": "French UI translation for the Yaveon 365 life science apps.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,11 +31,10 @@
     ],
     "secondary": [],
     "claims": [
-      "French UI translation for all Yaveon 365 apps",
-      "Language switch",
+      "All Yaveon 365 commands, menus and pages in French",
+      "Covers all Yaveon 365 apps in one pack",
       "Translation activates once a Yaveon 365 app is installed",
-      "Supports all Yaveon 365 apps",
-      "Compatible with France, Belgium, Switzerland"
+      "Language switch in the app"
     ],
     "countries": [
       "BE",
@@ -45,17 +46,15 @@
     ],
     "industries": [
       "Chemicals",
-      "Cosmetics",
       "Food",
-      "Life sciences",
-      "Pharmaceuticals"
+      "Life sciences"
     ],
     "connectsTo": [],
     "requires": [
       "Yaveon 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

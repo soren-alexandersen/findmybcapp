@@ -8,18 +8,20 @@
     "publisher": "bc4all ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bc4allaps%7CAID.wrenchtime_core_cmms%7CPAPPID.c64d7cc2-1999-43b6-87cd-8537c7b35ed5",
-    "lastModified": "2026-09-27T20:44:08.8531831+00:00",
-    "appVersion": "1.0.226.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:48:56.2853651+00:00",
+    "appVersion": "1.0.244.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://wrenchtime.io/docs/",
-    "sourceHash": "sha256:61aad825d9dd000046480fc8bbbf5d260f8fe3bffbc1d2f0823051d6ac1a2e42",
+    "sourceHash": "sha256:727b38436f604006fd58addb4bee7e8a34ec7c5a19315c12df1da7ba891f3828",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:61aad825d9dd000046480fc8bbbf5d260f8fe3bffbc1d2f0823051d6ac1a2e42",
-    "mappedOn": null,
-    "summary": "Maintenance work orders and asset tracking (CMMS)",
+    "sourceHash": "sha256:727b38436f604006fd58addb4bee7e8a34ec7c5a19315c12df1da7ba891f3828",
+    "mappedOn": "2026-10-30",
+    "summary": "Maintenance management in BC: assets, work orders, preventive schedules and spare parts.",
     "shape": "process",
     "primary": [
       {
@@ -28,22 +30,26 @@
       },
       {
         "need": "ng-maintenance-breakdown",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Native CMMS in BC covering assets, preventive maintenance, work orders, spare parts and reporting",
-      "Tracks assets, failures, cost lines and spare parts in the BC data model",
-      "Asset-level cost and downtime visibility",
-      "Native AL code, no integration or second database",
-      "Free trial usable in any sandbox"
+      "Built natively in AL inside BC, no separate database",
+      "Covers assets, work orders, preventive maintenance, spare parts and reporting",
+      "Tracks failures, costs and spare parts per asset",
+      "Asset-level cost and downtime visibility for management",
+      "Free trial runs in any BC sandbox",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

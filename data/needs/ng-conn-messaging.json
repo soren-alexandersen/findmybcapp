@@ -58,9 +58,9 @@
         }
       ],
       "coverage": {
-        "SMS text messages": 0.5,
-        "WhatsApp": 0.39,
-        "Phone calls (show who is calling)": 0.17
+        "SMS text messages": 0.47,
+        "WhatsApp": 0.42,
+        "Phone calls (show who is calling)": 0.21
       }
     },
     {
@@ -101,9 +101,9 @@
       ],
       "coverage": {
         "Twilio": 0.11,
-        "Microsoft Teams calling or a TAPI phone system": 0.06,
-        "STARFACE": 0.06,
-        "Trengo": 0.06
+        "Microsoft Teams calling or a TAPI phone system": 0.05,
+        "STARFACE": 0.05,
+        "Trengo": 0.05
       }
     },
     {
@@ -139,8 +139,8 @@
         }
       ],
       "coverage": {
-        "Automatically, e.g. when an invoice is posted": 0.17,
-        "Someone clicks send on the document": 0.39
+        "Automatically, e.g. when an invoice is posted": 0.11,
+        "Someone clicks send on the document": 0.37
       }
     },
     {
@@ -160,7 +160,7 @@
         }
       ],
       "coverage": {
-        "Yes, attach the document": 0.22
+        "Yes, attach the document": 0.21
       }
     },
     {
@@ -184,8 +184,49 @@
         }
       ],
       "coverage": {
-        "Yes, delivery status and replies": 0.33
+        "Yes, delivery status and replies": 0.26
       }
+    },
+    {
+      "id": "should-customers-be-able-to-or",
+      "text": "Should customers be able to order or look up their documents themselves through the chat?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, self-service ordering or lookups",
+          "patterns": [
+            "orders? via whatsapp",
+            "place orders",
+            "customer portal",
+            "conversational commerce",
+            "order (taking|entry) (via|through|in)",
+            "orders? (by|through) (chat|whatsapp)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, self-service ordering or lookups": 0.16
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "opening documents from a dialog, UI detail",
+      "terms": [
+        "quot"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'team' wording",
+      "terms": [
+        "team"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

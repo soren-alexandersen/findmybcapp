@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex049_salesandpurchasepromotionsforwholesales%7CPAPPID.dbdbe6b9-a110-4e3f-b16b-e85dbf88e96b",
-    "lastModified": "2026-09-25T13:16:24.7580702+00:00",
-    "appVersion": "28.0.22.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:41:30.6827079+00:00",
+    "appVersion": "29.0.10.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-and-purchase-promotions-for-wholesales-spp-ex049-.html",
-    "sourceHash": "sha256:ee21fd9a7c3249f5dd38941c7433af5fb2d5cfe532c53fe72084600f329fede4",
+    "sourceHash": "sha256:7282cd47508b5dccbb4854f4051a1867282728b5c5d5dbd0e2026c4cdd6d1ff2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ee21fd9a7c3249f5dd38941c7433af5fb2d5cfe532c53fe72084600f329fede4",
-    "mappedOn": null,
-    "summary": "Customer hierarchies, promotion plans and discounts for wholesale",
+    "sourceHash": "sha256:7282cd47508b5dccbb4854f4051a1867282728b5c5d5dbd0e2026c4cdd6d1ff2",
+    "mappedOn": "2026-10-30",
+    "summary": "Customer and item hierarchies with price lists and promotion plans for wholesale distribution.",
     "shape": "process",
     "primary": [
       {
@@ -35,13 +37,12 @@
       "ng-vert-wholesale-trading"
     ],
     "claims": [
-      "Customer and item hierarchies per wholesale practice",
-      "Sales price lists per hierarchy level or customer cluster",
-      "Plan hierarchy changes",
-      "Promotion plans with detailed options",
-      "Apply promotions directly in sales documents",
-      "Purchase promotion not yet available",
-      "Requires EOS Detailed Document Discounts and Sales Free Goods"
+      "Customer and item hierarchies with levels and groups",
+      "Price lists per hierarchy level or customer cluster",
+      "Plan future hierarchy changes",
+      "Promotions applied directly on sales documents",
+      "Purchase promotions not yet available",
+      "Requires EOS Detailed document discount and Sales Free Goods apps"
     ],
     "countries": [],
     "languages": [
@@ -52,8 +53,8 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [
@@ -62,10 +63,10 @@
     ],
     "connectsTo": [],
     "requires": [
-      "EOS Detailed Document Discounts",
+      "EOS Detailed document discount",
       "EOS Sales Free Goods"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

@@ -8,18 +8,20 @@
     "publisher": "VISIONDATA business consult AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visiondatabusinessconsultag1581677616921%7CAID.eu-extension%7CPAPPID.89eb12b5-e19f-4869-a9df-99d96a81ed93",
-    "lastModified": "2026-07-24T07:55:55.9878196+00:00",
-    "appVersion": "28.2.260724.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T13:17:59.8011425+00:00",
+    "appVersion": "29.2.260724.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visiondata.de/dokumentationen/eu-extension-app-de",
-    "sourceHash": "sha256:90534449136596cfc315c6ea8cbca10236fa5cfbb4d8a3a448fcd58b9f855c8b",
+    "sourceHash": "sha256:ffeb978a66e61235a8e997729a5030d6c9b4676aea44b52866f82a85a0af07d8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:90534449136596cfc315c6ea8cbca10236fa5cfbb4d8a3a448fcd58b9f855c8b",
-    "mappedOn": null,
-    "summary": "EU trade: multiple VAT IDs, stock transfers, Intrastat",
+    "sourceHash": "sha256:ffeb978a66e61235a8e997729a5030d6c9b4676aea44b52866f82a85a0af07d8",
+    "mappedOn": "2026-10-30",
+    "summary": "German EU trade add-on: multiple VAT IDs, intra-EU stock transfer postings, Intrastat.",
     "shape": "localization",
     "primary": [
       {
@@ -32,17 +34,15 @@
       }
     ],
     "secondary": [
-      "ng-stock-movements",
-      "ng-loc-country-pack"
+      "ng-stock-movements"
     ],
     "claims": [
-      "Stores multiple VAT IDs per customer, vendor and own company",
-      "Default VAT ID pre-assigned, can be changed manually",
-      "Own VAT ID used for posting carried in all transactions",
-      "Automatically creates G/L entries for intra-EU warehouse transfers",
-      "Intrastat report per VAT ID number",
-      "Preselection of Intrastat entries to adjust data",
-      "Available only in German"
+      "Stores several VAT registration numbers per customer, vendor and own company",
+      "Pre-fills a default VAT ID on documents that users can override",
+      "Carries the company's own posting VAT ID on all transactions",
+      "Posts the required G/L entries automatically for transfers between warehouses in different EU countries",
+      "Produces Intrastat reports per VAT registration number",
+      "Lets users preselect entries to adjust data before reporting Intrastat"
     ],
     "countries": [
       "DE"
@@ -54,7 +54,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

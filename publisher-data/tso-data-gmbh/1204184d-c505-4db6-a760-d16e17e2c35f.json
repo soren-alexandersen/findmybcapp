@@ -1,6 +1,6 @@
 {
   "appId": "PUBID.tso|AID.dms_connector_sp|PAPPID.1204184d-c505-4db6-a760-d16e17e2c35f",
-  "appName": "DMS Connector for Microsoft SharePoint",
+  "appName": "DMS Connector for SharePoint with Microsoft Dynamics 365 Business Central",
   "countries": [],
   "languages": [],
   "extends": [],

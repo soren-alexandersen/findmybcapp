@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2ingrid%7CPAPPID.24f5f9cc-e4de-4e01-b82d-f590bb968aad",
-    "lastModified": "2025-06-12T09:35:32.8573906+00:00",
+    "lastModified": "2026-10-19T10:47:45.954715+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:7b7332d5a2bde2ff3f6f38057050d5d9c81642d8010831736b69b83fe0fcd91b",
+    "sourceHash": "sha256:31c14de177f95dca577a6059d94fd0a87f2be437099a185f2227353d3f1bec37",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7b7332d5a2bde2ff3f6f38057050d5d9c81642d8010831736b69b83fe0fcd91b",
-    "mappedOn": null,
-    "summary": "Connects BC with Ingrid transport automation for shipping",
+    "sourceHash": "sha256:31c14de177f95dca577a6059d94fd0a87f2be437099a185f2227353d3f1bec37",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and Ingrid transport automation for shipping.",
     "shape": "connector",
     "primary": [
       {
@@ -29,12 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Ingrid",
-      "Built on Codeunit OmniConnect integration platform"
+      "Connects Ingrid transport automation to BC",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -44,9 +45,7 @@
     "connectsTo": [
       "Ingrid"
     ],
-    "requires": [
-      "Ingrid"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

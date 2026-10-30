@@ -8,40 +8,38 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.intelligent-order-routing%7CPAPPID.d09217c0-0e5f-4d26-8649-d3552969f52b",
-    "lastModified": "2026-09-09T16:59:37.7505865+00:00",
-    "appVersion": "26.4.112.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:39:25.2365251+00:00",
+    "appVersion": "26.7.118.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/business-central/intelligent-order-routing/",
-    "sourceHash": "sha256:96909040890e58fc9ca51a13d81f16c91e08e1f8b6521f900b2cb3f0fe793d27",
+    "sourceHash": "sha256:b43906a2b62f9f3d996dbc1d82cd82cee570d88a28296c88cb252f2704632e50",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:96909040890e58fc9ca51a13d81f16c91e08e1f8b6521f900b2cb3f0fe793d27",
-    "mappedOn": null,
-    "summary": "Routes sales orders to preferred fulfillment location",
+    "sourceHash": "sha256:b43906a2b62f9f3d996dbc1d82cd82cee570d88a28296c88cb252f2704632e50",
+    "mappedOn": "2026-10-30",
+    "summary": "Routes sales orders to the best fulfilment location using configurable rules.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-order-allocation",
-        "confidence": "medium"
-      },
-      {
-        "need": "ng-sales-order-entry",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-automation"
+    ],
     "claims": [
-      "Routes sales orders to fulfillment location by business rules",
-      "Include/exclude orders from re-routing",
-      "Restricts cross-border fulfillment",
+      "Determines the fulfilment location for each order automatically",
+      "Rules can include or exclude orders from re-routing",
+      "Can restrict cross-border fulfilment",
       "Logs all routing updates",
-      "Criteria from customer, item, order and order line",
-      "Lets users override reservations or skip orders",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Routing criteria can use customer, item, order header and line fields",
+      "Orders can be skipped or reservations overridden",
+      "Priced at USD 20 per tenant per month"
     ],
     "countries": [],
     "languages": [
@@ -60,7 +58,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

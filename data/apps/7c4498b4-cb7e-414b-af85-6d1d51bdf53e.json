@@ -8,46 +8,49 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.export-edi-pricecatalogue%7CPAPPID.7c4498b4-cb7e-414b-af85-6d1d51bdf53e",
-    "lastModified": "2026-07-16T09:48:29.2063168+00:00",
+    "lastModified": "2026-10-13T04:30:26.5739703+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/lx9peye7o1-microsoft-dynamics-365-export-price-catalogue-to-customer",
-    "sourceHash": "sha256:62107cd05efca4edae20ab05bfa7cddbcc8f960a4dc1628d1338be804a846896",
+    "sourceHash": "sha256:46bb0cdd193b631c2c965669f3215e595a2aa8897128574a6c881a295050fa83",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:62107cd05efca4edae20ab05bfa7cddbcc8f960a4dc1628d1338be804a846896",
-    "mappedOn": null,
-    "summary": "Exports price catalogues to customers via EDI platform",
+    "sourceHash": "sha256:46bb0cdd193b631c2c965669f3215e595a2aa8897128574a6c881a295050fa83",
+    "mappedOn": "2026-10-30",
+    "summary": "Exports price catalogues from Business Central to customers' systems through HubBroker's iPaaS.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-sales-pricing",
-        "confidence": "medium"
-      },
-      {
         "need": "ng-conn-edi",
         "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-assortment-catalogs"
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Automatically exports price catalogues from BC to customers' systems",
-      "Validates and converts data to the format required by local standards or the customer",
-      "Tracks and monitors exported catalogues in the iPaaS",
-      "REST API data integration"
+      "Price catalogues are exported automatically from Business Central",
+      "Data is converted into the format each customer or local standard requires",
+      "Exported catalogues can be tracked in the iPaaS platform",
+      "Offers REST API integration"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "HubBroker iPaaS"
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
     ],
+    "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "contact",
     "hide": false,
     "hideReason": "",

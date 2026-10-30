@@ -128,10 +128,10 @@
         }
       ],
       "coverage": {
-        "Card or online payment link": 0.34,
-        "Direct debit / automatic collection": 0.22,
-        "Bank transfer": 0.09,
-        "Cheques or promissory notes": 0.19
+        "Card or online payment link": 0.3,
+        "Direct debit / automatic collection": 0.24,
+        "Bank transfer": 0.11,
+        "Cheques or promissory notes": 0.17
       }
     },
     {
@@ -188,10 +188,10 @@
         }
       ],
       "coverage": {
-        "Getting customers to pay online": 0.28,
-        "Matching received payments to invoices": 0.35,
+        "Getting customers to pay online": 0.23,
+        "Matching received payments to invoices": 0.38,
         "Cleaning up open customer entries": 0.1,
-        "Paying money back to customers": 0.13
+        "Paying money back to customers": 0.11
       }
     },
     {
@@ -222,7 +222,7 @@
         }
       ],
       "coverage": {
-        "Yes, we need provider payouts matched in BC": 0.18
+        "Yes, we need provider payouts matched in BC": 0.21
       }
     },
     {
@@ -276,7 +276,7 @@
         }
       ],
       "coverage": {
-        "Yes, include reminders": 0.1
+        "Yes, include reminders": 0.08
       }
     }
   ]

@@ -8,35 +8,32 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_invisio%7CPAPPID.a279c980-ce11-4058-9a03-9f07021a4241",
-    "lastModified": "2026-09-30T20:04:02.3306615+00:00",
-    "appVersion": "28.5.0.80061",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:19:03.3756013+00:00",
+    "appVersion": "29.0.0.80852",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:0b625ce76626f3bdb2043904819b8bf23c205659e8e47a35bdeb8861df3639bb",
+    "sourceHash": "sha256:99ed9e363b81e77fe97e6ad732f391e9ebc4d574cd6a914ec883ba6e5141f757",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0b625ce76626f3bdb2043904819b8bf23c205659e8e47a35bdeb8861df3639bb",
-    "mappedOn": null,
-    "summary": "Invisio module for Navitrans 365",
+    "sourceHash": "sha256:99ed9e363b81e77fe97e6ad732f391e9ebc4d574cd6a914ec883ba6e5141f757",
+    "mappedOn": "2026-10-30",
+    "summary": "Navitrans 365 module called Invisio; the listing does not say what it adds.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
     "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS covering order registration to invoicing",
-      "FTL and LTL transport orders created from templates",
-      "Planning tools with capacity, combination and qualification checks",
-      "Pricing runs automatically off tariff tables or flat prices",
-      "Works with subcontractors and charters",
-      "Automatic invoicing combining orders on invoices",
-      "Supports Essentials and Premium"
+      "Add-on module for Navitrans 365",
+      "Part of the Navitrans 365 transport management suite",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -70,7 +67,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

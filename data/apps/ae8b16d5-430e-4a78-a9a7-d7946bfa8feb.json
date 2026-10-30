@@ -8,18 +8,20 @@
     "publisher": "JCD A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.job_queue_error_mails%7CPAPPID.ae8b16d5-430e-4a78-a9a7-d7946bfa8feb",
-    "lastModified": "2026-09-15T10:41:06.2686353+00:00",
-    "appVersion": "1.0.20260915.6",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T13:03:08.8036748+00:00",
+    "appVersion": "1.0.20261019.6",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://jcd.dk/microsoft-dynamics/job-queue-tools-for-business-central/",
-    "sourceHash": "sha256:d046f6b149afb02c868a12b38d8d0483701fc0116de69a9e202ca686a761c1f0",
+    "sourceHash": "sha256:7db7364f377017d56b7b7576a7fa88044afedea3626d52cbee246b5583380e04",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d046f6b149afb02c868a12b38d8d0483701fc0116de69a9e202ca686a761c1f0",
-    "mappedOn": null,
-    "summary": "Emails when job queue entries fail",
+    "sourceHash": "sha256:7db7364f377017d56b7b7576a7fa88044afedea3626d52cbee246b5583380e04",
+    "mappedOn": "2026-10-30",
+    "summary": "Emails chosen recipients when a job queue entry fails after its maximum retries.",
     "shape": "usability",
     "primary": [
       {
@@ -31,9 +33,10 @@
       "ng-admin-alerts"
     ],
     "claims": [
-      "Emails error details when a job queue entry fails its maximum number of retries",
-      "Recipients set via Error Notification Recipients field on user setup",
-      "Multiple recipients separated by semicolon"
+      "Sends an email when a job queue entry has failed its maximum number of retries",
+      "Recipients are set in an Error Notification Recipients field on user setup",
+      "Several addresses can be entered, separated by semicolons",
+      "Email includes the error information"
     ],
     "countries": [],
     "languages": [],
@@ -41,7 +44,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

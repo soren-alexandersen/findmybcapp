@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumense-paymentsforworldpay|PAPPID.23064204-7e1f-4bab-9e2e-6a7e2ec3cc94",
+  "guid": "23064204-7e1f-4bab-9e2e-6a7e2ec3cc94",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumense-paymentsforworldpay",
+  "source": {
+    "name": "Acumens e-Payments for Worldpay (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumense-paymentsforworldpay%7CPAPPID.23064204-7e1f-4bab-9e2e-6a7e2ec3cc94",
+    "lastModified": "2026-10-22T07:40:06.4559929+00:00",
+    "appVersion": "27.1023.1.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-e-payments-for-worldpay/",
+    "sourceHash": "sha256:1d4c8535c08e8ddec370ec01162bb20888b70e9d414fdbfc98b01b0495655346",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d4c8535c08e8ddec370ec01162bb20888b70e9d414fdbfc98b01b0495655346",
+    "mappedOn": "2026-10-30",
+    "summary": "Worldpay (Bambora) card payments in BC: authorise, capture, refund and apply deposits.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Processes credit card payments inside Business Central",
+      "Pre-authorises cards before capture",
+      "Captures authorised amounts when goods or services are ready",
+      "One-step charge creates customer and bank ledger entries",
+      "Voids pre-authorised payments before capture",
+      "Refunds settled payments and records the reversal",
+      "Creates and posts customer deposits automatically",
+      "Applies deposits to sales invoices automatically",
+      "Applies bill payments to open customer invoices",
+      "Handles both web payments and payments taken in BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Worldpay (Bambora)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -144,7 +144,7 @@
       ],
       "coverage": {
         "Directly in BC pages": 0.25,
-        "In Excel": 0.38,
+        "In Excel": 0.31,
         "In a web portal outside BC": 0.25
       }
     },
@@ -186,6 +186,13 @@
           ]
         },
         {
+          "label": "By department, project or other dimensions",
+          "patterns": [
+            "dimension",
+            "cost cent"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
@@ -194,7 +201,8 @@
         "Financial (G/L accounts)": 0.62,
         "Sales or item budgets": 0.19,
         "Spending limits on purchases": 0.06,
-        "Statistical or non-financial figures": 0.06
+        "Statistical or non-financial figures": 0.06,
+        "By department, project or other dimensions": 0.38
       }
     },
     {
@@ -306,6 +314,42 @@
       ],
       "coverage": {
         "Yes, from history or AI": 0.38
+      }
+    },
+    {
+      "id": "what-do-you-need-for-reporting",
+      "text": "What do you need for reporting on the budget?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Reports in Power BI or PowerPoint",
+          "patterns": [
+            "power bi",
+            "powerpoint"
+          ]
+        },
+        {
+          "label": "Drill from figures to the transactions",
+          "patterns": [
+            "drill"
+          ]
+        },
+        {
+          "label": "Send reports out automatically",
+          "patterns": [
+            "distribution",
+            "emails? (pdf|reports)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Reports in Power BI or PowerPoint": 0.31,
+        "Drill from figures to the transactions": 0.31,
+        "Send reports out automatically": 0.25
       }
     }
   ]

@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex023_extendedmanagementaccounting%7CPAPPID.45389816-7c56-49c6-8f23-19fe54448079",
-    "lastModified": "2026-10-05T13:44:40.5112366+00:00",
+    "lastModified": "2026-10-27T15:39:47.2671992+00:00",
     "appVersion": "29.0.5.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ema-extended-management-accounting.html",
-    "sourceHash": "sha256:d406277a0e6e72bcb6c647e37e64ae0f4a40c5615b862c7e04237c15574b7586",
+    "sourceHash": "sha256:0fcda172c0d4de768b154238c5d4d60f97943f670b998cccf863e446c8a43003",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d406277a0e6e72bcb6c647e37e64ae0f4a40c5615b862c7e04237c15574b7586",
-    "mappedOn": null,
-    "summary": "Cost accounting and customer/item profitability analysis",
+    "sourceHash": "sha256:0fcda172c0d4de768b154238c5d4d60f97943f670b998cccf863e446c8a43003",
+    "mappedOn": "2026-10-30",
+    "summary": "Extends BC cost accounting with allocations, drivers and customer/item profitability analysis.",
     "shape": "process",
     "primary": [
       {
@@ -31,18 +33,14 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-sales-analytics"
-    ],
+    "secondary": [],
     "claims": [
-      "Creates the chart of cost accounts from the G/L chart of accounts",
-      "Driver and allocation management",
-      "Analysis scenarios with drill-down",
-      "Separate double-entry plan of accounts",
+      "Builds a cost chart of accounts from the G/L chart of accounts",
+      "Separate double-entry cost account plan",
       "Synchronizes general and accrual accounting",
-      "Free choice of costing model, direct or full costing",
-      "Customer/item profitability analysis",
-      "Requires EOS Inventory Valuation and Costing"
+      "Supports direct costing, full costing and other cost models",
+      "Analysis scenarios with detail drill-down",
+      "Requires EOS Inventory Valuation and Costing subscription"
     ],
     "countries": [],
     "languages": [
@@ -53,16 +51,19 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Inventory Valuation and Costing"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

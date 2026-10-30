@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2shopware%7CPAPPID.c9d612db-52c2-45f8-a57b-5cf309502f1e",
-    "lastModified": "2025-06-12T08:39:06.1005449+00:00",
+    "lastModified": "2026-10-19T10:46:24.5129535+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:ff77d2df2d7bbfd56a1808a81c4110e878c8b603b66b31d11ec2c720ca2a0e16",
+    "sourceHash": "sha256:e2f207cbb67f51c4f8cfc93266588d046cc291e43aa7a3ad099210647d6322a2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ff77d2df2d7bbfd56a1808a81c4110e878c8b603b66b31d11ec2c720ca2a0e16",
-    "mappedOn": null,
-    "summary": "Integrates Shopware webshop with BC",
+    "sourceHash": "sha256:e2f207cbb67f51c4f8cfc93266588d046cc291e43aa7a3ad099210647d6322a2",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Shopware ecommerce platform.",
     "shape": "connector",
     "primary": [
       {
@@ -29,25 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Requires Shopware",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Shopware account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Shopware"
     ],
-    "requires": [
-      "Shopware"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

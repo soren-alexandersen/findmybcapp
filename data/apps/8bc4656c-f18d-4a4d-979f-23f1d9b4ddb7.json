@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.huboneas1673858993138|AID.trial-balance-studio|PAPPID.8bc4656c-f18d-4a4d-979f-23f1d9b4ddb7",
+  "guid": "8bc4656c-f18d-4a4d-979f-23f1d9b4ddb7",
+  "publisherId": "huboneas1673858993138",
+  "offerId": "trial-balance-studio",
+  "source": {
+    "name": "Trial Balance Studio",
+    "publisher": "Hubone AS",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.huboneas1673858993138%7CAID.trial-balance-studio%7CPAPPID.8bc4656c-f18d-4a4d-979f-23f1d9b4ddb7",
+    "lastModified": "2026-10-29T15:06:51.4409879+00:00",
+    "appVersion": "1.0.1.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://hubone.no/bigapp",
+    "sourceHash": "sha256:e2f30dd9f635086d2022b58eb28adac96bd1915e9af8d83c4a46c067ee56d1de",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e2f30dd9f635086d2022b58eb28adac96bd1915e9af8d83c4a46c067ee56d1de",
+    "mappedOn": "2026-10-30",
+    "summary": "Interactive trial balance worksheet with drill-down, comparisons, checks and reconciliation sign-off.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-audit-compliance",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Shows opening balance, debit, credit, net change and closing balance per account",
+      "Period presets for month, quarter, year and custom dates",
+      "Drill-down from any amount to G/L entries",
+      "Calculated net income line so the balance sheet balances mid-year",
+      "Shows period lock status",
+      "Compares to last year, previous period or budget with variance",
+      "Filters on all dimensions with a dimension matrix mode",
+      "Saved views",
+      "Automatic error checks ranked by severity",
+      "Per-account reconciliation sign-off with warnings on later balance changes",
+      "Formatted Excel and PDF export plus export for year-end closing software",
+      "Emails the report with PDF and Excel and logs what was sent"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Accounting firms"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,18 +8,20 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_package%7CPAPPID.225f3a9f-ccb8-47b1-b38f-a7b0d180e49f",
-    "lastModified": "2026-09-30T20:05:02.4792203+00:00",
-    "appVersion": "28.5.0.80065",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:17:29.0995472+00:00",
+    "appVersion": "29.0.0.80814",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:c536e89f749b169f3b8d82c6257ba482da88ad4526fe4148ec13006f412077ad",
+    "sourceHash": "sha256:d0b4d205e70fdd73275f5187eea789c6b6926aba5eeb5fb6be5f526a00f30d02",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c536e89f749b169f3b8d82c6257ba482da88ad4526fe4148ec13006f412077ad",
-    "mappedOn": null,
-    "summary": "Tracks empty packaging in transport",
+    "sourceHash": "sha256:d0b4d205e70fdd73275f5187eea789c6b6926aba5eeb5fb6be5f526a00f30d02",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks empty pallets and returnable packaging moved during transport in Navitrans 365.",
     "shape": "addon",
     "primary": [
       {
@@ -28,18 +30,18 @@
       }
     ],
     "secondary": [
-      "ng-stock-movements"
+      "ng-customer-consignment"
     ],
     "claims": [
-      "Follows up empty packaging during transport",
-      "Registers movements/exchanges of packages such as pallets via package receipts",
-      "Printable package receipt for driver completion",
-      "Several units of measure can be treated as empty package",
-      "Manual and automatic creation of package receipts by customer, action, address",
-      "Empty package balances for customers, transport addresses and resources",
-      "Quantity limits on empty packages per package code, customer, transport or resource",
-      "Overviews of empty packages, both stored and awaiting return, per customer, address, resource",
-      "Supports Essentials and Premium"
+      "Registers pallet and package movements and exchanges through package receipts",
+      "Package receipts can be printed for drivers to fill in by hand",
+      "Several units of measure can be treated as empty packaging",
+      "Package receipts created manually or automatically by customer, action or address",
+      "Keeps package balances per customer, transport address and resource",
+      "Sets quantity limits for empty packages by package code, customer, transport or resource",
+      "Overviews of packages held or due back by principal, customer, address and resource",
+      "Resource balances cover trailers, vehicles, drivers and subcontractors",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -67,13 +69,15 @@
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution"
+    ],
     "connectsTo": [],
     "requires": [
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

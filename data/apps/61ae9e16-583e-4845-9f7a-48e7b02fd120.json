@@ -8,41 +8,44 @@
     "publisher": "Kurago software, S.L.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kuragosoftwaresl1579614086490%7CAID.bysoft-business-sales%7CPAPPID.61ae9e16-583e-4845-9f7a-48e7b02fd120",
-    "lastModified": "2026-10-05T11:49:17.4660257+00:00",
-    "appVersion": "5.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T07:56:27.008565+00:00",
+    "appVersion": "5.0.2.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://bysoft.kurago.software/contact",
-    "sourceHash": "sha256:53775e8cf81b3cedcdf0c1de325fcf72519b221dfbc7a1526f5c42b30e213d16",
+    "helpLink": "https://www.bystronic.com/esp/es/contact/espana",
+    "sourceHash": "sha256:c2939aa21a20761689a6553e10eefb1b7d20644c302b1520e3860420c4e7c434",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:53775e8cf81b3cedcdf0c1de325fcf72519b221dfbc7a1526f5c42b30e213d16",
-    "mappedOn": null,
-    "summary": "Quoting and sales from CAD to price for sheet metal companies",
+    "sourceHash": "sha256:c2939aa21a20761689a6553e10eefb1b7d20644c302b1520e3860420c4e7c434",
+    "mappedOn": "2026-10-30",
+    "summary": "Sheet metal quoting from CAD files with nesting-based material and processing time costing.",
     "shape": "vertical",
     "primary": [
       {
-        "need": "ng-vert-metal-timber-materials",
-        "confidence": "medium"
-      },
-      {
         "need": "ng-sales-quotes",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-conn-cad-plm",
+      "ng-production-costing",
+      "ng-bom-formula-engineering",
       "ng-sales-analytics"
     ],
     "claims": [
-      "Quotes from CAD design and manufacturing cost calculation to sales price",
-      "Built-in CAD viewer imports CAD files and creates BOMs without external plugin",
-      "CAD engine defines manufacturing process per item",
-      "Material cost calculation using nesting tool with scenario simulation",
-      "Estimates cutting, bending and other operation times",
-      "CRM analysis of salespeople, contacts, opportunities, campaigns and segments",
-      "Requires BC Premium"
+      "Builds quotes from CAD design through manufacturing cost to sales price",
+      "Built-in CAD viewer imports CAD file formats and creates BOMs without an external plugin",
+      "Defines the manufacturing process per item from the design",
+      "Material cost calculation uses a nesting tool and scenario simulation",
+      "Estimates processing times for cutting, bending and other operations",
+      "CRM analytics across salespeople, contacts, opportunities, campaigns and segments",
+      "Premium edition only"
     ],
     "countries": [
       "AT",
@@ -89,6 +92,7 @@
       "ko"
     ],
     "industries": [
+      "Manufacturing",
       "Sheet metal"
     ],
     "connectsTo": [],

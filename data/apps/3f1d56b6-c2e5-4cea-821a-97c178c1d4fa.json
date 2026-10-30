@@ -8,18 +8,20 @@
     "publisher": "collana apps GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.glibusinesssolutionsgmbh1593103938587%7CAID.offer_main-tool_maintenance%7CPAPPID.3f1d56b6-c2e5-4cea-821a-97c178c1d4fa",
-    "lastModified": "2026-10-05T08:12:07.7616703+00:00",
-    "appVersion": "27.0.20260900.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T10:46:00.1097238+00:00",
+    "appVersion": "27.0.20261000.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://go-apps.collana.com/fwlink/?linkid=2303698",
-    "sourceHash": "sha256:ce2b3702460b191d7e85c83cd7b5a2bf717d512cec44c6357015fb484817b145",
+    "sourceHash": "sha256:94ac25382b27d0d95c6b8ca9a3d633454ac74bd0346fbc31d78d665364d65e8c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ce2b3702460b191d7e85c83cd7b5a2bf717d512cec44c6357015fb484817b145",
-    "mappedOn": "2026-10-07",
-    "summary": "Maintenance work orders, technical object hierarchy, recurring schedules and contract-based orders",
+    "sourceHash": "sha256:94ac25382b27d0d95c6b8ca9a3d633454ac74bd0346fbc31d78d665364d65e8c",
+    "mappedOn": "2026-10-30",
+    "summary": "Maintenance management with work orders, technical objects, recurring scheduling and contracts.",
     "shape": "process",
     "primary": [
       {
@@ -32,15 +34,17 @@
       }
     ],
     "secondary": [
-      "ng-svc-contracts"
+      "ng-svc-contracts",
+      "ng-fa-register"
     ],
     "claims": [
-      "Create, process and escalate maintenance work orders",
-      "Technical objects such as components, mounting positions and vehicles",
-      "Object hierarchy and parameter monitoring",
-      "Equipment information center",
-      "Recurring and standing work orders",
-      "Contract-based work orders"
+      "Maintenance work orders can be created, worked and escalated",
+      "Checklists can be added to technical objects",
+      "Technical objects such as vehicles and components arranged in a hierarchy",
+      "Object monitoring shows all parameters of an object",
+      "Equipment information center collects all object data in one place",
+      "Recurring events and standing orders generate work orders",
+      "Service contracts for objects can generate work orders"
     ],
     "countries": [
       "AE",
@@ -102,7 +106,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

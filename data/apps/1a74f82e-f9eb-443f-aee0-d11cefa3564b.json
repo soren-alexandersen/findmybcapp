@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_lng%7CPAPPID.1a74f82e-f9eb-443f-aee0-d11cefa3564b",
-    "lastModified": "2026-10-05T19:07:25.233763+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:38:28.3670338+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/TurkishLanguageHelp.pdf",
-    "sourceHash": "sha256:64f12a870bae8546693d31f3a1a4ac348de14a29b06b5c52731336d7a58da2b8",
+    "sourceHash": "sha256:e35613eeb620c9c6edc7bbbcab8a4600c7b93ecffd993866975a0e1e5429c657",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:64f12a870bae8546693d31f3a1a4ac348de14a29b06b5c52731336d7a58da2b8",
-    "mappedOn": null,
-    "summary": "Turkish language pack",
+    "sourceHash": "sha256:e35613eeb620c9c6edc7bbbcab8a4600c7b93ecffd993866975a0e1e5429c657",
+    "mappedOn": "2026-10-30",
+    "summary": "Turkish user interface language pack for Business Central.",
     "shape": "language",
     "primary": [
       {
@@ -29,23 +31,21 @@
     ],
     "secondary": [],
     "claims": [
-      "Turkish UI language pack for BC",
-      "All commands, menus and pages in Turkish",
+      "All commands, menus and pages are shown in Turkish",
+      "Uses Turkish business terminology",
+      "Can be bought on its own by international companies with Turkish users",
       "Bundled free with the Turkish core localization app",
-      "Language switch"
+      "Users can switch language easily"
     ],
-    "countries": [
-      "TR"
-    ],
+    "countries": [],
     "languages": [
-      "en",
       "tr"
     ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,18 @@
     "publisher": "RS Business Technologies GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.rsbusinesstechnologiesgmbh%7CAID.fastbackground%7CPAPPID.cb032234-a9ab-4523-9f4b-7c31a414dcb1",
-    "lastModified": "2026-07-31T10:36:37.1374933+00:00",
-    "appVersion": "150.0.0.4",
+    "lastModified": "2026-10-14T05:51:20.809534+00:00",
+    "appVersion": "150.0.0.6",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://www.rsbt.de/wp-content/uploads/onlinehelp/fastbackground/en-EN/index.html",
-    "sourceHash": "sha256:359b590cec098ccd774f9252d540213d5d2dadf6c8bd7b31d9f855d30c5d2808",
+    "sourceHash": "sha256:a1a66ae1dafa38352670517834e063d61fcfb0caabcc2343d3c87ab119c09c69",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:359b590cec098ccd774f9252d540213d5d2dadf6c8bd7b31d9f855d30c5d2808",
-    "mappedOn": null,
-    "summary": "Merges reports with corporate stationery PDFs",
+    "sourceHash": "sha256:a1a66ae1dafa38352670517834e063d61fcfb0caabcc2343d3c87ab119c09c69",
+    "mappedOn": "2026-10-30",
+    "summary": "Puts your PDF letterhead behind BC documents and appends terms and conditions automatically.",
     "shape": "usability",
     "primary": [
       {
@@ -27,16 +27,16 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-ux-printing"
-    ],
+    "secondary": [],
     "claims": [
-      "Merges reports with corporate stationery PDFs automatically",
-      "Letterhead applied globally, by language or per report ID",
-      "Attaches additional PDFs such as terms & conditions to reports",
-      "No external tools required",
-      "Free trial version available",
-      "Supports Essentials and Premium editions"
+      "Uploaded PDF stationery is placed behind every page of generated PDFs",
+      "Appends terms and conditions or other PDFs to the end of documents",
+      "Different stationery per language, report ID or layout",
+      "Works for any report that can be output as PDF, including posted documents",
+      "Monthly plan per company with a document quota, then a fee per extra document",
+      "Documents processed in an EU Azure service and deleted afterwards",
+      "Test mode adds a demo watermark at no cost",
+      "Installs fastCORE base app automatically"
     ],
     "countries": [],
     "languages": [
@@ -47,7 +47,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "per_company",
     "hide": false,
     "hideReason": "",
     "noFit": ""

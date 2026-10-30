@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.simplexsolution|AID.universal-printer-connector|PAPPID.95dffc21-01ff-4dee-0002-0e5cd049cdf8",
+  "guid": "95dffc21-01ff-4dee-0002-0e5cd049cdf8",
+  "publisherId": "simplexsolution",
+  "offerId": "universal-printer-connector",
+  "source": {
+    "name": "Universal Printer Connector",
+    "publisher": "Simplex Solution",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplexsolution%7CAID.universal-printer-connector%7CPAPPID.95dffc21-01ff-4dee-0002-0e5cd049cdf8",
+    "lastModified": "2026-10-27T06:24:29.4431133+00:00",
+    "appVersion": "1.1.0.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://simplexsolution.de/wp/help/universal-printer-connector/",
+    "sourceHash": "sha256:df6c94031218bb67a20def92124e338758bafe9a34f9672128360d9ece1119fa",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:df6c94031218bb67a20def92124e338758bafe9a34f9672128360d9ece1119fa",
+    "mappedOn": "2026-10-30",
+    "summary": "Prints BC Online PDF reports to local Windows printers via a print agent.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Printer profiles store printer and number of copies",
+      "Paper tray selection per profile, e.g. letterhead for invoices",
+      "Default printers per report and per user",
+      "Print queue shows waiting, processed and failed jobs",
+      "Jobs are held in BC when the local agent is offline",
+      "Setup wizard covers connection, permissions and installation",
+      "Print agent runs as a Windows service and connects via a Microsoft Entra app",
+      "Needs BC Online 28+, a reachable Windows machine and SumatraPDF",
+      "PDF reports only; no RAW, ZPL or SBPL label output",
+      "User interface in German and English"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

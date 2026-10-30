@@ -77,10 +77,10 @@
         }
       ],
       "coverage": {
-        "Customers or dealers": 0.79,
-        "Vendors or suppliers": 0.21,
-        "Our own sales reps": 0.1,
-        "Employees": 0.12
+        "Customers or dealers": 0.8,
+        "Vendors or suppliers": 0.24,
+        "Our own sales reps": 0.08,
+        "Employees": 0.1
       }
     },
     {
@@ -142,15 +142,37 @@
           ]
         },
         {
+          "label": "Approve orders, requisitions or requests",
+          "patterns": [
+            "approval workflows?",
+            "require approval",
+            "approv\\w* before",
+            "requisitions?",
+            "request and approval"
+          ]
+        },
+        {
+          "label": "Request and negotiate quotes",
+          "patterns": [
+            "quote requests?",
+            "quoting",
+            "quote (management|workflows|comparison)",
+            "request (a )?quotes?",
+            "\\brfqs?\\b"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Place orders": 0.42,
-        "Pay invoices online": 0.19,
-        "See documents, statements and balances": 0.46,
-        "Raise service, support or return requests": 0.1
+        "Place orders": 0.43,
+        "Pay invoices online": 0.2,
+        "See documents, statements and balances": 0.43,
+        "Raise service, support or return requests": 0.1,
+        "Approve orders, requisitions or requests": 0.12,
+        "Request and negotiate quotes": 0.12
       }
     },
     {
@@ -195,26 +217,13 @@
           ]
         },
         {
-          "label": "Not sure / doesn't matter",
-          "any": true
-        }
-      ],
-      "coverage": {
-        "Need two-factor or external login (MFA, OTP, MitID...)": 0.1
-      }
-    },
-    {
-      "id": "licence",
-      "text": "Must portal users work without their own BC licence?",
-      "multi": false,
-      "options": [
-        {
-          "label": "Yes, no BC licence for portal users",
+          "label": "Control what each user can see by role",
           "patterns": [
-            "without a bc licen",
-            "no (additional )?bc (user )?licen",
-            "no bc access",
-            "without (a )?business central licen"
+            "role-based",
+            "portal user access",
+            "permissions control",
+            "access management",
+            "audit trail"
           ]
         },
         {
@@ -223,7 +232,8 @@
         }
       ],
       "coverage": {
-        "Yes, no BC licence for portal users": 0.06
+        "Need two-factor or external login (MFA, OTP, MitID...)": 0.1,
+        "Control what each user can see by role": 0.16
       }
     },
     {
@@ -243,8 +253,17 @@
         }
       ],
       "coverage": {
-        "Yes, mobile app or mobile-ready": 0.17
+        "Yes, mobile app or mobile-ready": 0.2
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "product search apps already covered by the webshop option",
+      "terms": [
+        "product"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

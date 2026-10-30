@@ -8,39 +8,43 @@
     "publisher": "Alna Business",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.ssp_alna_hr_office%7CPAPPID.ad118807-860b-45e4-b331-f570ac163ccd",
-    "lastModified": "2026-10-05T14:35:14.6854566+00:00",
+    "lastModified": "2026-10-20T16:21:15.8334159+00:00",
     "appVersion": "240.1.7.18",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://www.alna.lt/business/en/solutions/alna-hr-office",
-    "sourceHash": "sha256:3db09317d3b4c7a34c4b32c4e9d7066f713d0f263932ab059ea03fa73adb27bb",
+    "helpLink": "https://www.digmatix.com/en/products/alna-hr-office",
+    "sourceHash": "sha256:0af3f927060327a372f3865e79ff165387befa765fe631bd22a7dc9d5dc1d4de",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3db09317d3b4c7a34c4b32c4e9d7066f713d0f263932ab059ea03fa73adb27bb",
-    "mappedOn": null,
-    "summary": "Administers HR employee self-service portal processes",
-    "shape": "process",
+    "sourceHash": "sha256:0af3f927060327a372f3865e79ff165387befa765fe631bd22a7dc9d5dc1d4de",
+    "mappedOn": "2026-10-30",
+    "summary": "Admin side of an employee self-service web portal for Alna HR Office: leave, payslips, requests.",
+    "shape": "addon",
     "primary": [
-      {
-        "need": "ng-admin-portals",
-        "confidence": "high"
-      },
       {
         "need": "ng-hr-absence-leave",
         "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-hr-employee-records"
+      "ng-admin-approval-workflows",
+      "ng-hr-payroll-comp"
     ],
     "claims": [
-      "Employee self-service portal website administered from BC",
-      "Employees see vacation balance to date and year-end",
-      "Monthly password-protected salary slips",
-      "Employees update personal details",
-      "Managers see subordinates' data and vacation balance",
-      "Vacation, business trip and HR request approval workflow"
+      "Administers a separate self-service portal website from BC",
+      "Employees see vacation balance now and at year end",
+      "Employees get password-protected monthly payslips",
+      "Employees can update their own address and phone details",
+      "Managers see their team's data and vacation balances",
+      "Vacation, business trip and other HR requests are submitted and approved in the portal",
+      "Requires Alna HR Office"
     ],
     "countries": [
       "DK",
@@ -58,14 +62,12 @@
       "lt"
     ],
     "industries": [],
-    "connectsTo": [
-      "Alna Self Service Portal"
-    ],
+    "connectsTo": [],
     "requires": [
       "Alna HR Office"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

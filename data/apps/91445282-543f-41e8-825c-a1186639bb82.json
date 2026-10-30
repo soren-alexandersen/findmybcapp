@@ -8,18 +8,20 @@
     "publisher": "Synfynal",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.synfynal%7CAID.woocommerce-connector%7CPAPPID.91445282-543f-41e8-825c-a1186639bb82",
-    "lastModified": "2026-10-06T14:11:58.7204121+00:00",
-    "appVersion": "28.0.225.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T11:49:44.2479199+00:00",
+    "appVersion": "29.0.242.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.synfynal.com/resources/help",
-    "sourceHash": "sha256:1dda51bd52174d31080134551bac0a7b89aad0b12615e28fd26e191a74cbe270",
+    "sourceHash": "sha256:462e1faec6ae16b4e8442dec3f3a33e519b30d10cc3d4519f133d2822db7f523",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1dda51bd52174d31080134551bac0a7b89aad0b12615e28fd26e191a74cbe270",
-    "mappedOn": null,
-    "summary": "Two-way sync of orders, items, stock and customers with WooCommerce",
+    "sourceHash": "sha256:462e1faec6ae16b4e8442dec3f3a33e519b30d10cc3d4519f133d2822db7f523",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs orders, products, stock, prices and customers between WooCommerce stores and BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,32 +30,41 @@
       }
     ],
     "secondary": [
+      "ng-sales-order-entry",
       "ng-customer-returns"
     ],
     "claims": [
-      "Connects multiple WooCommerce stores to one BC company with own mappings",
-      "Two-way sync of orders, customers, refunds, items, variants, categories, stock, attributes, images, prices and coupons",
-      "WooCommerce orders become sales orders with tax, shipping, fees, coupons mapped",
-      "Posting sends fulfillment and status back",
-      "Refunds imported as return orders",
-      "Matches customers by SKU, email or ID, creates from templates and handles guest customers",
-      "Scheduled sync via job queue",
-      "Post immediately, release or schedule orders",
-      "Sync logs, per-record errors and automatic retries",
-      "Optional modules for B2B customer pricing and multilingual catalogs",
-      "Free in sandbox, 15-day trial in production",
-      "Assisted setup"
+      "Two-way sync of orders, refunds, customers, items, variants, categories, attributes, stock, images, prices and coupons",
+      "Multiple WooCommerce stores can feed one BC company, each with separate mappings",
+      "Web orders arrive as BC sales orders with tax, shipping, fees, coupons and notes",
+      "Fulfilment and status are sent back to WooCommerce when posting",
+      "Orders created in BC are pushed to WooCommerce",
+      "Refunds are imported as return orders",
+      "Matches customers and items by ID, email or SKU and creates missing records from templates",
+      "Choose which items are published to each store",
+      "Sync runs on a schedule through BC job queue entries",
+      "Orders can be posted immediately, released or scheduled, with status filters",
+      "Sync logs with per-record errors and automatic retries",
+      "Optional modules for image sync, metadata, variants as items, customer-specific B2B pricing and multilingual catalogs",
+      "Includes a companion WordPress plugin and events for partner extensions",
+      "Free in sandboxes, 15-day trial in production",
+      "Paid tiers by monthly synced orders and refunds, from $60 to $250 per month",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
-    "languages": [],
-    "industries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "WooCommerce",
       "WordPress"
     ],
     "requires": [],
     "deployment": "online",
-    "pricing": "per_transaction",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

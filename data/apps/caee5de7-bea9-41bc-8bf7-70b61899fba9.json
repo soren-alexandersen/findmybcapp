@@ -8,19 +8,21 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex103_powermes%7CPAPPID.caee5de7-bea9-41bc-8bf7-70b61899fba9",
-    "lastModified": "2026-04-10T18:23:49.1869034+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T15:13:05.8149677+00:00",
+    "appVersion": "29.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-mes-pmes.html",
-    "sourceHash": "sha256:77ce6897fe93fa082f83e417a6aab64ba435c8d7b5af3ec0f53fac53ac50f3bc",
+    "sourceHash": "sha256:cbe1347965bc059aec3a627d528cda4988b6db5e2777445ca1f1fa03486bd832",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:77ce6897fe93fa082f83e417a6aab64ba435c8d7b5af3ec0f53fac53ac50f3bc",
-    "mappedOn": null,
-    "summary": "Real-time manufacturing execution and shop floor monitoring",
-    "shape": "process",
+    "sourceHash": "sha256:cbe1347965bc059aec3a627d528cda4988b6db5e2777445ca1f1fa03486bd832",
+    "mappedOn": "2026-10-30",
+    "summary": "Real-time production panels for monitoring and reporting each production stage, on EOS MES.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
@@ -32,14 +34,14 @@
       "ng-admin-devices"
     ],
     "claims": [
-      "Real-time monitoring of every production stage",
+      "Monitors and manages every production stage in real time",
       "Configurable production panels",
       "Barcodes on production orders",
-      "Posting on 3 levels",
+      "Posting on three levels",
       "Multi-language and multi-company",
-      "Collects process quality data",
-      "Requires EOS MES Manufacturing execution system",
-      "Premium edition only"
+      "All parameters kept centrally in BC",
+      "Needs an EOS MES subscription",
+      "Requires the Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -51,7 +53,10 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Sustainability"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS MES Manufacturing execution system"

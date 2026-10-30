@@ -8,57 +8,65 @@
     "publisher": "giant Computer Systems",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.marcbreuer1769905304294%7CAID.tactoconnect%7CPAPPID.f1134ea8-b256-4120-8fb9-452614445641",
-    "lastModified": "2026-07-06T04:52:03.0011158+00:00",
-    "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T06:55:09.3058109+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
-    "helpLink": "https://businesscentral.giant-software.de/en/product/tactoconnect/help",
-    "sourceHash": "sha256:690eaf9ea863f2267b5360b7190332c9e83fcc428a6159f8cf84094ff3fc1c55",
+    "helpLink": "https://help.tacto.ai/en/articles/737323-automatic-data-export-from-microsoft-dynamics-365-business-central",
+    "sourceHash": "sha256:8d58eb1bde7cfd7f8ee67394bad37c105301dfd72ab39429ea6ed4e8961d1d39",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:690eaf9ea863f2267b5360b7190332c9e83fcc428a6159f8cf84094ff3fc1c55",
-    "mappedOn": null,
-    "summary": "Exports purchasing data to Tacto procurement platform",
+    "sourceHash": "sha256:8d58eb1bde7cfd7f8ee67394bad37c105301dfd72ab39429ea6ed4e8961d1d39",
+    "mappedOn": "2026-10-30",
+    "summary": "Exports BC purchasing data to Tacto and imports order confirmations and vendor updates.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-procurement-spend",
-        "confidence": "medium"
+        "need": "ng-purchase-orders",
+        "confidence": "high"
       },
       {
-        "need": "ng-admin-integration-sync",
+        "need": "ng-procurement-spend",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-job-queue-setup"
+      "ng-supplier-onboarding",
+      "ng-admin-integration-sync"
     ],
     "claims": [
-      "Exports items, vendors, prices and purchase documents to Tacto as CSV",
-      "Read-only, never modifies BC data",
-      "About two dozen purchasing datasets preconfigured",
-      "Configurable tables, fields, field order and file names without code",
-      "Date formula filter per table",
-      "Option to export only items referenced in purchase documents",
-      "ZIP download of all CSV files",
-      "Automatic upload to Azure Blob Storage with OAuth 2.0 / Entra ID",
-      "Local server path delivery on-premises",
-      "Scheduled export via Job Queue",
-      "Lists exported files so they can be checked and downloaded again",
-      "Configuration export and import between companies",
-      "Requires BC 24.0 or later"
+      "Exports items, vendors, prices and purchase documents as CSV files",
+      "25 purchasing datasets enabled out of the box",
+      "Configurable tables, fields, field order and stacked filters",
+      "Option to export only items you actually buy",
+      "Delivery by ZIP download, Azure Blob Storage or a local server path (on-prem)",
+      "Azure Blob upload uses OAuth 2.0 client credentials with a connection test",
+      "Writes supplier confirmations of quantity, price, discount and date onto purchase orders",
+      "Respects approvals when reopening released orders",
+      "Can attach the confirmation PDF to the purchase order",
+      "Updates existing vendors and contact persons from Tacto files",
+      "Logs each imported file, rejects unclear matches and avoids double imports",
+      "New IBANs are only reported until bank account creation is allowed",
+      "Scheduled nightly export and import every 15 minutes",
+      "Configuration and mappings can be moved between companies as files",
+      "Separate permission sets for admin, export and import",
+      "Requires Business Central 24.0 or later, Essentials or Premium"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "de",
+      "en"
+    ],
     "industries": [],
     "connectsTo": [
-      "Tacto",
-      "Azure Blob Storage"
+      "Tacto"
     ],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

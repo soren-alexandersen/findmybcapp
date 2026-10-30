@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.indexofsolutions1735901590684|AID.uaeeinvoicing|PAPPID.ceda94c7-4546-4137-8068-ddefebe9c504",
+  "guid": "ceda94c7-4546-4137-8068-ddefebe9c504",
+  "publisherId": "indexofsolutions1735901590684",
+  "offerId": "uaeeinvoicing",
+  "source": {
+    "name": "UAE E-Invoicing",
+    "publisher": "Index Of Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.indexofsolutions1735901590684%7CAID.uaeeinvoicing%7CPAPPID.ceda94c7-4546-4137-8068-ddefebe9c504",
+    "lastModified": "2026-10-28T13:10:33.8489956+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.indexofsolutions.com/contact",
+    "sourceHash": "sha256:ea87a41d08b435721c807d095285b098c75f0ad593fd6a6edae79499b50bc165",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:ea87a41d08b435721c807d095285b098c75f0ad593fd6a6edae79499b50bc165",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends UAE invoices and credit notes over Peppol PINT AE to buyers and the FTA.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Sends posted invoices as PINT AE documents over Peppol, covering delivery and FTA reporting",
+      "Credit memos sent as credit notes with the FTA reason code",
+      "Tracks reporting and delivery status separately on each document",
+      "Logs each submission with payload and response",
+      "Maps VAT categories including reverse charge and margin scheme",
+      "Stores and validates Peppol ID and emirate on the customer card",
+      "Explains missing data in plain language before sending",
+      "Requires an account and contract with Flick Network",
+      "Send only; incoming supplier invoices are not imported"
+    ],
+    "countries": [
+      "AE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "Flick Network",
+      "UAE FTA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

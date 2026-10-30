@@ -8,8 +8,8 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.2e6c0fa9-d096-4daa-9224-0811a09964a2%7CPAPPID.75618fa1-415d-4a07-9de1-8f9fbd29e2ee",
-    "lastModified": "2026-09-01T18:10:46.9300205+00:00",
-    "appVersion": "28.2.3.4060",
+    "lastModified": "2026-10-30T06:28:12.2689336+00:00",
+    "appVersion": "29.0.1.4212",
     "pricingTypes": [
       "ContactPublisher"
     ],

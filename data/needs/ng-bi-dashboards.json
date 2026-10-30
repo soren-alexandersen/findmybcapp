@@ -156,10 +156,10 @@
         }
       ],
       "coverage": {
-        "Power BI": 0.64,
-        "Inside Business Central": 0.05,
+        "Power BI": 0.65,
+        "Inside Business Central": 0.06,
         "Excel": 0.13,
-        "Our own database, data lake or Fabric": 0.34
+        "Our own database, data lake or Fabric": 0.36
       }
     },
     {
@@ -206,7 +206,7 @@
       ],
       "coverage": {
         "Finished reports and dashboards": 0.44,
-        "Raw data, we build our own": 0.34
+        "Raw data, we build our own": 0.32
       }
     },
     {
@@ -265,9 +265,9 @@
       "coverage": {
         "Finance and cash": 0.43,
         "Sales": 0.38,
-        "Inventory and warehouse": 0.39,
-        "Projects": 0.18,
-        "Manufacturing": 0.1
+        "Inventory and warehouse": 0.4,
+        "Projects": 0.16,
+        "Manufacturing": 0.12
       }
     },
     {
@@ -324,7 +324,7 @@
       "coverage": {
         "Several BC companies": 0.12,
         "Data from other systems too": 0.08,
-        "Data from other BC apps or custom fields": 0.14
+        "Data from other BC apps or custom fields": 0.15
       }
     },
     {
@@ -358,9 +358,18 @@
         }
       ],
       "coverage": {
-        "Live or near real-time": 0.16,
+        "Live or near real-time": 0.14,
         "Daily or scheduled refresh is fine": 0.18
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'filter' wording",
+      "terms": [
+        "filter"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

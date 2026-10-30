@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-mail-template|PAPPID.950e74fb-6e82-496e-ae6a-ecffb8805d3b",
+  "guid": "950e74fb-6e82-496e-ae6a-ecffb8805d3b",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-mail-template",
+  "source": {
+    "name": "Beyond Mail Template",
+    "publisher": "BEYONDIT GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-mail-template%7CPAPPID.950e74fb-6e82-496e-ae6a-ecffb8805d3b",
+    "lastModified": "2026-10-23T11:56:42.7078441+00:00",
+    "appVersion": "2026.10.26.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:159b429d14a75a3115d833e3260346e450f28676f454e71380c46ac993be193c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:159b429d14a75a3115d833e3260346e450f28676f454e71380c46ac993be193c",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based email templates with placeholders for sales, purchase and service documents.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sender, CC, BCC and subject per template",
+      "Rich text body with tables, images and links",
+      "Placeholders from any table and field, with fallback defaults",
+      "Filter rules pick the template per document automatically",
+      "Separate mail text per language code",
+      "Button-triggered templates kept apart from workflow templates",
+      "Live preview against a real document",
+      "Uses standard BC email accounts and sent-emails log",
+      "Sent Emails factbox on relevant pages",
+      "Available in English and German"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

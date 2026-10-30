@@ -8,46 +8,49 @@
     "publisher": "FM IT ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fmitaps1620939636066%7CAID.shpfy_json_mapping_free%7CPAPPID.ff2aab78-cc76-4b3d-9b2a-f9dec4ad15c3",
-    "lastModified": "2026-10-02T14:35:36.8481129+00:00",
-    "appVersion": "28.0.118.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:15:41.2757772+00:00",
+    "appVersion": "28.0.120.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://fm-it.dk/products/ShpfyConnExtend/help/",
-    "sourceHash": "sha256:b5dac5a7d3174014067e0f1e3e764bd860ece1b4a0a96d03e711e89b2aca8e9e",
+    "sourceHash": "sha256:70d080244c1defc0734e08afde431fa4df79f9d0fa7957db4867589f30cfe72c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b5dac5a7d3174014067e0f1e3e764bd860ece1b4a0a96d03e711e89b2aca8e9e",
-    "mappedOn": null,
-    "summary": "Extends standard Shopify connector with mapping and auto picks",
+    "sourceHash": "sha256:70d080244c1defc0734e08afde431fa4df79f9d0fa7957db4867589f30cfe72c",
+    "mappedOn": "2026-10-30",
+    "summary": "Extends the standard Shopify Connector with field mapping, dimensions, reservations and auto picks.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-conn-webshop",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-order-entry",
-      "ng-allocation-picking"
+      "ng-ux-dimensions",
+      "ng-allocation-picking",
+      "ng-order-allocation"
     ],
     "claims": [
-      "Maps Shopify JSON fields to sales header, lines and freight",
-      "Maps multiple shipping methods using filters",
-      "Adds Shopify shop default dimensions to imported orders",
-      "Auto-reserves sales order lines on conversion",
-      "Auto-creates warehouse pick on conversion",
-      "Adds Shopify order reference to refund credit documents",
-      "Enforces one payment method on refunds and Shopify orders",
-      "Switches shipping agent and location depending on Shopify tags"
+      "Maps fields from the Shopify order JSON to sales header, lines and freight",
+      "Maps several Shopify shipping methods using filters",
+      "Applies default Shopify shop dimensions to every imported sales order",
+      "Reserves item lines automatically when a Shopify order becomes a sales order",
+      "Creates a warehouse pick automatically when the location uses warehouse picks",
+      "Adds the Shopify order reference as a comment line on refund credit memos",
+      "Forces a chosen payment method on Shopify orders and refunds",
+      "Sets order location and shipping agent from Shopify tags",
+      "Requires the standard Shopify Connector to be installed",
+      "Works with Essentials and Premium editions"
     ],
-    "countries": [
-      "AU",
-      "CA",
-      "DK",
-      "GB",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "en"
@@ -60,7 +63,7 @@
       "Shopify Connector"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

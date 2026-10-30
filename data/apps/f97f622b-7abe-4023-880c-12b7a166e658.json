@@ -8,18 +8,20 @@
     "publisher": "Telos Team ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.telosteamprebenrasmussen%7CAID.telosteam_dun_and_bradstreet_integration%7CPAPPID.f97f622b-7abe-4023-880c-12b7a166e658",
-    "lastModified": "2026-09-30T13:22:16.1816572+00:00",
-    "appVersion": "1.8.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T13:00:39.3874509+00:00",
+    "appVersion": "1.8.6.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://telosteam.dk/apps/dnb/#help",
-    "sourceHash": "sha256:765f120937290538190aee8de61a2d0757d6fb17fd1964626dfe1c6f9871653c",
+    "sourceHash": "sha256:a0df280a5dd414901f19792bf2228e8559d6714d1ff9719b12a18e6f22cf96d2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:765f120937290538190aee8de61a2d0757d6fb17fd1964626dfe1c6f9871653c",
-    "mappedOn": null,
-    "summary": "Matches, enriches and monitors customers and vendors with D&B data",
+    "sourceHash": "sha256:a0df280a5dd414901f19792bf2228e8559d6714d1ff9719b12a18e6f22cf96d2",
+    "mappedOn": "2026-10-30",
+    "summary": "Matches, enriches and monitors contacts, customers and vendors with Dun & Bradstreet data.",
     "shape": "connector",
     "primary": [
       {
@@ -29,17 +31,19 @@
     ],
     "secondary": [
       "ng-crm-accounts",
+      "ng-lead-management",
       "ng-supplier-onboarding"
     ],
     "claims": [
-      "Matches contacts, customers and vendors to D-U-N-S numbers",
-      "Enriches records by importing D&B information",
-      "Worldwide company search with quick, match, criteria and list search",
-      "Create contacts, customers or vendors from search results",
-      "Monitors and notifies daily changes",
-      "Any standard field updatable from integration",
-      "Registration, VAT and tax numbers per country",
-      "Default setup shipped"
+      "Finds the DUNS number for existing contacts, customers and vendors",
+      "Updates records with data imported from Dun & Bradstreet",
+      "Worldwide company search via quick, match, criteria and list search",
+      "Create one or many contacts, customers or vendors from search results",
+      "Monitors and notifies daily changes from Dun & Bradstreet",
+      "Covers ship-to and order addresses as well",
+      "Configurable field updates, fact boxes and analysis views",
+      "Registration, VAT and tax numbers set up per country",
+      "Ships with a default setup"
     ],
     "countries": [],
     "languages": [
@@ -47,8 +51,8 @@
       "de",
       "en",
       "fr",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [],
@@ -57,7 +61,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

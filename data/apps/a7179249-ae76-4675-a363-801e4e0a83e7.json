@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.2dbf4fd0-32a9-45ee-9256-87c9f56c407b%7CPAPPID.a7179249-ae76-4675-a363-801e4e0a83e7",
-    "lastModified": "2026-07-02T13:36:04.9031607+00:00",
-    "appVersion": "28.1.0.131",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:05:12.7049425+00:00",
+    "appVersion": "29.0.0.140",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:2b8f09337af8f36a8dcb1e24d0853fd62971e2a7385cabc78bb7ab0a35e93202",
+    "sourceHash": "sha256:62bd37d26cd83ef3c39a4db0374e00b889d79e6341d396bfaeec133d3743f97b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2b8f09337af8f36a8dcb1e24d0853fd62971e2a7385cabc78bb7ab0a35e93202",
-    "mappedOn": null,
-    "summary": "Adds Norwegian as a language in LS Central",
+    "sourceHash": "sha256:62bd37d26cd83ef3c39a4db0374e00b889d79e6341d396bfaeec133d3743f97b",
+    "mappedOn": "2026-10-30",
+    "summary": "Norwegian user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,25 +31,25 @@
     ],
     "secondary": [],
     "claims": [
-      "Norwegian translation of LS Central",
-      "Supports the whole LS Central retail and hospitality feature set in Norwegian"
+      "Translates LS Central on BC into Norwegian",
+      "Covers LS Central retail and hospitality functions in Norwegian"
     ],
     "countries": [
       "NO"
     ],
     "languages": [
-      "nb"
+      "no"
     ],
     "industries": [
-      "Hospitality",
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

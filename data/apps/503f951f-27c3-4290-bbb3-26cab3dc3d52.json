@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.one-it1694597015625|AID.personalization_transfer|PAPPID.503f951f-27c3-4290-bbb3-26cab3dc3d52",
+  "guid": "503f951f-27c3-4290-bbb3-26cab3dc3d52",
+  "publisherId": "one-it1694597015625",
+  "offerId": "personalization_transfer",
+  "source": {
+    "name": "Personalization Transfer",
+    "publisher": "One-IT",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.one-it1694597015625%7CAID.personalization_transfer%7CPAPPID.503f951f-27c3-4290-bbb3-26cab3dc3d52",
+    "lastModified": "2026-10-23T10:51:44.7163454+00:00",
+    "appVersion": "28.5.152.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.one-it.nl/contact",
+    "sourceHash": "sha256:b9a57f5424eadca56a2e32d1753a309c398aed0462e2034ba107d9f8a0b35e98",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b9a57f5424eadca56a2e32d1753a309c398aed0462e2034ba107d9f8a0b35e98",
+    "mappedOn": "2026-10-30",
+    "summary": "Moves role customizations and user personalizations between BC environments and users",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-rolecenters",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-users-signin",
+      "ng-admin-backup-recovery"
+    ],
+    "claims": [
+      "Exports roles with customized pages plus chosen users' personalizations",
+      "Package via file download or direct send to another environment in the tenant",
+      "Target admins accept or reject incoming packages",
+      "Preview per page whether it is added, overwritten, kept or skipped",
+      "Maps users whose names differ between environments",
+      "Choose to keep or overwrite existing personalizations",
+      "Shows BC version and extension differences before import",
+      "Never applies packages automatically",
+      "Licensed per admin user; GDAP partners need no license",
+      "BC online only, English and Dutch"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

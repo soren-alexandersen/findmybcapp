@@ -8,19 +8,21 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex01003_commissionforsimulatedglentries%7CPAPPID.c726199a-3b2c-46d7-a414-c0682040fd9b",
-    "lastModified": "2026-04-13T06:39:07.0721121+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T08:09:18.7513798+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms.html",
-    "sourceHash": "sha256:f8b4f8f5ea7d9eaa56ad4d818ca0d358a85bb4d2624e291c7bd8b8802b424bfc",
+    "sourceHash": "sha256:2e54f1db75432ebe131bbab2f635da95a2fe4e4248a2c82ef13ba3d5374f5763",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f8b4f8f5ea7d9eaa56ad4d818ca0d358a85bb4d2624e291c7bd8b8802b424bfc",
-    "mappedOn": null,
-    "summary": "Salesperson commission costs in simulated G/L entries",
-    "shape": "process",
+    "sourceHash": "sha256:2e54f1db75432ebe131bbab2f635da95a2fe4e4248a2c82ef13ba3d5374f5763",
+    "mappedOn": "2026-10-30",
+    "summary": "Bridge app posting EOS commission cost allocations as simulated entries instead of G/L.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-sales-commissions",
@@ -28,11 +30,11 @@
       }
     ],
     "secondary": [
-      "ng-accruals-deferrals"
+      "ng-cost-allocation"
     ],
     "claims": [
-      "Commission cost allocation written to simulated entries instead of G/L",
-      "Free, but needs EOS Accruals and Simulated GL plus EOS Commissions"
+      "Commission cost allocation writes simulated entries rather than G/L entries",
+      "Free, but both base EOS apps need active subscriptions"
     ],
     "countries": [],
     "languages": [
@@ -43,17 +45,20 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Financial Services"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Commissions",
-      "EOS Accruals and Simulated General Ledger"
+      "EOS Accruals and Simulated GL entries"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free",
     "hide": false,
     "hideReason": "",

@@ -20,7 +20,9 @@
     "Find out where our processes actually get stuck in BC",
     "Trigger an action when a field changes",
     "workflow engine beyond approvals",
-    "Automate the boring steps without calling the partner"
+    "Automate the boring steps without calling the partner",
+    "We want to see where our processes get stuck",
+    "Our automations need to pull data from other systems too"
   ],
   "questions": [
     {
@@ -69,15 +71,22 @@
           ]
         },
         {
+          "label": "Creating or maintaining master data",
+          "patterns": [
+            "master data"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Approvals": 0.35,
-        "Status steps on records and documents": 0.35,
-        "Mandatory fields and checklists": 0.42,
-        "Actions triggered by events": 0.35
+        "Approvals": 0.39,
+        "Status steps on records and documents": 0.25,
+        "Mandatory fields and checklists": 0.29,
+        "Actions triggered by events": 0.39,
+        "Creating or maintaining master data": 0.07
       }
     },
     {
@@ -97,7 +106,7 @@
         }
       ],
       "coverage": {
-        "Yes, connect to it": 0.23
+        "Yes, connect to it": 0.25
       }
     },
     {
@@ -123,7 +132,7 @@
         }
       ],
       "coverage": {
-        "Business users, no code": 0.35
+        "Business users, no code": 0.43
       }
     },
     {
@@ -148,7 +157,7 @@
         }
       ],
       "coverage": {
-        "Yes, other systems too": 0.27
+        "Yes, other systems too": 0.32
       }
     },
     {
@@ -170,7 +179,7 @@
         }
       ],
       "coverage": {
-        "Yes, notify users": 0.31
+        "Yes, notify users": 0.32
       }
     },
     {
@@ -192,8 +201,91 @@
         }
       ],
       "coverage": {
-        "Yes, keep a history": 0.5
+        "Yes, keep a history": 0.54
       }
+    },
+    {
+      "id": "should-rules-also-work-on-data",
+      "text": "Should rules also work on data from other apps or your own customisations?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, on any table incl. add-ons",
+          "patterns": [
+            "any table",
+            "all bc tables",
+            "custom tables",
+            "any record type"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on any table incl. add-ons": 0.11
+      }
+    },
+    {
+      "id": "do-you-want-to-see-how-your-pr",
+      "text": "Do you want to see how your processes actually run and where they get stuck?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, monitor processes and find bottlenecks",
+          "patterns": [
+            "process mining",
+            "bottleneck",
+            "monitor"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, monitor processes and find bottlenecks": 0.21
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "publisher product names (Aptean)",
+      "terms": [
+        "advanc",
+        "aptean"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "filter syntax, configuration detail",
+      "terms": [
+        "filter"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "Team Member licensing",
+      "terms": [
+        "member"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "source systems, already covered by the external-systems option",
+      "terms": [
+        "sourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "other systems, already covered by the external-systems option",
+      "terms": [
+        "system"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

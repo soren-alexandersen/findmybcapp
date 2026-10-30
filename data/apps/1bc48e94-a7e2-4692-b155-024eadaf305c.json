@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/notify-365-for-whatsapp/",
     "sourceHash": "sha256:e200af7d9b8f4d107014a76e5a07bd83cdf0ebcd65a8123fc2b3abd8fdf5dfe8",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:e200af7d9b8f4d107014a76e5a07bd83cdf0ebcd65a8123fc2b3abd8fdf5dfe8",

@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2yotpo%7CPAPPID.96020041-63df-458f-8e11-98895200ef06",
-    "lastModified": "2025-06-12T09:53:36.7786963+00:00",
+    "lastModified": "2026-10-19T10:47:38.4056212+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:57dd175e04e39c5cdf5573de2b0f36b493112bb7cf9d772d3471b2fe0af61c59",
+    "sourceHash": "sha256:633f86125b26d423387a8a4d6a62447cc6a1476c33957982248c07aee8031d56",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:57dd175e04e39c5cdf5573de2b0f36b493112bb7cf9d772d3471b2fe0af61c59",
-    "mappedOn": null,
-    "summary": "Integrates Yotpo e-commerce email marketing with BC",
+    "sourceHash": "sha256:633f86125b26d423387a8a4d6a62447cc6a1476c33957982248c07aee8031d56",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with Yotpo ecommerce email marketing.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires yotpo",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing yotpo account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Yotpo"
     ],
-    "requires": [
-      "Yotpo"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

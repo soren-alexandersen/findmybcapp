@@ -8,18 +8,20 @@
     "publisher": "innovis GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innovis-acs%7CAID.ivs_simpleedi%7CPAPPID.46655971-0727-4a01-93c2-35e7facb1ab9",
-    "lastModified": "2026-09-28T12:57:54.1704957+00:00",
-    "appVersion": "1.0.26.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:56:05.6101732+00:00",
+    "appVersion": "1.0.31.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://bizapps-acs.de/articles/de-de/simpleEDI/overview.html",
-    "sourceHash": "sha256:bcda0bc3af897088e16fa350eabf2e746f6a50d6d9e33c6a553aceedcbca828f",
+    "sourceHash": "sha256:30ea46807b9edaf454dcae434974cd947cdf49dad8fadef65ca2b40d680f836d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bcda0bc3af897088e16fa350eabf2e746f6a50d6d9e33c6a553aceedcbca828f",
-    "mappedOn": null,
-    "summary": "EDI with trading partners via Procuros",
+    "sourceHash": "sha256:30ea46807b9edaf454dcae434974cd947cdf49dad8fadef65ca2b40d680f836d",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC to the Procuros hub for EDI, API and supplier-portal exchange with trading partners.",
     "shape": "connector",
     "primary": [
       {
@@ -31,13 +33,14 @@
       "ng-sales-order-entry"
     ],
     "claims": [
-      "Automates B2B transactions via the Procuros integration hub",
-      "Automates exchange of all order documents with customers, suppliers and logistics",
-      "Connects to German retailers such as Edeka, Rewe, Kaufland, ALDI, Lidl, DM, Rossmann",
+      "Uses the Procuros integration hub to automate B2B document exchange",
+      "Exchanges order documents with customers, suppliers and logistics partners",
+      "Connects to retailers such as Edeka, Rewe, Kaufland, ALDI and Lidl",
       "Connects to supplier portals such as Coupa, SAP Ariba and Jaggaer",
-      "Connecting new trading partners is free",
-      "Supports EDI, API or supplier portal connectivity",
-      "Validates order data like delivery date or item number immediately"
+      "Supports EDI, API and supplier portal connections",
+      "New trading partners can be added at no extra charge",
+      "Checks order data such as delivery date and item number on receipt",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "DE",
@@ -56,7 +59,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

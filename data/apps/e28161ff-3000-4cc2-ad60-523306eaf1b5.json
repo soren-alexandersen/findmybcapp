@@ -8,27 +8,25 @@
     "publisher": "Flowwa",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.leseditionscompagnons%7CAID.io_agicap_api%7CPAPPID.e28161ff-3000-4cc2-ad60-523306eaf1b5",
-    "lastModified": "2026-10-01T12:58:15.7350576+00:00",
-    "appVersion": "1.28.26274.8311",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T13:27:40.3662867+00:00",
+    "appVersion": "1.28.26292.8392",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.flowwa.io/",
-    "sourceHash": "sha256:c6f6af0046e70361fcc0db6d97431ed9e3a7d3f4d8393e765bc63e8f71a7b80e",
+    "sourceHash": "sha256:1339ee8f1e1c2fae656243236fd2b4ac3b2bc1685daeb3adf9b9745e33827a40",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c6f6af0046e70361fcc0db6d97431ed9e3a7d3f4d8393e765bc63e8f71a7b80e",
-    "mappedOn": null,
-    "summary": "Connects BC with Agicap cash management",
+    "sourceHash": "sha256:1339ee8f1e1c2fae656243236fd2b4ac3b2bc1685daeb3adf9b9745e33827a40",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges accounting, bank and payment data between BC and the Agicap cash management tool.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-cash-forecast",
-        "confidence": "medium"
-      },
-      {
-        "need": "ng-admin-integration-sync",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
@@ -36,12 +34,13 @@
       "ng-ap-payments"
     ],
     "claims": [
-      "Accounting data synchronization between BC and Agicap",
-      "Purchase journal and bank journal exchanges",
-      "Bank statement integration",
-      "Payment file management",
-      "Chart of accounts synchronization",
-      "Financial and analytical data exchange"
+      "Automated exchange of financial data between BC and Agicap",
+      "Synchronizes accounting data",
+      "Exchanges purchase journals and bank journals",
+      "Integrates bank statements",
+      "Handles payment files",
+      "Synchronizes the chart of accounts",
+      "Flows available depend on configuration"
     ],
     "countries": [],
     "languages": [],
@@ -51,7 +50,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

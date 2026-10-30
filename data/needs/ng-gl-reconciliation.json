@@ -44,7 +44,9 @@
     "Is there a report that compares FA posting groups with G/L balances?",
     "Assets acquired in one book but not posted to G/L",
     "Migrated assets from the old system don't match opening balances",
-    "Reconcile assets in each company before consolidation"
+    "Reconcile assets in each company before consolidation",
+    "We need to find out why our inventory or receivables balance does not match the general ledger",
+    "Our auditors want reconciliation evidence we can export"
   ],
   "questions": [
     {
@@ -95,7 +97,10 @@
             "financial close",
             "balance sheet (account|reconcil)",
             "reviews at date",
-            "tracked reviews"
+            "tracked reviews",
+            "closing the books",
+            "close (activities|tasks?)",
+            "g/l account and vat tasks"
           ]
         },
         {
@@ -108,16 +113,27 @@
           ]
         },
         {
+          "label": "Finding out why balances differ (variance analysis)",
+          "patterns": [
+            "varianc",
+            "causes of",
+            "analysis based on [^;]{0,30}posting",
+            "account (card )?analysis",
+            "g/l correspondence"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Clearing open entries on G/L accounts (suspense, accruals, clearing accounts)": 0.43,
-        "Checking customer, vendor or inventory balances agree with the G/L": 0.21,
+        "Clearing open entries on G/L accounts (suspense, accruals, clearing accounts)": 0.4,
+        "Checking customer, vendor or inventory balances agree with the G/L": 0.2,
         "Confirming balances with customers and vendors": 0.07,
-        "Month-end close and balance sheet sign-off": 0.21,
-        "Applying open customer and vendor entries": 0.14
+        "Month-end close and balance sheet sign-off": 0.27,
+        "Applying open customer and vendor entries": 0.13,
+        "Finding out why balances differ (variance analysis)": 0.17
       }
     },
     {
@@ -143,7 +159,7 @@
         }
       ],
       "coverage": {
-        "Yes, automatic matching": 0.32
+        "Yes, automatic matching": 0.3
       }
     },
     {
@@ -166,7 +182,7 @@
         }
       ],
       "coverage": {
-        "Yes, scheduled": 0.18
+        "Yes, scheduled": 0.2
       }
     },
     {
@@ -185,7 +201,9 @@
             "comment",
             "attach (feedback|notes)",
             "compliance",
-            "traceable"
+            "traceable",
+            "for auditors",
+            "reconciliation records"
           ]
         },
         {
@@ -194,7 +212,7 @@
         }
       ],
       "coverage": {
-        "Yes, we need review trail and documentation": 0.29
+        "Yes, we need review trail and documentation": 0.27
       }
     },
     {
@@ -219,8 +237,73 @@
         }
       ],
       "coverage": {
-        "Yes, partial settlement": 0.21
+        "Yes, partial settlement": 0.2
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "application wording; these apps already match the G/L clearing option",
+      "terms": [
+        "application"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "statement wording; these apps already match the balance confirmation option",
+      "terms": [
+        "statement"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "dimension filters and validation are generic ledger tooling, not a reconciliation choice",
+      "terms": [
+        "dimension"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'filter' wording",
+      "terms": [
+        "filter"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'view' wording (saved views, viewers)",
+      "terms": [
+        "view"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'custom' wording",
+      "terms": [
+        "custom"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "app interface languages",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "installation details",
+      "terms": [
+        "install"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'analysis' wording, variance option covers it",
+      "terms": [
+        "analysi"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

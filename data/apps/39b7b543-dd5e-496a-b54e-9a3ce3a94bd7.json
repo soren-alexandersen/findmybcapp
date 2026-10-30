@@ -8,47 +8,54 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_service%7CPAPPID.39b7b543-dd5e-496a-b54e-9a3ce3a94bd7",
-    "lastModified": "2026-10-06T08:28:04.4656369+00:00",
-    "appVersion": "5.5.10001.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:14:41.788545+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-service/",
-    "sourceHash": "sha256:38425ffa3b44ca0a715a050f3a117bcef3f25189e83e933a3b026f1922466aca",
+    "sourceHash": "sha256:606b8e5d41676feb12294f4ae645f59e88253bbc5db4edf01e813a321c9571b3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:38425ffa3b44ca0a715a050f3a117bcef3f25189e83e933a3b026f1922466aca",
-    "mappedOn": null,
-    "summary": "Service and rental management covering service business processes",
-    "shape": "vertical",
+    "sourceHash": "sha256:606b8e5d41676feb12294f4ae645f59e88253bbc5db4edf01e813a321c9571b3",
+    "mappedOn": "2026-10-30",
+    "summary": "Service work orders, maintenance plans, technician planning and Android mobile app.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-svc-requests",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
         "need": "ng-svc-dispatch",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-maintenance-planned",
+        "need": "ng-svc-field-execution",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-svc-field-execution",
-      "ng-svc-analytics"
+      "ng-svc-assets",
+      "ng-svc-analytics",
+      "ng-svc-offerings-pricing",
+      "ng-svc-contracts"
     ],
     "claims": [
       "Work orders and quotes",
       "Models and service items",
-      "Maintenance plans per model generating scheduled proposals",
-      "Graphical resource planning for intervention assignment",
-      "Customizable service prices and specific billing",
-      "Service cost and revenue analysis",
-      "Spare parts and checklist activities on work orders",
-      "Android mobile app with offline mode",
-      "60-day free trial"
+      "Maintenance plans per model with proposals for scheduled work",
+      "Graphical resource planning for assigning interventions",
+      "Items, spare parts and checklists on work orders",
+      "Integrated with BC purchasing for supply",
+      "Customisable service prices and dedicated billing",
+      "Cost and revenue analysis",
+      "Android mobile app for phones and tablets",
+      "Mobile app works offline",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +64,9 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

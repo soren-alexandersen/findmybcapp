@@ -8,18 +8,20 @@
     "publisher": "NavBiz d.o.o.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_mrp_material_requirements_planning%7CPAPPID.ebaa564d-0006-48a7-8bdd-622f976a56c3",
-    "lastModified": "2024-11-22T06:38:00.5518161+00:00",
-    "appVersion": "23.0.20231120.103806",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T22:38:28.419672+00:00",
+    "appVersion": "28.1.20261026.221221",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://navbiz.hr/info/",
-    "sourceHash": "sha256:108dee2d1214678dc4fd48e1c90fe40ea8f57f1ab72b3782e41c71775951d992",
+    "sourceHash": "sha256:18f36296c26f6e19221a491826597144f6ba5a180d067de5af1e89eae7f0d868",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:108dee2d1214678dc4fd48e1c90fe40ea8f57f1ab72b3782e41c71775951d992",
-    "mappedOn": null,
-    "summary": "Material requirements planning",
+    "sourceHash": "sha256:18f36296c26f6e19221a491826597144f6ba5a180d067de5af1e89eae7f0d868",
+    "mappedOn": "2026-10-30",
+    "summary": "Material requirements calculation from forecasts or sales budgets, with purchase order creation.",
     "shape": "process",
     "primary": [
       {
@@ -31,26 +33,28 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
     "claims": [
-      "Works out which materials and components a product needs for manufacturing",
-      "Plan generated from production forecast or sales budget (item budget) entries",
-      "Overview of components needed, grouped by production BOM",
-      "Overview showing the total quantity needed for each item",
-      "Includes stock at default location, open purchase order quantities and safety stock",
+      "Calculates components needed to manufacture products",
+      "Plan driven by production forecast or item sales budget entries",
+      "Component overview by production BOM and total required quantities per item",
+      "Can include stock at default location, open purchase quantities and safety stock",
       "Creates purchase orders from the calculation",
-      "Purchase proposal report by vendor",
-      "Supports Essentials and Premium editions"
+      "Purchase proposal report grouped by vendor",
+      "Available in English and Croatian"
     ],
     "countries": [],
-    "languages": [],
-    "industries": [
-      "Manufacturing"
+    "languages": [
+      "en",
+      "hr"
     ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

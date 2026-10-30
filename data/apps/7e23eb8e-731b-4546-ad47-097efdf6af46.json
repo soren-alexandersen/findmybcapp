@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.726d82bd-49c1-4147-9a96-acd9866c2629%7CPAPPID.7e23eb8e-731b-4546-ad47-097efdf6af46",
-    "lastModified": "2026-07-02T13:25:01.8679347+00:00",
-    "appVersion": "28.1.0.125",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:31:12.546075+00:00",
+    "appVersion": "29.0.0.134",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:afee6eb9435737e6e7e3cde06f61d66dc62d54044e0afd0b52b1d77282aff286",
+    "sourceHash": "sha256:2cfca63609c7b57166a1e6d30ca61f8c7e4c6c871f09e9868d96f3d09335459e",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:afee6eb9435737e6e7e3cde06f61d66dc62d54044e0afd0b52b1d77282aff286",
-    "mappedOn": null,
-    "summary": "Hungarian language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:2cfca63609c7b57166a1e6d30ca61f8c7e4c6c871f09e9868d96f3d09335459e",
+    "mappedOn": "2026-10-30",
+    "summary": "Hungarian user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Hungarian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Hungarian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "HU"
@@ -39,14 +41,15 @@
       "hu"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

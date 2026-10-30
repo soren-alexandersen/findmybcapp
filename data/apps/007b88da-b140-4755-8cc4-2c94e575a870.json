@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.export-invoices-msd%7CPAPPID.007b88da-b140-4755-8cc4-2c94e575a870",
-    "lastModified": "2026-07-16T08:28:01.8031565+00:00",
+    "lastModified": "2026-10-13T05:04:15.1922578+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/53ccslw82r-microsoft-dynamics-365-export-customer-invoices",
-    "sourceHash": "sha256:71ad1cb92ab314657030ed0a82e2de4947ac9512c4ea9f16127938be89de7874",
+    "sourceHash": "sha256:9685e889a7c4a5930ca3948f45c0a2ad528d81014ba8038f40f8d088388fcec7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:71ad1cb92ab314657030ed0a82e2de4947ac9512c4ea9f16127938be89de7874",
-    "mappedOn": null,
-    "summary": "EDI invoice export to trading partners",
+    "sourceHash": "sha256:9685e889a7c4a5930ca3948f45c0a2ad528d81014ba8038f40f8d088388fcec7",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends Business Central invoices to customers' systems as EDI through HubBroker's iPaaS.",
     "shape": "connector",
     "primary": [
       {
@@ -33,18 +35,18 @@
     ],
     "secondary": [],
     "claims": [
-      "Sends documents from BC to customers' systems in their desired format via iPaaS",
-      "Validates and converts data to local standards or customer preferences",
-      "Invoices delivered automatically into customers' systems",
-      "Tracking of transferred invoices in the iPaaS",
-      "REST API data integration"
+      "Invoices move between Business Central and customers' systems automatically",
+      "Documents are converted to the format customers or local standards require",
+      "Transferred invoices can be tracked in the iPaaS platform",
+      "Offers REST API integration"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "HubBroker iPaaS"
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

@@ -40,7 +40,9 @@
     "Ship-to addresses are entered differently by every sales rep",
     "address format per country BC",
     "Importing all postal codes for Scandinavia into BC",
-    "VAT number and address should be checked when we create a customer"
+    "VAT number and address should be checked when we create a customer",
+    "We want to check and validate the data before it goes live",
+    "We have a lot of data to move from our old system"
   ],
   "questions": [
     {
@@ -98,16 +100,27 @@
           ]
         },
         {
+          "label": "Another database or ERP (SQL, other systems)",
+          "patterns": [
+            "\\bsql\\b",
+            "any database",
+            "legacy software",
+            "external systems",
+            "source-system"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Dynamics NAV, C5 or an older BC": 0.32,
-        "e-conomic, Visma or QuickBooks": 0.23,
-        "Excel, CSV or other files": 0.32,
-        "Another BC company or environment": 0.18,
-        "Another BC add-on (OPplus, Payment Management)": 0.14
+        "Dynamics NAV, C5 or an older BC": 0.29,
+        "e-conomic, Visma or QuickBooks": 0.18,
+        "Excel, CSV or other files": 0.29,
+        "Another BC company or environment": 0.32,
+        "Another BC add-on (OPplus, Payment Management)": 0.11,
+        "Another database or ERP (SQL, other systems)": 0.21
       }
     },
     {
@@ -120,7 +133,11 @@
           "patterns": [
             "master data",
             "(migrat|import)\\w* .*(customers|chart of accounts|items|accounts)",
-            "chart of accounts"
+            "chart of accounts",
+            "fixed assets?",
+            "dimensions?",
+            "posting groups",
+            "number series"
           ]
         },
         {
@@ -145,14 +162,40 @@
           ]
         },
         {
+          "label": "Any table, incl. data from other apps",
+          "patterns": [
+            "any table",
+            "any bc data",
+            "third-party app data"
+          ]
+        },
+        {
+          "label": "Only part of the data (filtered, or split a company)",
+          "patterns": [
+            "filter which",
+            "splits? one company",
+            "selected (records|data)"
+          ]
+        },
+        {
+          "label": "Bank and payment data",
+          "patterns": [
+            "bank",
+            "payment module"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Master data (customers, vendors, items, accounts)": 0.41,
-        "History: ledger entries and posted transactions": 0.36,
-        "Attachments and PDF documents": 0.23
+        "Master data (customers, vendors, items, accounts)": 0.5,
+        "History: ledger entries and posted transactions": 0.29,
+        "Attachments and PDF documents": 0.14,
+        "Any table, incl. data from other apps": 0.11,
+        "Only part of the data (filtered, or split a company)": 0.11,
+        "Bank and payment data": 0.11
       }
     },
     {
@@ -188,8 +231,8 @@
         }
       ],
       "coverage": {
-        "Repeated imports or exports (templates, schedules)": 0.23,
-        "Run old and new system side by side during cut-over": 0.09
+        "Repeated imports or exports (templates, schedules)": 0.29,
+        "Run old and new system side by side during cut-over": 0.11
       }
     },
     {
@@ -219,7 +262,7 @@
         }
       ],
       "coverage": {
-        "Merge duplicate customers, vendors or items": 0.09,
+        "Merge duplicate customers, vendors or items": 0.14,
         "Bulk edit or fix records directly": 0.14
       }
     },
@@ -241,6 +284,131 @@
       "coverage": {
         "On our own servers (on-premises)": 0.14
       }
+    },
+    {
+      "id": "is-it-a-large-amount-of-data",
+      "text": "Is it a large amount of data?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, large volumes (millions of records)",
+          "patterns": [
+            "large",
+            "gigabytes",
+            "in chunks",
+            "parallel processing"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, large volumes (millions of records)": 0.18
+      }
+    },
+    {
+      "id": "how-much-control-do-you-want-b",
+      "text": "How much control do you want before data lands in BC?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Preview and validate before it is applied",
+          "patterns": [
+            "preview",
+            "validat",
+            "test runs",
+            "before applying",
+            "only after approval"
+          ]
+        },
+        {
+          "label": "Change or map values on the way in",
+          "patterns": [
+            "transformation",
+            "mapping",
+            "fill in defaults"
+          ]
+        },
+        {
+          "label": "Log every run and alert me on errors",
+          "patterns": [
+            "\\blogs?\\b",
+            "logging",
+            "alerts",
+            "audit",
+            "monitoring"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Preview and validate before it is applied": 0.39,
+        "Change or map values on the way in": 0.18,
+        "Log every run and alert me on errors": 0.43
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'between' wording",
+      "terms": [
+        "between"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "environments already covered by 'Another BC company or environment'",
+      "terms": [
+        "environment"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "tenants already covered by 'Another BC company or environment'",
+      "terms": [
+        "tenant"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'runs' wording (hosting, test runs)",
+      "terms": [
+        "runs"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "setup wizards, UI convenience",
+      "terms": [
+        "wizard"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'control' wording",
+      "terms": [
+        "control"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "connection and authentication wording",
+      "terms": [
+        "connection"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic source/target wording",
+      "terms": [
+        "sourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

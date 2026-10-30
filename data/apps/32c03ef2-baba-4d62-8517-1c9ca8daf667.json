@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.bigcommerce-integration%7CPAPPID.32c03ef2-baba-4d62-8517-1c9ca8daf667",
-    "lastModified": "2026-07-16T09:20:09.5950878+00:00",
+    "lastModified": "2026-10-13T04:30:08.1562848+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/bigcommerce-edi-integration/",
-    "sourceHash": "sha256:d316f655a7ad0858fb127018e54b338e9f207ad1ac1d7ee5d0088f5503374eea",
+    "sourceHash": "sha256:ec81b2740f37574fd1ad01f33810cdefb948220e4198809859a5f0d68dd687dd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d316f655a7ad0858fb127018e54b338e9f207ad1ac1d7ee5d0088f5503374eea",
-    "mappedOn": null,
-    "summary": "Integrates BigCommerce store with BC",
+    "sourceHash": "sha256:ec81b2740f37574fd1ad01f33810cdefb948220e4198809859a5f0d68dd687dd",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs a BigCommerce store with Business Central via HubBroker's integration service.",
     "shape": "connector",
     "primary": [
       {
@@ -28,19 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Imports sales orders from BigCommerce into BC",
-      "Real-time stock level sync",
-      "Syncs customer details and purchase history",
-      "Keeps invoices, payments and balances consistent",
-      "Error detection and monitoring",
-      "Supports multi-store and high-volume shops"
+      "BigCommerce sales orders are imported into Business Central",
+      "Stock levels are kept in sync between both systems in real time",
+      "Customer details and purchase history are synchronised",
+      "Invoices, payments and balances are aligned across the two systems",
+      "Integration errors are detected and monitored",
+      "Handles multiple stores and high order volumes",
+      "Available in all countries"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "BigCommerce"
     ],

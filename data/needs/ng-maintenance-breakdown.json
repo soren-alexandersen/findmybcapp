@@ -56,7 +56,9 @@
     "Internal rental of tools between departments with usage charges",
     "We need counters on assets that drivers update on a phone",
     "How often is each meeting room and company car booked?",
-    "Equipment usage should feed into maintenance planning"
+    "Equipment usage should feed into maintenance planning",
+    "We want technicians to follow a checklist and record spare parts on every job",
+    "We need to plan which technician does which maintenance job"
   ],
   "questions": [
     {
@@ -109,9 +111,9 @@
         }
       ],
       "coverage": {
-        "Calendar (every X weeks)": 0.56,
-        "Usage (hours, km, cycles, meter readings)": 0.37,
-        "Condition or sensor readings": 0.26
+        "Calendar (every X weeks)": 0.55,
+        "Usage (hours, km, cycles, meter readings)": 0.45,
+        "Condition or sensor readings": 0.28
       }
     },
     {
@@ -125,7 +127,10 @@
             "(work|maintenance|service) requests?",
             "requests? (intake|management)",
             "work and request",
-            "create (maintenance )?requests"
+            "create (maintenance )?requests",
+            "approves requests",
+            "requester role",
+            "requestors?\\b"
           ]
         },
         {
@@ -135,7 +140,11 @@
             "\\bapp\\b",
             "offline",
             "technicians attach photos",
-            "gps"
+            "gps",
+            "tablet",
+            "handheld",
+            "\\bios\\b",
+            "android"
           ]
         },
         {
@@ -150,8 +159,8 @@
         }
       ],
       "coverage": {
-        "Staff file a request that maintenance approves": 0.3,
-        "Technicians work on a phone or tablet": 0.37,
+        "Staff file a request that maintenance approves": 0.34,
+        "Technicians work on a phone or tablet": 0.38,
         "By email": 0.07
       }
     },
@@ -185,13 +194,21 @@
           ]
         },
         {
+          "label": "KPI dashboards and Power BI reports",
+          "patterns": [
+            "power bi",
+            "dashboard"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Downtime and reliability (MTTR, MTBF)": 0.26,
-        "Cost per machine or asset": 0.3
+        "Downtime and reliability (MTTR, MTBF)": 0.38,
+        "Cost per machine or asset": 0.24,
+        "KPI dashboards and Power BI reports": 0.21
       }
     },
     {
@@ -211,7 +228,7 @@
         }
       ],
       "coverage": {
-        "Yes, we plan production in BC": 0.19
+        "Yes, we plan production in BC": 0.24
       }
     },
     {
@@ -235,7 +252,7 @@
         }
       ],
       "coverage": {
-        "Yes, we use contractors or buy parts per job": 0.26
+        "Yes, we use contractors or buy parts per job": 0.24
       }
     },
     {
@@ -269,9 +286,157 @@
         }
       ],
       "coverage": {
-        "Machines and plant equipment": 0.56,
-        "Vehicles and fleet": 0.15
+        "Machines and plant equipment": 0.62,
+        "Vehicles and fleet": 0.17
       }
+    },
+    {
+      "id": "what-should-each-maintenance-j",
+      "text": "What should each maintenance job include?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Checklists and instructions for the technician",
+          "patterns": [
+            "checklist",
+            "manuals",
+            "schematic",
+            "instructions"
+          ]
+        },
+        {
+          "label": "Spare parts reserved and used from stock",
+          "patterns": [
+            "spare parts?",
+            "parts inventory"
+          ]
+        },
+        {
+          "label": "Work permits, lockout and safety records",
+          "patterns": [
+            "permit",
+            "lockout",
+            "tagout",
+            "safety (incident|standard)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Checklists and instructions for the technician": 0.24,
+        "Spare parts reserved and used from stock": 0.52,
+        "Work permits, lockout and safety records": 0.14
+      }
+    },
+    {
+      "id": "do-you-need-to-schedule-jobs-a",
+      "text": "Do you need to schedule jobs across your technicians?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, plan and dispatch on a planning board",
+          "patterns": [
+            "drag",
+            "planning board",
+            "scheduling board",
+            "dispatch",
+            "schedules maintenance resources",
+            "resource allocation",
+            "workload planning"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, plan and dispatch on a planning board": 0.21
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "built inside BC / runs on Azure deployment wording",
+      "terms": [
+        "built",
+        "insid",
+        "runs"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "preventive maintenance is standard; the trigger question already covers how it is planned",
+      "terms": [
+        "preventiv"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "condition triggers already covered by the condition option",
+      "terms": [
+        "condition"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "maintenance contracts already covered by the contractors option",
+      "terms": [
+        "contract"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'covers' scope wording",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "publisher product name (Dynaway)",
+      "terms": [
+        "dynaway"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "integration with other Dynamics products (Finance and Operations)",
+      "terms": [
+        "financ"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "licence and edition wording",
+      "terms": [
+        "full"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'operation' wording",
+      "terms": [
+        "operation"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI views and permission sets",
+      "terms": [
+        "view"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resources' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

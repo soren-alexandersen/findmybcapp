@@ -59,9 +59,9 @@
         }
       ],
       "coverage": {
-        "K3 Pebblestone": 0.42,
-        "FaVa or LS Central": 0.12,
-        "No, looking for a full solution": 0.21
+        "K3 Pebblestone": 0.43,
+        "FaVa or LS Central": 0.04,
+        "No, looking for a full solution": 0.17
       }
     },
     {
@@ -90,7 +90,10 @@
             "landed cost",
             "rrp",
             "recommended retail",
-            "margin"
+            "margin",
+            "freight cost",
+            "calculated prices",
+            "calculation worksheets"
           ]
         },
         {
@@ -101,7 +104,10 @@
             "\\bbom",
             "measurement",
             "pdm",
-            "plm"
+            "plm",
+            "product data management",
+            "product development",
+            "product configuration"
           ]
         },
         {
@@ -116,16 +122,30 @@
           ]
         },
         {
+          "label": "Stock availability and allocating stock to orders",
+          "patterns": [
+            "oversold",
+            "never-out-of-stock",
+            "\\bnoos\\b",
+            "consignment stock",
+            "available stock",
+            "stock tracking",
+            "delivery worksheet",
+            "allocat"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Sizes, colours and variants": 0.67,
-        "Seasons and collections": 0.42,
-        "Landed cost and retail price": 0.12,
-        "Production and sampling": 0.29,
-        "Webshop or B2B ordering": 0.29
+        "Sizes, colours and variants": 0.65,
+        "Seasons and collections": 0.39,
+        "Landed cost and retail price": 0.17,
+        "Production and sampling": 0.39,
+        "Webshop or B2B ordering": 0.26,
+        "Stock availability and allocating stock to orders": 0.22
       }
     },
     {
@@ -161,8 +181,8 @@
         }
       ],
       "coverage": {
-        "Wholesale to stores": 0.25,
-        "Own shops or retail": 0.12
+        "Wholesale to stores": 0.3,
+        "Own shops or retail": 0.09
       }
     },
     {
@@ -182,7 +202,7 @@
         }
       ],
       "coverage": {
-        "Yes, matrix order entry": 0.33
+        "Yes, matrix order entry": 0.35
       }
     }
   ]

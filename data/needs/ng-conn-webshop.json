@@ -76,10 +76,10 @@
       ],
       "coverage": {
         "Shopify": 0.22,
-        "WooCommerce": 0.16,
-        "Magento / Adobe Commerce": 0.16,
+        "WooCommerce": 0.15,
+        "Magento / Adobe Commerce": 0.15,
         "BigCommerce": 0.08,
-        "Shopware": 0.05
+        "Shopware": 0.06
       }
     },
     {
@@ -162,8 +162,8 @@
         }
       ],
       "coverage": {
-        "Businesses (B2B)": 0.41,
-        "Consumers (B2C)": 0.32
+        "Businesses (B2B)": 0.39,
+        "Consumers (B2C)": 0.31
       }
     },
     {
@@ -226,7 +226,7 @@
       "coverage": {
         "Customer-specific prices or discounts in the shop": 0.19,
         "Sync logs and error alerts we can act on": 0.28,
-        "Product catalog and categories managed from BC": 0.29
+        "Product catalog and categories managed from BC": 0.3
       }
     },
     {
@@ -297,11 +297,11 @@
         }
       ],
       "coverage": {
-        "Several shops in one BC": 0.16,
-        "Marketplaces (Amazon, eBay...)": 0.1,
-        "Shop's POS / physical store": 0.07,
-        "Refunds and returns": 0.12,
-        "Tracking info back to the shop": 0.17
+        "Several shops in one BC": 0.15,
+        "Marketplaces (Amazon, eBay...)": 0.11,
+        "Shop's POS / physical store": 0.08,
+        "Refunds and returns": 0.13,
+        "Tracking info back to the shop": 0.18
       }
     }
   ],

@@ -8,18 +8,20 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_rental%7CPAPPID.0da0f965-c702-4873-8ed5-48f445ced12e",
-    "lastModified": "2026-10-02T07:31:33.0299532+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T14:17:07.6313117+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-rental/",
-    "sourceHash": "sha256:61d8a52e100b4cead1437e25284c5ea39c146cafede5d82c57a793441b42fd0c",
+    "sourceHash": "sha256:d76e4d5711b4522929a9248043f40e63238ac5bf7e8be47af78b6c6b1227625c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:61d8a52e100b4cead1437e25284c5ea39c146cafede5d82c57a793441b42fd0c",
-    "mappedOn": null,
-    "summary": "Rental business management",
+    "sourceHash": "sha256:d76e4d5711b4522929a9248043f40e63238ac5bf7e8be47af78b6c6b1227625c",
+    "mappedOn": "2026-10-30",
+    "summary": "Rental business management: quotes, contracts, fleet, pricing, billing, logistics and mobile app.",
     "shape": "vertical",
     "primary": [
       {
@@ -28,19 +30,26 @@
       }
     ],
     "secondary": [
+      "ng-fa-register",
+      "ng-maintenance-planned",
+      "ng-sales-pricing",
       "ng-admin-devices"
     ],
     "claims": [
-      "Rental quotes and contracts with workflow tracking",
-      "Rental fleet and accessories with fixed asset integration",
-      "Insurance and maintenance deadlines",
+      "Rental quotes and contracts with progress workflows",
+      "Manages rental fleet and accessories",
+      "Integrates with fixed assets",
+      "Tracks insurance and maintenance deadlines",
       "Rental prices by customer, product and calendar",
-      "Specific rental billing process and fines",
-      "Surety posting",
-      "Rental suspensions, extra days and substitutions",
-      "Mobile app for shipment and return, consumption, checklists",
-      "Digital customer signature sent by email",
-      "60-day free trial"
+      "Dedicated rental billing and fines",
+      "Rental role center",
+      "Rental services such as insurance, washing and logistics",
+      "Surety posting, suspensions, extra days and substitutions",
+      "Mobile app for shipments and returns",
+      "Mobile consumption readings, checklists and surveys",
+      "Digital customer signature and email sending",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -51,7 +60,9 @@
       "Equipment rental"
     ],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

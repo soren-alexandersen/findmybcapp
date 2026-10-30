@@ -1,0 +1,80 @@
+{
+  "appId": "kaispellc.ksp-autoapx",
+  "guid": null,
+  "publisherId": "kaispellc",
+  "offerId": "ksp-autoapx",
+  "source": {
+    "name": "AutoAPX – Accounts Payable Automation Software",
+    "publisher": "KAISPE LLC",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/kaispellc.ksp-autoapx",
+    "lastModified": "2026-10-15T02:25:59.7555546+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:ecf186d66d1db1ad64889878244ecdfdd34d11d2dd0e88a82f89a4f1c5d22d88",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:ecf186d66d1db1ad64889878244ecdfdd34d11d2dd0e88a82f89a4f1c5d22d88",
+    "mappedOn": "2026-10-30",
+    "summary": "AI accounts payable platform that captures, matches, approves and posts vendor invoices",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Takes invoices from email, SharePoint, OneDrive, Google Drive, upload or vendor portal",
+      "AI extracts vendor, invoice number, date, amount and line fields",
+      "Shows confidence scores for extracted data that needs review",
+      "Bulk uploads processed through scheduled batch jobs",
+      "Two-way matching of invoices to purchase orders on quantity, price and item",
+      "Exceptions routed for correction before posting",
+      "Configurable approval workflows with history",
+      "Email alerts on invoice and approval events",
+      "Multi-company invoice processing",
+      "Role-based access, SSO and two-factor authentication",
+      "Dashboard for invoice status, approvals, exceptions and posting",
+      "Validated invoices posted directly to Business Central",
+      "AP assistant in Teams and WhatsApp answers invoice and PO questions",
+      "Non-PO invoice workflows available as an optional service",
+      "24/7 phone and email support"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Aviation",
+      "Manufacturing",
+      "Steel distribution"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Finance & Supply Chain Management",
+      "Microsoft Teams",
+      "WhatsApp",
+      "SharePoint",
+      "OneDrive",
+      "Google Drive"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,18 +8,20 @@
     "publisher": "Bluefort",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluefort%7CAID.arvo_studio_bc%7CPAPPID.37d3921a-ed23-40bc-9743-a719e9434c44",
-    "lastModified": "2026-10-05T14:52:33.8697959+00:00",
-    "appVersion": "100.0.0.19",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T16:42:15.1634048+00:00",
+    "appVersion": "100.0.0.25",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/",
-    "sourceHash": "sha256:94cc4654a8bafb128a5af9c340ac250ba39ad3e20ee60d63a8f3c3e748779af8",
+    "sourceHash": "sha256:9820038c7ee2dfbbe8762592048dd17160919894afdf7417a468ace1f318f194",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:94cc4654a8bafb128a5af9c340ac250ba39ad3e20ee60d63a8f3c3e748779af8",
-    "mappedOn": null,
-    "summary": "Governed AI-assisted AL development, testing and deployment",
+    "sourceHash": "sha256:9820038c7ee2dfbbe8762592048dd17160919894afdf7417a468ace1f318f194",
+    "mappedOn": "2026-10-30",
+    "summary": "Governed AI-driven AL development: design, test-first build, approvals and gated production deployment.",
     "shape": "usability",
     "primary": [
       {
@@ -28,31 +30,41 @@
       }
     ],
     "secondary": [
-      "ng-admin-updates-testing",
-      "ng-admin-copilot-agents"
+      "ng-admin-extensions-env",
+      "ng-admin-updates-testing"
     ],
     "claims": [
-      "Turns approved solution design into compiled, tested, documented extension",
-      "Installs to Production only when all gates are green",
-      "Tamper-evident receipt of every step",
-      "Test scripts written and frozen before code exists",
-      "Symbols acquired from live target environment",
-      "Deploys solution and test app to sandbox with deterministic test data",
-      "Runs test scenarios under each role's permission sets",
-      "Hash-chained, append-only audit record and evidence pack",
-      "Runs on customer's own Azure AI Foundry with cost estimates",
-      "Shows minimum, expected and maximum cost estimate before generation",
-      "Sandbox-only testing enforced in code"
+      "Aimed at Microsoft partners delivering BC work",
+      "Requirement intake captured inside BC with scope and object ranges",
+      "Gap analysis plus functional and technical designs for review",
+      "Test scripts written and frozen before code, from a separate model call",
+      "Compiles against symbols from the live target environment",
+      "Solution and test apps installed to a sandbox with generated test data",
+      "Tests run under the permission sets each role holds",
+      "Server-side gate requires all gates green and recorded approvals before production",
+      "Hash-chained, append-only evidence record of every step",
+      "Inference on the customer's own Azure AI Foundry deployment",
+      "Shows min, expected and max cost estimate before generation",
+      "Runtime hosted in the EU",
+      "Artifacts stored in SharePoint, Azure Blob or Azure Files",
+      "Free install, licence terms agreed with the vendor",
+      "BC online only"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "en"
+    ],
     "industries": [],
     "connectsTo": [
-      "Azure AI Foundry"
+      "Azure AI Foundry",
+      "Microsoft Entra",
+      "SharePoint",
+      "Azure Blob Storage",
+      "Azure Files"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -172,5 +172,21 @@
         "Digital receipts with offers": 0.11
       }
     }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "BC version requirement",
+      "terms": [
+        "later"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "refund data flow, technical detail",
+      "terms": [
+        "refund"
+      ],
+      "on": "2026-10-30"
+    }
   ]
 }

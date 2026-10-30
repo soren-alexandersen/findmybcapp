@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.interface-controller-app%7CPAPPID.5261f7fc-8787-4269-a6b2-5d3ecd4afcfa",
-    "lastModified": "2026-07-05T23:33:27.1332576+00:00",
-    "appVersion": "26.0.260622.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T06:55:40.5926002+00:00",
+    "appVersion": "26.0.261029.3",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/interface-controller/docs",
-    "sourceHash": "sha256:7903b3bf6aad817bb9c9deea20e1184643bd02188923a4fe7de65fdbce12fef9",
+    "sourceHash": "sha256:2b44219cb5f1dd29f88333fabe89e503d0a470aee3c5058322cf5151a2ee492b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7903b3bf6aad817bb9c9deea20e1184643bd02188923a4fe7de65fdbce12fef9",
-    "mappedOn": null,
-    "summary": "Manages inbound and outbound interfaces via job queue",
+    "sourceHash": "sha256:2b44219cb5f1dd29f88333fabe89e503d0a470aee3c5058322cf5151a2ee492b",
+    "mappedOn": "2026-10-30",
+    "summary": "Central management, logging and error handling for inbound and outbound interfaces.",
     "shape": "usability",
     "primary": [
       {
@@ -31,12 +33,15 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
     "claims": [
       "Manages custom inbound and outbound interfaces",
-      "Automates processing, receiving and sending of electronic documents with interfacing apps",
-      "Logs interface steps and handles errors with preserved logs",
-      "Notifications on errors or warnings"
+      "Works with interfacing apps to automate receiving and sending electronic documents",
+      "Logs interface runs and preserves logs for later inspection",
+      "Sends notifications on errors or warnings",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +51,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

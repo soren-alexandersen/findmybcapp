@@ -8,8 +8,8 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.14f8a1cf-53e1-43d4-bb77-7c11da1fe5ab%7CPAPPID.0e8ae3eb-abfa-42c5-8693-2298d8aac15c",
-    "lastModified": "2026-10-06T19:54:05.4040585+00:00",
-    "appVersion": "28.1.29.0",
+    "lastModified": "2026-10-30T13:55:46.347969+00:00",
+    "appVersion": "28.2.5.0",
     "pricingTypes": [
       "ContactPublisher"
     ],

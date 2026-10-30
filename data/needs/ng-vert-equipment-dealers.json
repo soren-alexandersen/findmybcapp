@@ -56,8 +56,8 @@
         }
       ],
       "coverage": {
-        "Cars, trucks or other vehicles": 0.53,
-        "Agricultural, construction or other machines": 0.53
+        "Cars, trucks or other vehicles": 0.5,
+        "Agricultural, construction or other machines": 0.56
       }
     },
     {
@@ -90,9 +90,9 @@
         }
       ],
       "coverage": {
-        "John Deere": 0.07,
-        "STIHL": 0.07,
-        "Other brands, needing OEM data exchange": 0.13
+        "John Deere": 0.06,
+        "STIHL": 0.06,
+        "Other brands, needing OEM data exchange": 0.12
       }
     },
     {
@@ -143,11 +143,11 @@
         }
       ],
       "coverage": {
-        "Workshop and service orders": 0.67,
-        "Spare parts": 0.47,
-        "Rental or leasing": 0.27,
-        "Trade-ins and used units": 0.33,
-        "Warranty claims": 0.33
+        "Workshop and service orders": 0.69,
+        "Spare parts": 0.5,
+        "Rental or leasing": 0.25,
+        "Trade-ins and used units": 0.31,
+        "Warranty claims": 0.31
       }
     },
     {
@@ -184,10 +184,26 @@
         }
       ],
       "coverage": {
-        "Staff work on the road (mobile)": 0.2,
-        "Several branches or locations": 0.2,
-        "We are an importer supplying dealers": 0.13
+        "Staff work on the road (mobile)": 0.19,
+        "Several branches or locations": 0.19,
+        "We are an importer supplying dealers": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic approval workflow wording",
+      "terms": [
+        "approval"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic notification wording",
+      "terms": [
+        "notification"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

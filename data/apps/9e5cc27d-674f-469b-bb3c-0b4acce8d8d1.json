@@ -8,18 +8,20 @@
     "publisher": "Team VISION - BULGARIA Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_euro_conv%7CPAPPID.9e5cc27d-674f-469b-bb3c-0b4acce8d8d1",
-    "lastModified": "2026-02-11T03:02:09.308315+00:00",
+    "lastModified": "2026-10-12T04:41:31.8414614+00:00",
     "appVersion": "26.0.2602.01",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://team-vision.bg/en/support/",
-    "sourceHash": "sha256:d852359bdd29478e0c0d2b6b0519d366c844be6aca4dc70b2ed67efacbc5bc4f",
+    "sourceHash": "sha256:60c4c7b5ce8a89d656c11868111f766ea507fc99b6073cd63af88a111e2e2325",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d852359bdd29478e0c0d2b6b0519d366c844be6aca4dc70b2ed67efacbc5bc4f",
-    "mappedOn": null,
-    "summary": "Converts financial data to euro",
+    "sourceHash": "sha256:60c4c7b5ce8a89d656c11868111f766ea507fc99b6073cd63af88a111e2e2325",
+    "mappedOn": "2026-10-30",
+    "summary": "Converts a company's whole BC dataset to euro or another base currency.",
     "shape": "process",
     "primary": [
       {
@@ -28,24 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-admin-data-migration"
+      "ng-admin-data-migration",
+      "ng-audit-compliance"
     ],
     "claims": [
-      "Converts all BC financial data to Euro or another currency",
-      "Supports cloud and on-premises, including NAV 4.0 through BC 14",
-      "Automatically identifies tables and fields that need conversion",
-      "Full, partial or opening-balance conversion modes",
+      "Converts financial and operational data to euro or any supported currency",
+      "Available for cloud and on-premises, including older NAV versions back to 4.0",
+      "Finds the tables and fields to convert using configurable selection criteria",
+      "Full, partial or opening-balance conversion approaches",
       "Separate rounding and precision rules per field type",
-      "Blocks postings during conversion",
-      "Supports custom tables and extensions",
-      "Real-time progress monitoring with table priority",
-      "Can create new bank accounts and transfer balances to the new currency",
-      "Adjusts inventory cost rounding differences",
-      "Verification and reconciliation reports after conversion"
+      "Blocks postings while conversion runs",
+      "Handles custom tables and extensions",
+      "Processes tables by priority with live progress tracking",
+      "Can create new bank accounts and move balances into the new currency",
+      "Optional adjustment of inventory cost rounding differences",
+      "Verification and reconciliation reports after conversion",
+      "Can be offered with Team VISION's Bulgarian localization apps"
     ],
-    "countries": [
-      "BG"
-    ],
+    "countries": [],
     "languages": [
       "bg",
       "en"
@@ -54,7 +56,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

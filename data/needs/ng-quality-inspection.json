@@ -156,10 +156,10 @@
         }
       ],
       "coverage": {
-        "When goods arrive from suppliers": 0.47,
-        "During and after production": 0.64,
-        "Before shipping to customers": 0.21,
-        "Stock on the shelf, periodically": 0.18
+        "When goods arrive from suppliers": 0.45,
+        "During and after production": 0.68,
+        "Before shipping to customers": 0.28,
+        "Stock on the shelf, periodically": 0.16
       }
     },
     {
@@ -208,9 +208,9 @@
         }
       ],
       "coverage": {
-        "Block or quarantine the stock automatically": 0.26,
-        "Log non-conformance and corrective actions": 0.27,
-        "Return to supplier or raise a claim": 0.09
+        "Block or quarantine the stock automatically": 0.24,
+        "Log non-conformance and corrective actions": 0.31,
+        "Return to supplier or raise a claim": 0.08
       }
     },
     {
@@ -236,7 +236,7 @@
         }
       ],
       "coverage": {
-        "Yes, print certificates from test results": 0.26
+        "Yes, print certificates from test results": 0.28
       }
     },
     {
@@ -259,7 +259,7 @@
         }
       ],
       "coverage": {
-        "Yes, on mobile devices": 0.15
+        "Yes, on mobile devices": 0.14
       }
     },
     {
@@ -286,7 +286,7 @@
         }
       ],
       "coverage": {
-        "Yes, supplier quality ratings": 0.2
+        "Yes, supplier quality ratings": 0.18
       }
     },
     {
@@ -307,8 +307,38 @@
         }
       ],
       "coverage": {
-        "Yes, using sampling plans (e.g. AQL)": 0.23
+        "Yes, using sampling plans (e.g. AQL)": 0.19
       }
+    },
+    {
+      "id": "do-you-need-inspection-results",
+      "text": "Do you need inspection results tied to lot or serial numbers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, per lot or serial number",
+          "patterns": [
+            "\\blots?\\b",
+            "serial"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, per lot or serial number": 0.45
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "test parameters are core to every app",
+      "terms": [
+        "parameter"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

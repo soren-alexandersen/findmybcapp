@@ -8,18 +8,20 @@
     "publisher": "BS-Concepts GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bs-conceptsgmbh1590482979672%7CAID.master-company%7CPAPPID.172cb9f8-ed19-472b-a619-f4259ee2b133",
-    "lastModified": "2026-04-27T08:58:58.3179231+00:00",
-    "appVersion": "27.1.0.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T05:47:34.8904744+00:00",
+    "appVersion": "27.3.7.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.bs-concepts.com/master-company-documents-informations/",
-    "sourceHash": "sha256:99b8184cf2468473990e0fbb462fad2e3cd67f6ec4a7a35cd086c9f51299cd7b",
+    "sourceHash": "sha256:241f3da10c80a69210a3d1abd59b6abbb1b2af2903ba24077a61d37553c33ff2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:99b8184cf2468473990e0fbb462fad2e3cd67f6ec4a7a35cd086c9f51299cd7b",
-    "mappedOn": null,
-    "summary": "Master company syncing master data to other companies",
+    "sourceHash": "sha256:241f3da10c80a69210a3d1abd59b6abbb1b2af2903ba24077a61d37553c33ff2",
+    "mappedOn": "2026-10-30",
+    "summary": "Keeps setup and master data in sync from a master company to other companies.",
     "shape": "usability",
     "primary": [
       {
@@ -29,10 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Define a master company per table",
-      "Selected companies automatically sync data with the master company",
-      "Covers setup and master data",
-      "Configuration without technical knowledge"
+      "Choose a master company per table",
+      "Selected companies sync automatically from the master",
+      "Covers both setup and master data",
+      "Configured without technical skills",
+      "Edit once, apply across companies"
     ],
     "countries": [],
     "languages": [],
@@ -40,7 +43,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

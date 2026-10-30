@@ -1,0 +1,81 @@
+{
+  "appId": "TYPE.connect|PUBID.cloud-data-processing|AID.bc-toolkit|PAPPID.c9131518-a30d-43aa-8810-5c67c9019014",
+  "guid": "c9131518-a30d-43aa-8810-5c67c9019014",
+  "publisherId": "cloud-data-processing",
+  "offerId": "bc-toolkit",
+  "source": {
+    "name": "BC Toolkit",
+    "publisher": "CLOUD DATA PROCESSING LLC",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.cloud-data-processing%7CAID.bc-toolkit%7CPAPPID.c9131518-a30d-43aa-8810-5c67c9019014",
+    "lastModified": "2026-10-16T09:53:55.0974855+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bctoolkit.clouddata.vc/docs",
+    "sourceHash": "sha256:83237a10f406366d1434811782023c161f169c7f2176070d48998bd757054b7c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:83237a10f406366d1434811782023c161f169c7f2176070d48998bd757054b7c",
+    "mappedOn": "2026-10-30",
+    "summary": "Hosted admin tool to browse BC data, make reviewed bulk edits and fix RapidStart packages.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Reads each tenant's API metadata so all entities, including extension fields, can be browsed",
+      "Visual filter builder or raw OData filter editing",
+      "Navigate record relationships, enums and bound actions",
+      "Switch between companies and environments in one tenant",
+      "Bulk updates can set fixed values or per-record expressions",
+      "Shows a field-level diff of all affected records before writing",
+      "Changes apply only after approval, with a report of each run",
+      "Any run can be reversed from its report",
+      "Read-only mode for production environments",
+      "Explains configuration package errors in plain language with the fix",
+      "Fix package values in place and re-apply without rebuilding",
+      "Inspects .rapidstart files for duplicate keys and missing field ids before import",
+      "Upload, import and apply packages from one screen with logging",
+      "Users sign in with their own work account so BC permissions and change log apply per user",
+      "Stores only job plans and run reports outside BC",
+      "BC online only; on-premises is not supported",
+      "No extension needs installing; setup uses an admin consent link"
+    ],
+    "countries": [
+      "CA",
+      "MX",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

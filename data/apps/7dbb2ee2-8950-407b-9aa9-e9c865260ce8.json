@@ -8,37 +8,44 @@
     "publisher": "Continia Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-document-capture-fr%7CPAPPID.7dbb2ee2-8950-407b-9aa9-e9c865260ce8",
-    "lastModified": "2026-10-06T11:45:12.0702691+00:00",
-    "appVersion": "29.0.0.215580",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T11:19:42.7642027+00:00",
+    "appVersion": "29.0.1.237877",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-document-capture",
-    "sourceHash": "sha256:76c09b917fe1b07fd52667a04e1d5212d18d333be8dd81fe220b223c94ae3d69",
+    "sourceHash": "sha256:893b9ca3e16963738cb235dc67afc936b99f4ce6cad8eb42b5c3fed76a388460",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:76c09b917fe1b07fd52667a04e1d5212d18d333be8dd81fe220b223c94ae3d69",
-    "mappedOn": null,
-    "summary": "French e-invoicing functions for Continia Document Capture",
-    "shape": "addon",
+    "sourceHash": "sha256:893b9ca3e16963738cb235dc67afc936b99f4ce6cad8eb42b5c3fed76a388460",
+    "mappedOn": "2026-10-30",
+    "summary": "French add-on for Continia Document Capture adding France-specific invoice functionality.",
+    "shape": "localization",
     "primary": [
-      {
-        "need": "ng-ap-invoice-capture",
-        "confidence": "high"
-      },
       {
         "need": "ng-loc-einvoicing",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
       }
     ],
     "secondary": [],
     "claims": [
-      "Required add-on for French functionality in Document Capture",
-      "OCR captures invoice text into BC fields",
-      "Three-way matching against purchase orders and receipts",
-      "Auto-approve invoices under a set limit",
-      "Choice of three approval workflows",
-      "Searchable digital archive"
+      "Required for Document Capture installations in France to add French functionality",
+      "OCR reads invoice text and fills the matching BC fields",
+      "Three-way matching of invoices and credit memos against purchase orders and receipts",
+      "Auto-approves invoices and credit memos below a set amount",
+      "Routes documents to approval with a choice of three workflows",
+      "Approvers can review, approve, reject or hold documents from anywhere",
+      "Purchase contracts to check invoiced amounts and auto-approve linked documents",
+      "Full-text searchable archive of processed documents",
+      "Activation goes through a Dynamics partner",
+      "Works with BC Essentials and Premium",
+      "Interface in English"
     ],
     "countries": [
       "FR"

@@ -8,39 +8,41 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_enavitrans_connector%7CPAPPID.8d393c74-822e-4f5f-817b-5e9242f704d1",
-    "lastModified": "2026-09-30T20:02:53.4982775+00:00",
-    "appVersion": "28.5.0.80058",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:18:38.8743911+00:00",
+    "appVersion": "29.0.0.80834",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:b79782842e4bf274c154c9f49809d2e5d977a8967f2c5b773377f6ac588e9aaf",
+    "sourceHash": "sha256:d5b4a1b0e5f3cbc5f549c0c4e86000e1411cac96695ac2270127ddcf40fc277b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b79782842e4bf274c154c9f49809d2e5d977a8967f2c5b773377f6ac588e9aaf",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 with E-Navitrans",
-    "shape": "addon",
+    "sourceHash": "sha256:d5b4a1b0e5f3cbc5f549c0c4e86000e1411cac96695ac2270127ddcf40fc277b",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Navitrans 365 to the e-Navitrans customer portal for order entry, tracking and stock.",
+    "shape": "connector",
     "primary": [
       {
-        "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
+        "need": "ng-admin-portals",
+        "confidence": "high"
       },
       {
-        "need": "ng-admin-portals",
+        "need": "ng-vert-transport-logistics",
         "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Portal order entry with documents for transport and warehousing",
-      "Portal stock overviews for customers",
-      "Portal access (user) and master data management",
-      "Part of Navitrans 365 TMS, WMS and forwarding suite for logistic service providers",
-      "e-Navitrans connector imports transport files and inbound/outbound orders from a web portal",
-      "Exports track & trace info and stock insight for customers",
-      "Supports Essential and Premium"
+      "Imports transport files and inbound and outbound orders from the portal",
+      "Exports track and trace data to the portal",
+      "Gives the logistics provider's customers a view of their stock",
+      "Portal user access management",
+      "Maintains transport addresses, product groups and items for the portal",
+      "Customers enter transport and warehouse orders with documents",
+      "Status and execution info for track and trace",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -56,7 +58,9 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Transport & logistics"
+    ],
     "connectsTo": [
       "e-Navitrans"
     ],
@@ -64,7 +68,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

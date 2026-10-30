@@ -8,37 +8,43 @@
     "publisher": "IT PROTECTOR S.A.C.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.itprotector%7CAID.itp_bc_solicitud_compra_w1%7CPAPPID.c021fd54-1080-4bc3-8b27-9159a2ed2a90",
-    "lastModified": "2026-08-20T00:25:34.5147807+00:00",
-    "appVersion": "27.0.0.14",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T22:37:59.1951257+00:00",
+    "appVersion": "27.0.0.15",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://itprotector-support.powerappsportals.com/",
-    "sourceHash": "sha256:a0ed69117294e308f69ddf43f0542f9061f88b69058727fbe56048b6028f3591",
+    "sourceHash": "sha256:c82afa9e8f934b77d3ef3d4919022b39f700234b90ad560f50d0a2a05b18e087",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a0ed69117294e308f69ddf43f0542f9061f88b69058727fbe56048b6028f3591",
-    "mappedOn": null,
-    "summary": "Purchase requests management",
+    "sourceHash": "sha256:c82afa9e8f934b77d3ef3d4919022b39f700234b90ad560f50d0a2a05b18e087",
+    "mappedOn": "2026-10-30",
+    "summary": "Purchase requisitions with approval, supplier quote requests and comparison, then PO creation.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-purchase-requisitions",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sourcing-rfq",
+      "ng-admin-approval-workflows",
       "ng-purchase-orders"
     ],
     "claims": [
-      "Create purchase requisitions",
-      "Approval flow",
-      "Consolidates requisitions into purchase orders",
-      "Sends RFQs to suppliers",
-      "Updates and attaches received quotes",
-      "Compares supplier quotes",
-      "Generates purchase orders"
+      "Users enter purchase requests that go through approval",
+      "Consolidates multiple purchase requests",
+      "Sends quote requests to suppliers",
+      "Received supplier quotes can be updated and attached",
+      "Compares supplier quotes side by side",
+      "Generates purchase orders from requests",
+      "Available in Spanish only"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +54,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

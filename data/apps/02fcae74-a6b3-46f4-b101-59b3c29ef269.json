@@ -8,18 +8,20 @@
     "publisher": "NAVERTICA a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-pos-base%7CPAPPID.02fcae74-a6b3-46f4-b101-59b3c29ef269",
-    "lastModified": "2026-05-07T20:20:49.115778+00:00",
-    "appVersion": "27.0.325181.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:44:07.1277781+00:00",
+    "appVersion": "27.1.373995.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/POS%20Base%20W1/",
-    "sourceHash": "sha256:f92d5be9db68ff96a24fb1c5158a61825342ae0dc29fd58a5da15e73f2c6e488",
+    "sourceHash": "sha256:3096e3133be3561f272e78f36a830b1d39a2a0767e343e954805e561c012ac1d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f92d5be9db68ff96a24fb1c5158a61825342ae0dc29fd58a5da15e73f2c6e488",
-    "mappedOn": null,
-    "summary": "Basic POS sales processes for shops",
+    "sourceHash": "sha256:3096e3133be3561f272e78f36a830b1d39a2a0767e343e954805e561c012ac1d",
+    "mappedOn": "2026-10-30",
+    "summary": "Basic in-BC point of sale: bills, multiple payments, cancellations and cash drawer.",
     "shape": "process",
     "primary": [
       {
@@ -28,21 +30,22 @@
       }
     ],
     "secondary": [
-      "ng-vert-retail"
+      "ng-order-allocation",
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "Creates bills with multiple payment methods",
-      "Processes bill cancellations",
-      "Cash drawer operations: deposit, withdrawal and regular closing",
+      "Creates bills with several payment methods",
+      "Processes bill cancellations and their payments",
+      "Cash drawer deposits, withdrawals and regular closing",
       "Shows item availability across shops",
       "Creates customer reservations",
-      "Shop role center with all shop actions",
+      "Shop role centre with simplified item, customer and bill cards",
       "Designed for tablets and touch devices",
-      "Not available in the Czech Republic",
-      "Supports Essentials and Premium editions; Premium not required"
+      "Not available in the Czech Republic"
     ],
     "countries": [],
     "languages": [
+      "cs",
       "en"
     ],
     "industries": [
@@ -50,8 +53,8 @@
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.binarylabptyltd1739437691778|AID.bnl_inventory_planner|PAPPID.9c35dd65-9e58-4a20-b3bf-c87888e4b110",
+  "guid": "9c35dd65-9e58-4a20-b3bf-c87888e4b110",
+  "publisherId": "binarylabptyltd1739437691778",
+  "offerId": "bnl_inventory_planner",
+  "source": {
+    "name": "Inventory Availability Planner",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binarylabptyltd1739437691778%7CAID.bnl_inventory_planner%7CPAPPID.9c35dd65-9e58-4a20-b3bf-c87888e4b110",
+    "lastModified": "2026-10-14T07:22:09.5470724+00:00",
+    "appVersion": "2200.261013.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://binarylab.co.za/inventory-planner",
+    "sourceHash": "sha256:8abc344326751c8d25d017d8591f97aff7058051936983d2ed1b2c9e4d72f9c2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8abc344326751c8d25d017d8591f97aff7058051936983d2ed1b2c9e4d72f9c2",
+    "mappedOn": "2026-10-30",
+    "summary": "Timeline of projected stock per item, variant and location from open demand and supply.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Interactive timeline of projected stock by item, variant and location",
+      "Daily, weekly and monthly views",
+      "Expandable rows reveal shortages hidden in item totals",
+      "Combines posted stock with open sales, purchase and transfer documents",
+      "Transfers shown leaving source and arriving at destination",
+      "Drill into the source documents and open them",
+      "Status filters for in stock, out of stock, future shortage or no supply",
+      "Planning horizon of two to six months",
+      "Blocked items and variants excluded, plus custom exclusions",
+      "In-transit locations left out",
+      "Paged item views for large catalogues"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

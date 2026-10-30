@@ -8,18 +8,20 @@
     "publisher": "NVision Commerce Solutions B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365%7CPAPPID.6eeb7693-fd33-4df0-9fb6-cf975ed7f279",
-    "lastModified": "2026-09-28T10:28:08.0762104+00:00",
-    "appVersion": "102.1.938.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:22:29.6887955+00:00",
+    "appVersion": "102.1.945.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://nvision.freshdesk.com/support/solutions/80000373100",
-    "sourceHash": "sha256:5b4aabac83464f85da764354cc97a46fad341dd49d9b6ab0f2f3ad39c8286773",
+    "sourceHash": "sha256:53fcad445d5c23301d87ab46e03ff354e406096c2534a2ee8402e389c5b15818",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5b4aabac83464f85da764354cc97a46fad341dd49d9b6ab0f2f3ad39c8286773",
-    "mappedOn": null,
-    "summary": "Integrates Magento 2 B2C and B2B store",
+    "sourceHash": "sha256:53fcad445d5c23301d87ab46e03ff354e406096c2534a2ee8402e389c5b15818",
+    "mappedOn": "2026-10-30",
+    "summary": "Runs one or more Magento 2 stores from BC: catalog, stock, prices, orders",
     "shape": "connector",
     "primary": [
       {
@@ -28,28 +30,32 @@
       }
     ],
     "secondary": [
+      "ng-item-master-data",
       "ng-assortment-catalogs"
     ],
     "claims": [
-      "Run Magento stores from BC in real time",
-      "Manage online catalogs with rich texts, images, videos, documents, categories",
+      "Manage online catalogs inside BC",
+      "Rich texts, images, videos, documents and categories per item",
       "Control Magento attributes and filters from BC",
-      "Multiple online stores from one BC",
-      "Real-time inventory and price updates with MSI support",
+      "Several web stores from one BC",
+      "Real-time stock and price updates incl. Magento Multi Source Inventory",
       "Upsell, cross-sell and related items",
-      "Customer logins managed in BC",
+      "Customer web logins managed in BC",
       "Syncs web orders, shipments and invoices",
-      "Imports catalog via Excel or from existing Magento",
-      "Compatible with Amasty modules and Hyvä"
+      "Catalog import from Excel or an existing Magento install",
+      "Compatible with Amasty modules and Hyvä themes",
+      "Successor of NAVcommerce for NAV"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "Magento",
-      "Adobe Commerce",
       "Amasty",
       "Hyvä"
     ],

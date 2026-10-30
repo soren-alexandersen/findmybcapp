@@ -8,18 +8,20 @@
     "publisher": "Tinx-IT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-it-shopify-connector%7CPAPPID.97740c48-b408-4f9e-878c-9ad3ea2931a7",
-    "lastModified": "2026-09-24T11:53:17.2738321+00:00",
-    "appVersion": "28.1.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T08:36:48.0163191+00:00",
+    "appVersion": "28.1.446.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://support.tinx-it.com/",
-    "sourceHash": "sha256:91ef16b9d33a43e9d47926be195deddd334ab1feed980f2b9d8353a4a09eeb5f",
+    "sourceHash": "sha256:fac226dbe638f8cf0278331eb010c0d5c20d12d83cdb5891e8fe3a8acaa563aa",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:91ef16b9d33a43e9d47926be195deddd334ab1feed980f2b9d8353a4a09eeb5f",
-    "mappedOn": null,
-    "summary": "Syncs Shopify products, inventory, customers and orders",
+    "sourceHash": "sha256:fac226dbe638f8cf0278331eb010c0d5c20d12d83cdb5891e8fe3a8acaa563aa",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs products, stock, customers and orders between Shopify and Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -28,16 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-item-master-data"
+      "ng-item-master-data",
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Real-time sync of orders, customers, inventory and products",
-      "Custom metafields on items and customers",
-      "Customer sync for B2B and B2C buyers",
-      "Order import including guest orders with customer assignment",
-      "Product information management in BC: texts, cross-sell, up-sell, multiple images",
-      "Email alerts for sync errors",
-      "Fixed monthly fee from EUR 309, no transaction or user fees"
+      "Product data is synced to Shopify",
+      "Custom metafields can be set on items and customers",
+      "Stock is managed centrally in BC for several channels",
+      "Customer data syncs for both B2B and B2C buyers",
+      "Order import handles guest orders and links to new or existing customers",
+      "Commercial texts, cross-sell, up-sell and images are maintained in BC",
+      "Sync logging with email alerts on errors",
+      "Flat monthly fee from EUR 309, no transaction or user fees",
+      "Trial users get a free one-hour setup call"
     ],
     "countries": [],
     "languages": [

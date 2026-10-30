@@ -8,18 +8,20 @@
     "publisher": "NAVERTICA a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-warehouse-mobile%7CPAPPID.c00849c8-0a93-4a57-93c4-e48b4085807e",
-    "lastModified": "2026-06-05T07:24:05.3153185+00:00",
-    "appVersion": "26.4.333309.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:50:43.4118735+00:00",
+    "appVersion": "27.0.373991.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Warehouse%20Mobile%20Application/Index/",
-    "sourceHash": "sha256:579d0158528f000ff34b4ae690b7b63c0b4296c28bf54d3c69c81f216fa1d73d",
+    "sourceHash": "sha256:4ea17a7144e23f38919e05b1dd7f98273bbce652a141878df28e2560f68953c4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:579d0158528f000ff34b4ae690b7b63c0b4296c28bf54d3c69c81f216fa1d73d",
-    "mappedOn": null,
-    "summary": "Mobile barcode warehouse operations",
+    "sourceHash": "sha256:4ea17a7144e23f38919e05b1dd7f98273bbce652a141878df28e2560f68953c4",
+    "mappedOn": "2026-10-30",
+    "summary": "Android/iOS barcode scanning app for receiving, picking, moves, consumption and shipping.",
     "shape": "process",
     "primary": [
       {
@@ -41,13 +43,12 @@
     ],
     "claims": [
       "Runs on Android and iOS devices",
-      "Online solution requiring network connection",
-      "Barcode scanning for receiving, moving, production and shipping",
-      "Finds bin contents by batch, lot and serial number",
-      "Prints barcodes and labels directly from handheld devices",
+      "Online only; needs a network connection",
+      "Scans items in receiving, moving, production and shipping",
+      "Identifies bin contents by serial, lot and batch",
+      "Prints barcodes and labels from handheld devices",
       "Supports basic and directed warehouses",
-      "Supports consumption postings from mobile",
-      "Supports Essentials and Premium editions"
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -58,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

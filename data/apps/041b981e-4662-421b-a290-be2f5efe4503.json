@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2sendgrid%7CPAPPID.041b981e-4662-421b-a290-be2f5efe4503",
-    "lastModified": "2025-06-12T08:39:53.4525651+00:00",
+    "lastModified": "2026-10-19T10:34:26.0449901+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:887f667620343939af34e4822ea584661a0d74b83cafd940de59136781205fa6",
+    "sourceHash": "sha256:7dd6bebc641fa222263edb4117ffb04fc38e4d8251ec7764995bf23df8558a4e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:887f667620343939af34e4822ea584661a0d74b83cafd940de59136781205fa6",
-    "mappedOn": null,
-    "summary": "Sends BC emails via SendGrid",
+    "sourceHash": "sha256:7dd6bebc641fa222263edb4117ffb04fc38e4d8251ec7764995bf23df8558a4e",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the SendGrid email platform.",
     "shape": "connector",
     "primary": [
       {
@@ -31,26 +33,22 @@
       "ng-mkt-campaigns"
     ],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Sendgrid",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Sendgrid account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "SendGrid"
     ],
-    "requires": [
-      "SendGrid"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

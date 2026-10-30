@@ -8,37 +8,43 @@
     "publisher": "NVision Commerce Solutions B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-b2b%7CPAPPID.e2dcef81-b589-435f-8612-1b4d8ffe8ff0",
-    "lastModified": "2026-09-27T22:52:30.8751123+00:00",
-    "appVersion": "102.1.936.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:23:35.1755391+00:00",
+    "appVersion": "102.1.945.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://nvision.freshdesk.com/support/solutions/80000373100",
-    "sourceHash": "sha256:4e7e087f8bce25e91ae3dcd404afb052d2fb3fd519c9ddae2a1c85b120e61ea6",
+    "sourceHash": "sha256:778c3e520d73f2584bdfa3d8f31f9c7441294568110bcc4f526ed740e571c8e3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4e7e087f8bce25e91ae3dcd404afb052d2fb3fd519c9ddae2a1c85b120e61ea6",
-    "mappedOn": null,
-    "summary": "B2B functionality for Commerce 365 for Magento",
+    "sourceHash": "sha256:778c3e520d73f2584bdfa3d8f31f9c7441294568110bcc4f526ed740e571c8e3",
+    "mappedOn": "2026-10-30",
+    "summary": "B2B extension for Commerce 365 Magento: customer prices, document history, multiple logins",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-conn-webshop",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-pricing",
-      "ng-admin-portals"
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Customer-specific prices and discounts shown in Magento",
-      "Supports classic and new pricing experience",
-      "Syncs sales quotes, orders, shipments, invoices and credit memos history",
-      "Original PDF documents available to customers",
-      "Custom fields included in sales document history",
-      "Multiple logins per customer",
-      "Integration events for developers"
+      "Shows BC customer-specific prices and discounts in Magento",
+      "Supports both old and new BC pricing experience",
+      "Runs pricing on Azure components to scale to large catalogs and many price lists",
+      "Syncs quotes, orders, shipments, invoices and credit memos to the shop",
+      "Customers can download the original PDF documents",
+      "Custom fields from other extensions or PTEs included in document history",
+      "Separate Magento login for each customer contact",
+      "Integration events throughout for developers to extend"
     ],
     "countries": [],
     "languages": [

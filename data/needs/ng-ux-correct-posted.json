@@ -64,9 +64,9 @@
         }
       ],
       "coverage": {
-        "Edit or delete the posted record directly": 0.47,
-        "Reverse it with correcting entries": 0.41,
-        "Only fix descriptions, dimensions or terms": 0.29
+        "Edit or delete the posted record directly": 0.5,
+        "Reverse it with correcting entries": 0.44,
+        "Only fix descriptions, dimensions or terms": 0.31
       }
     },
     {
@@ -110,9 +110,9 @@
         }
       ],
       "coverage": {
-        "Sales and purchase documents": 0.47,
-        "G/L and ledger entries": 0.47,
-        "Production, stock or serial numbers": 0.35
+        "Sales and purchase documents": 0.44,
+        "G/L and ledger entries": 0.5,
+        "Production, stock or serial numbers": 0.31
       }
     },
     {
@@ -137,7 +137,7 @@
         }
       ],
       "coverage": {
-        "Yes, log every change": 0.41
+        "Yes, log every change": 0.5
       }
     },
     {
@@ -174,9 +174,18 @@
         }
       ],
       "coverage": {
-        "Finance users in daily work": 0.35,
-        "Only admins or our partner": 0.35
+        "Finance users in daily work": 0.31,
+        "Only admins or our partner": 0.38
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "licensing / usage caps",
+      "terms": [
+        "uses"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

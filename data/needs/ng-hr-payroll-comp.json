@@ -70,7 +70,9 @@
     "Employees choose their benefits once a year and HR collects paper forms",
     "Benefit deductions need to reach payroll",
     "Statement per employee showing all their benefits",
-    "Send enrollment changes to our pension company automatically"
+    "Send enrollment changes to our pension company automatically",
+    "We need payroll that follows our local tax and labour rules",
+    "We want vacation and sick leave tracked together with payroll"
   ],
   "questions": [
     {
@@ -124,7 +126,7 @@
         }
       ],
       "coverage": {
-        "Inside Business Central": 0.53,
+        "Inside Business Central": 0.47,
         "In a separate payroll service, posted into BC": 0.32
       }
     },
@@ -149,7 +151,7 @@
         }
       ],
       "coverage": {
-        "Yes, employee self-service or app": 0.26
+        "Yes, employee self-service or app": 0.29
       }
     },
     {
@@ -213,7 +215,8 @@
             "incentive",
             "benefit",
             "allowance",
-            "gratuit"
+            "gratuit",
+            "company car"
           ]
         },
         {
@@ -230,9 +233,110 @@
         }
       ],
       "coverage": {
-        "Bonuses and benefits": 0.26,
+        "Bonuses and benefits": 0.29,
         "Employee loans or salary advances": 0.26
       }
+    },
+    {
+      "id": "should-holidays-sick-leave-and",
+      "text": "Should holidays, sick leave and absence be handled in the same system?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, track leave and absence too",
+          "patterns": [
+            "\\bleave\\b",
+            "vacation",
+            "absen",
+            "holiday (law|administration|work|rules)",
+            "time off"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track leave and absence too": 0.63
+      }
+    },
+    {
+      "id": "which-country-s-payroll-rules-",
+      "text": "Which country's payroll rules must it follow?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Denmark or Greenland",
+          "patterns": [
+            "danish",
+            "denmark",
+            "løn",
+            "greenland"
+          ]
+        },
+        {
+          "label": "Latvia or Lithuania",
+          "patterns": [
+            "latvia",
+            "lithuania"
+          ]
+        },
+        {
+          "label": "Ukraine or Albania",
+          "patterns": [
+            "ukrain",
+            "albania"
+          ]
+        },
+        {
+          "label": "Gulf states and Middle East",
+          "patterns": [
+            "\\bgcc\\b",
+            "gulf",
+            "\\buae\\b",
+            "middle east",
+            "saudi"
+          ]
+        },
+        {
+          "label": "United States or Canada",
+          "patterns": [
+            "\\bin the us\\b",
+            "canada",
+            "united states",
+            "adp workforce"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Denmark or Greenland": 0.24,
+        "Latvia or Lithuania": 0.11,
+        "Ukraine or Albania": 0.11,
+        "Gulf states and Middle East": 0.13,
+        "United States or Canada": 0.05
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "posting payroll to the general ledger is true of every payroll app",
+      "terms": [
+        "general",
+        "ledger"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'module' wording",
+      "terms": [
+        "modul"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

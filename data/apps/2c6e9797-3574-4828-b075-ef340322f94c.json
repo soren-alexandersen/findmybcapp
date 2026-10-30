@@ -8,37 +8,45 @@
     "publisher": "Estonian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.balance-statements%7CPAPPID.2c6e9797-3574-4828-b075-ef340322f94c",
-    "lastModified": "2026-04-18T14:18:40.5239435+00:00",
-    "appVersion": "25.0.26107.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T07:57:12.7151923+00:00",
+    "appVersion": "25.0.26282.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/balance-statements/docs/en-US/help",
-    "sourceHash": "sha256:9ff1c9c173fa455dd8d571c5a122b2fafbead74892b6ea6c2be50fd3492d9422",
+    "sourceHash": "sha256:28dd89b5e1f1a63bb338dff2d61eab39dd7af6fe93e803d883907d4b6c15a3d4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9ff1c9c173fa455dd8d571c5a122b2fafbead74892b6ea6c2be50fd3492d9422",
-    "mappedOn": null,
-    "summary": "Sends and tracks balance confirmation statements to customers and vendors",
+    "sourceHash": "sha256:28dd89b5e1f1a63bb338dff2d61eab39dd7af6fe93e803d883907d4b6c15a3d4",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends balance confirmation statements to customers and vendors and tracks their replies.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-gl-reconciliation",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "low"
       }
     ],
     "secondary": [
+      "ng-ux-email-sending",
       "ng-loc-country-pack"
     ],
     "claims": [
-      "Creates and sends balance statement confirmations in bulk to vendors and customers",
-      "Configurable balance statement layout",
-      "Configurable email body",
-      "Sends balance statements by email in bulk",
-      "Attach feedback, notes and documents received on reconciliation",
+      "Creates balance confirmation statements for customers and vendors in bulk",
+      "Statement layout can be customised or a default used",
+      "Email body for statements is configurable",
+      "Emails prepared statements in bulk",
+      "Stores notes and documents received as reconciliation feedback",
       "Archives processed statements",
-      "Adds the FA Balance (Physical Inventory List) report to the fixed assets list",
-      "Supports Essential and Premium editions"
+      "Adds a fixed asset balance report to the fixed asset list",
+      "Works with Essentials and Premium editions",
+      "Available in English and Estonian"
     ],
     "countries": [
       "EE"
@@ -51,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

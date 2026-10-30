@@ -71,7 +71,7 @@
             "packaging journals",
             "package inventory",
             "invoice actual packaging",
-            "packaging items inventory"
+            "packaging materials?"
           ]
         },
         {
@@ -88,7 +88,8 @@
             "package flows",
             "what is packed",
             "which packaging unit",
-            "history of container contents"
+            "history of container contents",
+            "containers?\\b"
           ]
         },
         {
@@ -98,8 +99,8 @@
       ],
       "coverage": {
         "Returnable pallets, crates or empties with balances": 0.12,
-        "Packaging material stock and cost": 0.08,
-        "What is packed on which pallet or box": 0.34
+        "Packaging material stock and cost": 0.13,
+        "What is packed on which pallet or box": 0.49
       }
     },
     {
@@ -153,9 +154,9 @@
         }
       ],
       "coverage": {
-        "Parcels with carrier labels and tracking": 0.18,
-        "Pallets with SSCC / GS1 labels": 0.12,
-        "Our own planned truck loads or tours": 0.11
+        "Parcels with carrier labels and tracking": 0.15,
+        "Pallets with SSCC / GS1 labels": 0.13,
+        "Our own planned truck loads or tours": 0.07
       }
     },
     {
@@ -187,9 +188,9 @@
         }
       ],
       "coverage": {
-        "Tasklet Mobile WMS": 0.06,
-        "EOS Solutions apps (Power WMS, Handling Units...)": 0.17,
-        "Agriware 365": 0.05
+        "Tasklet Mobile WMS": 0.07,
+        "EOS Solutions apps (Power WMS, Handling Units...)": 0.18,
+        "Agriware 365": 0.04
       }
     },
     {
@@ -226,8 +227,8 @@
         }
       ],
       "coverage": {
-        "Handheld scanners or tablets": 0.35,
-        "At a PC, from the order or shipment": 0.11
+        "Handheld scanners or tablets": 0.38,
+        "At a PC, from the order or shipment": 0.09
       }
     },
     {
@@ -268,15 +269,110 @@
           ]
         },
         {
+          "label": "Delivery notes (plain or with prices)",
+          "patterns": [
+            "delivery notes?"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Packing lists": 0.11,
-        "One shipment or delivery note for several orders": 0.15,
-        "CMR, customs or transport documents": 0.09
+        "Packing lists": 0.12,
+        "One shipment or delivery note for several orders": 0.13,
+        "CMR, customs or transport documents": 0.09,
+        "Delivery notes (plain or with prices)": 0.04
       }
+    },
+    {
+      "id": "do-any-of-these-apply-when-you",
+      "text": "Do any of these apply when you pack and ship?",
+      "multi": true,
+      "options": [
+        {
+          "label": "System should suggest boxes, pallets and quantities",
+          "patterns": [
+            "suggests? containers",
+            "propose which containers",
+            "packaging calculation",
+            "quantity calculation from packaging",
+            "packing proposals",
+            "packaging rules"
+          ]
+        },
+        {
+          "label": "Shipped quantity can differ from the order",
+          "patterns": [
+            "over- and under-delivery",
+            "quantity (differences|fluctuations)",
+            "logistic differences",
+            "partial(ly)? deliver",
+            "tolerances?",
+            "over[- /]?under",
+            "excess quantit",
+            "more than the (sales )?order quantity",
+            "over-?shipment"
+          ]
+        },
+        {
+          "label": "Goods counted in two units (e.g. pieces and kg)",
+          "patterns": [
+            "dual (unit|uom)",
+            "pcs/kg",
+            "unit conversion"
+          ]
+        },
+        {
+          "label": "Also on goods received from suppliers",
+          "patterns": [
+            "warehouse receipts?",
+            "goods receipt",
+            "inbound"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "System should suggest boxes, pallets and quantities": 0.12,
+        "Shipped quantity can differ from the order": 0.16,
+        "Goods counted in two units (e.g. pieces and kg)": 0.04,
+        "Also on goods received from suppliers": 0.07
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic warehouse document wording",
+      "terms": [
+        "warehous"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "per-location settings, generic",
+      "terms": [
+        "location"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'configurable' wording",
+      "terms": [
+        "configurabl"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'delivery' wording",
+      "terms": [
+        "delivery"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,79 +8,55 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_status_management%7CPAPPID.5993ca62-524b-4886-8216-2bb0e8a42e1d",
-    "lastModified": "2026-08-26T06:14:21.3279463+00:00",
-    "appVersion": "2602.1.339278.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:01:55.9878978+00:00",
+    "appVersion": "2603.0.351466.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/STM/",
-    "sourceHash": "sha256:d7b67b0b5794f0a500b0ff0285b64d50e69df29ea17be6dcf62e98885e357d82",
+    "sourceHash": "sha256:48bdad43862d25f26a23afecdad24fb19ac6ae767d990a370237550eeb71efb4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d7b67b0b5794f0a500b0ff0285b64d50e69df29ea17be6dcf62e98885e357d82",
-    "mappedOn": null,
-    "summary": "Defines and enforces status-based business processes",
-    "shape": "addon",
+    "sourceHash": "sha256:48bdad43862d25f26a23afecdad24fb19ac6ae767d990a370237550eeb71efb4",
+    "mappedOn": "2026-10-30",
+    "summary": "Defines and enforces mandatory status stages on customers, items, BOMs and orders.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-ux-automation",
+        "need": "ng-admin-approval-workflows",
         "confidence": "medium"
       },
       {
         "need": "ng-ux-data-quality",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-approval-workflows",
+      "ng-ux-automation",
+      "ng-admin-permissions",
       "ng-vert-food-beverage"
     ],
     "claims": [
-      "Status flows for customers, items, BOMs, sales orders and purchase orders",
-      "Mandatory status stages that cannot be skipped",
-      "Stages linked to permission sets",
-      "Locks fields in specific status stages",
-      "Automatic advance to next stage when criteria met"
+      "Status flows for customers, items, BOMs, purchase orders and sales orders",
+      "Marks stages as mandatory so users cannot skip them",
+      "Links stages to permission sets",
+      "Locks fields while a record is in a given stage",
+      "Advances records automatically when criteria are met",
+      "Different process variants for the same activity",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

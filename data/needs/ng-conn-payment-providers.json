@@ -72,10 +72,10 @@
         }
       ],
       "coverage": {
-        "Stripe": 0.25,
-        "Adyen": 0.12,
-        "PayPal": 0.12,
-        "Nordic: MobilePay, Vipps, Nets, Klarna": 0.14
+        "Stripe": 0.26,
+        "Adyen": 0.17,
+        "PayPal": 0.15,
+        "Nordic: MobilePay, Vipps, Nets, Klarna": 0.17
       }
     },
     {
@@ -98,7 +98,9 @@
             "link in email",
             "links? in invoice",
             "worldpay payment link",
-            "payment links? or qr"
+            "payment links? or qr",
+            "payment requests?",
+            "requesting payment"
           ]
         },
         {
@@ -143,15 +145,26 @@
           ]
         },
         {
+          "label": "Bank transfer or open banking (pay by bank)",
+          "patterns": [
+            "instant bank pay",
+            "psd2",
+            "open banking",
+            "bank payment",
+            "bank transfer"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Online via a payment link or portal": 0.49,
-        "Card terminal in person": 0.27,
-        "Direct debit or recurring collection": 0.29,
-        "Charging a saved card": 0.18
+        "Online via a payment link or portal": 0.5,
+        "Card terminal in person": 0.28,
+        "Direct debit or recurring collection": 0.33,
+        "Charging a saved card": 0.17,
+        "Bank transfer or open banking (pay by bank)": 0.07
       }
     },
     {
@@ -187,8 +200,8 @@
         }
       ],
       "coverage": {
-        "Auto-match payment to the invoice": 0.51,
-        "Post provider fees and payouts": 0.31
+        "Auto-match payment to the invoice": 0.5,
+        "Post provider fees and payouts": 0.35
       }
     },
     {
@@ -223,8 +236,8 @@
         }
       ],
       "coverage": {
-        "Webshop or e-commerce": 0.12,
-        "Shop counter / POS": 0.1
+        "Webshop or e-commerce": 0.13,
+        "Shop counter / POS": 0.11
       }
     },
     {
@@ -246,8 +259,41 @@
         }
       ],
       "coverage": {
-        "Yes": 0.24
+        "Yes": 0.22
       }
+    },
+    {
+      "id": "do-you-take-payments-in-severa",
+      "text": "Do you take payments in several currencies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several currencies",
+          "patterns": [
+            "multi-currency",
+            "\\d+\\+? currencies",
+            "processing currencies",
+            "currency (conversion|mapping)",
+            "foreign currency"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several currencies": 0.13
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic sync wording",
+      "terms": [
+        "sync"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

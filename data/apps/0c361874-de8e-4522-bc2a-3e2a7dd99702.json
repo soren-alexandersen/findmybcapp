@@ -8,18 +8,20 @@
     "publisher": "Allianz Trade",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allianztrade%7CAID.allianztradeforbusinesscentral2%7CPAPPID.0c361874-de8e-4522-bc2a-3e2a7dd99702",
-    "lastModified": "2026-09-03T07:12:24.2143691+00:00",
+    "lastModified": "2026-10-19T12:44:41.9369375+00:00",
     "appVersion": "1.0.0.1",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://developers.allianz-trade.com/support",
-    "sourceHash": "sha256:1f0eb001bb0765670392497a32b4ad62a1b217485357bef4566571e909ffd145",
+    "sourceHash": "sha256:7192f8bfdc7739adda646e6b2d61c0845872db3699383ab4b8760ec44e50faa5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1f0eb001bb0765670392497a32b4ad62a1b217485357bef4566571e909ffd145",
-    "mappedOn": null,
-    "summary": "Connects trade credit insurance for credit limits and risk",
+    "sourceHash": "sha256:7192f8bfdc7739adda646e6b2d61c0845872db3699383ab4b8760ec44e50faa5",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings Allianz Trade credit insurance limits and buyer risk data into BC.",
     "shape": "connector",
     "primary": [
       {
@@ -28,32 +30,34 @@
       },
       {
         "need": "ng-conn-company-data",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
     "claims": [
-      "Requests and monitors Allianz Trade credit limits from customer cards",
-      "No coding or API integration needed",
-      "Buyer database and credit insights on the customer card",
-      "Automatic real-time sync of Allianz Trade customer information",
-      "Search Allianz Trade global database and create customers from it",
-      "Dashboard of existing limits, pending applications and decision history",
-      "Non-payment case submission not yet available",
-      "Requires an Allianz Trade insurance policy"
+      "Credit limit requests to Allianz Trade are made from the customer card",
+      "Shows the insurer's credit data and insights on the buyer card",
+      "Insurer updates to customer risk data sync into BC automatically",
+      "Lets users search the Allianz Trade buyer database and create customers from it",
+      "One dashboard shows current limits, pending applications and decision history",
+      "No coding or API work needed, only an initial setup",
+      "Requires the company to hold an Allianz Trade insurance policy",
+      "Submitting non-payment cases is not yet available",
+      "Works with both BC online and on-premises"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Financial services",
-      "Insurance"
+      "Financial Services"
     ],
     "connectsTo": [
       "Allianz Trade"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "both",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

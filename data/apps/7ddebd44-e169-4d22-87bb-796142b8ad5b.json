@@ -8,18 +8,20 @@
     "publisher": "Alterna",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.7ddebd44-e169-4d22-87bb-796142b8ad5b%7CPAPPID.7ddebd44-e169-4d22-87bb-796142b8ad5b",
-    "lastModified": "2026-09-08T19:29:16.049338+00:00",
-    "appVersion": "2.7.30.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:16:27.6522587+00:00",
+    "appVersion": "2.8.31.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/product-configurator/",
-    "sourceHash": "sha256:03972768acf843bd2daeb685aebff96ff1b0cf0b416d3dfffff33014627b9ea7",
+    "sourceHash": "sha256:37a3638e31c5e97821e1a6b5e9cb29bcb71a79ad5bebcb92b20fb755d914d2c4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:03972768acf843bd2daeb685aebff96ff1b0cf0b416d3dfffff33014627b9ea7",
-    "mappedOn": null,
-    "summary": "Product configurator for items in quotes and orders",
+    "sourceHash": "sha256:37a3638e31c5e97821e1a6b5e9cb29bcb71a79ad5bebcb92b20fb755d914d2c4",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based product configurator generating items, BOMs, routings and prices from quotes and orders.",
     "shape": "process",
     "primary": [
       {
@@ -34,18 +36,20 @@
     "secondary": [
       "ng-sales-quotes",
       "ng-sales-pricing",
+      "ng-routings-workcenters",
       "ng-item-master-data"
     ],
     "claims": [
-      "Configuration models",
-      "Rules to configure product structures and items",
-      "Items with custom configurations",
-      "Sales prices depending on characteristic values",
-      "Production BOMs configurable at each level",
-      "Configurable production routings",
-      "Item search by characteristics",
-      "Configuration wizard on sales quotes and orders",
-      "Supports configure-to-order and manufacture-to-order"
+      "Built for configure-to-order and make-to-order companies",
+      "Uses configuration models and rules for items and product structures",
+      "Creates items with custom configurations",
+      "Sales price depends on the chosen characteristic values",
+      "Production BOMs can be configured at every level",
+      "Production routings can be configured",
+      "Find items by their characteristics",
+      "Wizard guides configuration in sales quotes and orders",
+      "30-day trial, then subscription per product level",
+      "Available in English and Italian"
     ],
     "countries": [],
     "languages": [
@@ -53,8 +57,8 @@
       "it"
     ],
     "industries": [
-      "Architecture and Construction",
-      "Manufacturing"
+      "Manufacturing & Mobility",
+      "Professional Services"
     ],
     "connectsTo": [],
     "requires": [],

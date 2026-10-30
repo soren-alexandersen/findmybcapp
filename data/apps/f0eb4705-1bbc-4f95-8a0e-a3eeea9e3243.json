@@ -8,50 +8,59 @@
     "publisher": "H2 Business Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.h2businesssystemslimited1585563468827%7CAID.h2bs001%7CPAPPID.f0eb4705-1bbc-4f95-8a0e-a3eeea9e3243",
-    "lastModified": "2026-10-06T19:18:48.9600127+00:00",
-    "appVersion": "28.4.8.229",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T16:37:11.3812339+00:00",
+    "appVersion": "28.5.2.248",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://essentialrental.h2business.systems/docs/index.html",
-    "sourceHash": "sha256:82ed30f5e19114fe44a6f496b000dfe9aebf53e97114cdc658b35933ae82f33b",
+    "sourceHash": "sha256:d5c3ad9e73c0a9befc334cda070f885b2dd5ca28bfb7ee6652da86246a234b98",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:82ed30f5e19114fe44a6f496b000dfe9aebf53e97114cdc658b35933ae82f33b",
-    "mappedOn": null,
-    "summary": "Rental quotes, contracts, fleet and billing",
+    "sourceHash": "sha256:d5c3ad9e73c0a9befc334cda070f885b2dd5ca28bfb7ee6652da86246a234b98",
+    "mappedOn": "2026-10-30",
+    "summary": "Equipment rental management in BC: quotes, contracts, dispatch, returns, maintenance, billing.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-equipment-rental",
         "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-maintenance-planned",
-      "ng-intercompany-consolidation"
+      "ng-sales-pricing",
+      "ng-fa-register",
+      "ng-lot-serial-traceability",
+      "ng-product-compliance"
     ],
     "claims": [
-      "Bills in advance or in arrears, per day, week, month, year or quarter",
-      "Excludes non-working days from billing automatically",
-      "Customer and group price lists, duration tiers, peak/off-peak rates, minimum billing periods",
-      "Invoice Suggestion Worksheet shows all orders due with amount and tax before invoicing",
-      "Combine orders on one invoice or preview as pro forma",
+      "Billing cycles from daily to yearly, in advance or in arrears",
+      "Excludes non-working days from billing",
+      "Customer and group price lists with duration tiers, peak rates and minimum billing periods",
+      "Invoice suggestion worksheet previews all due orders with amount and tax",
+      "Combines orders on one invoice or previews pro forma",
       "Credits unused advance-billed period on early return",
-      "Moves units between depots or group companies across environments and tenants with in-transit stock",
-      "VAT, GST and sales tax with contract exchange rates",
-      "Receiving a PO creates rental units each with its own fixed asset",
-      "Tracks serialised units: out, back, maintenance, transferred, lost, disposed",
-      "Swap a unit mid-hire without billing gaps",
-      "Rental kits explode into components",
-      "Real-time availability matrix and calendar for the whole fleet",
-      "Line-level allocation prevents double booking of a serial",
+      "Transfers units between depots and group companies across environments and tenants",
+      "Handles VAT, GST and sales tax with fixed contract exchange rates",
+      "Receiving a purchase order creates rental units with a fixed asset each",
+      "Mid-hire unit swaps keep billing continuous",
+      "Rental kits explode into machine, attachments and operator",
+      "Availability matrix and calendar across the fleet",
+      "Line-level allocation prevents double booking the same serial",
       "Maintenance scheduled by calendar, meter reading or on return",
-      "Maintenance orders with labour, parts, contractor costs per unit and Gantt",
-      "Compliance certificates (LOLER, PAT) on the unit can block shipment when lapsed",
-      "Fully enabled free in any sandbox, no time limit",
-      "Maintenance and Global Equipment are optional licensed modules in production",
-      "Supports Essentials and Premium editions"
+      "Maintenance orders track labour, parts and contractor cost per unit with a Gantt view",
+      "Lapsed compliance certificates can block shipment",
+      "All modules free in sandboxes; Maintenance and Global Equipment licensed separately in production"
     ],
     "countries": [],
     "languages": [
@@ -68,7 +77,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

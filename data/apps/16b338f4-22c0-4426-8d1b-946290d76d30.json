@@ -8,18 +8,20 @@
     "publisher": "GMSOFT LIMITED",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.inventory-planning%7CPAPPID.16b338f4-22c0-4426-8d1b-946290d76d30",
-    "lastModified": "2026-08-14T09:16:33.1838126+00:00",
-    "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T04:49:36.5731047+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
-    "helpLink": "https://gmsoftdynamics.com/apps/inventory-planning/docs",
-    "sourceHash": "sha256:b0874176d56aa1c5b6219e54524569b8bfa1fe69a8dca63237fc348426701526",
+    "helpLink": "https://gmsoftdynamics.com/apps/free/inventory-planning/docs/",
+    "sourceHash": "sha256:fb942e244702d932f9fd66438386f21d9184bd1b02207eb2e30a98f577362835",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b0874176d56aa1c5b6219e54524569b8bfa1fe69a8dca63237fc348426701526",
-    "mappedOn": null,
-    "summary": "Calculates safety stock, reorder point and EOQ from demand",
+    "sourceHash": "sha256:fb942e244702d932f9fd66438386f21d9184bd1b02207eb2e30a98f577362835",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates safety stock, reorder point, EOQ and reorder policy from demand history.",
     "shape": "process",
     "primary": [
       {
@@ -28,29 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-demand-forecast",
-      "ng-inventory-analysis"
+      "ng-demand-forecast"
     ],
     "claims": [
-      "Calculates safety stock at chosen service level",
-      "Calculates reorder point",
-      "Economic order quantity via Wilson formula respecting order modifiers",
-      "Calculates maximum inventory for Maximum Qty. items",
-      "Recommends reordering policy via Syntetos-Boylan classification",
-      "Writes results to standard item fields used by MRP and requisition worksheets",
-      "Planning worksheet comparing current vs proposed values",
-      "Logs every calculation with its statistics",
-      "Warns when demand diverges or is too intermittent",
-      "Can supply fresh values during a planning run",
-      "Run per item, in bulk, from worksheet or nightly job queue",
-      "Free and open source under MIT license"
+      "Safety stock from demand and lead-time variability at a chosen service level",
+      "Reorder point as lead-time demand plus safety stock",
+      "EOQ via Wilson formula respecting order modifiers",
+      "Maximum inventory for order-up-to items",
+      "Recommends a reordering policy from demand pattern classification",
+      "Writes results to standard item fields used by planning and MRP",
+      "Worksheet compares current and proposed values and applies selected lines",
+      "Logs each calculation with statistics, lead time source, service level and reasoning",
+      "Warns on demand shifts, SKU overrides and intermittent demand",
+      "Runs per item, in bulk, from the worksheet or nightly via job queue",
+      "Free and open source under MIT"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Distribution",
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

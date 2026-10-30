@@ -8,45 +8,52 @@
     "publisher": "SystemConnect",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.viesconnect%7CPAPPID.a8ca042e-1dbc-4d86-8d5a-6f3da0cbc5b3",
-    "lastModified": "2026-10-06T09:07:04.0270072+00:00",
-    "appVersion": "28.0.0.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T07:17:04.3660083+00:00",
+    "appVersion": "28.0.0.10",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.systemconnect.dk/viesconnecthelp",
-    "sourceHash": "sha256:27c190d7e9b9795064c00d54eb7b04ecd5d3f13d4457a4d23adf7f120e2835e0",
+    "sourceHash": "sha256:72aad0180604d0b0160a466c34ab5f9925fa0fdb1101b59182b44d7589a4f6a8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:27c190d7e9b9795064c00d54eb7b04ecd5d3f13d4457a4d23adf7f120e2835e0",
-    "mappedOn": null,
-    "summary": "Validates customer and vendor VAT numbers via VIES",
-    "shape": "connector",
+    "sourceHash": "sha256:72aad0180604d0b0160a466c34ab5f9925fa0fdb1101b59182b44d7589a4f6a8",
+    "mappedOn": "2026-10-30",
+    "summary": "Checks customer and vendor VAT numbers against EU VIES on a schedule.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-conn-company-data",
+        "need": "ng-ux-data-quality",
         "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vat-tax",
-      "ng-ux-data-quality"
+      "ng-crm-accounts",
+      "ng-supplier-onboarding"
     ],
     "claims": [
-      "Scheduled validation of vendor and customer VAT numbers via EU VIES",
-      "Filters control which customers/vendors are checked and how often",
-      "Log and report viewable on screen or sent by email",
-      "Alerts when a VAT number is invalid or has changed",
-      "Runs as background job queue"
+      "Scheduled validation of customer and vendor VAT numbers",
+      "Checks numbers through the EU VIES service",
+      "Filters control which customers and vendors are checked and how often",
+      "Results are logged and summarised in a report that can be emailed",
+      "Runs as a background job queue",
+      "Notifies users about invalid or changed VAT numbers"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "VIES"
+      "EU VIES"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

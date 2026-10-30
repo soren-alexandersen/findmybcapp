@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex061_productqqualityassurance%7CPAPPID.14a1ff65-76de-4f24-81ec-43da6939e733",
-    "lastModified": "2026-10-02T18:05:08.6900535+00:00",
-    "appVersion": "28.0.16.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T11:57:13.9952449+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-quality-assurance.html",
-    "sourceHash": "sha256:33c0aef010faeeee09638aa65e7d6b1b807c8588c5ca708f0a0f21367899b46e",
+    "sourceHash": "sha256:d2904ffcfe26da5336af1618185a121e50984c1d52a8e871750f0388bef1a2fb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:33c0aef010faeeee09638aa65e7d6b1b807c8588c5ca708f0a0f21367899b46e",
-    "mappedOn": "2026-10-07",
-    "summary": "Quality inspection plans and orders at receipt, production and shipment, with non-compliance and vendor rating",
+    "sourceHash": "sha256:d2904ffcfe26da5336af1618185a121e50984c1d52a8e871750f0388bef1a2fb",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality inspection plans and orders for receipts, production and shipments, with non-conformances.",
     "shape": "process",
     "primary": [
       {
@@ -29,21 +31,22 @@
       {
         "need": "ng-nonconformance-capa",
         "confidence": "medium"
-      },
-      {
-        "need": "ng-supplier-quality-compliance",
-        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-supplier-quality-compliance",
+      "ng-admin-copilot-agents"
+    ],
     "claims": [
-      "AI agent reads incoming emails and starts quality processes",
-      "Inspection of raw materials, semi-finished and finished goods",
+      "Inspects raw materials, semi-finished and finished goods",
       "Manages inspection devices",
-      "Auto-generates inspection orders from plans and test types",
-      "Creates non-compliance when values are out of range",
-      "Vendor rating from date, quantity and quality scores",
-      "Free version, then yearly subscription"
+      "Inspection orders are generated automatically from inspection plans and test types",
+      "Creates a non-compliance record when results fall outside the allowed range",
+      "Rates vendors with scores on date, quantity and quality",
+      "Drill from inspection orders and non-compliances back to source documents",
+      "An AI agent watches incoming email and starts the matching quality process",
+      "Free version plus trial, then yearly subscription",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -58,11 +61,14 @@
       "no",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

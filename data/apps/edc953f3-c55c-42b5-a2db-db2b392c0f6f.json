@@ -8,8 +8,8 @@
     "publisher": "Globe Accounting",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.globeaccounting1579187614233%7CAID.globe_lt%7CPAPPID.edc953f3-c55c-42b5-a2db-db2b392c0f6f",
-    "lastModified": "2026-10-01T09:55:00.2865338+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-07T09:17:17.2512798+00:00",
+    "appVersion": "28.1.0.0",
     "pricingTypes": [
       "ContactPublisher"
     ],

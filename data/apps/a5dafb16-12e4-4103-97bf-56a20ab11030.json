@@ -8,58 +8,53 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_foundation_bundle_fnb_wholesale%7CPAPPID.a5dafb16-12e4-4103-97bf-56a20ab11030",
-    "lastModified": "2026-09-23T12:09:51.6217855+00:00",
-    "appVersion": "2601.10.344971.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T15:18:14.8799511+00:00",
+    "appVersion": "2602.0.351756.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:f6fc20c193b1198084cfa433d3721c39457a631790bd77882a0b485ed937219a",
+    "sourceHash": "sha256:8dd35c4f631830ba21dbe83b461643c1c31e17943a8212da829e812c38896db8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f6fc20c193b1198084cfa433d3721c39457a631790bd77882a0b485ed937219a",
-    "mappedOn": null,
-    "summary": "Foundational food and beverage wholesale and distribution functions",
+    "sourceHash": "sha256:8dd35c4f631830ba21dbe83b461643c1c31e17943a8212da829e812c38896db8",
+    "mappedOn": "2026-10-30",
+    "summary": "Core Aptean food and beverage bundle with lot, quality, labeling and warehouse apps.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-food-beverage",
         "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-lot-serial-traceability",
       "ng-quality-inspection",
-      "ng-production-scheduling"
+      "ng-production-scheduling",
+      "ng-barcode-labels"
     ],
     "claims": [
-      "Bundle apps include Expiration Management, Advanced Pricing, License Plating, Mobile Warehouse and others",
-      "Lot management, quality control, packaging and pricing",
-      "Visibility of production schedules"
+      "Includes mobile warehouse, license plating, advanced pricing and expiration management apps",
+      "Includes inspection status, lot management, labeling, quality control, packaging and print apps",
+      "Manufacturing modules give visibility of production schedules",
+      "Supports Essential and Premium editions",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "ID",
-      "MX",
-      "MY",
-      "PH",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "VN"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

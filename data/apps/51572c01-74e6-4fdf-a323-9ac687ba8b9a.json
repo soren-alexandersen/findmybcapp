@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.productionentry|PAPPID.51572c01-74e6-4fdf-a323-9ac687ba8b9a",
+  "guid": "51572c01-74e6-4fdf-a323-9ac687ba8b9a",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "productionentry",
+  "source": {
+    "name": "Production Entry",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.productionentry%7CPAPPID.51572c01-74e6-4fdf-a323-9ac687ba8b9a",
+    "lastModified": "2026-10-19T07:56:11.7296569+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/production-entry/",
+    "sourceHash": "sha256:b83faee4fa615948d3ba5a8b1c609badef1c41591f7e80db7ebaaf9465208721",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b83faee4fa615948d3ba5a8b1c609badef1c41591f7e80db7ebaaf9465208721",
+    "mappedOn": "2026-10-30",
+    "summary": "Guided shop-floor entry of output, scrap, time and consumption with review and OEE.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-lean-production",
+      "ng-admin-devices",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Prioritised job queue per operator with overdue orders highlighted",
+      "One screen for output, scrap with reasons, setup and run time, and downtime",
+      "Barcode scanning with lot, serial and SSCC numbers and label printing",
+      "Component usage is derived from good plus scrapped output",
+      "Entries can wait as drafts for supervisor review",
+      "Automatic checks score drafts and explain problems",
+      "Clean entries post automatically; failures go to a recovery list",
+      "Material shortage view with pick creation and substitution",
+      "OEE per work centre with loss breakdown by reason",
+      "Machine events via API become draft entries",
+      "Lite, Standard and Premium plans",
+      "Premium edition and Microsoft Quality Management app required"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Microsoft Quality Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

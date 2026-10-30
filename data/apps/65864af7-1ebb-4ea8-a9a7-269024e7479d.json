@@ -8,35 +8,39 @@
     "publisher": "Samadhan",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.item_mgmt_samadhan%7CPAPPID.65864af7-1ebb-4ea8-a9a7-269024e7479d",
-    "lastModified": "2026-06-03T12:56:34.6923411+00:00",
-    "appVersion": "3.2.124.2218",
-    "pricingTypes": [],
+    "lastModified": "2026-10-16T05:35:52.9910633+00:00",
+    "appVersion": "3.2.124.2223",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.samadhanindia.com/helpdesk-support",
-    "sourceHash": "sha256:4ca1fcaf05b4fd3060923c54beb2e327c1abf8ed2bd950f29295d600497667bd",
+    "sourceHash": "sha256:7108b53970bdb98a1b7ecf1fcba9f4f492bfc62a5618bb2b6efdbc4ab0f52cdc",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:4ca1fcaf05b4fd3060923c54beb2e327c1abf8ed2bd950f29295d600497667bd",
-    "mappedOn": null,
-    "summary": "Rules for standardized item creation and duplicate checks",
+    "sourceHash": "sha256:7108b53970bdb98a1b7ecf1fcba9f4f492bfc62a5618bb2b6efdbc4ab0f52cdc",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based item creation with standard descriptions, unique codes and duplicate checks.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-item-master-data",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-ux-data-quality"
-    ],
+    "secondary": [],
     "claims": [
       "Global rules per item category",
-      "Item creation via attributes and attribute values",
-      "Standardized item descriptions",
-      "Unique Identification Code per item",
-      "Duplicate item creation check",
-      "Update items using item template"
+      "Creates items from attributes and attribute values",
+      "Standardises item descriptions",
+      "Assigns a unique identification code to each item",
+      "Checks for duplicate items on creation",
+      "Updates items from item templates"
     ],
     "countries": [],
     "languages": [],
@@ -44,7 +48,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

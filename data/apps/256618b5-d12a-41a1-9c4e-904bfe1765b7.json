@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.robosoft|AID.robocommodityctrm|PAPPID.256618b5-d12a-41a1-9c4e-904bfe1765b7",
+  "guid": "256618b5-d12a-41a1-9c4e-904bfe1765b7",
+  "publisherId": "robosoft",
+  "offerId": "robocommodityctrm",
+  "source": {
+    "name": "RoboCommodity_CTRM",
+    "publisher": "Robosoft Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.robosoft%7CAID.robocommodityctrm%7CPAPPID.256618b5-d12a-41a1-9c4e-904bfe1765b7",
+    "lastModified": "2026-10-30T11:02:47.0187142+00:00",
+    "appVersion": "26.0.0.7",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.robo-soft.com/support/",
+    "sourceHash": "sha256:e87aa983f62ecbbfcb436384e614fc4752b9d06f10b1add35a8ac055a72d1dbf",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:e87aa983f62ecbbfcb436384e614fc4752b9d06f10b1add35a8ac055a72d1dbf",
+    "mappedOn": "2026-10-30",
+    "summary": "Commodity trading and risk management: float pricing, hedges, benchmarks and mark-to-market.",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Float pricing tied to market indexes on purchases and sales",
+      "Three float pricing rules: date range, specific dates and event based",
+      "Manages futures, options, swaps and currency hedges linked to physical trades",
+      "Calculates unrealised gains and losses on hedges against market prices",
+      "Benchmarks trades with spot, spot average, month average and balance of month average valuation",
+      "Mark-to-market of stock, returns and open purchase and sales orders against exchange prices"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Energy & Resources"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

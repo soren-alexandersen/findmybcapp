@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynasystechnology|AID.dynasys-maintenance-manager|PAPPID.cfcb3c8a-7865-47e6-a680-722b798b57af",
+  "guid": "cfcb3c8a-7865-47e6-a680-722b798b57af",
+  "publisherId": "dynasystechnology",
+  "offerId": "dynasys-maintenance-manager",
+  "source": {
+    "name": "Dynasys Maintenance Management",
+    "publisher": "DYNASYS TECHNOLOGY",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasystechnology%7CAID.dynasys-maintenance-manager%7CPAPPID.cfcb3c8a-7865-47e6-a680-722b798b57af",
+    "lastModified": "2026-10-25T21:05:05.4248168+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.dynasys.tech/solutions/maintenance-manager/docs",
+    "sourceHash": "sha256:18a293a5a05b8531bd757b704b4a95895856040f5ea5a33c1c38224741e75609",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:18a293a5a05b8531bd757b704b4a95895856040f5ea5a33c1c38224741e75609",
+    "mappedOn": "2026-10-30",
+    "summary": "Machine maintenance in BC: preventive schedules, work orders, requests, costs and reliability KPIs.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Machine register with serial number, model, location and warranty",
+      "Preventive schedules generate work orders automatically by interval",
+      "Operators raise maintenance requests and the team is notified",
+      "Work orders track labour hours, parts and external service invoices into cost per activity and machine",
+      "Live dashboard with KPIs, team performance and a Gantt view",
+      "Built-in MTTR and MTBF metrics and SLA tracking",
+      "Technicians log time, notes and photos on jobs",
+      "Spare parts stock levels and thresholds tied to work order consumption",
+      "Manager role plus a lightweight requester role for operators",
+      "Email notifications to assigner, technician and requester"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

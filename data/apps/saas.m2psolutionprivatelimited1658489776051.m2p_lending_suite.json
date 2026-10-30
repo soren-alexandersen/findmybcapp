@@ -1,0 +1,57 @@
+{
+  "appId": "m2psolutionprivatelimited1658489776051.m2p_lending_suite",
+  "guid": null,
+  "publisherId": "m2psolutionprivatelimited1658489776051",
+  "offerId": "m2p_lending_suite",
+  "source": {
+    "name": "Finflux Loan Origination System",
+    "publisher": "M2P Solution Private Limited",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/m2psolutionprivatelimited1658489776051.m2p_lending_suite",
+    "lastModified": "2026-08-03T17:37:12.8845372+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:313291dc489fb2701ddd1418b0c26b7a3ea8e76c88b2b8e4b98fc25b7aa8c758",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:313291dc489fb2701ddd1418b0c26b7a3ea8e76c88b2b8e4b98fc25b7aa8c758",
+    "mappedOn": "2026-10-30",
+    "summary": "Loan origination system for banks and lenders; not a Business Central solution",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Multi-channel lead management for loan applications",
+      "Straight-through-processing workflows",
+      "No-code business rules engine",
+      "Offer and pricing engine with scorecard generation",
+      "Integrates with over 30 third-party API providers from bureau checks to e-signature"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Banking",
+      "Financial services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "No sign of Business Central; 'BC models' refers to banking channels, not BC.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

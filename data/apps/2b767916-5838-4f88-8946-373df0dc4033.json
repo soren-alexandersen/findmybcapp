@@ -1,0 +1,69 @@
+{
+  "appId": "TYPE.connect|PUBID.techsarwarinc1790464617253|AID.xerobc|PAPPID.2b767916-5838-4f88-8946-373df0dc4033",
+  "guid": "2b767916-5838-4f88-8946-373df0dc4033",
+  "publisherId": "techsarwarinc1790464617253",
+  "offerId": "xerobc",
+  "source": {
+    "name": "Xero AP Connector by TechSarwar",
+    "publisher": "Tech Sarwar Inc.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.techsarwarinc1790464617253%7CAID.xerobc%7CPAPPID.2b767916-5838-4f88-8946-373df0dc4033",
+    "lastModified": "2026-10-21T21:43:57.4397295+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://techsarwar.com/xero-help.html",
+    "sourceHash": "sha256:356b4720c874115ca13a9ecbc5bc48b708f9b3e5b315e2d151fb9a07cb29d78e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:356b4720c874115ca13a9ecbc5bc48b708f9b3e5b315e2d151fb9a07cb29d78e",
+    "mappedOn": "2026-10-30",
+    "summary": "Brings approved Xero bills into Business Central as purchase invoices across companies.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-supplier-onboarding",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Approved Xero bills become posted purchase invoices on a schedule",
+      "One Xero connection serves all companies, with read-only access",
+      "Bills are routed to the right company using the Xero tracking option",
+      "VAT and totals are checked against Xero before posting",
+      "Vendors are created from Xero contacts using vendor templates",
+      "Xero tax codes map to VAT posting groups",
+      "Field mappings for vendors, headers and lines are user-editable",
+      "Overview of every bill's status with a link back to Xero",
+      "Email alert when a scheduled job fails",
+      "Works with Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Xero"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

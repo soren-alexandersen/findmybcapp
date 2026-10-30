@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.e-invoicing%7CPAPPID.1a5f8b1c-c396-440f-9c2a-a037ef3ef33e",
-    "lastModified": "2026-07-16T12:29:54.2669173+00:00",
+    "lastModified": "2026-10-13T04:40:38.2794104+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/solutions/einvoicing-solution-provider/",
-    "sourceHash": "sha256:599e14d70a8b22b52e6418e49eda0970878fb6adbef56bd6cd4cff1e43b14682",
+    "sourceHash": "sha256:fa0d8f856711c8e1fd11283b66231865919a843500e6a79c97f3c41e5925baa6",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:599e14d70a8b22b52e6418e49eda0970878fb6adbef56bd6cd4cff1e43b14682",
-    "mappedOn": null,
-    "summary": "E-invoicing exchange",
+    "sourceHash": "sha256:fa0d8f856711c8e1fd11283b66231865919a843500e6a79c97f3c41e5925baa6",
+    "mappedOn": "2026-10-30",
+    "summary": "HubBroker service for sending and receiving electronic invoices under e-invoicing mandates.",
     "shape": "connector",
     "primary": [
       {
@@ -32,21 +34,22 @@
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Sends and receives invoices electronically in standardized formats",
-      "Follows Peppol, EU directives, country e-invoicing rules and VAT mandates",
-      "Handles JSON, UBL, EDIFACT and XML, and converts PDF to XML",
-      "Validation before transmission",
-      "Works with Microsoft Dynamics, SAP and Uniconta",
-      "GDPR-compliant platform",
-      "Covers EU and North America mandates"
+      "Sends and receives invoices electronically in standard formats",
+      "Covers EU directives, Peppol, VAT mandates and country-specific e-invoicing rules",
+      "Exchanges invoices with customers, suppliers and government authorities",
+      "Handles XML, UBL, EDIFACT, JSON and PDF-to-XML conversion",
+      "Validates invoices before they are sent",
+      "Also connects to SAP, Uniconta and other systems",
+      "Covers mandates in the EU and North America"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Government"
+    ],
     "connectsTo": [
-      "Peppol",
-      "SAP",
-      "Uniconta"
+      "Peppol"
     ],
     "requires": [],
     "deployment": "not_stated",

@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Softextend/public-docs/blob/main/Postis%20Integration/documentation-postis-integration-en.adoc",
     "sourceHash": "sha256:fb89e8114c7003fa0939e2d8552c602a38f329785a0539a4a27bcbdff0a02d76",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:fb89e8114c7003fa0939e2d8552c602a38f329785a0539a4a27bcbdff0a02d76",

@@ -40,7 +40,137 @@
     "remote monitoring of installed equipment",
     "Counter readings from customer copiers should come into BC for service and billing",
     "Can we see machine running hours from the customer site without calling them?",
-    "We'd like to do predictive service based on sensor data from units in the field"
+    "We'd like to do predictive service based on sensor data from units in the field",
+    "We want to know what equipment is installed at each customer",
+    "We need service history and meter readings per machine"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "what-do-you-need-to-know-about",
+      "text": "What do you need to know about each piece of equipment?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Where it is and who has it",
+          "patterns": [
+            "location",
+            "asset holder",
+            "custody"
+          ]
+        },
+        {
+          "label": "Service, repair and replacement history",
+          "patterns": [
+            "service history",
+            "job history",
+            "replacement history",
+            "telematics history",
+            "reading history"
+          ]
+        },
+        {
+          "label": "Meter or counter readings (hours, mileage)",
+          "patterns": [
+            "counter",
+            "meter\\b",
+            "meters\\b",
+            "operating hours",
+            "mileage"
+          ]
+        },
+        {
+          "label": "Warranty and compliance",
+          "patterns": [
+            "warranty",
+            "compliance"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Where it is and who has it": 0.56,
+        "Service, repair and replacement history": 0.56,
+        "Meter or counter readings (hours, mileage)": 0.44,
+        "Warranty and compliance": 0.22
+      }
+    },
+    {
+      "id": "how-should-maintenance-and-vis",
+      "text": "How should maintenance and visits be planned?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Planned maintenance by schedule or usage",
+          "patterns": [
+            "maintenance plans",
+            "preventive maintenance",
+            "planned maintenance",
+            "counter-based",
+            "calibration"
+          ]
+        },
+        {
+          "label": "Dispatch technicians to customer sites",
+          "patterns": [
+            "dispatch",
+            "technicians",
+            "engineers",
+            "field service"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Planned maintenance by schedule or usage": 0.44,
+        "Dispatch technicians to customer sites": 0.22
+      }
+    },
+    {
+      "id": "how-should-equipment-records-b",
+      "text": "How should equipment records be updated?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Technicians record it on mobile or a portal",
+          "patterns": [
+            "mobile service reports",
+            "portal",
+            "field employees",
+            "engineer reports"
+          ]
+        },
+        {
+          "label": "Automatically from telematics",
+          "patterns": [
+            "telematics",
+            "trackunit"
+          ]
+        },
+        {
+          "label": "From BC documents when goods ship or move",
+          "patterns": [
+            "on posting",
+            "custody changes",
+            "hand-over from project",
+            "installed base"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Technicians record it on mobile or a portal": 0.33,
+        "Automatically from telematics": 0.11,
+        "From BC documents when goods ship or move": 0.22
+      }
+    }
+  ]
 }

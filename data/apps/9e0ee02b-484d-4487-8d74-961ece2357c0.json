@@ -8,18 +8,20 @@
     "publisher": "IDYN B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.shipit%7CPAPPID.9e0ee02b-484d-4487-8d74-961ece2357c0",
-    "lastModified": "2026-10-02T07:48:47.3637846+00:00",
-    "appVersion": "28.2.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T11:39:35.6081518+00:00",
+    "appVersion": "29.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
-    "sourceHash": "sha256:1a5eafa9266da39a75942e2924a6f67c4da318223c5a8f1cf8c3ef44e35ed4a4",
+    "sourceHash": "sha256:54206085519d9eeb4076e1165f13a57775af1417bfd88598b4e9d2d7b83467d9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1a5eafa9266da39a75942e2924a6f67c4da318223c5a8f1cf8c3ef44e35ed4a4",
-    "mappedOn": null,
-    "summary": "Ships orders via 3,000 carriers with labels from BC",
+    "sourceHash": "sha256:54206085519d9eeb4076e1165f13a57775af1417bfd88598b4e9d2d7b83467d9",
+    "mappedOn": "2026-10-30",
+    "summary": "Books shipments, prints carrier labels and compares rates via nShift, Sendcloud, EasyPost or Cargoson.",
     "shape": "connector",
     "primary": [
       {
@@ -28,17 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-freight-cost-audit",
+      "ng-admin-devices"
     ],
     "claims": [
-      "Connects 3,000+ carriers including DHL, DPD, FedEx, UPS, PostNL",
-      "Compare carrier options and freight charges in BC",
-      "Print shipment labels and track deliveries from BC",
-      "Integrated in sales, warehouse shipment, return and transfer orders",
-      "Requires nShift, Sendcloud, EasyPost or Cargoson contract",
-      "Adds freight charges automatically to sales orders",
-      "Real-time track and trace for customers",
-      "Available on Tasklet Mobile WMS and Multisoft Mobile NAV"
+      "Reaches more than 3,000 carriers in the EU and North America, including DHL, DPD, FedEx, UPS and PostNL",
+      "Compares carrier services and freight prices inside BC",
+      "Prints shipment labels and tracks deliveries from BC",
+      "Works from sales quotes, sales orders, warehouse shipments, return orders and transfer orders",
+      "Needs a contract with nShift, Sendcloud, EasyPost or Cargoson",
+      "Adds freight charges to the sales order automatically",
+      "Sends real-time track and trace updates to customers",
+      "Books shipments from within BC",
+      "Usable from Tasklet Mobile WMS and Multisoft Mobile NAV handhelds",
+      "Supports Essentials and Premium editions",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
@@ -47,21 +53,21 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "nShift",
       "Sendcloud",
       "EasyPost",
       "Cargoson",
-      "DHL",
-      "DPD",
-      "FedEx",
-      "UPS",
-      "PostNL"
+      "Tasklet Mobile WMS",
+      "Multisoft Mobile NAV"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

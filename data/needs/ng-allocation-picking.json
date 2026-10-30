@@ -100,9 +100,9 @@
         }
       ],
       "coverage": {
-        "Scanning on handhelds or phones": 0.64,
-        "Printed pick lists on paper": 0.09,
-        "Automated storage (AutoStore, Kardex, Modula, conveyors)": 0.06
+        "Scanning on handhelds or phones": 0.61,
+        "Printed pick lists on paper": 0.08,
+        "Automated storage (AutoStore, Kardex, Modula, conveyors)": 0.07
       }
     },
     {
@@ -150,9 +150,9 @@
         }
       ],
       "coverage": {
-        "Rugged Android scanners (Zebra, Honeywell...)": 0.29,
-        "Ordinary phones or tablets, incl. iPhone": 0.17,
-        "Just a browser, nothing to install": 0.06
+        "Rugged Android scanners (Zebra, Honeywell...)": 0.28,
+        "Ordinary phones or tablets, incl. iPhone": 0.16,
+        "Just a browser, nothing to install": 0.05
       }
     },
     {
@@ -187,7 +187,7 @@
       ],
       "coverage": {
         "Lot or serial numbers": 0.36,
-        "Expiry dates, pick oldest first (FEFO/FIFO)": 0.23
+        "Expiry dates, pick oldest first (FEFO/FIFO)": 0.24
       }
     },
     {
@@ -212,7 +212,7 @@
         }
       ],
       "coverage": {
-        "Yes, pallets/cartons with their own label (license plates)": 0.23
+        "Yes, pallets/cartons with their own label (license plates)": 0.22
       }
     },
     {
@@ -269,10 +269,10 @@
         }
       ],
       "coverage": {
-        "Pick many orders in one round (wave/batch)": 0.15,
-        "Shortest walking route": 0.09,
-        "Rush orders and carrier cut-offs first": 0.07,
-        "Assign tasks to named workers or teams": 0.1
+        "Pick many orders in one round (wave/batch)": 0.18,
+        "Shortest walking route": 0.07,
+        "Rush orders and carrier cut-offs first": 0.09,
+        "Assign tasks to named workers or teams": 0.09
       }
     },
     {
@@ -307,7 +307,7 @@
         }
       ],
       "coverage": {
-        "Yes, automatically": 0.11,
+        "Yes, automatically": 0.14,
         "No, we plan from an overview of open orders": 0.07
       }
     },
@@ -329,8 +329,119 @@
         }
       ],
       "coverage": {
-        "No, it must work offline": 0.07
+        "No, it must work offline": 0.09
       }
+    },
+    {
+      "id": "besides-picking-what-other-war",
+      "text": "Besides picking, what other warehouse work should the same solution handle?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Receiving and put-away",
+          "patterns": [
+            "receipt",
+            "put-?away",
+            "receiving"
+          ]
+        },
+        {
+          "label": "Moving stock between bins or locations",
+          "patterns": [
+            "movement",
+            "transfer",
+            "bin-to-bin",
+            "reclass"
+          ]
+        },
+        {
+          "label": "Stock counts",
+          "patterns": [
+            "\\bcount",
+            "stock ?take",
+            "cycle count"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Receiving and put-away": 0.58,
+        "Moving stock between bins or locations": 0.42,
+        "Stock counts": 0.27
+      }
+    },
+    {
+      "id": "do-you-pack-and-label-orders-a",
+      "text": "Do you pack and label orders as part of picking?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, we pack into boxes with packing lists",
+          "patterns": [
+            "\\bpack(ing|ed|s)?\\b"
+          ]
+        },
+        {
+          "label": "Yes, we print item or shipping labels",
+          "patterns": [
+            "label"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we pack into boxes with packing lists": 0.16,
+        "Yes, we print item or shipping labels": 0.31
+      }
+    },
+    {
+      "id": "how-is-your-warehouse-set-up-i",
+      "text": "How is your warehouse set up in Business Central today?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Basic: inventory picks, bins optional",
+          "patterns": [
+            "basic (warehous|location)",
+            "inventory picks?",
+            "without directed",
+            "basic and directed",
+            "directed or basic"
+          ]
+        },
+        {
+          "label": "Advanced: directed put-away and pick",
+          "patterns": [
+            "directed (put-?away|pick|warehous|bin)",
+            "advanced locations",
+            "supports directed",
+            "up to directed"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Basic: inventory picks, bins optional": 0.11,
+        "Advanced: directed put-away and pick": 0.06
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "per-location setup, standard in WMS apps",
+      "terms": [
+        "location"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

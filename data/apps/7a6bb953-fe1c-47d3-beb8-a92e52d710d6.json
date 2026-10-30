@@ -8,48 +8,62 @@
     "publisher": "TRASER Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-365%7CPAPPID.7a6bb953-fe1c-47d3-beb8-a92e52d710d6",
-    "lastModified": "2026-09-28T19:21:23.0685936+00:00",
-    "appVersion": "2603.260811.20260928.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:29:52.5140082+00:00",
+    "appVersion": "2603.260816.20261023.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://academy.traser-software.de/",
-    "sourceHash": "sha256:fa274fe36eacb5d70b84e50afea6d143814cdf1b6a08e36bebfa1e266bcdbf9c",
+    "sourceHash": "sha256:bed069be775a0297e3124922aec5f136f2a9adf3d8ca3fd8d5e2f5c56b931b46",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fa274fe36eacb5d70b84e50afea6d143814cdf1b6a08e36bebfa1e266bcdbf9c",
-    "mappedOn": null,
-    "summary": "Dealer management for agricultural, construction and heavy equipment",
+    "sourceHash": "sha256:bed069be775a0297e3124922aec5f136f2a9adf3d8ca3fd8d5e2f5c56b931b46",
+    "mappedOn": "2026-10-30",
+    "summary": "Dealer management system for agricultural, construction and heavy equipment dealers: sales, parts, service.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-equipment-dealers",
         "confidence": "high"
+      },
+      {
+        "need": "ng-svc-contracts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-parts",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-svc-contracts",
       "ng-conn-cpq",
-      "ng-svc-field-execution"
+      "ng-supplier-pricing",
+      "ng-svc-requests",
+      "ng-sales-commissions"
     ],
     "claims": [
-      "Differential taxation and used parts tax",
-      "Document prints per DIN 5008 type B with e-post sending",
+      "Supports differential taxation and used-parts tax",
+      "Document prints follow DIN 5008 type B and can be sent by e-post",
       "Automatic charges and discounts such as freight",
-      "Machine attributes with filtering",
-      "Rebook wizard for current assets to fixed assets",
-      "Catalog and price list management and import with surcharge rates",
-      "Substitution and interchangeable items",
-      "Location, bin and barcode management",
-      "Machine sales via CPQ module with calculation worksheets",
-      "Processing of customer and vendor trade-ins",
-      "Revenue and contribution margin commission",
-      "Service quotes and service orders with worksheets",
-      "Service interval management and notification",
-      "Warranty and warranty claim management",
-      "Checklists on service orders and service order splitting",
-      "Maintenance contracts",
-      "Supports Premium Edition, all BC countries"
+      "Machine attributes on items and service items with filtering",
+      "Wizard to rebook between current assets and fixed assets",
+      "Links purchase and sales for replenishment orders",
+      "Shopping cart to import and export vendor files",
+      "Imports supplier catalogs and price lists, with surcharge rates per catalog",
+      "Handles substitute and interchangeable parts",
+      "Warehouse picking and put-away documents are processed automatically",
+      "Tracks each machine through its life cycle with a trade number",
+      "Machine sales configured and priced through a CPQ module with calculation worksheets",
+      "Imports manufacturer configurations, depending on the manufacturer",
+      "Handles trade-ins from customers and vendors",
+      "Commission based on revenue and contribution margin",
+      "Service intervals are tracked with notifications",
+      "Warranty and warranty claim handling",
+      "Checklists on service orders, service order splitting and fixed-price invoicing",
+      "Maintenance contracts are managed",
+      "Requires Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -64,7 +78,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -20,7 +20,9 @@
     "Professional services firm, 80 people, moving from spreadsheets",
     "Debt collection cases for clients",
     "Engineering consultancy with project budgets",
-    "Work in progress for client matters"
+    "Work in progress for client matters",
+    "We are an accounting firm doing bookkeeping and year-end closing for our clients",
+    "We need a solution set up for Danish law or accounting firms"
   ],
   "questions": [
     {
@@ -73,10 +75,10 @@
         }
       ],
       "coverage": {
-        "Law firm": 0.31,
-        "Accounting or audit firm": 0.23,
-        "IT services or MSP": 0.15,
-        "Consulting or other project work": 0.42
+        "Law firm": 0.32,
+        "Accounting or audit firm": 0.24,
+        "IT services or MSP": 0.12,
+        "Consulting or other project work": 0.4
       }
     },
     {
@@ -125,10 +127,10 @@
         }
       ],
       "coverage": {
-        "In a separate PSA tool (TimeLog, ConnectWise, Autotask)": 0.19,
+        "In a separate PSA tool (TimeLog, ConnectWise, Autotask)": 0.16,
         "On phone or web, with a timer": 0.12,
         "From Outlook": 0.12,
-        "In Business Central time sheets": 0.38
+        "In Business Central time sheets": 0.4
       }
     },
     {
@@ -151,7 +153,7 @@
         }
       ],
       "coverage": {
-        "Yes, WIP": 0.27
+        "Yes, WIP": 0.28
       }
     },
     {
@@ -173,7 +175,7 @@
         }
       ],
       "coverage": {
-        "Yes, conflict and KYC checks": 0.15
+        "Yes, conflict and KYC checks": 0.16
       }
     },
     {
@@ -196,7 +198,7 @@
         }
       ],
       "coverage": {
-        "Yes, resource planning": 0.19
+        "Yes, resource planning": 0.2
       }
     },
     {
@@ -237,10 +239,160 @@
         }
       ],
       "coverage": {
-        "Hours worked (time and material)": 0.23,
+        "Hours worked (time and material)": 0.16,
         "Fixed price or prepaid": 0.04,
-        "Per-client billing rules": 0.15
+        "Per-client billing rules": 0.16
       }
+    },
+    {
+      "id": "which-country-is-your-firm-bas",
+      "text": "Which country is your firm based in?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Denmark",
+          "patterns": [
+            "\\bdk\\b",
+            "\\bcvr\\b",
+            "denmark",
+            "danish (account|setup|templates|functions|master)"
+          ]
+        },
+        {
+          "label": "France",
+          "patterns": [
+            "french",
+            "france",
+            "\\bfec\\b"
+          ]
+        },
+        {
+          "label": "Sweden",
+          "patterns": [
+            "sweden",
+            "swedish organi"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Denmark": 0.24,
+        "France": 0.08,
+        "Sweden": 0.04
+      }
+    },
+    {
+      "id": "do-you-keep-the-books-and-clos",
+      "text": "Do you keep the books and close the year for your clients?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, bookkeeping and year-end for clients",
+          "patterns": [
+            "year-end",
+            "month-end",
+            "bookkeeping",
+            "accounting production"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, bookkeeping and year-end for clients": 0.16
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'system' wording",
+      "terms": [
+        "system"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "Power BI / Power Platform mentions, not a buyer choice here",
+      "terms": [
+        "power"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'auto' wording",
+      "terms": [
+        "auto"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'built' wording",
+      "terms": [
+        "built"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed meanings of 'contract'",
+      "terms": [
+        "contract"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI detail: copying entries",
+      "terms": [
+        "copy"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'creation' wording",
+      "terms": [
+        "creation"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI detail: time entry description texts",
+      "terms": [
+        "description"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'integration' wording",
+      "terms": [
+        "integration"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'type'/'register' wording",
+      "terms": [
+        "register",
+        "type"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resource' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic task management wording",
+      "terms": [
+        "task"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

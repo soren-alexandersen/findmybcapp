@@ -8,18 +8,20 @@
     "publisher": "ASQiT Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.vendor-bank-approvals%7CPAPPID.bbc8c4f4-7736-4a96-a387-637585f36614",
-    "lastModified": "2026-08-21T14:29:47.8061493+00:00",
-    "appVersion": "28.0.8.26081",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T11:12:22.8409904+00:00",
+    "appVersion": "28.0.9.26102",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
-    "sourceHash": "sha256:c6375094ba8e29bfa6d67e10ef43038ef0ec2013b12ecd357bbb21dfa9cb2a8d",
+    "sourceHash": "sha256:5aee308eb17677f7ca1d1ee75a8b5e10e9af425a867b64736e5f11066b3dc015",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c6375094ba8e29bfa6d67e10ef43038ef0ec2013b12ecd357bbb21dfa9cb2a8d",
-    "mappedOn": null,
-    "summary": "Approval workflow for vendor bank account changes",
+    "sourceHash": "sha256:5aee308eb17677f7ca1d1ee75a8b5e10e9af425a867b64736e5f11066b3dc015",
+    "mappedOn": "2026-10-30",
+    "summary": "Requires approval of vendor bank account changes before they can be used in payments.",
     "shape": "process",
     "primary": [
       {
@@ -32,16 +34,23 @@
       }
     ],
     "secondary": [
-      "ng-admin-approval-workflows"
+      "ng-admin-approval-workflows",
+      "ng-admin-change-log"
     ],
     "claims": [
-      "Approval of vendor bank account changes",
-      "Blocks unapproved bank accounts in payment journals and payment file export",
-      "Tracks changes to vendor bank accounts",
-      "Attach documents to vendor bank accounts",
-      "Automatic reminder emails for unapproved bank accounts",
-      "API to retrieve bank approval statuses",
-      "Configurable protected fields on approved bank accounts"
+      "Vendor bank account changes go through an approval step",
+      "Unapproved bank accounts are blocked from payment journals and payment file exports",
+      "Approved bank account details are locked against edits",
+      "You choose which fields are protected once an account is approved",
+      "Required fields on vendor bank accounts are configurable, with conditional criteria",
+      "Logs changes made to vendor bank accounts",
+      "Documents can be attached to vendor bank accounts",
+      "Sends automatic email reminders about bank accounts awaiting approval",
+      "Exposes an API that returns bank approval statuses",
+      "Any single member of a workflow user group can approve when the group is set up as a team",
+      "Annual price per company, with a one month free trial",
+      "Trial is unlimited in sandbox environments",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [

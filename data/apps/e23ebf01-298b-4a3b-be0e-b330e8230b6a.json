@@ -8,41 +8,45 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_crossdock%7CPAPPID.e23ebf01-298b-4a3b-be0e-b330e8230b6a",
-    "lastModified": "2026-09-30T20:02:35.4819503+00:00",
-    "appVersion": "28.5.0.80053",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:18:06.222875+00:00",
+    "appVersion": "29.0.0.80832",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:64330caefcf6097b52a526500d967e5f4bf1689b60f4f0116540aeab816ddfec",
+    "sourceHash": "sha256:16f877bf80e412968ba13c7df731c0023b1e04a64dbaf3aa94e6257158c89f06",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:64330caefcf6097b52a526500d967e5f4bf1689b60f4f0116540aeab816ddfec",
-    "mappedOn": null,
-    "summary": "Cross-dock terminal scanning",
-    "shape": "addon",
+    "sourceHash": "sha256:16f877bf80e412968ba13c7df731c0023b1e04a64dbaf3aa94e6257158c89f06",
+    "mappedOn": "2026-10-30",
+    "summary": "Scanner app for cross-dock terminals that directs parcels to shipping zones and logs movements.",
+    "shape": "process",
     "primary": [
+      {
+        "need": "ng-stock-movements",
+        "confidence": "high"
+      },
       {
         "need": "ng-vert-transport-logistics",
         "confidence": "high"
       },
       {
-        "need": "ng-stock-movements",
+        "need": "ng-admin-devices",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-devices",
       "ng-receiving-putaway"
     ],
     "claims": [
-      "Scans incoming parcels and directs to the right shipping zone",
-      "Registers all terminal movements by scanning parcels, transport units, orders and zones",
-      "Movements are steered by the application",
-      "Anomalies created directly from the scanner",
-      "Connects to Navitrans Transport TMS",
-      "Links to any TMS",
-      "Supports Essentials and Premium"
+      "Scanning incoming parcels points staff to the correct shipping zone",
+      "Every terminal movement is captured by scanning parcel, unit, order and zone barcodes",
+      "The application steers each movement",
+      "Anomalies can be logged from the scanner for follow-up",
+      "Works with Navitrans Transport and with other transport management systems",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -70,13 +74,15 @@
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution"
+    ],
     "connectsTo": [
       "Navitrans Transport"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

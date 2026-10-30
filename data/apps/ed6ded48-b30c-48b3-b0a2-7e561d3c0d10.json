@@ -8,18 +8,20 @@
     "publisher": "Software Grotto",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softwaregrotto%7CAID.easypdf%7CPAPPID.ed6ded48-b30c-48b3-b0a2-7e561d3c0d10",
-    "lastModified": "2026-09-25T14:52:38.8659371+00:00",
-    "appVersion": "3.36.3.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T22:15:50.9802683+00:00",
+    "appVersion": "3.37.1.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://easypdf365.com/help",
-    "sourceHash": "sha256:0e3ac8666cb3742ec1cbc992f784d8da264fd10d27412006b052d4720b6ae3d7",
+    "sourceHash": "sha256:4cb75c3368fe9a41b57213743c1d2b367c38ed9a6c1734c1878c16032064d95b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0e3ac8666cb3742ec1cbc992f784d8da264fd10d27412006b052d4720b6ae3d7",
-    "mappedOn": null,
-    "summary": "One-click print, attach, email and batch send of reports",
+    "sourceHash": "sha256:4cb75c3368fe9a41b57213743c1d2b367c38ed9a6c1734c1878c16032064d95b",
+    "mappedOn": "2026-10-30",
+    "summary": "Email, batch send and direct print for BC reports with templates and history.",
     "shape": "usability",
     "primary": [
       {
@@ -32,19 +34,20 @@
       }
     ],
     "secondary": [
-      "ng-ux-document-layouts"
+      "ng-admin-office-teams",
+      "ng-ux-attachments"
     ],
     "claims": [
-      "One-click print/attach/send any BC report",
+      "Free for one user",
       "HTML email editor with templates, field merge and signatures",
-      "Batch messaging with Job Queue support",
-      "Distribution lists by customer, vendor or contact, or by document",
-      "Desktop Outlook integration",
-      "Direct printing to local Windows printers without cloud printer accounts",
-      "History/audit trail of outbound communications with resend",
-      "PDF merge, append and overlay",
-      "No limit on mail accounts: Desktop Outlook, SMTP, Gmail, Office 365",
-      "Free for a single user; floating licenses"
+      "Batch queue for printing or sending, with job queue support",
+      "Distribution lists per customer, vendor, contact or document",
+      "Works with desktop Outlook",
+      "Prints to local Windows printers without a cloud print service",
+      "Keeps a history of sent messages that can be resent",
+      "Merges, appends and overlays PDFs on outgoing documents",
+      "Supports Office 365, Gmail, SMTP and Outlook mail accounts",
+      "Floating licences"
     ],
     "countries": [],
     "languages": [
@@ -53,12 +56,11 @@
     "industries": [],
     "connectsTo": [
       "Outlook",
-      "Gmail",
-      "Office 365"
+      "Gmail"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_user",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

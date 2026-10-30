@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.c8bd82c3-4461-4184-a118-0a06e9b78ec5%7CPAPPID.a615e48f-066d-4403-a6c9-a0b5dc958df4",
-    "lastModified": "2026-07-02T13:33:03.2345658+00:00",
-    "appVersion": "28.1.0.124",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:28:05.488255+00:00",
+    "appVersion": "29.0.0.133",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:fb6fe700bbce516aa7caebc93d53be23e46c41b5b6c6269e4b5c2a01b920cfae",
+    "sourceHash": "sha256:48ce2f56256648ee6c131c3a8fab01628f303501a1feb14d0b7453c37c303635",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:fb6fe700bbce516aa7caebc93d53be23e46c41b5b6c6269e4b5c2a01b920cfae",
-    "mappedOn": null,
-    "summary": "Latvian language for LS Central",
+    "sourceHash": "sha256:48ce2f56256648ee6c131c3a8fab01628f303501a1feb14d0b7453c37c303635",
+    "mappedOn": "2026-10-30",
+    "summary": "Latvian user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Latvian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Latvian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "LV"
@@ -39,14 +41,15 @@
       "lv"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

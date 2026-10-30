@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20Arion%20Banki/bc28/en-US/index.html",
     "sourceHash": "sha256:c48c3b64ddb1a694049d5405459641ac0bf0ffb9a7b2126ba371cb1d9f09edb2",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:c48c3b64ddb1a694049d5405459641ac0bf0ffb9a7b2126ba371cb1d9f09edb2",

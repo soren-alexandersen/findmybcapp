@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.amazon-integration%7CPAPPID.83ebdf56-2b1f-4374-b7f3-85311af8a339",
-    "lastModified": "2026-07-16T09:12:59.5217994+00:00",
+    "lastModified": "2026-10-13T04:41:07.9106485+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/amazon-edi-integration/",
-    "sourceHash": "sha256:8c0fc8d86a12844e30934996d827ec513a9dd9f6c30cf64ad5d23f920c96d36f",
+    "sourceHash": "sha256:75da0e51965add858921b3b9641662420b6805239bc27536ed4d76f15554669d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8c0fc8d86a12844e30934996d827ec513a9dd9f6c30cf64ad5d23f920c96d36f",
-    "mappedOn": null,
-    "summary": "Integrates Amazon marketplace with BC",
+    "sourceHash": "sha256:75da0e51965add858921b3b9641662420b6805239bc27536ed4d76f15554669d",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs Amazon orders, stock, FBA inventory, returns and settlements with BC.",
     "shape": "connector",
     "primary": [
       {
@@ -29,22 +31,25 @@
     ],
     "secondary": [
       "ng-sales-order-entry",
-      "ng-conn-3pl",
-      "ng-customer-returns"
+      "ng-customer-returns",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Imports MFN and FBA orders from Amazon automatically",
+      "Imports merchant-fulfilled and FBA orders into BC automatically",
       "Syncs shipping updates and tracking details",
-      "Real-time inventory sync between Amazon listings and BC",
-      "FBA inventory managed by syncing item journals from Amazon warehouses",
-      "FBA returns synced for inventory adjustments and customer credits",
-      "Invoices, settlements and balances reflected in BC",
-      "Error alerts and monitoring",
-      "Multi-marketplace operations"
+      "Keeps Amazon listing stock levels aligned with BC",
+      "Syncs FBA warehouse stock to BC through item journals",
+      "Brings FBA returns into BC for stock adjustments and customer credits",
+      "Reflects Amazon invoices, settlements and balances in BC",
+      "Alerts on integration errors",
+      "Available in all countries where Amazon Marketplace and BC are used"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
     "connectsTo": [
       "Amazon"
     ],

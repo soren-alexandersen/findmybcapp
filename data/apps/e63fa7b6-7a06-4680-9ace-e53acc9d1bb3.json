@@ -8,24 +8,31 @@
     "publisher": "XPR365",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.xpr365-rest-api-client%7CPAPPID.e63fa7b6-7a06-4680-9ace-e53acc9d1bb3",
-    "lastModified": "2026-07-27T21:32:01.3110931+00:00",
-    "appVersion": "28.0.20260727.135358",
-    "pricingTypes": [],
+    "lastModified": "2026-10-15T06:26:04.4525107+00:00",
+    "appVersion": "28.2.20261008.132902",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://learn.xpr365.com/",
-    "sourceHash": "sha256:381d0e1e4798a10d9cd2804f6d7911c1d3d747f988afe849bbdca5262e7f9e7f",
+    "sourceHash": "sha256:2125553c2c8192f28e168dffa34ce05b1341de5655ccab9282be58ccf99b5f95",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:381d0e1e4798a10d9cd2804f6d7911c1d3d747f988afe849bbdca5262e7f9e7f",
-    "mappedOn": null,
-    "summary": "Library for building REST API integrations",
+    "sourceHash": "sha256:2125553c2c8192f28e168dffa34ce05b1341de5655ccab9282be58ccf99b5f95",
+    "mappedOn": "2026-10-30",
+    "summary": "Developer library standardising REST API calls from Business Central.",
     "shape": "usability",
-    "primary": [],
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "high"
+      }
+    ],
     "secondary": [],
     "claims": [
-      "Reusable HTTP send/receive with header and content-type handling",
-      "Async execution with XPR365 Async Tasks"
+      "Sends and receives HTTP messages with header and content-type handling",
+      "Works with XPR365 Async Tasks for non-blocking calls"
     ],
     "countries": [],
     "languages": [],
@@ -33,9 +40,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": true,
-    "hideReason": "Developer library for REST integrations",
+    "hideReason": "Developer library app, not an end-user solution.",
     "noFit": ""
   },
   "curated": {

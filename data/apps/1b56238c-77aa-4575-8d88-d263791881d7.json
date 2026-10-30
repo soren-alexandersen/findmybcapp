@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2salsify%7CPAPPID.1b56238c-77aa-4575-8d88-d263791881d7",
-    "lastModified": "2025-06-12T09:18:52.7634569+00:00",
+    "lastModified": "2026-10-20T07:49:33.2678984+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:073bab407db7b9d8fa7c2e29c5925e994110ad9e12d63e4de7d55210f23b862a",
+    "sourceHash": "sha256:405ed316479238ee471080acf9a353bb504378aec779b1cb7bf35b9d585623a3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:073bab407db7b9d8fa7c2e29c5925e994110ad9e12d63e4de7d55210f23b862a",
-    "mappedOn": null,
-    "summary": "Syncs product data between BC and Salsify PXM",
+    "sourceHash": "sha256:405ed316479238ee471080acf9a353bb504378aec779b1cb7bf35b9d585623a3",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Salsify product experience management platform.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Salsify",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Salsify account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Salsify"
     ],
-    "requires": [
-      "Salsify"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

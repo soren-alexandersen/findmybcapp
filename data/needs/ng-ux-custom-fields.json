@@ -71,7 +71,7 @@
       ],
       "coverage": {
         "On customers, vendors and items": 0.7,
-        "On sales and purchase documents": 0.48,
+        "On sales and purchase documents": 0.52,
         "On lots, serial numbers or fixed assets": 0.26,
         "On any table or page": 0.17
       }
@@ -118,6 +118,39 @@
           ]
         },
         {
+          "label": "Field names in several languages",
+          "patterns": [
+            "translat",
+            "multiple languages",
+            "other languages"
+          ]
+        },
+        {
+          "label": "Fields kept and editable on posted documents",
+          "patterns": [
+            "posted documents"
+          ]
+        },
+        {
+          "label": "Typed fields and pick-lists (date, number, option)",
+          "patterns": [
+            "value list",
+            "\\boption\\b",
+            "boolean",
+            "field types?",
+            "typed",
+            "data types?",
+            "field length"
+          ]
+        },
+        {
+          "label": "Fields shown on lists and FactBoxes",
+          "patterns": [
+            "factbox",
+            "list views"
+          ]
+        },
+        {
           "label": "Doesn't matter / Not sure",
           "any": true
         }
@@ -127,7 +160,11 @@
         "Show hidden standard fields": 0.09,
         "Fields on printed reports and invoices": 0.26,
         "Mandatory fields": 0.26,
-        "Filter and search lists by the fields": 0.17
+        "Filter and search lists by the fields": 0.17,
+        "Field names in several languages": 0.17,
+        "Fields kept and editable on posted documents": 0.17,
+        "Typed fields and pick-lists (date, number, option)": 0.35,
+        "Fields shown on lists and FactBoxes": 0.22
       }
     },
     {
@@ -142,7 +179,8 @@
             "flow",
             "transfer\\w* (field )?(data|values?)",
             "value transfer",
-            "transfers the ticket"
+            "transfers the ticket",
+            "default onto"
           ]
         },
         {
@@ -158,9 +196,18 @@
         }
       ],
       "coverage": {
-        "Carried onto orders and invoices": 0.35,
+        "Carried onto orders and invoices": 0.26,
         "In other systems, via API or Power BI": 0.22
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'extended' wording",
+      "terms": [
+        "extend"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

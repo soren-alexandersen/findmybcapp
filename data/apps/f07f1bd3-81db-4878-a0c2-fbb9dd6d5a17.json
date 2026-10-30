@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.navitgmbh1620303119395|AID.navit08082026|PAPPID.f07f1bd3-81db-4878-a0c2-fbb9dd6d5a17",
+  "guid": "f07f1bd3-81db-4878-a0c2-fbb9dd6d5a17",
+  "publisherId": "navitgmbh1620303119395",
+  "offerId": "navit08082026",
+  "source": {
+    "name": "Sales Documents Pro",
+    "publisher": "NAVIT GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitgmbh1620303119395%7CAID.navit08082026%7CPAPPID.f07f1bd3-81db-4878-a0c2-fbb9dd6d5a17",
+    "lastModified": "2026-10-30T06:49:36.5378348+00:00",
+    "appVersion": "28.4.0.18",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://structure.rocks/",
+    "sourceHash": "sha256:0851f8b885bdc3c0e28ecb0810a88e7b3d58ea07328742d3c807a7d627b5516d",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:0851f8b885bdc3c0e28ecb0810a88e7b3d58ea07328742d3c807a7d627b5516d",
+    "mappedOn": "2026-10-30",
+    "summary": "Structured sales documents with outlines, sub-lines, lump sums, templates and rich texts.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Sales documents structured with outlines, sub-lines and line types",
+      "Adds lump-sum pricing and document templates to sales",
+      "HTML editor for header, footer and line texts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

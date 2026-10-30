@@ -8,18 +8,20 @@
     "publisher": "CTM Computer Technik Marketing GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ctmcomputertechnikmarketinggmbh1594628721784%7CAID.bcrent%7CPAPPID.7f832527-7058-416c-bb00-a94a41b5950f",
-    "lastModified": "2026-10-04T09:22:11.5572662+00:00",
-    "appVersion": "28.3.2120.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T12:52:18.6331685+00:00",
+    "appVersion": "28.6.2138.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.ctm-computer.de/support-bcrent-for-business-central/",
-    "sourceHash": "sha256:d3ebabcc2b6e6621324dd14e7435f5c6160bd2b1f4e426de0c339476e7979e8d",
+    "sourceHash": "sha256:4b40d39508a1c312b378ae223d46c11ee0064c571d3cdb5cf103f29cc2fcd135",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d3ebabcc2b6e6621324dd14e7435f5c6160bd2b1f4e426de0c339476e7979e8d",
-    "mappedOn": null,
-    "summary": "Rental of construction machinery, work platforms and containers",
+    "sourceHash": "sha256:4b40d39508a1c312b378ae223d46c11ee0064c571d3cdb5cf103f29cc2fcd135",
+    "mappedOn": "2026-10-30",
+    "summary": "Rental solution for construction machinery, work platforms, cranes and containers",
     "shape": "vertical",
     "primary": [
       {
@@ -27,13 +29,16 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-svc-dispatch"
+    ],
     "claims": [
-      "Rental of construction machinery, work platforms and containers",
-      "Covers sales, scheduling, service, workshop and finance interaction",
-      "Modular structure",
-      "Formerly RentNAV",
-      "Requires Premium edition"
+      "Built for renting construction machinery, work platforms and containers",
+      "Covers excavators, cranes and other machine and equipment rental",
+      "Connects sales, scheduling, service, workshop and finance processes",
+      "Modular, so modules can be added as needs grow",
+      "Successor of the earlier RentNAV solution",
+      "Requires the Premium edition"
     ],
     "countries": [
       "AT",
@@ -52,13 +57,13 @@
       "en"
     ],
     "industries": [
-      "Construction",
+      "Construction machinery",
       "Equipment rental"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

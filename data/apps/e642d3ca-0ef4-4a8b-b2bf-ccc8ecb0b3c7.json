@@ -8,18 +8,20 @@
     "publisher": "Estonian Dynamics Partners",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.estlang%7CPAPPID.e642d3ca-0ef4-4a8b-b2bf-ccc8ecb0b3c7",
-    "lastModified": "2026-06-30T09:11:06.2356871+00:00",
-    "appVersion": "28.0.49045.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-10T19:39:25.9433614+00:00",
+    "appVersion": "28.0.49045.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-language/docs/en-US/help",
-    "sourceHash": "sha256:155e5d8be4e44532ec1e713c89c72feb72b84a6a69c961bb66ffcedb3e7ac511",
+    "sourceHash": "sha256:a9ab11de5eb7a36bb633566888a0492a23ebe2c2c1abbcfa62446267beef7211",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:155e5d8be4e44532ec1e713c89c72feb72b84a6a69c961bb66ffcedb3e7ac511",
-    "mappedOn": null,
-    "summary": "Estonian language pack for the BC user interface",
+    "sourceHash": "sha256:a9ab11de5eb7a36bb633566888a0492a23ebe2c2c1abbcfa62446267beef7211",
+    "mappedOn": "2026-10-30",
+    "summary": "Estonian user interface translation for Business Central.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,9 @@
     ],
     "secondary": [],
     "claims": [
-      "Estonian translation of BC",
-      "Supports Essential and Premium editions"
+      "Translates the Business Central interface into Estonian",
+      "Works with Essentials and Premium editions",
+      "Can be installed in any country where Business Central is offered"
     ],
     "countries": [
       "EE"

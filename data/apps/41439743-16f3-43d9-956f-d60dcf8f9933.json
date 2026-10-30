@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.reservation_rescheduler%7CPAPPID.41439743-16f3-43d9-956f-d60dcf8f9933",
-    "lastModified": "2026-09-28T06:11:30.4393013+00:00",
+    "lastModified": "2026-10-26T05:38:05.2664076+00:00",
     "appVersion": "1.64.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.reservationrescheduler.apportunix.com/",
-    "sourceHash": "sha256:8bfe468940dc3a19190cb225270d752523351c163928b5d6ae6cf385dffbae0c",
+    "sourceHash": "sha256:5fd0c74323ae1782f129df3914fbdc5541e1d6ea8918dd206b0dcf41748ebbe3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8bfe468940dc3a19190cb225270d752523351c163928b5d6ae6cf385dffbae0c",
-    "mappedOn": null,
-    "summary": "Reschedules hard reservations linking supply and demand",
+    "sourceHash": "sha256:5fd0c74323ae1782f129df3914fbdc5541e1d6ea8918dd206b0dcf41748ebbe3",
+    "mappedOn": "2026-10-30",
+    "summary": "Hard-reserves stock and incoming supply to orders and keeps reservation dates in sync.",
     "shape": "process",
     "primary": [
       {
@@ -32,17 +34,21 @@
       "ng-purchase-orders"
     ],
     "claims": [
-      "Hard reservations against stock or incoming supply",
-      "Order lines turn red when stock is insufficient on the delivery date",
-      "Works for sales, purchase, assembly, service and production",
-      "Dynamic Date keeps reservation dates in sync",
-      "Reservation insights subpage on sales order",
-      "Auto-create purchase orders for lines with a purchasing code",
-      "Reports for backorders and insufficient reservations",
-      "Due dates for production and assembly are controlled"
+      "Claims incoming supply such as purchase orders for a sales order when stock is short",
+      "Order lines turn red when stock will not cover the requested date",
+      "Reservation dates follow supply date changes automatically",
+      "Covers sales, purchase, assembly, service and production",
+      "Reservations adjust when a supply date is pushed out",
+      "Reservation overview subpage on the sales order",
+      "Reservation status and previous-date indicator on document headers",
+      "Demand-confirmed indicator on headers and lines",
+      "Reports on backorders and insufficient reservations",
+      "Special orders and drop shipments can be linked or unlinked from the sales order",
+      "Due date control for assembly and production orders"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en",
       "nl"
     ],

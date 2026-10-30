@@ -8,8 +8,8 @@
     "publisher": "Clever Dynamics",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-landed-costs%7CPAPPID.7ff61b2b-2255-4542-a4b3-adda0aba69ff",
-    "lastModified": "2026-09-18T14:58:42.7819754+00:00",
-    "appVersion": "5.3.5.161365",
+    "lastModified": "2026-10-12T13:17:35.3897455+00:00",
+    "appVersion": "5.3.6.164100",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-landed-costs/user-guide/about",
@@ -18,17 +18,13 @@
   },
   "mapping": {
     "sourceHash": "sha256:227fdad0bd75ce4737e17858c891605f699f4ca64da1512ab8474a27e8e99339",
-    "mappedOn": null,
-    "summary": "Calculates landed costs including freight, duties and insurance",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates landed cost of imported items, accrues expected costs and groups orders by container.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-purchase-orders",
-        "confidence": "low"
-      },
-      {
-        "need": "ng-inventory-analysis",
-        "confidence": "low"
+        "need": "ng-import-export-customs",
+        "confidence": "high"
       }
     ],
     "secondary": [
@@ -36,14 +32,16 @@
       "ng-cash-forecast"
     ],
     "claims": [
-      "Cost types apportioned by volume or weight",
-      "Expected costs by currency, item and date",
-      "Separates duty-relevant costs from post-port costs",
-      "Accrues expected landed costs during transit",
-      "Feeds landed costs into cash flow projections",
-      "Groups multiple purchase orders per container",
-      "Shows variances of actual vs expected costs",
-      "Creates landed cost ledger entries from normal purchasing"
+      "Adds freight, duties, insurance and currency effects to supplier unit cost",
+      "Cost types can be apportioned by volume or weight",
+      "Records multiple expected costs per item, currency and date",
+      "Separates costs included in duty calculation from post-port costs",
+      "Accrues expected costs while goods are in transit",
+      "Expected costs flow into BC cash flow projections",
+      "Groups several purchase orders under one container",
+      "Reports variances between actual and expected costs",
+      "Creates landed cost ledger entries from the normal purchase process",
+      "Runs on Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -80,11 +78,11 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Landed cost calculation for imported goods has no dedicated group"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

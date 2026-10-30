@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.bcadvancedgmbh1764449970288|AID.bagedi|PAPPID.e572a5d7-0afb-44ec-b763-8c85e02da46a",
+  "guid": "e572a5d7-0afb-44ec-b763-8c85e02da46a",
+  "publisherId": "bcadvancedgmbh1764449970288",
+  "offerId": "bagedi",
+  "source": {
+    "name": "BCAdvanced EDI complete.ai",
+    "publisher": "BCAdvanced GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcadvancedgmbh1764449970288%7CAID.bagedi%7CPAPPID.e572a5d7-0afb-44ec-b763-8c85e02da46a",
+    "lastModified": "2026-10-27T23:57:08.3067812+00:00",
+    "appVersion": "1.19.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bcadvanced.de/",
+    "sourceHash": "sha256:0d56ce62e6a9016fd45de6b842e6703428a8d60e0f3b2ec52f4022fcd04da799",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d56ce62e6a9016fd45de6b842e6703428a8d60e0f3b2ec52f4022fcd04da799",
+    "mappedOn": "2026-10-30",
+    "summary": "Full EDI inside BC: communication, mappings and partner setup assisted by AI.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "AI suggests setups for new partners, users review and approve",
+      "Communication, mapping and processing all run in BC",
+      "Partners and mappings configured without extension programming",
+      "Mappings for EANCOM, VDA, EDIFACT, ODETTE and ANSI X12",
+      "Transport via AS2, OFTP2, X.400, AS4, FTP/SFTP, REST, Azure Blob and email",
+      "Messages tracked from dispatch to receipt confirmation",
+      "Handles trading contracts and downstream trade terms such as delcredere",
+      "Supports Kanban, consignment and ultimate consignee processes",
+      "Delivery scheduling, packaging and shipment structures",
+      "Prints SSCC labels",
+      "Supports GTIN, GLN, UNECE, ISO codes and DUNS identifiers",
+      "Exception tracking for audit needs",
+      "Available in English and German"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

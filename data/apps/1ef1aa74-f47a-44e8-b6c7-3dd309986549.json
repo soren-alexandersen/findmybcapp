@@ -8,19 +8,21 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.yav365manscan%7CPAPPID.1ef1aa74-f47a-44e8-b6c7-3dd309986549",
-    "lastModified": "2026-09-16T17:21:35.7070711+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:41.431154+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scanman/index.html",
-    "sourceHash": "sha256:e39b2d589111979282d3536568f33916ba9ebaf5ff5143ac195b4e0eee2587cd",
+    "sourceHash": "sha256:9ef56a84cfd34bc50052b5c16ca45245ba6cf17a0c8ea764a3fe4a9a767719b3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e39b2d589111979282d3536568f33916ba9ebaf5ff5143ac195b4e0eee2587cd",
-    "mappedOn": null,
-    "summary": "Digital scanning for manufacturing processes",
-    "shape": "process",
+    "sourceHash": "sha256:9ef56a84cfd34bc50052b5c16ca45245ba6cf17a0c8ea764a3fe4a9a767719b3",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile barcode scanning for production consumption and output posting, built on Tasklet Mobile WMS.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
@@ -33,19 +35,26 @@
     ],
     "secondary": [
       "ng-lot-serial-traceability",
-      "ng-barcode-labels"
+      "ng-barcode-labels",
+      "ng-quality-hold"
     ],
     "claims": [
-      "Reads Yaveon ERP and GS1 labels, DataMatrix and Code 128",
-      "Consumption of bulk, lot and serial tracked items",
-      "Consumption directly from load carriers",
-      "Partial and excess consumption, consumption without picking",
-      "Blocks quarantined or near-expiry components",
-      "Output onto license plates",
-      "Filling and decanting processes",
-      "Production output tolerances",
-      "Automatic GS1 item/lot label printing for output",
-      "Android devices supported"
+      "Reads Yaveon ERP and GS1 labels in several formats",
+      "Supports DataMatrix and Code 128 barcodes",
+      "Posts consumption of bulk, lot-tracked and serial-tracked items",
+      "Consumes material straight from load carriers",
+      "Batch-based consumption and output",
+      "Handles partial and excess consumption quantities",
+      "Consumption possible without a prior pick",
+      "Lets users swap lot or serial numbers during consumption",
+      "Blocks quarantined material and components near expiry",
+      "Posts output onto license plates",
+      "Supports filling and decanting steps",
+      "Applies tolerances to production output",
+      "Can block specific user and item combinations",
+      "Prints GS1 item and lot labels for output automatically",
+      "Guided step-by-step dialogs on the device",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "AD",
@@ -143,16 +152,22 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Automotive",
+      "Chemicals",
+      "Cosmetics",
+      "Food",
+      "Medical devices",
+      "Pharmaceuticals"
+    ],
     "connectsTo": [
       "Tasklet Mobile WMS"
     ],
     "requires": [
-      "Yaveon 365 Manufacturing",
-      "Tasklet Mobile WMS"
+      "Yaveon 365 Manufacturing"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,41 +8,50 @@
     "publisher": "BoSch Data GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-smartman-base%7CPAPPID.e3e0ffc0-b860-43be-bef2-699fde206731",
-    "lastModified": "2026-09-24T14:12:24.5164391+00:00",
-    "appVersion": "27.86.3936.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T07:15:00.9511054+00:00",
+    "appVersion": "28.2.4161.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/smartman/",
-    "sourceHash": "sha256:6e7fc604ed8d134352ecd143da589449b3f4dc983bf9b4e77bdc52c6a2a80429",
+    "sourceHash": "sha256:3efac04cbb7b49a4d387f804dac8879d4c6b0f6682436fc56dc8aa2a4a1f6d3a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6e7fc604ed8d134352ecd143da589449b3f4dc983bf9b4e77bdc52c6a2a80429",
-    "mappedOn": null,
-    "summary": "Collection of base application enhancements",
+    "sourceHash": "sha256:3efac04cbb7b49a4d387f804dac8879d4c6b0f6682436fc56dc8aa2a4a1f6d3a",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle of base enhancements: extra salespeople, DIN 5008 reports, pricing, intercompany and bank transit postings.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-data-entry",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-document-layouts",
+      "ng-sales-pricing",
       "ng-intercompany-consolidation",
-      "ng-sales-pricing"
+      "ng-ux-import-excel",
+      "ng-ux-search-navigation"
     ],
     "claims": [
-      "Reports based on DIN 5008",
-      "Transit postings in banking management",
-      "Document-based intercompany interchange",
-      "Traffic lights for item availability",
-      "Multiple salespersons/purchasers on master data and documents",
-      "Alternative VAT ID at vendor order addresses",
+      "Standard reports laid out per DIN 5008",
+      "Transit postings in bank management",
+      "Document-based intercompany exchange",
+      "Traffic-light indicators for item availability",
+      "Multiple salespeople or purchasers on master data and documents",
+      "Alternative VAT ID on vendor order addresses",
+      "Quantity-based text codes",
       "Sales areas by post code per salesperson",
-      "Keeps prices steady on documents and price lists",
-      "Sets prices by location code or by ship-to address",
-      "Item charges assigned item by item, by value and by percentage",
+      "Price stability settings on price lists and documents",
+      "Prices per ship-to address or location",
+      "Charge items per item by value or percentage, also per variant",
+      "Extra job management settings",
       "Master data import and export"
     ],
     "countries": [
@@ -53,7 +62,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

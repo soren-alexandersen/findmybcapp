@@ -8,37 +8,43 @@
     "publisher": "Vision People A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsupply%7CPAPPID.8e1bacab-6230-457d-9465-b6f6c1103a5b",
-    "lastModified": "2026-09-26T06:17:32.7079348+00:00",
-    "appVersion": "20.0.2.7",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T10:34:58.2450996+00:00",
+    "appVersion": "20.0.2.15",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.visionpeople.dk/loesninger/brancheloesninger/forsyningsvirksomheder",
-    "sourceHash": "sha256:f48f916b6bca047dae6b14c05cbdfb826fdd67e1b200088c93b96f9a307643e4",
+    "sourceHash": "sha256:25be1675afb3a05f90cbcdd738f092ad4d97226cb1d37f7135d0df6be53f708a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f48f916b6bca047dae6b14c05cbdfb826fdd67e1b200088c93b96f9a307643e4",
-    "mappedOn": null,
-    "summary": "Vendor and project management for construction and utility maintenance work",
+    "sourceHash": "sha256:25be1675afb3a05f90cbcdd738f092ad4d97226cb1d37f7135d0df6be53f708a",
+    "mappedOn": "2026-10-30",
+    "summary": "Project and vendor management for Danish water, wastewater and waste utilities.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-proj-time",
       "ng-proj-materials-subcontract",
-      "ng-ap-invoice-capture",
-      "ng-proj-time"
+      "ng-loc-einvoicing"
     ],
     "claims": [
-      "Project management for utility maintenance and construction",
-      "Manages external vendors for maintenance and construction",
-      "Web-based time registration",
-      "Electronic invoicing and approval workflows",
-      "Integration with payroll systems",
-      "Digital vendor collaboration"
+      "Manages external vendors doing maintenance and new construction of utility infrastructure",
+      "Handles purchase invoice processing",
+      "Offers web-based time registration for employees",
+      "Integrates with payroll systems",
+      "Supports electronic invoicing and approval workflows",
+      "Digital collaboration with vendors"
     ],
     "countries": [
       "DK"
@@ -47,15 +53,11 @@
       "da",
       "en"
     ],
-    "industries": [
-      "Utilities",
-      "Waste management",
-      "Water"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

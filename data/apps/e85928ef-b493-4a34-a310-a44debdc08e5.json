@@ -8,45 +8,54 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_omnichannel%7CPAPPID.e85928ef-b493-4a34-a310-a44debdc08e5",
-    "lastModified": "2026-10-01T15:44:07.9018024+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:23:37.0429807+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-omnichannel/",
-    "sourceHash": "sha256:98beda5885d17febb51c2544dbe7a4a61b93e7fc95fc3a765b2ac91098e2d68c",
+    "sourceHash": "sha256:cf20639acb6d98b5a427849a1a04a9a02fae6314d9bb1107675635a165d4659a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:98beda5885d17febb51c2544dbe7a4a61b93e7fc95fc3a765b2ac91098e2d68c",
-    "mappedOn": null,
-    "summary": "Manages omnichannel sales across channels in BC",
+    "sourceHash": "sha256:cf20639acb6d98b5a427849a1a04a9a02fae6314d9bb1107675635a165d4659a",
+    "mappedOn": "2026-10-30",
+    "summary": "Collects store, webshop and marketplace orders into one list and turns them into BC documents.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-sales-channels",
+        "need": "ng-sales-order-entry",
         "confidence": "high"
       },
       {
         "need": "ng-conn-marketplaces",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-retail-pos",
-      "ng-conn-webshop"
+      "ng-retail-pos"
     ],
     "claims": [
-      "Each point of sale is a channel with its own EDI profile",
-      "Unique list of all omnichannel orders",
-      "Order list fed from retail receipts, instant invoices and returns",
-      "Daily cash reports per store with correction of declared amounts",
-      "Handles coupons, vouchers and gift cards on order lines",
-      "Check order rules on header and lines",
-      "Creates sales orders and matches or creates customers",
+      "Each sales point is a channel with its own EDI profile",
+      "Channels can be physical stores, webshops, marketplaces or integration platforms",
+      "Feeds store receipts, instant invoices and returns into the order list",
+      "Summarises full-day store receipts in a daily cash report",
+      "Handles coupon, voucher and gift card lines",
+      "Check and correct declared store cash amounts",
+      "Create shipments and invoices, post or queue for batch posting",
+      "Validates online orders against header and line rules",
+      "Creates sales orders and matches or creates the customer",
       "Applies order and customer templates per channel",
-      "Gets marketplace commissions",
-      "Dropshipment",
-      "60-day free trial"
+      "Captures marketplace commissions",
+      "Supports drop shipment",
+      "Archives completed orders",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +66,9 @@
       "Retail"
     ],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.shopify-integration%7CPAPPID.6f6a4a00-8f2f-4513-884b-f0a0d551860c",
-    "lastModified": "2026-07-16T09:55:33.2528745+00:00",
+    "lastModified": "2026-10-13T04:30:56.1470873+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/shopify-edi-integration/",
-    "sourceHash": "sha256:8e4080cfe24f486ab5b6f20953325c7cac37561418ea5d6ec57f5d866b606f00",
+    "sourceHash": "sha256:f8ebd304982b87d2987f4decb2d7d868f457a87eb72d52400da65c466b0960b8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8e4080cfe24f486ab5b6f20953325c7cac37561418ea5d6ec57f5d866b606f00",
-    "mappedOn": null,
-    "summary": "Integrates Shopify with BC",
+    "sourceHash": "sha256:f8ebd304982b87d2987f4decb2d7d868f457a87eb72d52400da65c466b0960b8",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs Shopify orders, customers, stock and financial data with Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -28,19 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Imports Shopify online orders into BC",
-      "Real-time product availability and stock sync",
-      "Syncs customer details and profiles",
-      "Keeps invoices, payments and balances consistent",
-      "Error handling and monitoring",
-      "Supports multi-store setups"
+      "Online orders are imported into Business Central",
+      "Product availability and stock levels are updated in real time",
+      "Customer details are synchronised across both systems",
+      "Invoices, payments and balances are kept consistent",
+      "Integration errors are detected and monitored",
+      "Supports multi-store setups",
+      "Available in all countries"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "Shopify"
     ],

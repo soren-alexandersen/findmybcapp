@@ -28,7 +28,9 @@
     "Approve master data changes centrally before they spread",
     "We're adding a new country company and need all setup from the existing one",
     "Merge two companies into one",
-    "Replicate across environments without Power Automate"
+    "Replicate across environments without Power Automate",
+    "We want to choose exactly which tables and fields are copied to each company",
+    "We need to see when a sync fails and fix it"
   ],
   "questions": [
     {
@@ -43,7 +45,8 @@
             "g/l account",
             "chart of accounts",
             "posting group",
-            "dimension"
+            "dimension",
+            "number series"
           ]
         },
         {
@@ -81,10 +84,10 @@
         }
       ],
       "coverage": {
-        "Chart of accounts, dimensions, posting groups": 0.22,
-        "Items and prices": 0.31,
-        "Customers, vendors and contacts": 0.33,
-        "Any table, including custom or app tables": 0.22
+        "Chart of accounts, dimensions, posting groups": 0.25,
+        "Items and prices": 0.3,
+        "Customers, vendors and contacts": 0.32,
+        "Any table, including custom or app tables": 0.21
       }
     },
     {
@@ -106,7 +109,8 @@
             "tenant",
             "environments",
             "databases",
-            "cross[- ]environment"
+            "cross[- ]environment",
+            "multiple bc systems"
           ]
         },
         {
@@ -116,7 +120,7 @@
       ],
       "coverage": {
         "All in one BC environment": 0.11,
-        "Across environments or tenants": 0.55
+        "Across environments or tenants": 0.57
       }
     },
     {
@@ -148,7 +152,7 @@
       ],
       "coverage": {
         "Immediately": 0.18,
-        "On a schedule is fine": 0.22
+        "On a schedule is fine": 0.21
       }
     },
     {
@@ -182,7 +186,7 @@
         }
       ],
       "coverage": {
-        "Yes, lock it to the parent": 0.15,
+        "Yes, lock it to the parent": 0.12,
         "No, changes flow both ways": 0.09
       }
     },
@@ -208,7 +212,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.13
+        "Yes": 0.12
       }
     },
     {
@@ -234,6 +238,80 @@
       "coverage": {
         "Yes": 0.09
       }
+    },
+    {
+      "id": "how-precisely-do-you-need-to-c",
+      "text": "How precisely do you need to control what is copied?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pick which tables and fields go to which company",
+          "patterns": [
+            "(select|choose|configure)\\w* which (tables|fields)",
+            "tables and fields",
+            "field-level",
+            "fields to synchroni",
+            "include/exclude",
+            "table-level",
+            "data sets define",
+            "table (and field )?mappings?"
+          ]
+        },
+        {
+          "label": "Only a filtered subset of records",
+          "patterns": [
+            "filter",
+            "subset"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pick which tables and fields go to which company": 0.27,
+        "Only a filtered subset of records": 0.09
+      }
+    },
+    {
+      "id": "do-you-need-to-see-what-was-sy",
+      "text": "Do you need to see what was synced and fix what failed?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a sync log with errors to correct",
+          "patterns": [
+            "error",
+            "sync log",
+            "transaction log",
+            "trace logs?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a sync log with errors to correct": 0.16
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'define' setup wording",
+      "terms": [
+        "defin"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'synchronization' wording",
+      "terms": [
+        "synchronization"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

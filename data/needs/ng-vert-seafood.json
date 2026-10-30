@@ -179,5 +179,30 @@
         "Production or other external systems": 0.4
       }
     }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "suite wording, quality already covered by HACCP option",
+      "terms": [
+        "lots",
+        "control",
+        "good",
+        "produc",
+        "beverag",
+        "dairy",
+        "meat",
+        "producer",
+        "suit"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "publisher product name (Wisefish)",
+      "terms": [
+        "wisefish",
+        "master"
+      ],
+      "on": "2026-10-30"
+    }
   ]
 }

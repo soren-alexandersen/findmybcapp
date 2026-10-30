@@ -64,7 +64,9 @@
             "renew",
             "expir",
             "notice period",
-            "deadline"
+            "deadline",
+            "contract notifications",
+            "stored centrally with notifications"
           ]
         },
         {
@@ -84,7 +86,7 @@
       "coverage": {
         "Create invoices or orders on a schedule": 0.23,
         "Apply contract prices on purchases": 0.23,
-        "Warn me before renewal or expiry": 0.31,
+        "Warn me before renewal or expiry": 0.46,
         "Hold the signed documents": 0.54
       }
     },
@@ -154,6 +156,15 @@
         "Analysis by department, project or category": 0.23,
         "Named owner or team per contract": 0.15
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "multi-currency is standard BC behaviour, not a contract-app choice",
+      "terms": [
+        "currency"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

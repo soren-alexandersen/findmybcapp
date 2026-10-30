@@ -8,18 +8,20 @@
     "publisher": "collana apps GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.glibusinesssolutionsgmbh1593103938587%7CAID.offer_main-tool_maintenance_mobile%7CPAPPID.641af9bd-863d-441a-8430-d33ed19437f7",
-    "lastModified": "2026-10-05T10:01:44.3388079+00:00",
-    "appVersion": "27.0.20260900.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T12:12:05.2078738+00:00",
+    "appVersion": "27.0.20260900.3",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://go-apps.collana.com/fwlink/?linkid=2403698",
-    "sourceHash": "sha256:fb22277655304220b5b35e115d4894338b2aa1d776dfc8b90bcff5881b585b5d",
+    "sourceHash": "sha256:b7222aef2a27d9639894b01426efac8ce50e0a8a7a3404f026896d97535d6e34",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fb22277655304220b5b35e115d4894338b2aa1d776dfc8b90bcff5881b585b5d",
-    "mappedOn": "2026-10-07",
-    "summary": "Maintenance work orders, technical objects, recurring schedules and an offline mobile app",
+    "sourceHash": "sha256:b7222aef2a27d9639894b01426efac8ce50e0a8a7a3404f026896d97535d6e34",
+    "mappedOn": "2026-10-30",
+    "summary": "Maintenance management with work orders, technical objects, scheduling and an offline mobile app.",
     "shape": "process",
     "primary": [
       {
@@ -29,19 +31,26 @@
       {
         "need": "ng-maintenance-breakdown",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-devices",
-      "ng-svc-contracts"
+      "ng-svc-contracts",
+      "ng-fa-register"
     ],
     "claims": [
-      "Create, process and escalate maintenance work orders",
-      "Technical objects with hierarchy and monitoring",
-      "Equipment information center",
-      "Recurring and standing work orders",
-      "Offline-capable mobile app with barcode and QR scanning",
-      "Contract-based work orders"
+      "Maintenance work orders can be created, worked and escalated",
+      "Checklists can be added to technical objects",
+      "Technical objects such as vehicles and components arranged in a hierarchy",
+      "Object monitoring shows all parameters of an object",
+      "Equipment information center collects all object data in one place",
+      "Recurring events and standing orders generate work orders",
+      "Mobile app works fully offline, manages work orders and objects",
+      "Mobile app reads barcodes and QR codes",
+      "Service contracts for objects can generate work orders"
     ],
     "countries": [
       "AE",
@@ -103,7 +112,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

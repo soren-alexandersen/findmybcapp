@@ -63,9 +63,9 @@
         }
       ],
       "coverage": {
-        "Printer, packaging or label maker": 0.67,
-        "Publisher": 0.27,
-        "Media or advertising agency": 0.07
+        "Printer, packaging or label maker": 0.58,
+        "Publisher": 0.42,
+        "Media or advertising agency": 0.08
       }
     },
     {
@@ -91,8 +91,8 @@
         }
       ],
       "coverage": {
-        "PrintVis": 0.53,
-        "printIQ": 0.07
+        "PrintVis": 0.42,
+        "printIQ": 0.08
       }
     },
     {
@@ -115,7 +115,7 @@
         }
       ],
       "coverage": {
-        "Yes, connect machines (IoT, JDF)": 0.27
+        "Yes, connect machines (IoT, JDF)": 0.08
       }
     },
     {
@@ -139,7 +139,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.2
+        "Yes": 0.25
       }
     }
   ]

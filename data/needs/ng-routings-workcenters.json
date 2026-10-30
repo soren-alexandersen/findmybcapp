@@ -64,7 +64,11 @@
             "combined view",
             "(routing|bom)s? (and|with) .{0,10}versions",
             "versions? .{0,20}(bom|routing)",
-            "copy (production bom|routings)"
+            "copy (production bom|routings)",
+            "mass replace",
+            "swap or remove",
+            "components on an existing",
+            "component order"
           ]
         },
         {
@@ -92,10 +96,10 @@
         }
       ],
       "coverage": {
-        "Too much manual work building routings for product variants": 0.25,
-        "Hard to see and maintain BOMs and routings together": 0.17,
-        "Setup and run times don't match reality": 0.17,
-        "Operators lack instructions or details at the machine": 0.33
+        "Too much manual work building routings for product variants": 0.23,
+        "Hard to see and maintain BOMs and routings together": 0.31,
+        "Setup and run times don't match reality": 0.15,
+        "Operators lack instructions or details at the machine": 0.31
       }
     },
     {
@@ -131,9 +135,9 @@
         }
       ],
       "coverage": {
-        "Tools and fixtures": 0.25,
-        "People (personnel and labor)": 0.25,
-        "Separate cost per machine or equipment": 0.17
+        "Tools and fixtures": 0.23,
+        "People (personnel and labor)": 0.23,
+        "Separate cost per machine or equipment": 0.15
       }
     },
     {
@@ -155,7 +159,7 @@
         }
       ],
       "coverage": {
-        "Yes, configured to order": 0.25
+        "Yes, configured to order": 0.23
       }
     },
     {

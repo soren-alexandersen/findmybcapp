@@ -54,8 +54,8 @@
         }
       ],
       "coverage": {
-        "Wholesale and distribution of goods": 0.64,
-        "Commodity trading (contracts, futures, hedging)": 0.27
+        "Wholesale and distribution of goods": 0.62,
+        "Commodity trading (contracts, futures, hedging)": 0.33
       }
     },
     {
@@ -87,13 +87,20 @@
           ]
         },
         {
+          "label": "Margin checks before orders are confirmed",
+          "patterns": [
+            "margin"
+          ]
+        },
+        {
           "label": "Doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Customer-specific prices, discounts, promotions": 0.41,
-        "Prices linked to market or exchange prices": 0.18
+        "Customer-specific prices, discounts, promotions": 0.33,
+        "Prices linked to market or exchange prices": 0.24,
+        "Margin checks before orders are confirmed": 0.14
       }
     },
     {
@@ -118,7 +125,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.23
+        "Yes": 0.19
       }
     },
     {
@@ -144,7 +151,7 @@
         }
       ],
       "coverage": {
-        "Yes, own fleet or route planning": 0.23
+        "Yes, own fleet or route planning": 0.19
       }
     },
     {
@@ -169,7 +176,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.23
+        "Yes": 0.19
       }
     },
     {
@@ -193,6 +200,119 @@
       "coverage": {
         "Yes": 0.14
       }
+    },
+    {
+      "id": "what-do-you-need-help-with-in-",
+      "text": "What do you need help with in the warehouse and shipping?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Picking, packing and warehouse work",
+          "patterns": [
+            "warehouse",
+            "picking"
+          ]
+        },
+        {
+          "label": "Shipping costs and carrier links",
+          "patterns": [
+            "shipping",
+            "carrier"
+          ]
+        },
+        {
+          "label": "Barcode scanning and labels",
+          "patterns": [
+            "barcode"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Picking, packing and warehouse work": 0.19,
+        "Shipping costs and carrier links": 0.19,
+        "Barcode scanning and labels": 0.14
+      }
+    },
+    {
+      "id": "how-do-you-buy-from-your-suppl",
+      "text": "How do you buy from your suppliers?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Purchase suggestions from demand and stock",
+          "patterns": [
+            "purchase proposal",
+            "replenish",
+            "ordering policy"
+          ]
+        },
+        {
+          "label": "Tenders and supplier price comparison",
+          "patterns": [
+            "tender",
+            "vendor comparison",
+            "supplier pricing",
+            "\\brfq"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Purchase suggestions from demand and stock": 0.14,
+        "Tenders and supplier price comparison": 0.1
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "publisher product and edition names",
+      "terms": [
+        "ai365",
+        "starter"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mandatory fields and control steps, UI detail",
+      "terms": [
+        "mandatory"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "commodity valuation methods, already covered by market-price option",
+      "terms": [
+        "month"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'optional module' wording",
+      "terms": [
+        "optional"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "date-range float pricing, already covered by market-price option",
+      "terms": [
+        "rang"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'specific' wording",
+      "terms": [
+        "specific"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

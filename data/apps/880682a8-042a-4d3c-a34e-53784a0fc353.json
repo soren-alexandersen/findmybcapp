@@ -8,18 +8,20 @@
     "publisher": "NVision Commerce Solutions B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-sendcloud%7CPAPPID.880682a8-042a-4d3c-a34e-53784a0fc353",
-    "lastModified": "2026-05-05T13:32:42.8164524+00:00",
-    "appVersion": "101.0.44.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T14:51:46.7870773+00:00",
+    "appVersion": "101.0.51.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://nvision.freshdesk.com/support/solutions/80000459352",
-    "sourceHash": "sha256:a8af21458752a6070eff1272b53695c3811821a7ac6eabf41523c393f716f6de",
+    "sourceHash": "sha256:31bdb34e5b937491447987f6991257335d53b9a51477a19ef748dbcbed4982d3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a8af21458752a6070eff1272b53695c3811821a7ac6eabf41523c393f716f6de",
-    "mappedOn": null,
-    "summary": "Shipping with 100+ carriers via Sendcloud",
+    "sourceHash": "sha256:31bdb34e5b937491447987f6991257335d53b9a51477a19ef748dbcbed4982d3",
+    "mappedOn": "2026-10-30",
+    "summary": "Free Sendcloud integration for multi-carrier shipping labels, rates, tracking and returns",
     "shape": "connector",
     "primary": [
       {
@@ -32,21 +34,21 @@
       "ng-ux-printing"
     ],
     "claims": [
-      "Connects 100+ carriers via Sendcloud",
-      "Generates customs forms with shipping labels",
-      "Branded tracking messages and customizable tracking page",
-      "Creates shipments automatically on sales post",
-      "Batch processing for high volume",
-      "Rate shopping manually or automatically",
-      "Tracking and delivery status on orders and shipments",
-      "Prints labels to local printers with cloud printing",
-      "Service point support",
-      "Covers customs documents, CMR, airway bill and commercial invoice",
-      "Supports Sendcloud and BC shipping rules",
-      "Imports returns from Sendcloud returns portal",
-      "Prints prepaid return labels automatically",
-      "Book shipment and print label from handheld with Tasklet Mobile WMS",
-      "Carriers incl. PostNL, DHL, DPD, FedEx, GLS, UPS, Royal Mail"
+      "Connects 100+ carriers to BC through Sendcloud",
+      "Creates and sends shipments to Sendcloud automatically when a sale is posted",
+      "Batch processing for high shipment volumes",
+      "Rate shopping, manual or automatic",
+      "Tracking and delivery status on sales orders and shipments",
+      "Prints labels to local printers via cloud printing with routing",
+      "Service point delivery supported",
+      "Produces commercial invoice, airway bill, CMR and customs data",
+      "Works with Sendcloud and BC shipping rules",
+      "Imports returns from the Sendcloud returns portal and prints prepaid return labels",
+      "Branded tracking messages and tracking page for customers",
+      "Use own carrier contracts or Sendcloud rates",
+      "Label printing from a Tasklet handheld during pick and pack",
+      "Pushes tracking links to Magento when used with Commerce 365 for Magento",
+      "App is free of charge"
     ],
     "countries": [
       "AT",
@@ -66,7 +68,10 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "Sendcloud",
       "PostNL",

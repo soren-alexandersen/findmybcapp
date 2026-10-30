@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.jcdas1740746058749|AID.customer_self_service|PAPPID.6ec792c4-0912-4f4a-9b66-0a8036013ac0",
+  "guid": "6ec792c4-0912-4f4a-9b66-0a8036013ac0",
+  "publisherId": "jcdas1740746058749",
+  "offerId": "customer_self_service",
+  "source": {
+    "name": "Customer Self Service",
+    "publisher": "JCD A/S",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.customer_self_service%7CPAPPID.6ec792c4-0912-4f4a-9b66-0a8036013ac0",
+    "lastModified": "2026-10-08T09:05:58.4108975+00:00",
+    "appVersion": "1.0.20261008.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jcd.dk/support/",
+    "sourceHash": "sha256:9a6efb745d9ef58da153bea00723554a8b1e826db6c4922752471942888c713b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a6efb745d9ef58da153bea00723554a8b1e826db6c4922752471942888c713b",
+    "mappedOn": "2026-10-30",
+    "summary": "Health check of BC setup with 100+ checks, plus AI-assisted change requests and setup guide.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-support",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents",
+      "ng-admin-training-adoption"
+    ],
+    "claims": [
+      "Runs over 100 read-only setup checks per company or across all companies",
+      "Checks run in the background and each company gets a score",
+      "Each finding links to the page where it can be fixed",
+      "Check results export to Excel",
+      "Checks cover system, setup, users and security, finance, sales and purchase, and inventory",
+      "Includes checks for Danish localization such as e-documents, digital bookkeeping and FIK payment details",
+      "AI chat assistant turns a described change into a design that is sent to the publisher as a change request",
+      "Generates a readable guide to the company's BC setup and installed extensions",
+      "Only metadata, counts and setup flags are sent to the AI, not record values",
+      "Health check is free; full app has a 30-day trial",
+      "Available in English and Danish for BC online"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

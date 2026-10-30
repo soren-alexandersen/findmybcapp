@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.ls_retail|AID.f2f24378-ecde-4eb8-9840-c7a485c815b1|PAPPID.243883a0-73a1-44a1-854b-5fbe208d3ab4",
+  "guid": "243883a0-73a1-44a1-854b-5fbe208d3ab4",
+  "publisherId": "ls_retail",
+  "offerId": "f2f24378-ecde-4eb8-9840-c7a485c815b1",
+  "source": {
+    "name": "Replenishment for LS Central",
+    "publisher": "LS Retail",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.f2f24378-ecde-4eb8-9840-c7a485c815b1%7CPAPPID.243883a0-73a1-44a1-854b-5fbe208d3ab4",
+    "lastModified": "2026-10-27T10:29:08.1861041+00:00",
+    "appVersion": "29.0.0.1987",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/",
+    "sourceHash": "sha256:c7659c70ce0d2cc6f2e99a08e6ec3e38cf18500b1f6614ce2294cceda96ac8bf",
+    "mentionsBC": false
+  },
+  "mapping": {
+    "sourceHash": "sha256:c7659c70ce0d2cc6f2e99a08e6ec3e38cf18500b1f6614ce2294cceda96ac8bf",
+    "mappedOn": "2026-10-30",
+    "summary": "Automated purchase and transfer proposals for LS Central retail and hospitality businesses.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build",
+      "ng-assortment-catalogs",
+      "ng-demand-forecast",
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Generates purchase order and transfer order proposals",
+      "Demand can be calculated by average usage, like-for-like, manual estimate or stock levels",
+      "Rule-based ordering suggestions replace spreadsheet ordering",
+      "Builds sales and purchase budgets with open-to-buy analysis",
+      "Assortment management decides which items each store gets",
+      "Allocation plans, buyer's push and stock recalls for seasonal, new and end-of-life items",
+      "Rebalances stock between stores and warehouses",
+      "Monitors out-of-stock situations and plans for promotions and seasons",
+      "Adjusts replenishment strategy automatically by item lifecycle stage",
+      "Replenishes meals, recipes and ingredients for hospitality",
+      "Runs on the same database as LS Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

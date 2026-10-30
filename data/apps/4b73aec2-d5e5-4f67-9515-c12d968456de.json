@@ -8,45 +8,46 @@
     "publisher": "DSC GROUP SRL",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dscgroupsrl%7CAID.dy024%7CPAPPID.4b73aec2-d5e5-4f67-9515-c12d968456de",
-    "lastModified": "2026-02-25T14:50:34.0802439+00:00",
-    "appVersion": "25.0.16.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T16:22:39.6334762+00:00",
+    "appVersion": "28.7.31.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://dsc-group.net/dyna-ai-studio/",
-    "sourceHash": "sha256:7e16214db3068a511cd86be8a1d5380199e9b059cfc2951d44d390b7aa31c2d0",
+    "sourceHash": "sha256:fd560caee5951a070d09e960f40420f87f42bfd67d2972f4c64725ac93e6313d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7e16214db3068a511cd86be8a1d5380199e9b059cfc2951d44d390b7aa31c2d0",
-    "mappedOn": null,
-    "summary": "AI toolkit for querying data and automating tasks",
+    "sourceHash": "sha256:fd560caee5951a070d09e960f40420f87f42bfd67d2972f4c64725ac93e6313d",
+    "mappedOn": "2026-10-30",
+    "summary": "AI platform for querying BC data and building custom agents (vague listing)",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-ai-assistant",
-        "confidence": "medium"
+        "confidence": "low"
       },
       {
         "need": "ng-admin-copilot-agents",
         "confidence": "low"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-automation"
+    ],
     "claims": [
-      "Query BC data with RAG",
-      "Real-time process automation",
-      "Create custom AI agents",
+      "Query company data with retrieval-augmented generation",
+      "Build custom AI agents",
       "Modular platform"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
-    "connectsTo": [
-      "OpenAI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

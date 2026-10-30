@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.lscentral-for-forecourt%7CPAPPID.c720a87f-809d-4793-a6a3-c16a34e3c7bd",
-    "lastModified": "2026-07-27T21:08:16.2490641+00:00",
-    "appVersion": "28.2.0.1847",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:29:06.3656504+00:00",
+    "appVersion": "29.0.0.1987",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:64f27a1b35af3ba20990376f8539700393debb3e719adb0ff112c195ca12b4bc",
+    "sourceHash": "sha256:36cf8e8f728857f80b53467eef943a36ff92dc350585aa29572de09b44061d1b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:64f27a1b35af3ba20990376f8539700393debb3e719adb0ff112c195ca12b4bc",
-    "mappedOn": null,
-    "summary": "Retail and fuel management for gas stations and convenience stores",
+    "sourceHash": "sha256:36cf8e8f728857f80b53467eef943a36ff92dc350585aa29572de09b44061d1b",
+    "mappedOn": "2026-10-30",
+    "summary": "Industry solution for fuel stations and convenience stores: pumps, POS, retail and food.",
     "shape": "vertical",
     "primary": [
       {
@@ -28,19 +30,20 @@
       },
       {
         "need": "ng-retail-pos",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-vert-hospitality"
     ],
     "claims": [
-      "Controls fuel pumps directly at the POS with real-time status",
-      "Pay-then-pump, pump-then-pay and preset quantity or amount fuel sales",
-      "Retail, restaurants, food services and ticketing alongside fuel",
-      "Sells fuel with lottery tickets, liquor and automotive services",
-      "Multi-location processes on one platform",
-      "Also available on-prem"
+      "Controls fuel pumps from the POS with live status and transactions",
+      "Supports pay-before-pump, pump-before-pay and preset amount or quantity",
+      "Covers retail, restaurants, food service and ticketing next to fuel",
+      "Sells lottery tickets, liquor and automotive services alongside fuel",
+      "Handles multiple locations on one platform and database",
+      "Works with Business Central Essential and Premium",
+      "Also available on-premises"
     ],
     "countries": [],
     "languages": [
@@ -60,8 +63,8 @@
       "it",
       "lt",
       "lv",
-      "nb",
       "nl",
+      "no",
       "pl",
       "pt",
       "ro",
@@ -71,13 +74,15 @@
       "uk"
     ],
     "industries": [
-      "Fuel",
+      "Convenience stores",
+      "Forecourt",
+      "Hospitality",
       "Retail"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

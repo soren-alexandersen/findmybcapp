@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2ongoingwms%7CPAPPID.850dd798-baf7-48c8-9e93-8281f66bb641",
-    "lastModified": "2026-06-10T02:38:51.134335+00:00",
+    "lastModified": "2026-10-20T07:58:06.5827594+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:96a4524e1de197cef48ffc0684fd9cfeb5ec1af168f796010c96fffd16e2ef16",
+    "sourceHash": "sha256:9354774fd8a5483a8e5c1e8c4a79d8a8c86c2cb0c453b4439c11662b1e801006",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:96a4524e1de197cef48ffc0684fd9cfeb5ec1af168f796010c96fffd16e2ef16",
-    "mappedOn": null,
-    "summary": "Syncs orders and inventory with Ongoing WMS",
+    "sourceHash": "sha256:9354774fd8a5483a8e5c1e8c4a79d8a8c86c2cb0c453b4439c11662b1e801006",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way sync of orders, stock and warehouse events between BC and Ongoing WMS.",
     "shape": "connector",
     "primary": [
       {
@@ -28,34 +30,35 @@
       }
     ],
     "secondary": [
-      "ng-lot-serial-traceability",
       "ng-customer-returns",
-      "ng-shipping-carriers"
+      "ng-lot-serial-traceability",
+      "ng-shipping-carriers",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Sends sales orders and consignments to Ongoing WMS with order IDs written back",
-      "Sends purchase and return orders to Ongoing WMS",
-      "Sends production and assembly orders to Ongoing WMS and receives completion",
-      "Syncs articles, prices, dangerous goods data and attributes",
-      "Receives tracking details, carrier codes and optional shipment labels",
-      "Reflects WMS status changes incl. cancellations on BC orders",
-      "Order changes pushed to WMS before picking starts",
-      "Received PO lines post purchase receipts; returns post sales return receipts",
-      "Lot, serial and expiry dates exchanged with WMS",
-      "WMS adjustments, reclassifications and moves post as BC inventory transactions",
-      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+      "Sends sales orders and consignments to the WMS and stores the warehouse order ID in BC",
+      "Sends purchase and return orders to the WMS with references written back",
+      "Sends production and assembly orders to the WMS",
+      "Syncs items, prices, dangerous goods data and configurable attributes",
+      "Brings tracking numbers and carrier codes back on shipment, optionally with the shipping label attached",
+      "Reflects WMS status changes, including cancellations and deletions, on BC orders",
+      "Lets staff edit orders in BC and push the change until picking starts",
+      "Posts purchase receipts from received lines and sales return receipts for returns",
+      "Passes lot, serial and expiry data both ways",
+      "Posts WMS stock adjustments, reclassifications and moves as BC inventory transactions",
+      "Reports finished production orders back to BC",
+      "Includes a portal to monitor flows, get alerts and resubmit failed transactions",
+      "Connector can be tailored to customer-specific workflows"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Ongoing WMS"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

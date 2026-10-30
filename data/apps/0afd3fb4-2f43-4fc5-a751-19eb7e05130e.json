@@ -8,39 +8,45 @@
     "publisher": "MDC Nordic",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.sproom_connector%7CPAPPID.0afd3fb4-2f43-4fc5-a751-19eb7e05130e",
-    "lastModified": "2026-09-29T11:38:51.2815822+00:00",
-    "appVersion": "28.2.1.3703",
+    "lastModified": "2026-10-07T12:04:08.4449813+00:00",
+    "appVersion": "28.3.1.3723",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
-    "freeTrial": "1 Month",
+    "freeTrial": null,
     "helpLink": "https://mdcnordic.com/en/support/",
-    "sourceHash": "sha256:006d78e35f984643feb83bb6b5e954d8461541354f35ebb9befe67c3bbb8ba25",
+    "sourceHash": "sha256:c40673e78e732c08a47b735763f73d8cf4f0a294693cdb7f520cac14256f8968",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:006d78e35f984643feb83bb6b5e954d8461541354f35ebb9befe67c3bbb8ba25",
-    "mappedOn": null,
-    "summary": "Exchanges documents through Sproom",
+    "sourceHash": "sha256:c40673e78e732c08a47b735763f73d8cf4f0a294693cdb7f520cac14256f8968",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends and receives e-invoices and credit notes through the Sproom network.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-loc-einvoicing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-invoicing",
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Sends and receives credit notes and e-invoices through Sproom",
-      "Sends posted sales invoices and credit memos",
-      "Receives incoming documents from Sproom",
-      "Delivery status and error tracking",
-      "Keeps a log of documents sent and received",
-      "Supports OIOUBL for public and private customers"
+      "Sends posted sales invoices and credit memos via Sproom",
+      "Receives and processes incoming documents from Sproom",
+      "Tracks delivery status and error messages inside BC",
+      "Log of sent and received documents with status, errors and timestamps",
+      "Supports OIOUBL for public and private customers",
+      "Sends service documents through Sproom (Premium plan)",
+      "Sends sales prepayment invoices automatically on posting",
+      "30-day free trial",
+      "Works with Essential and Premium editions"
     ],
     "countries": [
       "DK"
@@ -52,7 +58,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

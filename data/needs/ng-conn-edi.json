@@ -28,7 +28,8 @@
     "EDI error messages land in an inbox no one reads",
     "Native EDI inside BC without a separate provider",
     "EDI translation done by the provider, BC just gets clean orders",
-    "Supermarket rejects our invoices because the GLNs are wrong"
+    "Supermarket rejects our invoices because the GLNs are wrong",
+    "Each trading partner sends its own variant of the format and we need to map it ourselves"
   ],
   "questions": [
     {
@@ -89,9 +90,9 @@
         }
       ],
       "coverage": {
-        "Customers, e.g. retail chains": 0.58,
-        "Suppliers": 0.3,
-        "Logistics partners, carriers or 3PL": 0.25,
+        "Customers, e.g. retail chains": 0.51,
+        "Suppliers": 0.34,
+        "Logistics partners, carriers or 3PL": 0.29,
         "Online marketplaces and webshops": 0.07
       }
     },
@@ -157,11 +158,11 @@
         }
       ],
       "coverage": {
-        "EDIFACT / EANCOM": 0.35,
-        "ANSI X12 (US)": 0.16,
-        "Automotive (VDA, Odette)": 0.09,
-        "XML, CSV or flat files": 0.26,
-        "E-invoicing (PEPPOL, OIOUBL)": 0.11
+        "EDIFACT / EANCOM": 0.36,
+        "ANSI X12 (US)": 0.17,
+        "Automotive (VDA, Odette)": 0.1,
+        "XML, CSV or flat files": 0.27,
+        "E-invoicing (PEPPOL, OIOUBL)": 0.1
       }
     },
     {
@@ -212,8 +213,8 @@
         }
       ],
       "coverage": {
-        "Yes, via an EDI provider or managed service": 0.44,
-        "No, run EDI directly inside BC": 0.11
+        "Yes, via an EDI provider or managed service": 0.41,
+        "No, run EDI directly inside BC": 0.1
       }
     },
     {
@@ -287,10 +288,10 @@
         }
       ],
       "coverage": {
-        "Incoming sales orders": 0.35,
-        "Order confirmations / responses": 0.18,
-        "Despatch advice / ASN": 0.35,
-        "Invoices to customers": 0.54,
+        "Incoming sales orders": 0.34,
+        "Order confirmations / responses": 0.17,
+        "Despatch advice / ASN": 0.36,
+        "Invoices to customers": 0.53,
         "Price lists or product catalogues": 0.12
       }
     },
@@ -313,8 +314,44 @@
         }
       ],
       "coverage": {
-        "Yes, SSCC / GS1-128 labels": 0.16
+        "Yes, SSCC / GS1-128 labels": 0.15
       }
+    },
+    {
+      "id": "do-you-want-to-set-up-and-adju",
+      "text": "Do you want to set up and adjust partner mappings yourselves?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we maintain the mappings ourselves",
+          "patterns": [
+            "mapping (rules|tables|assistant|per)",
+            "configurable mapping",
+            "format designer",
+            "partner-specific variants",
+            "auto-mapping",
+            "value mapping",
+            "mapping can be done in-house",
+            "mapping and workflow templates"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we maintain the mappings ourselves": 0.19
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "monitoring and logs are standard in EDI apps",
+      "terms": [
+        "monitor"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

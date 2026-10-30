@@ -1,0 +1,57 @@
+{
+  "appId": "1622789305307.juzibot",
+  "guid": null,
+  "publisherId": "1622789305307",
+  "offerId": "juzibot",
+  "source": {
+    "name": "句子互动",
+    "publisher": "北京句子互动科技有限公司",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/1622789305307.juzibot",
+    "lastModified": "2025-12-16T22:20:55.8649348+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a966c0a40330f78724e56bfa4ce94f7465c88ca40f5460a64a889e96a54edeba",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a966c0a40330f78724e56bfa4ce94f7465c88ca40f5460a64a889e96a54edeba",
+    "mappedOn": "2026-10-30",
+    "summary": "WeChat Work private-traffic marketing automation and chatbot platform.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automates customer operations on WeChat Work",
+      "Offers APIs and SDKs",
+      "Offers a private deployment option",
+      "Uses RPA on WeChat and WeChat Work"
+    ],
+    "countries": [],
+    "languages": [
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WeChat Work"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "No sign of Business Central in the listing; a WeChat marketing platform with no stated BC link.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "austral-dynamics-2090301.order_status_agent",
+  "guid": null,
+  "publisherId": "austral-dynamics-2090301",
+  "offerId": "order_status_agent",
+  "source": {
+    "name": "Order Status Agent - via Teams",
+    "publisher": "Austral Dynamics Pty Ltd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/austral-dynamics-2090301.order_status_agent",
+    "lastModified": "2026-10-28T07:54:01.7780847+00:00",
+    "appVersion": "v1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:ca6a68cd8fa7091cebcf217bcb4e4fb34ff30a49ba1c674daf490a6aec59ee1b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca6a68cd8fa7091cebcf217bcb4e4fb34ff30a49ba1c674daf490a6aec59ee1b",
+    "mappedOn": "2026-10-30",
+    "summary": "Teams chat assistant that looks up BC sales order details and status.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-office-teams",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "Runs inside Microsoft Teams",
+      "Finds orders by natural-language questions with order number or customer",
+      "Reads sales order details and status from Business Central",
+      "Aimed at sales, customer service and operations users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

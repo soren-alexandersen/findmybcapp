@@ -8,18 +8,20 @@
     "publisher": "Evidi",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipro-1014774%7CAID.evidi-intercompany-logistix%7CPAPPID.b8af9bc5-d041-4c23-82ce-ccca4917b213",
-    "lastModified": "2026-09-30T19:10:44.0706557+00:00",
-    "appVersion": "26.18.418.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T14:59:02.9459752+00:00",
+    "appVersion": "26.18.449.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.evidi.com/en/help/articles/8522845-introduction",
-    "sourceHash": "sha256:3f7d71df6ee1e441ed22e681fab97c3c1c2cfb030f7d1d72e2382fd97e294344",
+    "sourceHash": "sha256:515835e79f28e50845b8c891dad283b9b71ac696ca8a452fb67964a09002c723",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3f7d71df6ee1e441ed22e681fab97c3c1c2cfb030f7d1d72e2382fd97e294344",
-    "mappedOn": null,
-    "summary": "Intercompany logistics across legal entities",
+    "sourceHash": "sha256:515835e79f28e50845b8c891dad283b9b71ac696ca8a452fb67964a09002c723",
+    "mappedOn": "2026-10-30",
+    "summary": "Runs multi-company logistics through a virtual operations company with automated intercompany postings.",
     "shape": "process",
     "primary": [
       {
@@ -32,13 +34,13 @@
       "ng-cost-allocation"
     ],
     "claims": [
-      "Virtual operations company processes sales, purchase and inventory across legal entities",
-      "Creates intercompany documents automatically, depending on who owns the customers, vendors and warehouses",
-      "Handles general journals, assembly orders and postings of interim goods receipts",
+      "Virtual operations company processes all entities' sales, purchase and inventory as one",
+      "Auto-creates intercompany documents based on who owns customers, vendors and warehouses",
+      "Handles assembly orders, general journals and interim goods receipt postings",
       "Built-in transfer pricing between legal entities",
-      "Real-time monitoring and traceability of intercompany transactions",
-      "Multi-company retail/e-commerce with shared warehouses",
-      "Supports Essentials and Premium"
+      "Monitoring and traceability of intercompany transactions",
+      "Suited to shared warehouses serving several national companies",
+      "Available in English and Swedish"
     ],
     "countries": [],
     "languages": [
@@ -48,8 +50,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

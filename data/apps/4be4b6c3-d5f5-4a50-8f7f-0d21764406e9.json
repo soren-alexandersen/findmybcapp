@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_qua%7CPAPPID.4be4b6c3-d5f5-4a50-8f7f-0d21764406e9",
-    "lastModified": "2026-10-05T19:03:22.5049942+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:32:26.0810528+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Quality-Management.pdf",
-    "sourceHash": "sha256:824cce0312b1535b00a8e241fea15e8078f870e90e0d377a15a9d7ea1f0948fa",
+    "sourceHash": "sha256:832fd983d895f2aba4eedb8ff01ae39390e14ef99f672022259059d690f8812d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:824cce0312b1535b00a8e241fea15e8078f870e90e0d377a15a9d7ea1f0948fa",
-    "mappedOn": null,
-    "summary": "Manages quality tests, sampling and results with traceability",
+    "sourceHash": "sha256:832fd983d895f2aba4eedb8ff01ae39390e14ef99f672022259059d690f8812d",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality plans, sampling and test results for received, stored and produced goods.",
     "shape": "process",
     "primary": [
       {
@@ -31,22 +33,27 @@
       "ng-quality-analysis"
     ],
     "claims": [
-      "Define sample sizes, measurement or counting methods and min/max ranges",
-      "Periodic tests for raw materials and goods at receiving or in stock",
-      "Quality checks during production and at final output",
-      "Tests generated automatically from quality plans",
-      "Instructions and files on test plans, testing frequencies"
+      "Sample size, measurement or counting method and min/max ranges per item",
+      "Periodic tests on raw materials and trade goods at receipt or in storage",
+      "Checks during production operations and on final output",
+      "Tests are generated automatically from quality plans",
+      "Test plans can hold instructions, attached files and testing frequency",
+      "Test results are recorded and kept in BC",
+      "Available in English and Turkish"
     ],
     "countries": [],
     "languages": [
       "en",
       "tr"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

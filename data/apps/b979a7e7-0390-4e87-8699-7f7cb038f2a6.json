@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.custom_headlines%7CPAPPID.b979a7e7-0390-4e87-8699-7f7cb038f2a6",
-    "lastModified": "2026-09-22T10:58:27.2849638+00:00",
+    "lastModified": "2026-10-26T06:50:25.4456655+00:00",
     "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.customheadlines.apportunix.com/",
-    "sourceHash": "sha256:de768fb7d9fa16667f321eb810e5d8a2ae5c4702836cbcb72e2be5b21325899c",
+    "sourceHash": "sha256:66879421b2c5559f2d2ee493f3c6cb2bd5dd2f7abf217d37340fd5d14154477e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:de768fb7d9fa16667f321eb810e5d8a2ae5c4702836cbcb72e2be5b21325899c",
-    "mappedOn": null,
-    "summary": "Configures custom headlines on role centers",
+    "sourceHash": "sha256:66879421b2c5559f2d2ee493f3c6cb2bd5dd2f7abf217d37340fd5d14154477e",
+    "mappedOn": "2026-10-30",
+    "summary": "Shows configurable, targeted headline messages with live calculated values on role centers.",
     "shape": "usability",
     "primary": [
       {
@@ -31,16 +33,17 @@
       "ng-admin-alerts"
     ],
     "claims": [
-      "Headline messages on role centers targeted to users, user groups and date/time",
-      "Dynamic placeholders filled with calculated values",
-      "Drill down into headline values",
-      "Translatable headline titles and messages",
-      "Each user can have as many as 10 headlines per date/time",
-      "Works on standard role centers (Accountant, CEO, Sales Manager, etc.)",
-      "No coding required"
+      "Headline text can contain placeholders filled with calculated values",
+      "Headlines are targeted by user group and a specific date and time",
+      "Users can drill into a headline value to see how it was calculated",
+      "Headline titles and messages can be translated",
+      "Up to ten headlines per user per date and time",
+      "Works on standard role centers such as Accountant, CEO, Sales Manager and Warehouse Manager",
+      "Set up through pages without code"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en",
       "nl"
     ],

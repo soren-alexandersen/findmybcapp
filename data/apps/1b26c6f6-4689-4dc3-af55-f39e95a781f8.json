@@ -8,38 +8,92 @@
     "publisher": "COSMO CONSULT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.advanced-manufacturing-pack%7CPAPPID.1b26c6f6-4689-4dc3-af55-f39e95a781f8",
-    "lastModified": "2026-10-02T06:52:44.3321942+00:00",
-    "appVersion": "13.1.0.365882",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T10:44:03.1719188+00:00",
+    "appVersion": "13.1.3.365904",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advanced-manufacturing-pack/",
-    "sourceHash": "sha256:337ad28e20e22c8b81ebfe5880b77c919b285fe0fff97d271874651eb15a159f",
+    "sourceHash": "sha256:3e27eaac9792e89badb68ca88efaa1fb7b1d57a374717514c5e5459e54908f6c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:337ad28e20e22c8b81ebfe5880b77c919b285fe0fff97d271874651eb15a159f",
-    "mappedOn": null,
-    "summary": "Industry solution for project, process and discrete manufacturing",
+    "sourceHash": "sha256:3e27eaac9792e89badb68ca88efaa1fb7b1d57a374717514c5e5459e54908f6c",
+    "mappedOn": "2026-10-30",
+    "summary": "Manufacturing industry solution for discrete, process and project manufacturers",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-industrial-manufacturing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-sales-quotes",
-      "ng-nonconformance-capa"
+      "ng-sourcing-rfq",
+      "ng-admin-document-storage",
+      "ng-vert-life-sciences"
     ],
     "claims": [
-      "Covers discrete, project and process manufacturing",
-      "Suited for plastics, chemicals and life sciences",
-      "Bundles COSMO Purchase Quote Manager with COSMO Calculation",
-      "Centralized document storage",
-      "Structured damage reporting",
-      "Real-time overview of production progress and resource availability"
+      "Covers discrete, project and process manufacturing types",
+      "Aimed at plastics, chemicals and life sciences manufacturers",
+      "Spans the flow from sales inquiry and order handling to project delivery",
+      "Includes a purchase quote manager and a calculation (costing) tool",
+      "Central storage for documents",
+      "Structured recording of damage reports",
+      "Real-time view of production progress and resource availability",
+      "Works on Essentials and Premium"
     ],
-    "countries": [],
+    "countries": [
+      "AO",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CR",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HK",
+      "HR",
+      "HU",
+      "IE",
+      "IL",
+      "IN",
+      "IT",
+      "JM",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "US"
+    ],
     "languages": [
       "de",
       "en",
@@ -61,7 +115,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

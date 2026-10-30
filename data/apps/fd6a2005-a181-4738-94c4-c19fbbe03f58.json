@@ -8,36 +8,37 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_workflow%7CPAPPID.fd6a2005-a181-4738-94c4-c19fbbe03f58",
-    "lastModified": "2026-10-01T15:39:47.5188588+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:23:04.1953436+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-workflow/",
-    "sourceHash": "sha256:bc02e716bf982285c4f922f60528c3bef008d057695ca1ed7fe83b863d03c204",
+    "sourceHash": "sha256:1f7535a075c7f2b86dd59309b97bda40f95c316b878d7937e34b017d2566f005",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bc02e716bf982285c4f922f60528c3bef008d057695ca1ed7fe83b863d03c204",
-    "mappedOn": null,
-    "summary": "Status transitions and approval workflows",
+    "sourceHash": "sha256:1f7535a075c7f2b86dd59309b97bda40f95c316b878d7937e34b017d2566f005",
+    "mappedOn": "2026-10-30",
+    "summary": "Status transitions, approvals with email and process blocks on BC records.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-admin-approval-workflows",
         "confidence": "high"
-      },
-      {
-        "need": "ng-ux-automation",
-        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-automation"
+    ],
     "claims": [
-      "Custom entity statuses and transition rules",
-      "Authorizations with email to recipient",
-      "Blocks processing when workflow status not authorized",
-      "Status transitions per user or user group",
-      "60-day free trial"
+      "Defines record statuses and transition rules",
+      "Sends approval requests by email",
+      "Blocks processing when status is not authorised",
+      "Transitions can be set per user or user group",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +47,9 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

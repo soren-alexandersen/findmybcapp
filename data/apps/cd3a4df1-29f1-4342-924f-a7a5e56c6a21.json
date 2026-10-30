@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.issuetracker|PAPPID.cd3a4df1-29f1-4342-924f-a7a5e56c6a21",
+  "guid": "cd3a4df1-29f1-4342-924f-a7a5e56c6a21",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "issuetracker",
+  "source": {
+    "name": "Issue Tracker",
+    "publisher": "MatchBC",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.issuetracker%7CPAPPID.cd3a4df1-29f1-4342-924f-a7a5e56c6a21",
+    "lastModified": "2026-10-12T22:47:27.0704184+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/Issue-Tracker",
+    "sourceHash": "sha256:5caedd8e923524ac2a0f945c940af0831e3c911417f9ae9d15f56142de5d6d7e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:5caedd8e923524ac2a0f945c940af0831e3c911417f9ae9d15f56142de5d6d7e",
+    "mappedOn": "2026-10-30",
+    "summary": "Read-only customer workspace showing shared issues, hours spent and remaining effort.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-case-customer-updates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Dedicated workspace listing issues visible to the customer",
+      "Shows job and task reference, estimated, recorded and remaining hours",
+      "Shows requester, contact number and status",
+      "Only issues flagged as customer-visible are shown",
+      "Customer number in User Setup restricts the list to that customer's jobs",
+      "Customers cannot create, change or delete issues",
+      "Shows recorded time sheet lines with date, quantity and description",
+      "Customer-facing links and issue notes",
+      "Includes a dedicated customer role center",
+      "Interface in 14 languages"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

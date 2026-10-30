@@ -8,38 +8,42 @@
     "publisher": "ACTIVE BUSINESS & TECHNOLOGY",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.activebusinesstechnology1600700277153%7CAID.myfacturae%7CPAPPID.489792b4-2b3c-4dde-9a46-605284c113a9",
-    "lastModified": "2026-10-02T08:23:27.3397346+00:00",
-    "appVersion": "28.0.3.24787",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T10:54:37.9046432+00:00",
+    "appVersion": "28.0.6.25222",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://grupoactive.es/es/productos-microsoft/erp-microsoft-dynamics-nav/factura-electronica-facturae-nav",
-    "sourceHash": "sha256:43e1e1509ec194d52f9eb42d9e87bbdc7711a75fefcdfa0ad5b943429b7381f9",
+    "sourceHash": "sha256:135cba07a7bb7a27fa727e20dcb870b21ed28528dad38818a99df4d49692eb7c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:43e1e1509ec194d52f9eb42d9e87bbdc7711a75fefcdfa0ad5b943429b7381f9",
-    "mappedOn": null,
-    "summary": "Generates Spanish Facturae e-invoices and sends them to FACe",
+    "sourceHash": "sha256:135cba07a7bb7a27fa727e20dcb870b21ed28528dad38818a99df4d49692eb7c",
+    "mappedOn": "2026-10-30",
+    "summary": "Spanish e-invoicing: signed PDF or Facturae XML invoices, with delivery to FACe.",
     "shape": "localization",
     "primary": [
       {
         "need": "ng-loc-einvoicing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-invoicing",
       "ng-ux-email-sending"
     ],
     "claims": [
-      "Generates e-invoices in PDF or Facturae XML",
-      "Direct connection to the FACe public-sector platform",
-      "Bulk and automatic sending of digitally signed PDF invoices to private-sector customers",
-      "PDF invoices signed with a digital certificate and sent as email attachment",
-      "Digitally signed XML invoices following the Facturae standard",
-      "Sends invoices to FACe and other public-administration entry points (PGE)",
-      "Tracks reception and processing of invoices from within the ERP",
-      "Modular: PDF, XML and FACe modules",
+      "Sends invoices to private customers as digitally signed PDFs",
+      "Generates digitally signed Facturae XML invoices",
+      "Delivers invoices automatically to the FACe public sector portal",
+      "Bulk and automatic invoice sending",
+      "Signed PDF invoices sent by email as attachments",
+      "Tracks receipt and processing of FACe invoices from BC",
+      "Supports other public delivery points besides FACe",
       "15-day free trial license"
     ],
     "countries": [

@@ -61,7 +61,13 @@
             "financial statements",
             "ledger reports",
             "chronological journal",
-            "chart of accounts"
+            "chart of accounts",
+            "reconciliation statements?",
+            "income statement",
+            "debt management",
+            "compensation statement",
+            "statement reports?",
+            "vat ue statement"
           ]
         },
         {
@@ -94,10 +100,10 @@
         }
       ],
       "coverage": {
-        "Local VAT ledgers and returns": 0.3,
-        "Local financial statements and legal reports": 0.29,
+        "Local VAT ledgers and returns": 0.29,
+        "Local financial statements and legal reports": 0.32,
         "E-invoicing or fiscal numbers from the tax authority": 0.13,
-        "Local document layouts and printouts": 0.17
+        "Local document layouts and printouts": 0.15
       }
     },
     {
@@ -135,7 +141,13 @@
             "coda",
             "halkom",
             "internet banking",
-            "bank payments"
+            "bank payments",
+            "bank (list|branch|director)",
+            "banks and their branches",
+            "local bank directory",
+            "\\biban\\b",
+            "bank reconciliation",
+            "bank account verification"
           ]
         },
         {
@@ -149,15 +161,24 @@
           ]
         },
         {
+          "label": "Advance payments and employee advances",
+          "patterns": [
+            "advance (holders?|payments?|reports?|statements?|invoices?)",
+            "employee advance",
+            "advance and deduction"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Cash desk or petty cash documents": 0.09,
-        "Cheques and promissory notes": 0.1,
-        "Local bank files and statements": 0.11,
-        "Official central bank exchange rates": 0.1
+        "Cash desk or petty cash documents": 0.08,
+        "Cheques and promissory notes": 0.11,
+        "Local bank files and statements": 0.15,
+        "Official central bank exchange rates": 0.09,
+        "Advance payments and employee advances": 0.11
       }
     },
     {
@@ -223,10 +244,19 @@
         }
       ],
       "coverage": {
-        "Local fixed asset rules and forms": 0.16,
+        "Local fixed asset rules and forms": 0.17,
         "Inflation adjustment": 0.07,
         "Local payroll": 0.04
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "listing language availability",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

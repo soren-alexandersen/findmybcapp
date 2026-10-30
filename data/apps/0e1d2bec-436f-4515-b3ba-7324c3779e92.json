@@ -8,8 +8,8 @@
     "publisher": "System Solutions LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.revalize-autoquotes-aq-integration%7CPAPPID.0e1d2bec-436f-4515-b3ba-7324c3779e92",
-    "lastModified": "2026-07-13T17:39:29.4184785+00:00",
-    "appVersion": "1.0.2.1",
+    "lastModified": "2026-10-28T15:23:40.9652462+00:00",
+    "appVersion": "1.0.4.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"

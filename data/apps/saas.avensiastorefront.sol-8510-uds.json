@@ -1,0 +1,62 @@
+{
+  "appId": "avensiastorefront.sol-8510-uds",
+  "guid": null,
+  "publisherId": "avensiastorefront",
+  "offerId": "sol-8510-uds",
+  "source": {
+    "name": "Avensia Storefront E-commerce",
+    "publisher": "Avensia Storefront",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/avensiastorefront.sol-8510-uds",
+    "lastModified": "2025-12-16T12:54:23.0134433+00:00",
+    "appVersion": "1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:03abba85f278ad1879bc890a34cfa6f7bebfbf02f0ac1be1f259c6598a163035",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:03abba85f278ad1879bc890a34cfa6f7bebfbf02f0ac1be1f259c6598a163035",
+    "mappedOn": "2026-10-30",
+    "summary": "Hosted e-commerce storefront with a prebuilt connector between Dynamics ERP and Episerver.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-channels"
+    ],
+    "claims": [
+      "Connects Business Central to an Episerver storefront",
+      "Includes a starter site with a customisable front end",
+      "Standard integrations for PIM, payment providers and POS",
+      "Supports click and collect",
+      "Runs in Azure",
+      "Used by B2C and B2B retailers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Episerver"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

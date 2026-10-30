@@ -8,34 +8,39 @@
     "publisher": "Origo",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.ori_electronic_documents_import%7CPAPPID.f95622d1-3d5c-487b-b7d9-379635c3ac9c",
-    "lastModified": "2026-10-06T12:44:51.6057446+00:00",
-    "appVersion": "28.0.1.209",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:57:36.392797+00:00",
+    "appVersion": "28.0.1.214",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://business-central.refined.site/space/EDIA",
-    "sourceHash": "sha256:67407e3184b2a1bdc55dfc23054448333f0921af9648f8105ff2574b3165b9aa",
+    "sourceHash": "sha256:f95d934223138237084123cb34057b9a42aac1c360281f211602303ac7f1e66d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:67407e3184b2a1bdc55dfc23054448333f0921af9648f8105ff2574b3165b9aa",
-    "mappedOn": null,
-    "summary": "Receives electronic documents via Unimaze",
-    "shape": "connector",
+    "sourceHash": "sha256:f95d934223138237084123cb34057b9a42aac1c360281f211602303ac7f1e66d",
+    "mappedOn": "2026-10-30",
+    "summary": "Receives Peppol purchase orders and invoices into BC through the Unimaze network.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-loc-einvoicing",
+        "need": "ng-ap-invoice-capture",
         "confidence": "high"
       },
       {
-        "need": "ng-ap-invoice-capture",
-        "confidence": "medium"
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
       }
     ],
     "secondary": [],
     "claims": [
-      "Receives electronic documents via Unimaze on Peppol",
-      "Processes documents with standard Data Exchange Framework",
-      "Receives purchase orders and purchase invoices electronically"
+      "Receives electronic documents from the Peppol network via Unimaze",
+      "Processes incoming documents with BC's Data Exchange Framework",
+      "Handles incoming purchase orders and purchase invoices",
+      "Depends on the Electronic Documents Base App and Origo BC Base App",
+      "Works on Essentials and Premium editions",
+      "Available in English and Icelandic"
     ],
     "countries": [
       "AT",
@@ -73,7 +78,7 @@
       "Peppol"
     ],
     "requires": [
-      "Electronic Documents – Base App",
+      "Electronic Documents Base App (Origo)",
       "Origo BC Base App"
     ],
     "deployment": "not_stated",

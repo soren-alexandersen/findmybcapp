@@ -1,0 +1,117 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_delivery_plans|PAPPID.1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+  "guid": "1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_delivery_plans",
+  "source": {
+    "name": "CS Delivery Plans",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_delivery_plans%7CPAPPID.1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+    "lastModified": "2026-10-29T11:36:21.487343+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-delivery-plans-help-en/",
+    "sourceHash": "sha256:02938885d55d1f7899c823a2add1e3ba5fab75407da16abea96af6eb8ae4991f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:02938885d55d1f7899c823a2add1e3ba5fab75407da16abea96af6eb8ae4991f",
+    "mappedOn": "2026-10-30",
+    "summary": "Worksheet to allocate stock to sales orders, check credit and combine shipments.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Delivery worksheet shows item availability and whether orders can ship partially or in full",
+      "Reserves stock automatically by delivery date, customer priority or order date",
+      "One-click reservations with a priority rule that can differ per worksheet",
+      "Creates warehouse documents directly from the delivery worksheet",
+      "Runs a customer credit check before shipment and asks for authorisation",
+      "Named users can approve shipments when credit limits are exceeded or payments overdue",
+      "Unapproved shipments can be excluded from allocation",
+      "Merges orders for the same delivery address into one warehouse document",
+      "Adds order and customer source details to warehouse documents for 3PL providers",
+      "Shows reservations against stock and against planned receipts separately",
+      "Supports multiple locations with owned and outsourced warehouses",
+      "Runs on Essentials and Premium editions",
+      "Priced per production environment with unlimited sandboxes and users",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

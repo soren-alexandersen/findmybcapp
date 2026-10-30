@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_mam%7CPAPPID.5b78a85c-b371-404e-a393-ea84ff371fbc",
-    "lastModified": "2026-10-05T19:05:52.0009891+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:38:06.0262815+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Asset-Management.pdf",
-    "sourceHash": "sha256:359d07d94a85cbe053515c3b00d34c4cbf52b40424ac50519927ddf04af97d6b",
+    "sourceHash": "sha256:dd01c23f2d1957b288f41cd3e44ce7fb214a9cfd163e7dcc1bfd87a21ffe4961",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:359d07d94a85cbe053515c3b00d34c4cbf52b40424ac50519927ddf04af97d6b",
-    "mappedOn": null,
-    "summary": "Planned and unplanned maintenance of assets",
+    "sourceHash": "sha256:dd01c23f2d1957b288f41cd3e44ce7fb214a9cfd163e7dcc1bfd87a21ffe4961",
+    "mappedOn": "2026-10-30",
+    "summary": "Plans maintenance on machines and assets and tracks maintenance costs against budget.",
     "shape": "process",
     "primary": [
       {
@@ -31,13 +33,17 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
     "claims": [
-      "Maintenance plans for assets",
+      "Maintenance plans per asset or machine",
+      "Covers both planned and unplanned maintenance",
       "Maintenance orders created automatically",
-      "Considers effect of maintenance on production capacity",
-      "Expected and actual consumables and maintenance costs per asset",
-      "Maintenance reporting compared with budget"
+      "Shows how machines under maintenance affect production capacity",
+      "Records expected and actual consumables and maintenance cost per asset",
+      "Reports maintenance cost against budget",
+      "Available in English and Turkish"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +54,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

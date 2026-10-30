@@ -8,42 +8,40 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.status_management%7CPAPPID.49772d79-9298-41b9-a516-99fe9dee3e66",
-    "lastModified": "2026-09-22T09:02:44.9623781+00:00",
-    "appVersion": "1.72.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T10:04:38.0779968+00:00",
+    "appVersion": "1.74.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.statusmanagement.apportunix.com/",
-    "sourceHash": "sha256:9aa50714eedd093792165d523fe7cf1d423bcd2e90f85c4de8b882ad5541863d",
+    "sourceHash": "sha256:58682bd542d6d776aceb9f17eff7585a61c2379a0ca072d71ed8decb04685a4a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9aa50714eedd093792165d523fe7cf1d423bcd2e90f85c4de8b882ad5541863d",
-    "mappedOn": null,
-    "summary": "Lifecycle status control for master data and documents",
-    "shape": "process",
+    "sourceHash": "sha256:58682bd542d6d776aceb9f17eff7585a61c2379a0ca072d71ed8decb04685a4a",
+    "mappedOn": "2026-10-30",
+    "summary": "User-defined lifecycle statuses on master data and documents with required fields and permissions.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-data-quality",
         "confidence": "high"
-      },
-      {
-        "need": "ng-ux-automation",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-product-phase-out",
-      "ng-admin-approval-workflows"
+      "ng-admin-permissions",
+      "ng-product-phase-out"
     ],
     "claims": [
-      "Custom lifecycle statuses for items, customers, vendors and jobs",
-      "Statuses for purchase, sales and service documents",
-      "Permissions per status by user group",
-      "Mandatory fields per status incl. document lines",
-      "Allow or block posting per status",
-      "Auto release/open on status change",
-      "Converts existing data to new statuses",
-      "Status logging",
+      "Works on items, customers, vendors and jobs",
+      "Works on purchase, sales and service documents",
+      "Companies define their own statuses and transitions",
+      "Required fields can be set on sales and purchase lines per status",
+      "Status controls whether shipments, receipts or invoices may be posted",
+      "A status change can release or reopen the document automatically",
+      "Existing records can be converted to the new statuses in bulk",
+      "Status changes are logged",
       "APIs and Power Platform integration"
     ],
     "countries": [],
@@ -55,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

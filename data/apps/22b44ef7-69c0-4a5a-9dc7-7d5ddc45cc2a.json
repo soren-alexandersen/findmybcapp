@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.inventory-health-check|PAPPID.22b44ef7-69c0-4a5a-9dc7-7d5ddc45cc2a",
+  "guid": "22b44ef7-69c0-4a5a-9dc7-7d5ddc45cc2a",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "inventory-health-check",
+  "source": {
+    "name": "Inventory Health Check",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.inventory-health-check%7CPAPPID.22b44ef7-69c0-4a5a-9dc7-7d5ddc45cc2a",
+    "lastModified": "2026-10-26T14:15:31.1020836+00:00",
+    "appVersion": "1.29.1.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://gmsoftdynamics.com/apps/free/inventory-health-check/docs/",
+    "sourceHash": "sha256:86c6e3007011046e9534e53760daeb0841e5b45b45704a6f71a439cff2d04201",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:86c6e3007011046e9534e53760daeb0841e5b45b45704a6f71a439cff2d04201",
+    "mappedOn": "2026-10-30",
+    "summary": "Free read-only check of item ledger vs warehouse and bin content mismatches.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Compares item ledger and warehouse totals per item, variant and location",
+      "Finds lot, serial and package numbers that differ between ledgers",
+      "Lists unposted warehouse adjustments and their age",
+      "Flags negative bin content and missing, blocked or blank bins",
+      "Finds unit of measure problems that break Calculate Warehouse Adjustment",
+      "Gives probable cause and Microsoft best-practice fix per difference",
+      "Shows the date each difference first appeared",
+      "Read-only: never posts or creates journals",
+      "Filterable and schedulable on the job queue, runs logged",
+      "Needs BC online 29 or later",
+      "No charge for the app"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

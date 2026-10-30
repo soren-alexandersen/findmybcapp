@@ -8,18 +8,20 @@
     "publisher": "PrintVis A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novavisionsoftwareas1586247030445%7CAID.printvis-copilot%7CPAPPID.717b8f55-5f38-4f8d-8f03-8ce3af1dd32f",
-    "lastModified": "2026-08-26T12:10:32.9342757+00:00",
-    "appVersion": "28.1.4.71",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T07:39:27.5636996+00:00",
+    "appVersion": "28.1.6.82",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://printvis.com/about-printvis/help/",
-    "sourceHash": "sha256:744915dbb0e808fc0df89e5cbd98233804fcca8f554c4c1858acadda19f8b3d6",
+    "sourceHash": "sha256:dc0439a03fc4482b2a17c18303d2011633c301b0e29e499649d0360c14798204",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:744915dbb0e808fc0df89e5cbd98233804fcca8f554c4c1858acadda19f8b3d6",
-    "mappedOn": null,
-    "summary": "Copilot features for PrintVis capacity scheduling",
+    "sourceHash": "sha256:dc0439a03fc4482b2a17c18303d2011633c301b0e29e499649d0360c14798204",
+    "mappedOn": "2026-10-30",
+    "summary": "Copilot-assisted capacity scheduling for PrintVis print production",
     "shape": "addon",
     "primary": [
       {
@@ -28,26 +30,25 @@
       }
     ],
     "secondary": [
-      "ng-vert-printing-packaging",
-      "ng-admin-copilot-agents"
+      "ng-ux-ai-assistant"
     ],
     "claims": [
-      "Copilot-assisted scheduling spreading work across available resources",
-      "Balances workload across capacity units with shift setup",
-      "Places optimized planning units into a planning simulation",
-      "Natural-language notes to Copilot generate an optimized schedule on a planning board"
+      "Balances workload across capacity units and shifts",
+      "Moves planning units automatically into a planning simulation",
+      "Takes extra instructions in natural language",
+      "Loads an optimized schedule onto a planning board for selected machines"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Printing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [
       "PrintVis"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

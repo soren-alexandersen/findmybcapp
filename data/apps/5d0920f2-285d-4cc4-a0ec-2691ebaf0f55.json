@@ -8,8 +8,8 @@
     "publisher": "DIGMATIX",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.digitalmind1602831662567%7CAID.vehicle_fuel_accounting%7CPAPPID.5d0920f2-285d-4cc4-a0ec-2691ebaf0f55",
-    "lastModified": "2026-03-20T12:09:02.3807793+00:00",
-    "appVersion": "26.0.1.19",
+    "lastModified": "2026-10-09T09:27:57.6076642+00:00",
+    "appVersion": "26.0.1.21",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://www.digmatix.com/en/products/dynamics-365-business-central",
@@ -18,24 +18,25 @@
   },
   "mapping": {
     "sourceHash": "sha256:507c756be4e599a59b495672440f794a278e96a88464654215b91a645aacb771",
-    "mappedOn": null,
-    "summary": "Vehicle components, refueling and travel document accounting",
+    "mappedOn": "2026-10-30",
+    "summary": "Records vehicle trip documents, refuelling and fuel consumption, and tracks vehicle accessories.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-fa-register",
-        "confidence": "low"
+        "need": "ng-company-vehicles",
+        "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-hr-employee-expenses"
-    ],
+    "secondary": [],
     "claims": [
-      "Records travel documents (trip sheets) for vehicles",
+      "Fills in trip documents for each vehicle",
       "Records refuelling and fuel consumption",
-      "Tracks accessories assigned to vehicles",
-      "Collects fuel consumption from travel documents in one action",
-      "Fuel consumption analytics"
+      "Tracks the status of accessories assigned to each vehicle",
+      "Analyses fuel consumption",
+      "Keeps all information per vehicle in one place",
+      "Trip documents can be entered manually or imported",
+      "Collects fuel use from trip documents in one action",
+      "Available in all countries where BC is offered"
     ],
     "countries": [],
     "languages": [
@@ -45,11 +46,11 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Company vehicle fleet fuel accounting and trip sheets"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

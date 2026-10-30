@@ -86,9 +86,9 @@
         }
       ],
       "coverage": {
-        "Email": 0.65,
-        "Teams or Slack": 0.09,
-        "Inside BC (Role Center)": 0.04
+        "Email": 0.69,
+        "Teams or Slack": 0.08,
+        "Inside BC (Role Center)": 0.08
       }
     },
     {
@@ -110,7 +110,10 @@
           "label": "Yes, with retry limits or delays",
           "patterns": [
             "restart.*(threshold|backoff|cooldown|attempt|cap\\b|minimum delay)",
-            "(threshold|backoff|cooldown|attempt).*restart"
+            "(threshold|backoff|cooldown|attempt).*restart",
+            "retry (thresholds|rules)",
+            "delay between (job )?retries",
+            "maximum retries"
           ]
         },
         {
@@ -119,8 +122,8 @@
         }
       ],
       "coverage": {
-        "Yes, restart automatically": 0.65,
-        "Yes, with retry limits or delays": 0.13
+        "Yes, restart automatically": 0.62,
+        "Yes, with retry limits or delays": 0.27
       }
     },
     {
@@ -147,7 +150,8 @@
             "single configuration",
             "default job queue setup",
             "one company and select",
-            "global preferences"
+            "global preferences",
+            "create, update and delete job queues"
           ]
         },
         {
@@ -162,9 +166,9 @@
         }
       ],
       "coverage": {
-        "One overview across companies": 0.13,
-        "Set up many jobs at once": 0.22,
-        "Daily or weekly health digest": 0.09
+        "One overview across companies": 0.15,
+        "Set up many jobs at once": 0.23,
+        "Daily or weekly health digest": 0.12
       }
     },
     {
@@ -179,7 +183,8 @@
             "in process",
             "heartbeat",
             "fail-safe",
-            "watchdog"
+            "watchdog",
+            "control job that monitors"
           ]
         },
         {
@@ -195,8 +200,8 @@
         }
       ],
       "coverage": {
-        "Stuck or hanging jobs": 0.22,
-        "Successful runs": 0.17
+        "Stuck or hanging jobs": 0.23,
+        "Successful runs": 0.15
       }
     },
     {
@@ -230,9 +235,60 @@
         }
       ],
       "coverage": {
-        "Different people per job or owner": 0.3,
-        "Only for critical jobs or by severity": 0.09
+        "Different people per job or owner": 0.27,
+        "Only for critical jobs or by severity": 0.04
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "core 'notification' wording shared by nearly every app in this need",
+      "terms": [
+        "notification"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "licensing terms",
+      "terms": [
+        "licens"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "setting alert recipients is basic configuration every app offers",
+      "terms": [
+        "recipient"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "core 'detect failures' wording shared by the whole need",
+      "terms": [
+        "detect"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "telemetry mentions are unrelated side features or negative claims",
+      "terms": [
+        "telemetry"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'control' wording",
+      "terms": [
+        "control"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'history' wording",
+      "terms": [
+        "history"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

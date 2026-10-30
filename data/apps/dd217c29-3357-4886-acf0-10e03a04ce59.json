@@ -4,22 +4,24 @@
   "publisherId": "applibra",
   "offerId": "al_discounts_and_pricing",
   "source": {
-    "name": "AL Discounts and Pricing",
+    "name": "AL Advanced Discounts and Pricing",
     "publisher": "Applibra",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_discounts_and_pricing%7CPAPPID.dd217c29-3357-4886-acf0-10e03a04ce59",
-    "lastModified": "2026-06-17T08:15:20.6491824+00:00",
-    "appVersion": "25.0.26.6121708",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:37:16.2167382+00:00",
+    "appVersion": "28.0.26.10201228",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://dynamicsapplab.com/apps/al-advanced-discounts-and-pricing",
-    "sourceHash": "sha256:5ef239d7484317dd92e514d27fe1a7dd4ea5fb440d3e95bb6cb9514b0765d827",
+    "helpLink": "https://applibra.com/apps/al-advanced-discounts-and-pricing/help",
+    "sourceHash": "sha256:2402fcea00d8a9f5a3eccf84bedf9b6d107485f67421f49ba259800edee595c9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5ef239d7484317dd92e514d27fe1a7dd4ea5fb440d3e95bb6cb9514b0765d827",
-    "mappedOn": null,
-    "summary": "Advanced price and discount control on sales and purchase documents",
+    "sourceHash": "sha256:2402fcea00d8a9f5a3eccf84bedf9b6d107485f67421f49ba259800edee595c9",
+    "mappedOn": "2026-10-30",
+    "summary": "Compound cascade discounts, locked line prices and extended invoice discounts on sales and purchase documents.",
     "shape": "process",
     "primary": [
       {
@@ -31,23 +33,35 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
     "claims": [
-      "Works on sales and purchase quotes, orders and invoices",
-      "Multi-level compound discounts on the header (e.g. 10% + 5%)",
-      "Payment discounts driven by payment terms",
-      "Invoice discount with manual override",
-      "Forced compound discounts and forced unit prices per line",
-      "Forced prices and discounts inherited when copying from source document",
-      "Prices and discounts shown on printed and PDF documents"
+      "Enter cascade discounts like 10+5-2, resolved into the standard line discount percent",
+      "Cascade discounts work on sales lines, purchase lines and price list lines",
+      "Default cascade discount can be set on the customer card and proposed on new lines",
+      "Forced unit price or discount per line overrides the price list until cleared",
+      "Optionally carries agreed prices from blanket orders to orders and from orders to invoices",
+      "Invoice discount can come from payment terms plus a manual extra",
+      "Configurable reaction when one invoice combines orders with different invoice discounts",
+      "Cascade discount appears on e-invoices and printed documents",
+      "Covers quotes, blanket orders, orders, invoices, credit memos and returns",
+      "Needs BC 28.0 or later, online and on-premises",
+      "Available in English, Italian, Czech, Spanish and Polish"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "cs",
+      "en",
+      "es",
+      "it",
+      "pl"
+    ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "both",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

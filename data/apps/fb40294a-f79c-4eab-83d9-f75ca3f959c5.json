@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.3261b9c8-a976-4c65-93ab-72cabe046e87%7CPAPPID.fb40294a-f79c-4eab-83d9-f75ca3f959c5",
-    "lastModified": "2026-07-02T13:39:44.7018216+00:00",
-    "appVersion": "28.1.0.123",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:30:01.2584671+00:00",
+    "appVersion": "29.0.0.132",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:1c124be982f2b522618ad981e045782affc15cc6ab583dce0a3455fabe7c6c33",
+    "sourceHash": "sha256:961e51ef04a3623c050849f82813bf972689e4da13808bf700b1468372af7a3b",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:1c124be982f2b522618ad981e045782affc15cc6ab583dce0a3455fabe7c6c33",
-    "mappedOn": null,
-    "summary": "Finnish language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:961e51ef04a3623c050849f82813bf972689e4da13808bf700b1468372af7a3b",
+    "mappedOn": "2026-10-30",
+    "summary": "Finnish user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Finnish",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Finnish",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "FI"
@@ -39,14 +41,15 @@
       "fi"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

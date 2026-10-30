@@ -107,15 +107,26 @@
           ]
         },
         {
+          "label": "Usage or rental consumption",
+          "patterns": [
+            "usage-based",
+            "usage entries",
+            "rental usage",
+            "real usage",
+            "resource consumption"
+          ]
+        },
+        {
           "label": "Doesn't matter / Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Hours and costs (time & material)": 0.57,
+        "Hours and costs (time & material)": 0.52,
         "Fixed price": 0.14,
         "Milestones or % of progress": 0.31,
-        "Deposits / prepayments up front": 0.19
+        "Deposits / prepayments up front": 0.17,
+        "Usage or rental consumption": 0.14
       }
     },
     {
@@ -159,8 +170,8 @@
         }
       ],
       "coverage": {
-        "In Business Central or a BC add-on": 0.29,
-        "Jira / Tempo": 0.14,
+        "In Business Central or a BC add-on": 0.26,
+        "Jira / Tempo": 0.12,
         "Another tool (Harvest, Clockify, TimeLog, Microbizz...)": 0.14
       }
     },
@@ -196,7 +207,7 @@
         }
       ],
       "coverage": {
-        "Yes, approve hours / time entries": 0.12,
+        "Yes, approve hours / time entries": 0.07,
         "Yes, approve invoice proposals or drafts": 0.12
       }
     },
@@ -279,8 +290,24 @@
       ],
       "coverage": {
         "Construction / engineering": 0.14,
-        "Consulting, IT, legal or other services": 0.24
+        "Consulting, IT, legal or other services": 0.29
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'resource' wording; resource planning is a separate need",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "setup wizards",
+      "terms": [
+        "wizard"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

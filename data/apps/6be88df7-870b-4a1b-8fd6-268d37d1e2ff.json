@@ -8,52 +8,60 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_essentials%7CPAPPID.6be88df7-870b-4a1b-8fd6-268d37d1e2ff",
-    "lastModified": "2026-10-01T15:39:21.1658879+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:00:12.5131039+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-essentials/",
-    "sourceHash": "sha256:465e0c6c81260d93d2b3b7000500e9fb3014bb4f675fca4909cf9964377ec8a5",
+    "sourceHash": "sha256:f26de3a84a95633a3db37ad2ab336ad5f52684419765da0dc676522227d137b5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:465e0c6c81260d93d2b3b7000500e9fb3014bb4f675fca4909cf9964377ec8a5",
-    "mappedOn": null,
-    "summary": "Collection of finance and operations enhancements",
-    "shape": "process",
+    "sourceHash": "sha256:f26de3a84a95633a3db37ad2ab336ad5f52684419765da0dc676522227d137b5",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle of extra BC functions across finance, sales, purchasing, warehouse and production.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-correct-posted",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-requisitions",
         "confidence": "medium"
       },
       {
-        "need": "ng-ux-data-entry",
+        "need": "ng-ux-data-quality",
         "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-sales-invoicing",
-      "ng-purchase-requisitions",
+      "ng-bank-reconciliation",
+      "ng-ux-email-sending",
       "ng-subcontracting",
-      "ng-ux-email-sending"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Modify or delete posted documents and G/L entries",
+      "Extra bank account reconciliation functions",
       "Change payment lines on posted documents",
-      "Send documents by certified email (PEC)",
-      "Undo receipt/shipment",
+      "Modify or delete posted documents and G/L entries",
+      "Undo receipts and shipments",
+      "Sales and purchase order types",
+      "Close individual sales and purchase order lines",
+      "Pro forma invoices",
       "Transport information on sales documents",
-      "Close sales order lines and purchase order lines",
-      "Pro forma invoice",
       "Purchase request procedure",
-      "Mandatory reason code",
-      "Automatic weight on Intrastat journal",
-      "Allow negative transfer",
+      "Sends documents by certified mail (PEC)",
+      "Mandatory reason codes",
+      "Automatic weights on the Intrastat journal",
+      "Bin content with item tracking",
       "Duplicate item procedure",
       "Negative consumption in production",
-      "Subcontracting order from production order",
-      "Schedule adjust cost on job queue",
-      "60-day free trial"
+      "Create subcontracting orders from production orders",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -62,7 +70,9 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

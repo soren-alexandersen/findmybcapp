@@ -8,18 +8,20 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.label-it-app%7CPAPPID.ce07cc12-8a0d-4bfa-baca-fd7caf6377dd",
-    "lastModified": "2026-09-28T00:17:58.2158521+00:00",
-    "appVersion": "26.0.260918.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:35:56.6702512+00:00",
+    "appVersion": "26.0.261012.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/label-it/docs",
-    "sourceHash": "sha256:19a46cfbddd485cc3d98aa4c7b90721136673c5b22f2d965bff7c926289061e3",
+    "sourceHash": "sha256:ce40c755685a2cb54e1102b2aa597a3a6582f2c37825bf887ef46665d0e7854a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:19a46cfbddd485cc3d98aa4c7b90721136673c5b22f2d965bff7c926289061e3",
-    "mappedOn": null,
-    "summary": "Label template and printer framework using NiceLabel",
+    "sourceHash": "sha256:ce40c755685a2cb54e1102b2aa597a3a6582f2c37825bf887ef46665d0e7854a",
+    "mappedOn": "2026-10-30",
+    "summary": "Manages label templates and printer choices, printing barcode labels through NiceLabel.",
     "shape": "usability",
     "primary": [
       {
@@ -31,12 +33,12 @@
       "ng-ux-printing"
     ],
     "claims": [
-      "Works with NiceLabel via Cloud Companion service",
-      "Four default NiceLabel templates included (item no., GTIN, item & GTIN, bin)",
-      "Import, export and manage own label templates",
-      "Prints labels to on-premises printers via Print-It",
-      "Extensible with own business logic and workflow",
-      "Manages label printer selections"
+      "Prints labels through NiceLabel using the Cloud Companion service",
+      "Ships with four NiceLabel templates: item number, GTIN, item plus GTIN, and bin",
+      "Import, export and manage your own label templates",
+      "Prints to on-premises printers when combined with Print-It",
+      "Extensible with your own business logic and workflow",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +50,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

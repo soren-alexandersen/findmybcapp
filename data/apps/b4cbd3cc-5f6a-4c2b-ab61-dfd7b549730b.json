@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.gem365|AID.gem365_record_access_control|PAPPID.b4cbd3cc-5f6a-4c2b-ab61-dfd7b549730b",
+  "guid": "b4cbd3cc-5f6a-4c2b-ab61-dfd7b549730b",
+  "publisherId": "gem365",
+  "offerId": "gem365_record_access_control",
+  "source": {
+    "name": "GEM365 Record Access Control",
+    "publisher": "GEM365",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gem365%7CAID.gem365_record_access_control%7CPAPPID.b4cbd3cc-5f6a-4c2b-ab61-dfd7b549730b",
+    "lastModified": "2026-10-30T13:21:50.7763045+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gem365.ca/gem365rac/record-access-control-help.html",
+    "sourceHash": "sha256:987ee68df46015e96db9feae88cb29b79cb77f3c9216ce542eabf30b8779238d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:987ee68df46015e96db9feae88cb29b79cb77f3c9216ce542eabf30b8779238d",
+    "mappedOn": "2026-10-30",
+    "summary": "Restricts which G/L accounts each user can see and type, without breaking posting.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-admin-cloud-upgrade"
+    ],
+    "claims": [
+      "Per-user allowed or blocked G/L account filters using standard filter syntax",
+      "Filters the G/L account list, chart of accounts, account card and G/L entries",
+      "Posting still works when a document touches a restricted account",
+      "Stops restricted accounts being typed on journal, purchase and sales lines; can be turned off per user",
+      "Logs every blocked attempt with user, account, source and time",
+      "Preview the chart of accounts as a chosen user sees it",
+      "Bulk setup through an Excel matrix of accounts by user",
+      "Job queue and background posting are never blocked",
+      "API/OData, Edit in Excel, config packages and direct reports are not filtered",
+      "Needs BC online version 27 or later",
+      "Licensed per user with no trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

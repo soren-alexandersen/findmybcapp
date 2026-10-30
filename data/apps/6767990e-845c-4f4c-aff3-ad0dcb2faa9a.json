@@ -8,42 +8,47 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365lotmgt%7CPAPPID.6767990e-845c-4f4c-aff3-ad0dcb2faa9a",
-    "lastModified": "2026-09-16T16:59:15.6500405+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:44:30.3956203+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/lotmgt/index.html",
-    "sourceHash": "sha256:390714916a9b2500a3e7c54361b023492ecff3aaf0f7e51cc325ef6ffc53611b",
+    "sourceHash": "sha256:3ad175e078bcf5e4fc30023fa3654d65566cc5e0ffffddb8440ee0f1b8842286",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:390714916a9b2500a3e7c54361b023492ecff3aaf0f7e51cc325ef6ffc53611b",
-    "mappedOn": null,
-    "summary": "Batch/lot management",
+    "sourceHash": "sha256:3ad175e078bcf5e4fc30023fa3654d65566cc5e0ffffddb8440ee0f1b8842286",
+    "mappedOn": "2026-10-30",
+    "summary": "Batch management for process industries: lot attributes, status rules, tracing and FEFO picking.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-lot-serial-traceability",
         "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-allocation-picking",
-      "ng-vert-life-sciences"
+      "ng-quality-hold",
+      "ng-vert-life-sciences",
+      "ng-barcode-labels"
     ],
     "claims": [
       "Lot attributes with rule-based traffic lights",
-      "Logged changes and rules for changing batch attributes",
-      "Product labels",
-      "Batch tracing and tracking",
-      "Automatic batch split and merge",
-      "Posting rules restricting batch usability",
-      "FEFO/FIFO picking",
+      "Changes to batch attributes are logged",
+      "Rules govern who and how batch attributes change",
+      "Batches can be split and merged, automatically if needed",
+      "Posting rules can block use of a batch",
+      "Single-batch sales deliveries and production components",
+      "FEFO or FIFO picking",
       "Automatic batch selection",
-      "Simplified inventory corrections",
-      "Includes free Yaveon 365 Base App with rule-based traffic lights, extended texts, inventory summary and data migration tools",
-      "Extended texts on master data, purchase and sales documents",
-      "Corporate design for documents"
+      "Simpler inventory corrections",
+      "Product label printing"
     ],
     "countries": [
       "AD",
@@ -146,13 +151,15 @@
       "Chemicals",
       "Cosmetics",
       "Food",
+      "Healthcare",
+      "Manufacturing & Mobility",
       "Medical technology",
       "Pharmaceuticals"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/145/Loaners",
     "sourceHash": "sha256:d35635554be06031fe6f5dc51f829f61a24a9952950e2072bc029d61e61cd0b9",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:d35635554be06031fe6f5dc51f829f61a24a9952950e2072bc029d61e61cd0b9",

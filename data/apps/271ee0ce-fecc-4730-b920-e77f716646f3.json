@@ -8,20 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.pdf-edi-orders%7CPAPPID.271ee0ce-fecc-4730-b920-e77f716646f3",
-    "lastModified": "2026-09-29T11:20:45.3091932+00:00",
+    "lastModified": "2026-10-13T04:15:39.2203281+00:00",
     "appVersion": "5.7.7.0",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
-    "sourceHash": "sha256:10aee58893a26078cb00d663038c45efc647ecf130fa8596311fd7f0d03cf8ba",
+    "sourceHash": "sha256:7b1bc3525fc74cee98d4c9cd519cb80a4e3821b811ca3caf5357b620802e22ec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:10aee58893a26078cb00d663038c45efc647ecf130fa8596311fd7f0d03cf8ba",
-    "mappedOn": null,
-    "summary": "Imports PDF sales orders via HubBroker",
+    "sourceHash": "sha256:7b1bc3525fc74cee98d4c9cd519cb80a4e3821b811ca3caf5357b620802e22ec",
+    "mappedOn": "2026-10-30",
+    "summary": "Turns PDF orders into structured data and imports them into Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -33,17 +33,18 @@
       "ng-conn-edi"
     ],
     "claims": [
-      "Imports PDF orders into BC",
-      "Turns PDF orders into data formats that are already approved",
-      "Tracks imported PDF orders in the iPaaS",
-      "REST API data integration"
+      "PDF orders are imported automatically into Business Central",
+      "PDF orders are converted into pre-approved data formats",
+      "Imported PDF orders can be tracked in the iPaaS platform",
+      "Offers REST API integration"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
-    "connectsTo": [
-      "HubBroker iPaaS"
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
     ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "contact",

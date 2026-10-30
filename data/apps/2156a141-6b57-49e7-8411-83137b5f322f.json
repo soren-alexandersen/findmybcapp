@@ -8,18 +8,20 @@
     "publisher": "Naviators A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviators%7CAID.timemanagement%7CPAPPID.2156a141-6b57-49e7-8411-83137b5f322f",
-    "lastModified": "2026-09-30T10:52:23.7466171+00:00",
-    "appVersion": "25.1.6.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T06:17:27.5048687+00:00",
+    "appVersion": "25.1.8.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://naviators.dk/en/time-management-help-en/",
-    "sourceHash": "sha256:aa0c21520102db44c5c8d15bbc52d0e7b1c3e9626c7b60b7f10c71e40aa7ae09",
+    "sourceHash": "sha256:3c6d7f9d295c0b602497bacc3893eb099c400b4644185a6c48558cd0ca6defac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:aa0c21520102db44c5c8d15bbc52d0e7b1c3e9626c7b60b7f10c71e40aa7ae09",
-    "mappedOn": null,
-    "summary": "Time registration and project billing for advisory companies",
+    "sourceHash": "sha256:3c6d7f9d295c0b602497bacc3893eb099c400b4644185a6c48558cd0ca6defac",
+    "mappedOn": "2026-10-30",
+    "summary": "Consultancy solution: time and expense registration, project billing and WIP.",
     "shape": "vertical",
     "primary": [
       {
@@ -32,21 +34,22 @@
       },
       {
         "need": "ng-proj-billing",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-proj-wip",
-      "ng-proj-status-reporting"
+      "ng-proj-status-reporting",
+      "ng-intercompany-consolidation"
     ],
     "claims": [
-      "Registration of time and expenses on projects",
+      "Time and expense registration",
       "New projects created from project templates",
-      "Project overview of hours, expenses, invoicing and budgets",
-      "Ongoing statement and regulation of work in progress",
-      "Work in one system while invoices are posted in different companies",
-      "Supported in Denmark",
-      "Supports Essentials and Premium editions"
+      "Project overview of hours, expenses, invoicing and budget",
+      "Adjustment of work in progress and remaining invoicing",
+      "Running WIP statement",
+      "Work in one system while posting invoices in different companies",
+      "Supported in Denmark, in Danish and English"
     ],
     "countries": [
       "DK"
@@ -56,12 +59,12 @@
       "en"
     ],
     "industries": [
-      "Professional_services"
+      "Professional Services"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

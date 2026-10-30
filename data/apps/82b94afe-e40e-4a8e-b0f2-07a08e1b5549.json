@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365trade%7CPAPPID.82b94afe-e40e-4a8e-b0f2-07a08e1b5549",
-    "lastModified": "2026-09-16T16:59:53.7114007+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:16.7397987+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/trade/index.html",
-    "sourceHash": "sha256:baf57b90ee8d10de4c8a867b111380ff97f5dec65d647a86876735df627b063a",
+    "sourceHash": "sha256:af2204cce9cb108223748d990376ac6d2ba0b749572ae7252a12bc864a89f70a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:baf57b90ee8d10de4c8a867b111380ff97f5dec65d647a86876735df627b063a",
-    "mappedOn": null,
-    "summary": "Customer hierarchies and negotiated pricing",
+    "sourceHash": "sha256:af2204cce9cb108223748d990376ac6d2ba0b749572ae7252a12bc864a89f70a",
+    "mappedOn": "2026-10-30",
+    "summary": "Customer hierarchies, hierarchical pricing, multi-level discounts, bonus settlements and sales commissions.",
     "shape": "process",
     "primary": [
       {
@@ -28,22 +30,27 @@
       },
       {
         "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-commissions",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-commissions",
+      "ng-assortment-catalogs",
       "ng-vert-wholesale-trading"
     ],
     "claims": [
-      "Customer hierarchies with prices and discounts inherited by lower levels",
-      "Hierarchical price determination instead of lowest price",
-      "Multi-level line and invoice discounts",
-      "Rebates in kind (free goods) on sales orders",
-      "Automatic surcharge and discount lines incl. freight surcharges",
-      "Bonus statements on sales or turnover, staggered",
-      "Commission statements for sales reps",
-      "Listings and assortments for retail chains"
+      "Groups customers into hierarchies such as buying associations by region or country",
+      "Prices and discounts set at a hierarchy level apply to all customers beneath it",
+      "Price is chosen by a ranked search order rather than the lowest price",
+      "Multi-level line and invoice discounts on original or already discounted value",
+      "Adds free-of-charge goods to sales orders marked as rebate in kind",
+      "Automatically inserts surcharge and discount lines, including freight by delivery terms",
+      "Calculates retroactive bonuses on sales or turnover, optionally staggered",
+      "Calculates sales rep commission on sales or revenue",
+      "Works with BC Essentials and Premium"
     ],
     "countries": [
       "AE",
@@ -144,7 +151,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

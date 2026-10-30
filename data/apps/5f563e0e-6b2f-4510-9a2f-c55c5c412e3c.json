@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2shopify%7CPAPPID.5f563e0e-6b2f-4510-9a2f-c55c5c412e3c",
-    "lastModified": "2026-08-21T08:24:13.2655547+00:00",
+    "lastModified": "2026-10-19T11:59:30.1759806+00:00",
     "appVersion": "28.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:905aa5f34aadc4432ac717ce4afb3c0a10cd1c4944e6701dc02b8bafd35d4f88",
+    "sourceHash": "sha256:05043fdd84a80a4cce1e10fdbd3df7f7bccd9e36b7dc8ea369253ae80cc77e87",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:905aa5f34aadc4432ac717ce4afb3c0a10cd1c4944e6701dc02b8bafd35d4f88",
-    "mappedOn": null,
-    "summary": "Syncs products, inventory, orders, customers with Shopify",
+    "sourceHash": "sha256:05043fdd84a80a4cce1e10fdbd3df7f7bccd9e36b7dc8ea369253ae80cc77e87",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way sync of products, stock, prices, customers, orders and returns with Shopify.",
     "shape": "connector",
     "primary": [
       {
@@ -29,34 +31,34 @@
     ],
     "secondary": [
       "ng-customer-returns",
-      "ng-sales-pricing"
+      "ng-sales-pricing",
+      "ng-admin-integration-failures"
     ],
     "claims": [
       "Pushes products, variants, images, metafields, metaobjects and collections to Shopify",
-      "Pushes stock per location with optional unit cost updates",
-      "Syncs base prices and customer-group price lists; optional SparkLayer for B2B",
-      "BC shipments fulfil Shopify orders incl. click-and-collect",
-      "Writes confirmations and invoices back to Shopify and marks paid",
-      "Syncs B2C contacts and B2B company accounts with locations and catalogs",
-      "Credit memos to Shopify refunds and Shopify refunds to return orders, with Narvar integration",
-      "Real-time order import via webhooks with tag/source filtering and split fulfilment",
-      "Imports third-party fulfilments as sales shipments with tracking",
-      "Supports Shopify B2B company accounts",
-      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+      "Pushes stock per location, optionally with unit cost",
+      "Applies base prices and customer-group price lists, with optional SparkLayer routing for B2B",
+      "Posted BC shipments fulfil Shopify orders, including click-and-collect and in-store pickup",
+      "Writes confirmations and invoices back to Shopify and marks orders paid when the invoice is settled",
+      "Syncs B2C contacts and B2B company accounts with contacts, locations and catalogues",
+      "Imports orders in real time via webhooks with tag or source filters and split fulfilment",
+      "Credit memos become Shopify refunds and Shopify refunds become BC return orders, with Narvar integration",
+      "Propagates Shopify product IDs and deletions back to BC",
+      "Imports third-party fulfilments from Shopify as BC sales shipments with tracking",
+      "Supports Shopify B2B with ship-to locations, roles and price lists",
+      "Includes a portal to monitor flows, get alerts and resubmit failed transactions"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Shopify",
-      "Narvar",
-      "SparkLayer"
+      "SparkLayer",
+      "Narvar"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

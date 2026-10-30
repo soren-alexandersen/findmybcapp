@@ -8,18 +8,20 @@
     "publisher": "KUMAVISION AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.edx%7CPAPPID.36569745-64bd-4de5-877a-a57fd834b34e",
-    "lastModified": "2026-10-02T10:36:54.4287294+00:00",
-    "appVersion": "29.0.1532.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T09:09:02.3427256+00:00",
+    "appVersion": "29.0.1560.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.kumavision.de/en/edx/",
-    "sourceHash": "sha256:d167cf4ec00db27be9d070df6e5a4dab108e5ae076dd907f42c0e4d1d7ad4685",
+    "sourceHash": "sha256:688a7d829ce28ecfbefb35c6afd9755d183ee251eefc9d600e1cac92de088e74",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d167cf4ec00db27be9d070df6e5a4dab108e5ae076dd907f42c0e4d1d7ad4685",
-    "mappedOn": null,
-    "summary": "EDI exchange for purchase and sales messages",
+    "sourceHash": "sha256:688a7d829ce28ecfbefb35c6afd9755d183ee251eefc9d600e1cac92de088e74",
+    "mappedOn": "2026-10-30",
+    "summary": "EDI interface automating purchase and sales message exchange with trading partners.",
     "shape": "connector",
     "primary": [
       {
@@ -32,16 +34,17 @@
       "ng-intercompany-consolidation"
     ],
     "claims": [
-      "EDI for purchase and sales messages",
-      "Any data exchange scenario possible",
-      "Intercompany data exchange",
+      "Automates exchange of purchase and sales messages with internal and external partners",
+      "Set-up wizard for installation",
+      "Supports any data exchange scenario and external system integration",
+      "Intercompany message exchange",
       "Tracks changes in messages",
       "Field configuration per partner and message type",
-      "Automated check logic for high document volumes",
-      "Connects to Azure via Logic Apps",
-      "Setup wizard",
-      "Free for 30 days, then monthly per environment",
-      "Only tested for DE, CH and AT regulations"
+      "Automated checks suited to high document volumes",
+      "Connects to Azure through Logic Apps",
+      "Warehouse management add-on available",
+      "Only tested for DE, CH and AT regulations; deployed with the publisher",
+      "Costs 359 EUR per month per environment after 30 free days"
     ],
     "countries": [
       "AT",
@@ -53,10 +56,7 @@
       "en",
       "fr"
     ],
-    "industries": [
-      "Distribution",
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [
       "Azure Logic Apps"
     ],

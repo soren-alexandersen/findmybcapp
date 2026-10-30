@@ -209,7 +209,10 @@
             "load optim",
             "load structure",
             "logistics planning",
-            "plans transport"
+            "plans transport",
+            "pick ?& ?pack",
+            "picking",
+            "packing order"
           ]
         },
         {
@@ -222,8 +225,104 @@
         }
       ],
       "coverage": {
-        "Yes, need load planning": 0.26
+        "Yes, need load planning": 0.35
       }
+    },
+    {
+      "id": "how-do-you-need-to-trace-produ",
+      "text": "How do you need to trace produce through your business?",
+      "multi": true,
+      "options": [
+        {
+          "label": "By lot or batch",
+          "patterns": [
+            "traceab",
+            "lot number",
+            "batch track",
+            "\\blots?\\b"
+          ]
+        },
+        {
+          "label": "By each crate, tray or container",
+          "patterns": [
+            "container"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By lot or batch": 0.32,
+        "By each crate, tray or container": 0.19
+      }
+    },
+    {
+      "id": "do-you-work-with-contracts-wit",
+      "text": "Do you work with contracts with growers or license holders?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, grower or license contracts",
+          "patterns": [
+            "contract"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, grower or license contracts": 0.13
+      }
+    },
+    {
+      "id": "do-you-plan-where-crops-and-jo",
+      "text": "Do you plan where crops and jobs go in your greenhouse or site?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, plan space and positions",
+          "patterns": [
+            "floorplan",
+            "area planning",
+            "positions?\\b",
+            "capacity per location"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, plan space and positions": 0.13
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "publisher product name (Agriware)",
+      "terms": [
+        "agriwar"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'export' wording (documents, payroll, data lake)",
+      "terms": [
+        "export"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'jobs' wording",
+      "terms": [
+        "jobs"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

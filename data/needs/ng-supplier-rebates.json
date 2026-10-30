@@ -155,5 +155,14 @@
         "Yes, only paid invoices": 0.12
       }
     }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'amount' wording",
+      "terms": [
+        "amount"
+      ],
+      "on": "2026-10-30"
+    }
   ]
 }

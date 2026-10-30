@@ -8,40 +8,45 @@
     "publisher": "FidesiousPro",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fidesiousprobv1710687577357%7CAID.wms_scanning_pictures%7CPAPPID.a1697e41-c252-40c7-9aae-20eddf9bf267",
-    "lastModified": "2026-08-21T21:49:40.434565+00:00",
-    "appVersion": "1.3.0.126",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:22:18.5647422+00:00",
+    "appVersion": "1.5.0.137",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
-    "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning/help/",
-    "sourceHash": "sha256:674c9844c9e0b98173c2570069bccc142144a26d16346dd7d2b2b526b67b1def",
+    "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning-pictures-help/",
+    "sourceHash": "sha256:938d8c0c736b0c9ad6d47c16dc21ebfff0899f9e618004df90ceb267549002f7",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:674c9844c9e0b98173c2570069bccc142144a26d16346dd7d2b2b526b67b1def",
-    "mappedOn": null,
-    "summary": "Shows item pictures in WMS scanning app",
+    "sourceHash": "sha256:938d8c0c736b0c9ad6d47c16dc21ebfff0899f9e618004df90ceb267549002f7",
+    "mappedOn": "2026-10-30",
+    "summary": "Shows an item picture on the scanner for each scanned item in WMS Scanning.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-admin-devices",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-allocation-picking"
-    ],
+    "secondary": [],
     "claims": [
-      "Displays an image for each scanned item in WMS Scanning"
+      "Displays an image for each scanned item",
+      "Free add-on for the WMS Scanning app",
+      "Available in Dutch and English"
     ],
     "countries": [],
     "languages": [
       "en",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [
-      "FidesiousPro WMS Scanning"
+      "WMS Scanning"
     ],
     "deployment": "not_stated",
     "pricing": "free",

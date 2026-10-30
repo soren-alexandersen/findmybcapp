@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_pricing_matrix%7CPAPPID.eb15703f-3f5c-4347-a4a3-10eae8335e59",
-    "lastModified": "2026-08-26T06:50:16.6612979+00:00",
-    "appVersion": "2601.2.339265.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T08:09:42.169604+00:00",
+    "appVersion": "2602.0.350893.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/PMX/pricing-matrix/",
-    "sourceHash": "sha256:a32c2fc7accff0eab6e293e44e251a6cc4b2be2c90ed1259c5908cdc1453b082",
+    "sourceHash": "sha256:09c38c5fab7f882a3041cbbe300a2f7a8cc40ce08b7ff01306bddde5f6a5ed46",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a32c2fc7accff0eab6e293e44e251a6cc4b2be2c90ed1259c5908cdc1453b082",
-    "mappedOn": null,
-    "summary": "Cost-plus pricing matrix for food and beverage",
-    "shape": "addon",
+    "sourceHash": "sha256:09c38c5fab7f882a3041cbbe300a2f7a8cc40ce08b7ff01306bddde5f6a5ed46",
+    "mappedOn": "2026-10-30",
+    "summary": "Cost-plus customer pricing from alternate costs, formulas and a pricing matrix.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-sales-pricing",
@@ -28,57 +30,29 @@
       },
       {
         "need": "ng-vert-food-beverage",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
     "secondary": [],
     "claims": [
-      "Unlimited alternate costs per product",
-      "Cost-plus pricing per customer based on alternate costs",
+      "Keeps unlimited alternate costs per product",
+      "Uses alternate costs as the base for customer-specific cost-plus pricing",
       "Pricing formulas with flat amounts or percentage adjustments",
-      "Pricing matrix combining costs and formulas into end prices",
-      "Real-time customer price inquiry without mock sales orders",
-      "Calculates price lists from the pricing matrix"
+      "Matrix defines how costs and formulas combine into end prices",
+      "Customer price inquiry without creating a test sales order",
+      "Calculates price lists from the matrix",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

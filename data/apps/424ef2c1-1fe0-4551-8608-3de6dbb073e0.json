@@ -8,18 +8,20 @@
     "publisher": "Logtrade Technology AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logtrade_technology%7CAID.logtrade_connect%7CPAPPID.424ef2c1-1fe0-4551-8608-3de6dbb073e0",
-    "lastModified": "2026-09-24T15:53:57.2058175+00:00",
-    "appVersion": "25.55.439.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-25T14:28:56.3726381+00:00",
+    "appVersion": "25.59.444.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://connect.logtrade.se/bc/docs/",
-    "sourceHash": "sha256:c6f692560c9c2b9a050ff7a191294832366c2acf02692284551c781c0428e3c0",
+    "sourceHash": "sha256:a36d769b49e4ab95b468537afa6d155480b2df28363e7c05b494d8f32aac8cca",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c6f692560c9c2b9a050ff7a191294832366c2acf02692284551c781c0428e3c0",
-    "mappedOn": null,
-    "summary": "Books, quotes and tracks consignments via Logtrade",
+    "sourceHash": "sha256:a36d769b49e4ab95b468537afa6d155480b2df28363e7c05b494d8f32aac8cca",
+    "mappedOn": "2026-10-30",
+    "summary": "Multi-carrier shipping through Logtrade: labels, booking, freight price and tracking.",
     "shape": "connector",
     "primary": [
       {
@@ -29,22 +31,21 @@
     ],
     "secondary": [
       "ng-packing-loading",
-      "ng-loc-tax-reporting"
+      "ng-freight-cost-audit"
     ],
     "claims": [
-      "Books, quotes and tracks consignments with carriers such as DHL, FedEx, UPS",
-      "Prints package labels and waybills from sales order, inventory pick or other warehouse workflows",
-      "Validates consignments against the carrier agreement to avoid extra charges",
-      "Single integration point regardless of carrier",
-      "Supports extra carrier services like advice, cold, heat and timed deliveries",
+      "Prints package labels and waybills from sales orders and inventory picks",
+      "One integration point for many carriers",
+      "Checks consignments against the carrier agreement to avoid surcharges",
+      "Supports extra carrier services like advice, temperature control and timed delivery",
       "Consolidates several orders into one shipment automatically",
       "Calculates freight price automatically",
-      "Creates customs invoices and dangerous goods information automatically",
-      "Prints labels and transfers electronic data to the carrier automatically",
-      "Saves tracking number on the shipped document",
-      "Carrier package per country plus a generic carrier module",
-      "Demo mode available before licensing",
-      "Supports Essential and Premium editions"
+      "Produces customs invoices and dangerous goods data from shipped items",
+      "Saves the tracking number on the shipped document",
+      "Generic carrier module for own or unsupported carriers",
+      "Country carrier packages with option to add carriers",
+      "Requires a Logtrade agreement; demo mode until then",
+      "Works on Essentials and Premium editions"
     ],
     "countries": [
       "DK",
@@ -62,16 +63,19 @@
       "en",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
-      "Logtrade",
+      "Logtrade Connect",
       "DHL",
       "FedEx",
       "UPS"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

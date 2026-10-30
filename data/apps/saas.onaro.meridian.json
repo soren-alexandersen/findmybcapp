@@ -1,0 +1,80 @@
+{
+  "appId": "onaro.meridian",
+  "guid": null,
+  "publisherId": "onaro",
+  "offerId": "meridian",
+  "source": {
+    "name": "Meridian – Agent FinOps",
+    "publisher": "Onaro",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/onaro.meridian",
+    "lastModified": "2026-10-26T05:12:05.1833183+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a77ed97c2670636bd1757591be8b6530075792572444faba386ad2b88f3bb78d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a77ed97c2670636bd1757591be8b6530075792572444faba386ad2b88f3bb78d",
+    "mappedOn": "2026-10-30",
+    "summary": "Meters AI agent spend, allocates it to cost centers and posts it to BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-admin-licensing"
+    ],
+    "claims": [
+      "Pulls usage directly from OpenAI, Anthropic, AWS Bedrock and Microsoft Copilot APIs",
+      "Parses uploaded invoices for AI providers with no billing API",
+      "Ingests usage from AI gateways LiteLLM, Kong and Portkey",
+      "Open-source OpenTelemetry exporter turns GenAI spans into usage records",
+      "Allocates AI spend to agents, teams and cost centers",
+      "Cost pools, rate cards and showback for self-hosted inference",
+      "Slack alerts per organization",
+      "Posts AI cost allocations to the Business Central general ledger",
+      "Journal entry export to CSV",
+      "Free two-week assessment of AI spend"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OpenAI",
+      "Anthropic",
+      "AWS Bedrock",
+      "Microsoft Copilot",
+      "OpenRouter",
+      "LiteLLM",
+      "Kong AI Gateway",
+      "Portkey",
+      "Slack",
+      "QuickBooks Online",
+      "LogicMonitor"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

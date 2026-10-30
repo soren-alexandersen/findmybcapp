@@ -113,10 +113,10 @@
         }
       ],
       "coverage": {
-        "Store more attributes and specifications per item": 0.36,
-        "Create new items faster and consistently": 0.26,
-        "Handle variants like size and colour": 0.27,
-        "Feed product content to a webshop or marketplaces": 0.3
+        "Store more attributes and specifications per item": 0.39,
+        "Create new items faster and consistently": 0.28,
+        "Handle variants like size and colour": 0.34,
+        "Feed product content to a webshop or marketplaces": 0.28
       }
     },
     {
@@ -159,8 +159,8 @@
         }
       ],
       "coverage": {
-        "Inside BC, no extra system": 0.05,
-        "In a separate PIM (Akeneo, inriver, Perfion, Salsify...)": 0.2
+        "Inside BC, no extra system": 0.04,
+        "In a separate PIM (Akeneo, inriver, Perfion, Salsify...)": 0.19
       }
     },
     {
@@ -183,7 +183,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.19
+        "Yes": 0.2
       }
     },
     {
@@ -259,7 +259,7 @@
         }
       ],
       "coverage": {
-        "Yes, we import supplier catalogs": 0.11
+        "Yes, we import supplier catalogs": 0.1
       }
     },
     {
@@ -283,7 +283,7 @@
         }
       ],
       "coverage": {
-        "Yes, with approval or release steps": 0.08
+        "Yes, with approval or release steps": 0.09
       }
     }
   ]

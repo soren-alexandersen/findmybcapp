@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.documentcreator%7CPAPPID.e55908d7-0741-4ffd-ab42-10ad0fa3f028",
-    "lastModified": "2026-09-28T10:12:47.7171939+00:00",
-    "appVersion": "2.136.6.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T15:43:14.3607294+00:00",
+    "appVersion": "2.136.8.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.documentcreator.apportunix.com/",
-    "sourceHash": "sha256:9e45e01815a963cfbaee390542e23778b37ebd209f47e8e5e49c14d2f988b3d6",
+    "sourceHash": "sha256:8a6e4f98a32393e994ca80931452186188bf7a7a9c78e626707f0a618b3db942",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9e45e01815a963cfbaee390542e23778b37ebd209f47e8e5e49c14d2f988b3d6",
-    "mappedOn": null,
-    "summary": "No-code document layout designer and label translation",
+    "sourceHash": "sha256:8a6e4f98a32393e994ca80931452186188bf7a7a9c78e626707f0a618b3db942",
+    "mappedOn": "2026-10-30",
+    "summary": "Visual designer for BC report and document layouts, translations and dataset extensions.",
     "shape": "usability",
     "primary": [
       {
@@ -33,16 +35,15 @@
       "ng-ux-email-sending"
     ],
     "claims": [
-      "Drag-and-drop visual report designer",
-      "Preview layouts with BC data",
-      "Barcodes, QR codes, SVG, charts, rich text and subreports",
-      "Add fields, labels and data items to report datasets from the client",
-      "Manage report translations and detect missing ones",
-      "Generates PDF, Word and Excel documents",
-      "HTML email body templates",
-      "Stationery, appendices, interactive PDF forms",
-      "Works alongside existing RDLC, Word and Excel layouts",
-      "Designs labels and warehouse documents"
+      "Drag-and-drop layout designer",
+      "Layouts preview with live BC data",
+      "Supports barcodes incl. Code128, EAN and GS1 Data Matrix, plus QR codes, charts and subreports",
+      "Fields, labels and data items can be added to report datasets from the client",
+      "Flags labels that lack a translation",
+      "Outputs PDF, Word and Excel",
+      "Configurable export profiles per document need",
+      "Supports stationery backgrounds, appendices and interactive PDF forms",
+      "Existing RDLC, Word and Excel layouts keep working"
     ],
     "countries": [],
     "languages": [

@@ -8,28 +8,25 @@
     "publisher": "NETRONIC Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.netronic%7CAID.appsource_visual_nontransact_tester%7CPAPPID.383e040a-bfdf-4f84-a873-aa79f3b3e425",
-    "lastModified": "2026-06-02T07:37:59.3938939+00:00",
+    "lastModified": "2026-10-20T06:18:55.4113366+00:00",
     "appVersion": "1.0.0.14",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.netronic.com/visual-jobs-scheduler-vjs-for-dynamics-365-business-central",
-    "sourceHash": "sha256:d968ac5916244344ef28835ce58138c103e1318540b3e17a4137662ea3144e99",
+    "sourceHash": "sha256:c76788ac2fbcee623bcfb76af7ff4c7273b288785f43aa17754c64b40f0ad678",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d968ac5916244344ef28835ce58138c103e1318540b3e17a4137662ea3144e99",
-    "mappedOn": null,
-    "summary": "Test app for removing AppSource transact capability",
-    "shape": "usability",
-    "primary": [
-      {
-        "need": "ng-ux-developer-tools",
-        "confidence": "low"
-      }
-    ],
+    "sourceHash": "sha256:c76788ac2fbcee623bcfb76af7ff4c7273b288785f43aa17754c64b40f0ad678",
+    "mappedOn": "2026-10-30",
+    "summary": "Publisher test app for removing AppSource transact capability; not a business app.",
+    "shape": "other",
+    "primary": [],
     "secondary": [],
     "claims": [
-      "Test app for removing AppSource transact capability"
+      "Test app for validating removal of AppSource transact capability"
     ],
     "countries": [],
     "languages": [
@@ -38,10 +35,10 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": true,
-    "hideReason": "Publisher test app for AppSource transact capability, not a business solution",
+    "hideReason": "Publisher test app for AppSource monetization; no business process.",
     "noFit": ""
   },
   "curated": {

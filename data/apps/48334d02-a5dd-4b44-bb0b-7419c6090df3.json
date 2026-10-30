@@ -8,38 +8,43 @@
     "publisher": "IDYN B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.verify_it_w1%7CPAPPID.48334d02-a5dd-4b44-bb0b-7419c6090df3",
-    "lastModified": "2026-10-02T11:07:22.6200471+00:00",
+    "lastModified": "2026-10-21T11:19:35.3314208+00:00",
     "appVersion": "28.2.5.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/DB1/pages/24084481/Introduction",
-    "sourceHash": "sha256:dc5b94392f73d5315e32e4ffae725a07e6c81ca673077fe79fdd5f8540f67acc",
+    "sourceHash": "sha256:bb58fca8b290c26d13080e6ce1587dd8c75a02fd1f3f9752be10bca254c797fb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dc5b94392f73d5315e32e4ffae725a07e6c81ca673077fe79fdd5f8540f67acc",
-    "mappedOn": null,
-    "summary": "Verifies vendor bank accounts via SurePay to prevent fraud",
+    "sourceHash": "sha256:bb58fca8b290c26d13080e6ce1587dd8c75a02fd1f3f9752be10bca254c797fb",
+    "mappedOn": "2026-10-30",
+    "summary": "Checks vendor bank account, name and registration details against SurePay before paying.",
     "shape": "connector",
     "primary": [
       {
-        "need": "ng-supplier-onboarding",
+        "need": "ng-ap-payments",
         "confidence": "high"
       },
       {
-        "need": "ng-ap-payments",
-        "confidence": "high"
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-conn-company-data"
     ],
     "claims": [
-      "Verifies IBAN belongs to the vendor or customer via SurePay",
-      "Verifies VAT number (NL only), registration number and company ID",
-      "Verification status shown on vendor card",
-      "Handles typos, trade names and legal variations",
-      "Covers PSD2/PSD3 and the EU Instant Payments Regulation (VOP)"
+      "Verifies that a vendor or customer IBAN belongs to the right company or person via SurePay",
+      "Shows the verification result on the vendor card",
+      "VAT number check currently only for the Netherlands",
+      "Tolerates typos, trade names and legal name variants to cut false rejections",
+      "Supports Verification of Payee under the EU Instant Payments Regulation and PSD2/PSD3",
+      "Included in idyn's Direct Banking Plus module with CheckIT 365 and the Tally agent",
+      "Supports Essentials and Premium editions",
+      "Available in all BC countries"
     ],
     "countries": [],
     "languages": [
@@ -52,7 +57,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

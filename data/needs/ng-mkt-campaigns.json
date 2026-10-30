@@ -114,9 +114,9 @@
         }
       ],
       "coverage": {
-        "Email campaigns or newsletters": 0.5,
-        "Events, courses or conferences": 0.25,
-        "Loyalty programs and coupons in store": 0.17
+        "Email campaigns or newsletters": 0.55,
+        "Events, courses or conferences": 0.27,
+        "Loyalty programs and coupons in store": 0.09
       }
     },
     {
@@ -158,10 +158,10 @@
         }
       ],
       "coverage": {
-        "Mailchimp": 0.17,
-        "Klaviyo, Yotpo or Salesforce Marketing": 0.25,
-        "Voyado or Diller (with LS Central)": 0.17,
-        "None yet, we want to send from the app": 0.17
+        "Mailchimp": 0.18,
+        "Klaviyo, Yotpo or Salesforce Marketing": 0.27,
+        "Voyado or Diller (with LS Central)": 0.09,
+        "None yet, we want to send from the app": 0.18
       }
     },
     {
@@ -191,9 +191,32 @@
         }
       ],
       "coverage": {
-        "Sign-up forms or subscription lists": 0.33,
-        "Online payment or tickets": 0.17
+        "Sign-up forms or subscription lists": 0.36,
+        "Online payment or tickets": 0.18
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "publisher's managed-service delivery model and trial wording",
+      "terms": [
+        "assist",
+        "befor",
+        "codeunit",
+        "flow",
+        "fully",
+        "functional",
+        "manag",
+        "monitor"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "pricing plans",
+      "terms": [
+        "monthly"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

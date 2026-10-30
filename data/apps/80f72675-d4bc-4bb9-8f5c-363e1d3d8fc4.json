@@ -8,49 +8,46 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2joor%7CPAPPID.80f72675-d4bc-4bb9-8f5c-363e1d3d8fc4",
-    "lastModified": "2025-06-12T08:47:22.9494386+00:00",
+    "lastModified": "2026-10-19T10:37:23.3520154+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:527068fbe7055e4371c7c9d66aa2df16e332ed26899ba70a14a7ce9d8c2bedbb",
+    "sourceHash": "sha256:53acc634c671b393b425d92a428a5e1789c5ec5fbdd15e764f46311fbbe0498e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:527068fbe7055e4371c7c9d66aa2df16e332ed26899ba70a14a7ce9d8c2bedbb",
-    "mappedOn": null,
-    "summary": "Integrates Joor fashion wholesale platform",
+    "sourceHash": "sha256:53acc634c671b393b425d92a428a5e1789c5ec5fbdd15e764f46311fbbe0498e",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and the Joor fashion wholesale platform.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-sales-channels",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-vert-fashion"
     ],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Requires Joor Fashion Wholesale Management Platform",
-      "Built on Codeunit OmniConnect integration platform"
+      "Connects Joor fashion wholesale management to BC",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [
-      "Fashion",
-      "Wholesale"
-    ],
+    "industries": [],
     "connectsTo": [
       "Joor"
     ],
-    "requires": [
-      "Joor"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

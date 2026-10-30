@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_transport%7CPAPPID.05856508-2817-4f53-ac8e-a00ba578eb9b",
-    "lastModified": "2026-09-29T10:18:32.7145224+00:00",
-    "appVersion": "2603.2.346075.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:50.7581337+00:00",
+    "appVersion": "2604.0.351177.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/TRA/",
-    "sourceHash": "sha256:150ac29ec9243c3bbe9a74d1341c67269ad83cecc7782b9595158453805b4710",
+    "sourceHash": "sha256:e7f1d3807fe7961e4eec92ae338f304f68e1698acde8bf057f72c00e0182ad6a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:150ac29ec9243c3bbe9a74d1341c67269ad83cecc7782b9595158453805b4710",
-    "mappedOn": null,
-    "summary": "Overview of transport requests and floor space needs",
-    "shape": "vertical",
+    "sourceHash": "sha256:e7f1d3807fe7961e4eec92ae338f304f68e1698acde8bf057f72c00e0182ad6a",
+    "mappedOn": "2026-10-30",
+    "summary": "Transport planning with floor space calculation and checking of carrier invoices.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-transport-planning",
@@ -28,18 +30,24 @@
       },
       {
         "need": "ng-freight-cost-audit",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-admin-change-log",
       "ng-vert-food-beverage"
     ],
     "claims": [
-      "Transport planning screen for purchase, sales and transfer orders",
-      "Log entries show who changed what",
-      "Floor space per item and vendor/customer to combine orders into one truck",
-      "Receipt auto-posted to match against incoming invoice",
-      "Expected costs on transport order to check shipping agent invoices"
+      "Overview of transport requests and their status",
+      "Covers transport for purchase, sales and transfer orders",
+      "Log entries show who changed transport details and when",
+      "Floor space configured per item and per customer or vendor",
+      "Helps combine orders into one truck or transport order",
+      "Receipt posted automatically to match against the carrier invoice",
+      "Expected transport costs recorded on the transport order",
+      "Transport planning screen",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -74,15 +82,12 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

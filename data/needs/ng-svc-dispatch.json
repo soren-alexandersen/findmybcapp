@@ -52,7 +52,9 @@
     "Want to see technicians on a map next to today's jobs",
     "Need proof the technician was actually at the customer site",
     "Which technician is closest to this emergency call?",
-    "Live location of field staff on a map"
+    "Live location of field staff on a map",
+    "Our technicians still fill in paper checklists and service reports",
+    "We need the service history for each machine we maintain"
   ],
   "questions": [
     {
@@ -87,8 +89,8 @@
         }
       ],
       "coverage": {
-        "Dispatcher drags jobs on a planning board": 0.47,
-        "Automatically, by skill, distance or availability": 0.32
+        "Dispatcher drags jobs on a planning board": 0.45,
+        "Automatically, by skill, distance or availability": 0.3
       }
     },
     {
@@ -114,7 +116,7 @@
         }
       ],
       "coverage": {
-        "Yes, a mobile app for technicians": 0.58
+        "Yes, a mobile app for technicians": 0.55
       }
     },
     {
@@ -139,7 +141,7 @@
         }
       ],
       "coverage": {
-        "Yes, maps, routes or live location": 0.42
+        "Yes, maps, routes or live location": 0.4
       }
     },
     {
@@ -165,7 +167,7 @@
         }
       ],
       "coverage": {
-        "Yes, portal, online booking or arrival notices": 0.32
+        "Yes, portal, online booking or arrival notices": 0.3
       }
     },
     {
@@ -185,7 +187,7 @@
         }
       ],
       "coverage": {
-        "Yes, the app must work offline": 0.21
+        "Yes, the app must work offline": 0.2
       }
     },
     {
@@ -208,14 +210,115 @@
           ]
         },
         {
+          "label": "Dynamics 365 Field Service, synced to BC",
+          "patterns": [
+            "dynamics 365 field service",
+            "with field service"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "BC service orders (Service Management)": 0.26,
-        "Sales orders or projects": 0.26
+        "BC service orders (Service Management)": 0.3,
+        "Sales orders or projects": 0.25,
+        "Dynamics 365 Field Service, synced to BC": 0.05
       }
+    },
+    {
+      "id": "what-must-technicians-record-o",
+      "text": "What must technicians record on site?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Checklists and custom forms",
+          "patterns": [
+            "checklist",
+            "custom(izable)? forms",
+            "forms with",
+            "record forms",
+            "troubleshooting guide"
+          ]
+        },
+        {
+          "label": "Service report with photos and customer signature",
+          "patterns": [
+            "service reports?",
+            "signature",
+            "photos"
+          ]
+        },
+        {
+          "label": "Parts and materials used",
+          "patterns": [
+            "spare parts",
+            "material (use|consumption)",
+            "parts usage",
+            "\\bparts\\b",
+            "mobile stock",
+            "used items"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Checklists and custom forms": 0.35,
+        "Service report with photos and customer signature": 0.35,
+        "Parts and materials used": 0.4
+      }
+    },
+    {
+      "id": "do-you-service-your-customers-",
+      "text": "Do you service your customers' equipment over its lifetime?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Keep service history per machine or asset",
+          "patterns": [
+            "\\basset",
+            "service items?",
+            "service history",
+            "vessel equipment"
+          ]
+        },
+        {
+          "label": "Plan recurring preventive maintenance",
+          "patterns": [
+            "preventive",
+            "maintenance plans?",
+            "planned maintenance"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Keep service history per machine or asset": 0.45,
+        "Plan recurring preventive maintenance": 0.15
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'resources' wording; every dispatch app plans resources",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'task' wording",
+      "terms": [
+        "task"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

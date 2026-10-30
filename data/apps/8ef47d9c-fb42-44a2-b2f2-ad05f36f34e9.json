@@ -8,18 +8,20 @@
     "publisher": "RUX Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.com%7CPAPPID.8ef47d9c-fb42-44a2-b2f2-ad05f36f34e9",
-    "lastModified": "2026-10-02T13:54:31.7854548+00:00",
-    "appVersion": "27.0.1.55",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T17:24:31.8339297+00:00",
+    "appVersion": "27.0.1.56",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ruxsoftware.com/application/commissions-management",
-    "sourceHash": "sha256:f5b72a52bffc44c61fb73e8f427f16d73d28f8147949f3cd49ef338694f9382e",
+    "sourceHash": "sha256:ed9475458b93f80c48575fb635d30527344783cbfbe6eba978b348b39fdcad8e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f5b72a52bffc44c61fb73e8f427f16d73d28f8147949f3cd49ef338694f9382e",
-    "mappedOn": null,
-    "summary": "Calculates and pays sales commissions",
+    "sourceHash": "sha256:ed9475458b93f80c48575fb635d30527344783cbfbe6eba978b348b39fdcad8e",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based sales commission calculation, ledgers and payment to employees or vendors.",
     "shape": "process",
     "primary": [
       {
@@ -29,18 +31,19 @@
     ],
     "secondary": [],
     "claims": [
-      "Commission matrix rules by salesperson, customer group, state/country, dimensions, item category",
-      "Unlimited rules per sales document line",
-      "Rule date ranges and min/max tiers",
-      "Commission basis on revenue or adjusted revenue",
-      "Commission basis on profit, adjusted profit, cost-plus or actual cost",
-      "Custom commission formulas e.g. by quantity",
-      "Pay to employee or vendor, on invoicing or payment receipt",
-      "Split commissions across sales team members by percentage",
-      "Sales groups for tiers",
+      "Commission matrix rules by salesperson, customer group, state/country, dimensions, item category and posting groups",
+      "Unlimited rules can apply to each sales line",
+      "Rules have date ranges and min/max amounts for tiered commissions",
+      "Basis can be revenue, adjusted revenue, profit, cost-plus, actual cost or a custom formula",
+      "Pays commission to an employee or vendor, on invoicing or on customer payment",
+      "Splits commission across a sales team by percentage",
+      "Sales groups simplify tiers across salespeople",
       "Manual one-off commission entries",
-      "Commission journals auto-updated as documents change, posted to ledgers",
-      "Pending commission reports"
+      "Pending commission recalculates as the open sales document changes",
+      "Commission journals become ledgers on posting, paid via a payment journal",
+      "Salesperson code editable per line",
+      "Adds territory code to customers and sales documents for rules",
+      "30-day free trial"
     ],
     "countries": [],
     "languages": [],

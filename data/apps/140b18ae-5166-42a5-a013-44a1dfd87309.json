@@ -8,32 +8,37 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365invsum%7CPAPPID.140b18ae-5166-42a5-a013-44a1dfd87309",
-    "lastModified": "2026-09-24T04:51:02.4768128+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:46:12.2883471+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/procbase/inventory-summary.html",
-    "sourceHash": "sha256:1dc0e83bd72101abf61809b2a61dd384e65762a2260893fb997d42743d0b680e",
+    "sourceHash": "sha256:2bf530549e46d413cbc208f2107c1ab6cab916c89ef4711c73aa47d81a687dfb",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1dc0e83bd72101abf61809b2a61dd384e65762a2260893fb997d42743d0b680e",
-    "mappedOn": null,
-    "summary": "Clear inventory summary for items",
-    "shape": "usability",
+    "sourceHash": "sha256:2bf530549e46d413cbc208f2107c1ab6cab916c89ef4711c73aa47d81a687dfb",
+    "mappedOn": "2026-10-30",
+    "summary": "Free inventory overview by item, batch, location and bin.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-inventory-analysis",
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
     "claims": [
-      "Inventory overview by item, batch, location and bin",
-      "Updated automatically with every transaction",
-      "Free of charge",
-      "With Lot Management shows expiration date, external batch number, batch status",
-      "With Warehouse Management shows load carriers and storage units, allows transfers and corrections"
+      "Stock shown by item, batch, location and bin",
+      "Updates with every transaction",
+      "With Lot Management adds expiry date, external batch number and batch status",
+      "With Quality Assurance, stock checks can start from the list",
+      "With Warehouse Management, transfers and stock corrections run from the list",
+      "Free of charge"
     ],
     "countries": [
       "AD",

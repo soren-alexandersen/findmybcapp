@@ -8,18 +8,20 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-forms-bc%7CPAPPID.cef77632-1cdd-48e1-9ff3-52ecc08ef1d9",
-    "lastModified": "2026-08-28T09:46:28.8000436+00:00",
-    "appVersion": "2607.0.1508.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T08:16:50.5549308+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/work-order-checklist/manage/",
-    "sourceHash": "sha256:5cfae46a36b8f9056a9b42b2e7387c05c2c9d842ee1f3e8093bda9fc3bfc7b7f",
+    "sourceHash": "sha256:b3f5870001961be5c679d303d0155bc4f2fd79d21c26922fd688868cc0a76b7c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5cfae46a36b8f9056a9b42b2e7387c05c2c9d842ee1f3e8093bda9fc3bfc7b7f",
-    "mappedOn": null,
-    "summary": "Forms base module for Dynaway Safe Work and EAM",
+    "sourceHash": "sha256:b3f5870001961be5c679d303d0155bc4f2fd79d21c26922fd688868cc0a76b7c",
+    "mappedOn": "2026-10-30",
+    "summary": "Form-building base module required by Dynaway Safe Work and Dynaway EAM.",
     "shape": "addon",
     "primary": [
       {
@@ -29,8 +31,7 @@
     ],
     "secondary": [],
     "claims": [
-      "Cannot be used stand-alone; requires Dynaway Safe Work or EAM",
-      "Form designer/builder"
+      "Cannot be used on its own; needs Dynaway Safe Work or EAM"
     ],
     "countries": [],
     "languages": [
@@ -45,13 +46,12 @@
     "industries": [],
     "connectsTo": [],
     "requires": [
-      "Dynaway EAM",
-      "Dynaway Safe Work"
+      "Dynaway Safe Work or Dynaway EAM"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": true,
-    "hideReason": "Base module dependency for Dynaway Safe Work / EAM; not usable stand-alone",
+    "hideReason": "Dependency/base module; cannot be used stand-alone.",
     "noFit": ""
   },
   "curated": {

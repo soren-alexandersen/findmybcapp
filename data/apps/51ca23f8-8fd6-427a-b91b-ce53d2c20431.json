@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2priceindx%7CPAPPID.51ca23f8-8fd6-427a-b91b-ce53d2c20431",
-    "lastModified": "2025-06-12T08:31:53.0637211+00:00",
+    "lastModified": "2026-10-19T10:36:59.0508805+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:a4cba0a9835593e5e751cc23b27eb7bc21f8cabba5556b9f190926b81d070914",
+    "sourceHash": "sha256:5ff2b832f9bc75f6ecc20e14e19c4c84b201844b554a584c2fbc516a241729d0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a4cba0a9835593e5e751cc23b27eb7bc21f8cabba5556b9f190926b81d070914",
-    "mappedOn": null,
-    "summary": "Integrates BC with Priceindx pricing system",
+    "sourceHash": "sha256:5ff2b832f9bc75f6ecc20e14e19c4c84b201844b554a584c2fbc516a241729d0",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the priceindx pricing intelligence system.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires priceindx",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing priceindx account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
-      "Priceindx"
+      "priceindx"
     ],
-    "requires": [
-      "Priceindx"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

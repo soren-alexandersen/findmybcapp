@@ -91,14 +91,22 @@
           ]
         },
         {
+          "label": "In Microsoft Teams or as notifications",
+          "patterns": [
+            "\\bteams\\b",
+            "notifications? to"
+          ]
+        },
+        {
           "label": "No / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Dashboard or cockpit in Business Central": 0.48,
-        "Power BI reports": 0.14,
-        "Ask questions in plain language (AI agent)": 0.1
+        "Dashboard or cockpit in Business Central": 0.46,
+        "Power BI reports": 0.12,
+        "Ask questions in plain language (AI agent)": 0.12,
+        "In Microsoft Teams or as notifications": 0.08
       }
     },
     {
@@ -115,7 +123,10 @@
             "compar\\w* (status )?to budget",
             "budgeted vs actual",
             "budget, committed and actual",
-            "variance"
+            "variance",
+            "forecast",
+            "budget versions",
+            "baselines?"
           ]
         },
         {
@@ -143,15 +154,36 @@
           ]
         },
         {
+          "label": "Resource load and utilisation",
+          "patterns": [
+            "resource (type|and activity|planning|utili[sz]ation)",
+            "books resources",
+            "productivity indicators",
+            "plans resources"
+          ]
+        },
+        {
+          "label": "Cost broken down by WBS or cost code",
+          "patterns": [
+            "work breakdown",
+            "breakdown structure",
+            "\\bwbs\\b",
+            "cost breakdown",
+            "cost/revenue breakdown"
+          ]
+        },
+        {
           "label": "No / not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Budget vs actual cost": 0.52,
-        "Margin and profitability": 0.43,
-        "Percent complete / WIP": 0.43,
-        "Earned value (EVM)": 0.14
+        "Budget vs actual cost": 0.46,
+        "Margin and profitability": 0.38,
+        "Percent complete / WIP": 0.46,
+        "Earned value (EVM)": 0.12,
+        "Resource load and utilisation": 0.38,
+        "Cost broken down by WBS or cost code": 0.12
       }
     },
     {
@@ -187,8 +219,8 @@
         }
       ],
       "coverage": {
-        "Fixed price, milestones or instalments": 0.24,
-        "Time and materials": 0.43
+        "Fixed price, milestones or instalments": 0.25,
+        "Time and materials": 0.38
       }
     },
     {
@@ -212,7 +244,7 @@
         }
       ],
       "coverage": {
-        "Yes, track change orders": 0.24
+        "Yes, track change orders": 0.21
       }
     },
     {
@@ -240,7 +272,7 @@
         }
       ],
       "coverage": {
-        "Yes, group projects or companies": 0.43
+        "Yes, group projects or companies": 0.38
       }
     },
     {
@@ -265,8 +297,24 @@
         }
       ],
       "coverage": {
-        "Yes": 0.38
+        "Yes": 0.33
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "approval workflow detail, not a status choice",
+      "terms": [
+        "approval"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'through' wording",
+      "terms": [
+        "through"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

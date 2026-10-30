@@ -102,7 +102,11 @@
             "bank-supported formats",
             "export\\w* [^.]*(bpay|eft|payment proposals|payment batches|payment information)",
             "import/export bank files",
-            "sepa (ct )?export"
+            "sepa (ct )?export",
+            "file formats?",
+            "format mapping",
+            "per-bank file format",
+            "bank file"
           ]
         },
         {
@@ -123,8 +127,8 @@
         }
       ],
       "coverage": {
-        "Sent directly from BC to the bank": 0.28,
-        "Export a payment file and upload it in the web bank": 0.24,
+        "Sent directly from BC to the bank": 0.29,
+        "Export a payment file and upload it in the web bank": 0.27,
         "Cheques (incl. post-dated)": 0.17
       }
     },
@@ -156,7 +160,9 @@
             "international payments",
             "multi-?currency|multiple currencies|all currencies|regardless of currency|\\d+\\+? currencies",
             "\\(iban/swift\\)|\\(swift/iban\\)",
-            "\\bwires\\b"
+            "\\bwires\\b",
+            "payment rules for (almost )?\\d+ countries",
+            "fees per country"
           ]
         },
         {
@@ -181,10 +187,10 @@
         }
       ],
       "coverage": {
-        "Domestic bank transfers (SEPA or local formats)": 0.36,
-        "Foreign and multi-currency payments": 0.09,
+        "Domestic bank transfers (SEPA or local formats)": 0.38,
+        "Foreign and multi-currency payments": 0.1,
         "Post-dated cheques or promissory notes": 0.12,
-        "Direct debit or collections": 0.11
+        "Direct debit or collections": 0.1
       }
     },
     {
@@ -236,8 +242,8 @@
         }
       ],
       "coverage": {
-        "Someone approves payments first": 0.25,
-        "Changes to vendor bank details need approval": 0.1,
+        "Someone approves payments first": 0.27,
+        "Changes to vendor bank details need approval": 0.11,
         "Check that the bank account really belongs to the vendor": 0.12
       }
     },
@@ -301,6 +307,15 @@
       "coverage": {
         "Yes, several banks, maybe in several countries": 0.12
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "bank detail checks already covered by the controls options",
+      "terms": [
+        "detail"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

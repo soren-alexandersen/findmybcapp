@@ -8,18 +8,20 @@
     "publisher": "Valkonix B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.valkonixbv1759255272326%7CAID.valkonix_projects%7CPAPPID.abcd52c6-7ded-47c2-8f00-415c1b31397b",
-    "lastModified": "2026-10-01T14:42:10.5621724+00:00",
-    "appVersion": "27.1.832.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T10:11:49.7768503+00:00",
+    "appVersion": "27.1.941.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.valkonix.com/manuals/valkonix-projects-manual/",
-    "sourceHash": "sha256:8c3639b51325d345b5bddd6ae2ba2c7ad310f7bbd0d57de3b73526854a9b7002",
+    "sourceHash": "sha256:c10078020e25ee5eafa5e6c42d4fe5226a9949a3dc5871a812a4715ff3f3d17a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8c3639b51325d345b5bddd6ae2ba2c7ad310f7bbd0d57de3b73526854a9b7002",
-    "mappedOn": null,
-    "summary": "Projects, resources, time registration and billing",
+    "sourceHash": "sha256:c10078020e25ee5eafa5e6c42d4fe5226a9949a3dc5871a812a4715ff3f3d17a",
+    "mappedOn": "2026-10-30",
+    "summary": "Project resource planning, daily time entry, time approval and project invoicing for service firms.",
     "shape": "process",
     "primary": [
       {
@@ -36,21 +38,23 @@
       }
     ],
     "secondary": [
-      "ng-vert-professional-services",
       "ng-proj-budget",
-      "ng-admin-office-teams"
+      "ng-admin-office-teams",
+      "ng-vert-professional-services"
     ],
     "claims": [
-      "Week-by-day visual capacity view across all resources",
-      "Creates calendar events and meeting invitations in Outlook and Teams from BC",
-      "Planning changes sync automatically to Outlook",
-      "Each project task gets an invoice type: Time & Materials, Fixed Fee or Fixed Prepaid",
-      "Mix billing models within one project",
-      "Daily time entry with start and end times",
-      "Auto-populates time entries from planning lines or calendar events",
-      "Alerts when time entries exceed fixed budgets",
-      "Central time approval where managers review, correct or reject entries",
-      "Supports Essentials and Premium"
+      "Visual week-by-day capacity view showing available and overloaded resources",
+      "Calendar events and meeting invites are created in Outlook and Teams from BC",
+      "Planning changes sync to the calendar automatically",
+      "Billing type per task: time and materials, fixed fee or fixed prepaid",
+      "Billing models can be mixed within one project",
+      "Daily time entry with start and end times instead of weekly timesheets",
+      "Time entries can be prefilled from planning lines or calendar events",
+      "Alerts when hours exceed a fixed budget",
+      "Managers review, correct or reject time in one screen with budget visibility",
+      "Time can only be registered on open projects",
+      "Fixed-price tasks are invoiced only once the task or project is closed",
+      "Translated into 16 languages; Estonian and Albanian need a partner language app"
     ],
     "countries": [],
     "languages": [
@@ -59,6 +63,7 @@
       "de",
       "en",
       "es",
+      "et",
       "fi",
       "fr",
       "is",
@@ -67,15 +72,23 @@
       "nl",
       "ro",
       "ru",
+      "sq",
       "sv"
     ],
     "industries": [
+      "Consulting",
+      "Engineering",
+      "IT services",
+      "Marketing agencies",
       "Professional services"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Outlook",
+      "Microsoft Teams"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

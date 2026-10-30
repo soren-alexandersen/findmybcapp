@@ -8,19 +8,21 @@
     "publisher": "SystemConnect",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.paymentconnect%7CPAPPID.e96e4b69-e358-42c1-b6ac-bca78c0a7741",
-    "lastModified": "2026-10-04T09:17:13.8144527+00:00",
-    "appVersion": "28.0.0.19",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T07:11:18.1017271+00:00",
+    "appVersion": "28.0.0.24",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/paymentconnecthelp/",
-    "sourceHash": "sha256:58f704c359d50a6d5beb7e8aa51246e357b9a640658588edd52aff9b95711f3f",
+    "sourceHash": "sha256:bda41a55110dc5fc620a6328a0cdb228d5b55727d3a03aa19e0bbf4d80b79680",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:58f704c359d50a6d5beb7e8aa51246e357b9a640658588edd52aff9b95711f3f",
-    "mappedOn": null,
-    "summary": "Bank payments in ISO 20022 format",
-    "shape": "connector",
+    "sourceHash": "sha256:bda41a55110dc5fc620a6328a0cdb228d5b55727d3a03aa19e0bbf4d80b79680",
+    "mappedOn": "2026-10-30",
+    "summary": "Creates ISO 20022 payment files for Danish banks from the payment journal.",
+    "shape": "localization",
     "primary": [
       {
         "need": "ng-ap-payments",
@@ -28,18 +30,18 @@
       }
     ],
     "secondary": [
-      "ng-customer-payments",
-      "ng-loc-country-pack"
+      "ng-customer-payments"
     ],
     "claims": [
-      "Creates ISO 20022 pain.001 payment files from vendor payment journal",
-      "Supports Nordea, Bankdata, Danske Bank, SDC and BEC",
-      "Danish FIK71/73/75 payments",
-      "Imports and posts incoming FIK files",
-      "Combines multiple invoices into one payment per vendor and emails Excel specification",
-      "Optional on-screen confirmation before export",
-      "Bank-specific parameters set up without code",
-      "Works with BC built-in vendor payment module"
+      "Generates ISO 20022 pain.001 payment files from the payment journal",
+      "Payment files are uploaded manually to online banking",
+      "Supports Bankdata, BEC, Danske Bank, Nordea and SDC with bank-specific adjustments",
+      "Handles Danish FIK 71/73/75 payments",
+      "Imports and posts incoming FIK files automatically",
+      "Combines several open invoices into one payment per vendor and emails an Excel remittance",
+      "Optional on-screen confirmation before exporting the payment file",
+      "Bank parameters like agreement number and fee handling are set up without code",
+      "Works with the standard BC vendor payment features"
     ],
     "countries": [
       "DK"
@@ -47,17 +49,19 @@
     "languages": [
       "da"
     ],
-    "industries": [],
+    "industries": [
+      "Financial Services"
+    ],
     "connectsTo": [
-      "Nordea",
       "Bankdata",
+      "BEC",
       "Danske Bank",
-      "SDC",
-      "BEC"
+      "Nordea",
+      "SDC"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

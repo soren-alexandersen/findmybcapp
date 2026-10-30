@@ -8,19 +8,21 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.dynamics-365-itemattributes-websan-001%7CPAPPID.af5284e9-299f-4bf6-9308-2c2d13a9b6b8",
-    "lastModified": "2026-09-08T23:55:39.6795449+00:00",
-    "appVersion": "26.7.95.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:38:29.2794071+00:00",
+    "appVersion": "26.10.101.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/item-attributes/",
-    "sourceHash": "sha256:9c8f42810c0246593cffc6c463acf55924b91e55a45db41471edd368d88a1f81",
+    "sourceHash": "sha256:606c9635a8141a98e932fb0dfa8a0d2c0528752a0596750752f62c36f2264447",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9c8f42810c0246593cffc6c463acf55924b91e55a45db41471edd368d88a1f81",
-    "mappedOn": null,
-    "summary": "Assigns multiple attributes to inventory items",
-    "shape": "process",
+    "sourceHash": "sha256:606c9635a8141a98e932fb0dfa8a0d2c0528752a0596750752f62c36f2264447",
+    "mappedOn": "2026-10-30",
+    "summary": "Up to 200 item attributes per item with Excel export and import for bulk updates.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-item-master-data",
@@ -31,14 +33,12 @@
       "ng-ux-import-excel"
     ],
     "claims": [
-      "Up to 200 attributes per inventory item",
-      "Assign a code or name per attribute for the item",
-      "Export and import item attributes via Excel",
-      "See all attributes in tabular format",
-      "Support for Copilot",
-      "Available globally except Czechia",
-      "Free unlimited use in sandbox environments",
-      "Assisted Setup wizard"
+      "Supports up to 200 attributes per inventory item",
+      "Assigns a code or name to each attribute per item",
+      "Exports attributes to Excel and updates them through Excel import",
+      "Shows all attributes in a table to spot missing values",
+      "Supports Copilot",
+      "Priced at USD 250 per tenant per year"
     ],
     "countries": [],
     "languages": [
@@ -57,7 +57,10 @@
       "vi",
       "zh"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

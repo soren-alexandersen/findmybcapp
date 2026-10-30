@@ -84,10 +84,10 @@
         }
       ],
       "coverage": {
-        "Type long comments without line limits": 0.19,
-        "Pop-up warnings when a customer or item is used": 0.34,
-        "Message or tag colleagues": 0.28,
-        "Formatted or standard texts on documents": 0.34
+        "Type long comments without line limits": 0.18,
+        "Pop-up warnings when a customer or item is used": 0.32,
+        "Message or tag colleagues": 0.29,
+        "Formatted or standard texts on documents": 0.32
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Yes, print on documents": 0.41,
-        "No, internal only": 0.41
+        "Yes, print on documents": 0.38,
+        "No, internal only": 0.38
       }
     },
     {
@@ -147,7 +147,7 @@
         }
       ],
       "coverage": {
-        "Yes, carry them along": 0.28
+        "Yes, carry them along": 0.26
       }
     },
     {

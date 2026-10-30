@@ -1,0 +1,62 @@
+{
+  "appId": "1611059407663.sol-52829-inw",
+  "guid": null,
+  "publisherId": "1611059407663",
+  "offerId": "sol-52829-inw",
+  "source": {
+    "name": "組織カレンダー for Microsoft 365",
+    "publisher": "株式会社ネクストセット",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/1611059407663.sol-52829-inw",
+    "lastModified": "2025-12-16T06:47:31.4972525+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fa283ebca6f108eec8fd5c545e938fc932a6000c497a7cda408e4c48e3b6d85a",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:fa283ebca6f108eec8fd5c545e938fc932a6000c497a7cda408e4c48e3b6d85a",
+    "mappedOn": "2026-10-30",
+    "summary": "Hierarchical organisation calendar for Microsoft 365, viewed in Teams and SharePoint.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-office-teams",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shows organisations and groups as a tree hierarchy",
+      "Books several members and a meeting room in one step, including recurring schedules",
+      "Blocks double booking of meeting rooms",
+      "Searches for free time slots",
+      "Exports displayed calendar data to CSV",
+      "Can be placed as an app part on a SharePoint site"
+    ],
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365",
+      "Microsoft Teams",
+      "SharePoint",
+      "Exchange Online"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "No sign of Business Central in the listing; a generic Microsoft 365 calendar tool with no business process.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

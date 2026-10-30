@@ -8,41 +8,45 @@
     "publisher": "Simova GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.di_by_simova%7CPAPPID.0b68bab2-c490-4dad-a158-1d932417be19",
-    "lastModified": "2026-09-04T09:16:23.6160896+00:00",
-    "appVersion": "28.1.6.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T08:02:36.0161255+00:00",
+    "appVersion": "28.1.8.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.simova.de/en/",
-    "sourceHash": "sha256:16ec1fe1717b22a89a7b20451f9d6fbdbe4114d87c38fccdda4c81683a029427",
+    "sourceHash": "sha256:0d873823268f2d4bbacd7ade11a4ca3c937189b732af5e42ca963570fc5fc1ba",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:16ec1fe1717b22a89a7b20451f9d6fbdbe4114d87c38fccdda4c81683a029427",
-    "mappedOn": null,
-    "summary": "Processes incoming documents and stores them in Document Central",
+    "sourceHash": "sha256:0d873823268f2d4bbacd7ade11a4ca3c937189b732af5e42ca963570fc5fc1ba",
+    "mappedOn": "2026-10-30",
+    "summary": "Captures incoming documents by email, barcode or AI and files them in Document Central.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-admin-document-storage",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-ap-invoice-capture",
+        "need": "ng-ux-attachments",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-ap-invoice-capture",
       "ng-sales-order-entry"
     ],
     "claims": [
-      "AI extraction using Microsoft Document Intelligence and Content Understanding",
-      "Extracts information from PDF, XML or emails",
-      "Automatically creates sales orders or purchase invoices from documents",
-      "Writes extracted data back to existing BC records",
-      "QR and barcode return to link external documents back to BC",
-      "Monitors email inboxes and processes attachments",
-      "Archives documents to the matching BC record",
-      "Filename and sender recognition for returning documents"
+      "Uses Microsoft Document Intelligence and Content Understanding to extract data",
+      "Extracts information from PDF, XML and email documents",
+      "Creates sales orders or purchase invoices from extracted data",
+      "Writes extracted values back to existing BC records",
+      "Assigns documents to records automatically on retrieval",
+      "QR code and barcode return links external documents back to BC",
+      "Monitors email inboxes and processes attached files",
+      "Archives documents against the matching BC record",
+      "Recognises returned documents by filename and sender"
     ],
     "countries": [],
     "languages": [
@@ -56,8 +60,8 @@
     "requires": [
       "Document Central"
     ],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,36 +8,38 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_route_optimiser_st_connector%7CPAPPID.c770ac77-866a-4b79-b44a-8efb2fd9f8a6",
-    "lastModified": "2026-09-30T20:03:35.2670705+00:00",
-    "appVersion": "28.5.0.80068",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:18:39.7116262+00:00",
+    "appVersion": "29.0.0.80821",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:6b952e278d00c555f05608c544477a502d785795dba3d652d0b040de20f596fe",
+    "sourceHash": "sha256:d66e7ffbb25c14a1d53cbf9665f03cbb9486187e4fd949a19f047bcda6fa9ed5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6b952e278d00c555f05608c544477a502d785795dba3d652d0b040de20f596fe",
-    "mappedOn": null,
-    "summary": "Route optimisation connector for Navitrans 365",
+    "sourceHash": "sha256:d66e7ffbb25c14a1d53cbf9665f03cbb9486187e4fd949a19f047bcda6fa9ed5",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Navitrans 365 with the Route Optimiser ST routing tool.",
     "shape": "addon",
     "primary": [
       {
-        "need": "ng-vert-transport-logistics",
+        "need": "ng-transport-planning",
         "confidence": "medium"
       },
       {
-        "need": "ng-transport-planning",
-        "confidence": "low"
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS, WMS and forwarding suite for logistic service providers",
-      "e-Navitrans connector imports transport files and inbound/outbound orders from a web portal",
-      "Exports track & trace info and stock insight for customers",
-      "Supports Essential and Premium"
+      "Links Navitrans 365 with Route Optimiser ST",
+      "Part of the Navitrans 365 suite covering TMS, WMS and forwarding",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "BE",
@@ -61,7 +63,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

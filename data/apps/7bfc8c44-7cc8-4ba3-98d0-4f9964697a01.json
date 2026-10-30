@@ -8,13 +8,13 @@
     "publisher": "Extensions Lab",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms%7CPAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01",
-    "lastModified": "2026-10-06T15:00:12.9264545+00:00",
-    "appVersion": "28.6.3.0",
+    "lastModified": "2026-10-30T13:59:42.8614989+00:00",
+    "appVersion": "28.6.15.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
-    "freeTrial": "1 Month",
+    "freeTrial": null,
     "helpLink": "https://tms.extensions-lab.com/",
     "sourceHash": "sha256:911b2c8e4c16c0edc3391d267c3bffb7434d04f969bb1d6a95ccb828c53fc0ba",
     "mentionsBC": true

@@ -8,18 +8,20 @@
     "publisher": "Markmann + Müller Datensysteme GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_paymodule%7CPAPPID.4b0312c9-3717-4bdc-8ff3-d27af3f40308",
-    "lastModified": "2026-06-05T17:48:13.2908984+00:00",
-    "appVersion": "28.0.370716.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T17:06:38.7633981+00:00",
+    "appVersion": "28.0.376099.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:2b3d0b07696f28a93ded2eeb6eaaebe21934964dc80eb059a42b4014d7c0feb0",
+    "sourceHash": "sha256:e1a7359df486b1cf61b15340205dcd39bc5176cdb2f9bc2bd32a6d2a1d07e763",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2b3d0b07696f28a93ded2eeb6eaaebe21934964dc80eb059a42b4014d7c0feb0",
-    "mappedOn": null,
-    "summary": "Lists licensed m+m modules and license setup",
+    "sourceHash": "sha256:e1a7359df486b1cf61b15340205dcd39bc5176cdb2f9bc2bd32a6d2a1d07e763",
+    "mappedOn": "2026-10-30",
+    "summary": "Base app listing licensed markmann + müller modules and their license setup.",
     "shape": "other",
     "primary": [
       {
@@ -29,9 +31,9 @@
     ],
     "secondary": [],
     "claims": [
-      "Lists all purchased m+m modules",
+      "Shows all purchased m+m modules in one table",
       "License configuration per module when not flat-rate",
-      "Works on Essentials and Premium editions"
+      "Works with Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -56,9 +58,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": true,
-    "hideReason": "Base/licensing app for other m+m modules",
+    "hideReason": "Dependency/licensing base app for other markmann + müller modules.",
     "noFit": ""
   },
   "curated": {

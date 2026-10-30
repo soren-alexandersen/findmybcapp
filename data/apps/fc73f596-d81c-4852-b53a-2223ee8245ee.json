@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2imigo%7CPAPPID.fc73f596-d81c-4852-b53a-2223ee8245ee",
-    "lastModified": "2025-06-12T09:11:01.5782491+00:00",
+    "lastModified": "2026-10-19T10:47:55.7321981+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:0e2c9c531cd3e08c8e1366bf77795f32d44f4bc002c6814527ecb68aacfce24b",
+    "sourceHash": "sha256:4b145a496af2f5e41f44430a66ba1e555b37c1648e25e3bdb6bfea295a7e8ce6",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0e2c9c531cd3e08c8e1366bf77795f32d44f4bc002c6814527ecb68aacfce24b",
-    "mappedOn": null,
-    "summary": "Integrates IMIGO! WMS with BC",
+    "sourceHash": "sha256:4b145a496af2f5e41f44430a66ba1e555b37c1648e25e3bdb6bfea295a7e8ce6",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and the IMIGO! warehouse management system.",
     "shape": "connector",
     "primary": [
       {
@@ -29,12 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires IMIGO! from Im",
-      "Built on Codeunit OmniConnect integration platform"
+      "Connects the IMIGO! WMS from Im to BC",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -44,9 +45,7 @@
     "connectsTo": [
       "IMIGO!"
     ],
-    "requires": [
-      "IMIGO!"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

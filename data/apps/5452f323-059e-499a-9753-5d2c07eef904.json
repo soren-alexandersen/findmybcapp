@@ -8,42 +8,50 @@
     "publisher": "PrintVis A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novavisionsoftwareas1586247030445%7CAID.printvis%7CPAPPID.5452f323-059e-499a-9753-5d2c07eef904",
-    "lastModified": "2026-09-29T14:48:12.7674957+00:00",
-    "appVersion": "28.1.2.10",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T15:05:36.0974193+00:00",
+    "appVersion": "28.1.2.13",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://printvis.com/about-printvis/help/",
-    "sourceHash": "sha256:ef0e8c5bd5ddd21a593758431fc0388b4328a9d0c95a9acebc218000d31b17f1",
+    "sourceHash": "sha256:8329a1ffa748f7bc7d722152f02de59a1abcab8f271abe1dd1db92c17f298c8b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ef0e8c5bd5ddd21a593758431fc0388b4328a9d0c95a9acebc218000d31b17f1",
-    "mappedOn": null,
-    "summary": "MIS/ERP system for printers and for makers of packaging and labels",
+    "sourceHash": "sha256:8329a1ffa748f7bc7d722152f02de59a1abcab8f271abe1dd1db92c17f298c8b",
+    "mappedOn": "2026-10-30",
+    "summary": "Print MIS/ERP for printers, packaging and label makers on BC",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-printing-packaging",
         "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-production-costing",
-      "ng-sales-quotes",
-      "ng-conn-webshop"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Builds quotes and estimates for print jobs",
-      "Job invoicing integrated with estimating, consumption and job costing",
+      "Estimating and quoting for print jobs, including repeat orders",
+      "Job invoicing tied to estimate, consumption and job costing",
       "Status codes show where each job is in the workflow",
-      "Integrates with BC Advanced Warehouse Management",
-      "Shipping department sees required shipment dates and handles partial shipments and invoices",
-      "Compares quotation with actual consumption per job",
-      "Online real-time electronic job ticket with consumption and time data",
-      "Web2PrintVis lets customers design and submit print orders remotely",
+      "Works with standard BC warehouse features like reservations, multi-location and transfers",
+      "Partial shipments and partial invoices per job",
+      "Compares quoted against actual consumption",
+      "Real-time electronic job ticket with material and time consumption",
+      "Web2PrintVis lets customers design and submit print orders online",
       "JDF certified and CIP4 member",
-      "Supports Essentials edition",
-      "Available globally"
+      "Supports BC Essentials edition"
     ],
     "countries": [],
     "languages": [
@@ -58,14 +66,14 @@
       "sv"
     ],
     "industries": [
-      "Labels",
-      "Packaging",
-      "Printing"
+      "Manufacturing & Mobility"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Web2PrintVis"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

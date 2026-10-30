@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.0dd63a7a-ef34-4ec7-9032-24a01c320ea6%7CPAPPID.b2c17441-c65c-4b4f-8e4e-d28431ce4a20",
-    "lastModified": "2026-07-02T13:24:41.0786028+00:00",
-    "appVersion": "28.1.0.123",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:30:49.2712811+00:00",
+    "appVersion": "29.0.0.132",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:077ad5f336dfe3b364063cc45cad5328c3ed491d7558bb266c86b589d876c124",
+    "sourceHash": "sha256:b6c8e57385e216104cc42c7bccecaaae15c000fa73aaddf10130e7b0e1e0a2dd",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:077ad5f336dfe3b364063cc45cad5328c3ed491d7558bb266c86b589d876c124",
-    "mappedOn": null,
-    "summary": "Greek language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:b6c8e57385e216104cc42c7bccecaaae15c000fa73aaddf10130e7b0e1e0a2dd",
+    "mappedOn": "2026-10-30",
+    "summary": "Greek user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Greek",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Greek",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "GR"
@@ -39,14 +41,15 @@
       "el"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

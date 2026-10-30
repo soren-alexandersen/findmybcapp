@@ -8,8 +8,8 @@
     "publisher": "SKOR CONSEIL",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skorconseil1782805636603%7CAID.skor-landed-cost-manager%7CPAPPID.a0f9b93d-7c3a-45f4-83a9-8ef7f0fd63c6",
-    "lastModified": "2026-10-05T16:11:29.7363924+00:00",
-    "appVersion": "1.0.68.0",
+    "lastModified": "2026-10-29T17:51:50.4319685+00:00",
+    "appVersion": "1.0.75.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"

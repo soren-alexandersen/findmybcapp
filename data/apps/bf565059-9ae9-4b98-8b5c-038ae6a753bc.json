@@ -8,38 +8,43 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_customer_item_catalog%7CPAPPID.bf565059-9ae9-4b98-8b5c-038ae6a753bc",
-    "lastModified": "2026-09-23T03:42:02.9725178+00:00",
-    "appVersion": "2601.6.344379.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:54:06.1022344+00:00",
+    "appVersion": "2602.0.350888.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/CIC/",
-    "sourceHash": "sha256:ecc7768bd9ad809fb5eadce235715dd66aa8ab21534cd9e7b36dc39d26616aad",
+    "sourceHash": "sha256:ea0b710c84c363d5c0be10964457fcd15ffba10c841a61f17da9f778a586cbc4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ecc7768bd9ad809fb5eadce235715dd66aa8ab21534cd9e7b36dc39d26616aad",
-    "mappedOn": null,
-    "summary": "Customer-specific item catalogs for sales",
-    "shape": "addon",
+    "sourceHash": "sha256:ea0b710c84c363d5c0be10964457fcd15ffba10c841a61f17da9f778a586cbc4",
+    "mappedOn": "2026-10-30",
+    "summary": "Customer-specific item catalogs with fast order entry and Excel email order import.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-sales-order-entry",
+        "need": "ng-assortment-catalogs",
         "confidence": "high"
       },
       {
-        "need": "ng-assortment-catalogs",
+        "need": "ng-sales-order-entry",
         "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-ux-import-excel"
+      "ng-ux-import-excel",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Customer-specific item catalogs",
-      "Customer item numbers stored",
-      "Fast order entry notifies when catalog item is available",
-      "Excel orders by email processed automatically into sales orders"
+      "Catalog of items to promote and sell per customer",
+      "Stores customer item numbers in the catalog",
+      "Salesperson is alerted during order entry when a catalog item is available",
+      "Fast order entry screen for catalog items",
+      "Customers email orders in an Excel file that become sales orders automatically",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -71,7 +76,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
@@ -79,7 +83,7 @@
       "sv"
     ],
     "industries": [
-      "Food and beverage"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],

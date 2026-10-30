@@ -8,18 +8,20 @@
     "publisher": "Intelligent Systems",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianeinvoice-is%7CPAPPID.b4348354-f93c-4d84-991b-d326cd9705a5",
-    "lastModified": "2026-06-05T03:16:25.8954789+00:00",
-    "appVersion": "20.23.130.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T07:05:32.8736181+00:00",
+    "appVersion": "20.24.138.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.isystems-group.com/contacts/",
-    "sourceHash": "sha256:f2673bef3c5f1d1c9fcc627e71c46fc128742f54604ba90495506c0408022638",
+    "sourceHash": "sha256:9dbfff0ccea61724d3cc2a83727fa891332cdf2e092f13af4551172d3cefbc9e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f2673bef3c5f1d1c9fcc627e71c46fc128742f54604ba90495506c0408022638",
-    "mappedOn": null,
-    "summary": "Integration with Romanian e-Invoice platform",
+    "sourceHash": "sha256:9dbfff0ccea61724d3cc2a83727fa891332cdf2e092f13af4551172d3cefbc9e",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends posted sales documents to Romania's ANAF e-Factura platform and tracks status.",
     "shape": "localization",
     "primary": [
       {
@@ -27,16 +29,18 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
     "claims": [
-      "Automatically sends posted debit memos, sales invoices and credit memos to ANAF",
-      "Monitors ANAF response and updates submission status",
-      "Automatically includes POS transactions in ANAF communication",
-      "Restrict e-invoicing to selected customers",
-      "Restrict e-invoicing to selected items",
-      "Sends multiple documents with one click",
-      "Automatic refresh of access tokens",
-      "History log of sent documents"
+      "Automatically sends posted sales invoices, debit and credit memos to ANAF",
+      "Monitors ANAF responses and updates submission status",
+      "Includes POS transactions in ANAF communication",
+      "Choose which customers and items take part in e-invoicing",
+      "Sends multiple documents in one click",
+      "Refreshes authority access tokens automatically",
+      "Keeps a history log of sent documents",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "RO"
@@ -51,7 +55,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

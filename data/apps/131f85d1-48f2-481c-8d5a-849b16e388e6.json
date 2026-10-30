@@ -8,18 +8,20 @@
     "publisher": "Plumbline Consulting LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.progressussoftware%7CAID.progressuseu%7CPAPPID.131f85d1-48f2-481c-8d5a-849b16e388e6",
-    "lastModified": "2026-09-22T21:02:33.5832831+00:00",
+    "lastModified": "2026-10-28T18:28:50.1905103+00:00",
     "appVersion": "13.1.225.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.plumblineconsulting.com/help-gettingstarted/",
-    "sourceHash": "sha256:3708a2101d71f2fa3c2292de61c03dcd6250cb6c08828e745a6157c724fc2e73",
+    "sourceHash": "sha256:9e7f08a0eba550e360bc83d6899d024c2f821422ba0115cee058a2c136120373",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3708a2101d71f2fa3c2292de61c03dcd6250cb6c08828e745a6157c724fc2e73",
-    "mappedOn": null,
-    "summary": "Professional services automation with project and resource management",
+    "sourceHash": "sha256:9e7f08a0eba550e360bc83d6899d024c2f821422ba0115cee058a2c136120373",
+    "mappedOn": "2026-10-30",
+    "summary": "Professional services automation in BC: project resources, time and expense, billing and WIP.",
     "shape": "vertical",
     "primary": [
       {
@@ -27,26 +29,27 @@
         "confidence": "high"
       },
       {
-        "need": "ng-proj-wip",
+        "need": "ng-proj-billing",
         "confidence": "high"
       },
       {
-        "need": "ng-proj-billing",
-        "confidence": "medium"
+        "need": "ng-proj-wip",
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-proj-time",
-      "ng-proj-status-reporting"
+      "ng-proj-status-reporting",
+      "ng-proj-planning"
     ],
     "claims": [
-      "Project and resource management (PSA) combined with financials",
-      "Time and expense entries flow through electronic approval into invoices",
-      "WIP and revenue recognition with multiple options and audit trail",
-      "Project accounting with actuals and cost tracking",
-      "Reporting via Power BI or Excel",
-      "Project risk indicators",
-      "Planning and time & expense entry for consultants"
+      "Combines project and resource management with BC financials",
+      "Time and expense entries go through electronic approval into invoices",
+      "WIP and revenue recognition from forecast with multiple methods and audit trail",
+      "Project cost tracking with risk indicators for project managers",
+      "Reporting through Power BI or ad hoc in Excel",
+      "Supports Essentials and Premium",
+      "Available in English, Swedish, Danish and Spanish, plus auto-translated languages"
     ],
     "countries": [
       "AU",
@@ -69,19 +72,27 @@
     ],
     "languages": [
       "da",
+      "de",
       "en",
       "es",
+      "fi",
+      "fr",
+      "it",
+      "nl",
+      "no",
+      "pl",
+      "pt",
       "sv"
     ],
     "industries": [
-      "ArchitectureAndConstruction",
-      "Energy",
-      "ProfessionalServices"
+      "Professional Services"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "Power BI"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

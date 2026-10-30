@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-documents|PAPPID.18b08d7f-5b41-43b4-a109-10453b26cd8d",
+  "guid": "18b08d7f-5b41-43b4-a109-10453b26cd8d",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-documents",
+  "source": {
+    "name": "Elevate Documents",
+    "publisher": "Equerra Limited",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-documents%7CPAPPID.18b08d7f-5b41-43b4-a109-10453b26cd8d",
+    "lastModified": "2026-10-27T07:48:44.3935152+00:00",
+    "appVersion": "28.0.5.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://portal.equerra.com/docs/elevate-documents/overview",
+    "sourceHash": "sha256:8109d9d644e2e2f0ef90a9319f6ae527cc4ecdf4650343f18194dab7f75c1095",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8109d9d644e2e2f0ef90a9319f6ae527cc4ecdf4650343f18194dab7f75c1095",
+    "mappedOn": "2026-10-30",
+    "summary": "Word-based document templates for printing, previewing and emailing BC documents, optionally built by AI.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Uses your own .docx layout with {{Token}} placeholders filled from BC fields",
+      "Works against any BC table",
+      "Equerra can build a template package from your existing document using an AI agent, optionally",
+      "Templates bind to report selections so Print, Preview, Send and Post and Send use them, incl. document sending profiles",
+      "Live preview as quick view or exact PDF before certifying",
+      "Output can also be downloaded as HTML, CSV, XML or JSON",
+      "Templates export and import between companies and environments",
+      "Prints lot and serial numbers under document lines",
+      "Prints amounts in words, English only",
+      "Prints GST, Sales Tax or VAT wording based on country",
+      "Covers 15 standard documents incl. invoices, quotes, statements, POs, remittance advice and pick lists",
+      "Draft templates cannot print or email; certifying rejects unmapped placeholders",
+      "Blocks multi-vendor remittance runs on email or disk",
+      "No ready-made templates are shipped",
+      "Separate user and admin permission sets",
+      "BC online version 28.1 or later; document wording can be any language"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

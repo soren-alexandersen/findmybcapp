@@ -8,18 +8,20 @@
     "publisher": "XtensionIT Aps",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteenterprisesuite%7CPAPPID.bbd1f8a6-d1c1-4590-8fd5-ce6d2482bcf0",
-    "lastModified": "2026-09-30T07:46:57.0108864+00:00",
-    "appVersion": "1.9.7.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T13:38:35.4134822+00:00",
+    "appVersion": "1.10.3.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/enterprisesuite/overview/",
-    "sourceHash": "sha256:bfd13aa4f06c644526984133933d8abadc861d6e0e380836c1f784aa0bf0cdd3",
+    "sourceHash": "sha256:ca8dec056c7aa0cc122402d3f99d685f0be0a194015103f0ebb76a9771fbfea1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bfd13aa4f06c644526984133933d8abadc861d6e0e380836c1f784aa0bf0cdd3",
-    "mappedOn": null,
-    "summary": "Intercompany order automation across environments",
+    "sourceHash": "sha256:ca8dec056c7aa0cc122402d3f99d685f0be0a194015103f0ebb76a9771fbfea1",
+    "mappedOn": "2026-10-30",
+    "summary": "Automates intercompany order, delivery and return flows across companies and environments.",
     "shape": "process",
     "primary": [
       {
@@ -28,20 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-lot-serial-traceability",
+      "ng-customer-returns"
     ],
     "claims": [
-      "Intercompany communication across multiple environments and companies",
-      "Direct delivery flow between companies",
-      "Special order delivery flow",
-      "One sales order delivered from multiple warehouses",
-      "Purchase-to-sales flow",
+      "Intercompany works across companies, environments and tenants",
+      "Supports direct delivery from the partner company",
+      "Supports special order delivery",
+      "One sales order can ship from several warehouses",
       "Intercompany return order flow",
-      "Transfers item tracking between companies",
-      "Transfers sales order notes",
-      "Generic transfer of custom fields",
-      "Works across tenants",
-      "Handles partial deliveries, special orders and returns"
+      "Item tracking moves with intercompany documents",
+      "Sales order notes are carried over",
+      "Custom fields can be transferred generically",
+      "Removes manual creation of intercompany orders",
+      "Handles partial deliveries, special orders and returns between entities"
     ],
     "countries": [],
     "languages": [],
@@ -49,7 +51,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

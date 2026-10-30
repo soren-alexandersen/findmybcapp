@@ -20,41 +20,37 @@
   },
   "mapping": {
     "sourceHash": "sha256:cb0a48f888b0585ee30570a989623ef09a0bdadfb7c568fb825c654202fc33da",
-    "mappedOn": null,
-    "summary": "Manages investments and interest calculations in finance",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates and posts interest on fixed deposits, savings and other investments.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-journals",
-        "confidence": "low"
+        "need": "ng-treasury-investments-guarantees",
+        "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-accruals-deferrals"
-    ],
+    "secondary": [],
     "claims": [
-      "Calculates and posts interest or fixed dividends on fixed deposits and investments",
+      "Calculates and posts interest or fixed dividends",
+      "Covers fixed deposits, savings accounts and other investments",
+      "Multiple input parameters for interest calculation",
       "Setup of parameters, accounts and journal templates",
-      "Automated interest calculation for savings accounts, fixed deposits and more",
-      "Investment cards with line-level breakdowns",
-      "Automated numbering and journal template creation",
-      "Supports Essential and Premium"
+      "Investment cards with line-level breakdown",
+      "Automatic numbering and journal template creation",
+      "Includes approval processes",
+      "Priced at 20 USD per user per year, 1 to 100 users",
+      "Works with Essentials and Premium"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Construction",
-      "Energy",
-      "Professional services",
-      "Real estate"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "subscription",
+    "deployment": "online",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
-    "noFit": "Investment and interest calculation (treasury) has no dedicated group"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

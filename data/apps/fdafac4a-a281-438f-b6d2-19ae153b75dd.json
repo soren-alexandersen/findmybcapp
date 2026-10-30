@@ -8,18 +8,20 @@
     "publisher": "ExpandIT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.expandit%7CAID.expanditconnector%7CPAPPID.fdafac4a-a281-438f-b6d2-19ae153b75dd",
-    "lastModified": "2026-08-31T08:36:25.125547+00:00",
+    "lastModified": "2026-10-25T21:53:23.6331325+00:00",
     "appVersion": "18.0.6.265",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.expandit.com/en/expandit-connector---support",
-    "sourceHash": "sha256:f2a18da3623e2a358c0561f123b63e5ae976c37de16ef5cde8b5e942fd95aabe",
+    "sourceHash": "sha256:1872116467ab06dbee1a515a9c2ce09bacd09660d62c6ba4f4ff5928d29e90bc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f2a18da3623e2a358c0561f123b63e5ae976c37de16ef5cde8b5e942fd95aabe",
-    "mappedOn": null,
-    "summary": "Integrates ExpandIT field service and portal with BC",
+    "sourceHash": "sha256:1872116467ab06dbee1a515a9c2ce09bacd09660d62c6ba4f4ff5928d29e90bc",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects ExpandIT field service, resource planning and service portal to Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -33,16 +35,17 @@
     ],
     "secondary": [
       "ng-admin-portals",
-      "ng-svc-close-invoice"
+      "ng-svc-close-invoice",
+      "ng-hr-employee-expenses"
     ],
     "claims": [
-      "Includes service portal, service app and resource planning",
-      "Digital forms, expenses and time tracking for technicians",
-      "Replaces paper-based forms",
-      "Customers can view their records online, pay invoices and schedule service",
+      "Solution includes a service portal, a service app and resource planning",
+      "Requires the ExpandIT solution alongside Business Central",
+      "Technicians record forms, expenses and time digitally instead of on paper",
+      "Customers can book service, pay invoices and see records online",
       "Documents completed service work for compliance",
-      "Requires the ExpandIT solution",
-      "Essentials offering as managed service at fixed price"
+      "A fixed-price managed starter package is offered",
+      "Available in Danish, English, French, German, Spanish and Swedish"
     ],
     "countries": [
       "AE",
@@ -98,7 +101,10 @@
       "fr",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Field service",
+      "Installation"
+    ],
     "connectsTo": [
       "ExpandIT"
     ],
@@ -106,7 +112,7 @@
       "ExpandIT"
     ],
     "deployment": "not_stated",
-    "pricing": "one_time",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

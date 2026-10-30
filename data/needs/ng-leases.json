@@ -62,7 +62,125 @@
     "How much do we owe on all leases in total, split by year?",
     "Group asks for an IFRS 16 lease schedule every quarter",
     "Overview of lease costs per department",
-    "Which leases end in the next 12 months?"
+    "Which leases end in the next 12 months?",
+    "We need our leases on the balance sheet under IFRS 16",
+    "We want lease changes and early terminations booked correctly",
+    "We have leases in foreign currency"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "which-rules-must-your-lease-ac",
+      "text": "Which rules must your lease accounting follow?",
+      "multi": true,
+      "options": [
+        {
+          "label": "IFRS 16, AASB 16 or FRS 102",
+          "patterns": [
+            "ifrs ?16",
+            "frs ?102",
+            "aasb"
+          ]
+        },
+        {
+          "label": "US GAAP ASC 842",
+          "patterns": [
+            "asc ?842"
+          ]
+        },
+        {
+          "label": "None, we just track lease contracts and payments",
+          "patterns": [
+            "repayment (plan|schedule)",
+            "\\bloans\\b",
+            "land leases?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "IFRS 16, AASB 16 or FRS 102": 0.5,
+        "US GAAP ASC 842": 0.12,
+        "None, we just track lease contracts and payments": 0.38
+      }
+    },
+    {
+      "id": "what-do-you-need-help-with-dur",
+      "text": "What do you need help with during a lease's life?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Changes and remeasurements",
+          "patterns": [
+            "remeasurement",
+            "modification"
+          ]
+        },
+        {
+          "label": "Early or partial terminations",
+          "patterns": [
+            "terminat"
+          ]
+        },
+        {
+          "label": "Disclosure reports and reconciliations",
+          "patterns": [
+            "disclosur",
+            "reconciliation",
+            "maturity analysis",
+            "roll-forward"
+          ]
+        },
+        {
+          "label": "Keeping agreements and amendments in one place",
+          "patterns": [
+            "repository",
+            "lease agreement"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Changes and remeasurements": 0.5,
+        "Early or partial terminations": 0.38,
+        "Disclosure reports and reconciliations": 0.5,
+        "Keeping agreements and amendments in one place": 0.38
+      }
+    },
+    {
+      "id": "do-you-have-leases-in-foreign-",
+      "text": "Do you have leases in foreign currencies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, with exchange rate revaluation",
+          "patterns": [
+            "currenc",
+            "exchange rate"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with exchange rate revaluation": 0.5
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "amortization schedules are standard in all lease apps",
+      "terms": [
+        "amortization"
+      ],
+      "on": "2026-10-30"
+    }
+  ]
 }

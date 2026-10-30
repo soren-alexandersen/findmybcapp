@@ -8,18 +8,20 @@
     "publisher": "Team VISION - BULGARIA Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_bank%7CPAPPID.2f3517f0-cd94-4b9f-ab42-79180749a12d",
-    "lastModified": "2026-09-02T09:10:51.6914452+00:00",
-    "appVersion": "27.0.2606.01",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T10:07:48.4118195+00:00",
+    "appVersion": "28.0.2610.01",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://team-vision.bg/en/support/",
-    "sourceHash": "sha256:67071c32d9a86a1d274a67512878ced0cacdfdaf1938941fed53c5b4178c8fa5",
+    "sourceHash": "sha256:24ee4714d10dba119bc5609200408e08d9da798aef10095fd6e26e0ce221df06",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:67071c32d9a86a1d274a67512878ced0cacdfdaf1938941fed53c5b4178c8fa5",
-    "mappedOn": null,
-    "summary": "Bulgarian bank payment and statement file formats",
+    "sourceHash": "sha256:24ee4714d10dba119bc5609200408e08d9da798aef10095fd6e26e0ce221df06",
+    "mappedOn": "2026-10-30",
+    "summary": "Bank statement import and payment file export for major Bulgarian banks.",
     "shape": "localization",
     "primary": [
       {
@@ -35,9 +37,11 @@
       "ng-loc-country-pack"
     ],
     "claims": [
-      "Imports bank statement files into payment reconciliation journal",
-      "Exports vendor payment files for upload to banking software",
-      "Formats for DSK Bank, UniCredit Bulbank, UBB, Postbank, ProCredit"
+      "File formats for DSK Bank, UniCredit Bulbank, UBB, Postbank and ProCredit",
+      "Imports bank statements into the payment reconciliation journal for matching and posting",
+      "Suggests vendor payments in payment journals and exports them to a bank file",
+      "File-based exchange, no direct bank connection",
+      "Works with Essentials and Premium"
     ],
     "countries": [
       "BG"
@@ -52,11 +56,11 @@
       "UniCredit Bulbank",
       "UBB",
       "Postbank",
-      "ProCredit bank"
+      "ProCredit Bank"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

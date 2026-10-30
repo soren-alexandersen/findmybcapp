@@ -20,7 +20,9 @@
     "Manufacturing partner solution with everything included",
     "Make to order with long lead times and milestones",
     "Plastics manufacturing with quality and cost control",
-    "Sheet metal job shop quoting from drawings"
+    "Sheet metal job shop quoting from drawings",
+    "We send parts of our production to subcontractors",
+    "We want to see how far each machine order has come on the shop floor"
   ],
   "questions": [
     {
@@ -33,7 +35,10 @@
           "patterns": [
             "engineer(ing)?[- ]to[- ]order",
             "\\beto\\b",
-            "design and manufacture"
+            "design and manufacture",
+            "dynamic bills of materials",
+            "order-to-order reservation",
+            "sub-assembly"
           ]
         },
         {
@@ -72,10 +77,10 @@
         }
       ],
       "coverage": {
-        "Designed to order for each customer (ETO)": 0.14,
-        "Configured from options (CTO / product configurator)": 0.32,
-        "Made to order inside customer projects": 0.64,
-        "Series or batch production": 0.27
+        "Designed to order for each customer (ETO)": 0.29,
+        "Configured from options (CTO / product configurator)": 0.29,
+        "Made to order inside customer projects": 0.67,
+        "Series or batch production": 0.25
       }
     },
     {
@@ -102,7 +107,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.14
+        "Yes": 0.17
       }
     },
     {
@@ -120,7 +125,10 @@
             "simultaneous costing",
             "job costs",
             "costing",
-            "actual cost"
+            "actual cost",
+            "cost calculation",
+            "post-calculation",
+            "expected cost"
           ]
         },
         {
@@ -129,7 +137,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.5
+        "Yes": 0.71
       }
     },
     {
@@ -148,7 +156,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.18
+        "Yes": 0.25
       }
     },
     {
@@ -169,8 +177,95 @@
         }
       ],
       "coverage": {
-        "Yes": 0.36
+        "Yes": 0.38
       }
+    },
+    {
+      "id": "do-you-send-parts-of-the-work-",
+      "text": "Do you send parts of the work to subcontractors?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we use subcontractors",
+          "patterns": [
+            "sub-?contract"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we use subcontractors": 0.12
+      }
+    },
+    {
+      "id": "how-do-you-want-to-plan-and-fo",
+      "text": "How do you want to plan and follow production?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Plan capacity, machines and people",
+          "patterns": [
+            "capacity planning",
+            "resource and activity planning",
+            "plans machines",
+            "resource scheduling"
+          ]
+        },
+        {
+          "label": "Follow progress on the shop floor in real time",
+          "patterns": [
+            "production progress",
+            "job progress",
+            "stage progress",
+            "progress control",
+            "shop floor"
+          ]
+        },
+        {
+          "label": "Manage tools and machine maintenance",
+          "patterns": [
+            "tool management",
+            "maintenance plans",
+            "machines together with tools"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Plan capacity, machines and people": 0.17,
+        "Follow progress on the shop floor in real time": 0.25,
+        "Manage tools and machine maintenance": 0.12
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic project 'task' wording",
+      "terms": [
+        "task"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "BOM and routing basics, standard",
+      "terms": [
+        "boms",
+        "routing"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'contracts' wording",
+      "terms": [
+        "contract"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

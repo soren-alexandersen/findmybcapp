@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2amazon%7CPAPPID.fcec30c1-fe1a-4dc5-9bb5-c696b7ce37bc",
-    "lastModified": "2025-06-12T10:33:43.1974835+00:00",
+    "lastModified": "2026-10-19T11:56:56.2698795+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:229884526dc638908966d18e712fa8d1043e7a4673c03abc799871eb5b967027",
+    "sourceHash": "sha256:7fc2702c31eb21f1f17a715270f1289b0afad43569b5673a24d4513dbb0c974e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:229884526dc638908966d18e712fa8d1043e7a4673c03abc799871eb5b967027",
-    "mappedOn": null,
-    "summary": "Integrates Amazon Vendor and Seller Central with orders",
+    "sourceHash": "sha256:7fc2702c31eb21f1f17a715270f1289b0afad43569b5673a24d4513dbb0c974e",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and Amazon Seller Central and Vendor Central.",
     "shape": "connector",
     "primary": [
       {
@@ -29,13 +31,12 @@
     ],
     "secondary": [],
     "claims": [
-      "Supports Amazon Vendor Central and Seller Central",
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Amazon",
-      "Built on Codeunit OmniConnect integration platform"
+      "Supports Amazon Seller Central and Vendor Central",
+      "Runs on Codeunit OmniConnect platform",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -45,9 +46,7 @@
     "connectsTo": [
       "Amazon"
     ],
-    "requires": [
-      "Amazon"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

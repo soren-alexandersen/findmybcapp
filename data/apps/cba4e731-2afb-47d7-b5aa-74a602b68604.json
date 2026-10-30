@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.validsign|AID.validsign-for-dynamics-business-central|PAPPID.cba4e731-2afb-47d7-b5aa-74a602b68604",
+  "guid": "cba4e731-2afb-47d7-b5aa-74a602b68604",
+  "publisherId": "validsign",
+  "offerId": "validsign-for-dynamics-business-central",
+  "source": {
+    "name": "ValidSign for Dynamics 365 Business Central",
+    "publisher": "ValidSign B.V.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.validsign%7CAID.validsign-for-dynamics-business-central%7CPAPPID.cba4e731-2afb-47d7-b5aa-74a602b68604",
+    "lastModified": "2026-10-29T07:37:19.0503444+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://kb.validsign.eu/",
+    "sourceHash": "sha256:c1a7c70d146d46b2fdac48a72a479fd247b49f7685686e7fa5658c49f64566f6",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1a7c70d146d46b2fdac48a72a479fd247b49f7685686e7fa5658c49f64566f6",
+    "mappedOn": "2026-10-30",
+    "summary": "eIDAS e-signing of quotes, contracts and other BC documents, filing signed copies on the record.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Sends from 21 document types, including sales, purchase and service documents and several cards",
+      "Documents are rendered from the company's own report layout",
+      "Signers sign in a set order and are verified by SMS code, Q&A or SSO",
+      "Signing progress shown on the record, with reminders",
+      "Signed PDF and evidence summary are attached to the source record",
+      "Completing a signature can release the document, convert a quote to an order, or start Power Automate flows",
+      "Four permission sets control access, no extra infrastructure",
+      "eIDAS-compliant with documents stored in the EU",
+      "Customers can sign on any device",
+      "Guided setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ValidSign",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

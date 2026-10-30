@@ -8,20 +8,21 @@
     "publisher": "Business Dynamics Pro Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_smartflow_projects%7CPAPPID.69b4f131-13e6-46ee-a8a4-6320d7f3e80e",
-    "lastModified": "2026-08-11T20:15:01.86847+00:00",
+    "lastModified": "2026-10-29T08:45:01.2976473+00:00",
     "appVersion": "1.0.1.55",
     "pricingTypes": [
+      "FreeTrial",
       "Payg"
     ],
-    "freeTrial": null,
+    "freeTrial": "1 Month",
     "helpLink": "https://dynamicspro.ca/help/smartflow-projects",
-    "sourceHash": "sha256:606b790076f1edd1abfb8bd9c16d271992cbef3b58a3c5e7608c1b9a9a367b07",
+    "sourceHash": "sha256:e0fcd25bbbae46cf1be0fd9de152a93b4eb200fc59a87e97211092eb0df1710a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:606b790076f1edd1abfb8bd9c16d271992cbef3b58a3c5e7608c1b9a9a367b07",
-    "mappedOn": null,
-    "summary": "Finite resource scheduling Gantt for projects",
+    "sourceHash": "sha256:e0fcd25bbbae46cf1be0fd9de152a93b4eb200fc59a87e97211092eb0df1710a",
+    "mappedOn": "2026-10-30",
+    "summary": "Finite-capacity resource scheduling and drag-and-drop Gantt for BC projects on Essentials.",
     "shape": "process",
     "primary": [
       {
@@ -29,27 +30,32 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-proj-status-reporting",
+      "ng-hr-skills-training"
+    ],
     "claims": [
-      "Finite resource scheduling of jobs, planning lines and resources",
-      "Runs on Essentials",
-      "Detects and resolves double-booking across projects",
+      "Constraint-solver scheduling that treats each person's capacity as a hard limit",
+      "Catches and resolves double-booking across projects",
       "Respects working calendars",
-      "Writes accepted dates back to job planning lines",
-      "Interactive drag Gantt, project and resource views",
-      "FS/SS/FF/SF dependencies with lag",
+      "Each moved task shows why it moved",
+      "Accepted plan writes dates back to native job planning lines",
+      "Drag-and-drop Gantt with project and resource views, day-to-month zoom",
+      "All four dependency types with positive or negative lag",
       "Critical path, float and milestones",
-      "Skills matching for tasks",
-      "Resource utilisation heatmap",
-      "Project templates",
+      "Skill-level matching restricts scheduling to qualified resources",
+      "Daily resource utilisation heatmap",
+      "Reusable project templates with tasks, dependencies and skills",
       "Excel export and re-import of task changes",
-      "Planner $699 and Viewer $199 per user/month"
+      "Runs on Essentials, no Premium needed",
+      "Scheduling service hosted by the publisher on Azure; data not retained",
+      "Planner seat $699 and read-only Viewer seat $199 per user per month",
+      "7-day free trial",
+      "Twenty steps of undo and redo before saving"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Construction",
-      "Manufacturing",
       "Professional services"
     ],
     "connectsTo": [],

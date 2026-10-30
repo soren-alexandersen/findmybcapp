@@ -8,82 +8,57 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_compliance_documents%7CPAPPID.19eb10b5-d114-40c3-9beb-93be998141c9",
-    "lastModified": "2026-05-27T05:27:46.9446531+00:00",
-    "appVersion": "2601.2.319749.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:54:06.2973778+00:00",
+    "appVersion": "2602.0.351385.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/COD/",
-    "sourceHash": "sha256:00e0800cecc386328e1401870e35e52fb47b6cbac4ae0f5a644c4e69cb75155b",
+    "sourceHash": "sha256:e5efa572771c5eba7e7c28b0c5a25c37367947525a580962508b8dadfd1d0bf1",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:00e0800cecc386328e1401870e35e52fb47b6cbac4ae0f5a644c4e69cb75155b",
-    "mappedOn": null,
-    "summary": "Manages regulatory and financial compliance documents for food and beverage",
-    "shape": "addon",
+    "sourceHash": "sha256:e5efa572771c5eba7e7c28b0c5a25c37367947525a580962508b8dadfd1d0bf1",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks vendor quality certificates and compliance documents with expiry alerts on purchases.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-supplier-quality-compliance",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-product-compliance"
+      "ng-purchase-orders",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Tracks vendor quality certifications and expiry status",
-      "Compliance documents per vendor, item or item group",
-      "Attach compliance documents to purchases manually or automatically",
-      "Approval status checks during release, receiving or invoicing",
-      "Visual cues for expiring certificates",
-      "Expiry notifications via Power Automate",
+      "Defines compliance documents per vendor, item or item group",
+      "Attaches compliance documents to purchases manually or from vendor setup",
+      "Tracks approval status of assigned documents",
+      "Checks document approval at release, receipt or invoicing",
       "Copies compliance documents to posted records",
-      "Requires Premium edition"
+      "Visual cues for certificates nearing expiry",
+      "Expiry notifications can go to managers via Power Automate",
+      "Requires the Premium edition",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
-    "connectsTo": [
-      "Power Automate"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "free_trial",

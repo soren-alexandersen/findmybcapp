@@ -8,18 +8,20 @@
     "publisher": "Nprogression",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nprogressiondoo1666616266569%7CAID.np_investments%7CPAPPID.482e76fb-6f8b-4175-b7fb-93110490443d",
-    "lastModified": "2025-12-03T11:52:38.9264381+00:00",
+    "lastModified": "2026-10-28T12:24:58.6438063+00:00",
     "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://nprogression.com/tools/investments",
-    "sourceHash": "sha256:46eb51ffc627d2d4c3329ac2546d20dcb0f5070a3a0e4ee4a2e7c02875d8812b",
+    "sourceHash": "sha256:ca2ac86dae85f262eb0147444d9b78ba826b8ba0a51dd720e3a0647d13a34121",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:46eb51ffc627d2d4c3329ac2546d20dcb0f5070a3a0e4ee4a2e7c02875d8812b",
-    "mappedOn": null,
-    "summary": "Investment accounting for investment companies and family offices",
+    "sourceHash": "sha256:ca2ac86dae85f262eb0147444d9b78ba826b8ba0a51dd720e3a0647d13a34121",
+    "mappedOn": "2026-10-30",
+    "summary": "Investment accounting for funds, family offices: securities, deposits, derivatives, real estate",
     "shape": "vertical",
     "primary": [
       {
@@ -28,33 +30,33 @@
       }
     ],
     "secondary": [
-      "ng-currency"
+      "ng-currency",
+      "ng-ux-import-excel"
     ],
     "claims": [
-      "Financial instrument catalog with hierarchical type classifier",
-      "Market data: quotes and corporate events",
-      "Financial instruments subledger for equity and debt operations",
-      "Supports multiple investment portfolios/books",
-      "FIFO and average cost accounting",
-      "Accrued coupon interest accounting for bonds",
-      "FX and mark-to-market revaluation",
-      "Processes dividends, coupon payments and redemptions",
-      "Imports financial transactions from Excel",
-      "Designed for investment companies, brokers, banks, funds, insurers and family offices"
+      "Catalog of financial instruments with hierarchical types, asset classes and risk levels",
+      "Instrument lifecycle statuses from new to blocked",
+      "Holds market quotes and corporate events",
+      "Covers equities, ETFs and fund units",
+      "Covers government, municipal and corporate bonds and money market paper",
+      "Futures and forwards supported; other derivatives semi-automatic",
+      "Multiple portfolios or books",
+      "FIFO and average cost methods",
+      "Accrued interest on bonds and deposits",
+      "Mark-to-market and currency revaluation",
+      "Asset allocation report by class and instrument, exported to Excel",
+      "Income report on interest, dividends and derivative results",
+      "Automated import of transactions from internal systems or brokers during implementation"
     ],
     "countries": [],
     "languages": [],
     "industries": [
-      "Financial services",
-      "Investment management"
+      "Financial Services"
     ],
-    "connectsTo": [
-      "PowerCentral",
-      "Power BI"
-    ],
+    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,26 +8,28 @@
     "publisher": "SBC Dynamics ERP",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenscashflowsolutions%7CPAPPID.ad778411-e5f3-4d7e-9077-37cde7758cdb",
-    "lastModified": "2026-09-29T15:03:05.3726694+00:00",
-    "appVersion": "22.1023.1.117",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T13:54:29.8867375+00:00",
+    "appVersion": "22.1023.1.118",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.sbcdynamicserp.com/support",
-    "sourceHash": "sha256:1517b5c1a7dbf49a4601895256759c28b7227a319a1113d079aec23be69db718",
+    "sourceHash": "sha256:143553d507936fa0550ddda8f90e25025a5f82358b27f6a974090bad298238d4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1517b5c1a7dbf49a4601895256759c28b7227a319a1113d079aec23be69db718",
-    "mappedOn": null,
-    "summary": "Base app for SBC cash flow add-ons",
-    "shape": "addon",
+    "sourceHash": "sha256:143553d507936fa0550ddda8f90e25025a5f82358b27f6a974090bad298238d4",
+    "mappedOn": "2026-10-30",
+    "summary": "Shared base app for SBC Dynamics Acumens add-ons; manages common data and setup.",
+    "shape": "usability",
     "primary": [],
     "secondary": [],
     "claims": [
-      "Common setup for user filters on role center cues across SBC apps",
-      "Common ledger for service ledger postings",
+      "Common user filter setup for role center cues across the supported apps",
+      "Common ledger for service postings across some add-ons",
       "Document locking to control editing",
-      "Preferred payment option fields on document reports"
+      "Fields for preferred payment options on document reports"
     ],
     "countries": [],
     "languages": [
@@ -37,9 +39,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "Base/dependency app for SBC Acumens add-ons",
+    "hideReason": "Dependency base app for other Acumens add-ons.",
     "noFit": ""
   },
   "curated": {

@@ -8,18 +8,20 @@
     "publisher": "tegosgroup",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tegosgmbh%7CAID.tegossuite%7CPAPPID.c832bbba-59ad-46bc-b627-fbce63e00539",
-    "lastModified": "2026-10-01T15:44:37.4852547+00:00",
-    "appVersion": "12.0.26100105.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T17:04:18.7965466+00:00",
+    "appVersion": "12.1.26102803.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.tegos-group.com/documentation",
-    "sourceHash": "sha256:86e1c60b14c3d7db1eac82c2e85e9abd44b9c32736254106260e4c8245fc79f8",
+    "sourceHash": "sha256:c49dad7098d179241ee2ef4ac4c6b06eebf58ea5893d2d830c21a2b226d019a4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:86e1c60b14c3d7db1eac82c2e85e9abd44b9c32736254106260e4c8245fc79f8",
-    "mappedOn": null,
-    "summary": "Complete solution for waste and recycling industry",
+    "sourceHash": "sha256:c49dad7098d179241ee2ef4ac4c6b06eebf58ea5893d2d830c21a2b226d019a4",
+    "mappedOn": "2026-10-30",
+    "summary": "Industry solution for waste management and recycling companies, from container service to hazardous waste.",
     "shape": "vertical",
     "primary": [
       {
@@ -28,13 +30,15 @@
       }
     ],
     "secondary": [
-      "ng-vert-metal-timber-materials"
+      "ng-admin-devices"
     ],
     "claims": [
-      "Covers material trading, recycling, energy broker, container services, commercial, municipal and hazardous waste",
-      "Spans paper trading, container service and hazardous waste processes",
-      "Automatic tests of individual developments before updates",
-      "Touch-optimized UI usable via mobile devices"
+      "Covers recycling, material trading, container services, energy brokering, hazardous, commercial and municipal waste",
+      "Processes span paper trading, container service and hazardous waste",
+      "Automatic tests also cover customer-specific developments before updates",
+      "Touch-optimised interface usable on mobile devices",
+      "Implementation offered with project management by the publisher",
+      "Works with Essentials and Premium"
     ],
     "countries": [
       "AR",
@@ -68,12 +72,13 @@
       "en"
     ],
     "industries": [
-      "Waste and recycling"
+      "Recycling",
+      "Waste management"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "contact",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

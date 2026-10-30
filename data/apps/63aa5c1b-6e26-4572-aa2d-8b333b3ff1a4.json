@@ -8,37 +8,46 @@
     "publisher": "COSMO CONSULT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.quality_assurance_bc%7CPAPPID.63aa5c1b-6e26-4572-aa2d-8b333b3ff1a4",
-    "lastModified": "2026-10-02T12:23:54.5500932+00:00",
-    "appVersion": "10.2.0.368431",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T12:38:21.008179+00:00",
+    "appVersion": "10.2.3.368456",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/quality-assurance",
-    "sourceHash": "sha256:d5943bb1809fcfda842fabd8aa5207ae49b3c9ccecb48fe77560794e57218b21",
+    "sourceHash": "sha256:cc98f908dac1db34794c6eadf6f95468552d3d3406ed88de4fdbad56ef307733",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d5943bb1809fcfda842fabd8aa5207ae49b3c9ccecb48fe77560794e57218b21",
-    "mappedOn": null,
-    "summary": "Manages quality testing requirements",
+    "sourceHash": "sha256:cc98f908dac1db34794c6eadf6f95468552d3d3406ed88de4fdbad56ef307733",
+    "mappedOn": "2026-10-30",
+    "summary": "Quality inspections for receipts and production, with nonconformity and lot status control",
     "shape": "process",
     "primary": [
       {
         "need": "ng-quality-inspection",
         "confidence": "high"
+      },
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-nonconformance-capa",
-      "ng-quality-hold",
-      "ng-lot-serial-traceability"
+      "ng-quality-hold"
     ],
     "claims": [
-      "Incoming goods and manufacturing inspections",
-      "Strict quality control parameters",
-      "Lot, sub-lot and serial number traceability",
-      "Non-conformity reporting",
-      "Inventory control via lot/serial number status",
-      "Requires Premium edition"
+      "Runs inspections on incoming goods",
+      "Runs inspections during manufacturing",
+      "Lets you define quality control parameters for tests",
+      "Traces lots, sub-lots and serial numbers end to end",
+      "Records nonconformities",
+      "Controls inventory use through a status on lot and serial numbers",
+      "Requires the Premium edition"
     ],
     "countries": [
       "AO",
@@ -93,13 +102,12 @@
       "sv"
     ],
     "industries": [
-      "Automotive",
       "Manufacturing"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

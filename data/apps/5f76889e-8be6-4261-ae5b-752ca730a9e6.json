@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.consignment_inventory|PAPPID.5f76889e-8be6-4261-ae5b-752ca730a9e6",
+  "guid": "5f76889e-8be6-4261-ae5b-752ca730a9e6",
+  "publisherId": "thetasystemslimited",
+  "offerId": "consignment_inventory",
+  "source": {
+    "name": "Consignment Inventory",
+    "publisher": "Theta Systems Limited",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.consignment_inventory%7CPAPPID.5f76889e-8be6-4261-ae5b-752ca730a9e6",
+    "lastModified": "2026-10-12T13:06:09.1566833+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/CI",
+    "sourceHash": "sha256:9b08b508e1fd55ad0e49f731adeee351d437abde98311616c0ed4bcd8aef2dfa",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b08b508e1fd55ad0e49f731adeee351d437abde98311616c0ed4bcd8aef2dfa",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks vendor-owned stock off balance sheet and invoices the vendor's stock only when used.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vendor-consignment",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Receives consignment stock at expected cost without net balance sheet impact",
+      "Recognises usage on sales, production and assembly consumption, negative adjustments, returns and transfers out",
+      "Matches usage to the original receipt so the PO price is used",
+      "Batch job creates one draft purchase invoice per vendor up to a chosen date",
+      "Send as buyer-created tax invoice or usage statement",
+      "Reversing usage puts stock back on consignment",
+      "Standard cost items supported with a consignment price variance account",
+      "Position by vendor, item and receipt at any time",
+      "Requires the Purchase Accruals app, installed automatically"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Purchase Accruals (Theta)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

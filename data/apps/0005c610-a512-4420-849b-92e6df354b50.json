@@ -8,18 +8,18 @@
     "publisher": "Plumbline Consulting LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.progressussoftware%7CAID.bartender_integration%7CPAPPID.0005c610-a512-4420-849b-92e6df354b50",
-    "lastModified": "2026-08-04T23:01:16.5180502+00:00",
+    "lastModified": "2026-10-14T12:20:08.2692978+00:00",
     "appVersion": "1.10.10008.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://www.velosio.com/products/",
-    "sourceHash": "sha256:df4ce22113d6410b93710616da7e621d48e44b420327e52d6a58b347b9d7589c",
+    "sourceHash": "sha256:60d2d6a0d68202cba537eb6f66e0d6c791abcf8271cc40ac4530dd622ec39eac",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:df4ce22113d6410b93710616da7e621d48e44b420327e52d6a58b347b9d7589c",
-    "mappedOn": null,
-    "summary": "Prints labels via BarTender",
+    "sourceHash": "sha256:60d2d6a0d68202cba537eb6f66e0d6c791abcf8271cc40ac4530dd622ec39eac",
+    "mappedOn": "2026-10-30",
+    "summary": "Prints BarTender labels from any BC page with mapped data, one click.",
     "shape": "connector",
     "primary": [
       {
@@ -31,13 +31,13 @@
       "ng-ux-printing"
     ],
     "claims": [
-      "One-click BarTender label printing from inside BC",
+      "Starts BarTender label printing from BC with one click",
       "Transfers label data automatically to BarTender",
       "Label printing permissions per user or user group",
-      "Maps BC data to BarTender label fields",
-      "Lets users pick labels and print them from any page",
-      "Requires BarTender Automation Edition or higher",
-      "Free trial available"
+      "Maps BC fields to BarTender label fields",
+      "Labels can be assigned to print from any page",
+      "Costs 200 USD per month",
+      "Requires BarTender Automation Edition or higher"
     ],
     "countries": [
       "AT",
@@ -72,7 +72,7 @@
       "BarTender"
     ],
     "requires": [
-      "BarTender Automation Edition"
+      "BarTender Automation Edition or higher (Seagull Scientific)"
     ],
     "deployment": "not_stated",
     "pricing": "subscription",

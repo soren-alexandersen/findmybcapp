@@ -8,37 +8,42 @@
     "publisher": "TRASER Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-mpoxdms-365%7CPAPPID.a60050af-3b6a-479b-b192-71e4c43cfa11",
-    "lastModified": "2026-08-10T13:55:31.0328498+00:00",
-    "appVersion": "2603.260702.20260810.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-09T08:05:35.7050626+00:00",
+    "appVersion": "2802.260705.20261009.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://academy.traser-software.de/",
-    "sourceHash": "sha256:3ec33950f3769d0b3a166c0c6e565b0d7a7e5b67341abdfd12ef0c0cc452bb29",
+    "sourceHash": "sha256:e0e4c5e4b8afa4f544961c424866e31cd79e845121a17dff2d08b4f0a651bbd0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3ec33950f3769d0b3a166c0c6e565b0d7a7e5b67341abdfd12ef0c0cc452bb29",
-    "mappedOn": null,
-    "summary": "Publishes machine adverts from Aptean Equipment DMS",
+    "sourceHash": "sha256:e0e4c5e4b8afa4f544961c424866e31cd79e845121a17dff2d08b4f0a651bbd0",
+    "mappedOn": "2026-10-30",
+    "summary": "Publishes machine ads and runs machine valuations from Aptean Equipment DMS via MachinePortalOnline.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-equipment-dealers",
         "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-conn-marketplaces",
       "ng-sales-pricing"
     ],
     "claims": [
-      "Create and manage machine advertisements in the DMS",
-      "Advertising workflows for machines, new and used",
-      "Control advertisement status and publication",
-      "Machine valuation within DMS workflows",
-      "Pricing support based on marketplace data",
-      "Valuation workflow gathering suggestions from teammates",
-      "Extended salespeople master data"
+      "Machine adverts are created and managed inside the DMS",
+      "Separate ad workflows for new and used machines",
+      "Controls ad status and publication",
+      "Machine valuation within DMS workflows using marketplace data",
+      "Valuation workflow collects suggestions from colleagues",
+      "Extra salesperson master data",
+      "Requires Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +51,7 @@
       "en"
     ],
     "industries": [
-      "Equipment dealers"
+      "Machine dealers"
     ],
     "connectsTo": [
       "Aptean MachinePortalOnline"
@@ -55,7 +60,7 @@
       "Aptean Equipment DMS"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

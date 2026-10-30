@@ -8,19 +8,21 @@
     "publisher": "Northern Dynamic GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.northerndynamic%7CAID.northerncomfortreverse%7CPAPPID.d5ddef4d-5dfd-452e-b101-f14be5f2ccf9",
-    "lastModified": "2026-09-03T12:08:10.6064577+00:00",
-    "appVersion": "1.0.182.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T20:02:12.7643485+00:00",
+    "appVersion": "1.0.193.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.northerndynamic.de/",
-    "sourceHash": "sha256:9a5001fb383d93daa92c047a42f0e5cd7101cf2b8362f9640791c34858f6a215",
+    "sourceHash": "sha256:6eb92cb8c63785fff5180d401b4083c10058564a223eb01bf0cdf41b3e9f9fb2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9a5001fb383d93daa92c047a42f0e5cd7101cf2b8362f9640791c34858f6a215",
-    "mappedOn": null,
-    "summary": "Prepares reversals in general journal for non-reversible entries",
-    "shape": "process",
+    "sourceHash": "sha256:6eb92cb8c63785fff5180d401b4083c10058564a223eb01bf0cdf41b3e9f9fb2",
+    "mappedOn": "2026-10-30",
+    "summary": "Builds reversal lines in a general journal for entries standard reverse can't handle",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-correct-posted",
@@ -31,17 +33,21 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-period-close"
+    ],
     "claims": [
-      "Prepares reversal as general journal lines instead of posting",
-      "Start from G/L register, G/L entries, or customer/vendor/employee/bank entries",
-      "Uses original entry's posting group",
-      "Keeps original general and VAT posting groups so VAT entries are recreated",
-      "Copies dimensions one to one",
-      "Uses original exchange rate",
-      "Preview with warnings before lines reach journal",
-      "Stops on fixed asset entries; warns that item/project quantities are untouched",
-      "Own log detects duplicate reversals"
+      "Handles cases standard reversal refuses: applied entries, closed periods, blocked document types",
+      "Does not post itself; you post the journal with your usual checks, approvals and number series",
+      "Can start from a G/L register, G/L entries, or customer, vendor, employee or bank entries",
+      "Subledger reversal lines use the posting group from the original entry rather than the master record",
+      "Keeps original general and VAT posting groups so VAT entries are recreated correctly",
+      "Copies dimensions unchanged",
+      "Uses the original exchange rate so no artificial currency difference arises",
+      "Clears the document type so the counter-entry can be posted",
+      "Can reopen a fiscal year that was closed by mistake",
+      "Keeps a log and warns if the same transaction is prepared twice, with date and user",
+      "Preview of every line before it reaches the journal"
     ],
     "countries": [],
     "languages": [],
@@ -49,7 +55,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

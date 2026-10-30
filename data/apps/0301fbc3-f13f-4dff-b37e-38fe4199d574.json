@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365hsm%7CPAPPID.0301fbc3-f13f-4dff-b37e-38fe4199d574",
-    "lastModified": "2026-09-16T16:57:47.3837646+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:45:43.3383666+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/hazmat/index.html",
-    "sourceHash": "sha256:f9dc3b07502d31cc15c17ac40acef77cf382bfaa80a56ca2a178dd80ec5d375d",
+    "sourceHash": "sha256:e3f1dc0d2ab411f194adba459ff04986ec474d8d3d2ab87270b2bb92b2747486",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f9dc3b07502d31cc15c17ac40acef77cf382bfaa80a56ca2a178dd80ec5d375d",
-    "mappedOn": null,
-    "summary": "Interfaces hazardous substance management systems for compliance",
+    "sourceHash": "sha256:e3f1dc0d2ab411f194adba459ff04986ec474d8d3d2ab87270b2bb92b2747486",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC to Chemdox or Epos for GHS data, safety data sheets and ADR documents.",
     "shape": "connector",
     "primary": [
       {
@@ -32,17 +34,18 @@
       }
     ],
     "secondary": [
-      "ng-vert-life-sciences"
+      "ng-bom-formula-engineering",
+      "ng-barcode-labels"
     ],
     "claims": [
-      "Connects Chemdox or Epos hazardous substance management systems to BC",
-      "Transfers items for GHS classification and stores results in BC",
-      "Creates ADR accompanying documents",
-      "Dispatches safety data sheets to customers automatically",
-      "Sends revised SDS to all recipients of the last year",
-      "One-click hazardous substance register and fire department inventory list",
-      "Uses stored classification data on labels and documents",
-      "Creates recipes from BOMs and transfers to HSM system"
+      "Connects Chemdox or Epos hazardous substance systems",
+      "Sends items for GHS classification and stores the result in BC",
+      "Produces a hazardous substance register and fire department inventory list",
+      "Creates shipments with printable ADR documents from posted outgoing documents",
+      "Sends safety data sheets automatically",
+      "Revised safety data sheets go to all recipients from the past year",
+      "Recipes built from BOMs are sent to the HSM system",
+      "Stored classification data can print on labels"
     ],
     "countries": [
       "AD",
@@ -141,7 +144,7 @@
       "nl"
     ],
     "industries": [
-      "Chemicals"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [
       "Chemdox",
@@ -149,7 +152,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

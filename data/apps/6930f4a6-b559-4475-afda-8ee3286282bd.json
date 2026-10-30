@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.asktallyaps|AID.tally-bc|PAPPID.6930f4a6-b559-4475-afda-8ee3286282bd",
+  "guid": "6930f4a6-b559-4475-afda-8ee3286282bd",
+  "publisherId": "asktallyaps",
+  "offerId": "tally-bc",
+  "source": {
+    "name": "Tally",
+    "publisher": "Tally ApS",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asktallyaps%7CAID.tally-bc%7CPAPPID.6930f4a6-b559-4475-afda-8ee3286282bd",
+    "lastModified": "2026-10-08T11:44:32.170094+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://asktally.com/help",
+    "sourceHash": "sha256:3298e364a6f02236733e3d33d9fd1d0a5d8359c38fc3b9b2b54c4b48a589851d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3298e364a6f02236733e3d33d9fd1d0a5d8359c38fc3b9b2b54c4b48a589851d",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC finance data to an external AI service for plain-language finance questions.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-collections",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Extension only holds a setup page; syncing and AI run in Tally's external service",
+      "Connects via Microsoft Entra ID OAuth2 and standard BC APIs",
+      "Needs only read access, no SUPER permission",
+      "Syncs G/L entries, chart of accounts, customers, vendors, invoices, credit memos and aging summaries",
+      "Answers P&L and account movement questions",
+      "Answers receivables and payables questions such as overdue balances and vendor spend",
+      "Does not store business data in BC beyond its setup record",
+      "Version 1 covers G/L performance and receivables/payables only"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Tally"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,18 +8,20 @@
     "publisher": "Alterna",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.c411a03a-7f5d-429d-9c13-c12a01fe797b%7CPAPPID.c411a03a-7f5d-429d-9c13-c12a01fe797b",
-    "lastModified": "2026-09-24T07:40:27.8595396+00:00",
-    "appVersion": "3.25.71.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T16:53:02.4541896+00:00",
+    "appVersion": "3.26.77.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://alternanet.it/app/extended-warehouse-suite/",
-    "sourceHash": "sha256:dc4c77adce5ea2afbfd1d1ac83fd76f8b46d0d17915b1eb048e34e30cc7af9ae",
+    "sourceHash": "sha256:0d35eaaec70f93d700da8b67c696bce8e036059ff7d2030c6d0832793c6a5bfe",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dc4c77adce5ea2afbfd1d1ac83fd76f8b46d0d17915b1eb048e34e30cc7af9ae",
-    "mappedOn": null,
-    "summary": "Warehouse enhancements such as combined shipments and invoicing",
+    "sourceHash": "sha256:0d35eaaec70f93d700da8b67c696bce8e036059ff7d2030c6d0832793c6a5bfe",
+    "mappedOn": "2026-10-30",
+    "summary": "Warehouse extension for combining orders and shipments, batch shipment creation and handling units.",
     "shape": "process",
     "primary": [
       {
@@ -27,37 +29,38 @@
         "confidence": "high"
       },
       {
-        "need": "ng-sales-invoicing",
+        "need": "ng-allocation-picking",
         "confidence": "medium"
       },
       {
-        "need": "ng-warehouse-setup",
+        "need": "ng-sales-invoicing",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-receiving-putaway",
       "ng-transport-planning",
-      "ng-allocation-picking"
+      "ng-warehouse-setup"
     ],
     "claims": [
-      "Shipment/receipt profiles drive shipping, receiving and invoicing",
-      "Combines orders into cumulative shipping/receiving documents",
-      "Combines shipments/return receipts into cumulative invoices",
-      "Grouping codes for shipping and invoicing policies",
-      "Preview of how grouping combines documents before posting",
-      "Automatic or manual closing of uninvoiced shipments/receipts",
-      "Batch creation of warehouse shipments/receipts",
-      "Shipment/receipt planning worksheet",
-      "Handling units with pallets, boxes etc.",
-      "Multi-level handling unit structure",
-      "Mandatory handling units on transactions",
-      "Handling units across sales, purchase, transfer, adjustment, warehouse and production",
-      "Handling unit ledger log",
-      "Prints handling unit content and packing list",
-      "Automatic packing instructions via rules",
-      "Warehouse shipments can carry lines that are not items",
-      "Lets users remove partial warehouse shipments and receipts that were already posted",
-      "Integration with Electronic Invoicing for Italy"
+      "Profiles set parameters for shipping, receiving and invoicing",
+      "Combines several orders into one shipment or receipt document",
+      "Combines shipments or return receipts into one invoice",
+      "User-defined grouping codes control how documents are combined",
+      "Previews how documents will be grouped before posting",
+      "Closes uninvoiced shipments or receipts automatically or manually",
+      "Creates warehouse shipments and receipts in batch",
+      "Worksheet to simulate and plan shipments and receipts",
+      "Multi-level handling units such as pallets and boxes",
+      "Handling units can be made mandatory on transactions",
+      "Handling units work across sales, purchase, transfer, adjustment, warehouse and production documents",
+      "Handling unit transactions are logged in their own ledger",
+      "Prints handling unit contents and packing lists",
+      "Packing instructions are generated from predefined rules",
+      "Non-item lines can be shipped on warehouse shipments",
+      "Partially posted warehouse shipments and receipts can be deleted",
+      "Integrates with the publisher's Italian e-invoicing app",
+      "Available in English and Italian"
     ],
     "countries": [],
     "languages": [
@@ -66,7 +69,7 @@
     ],
     "industries": [
       "Distribution",
-      "Manufacturing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],

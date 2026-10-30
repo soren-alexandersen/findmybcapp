@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2inriver%7CPAPPID.c1f0a47d-eff5-4b11-8e00-351135d0ac4e",
-    "lastModified": "2025-06-12T08:11:28.9719946+00:00",
+    "lastModified": "2026-10-19T10:35:23.6092854+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:abf895c3f5d344ba2f6b758c79b3bac1255329d4cdc26a5b6a132d7e45890314",
+    "sourceHash": "sha256:2fb6ce476cbaa21f9b62f1c68f3699d60b833e6f38c7a671ba70c4425e7c37df",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:abf895c3f5d344ba2f6b758c79b3bac1255329d4cdc26a5b6a132d7e45890314",
-    "mappedOn": null,
-    "summary": "Integrates inriver PIM with BC",
+    "sourceHash": "sha256:2fb6ce476cbaa21f9b62f1c68f3699d60b833e6f38c7a671ba70c4425e7c37df",
+    "mappedOn": "2026-10-30",
+    "summary": "Managed integration between BC and inriver product information management.",
     "shape": "connector",
     "primary": [
       {
@@ -29,12 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires inriver",
-      "Built on Codeunit OmniConnect integration platform"
+      "Connects inriver PIM to BC",
+      "Subscription includes managed deployment and monitored data flows",
+      "Setup through BC assisted setup and Plug-n-Sell verification",
+      "Fully functional free trial",
+      "Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -44,9 +45,7 @@
     "connectsTo": [
       "inriver"
     ],
-    "requires": [
-      "inriver"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

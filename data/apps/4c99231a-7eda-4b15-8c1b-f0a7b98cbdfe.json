@@ -8,36 +8,39 @@
     "publisher": "Dynaway A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-tool-crib%7CPAPPID.4c99231a-7eda-4b15-8c1b-f0a7b98cbdfe",
-    "lastModified": "2026-08-05T10:51:44.8429954+00:00",
-    "appVersion": "2607.0.1501.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:30:16.0024649+00:00",
+    "appVersion": "2610.0.1519.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.dynaway.com/eam-bc/",
-    "sourceHash": "sha256:d852396d1adc6bc10ab95f0bc5cd2f4958b6f559c7b030bdb4ff176255375ae1",
+    "sourceHash": "sha256:7c7bccd745a6e1f2aa3e04eb1a16ecd02a2214c7c33a26d33dbab202ad655f01",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d852396d1adc6bc10ab95f0bc5cd2f4958b6f559c7b030bdb4ff176255375ae1",
-    "mappedOn": null,
-    "summary": "Manages issue and return of tools in a tool crib",
-    "shape": "process",
+    "sourceHash": "sha256:7c7bccd745a6e1f2aa3e04eb1a16ecd02a2214c7c33a26d33dbab202ad655f01",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks tool handouts, returns, location and maintenance condition inside Dynaway EAM.",
+    "shape": "addon",
     "primary": [
       {
-        "need": "ng-fa-register",
+        "need": "ng-maintenance-planned",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-assets",
+        "confidence": "low"
       }
     ],
-    "secondary": [
-      "ng-maintenance-planned"
-    ],
+    "secondary": [],
     "claims": [
-      "Registers tool handouts and returns",
-      "Tracks where tools are kept and who has taken them",
+      "Registers who takes a tool and when it is returned",
       "Tracks tool condition and age",
-      "Creates maintenance work orders for tools",
-      "Counter-based tool maintenance such as calibration after hours",
-      "Tool information in a tree hierarchy",
-      "Keeps compliance and warranty information"
+      "Counter-based tool maintenance such as calibration after set hours",
+      "Tool information organized in a tree hierarchy",
+      "Holds compliance and warranty information for tools",
+      "Included in a paid Dynaway EAM plan"
     ],
     "countries": [],
     "languages": [
@@ -50,14 +53,14 @@
       "sv"
     ],
     "industries": [
-      "Energy",
+      "Energy & Resources",
       "Manufacturing"
     ],
     "connectsTo": [],
     "requires": [
       "Dynaway EAM"
     ],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

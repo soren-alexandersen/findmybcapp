@@ -8,18 +8,20 @@
     "publisher": "Insight Works",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.12968b6e-b233-40e8-8ebc-160ee407d489%7CPAPPID.12968b6e-b233-40e8-8ebc-160ee407d489",
-    "lastModified": "2026-07-17T01:33:27.4552181+00:00",
-    "appVersion": "7.15.9692.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T16:43:28.1335036+00:00",
+    "appVersion": "7.16.9783.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/shop-floor-insight/product-help/",
-    "sourceHash": "sha256:a72494de89f32c9b3051914624e4fa5821ca231a556fdcb47d2f664f3a6a162a",
+    "sourceHash": "sha256:92301307f40e77104eb5abb6d8e01c959c5b3f189ffeed092245253e78181cda",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a72494de89f32c9b3051914624e4fa5821ca231a556fdcb47d2f664f3a6a162a",
-    "mappedOn": null,
-    "summary": "Shop floor MES with barcoded time capture",
+    "sourceHash": "sha256:92301307f40e77104eb5abb6d8e01c959c5b3f189ffeed092245253e78181cda",
+    "mappedOn": "2026-10-30",
+    "summary": "Shop floor data capture by barcode or touchscreen, plus time and attendance.",
     "shape": "process",
     "primary": [
       {
@@ -33,18 +35,22 @@
     ],
     "secondary": [
       "ng-scrap-rework",
+      "ng-hr-payroll-comp",
+      "ng-proj-time",
       "ng-admin-devices"
     ],
     "claims": [
-      "MES add-on with barcode scanners or touch screens for shop data",
-      "Barcode time capture on jobs, fixed assets, service orders and production orders",
-      "Captures consumption, output, scrap and quality on the floor",
-      "Records non-productive and rework time",
-      "Time and attendance by employee shift with exception reporting",
-      "Exception-based supervisor time approval",
+      "MES add-on using barcode scanners or touch screens",
+      "Scans time against production orders, jobs, service orders and fixed assets",
+      "Records consumption, output, scrap and quality on the floor",
+      "Tracks non-productive and rework time",
+      "Shift-based time and attendance with exception reporting",
+      "Supervisors approve time by exception",
       "Calculates overtime and shift differentials for payroll",
-      "Shared or individual shop terminals",
-      "Data available in Power BI"
+      "Shared or personal terminals on the shop floor",
+      "Data available in Power BI for reporting",
+      "Configurable payroll rules with built-in validation",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -62,14 +68,15 @@
       "sv"
     ],
     "industries": [
-      "Manufacturing"
+      "Energy & Resources",
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [
       "Power BI"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

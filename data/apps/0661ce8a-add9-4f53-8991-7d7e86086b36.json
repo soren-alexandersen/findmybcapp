@@ -8,32 +8,39 @@
     "publisher": "conion media GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.anveogroup-1403319%7CAID.anveo_mobile_app%7CPAPPID.0661ce8a-add9-4f53-8991-7d7e86086b36",
-    "lastModified": "2026-09-29T13:05:12.719026+00:00",
-    "appVersion": "13.0.1.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T12:27:11.0439807+00:00",
+    "appVersion": "13.0.1.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://anvaigo.cc/docs-app",
-    "sourceHash": "sha256:baf5c8130981585b0d85802231b4ac1cd60f7a0b861e56319db650e1d2cfd09b",
+    "sourceHash": "sha256:15ed5085beb11b6e8305ce237229cfae46c231478a28916ed35e85e9646a16d5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:baf5c8130981585b0d85802231b4ac1cd60f7a0b861e56319db650e1d2cfd09b",
-    "mappedOn": null,
-    "summary": "Mobile app for field teams synced with BC",
-    "shape": "connector",
+    "sourceHash": "sha256:15ed5085beb11b6e8305ce237229cfae46c231478a28916ed35e85e9646a16d5",
+    "mappedOn": "2026-10-30",
+    "summary": "No-code builder for offline-capable mobile apps on BC data; templates sold separately.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-devices",
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-svc-field-execution",
+      "ng-sales-order-entry"
+    ],
     "claims": [
-      "No-code/low-code mobile app builder for Business Central",
-      "App builder only, without pre-configured solutions",
-      "Out-of-the-box offline capability",
-      "Responsive design for all device types",
-      "Mobile app runs on Windows, iPhone, iPad and Android"
+      "Builds custom mobile apps on BC with no or low code",
+      "Apps work fully offline",
+      "Layout adapts to any device type and screen size",
+      "This listing is the builder only, with no preconfigured apps",
+      "Ready-made sales, service and delivery apps are separate listings",
+      "Client runs on Windows, iPhone, iPad and Android",
+      "Available in English and German"
     ],
     "countries": [],
     "languages": [
@@ -44,7 +51,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

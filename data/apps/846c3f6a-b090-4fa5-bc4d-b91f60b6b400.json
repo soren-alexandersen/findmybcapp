@@ -8,14 +8,14 @@
     "publisher": "Konica Minolta Business Solutions Deutschland GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.konica-minolta-de-bs%7CAID.alternate-positions%7CPAPPID.846c3f6a-b090-4fa5-bc4d-b91f60b6b400",
-    "lastModified": "2026-09-16T04:52:11.1331641+00:00",
+    "lastModified": "2026-10-27T10:37:29.2771177+00:00",
     "appVersion": "1.0.6752.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
-    "freeTrial": "1 Month",
-    "helpLink": "http://apps.dynamics.azure.it.konicaminolta.de/AlternatePositions/en-US/intro.html",
+    "freeTrial": null,
+    "helpLink": "https://apps.dynamics.azure.it.konicaminolta.de/AlternatePositions/en-US/intro.html",
     "sourceHash": "sha256:1fdba18ce271cb64db5bdda5704963908cb1b547ea5ac8ea3065b06019f6ac0a",
     "mentionsBC": true
   },

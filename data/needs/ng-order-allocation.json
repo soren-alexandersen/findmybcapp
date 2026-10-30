@@ -98,9 +98,9 @@
         }
       ],
       "coverage": {
-        "Oldest orders first": 0.17,
-        "Most important customers": 0.14,
-        "Earliest delivery date": 0.24
+        "Oldest orders first": 0.19,
+        "Most important customers": 0.13,
+        "Earliest delivery date": 0.23
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       ],
       "coverage": {
-        "Yes, reserve against incoming supply": 0.28
+        "Yes, reserve against incoming supply": 0.29
       }
     },
     {
@@ -155,7 +155,7 @@
         }
       ],
       "coverage": {
-        "Yes, several locations": 0.17
+        "Yes, several locations": 0.16
       }
     },
     {
@@ -181,7 +181,7 @@
         }
       ],
       "coverage": {
-        "Yes, create picks/shipments": 0.28
+        "Yes, create picks/shipments": 0.29
       }
     },
     {
@@ -202,7 +202,12 @@
             "fulfillability",
             "classifies orders",
             "completely, partially",
-            "what can ship"
+            "what can ship",
+            "item availability",
+            "availability (page|indicators?)",
+            "ship(s)? (partially|complete|in full)|partially or in full",
+            "what blocks",
+            "shipped and outstanding"
           ]
         },
         {
@@ -214,7 +219,10 @@
             "soft reservations",
             "hard reservations",
             "reservation quota",
-            "allocates sales orders"
+            "allocates sales orders",
+            "one-click reservations",
+            "allocates stock to sales orders",
+            "delivery worksheet"
           ]
         },
         {
@@ -223,8 +231,8 @@
         }
       ],
       "coverage": {
-        "See status on the orders": 0.31,
-        "Reserve automatically": 0.41
+        "See status on the orders": 0.39,
+        "Reserve automatically": 0.32
       }
     },
     {
@@ -244,7 +252,7 @@
         }
       ],
       "coverage": {
-        "Yes, backorders are common": 0.24
+        "Yes, backorders are common": 0.26
       }
     }
   ]

@@ -52,7 +52,10 @@
     "promotion uplift forecast",
     "We want a campaign calendar that purchasing and the warehouse can see in advance",
     "Plan next year's campaigns by month with budget and expected sales lift",
-    "Is there an app that links planned sales campaigns in BC to item demand?"
+    "Is there an app that links planned sales campaigns in BC to item demand?",
+    "Our purchase suggestions should respect supplier lead times and minimum order quantities",
+    "We want to fill containers when we order from overseas suppliers",
+    "We want alerts before items run out or pile up"
   ],
   "questions": [
     {
@@ -92,7 +95,10 @@
             "slim4",
             "cloud app connected",
             "integrates with any erp",
-            "exports? (bc )?data to"
+            "exports? (bc )?data to",
+            "databricks",
+            "azure hosting",
+            "azure functions"
           ]
         },
         {
@@ -101,8 +107,8 @@
         }
       ],
       "coverage": {
-        "Inside Business Central": 0.38,
-        "In a separate planning tool connected to BC": 0.35
+        "Inside Business Central": 0.35,
+        "In a separate planning tool connected to BC": 0.38
       }
     },
     {
@@ -119,7 +125,8 @@
             "reorder quantit",
             "planning parameters",
             "minimum order level",
-            "maximum inventory"
+            "maximum inventory",
+            "service levels?"
           ]
         },
         {
@@ -158,9 +165,9 @@
         }
       ],
       "coverage": {
-        "Reorder points and safety stock": 0.35,
-        "Purchase or production order proposals": 0.27,
-        "BC demand forecast / MRP planning": 0.23,
+        "Reorder points and safety stock": 0.42,
+        "Purchase or production order proposals": 0.31,
+        "BC demand forecast / MRP planning": 0.27,
         "Sales or item budgets": 0.12
       }
     },
@@ -212,7 +219,7 @@
       "coverage": {
         "AI or machine learning": 0.35,
         "Statistical methods with seasonality": 0.35,
-        "Simple formulas I can adjust": 0.31
+        "Simple formulas I can adjust": 0.23
       }
     },
     {
@@ -260,17 +267,127 @@
           ]
         },
         {
+          "label": "Dashboards and stock-out or overstock alerts",
+          "patterns": [
+            "dashboard",
+            "stock-?outs?",
+            "overstock",
+            "over- and under-stock",
+            "stock projection",
+            "first shortage",
+            "root-cause"
+          ]
+        },
+        {
           "label": "None of these",
           "any": true
         }
       ],
       "coverage": {
-        "Seasonal items or campaigns": 0.23,
+        "Seasonal items or campaigns": 0.19,
         "Forecasts per customer": 0.08,
-        "Several warehouses or locations": 0.42,
+        "Several warehouses or locations": 0.46,
         "Editing forecasts in Excel": 0.15,
-        "ABC classification of items": 0.23
+        "ABC classification of items": 0.23,
+        "Dashboards and stock-out or overstock alerts": 0.23
       }
+    },
+    {
+      "id": "what-must-your-purchase-sugges",
+      "text": "What must your purchase suggestions respect when you order from suppliers?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Supplier lead times",
+          "patterns": [
+            "lead[- ]times?",
+            "supplier performance"
+          ]
+        },
+        {
+          "label": "Minimum order quantities and pack sizes",
+          "patterns": [
+            "minimum order",
+            "\\bmoq\\b",
+            "pack sizes",
+            "multiples"
+          ]
+        },
+        {
+          "label": "Container, weight or volume limits",
+          "patterns": [
+            "container",
+            "weight, volume"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Supplier lead times": 0.27,
+        "Minimum order quantities and pack sizes": 0.19,
+        "Container, weight or volume limits": 0.19
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "already covered by the order proposals option",
+      "terms": [
+        "proposal"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "consumption history as forecast input, used by most apps",
+      "terms": [
+        "consumption"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "historical data as forecast input, generic",
+      "terms": [
+        "historical"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'supply' wording",
+      "terms": [
+        "supply"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'actual' wording, mixed topics",
+      "terms": [
+        "actual"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'back' wording (write back, back order)",
+      "terms": [
+        "back"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'write' wording",
+      "terms": [
+        "writ"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'level' wording",
+      "terms": [
+        "level"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

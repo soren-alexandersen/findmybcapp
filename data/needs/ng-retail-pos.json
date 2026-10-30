@@ -48,7 +48,9 @@
             "(lightspeed|sitoo|front systems|zettle|vend|epos now|flexpos|icg|visionpoint|foodics|tabletpos|pos365|ka-ching|rmh|cash it|9opoint|ari pos)\\b",
             "external pos",
             "sales-based integration",
-            "requires (sitoo|front systems)"
+            "requires (sitoo|front systems)",
+            "plu to the pos",
+            "to a retail point of sale system"
           ]
         },
         {
@@ -81,8 +83,8 @@
         }
       ],
       "coverage": {
-        "Yes, connect our existing POS to BC": 0.31,
-        "No, we want a till that runs inside BC": 0.23
+        "Yes, connect our existing POS to BC": 0.32,
+        "No, we want a till that runs inside BC": 0.22
       }
     },
     {
@@ -155,7 +157,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.14
+        "Yes": 0.12
       }
     },
     {
@@ -207,8 +209,8 @@
       ],
       "coverage": {
         "Card terminal linked to the till": 0.18,
-        "Gift cards and vouchers": 0.15,
-        "On account / invoice for business customers": 0.11
+        "Gift cards and vouchers": 0.14,
+        "On account / invoice for business customers": 0.14
       }
     },
     {
@@ -251,8 +253,8 @@
         }
       ],
       "coverage": {
-        "Shop or retail chain": 0.55,
-        "Restaurant, cafe or hospitality": 0.12,
+        "Shop or retail chain": 0.59,
+        "Restaurant, cafe or hospitality": 0.14,
         "Trade counter, parts desk or fuel station": 0.05
       }
     },
@@ -302,7 +304,7 @@
       ],
       "coverage": {
         "Cash count and X/Z reports": 0.16,
-        "Automatic posting of the day's sales to BC": 0.15
+        "Automatic posting of the day's sales to BC": 0.12
       }
     },
     {
@@ -331,8 +333,74 @@
         }
       ],
       "coverage": {
-        "Several shops": 0.3
+        "Several shops": 0.27
       }
+    },
+    {
+      "id": "must-the-till-keep-selling-whe",
+      "text": "Must the till keep selling when the internet is down?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, offline selling",
+          "patterns": [
+            "selling offline",
+            "offline selling"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, offline selling": 0.05
+      }
+    },
+    {
+      "id": "do-you-run-a-loyalty-programme",
+      "text": "Do you run a loyalty programme or promotions at the till?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, loyalty points or promotions",
+          "patterns": [
+            "loyalty",
+            "promotions?\\b",
+            "cashback"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, loyalty points or promotions": 0.2
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "returns at the till are standard in every POS",
+      "terms": [
+        "return"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic product sync wording",
+      "terms": [
+        "product"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic sync wording",
+      "terms": [
+        "sync"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

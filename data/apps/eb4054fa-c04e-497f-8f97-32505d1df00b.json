@@ -8,18 +8,20 @@
     "publisher": "Adfocom Software",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.greenline-vmp%7CPAPPID.eb4054fa-c04e-497f-8f97-32505d1df00b",
-    "lastModified": "2026-07-13T12:19:04.8457909+00:00",
-    "appVersion": "26.2.2.20",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:15:12.6168452+00:00",
+    "appVersion": "26.2.2.23",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.adfocom.nl/helpdesk/",
-    "sourceHash": "sha256:c4a92e64fd7037020f6de0e369007e67fb2d0819542be45192137948a76c6ce8",
+    "sourceHash": "sha256:dca48b12a22609db2adbef6848897c1b3d524cbbb141b327b2afca5b6b7a2229",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c4a92e64fd7037020f6de0e369007e67fb2d0819542be45192137948a76c6ce8",
-    "mappedOn": null,
-    "summary": "Exchanges availability and product data with growers via VMP",
+    "sourceHash": "sha256:dca48b12a22609db2adbef6848897c1b3d524cbbb141b327b2afca5b6b7a2229",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges live flower and plant availability, product data and orders with suppliers via VMP.",
     "shape": "connector",
     "primary": [
       {
@@ -27,19 +29,24 @@
         "confidence": "high"
       },
       {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      },
+      {
         "need": "ng-purchase-orders",
         "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-supplier-pricing",
       "ng-item-master-data"
     ],
     "claims": [
-      "Imports real-time supplier availability of flowers and plants",
-      "Real-time exchange of stock levels and product availability",
-      "Exchanges product specifications such as quantities, packaging and grading",
-      "Automates order communication between the systems of buyers and suppliers",
-      "Product data based on Floricode standards"
+      "Imports and syncs current flower and plant availability",
+      "Exchanges real-time availability and stock levels",
+      "Exchanges grading, packaging and quantity specifications",
+      "Automates order messages between buyer and supplier",
+      "Product data follows Floricode standards"
     ],
     "countries": [],
     "languages": [],
@@ -54,7 +61,7 @@
       "Greenline"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -106,15 +106,26 @@
           ]
         },
         {
+          "label": "Year-end closing, or reopening a closed year",
+          "patterns": [
+            "year-end",
+            "closing",
+            "close income statement",
+            "reopen",
+            "fiscal year"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Importing entries from files or Excel": 0.24,
-        "Correcting or reversing wrong postings": 0.19,
-        "Approvals and rules on what may be posted": 0.24,
-        "Special registers: cash desk, loans, bonds, investments": 0.24
+        "Importing entries from files or Excel": 0.25,
+        "Correcting or reversing wrong postings": 0.25,
+        "Approvals and rules on what may be posted": 0.3,
+        "Special registers: cash desk, loans, bonds, investments": 0.15,
+        "Year-end closing, or reopening a closed year": 0.2
       }
     },
     {
@@ -146,7 +157,7 @@
       ],
       "coverage": {
         "Excel sheets": 0.1,
-        "CSV or other files exported from another system": 0.14
+        "CSV or other files exported from another system": 0.15
       }
     },
     {
@@ -171,21 +182,13 @@
           ]
         },
         {
-          "label": "Prepare the reversal for review before posting",
-          "patterns": [
-            "prepares? (a )?reversal",
-            "instead of posting"
-          ]
-        },
-        {
           "label": "Doesn't matter",
           "any": true
         }
       ],
       "coverage": {
         "Posted invoices and credit memos": 0.1,
-        "G/L entries or whole registers": 0.24,
-        "Prepare the reversal for review before posting": 0.05
+        "G/L entries or whole registers": 0.25
       }
     },
     {
@@ -213,9 +216,18 @@
         }
       ],
       "coverage": {
-        "Simulate the full outcome": 0.05,
+        "Simulate the full outcome": 0.1,
         "See or print the posting preview as a voucher": 0.1
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'asset' wording with mixed meanings",
+      "terms": [
+        "asset"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

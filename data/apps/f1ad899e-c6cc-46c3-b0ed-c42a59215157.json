@@ -1,0 +1,116 @@
+{
+  "appId": "TYPE.connect|PUBID.qvaliagroupab1663336064096|AID.qvalia-peppol-einvoicing-business-central|PAPPID.f1ad899e-c6cc-46c3-b0ed-c42a59215157",
+  "guid": "f1ad899e-c6cc-46c3-b0ed-c42a59215157",
+  "publisherId": "qvaliagroupab1663336064096",
+  "offerId": "qvalia-peppol-einvoicing-business-central",
+  "source": {
+    "name": "Peppol e-invoicing by Qvalia",
+    "publisher": "Qvalia Group AB",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.qvaliagroupab1663336064096%7CAID.qvalia-peppol-einvoicing-business-central%7CPAPPID.f1ad899e-c6cc-46c3-b0ed-c42a59215157",
+    "lastModified": "2026-10-27T08:45:41.0283956+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://knowledge.qvalia.com/how-to-integrate-qvalia-with-dynamics-365-business-central",
+    "sourceHash": "sha256:25d6899af74a99d46687a13be4a22a2bfbff28f548bb11aa938566e94c9d447e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:25d6899af74a99d46687a13be4a22a2bfbff28f548bb11aa938566e94c9d447e",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends and receives Peppol e-invoices in Business Central, with AI coding of supplier invoices.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-ux-email-sending",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Posted sales invoices and credit notes are picked up hourly and sent over Peppol",
+      "Customers not on Peppol get Finvoice or a PDF by email",
+      "Receives Peppol, EHF, XRechnung and Finvoice supplier invoices",
+      "PDF supplier invoices received by email are converted to structured data for review",
+      "AI suggests accounts and dimensions from your chart of accounts and posting history",
+      "Each incoming invoice is reviewed and approved before posting",
+      "Integration log shows document status and lets you reprocess failures",
+      "Qvalia registers your company on the Peppol network",
+      "Requires Business Central online",
+      "Suppliers must exist in Business Central before their invoices transfer",
+      "Connects through standard BC APIs via a partner integration service",
+      "Amounts are transferred in the invoice currency",
+      "Orders are not synchronised with Business Central",
+      "Certified Peppol access point reaching 45+ countries",
+      "Works with Essentials and Premium"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "BE",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "LT",
+      "LU",
+      "LV",
+      "NG",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "SI",
+      "SK",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "ar",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "Qvalia"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

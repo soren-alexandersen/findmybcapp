@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.73e0ef91-f6d8-4d0b-b561-f31fd9cb90e2%7CPAPPID.5cb838f0-2545-41d9-9f88-bff6ae3dea0c",
-    "lastModified": "2026-07-02T13:16:33.4443766+00:00",
-    "appVersion": "28.1.0.129",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:27:34.3912811+00:00",
+    "appVersion": "29.0.0.139",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:2200e4f63108c9ae428ac8d062a3faf200afe1bac1cce5b2a0525dae85915fdd",
+    "sourceHash": "sha256:8a9742803d3b645aa6df606f453d68ad365709060a39e4ffae7a6c9fcdf5c18d",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:2200e4f63108c9ae428ac8d062a3faf200afe1bac1cce5b2a0525dae85915fdd",
-    "mappedOn": null,
-    "summary": "Lithuanian language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:8a9742803d3b645aa6df606f453d68ad365709060a39e4ffae7a6c9fcdf5c18d",
+    "mappedOn": "2026-10-30",
+    "summary": "Lithuanian user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Lithuanian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Lithuanian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "LT"
@@ -39,14 +41,15 @@
       "lt"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

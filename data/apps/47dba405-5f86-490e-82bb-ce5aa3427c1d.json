@@ -8,39 +8,50 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365vp%7CPAPPID.47dba405-5f86-490e-82bb-ce5aa3427c1d",
-    "lastModified": "2026-09-16T17:17:50.8984739+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:45:33.9200163+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/vp/index.html",
-    "sourceHash": "sha256:39818eff6769cfc6f599e2ffcb6763c899304e1dcf24cde914b4a302ca943337",
+    "sourceHash": "sha256:5d80c93798ffb86e14020f9b112c6735225adf6a3842c13b56e2912818ece11b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:39818eff6769cfc6f599e2ffcb6763c899304e1dcf24cde914b4a302ca943337",
-    "mappedOn": null,
-    "summary": "Visual production order planning",
-    "shape": "process",
+    "sourceHash": "sha256:5d80c93798ffb86e14020f9b112c6735225adf6a3842c13b56e2912818ece11b",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC production orders to the etagis graphical planning board for finite scheduling.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-production-scheduling",
         "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-production-planning"
+      "ng-routings-workcenters",
+      "ng-subcontracting"
     ],
     "claims": [
-      "Graphical planning board for production orders, operations, machines, times and employees",
-      "Two-way sync: planning board changes update BC and vice versa",
-      "Simulate changes before activating",
-      "Finite planning",
+      "Combines BC planning with etagis graphical production planning and optimization",
+      "Visualizes production orders, operations, machines, times and employees on a planning board",
+      "Changes on the planning board update BC data and vice versa",
+      "Changes can be simulated before being activated in BC",
+      "Finite capacity planning",
       "Rule-based simulation and optimization",
-      "Dynamic bottleneck detection",
-      "Considers order networks incl. purchase items and contract manufacturing",
-      "Alternative resources and machine assignments",
-      "Frozen zone and fixations",
-      "Requires Premium edition"
+      "Detects bottlenecks dynamically",
+      "Offers sales, utilization and resource planning views",
+      "Respects dependencies in order networks including purchased items and contract manufacturing",
+      "Supports alternative resources and machine assignments",
+      "Frozen zone and fixed operations are respected",
+      "Shows overdue deadlines in red and includes queue analysis",
+      "Cross-company planning is available on request",
+      "Requires BC Premium edition"
     ],
     "countries": [
       "AD",
@@ -130,13 +141,16 @@
       "de",
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Healthcare",
+      "Manufacturing"
+    ],
     "connectsTo": [
       "etagis"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

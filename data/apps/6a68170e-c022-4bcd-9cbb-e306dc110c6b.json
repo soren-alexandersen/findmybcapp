@@ -8,18 +8,20 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_packinglist%7CPAPPID.6a68170e-c022-4bcd-9cbb-e306dc110c6b",
-    "lastModified": "2026-10-01T16:07:38.1089347+00:00",
-    "appVersion": "5.5.10000.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:23:41.1866838+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-packing-list/",
-    "sourceHash": "sha256:5f214e45f5d2055443d223d880afb0c413decf5125814584f650f3b3a0ceb515",
+    "sourceHash": "sha256:27b3c4b957234ea11f0ba44ece663af743e6416db9cb1c517e620144cb633d5e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5f214e45f5d2055443d223d880afb0c413decf5125814584f650f3b3a0ceb515",
-    "mappedOn": null,
-    "summary": "Packing lists for shipping and receiving",
+    "sourceHash": "sha256:27b3c4b957234ea11f0ba44ece663af743e6416db9cb1c517e620144cb633d5e",
+    "mappedOn": "2026-10-30",
+    "summary": "Multi-level packaging definitions and packing lists on sales, purchase and transfer documents.",
     "shape": "process",
     "primary": [
       {
@@ -28,15 +30,19 @@
       }
     ],
     "secondary": [
-      "ng-warehouse-setup"
+      "ng-receiving-putaway",
+      "ng-item-master-data"
     ],
     "claims": [
-      "Multiple multi-level packaging definitions per item",
-      "Packing content: pallets, boxes, films and consumables",
-      "Packing lists on sales, purchase and transfer documents",
-      "Packaging materials posted to inventory automatically",
-      "Calculates weights and parcel units per packaging level",
-      "60-day free trial"
+      "Adds packing list data to the item card",
+      "Several multi-level packaging definitions per item",
+      "Separates master items such as pallets, packaging such as boxes, and consumables such as film",
+      "Packing lists can be assigned to customers, vendors and transfers",
+      "Packaging materials on documents are posted to inventory automatically",
+      "Packaging on documents can be defined manually",
+      "Assemble or break down packaging structures, calculating weights and parcel counts per level",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -45,7 +51,9 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

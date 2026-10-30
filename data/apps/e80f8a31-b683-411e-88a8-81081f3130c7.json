@@ -4,26 +4,32 @@
   "publisherId": "freightpopinc1681494253334",
   "offerId": "freightpop-bc",
   "source": {
-    "name": "FreightPOP for BC",
+    "name": "FreightPOP for Microsoft Dynamics 365 Business Central",
     "publisher": "FreightPOP, Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.freightpopinc1681494253334%7CAID.freightpop-bc%7CPAPPID.e80f8a31-b683-411e-88a8-81081f3130c7",
-    "lastModified": "2025-11-27T07:03:08.2720904+00:00",
+    "lastModified": "2026-10-27T07:54:27.8882555+00:00",
     "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.freightpop.com/contact",
-    "sourceHash": "sha256:b352fc97abd7768eb829cc35cd46e129ed30f2900f46f869ea1dc08dcacd7b53",
+    "sourceHash": "sha256:9139f9c7e58f32eea97ac7caf5294ab5bc0065705d7d8f567d65deb2ed97138b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b352fc97abd7768eb829cc35cd46e129ed30f2900f46f869ea1dc08dcacd7b53",
-    "mappedOn": null,
-    "summary": "Transportation management across carriers via FreightPOP",
+    "sourceHash": "sha256:9139f9c7e58f32eea97ac7caf5294ab5bc0065705d7d8f567d65deb2ed97138b",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC to FreightPOP for multi-carrier rate shopping, labels, tracking and freight audit.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-freight-cost-audit",
         "confidence": "high"
       },
       {
@@ -32,29 +38,42 @@
       }
     ],
     "secondary": [
-      "ng-freight-cost-audit"
+      "ng-packing-loading"
     ],
     "claims": [
-      "Cloud TMS for parcel, FTL, LTL, rail, ocean and international air",
-      "More than 1,500 carriers",
-      "Automated rate shopping, dispatching and real-time tracking",
-      "Freight invoice auditing",
-      "Shipment pooling, palletization and route optimization",
-      "Yard management and dock scheduling",
-      "Usable as standalone TMS or integrated"
+      "Rate shopping, booking and tracking across carriers",
+      "Covers parcel, LTL, FTL, ocean, rail and international air",
+      "Integrates with LTL carriers, brokers, forwarders and parcel carriers such as FedEx, UPS, USPS and DHL",
+      "Produces labels, return labels, bills of lading, packing slips and commercial invoices",
+      "Rules automate tendering from order to carrier",
+      "Inbound tracking including live ocean containers",
+      "AI agents for load planning, accessorial detection, invoice audit, documents and pickups",
+      "Pulls posted sales shipments from BC every 10 minutes, or on demand",
+      "Imported shipments include address, item, quantity, price, cost, weight and shipping agent",
+      "Writes shipping agent, service and tracking number back to the posted shipment",
+      "Suggests accessorial charges like liftgate or residential delivery when creating shipments",
+      "AI copilot answers freight audit questions in plain language",
+      "MCP server lets AI assistants quote, book and track freight",
+      "Connects through BC web services with Entra ID token authentication",
+      "Aimed at companies shipping 100+ shipments a month across carriers"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Distribution",
-      "Manufacturing"
+      "Manufacturing",
+      "Retail"
     ],
     "connectsTo": [
-      "FreightPOP"
+      "FreightPOP",
+      "FedEx",
+      "UPS",
+      "USPS",
+      "DHL"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

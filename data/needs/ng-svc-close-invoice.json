@@ -32,7 +32,160 @@
     "Warranty jobs must be closed without invoice but still costed",
     "Want a check that photos, signature and checklist are done before closing",
     "Partially finished jobs need to be invoiced and kept open",
-    "Customers dispute invoices because they never got a job report"
+    "Customers dispute invoices because they never got a job report",
+    "Our technicians' hours should land on the invoice without retyping",
+    "We want to add surcharges and roundings to service hours automatically"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "how-do-technicians-record-thei",
+      "text": "How do technicians record their hours and work?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Mobile app in the field",
+          "patterns": [
+            "mobile",
+            "field app",
+            "offline",
+            "job sheets",
+            "photos",
+            "engineer reports"
+          ]
+        },
+        {
+          "label": "Time terminal or clock station",
+          "patterns": [
+            "orderbase",
+            "terminal",
+            "\\bfdc\\b",
+            "factory data capture"
+          ]
+        },
+        {
+          "label": "Start and stop on the service order in BC",
+          "patterns": [
+            "start/end buttons",
+            "times list",
+            "worksheet"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Mobile app in the field": 0.36,
+        "Time terminal or clock station": 0.27,
+        "Start and stop on the service order in BC": 0.18
+      }
+    },
+    {
+      "id": "do-you-plan-jobs-in-a-separate",
+      "text": "Do you plan jobs in a separate field service or PSA system?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Dynamics 365 Field Service",
+          "patterns": [
+            "dynamics 365 field service"
+          ]
+        },
+        {
+          "label": "Another field service or PSA tool",
+          "patterns": [
+            "autotask",
+            "\\bpsa\\b",
+            "field service management",
+            "field app"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Dynamics 365 Field Service": 0.09,
+        "Another field service or PSA tool": 0.36
+      }
+    },
+    {
+      "id": "how-do-you-price-the-work-on-t",
+      "text": "How do you price the work on the invoice?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Hours with roundings and surcharges",
+          "patterns": [
+            "rounding",
+            "surcharg"
+          ]
+        },
+        {
+          "label": "Price list or markup on cost",
+          "patterns": [
+            "price list",
+            "markup"
+          ]
+        },
+        {
+          "label": "Only billable time and expenses",
+          "patterns": [
+            "billable"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Hours with roundings and surcharges": 0.27,
+        "Price list or markup on cost": 0.09,
+        "Only billable time and expenses": 0.18
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "sync and scheduling wording, not a choice point",
+      "terms": [
+        "availability",
+        "location"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI detail on correcting times",
+      "terms": [
+        "correct",
+        "relat",
+        "view"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "service history display, standard",
+      "terms": [
+        "history"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resources' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic sync wording, covered by external system question",
+      "terms": [
+        "sync"
+      ],
+      "on": "2026-10-30"
+    }
+  ]
 }

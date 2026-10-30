@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.feb24589-b13f-4fc0-9194-21c825cd9a08%7CPAPPID.f18dd732-e484-47a3-a11a-d9c6bd37b4bf",
-    "lastModified": "2026-07-02T13:33:33.8291619+00:00",
-    "appVersion": "28.1.0.78",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:04:14.2103004+00:00",
+    "appVersion": "29.0.0.87",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:509504937c01b0dc076a50c5a7f77e5f0ca1fd6efdfa4911196538359f1a863b",
+    "sourceHash": "sha256:fdeaeb3cfefbbf93fb7cca3db6dccb958dd14c4f970d41c437571836c5296e24",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:509504937c01b0dc076a50c5a7f77e5f0ca1fd6efdfa4911196538359f1a863b",
-    "mappedOn": null,
-    "summary": "English (Australia) language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:fdeaeb3cfefbbf93fb7cca3db6dccb958dd14c4f970d41c437571836c5296e24",
+    "mappedOn": "2026-10-30",
+    "summary": "English UI translation of LS Central for users in AU.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,7 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into English",
-      "For users of LS Central SaaS"
+      "Lets staff run the LS Central SaaS base application in English"
     ],
     "countries": [
       "AU"
@@ -39,6 +40,7 @@
       "en"
     ],
     "industries": [
+      "Hospitality",
       "Retail"
     ],
     "connectsTo": [],
@@ -46,7 +48,7 @@
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

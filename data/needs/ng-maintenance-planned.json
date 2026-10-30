@@ -132,8 +132,8 @@
       ],
       "coverage": {
         "Fixed dates or intervals (every 3 months...)": 0.4,
-        "Usage: hours, counters or output": 0.37,
-        "Condition or sensor data": 0.17
+        "Usage: hours, counters or output": 0.46,
+        "Condition or sensor data": 0.2
       }
     },
     {
@@ -166,8 +166,8 @@
         }
       ],
       "coverage": {
-        "Yes": 0.37,
-        "Yes, often without signal (offline)": 0.11
+        "Yes": 0.34,
+        "Yes, often without signal (offline)": 0.09
       }
     },
     {
@@ -192,7 +192,7 @@
         }
       ],
       "coverage": {
-        "Yes, link maintenance to production": 0.23
+        "Yes, link maintenance to production": 0.29
       }
     },
     {
@@ -218,7 +218,7 @@
         }
       ],
       "coverage": {
-        "Yes, track spare parts": 0.51
+        "Yes, track spare parts": 0.54
       }
     },
     {
@@ -240,7 +240,10 @@
             "technician scheduling",
             "resource planning",
             "resource calendar",
-            "work allocation"
+            "work allocation",
+            "schedules?( and dispatch(es)?)? maintenance resources",
+            "calendar view of work orders",
+            "planners see available resources"
           ]
         },
         {
@@ -249,7 +252,7 @@
         }
       ],
       "coverage": {
-        "Yes, drag-and-drop scheduling": 0.23
+        "Yes, drag-and-drop scheduling": 0.29
       }
     },
     {
@@ -273,7 +276,7 @@
         }
       ],
       "coverage": {
-        "Yes, track contractor work and costs": 0.23
+        "Yes, track contractor work and costs": 0.26
       }
     },
     {
@@ -313,10 +316,107 @@
         }
       ],
       "coverage": {
-        "Production machines and plant": 0.43,
-        "Vehicles and fleet": 0.11,
-        "Instruments needing calibration or certificates": 0.06
+        "Production machines and plant": 0.46,
+        "Vehicles and fleet": 0.2,
+        "Instruments needing calibration or certificates": 0.14
       }
+    },
+    {
+      "id": "should-maintenance-run-inside-",
+      "text": "Should maintenance run inside Business Central or in a separate system?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (business central|bc)",
+            "built (natively|into bc)",
+            "embedded in business central",
+            "management in bc",
+            "no separate database",
+            "in bc:"
+          ]
+        },
+        {
+          "label": "A separate maintenance system linked to BC",
+          "patterns": [
+            "ultimo",
+            "alldevice",
+            "dimo maint",
+            "integrable with bc",
+            "combines power app"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.26,
+        "A separate maintenance system linked to BC": 0.17
+      }
+    },
+    {
+      "id": "what-do-you-want-to-follow-up-",
+      "text": "What do you want to follow up on afterwards?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Costs per machine or job",
+          "patterns": [
+            "material (and resource )?(cost|consumption)",
+            "labou?r, material",
+            "planned and actual",
+            "maintenance costs?",
+            "cost (per|tracking)",
+            "costs? vs",
+            "downtime cost",
+            "actual (labou?r|cost)"
+          ]
+        },
+        {
+          "label": "KPIs like MTBF, MTTR and downtime",
+          "patterns": [
+            "mtbf",
+            "mttr",
+            "\\bkpis?\\b",
+            "power bi",
+            "downtime"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Costs per machine or job": 0.29,
+        "KPIs like MTBF, MTTR and downtime": 0.37
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "mixed 'contract' wording (warranties, rental tax)",
+      "terms": [
+        "contract"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic notifications",
+      "terms": [
+        "notification"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'resources' wording",
+      "terms": [
+        "resourc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

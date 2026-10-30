@@ -98,9 +98,9 @@
         }
       ],
       "coverage": {
-        "Chinese, Japanese, Korean or Vietnamese": 0.17,
-        "French, German, Dutch, Spanish, Portuguese, Italian or regional English": 0.3,
-        "Danish, Swedish, Norwegian, Finnish, Icelandic or Baltic": 0.17,
+        "Chinese, Japanese, Korean or Vietnamese": 0.18,
+        "French, German, Dutch, Spanish, Portuguese, Italian or regional English": 0.29,
+        "Danish, Swedish, Norwegian, Finnish, Icelandic or Baltic": 0.18,
         "Central or Eastern European": 0.27,
         "Arabic, Turkish or Georgian": 0.08
       }
@@ -155,7 +155,7 @@
       ],
       "coverage": {
         "Simplified Chinese": 0.03,
-        "Traditional Chinese": 0.06,
+        "Traditional Chinese": 0.07,
         "Japanese": 0.05,
         "Korean": 0.02,
         "Vietnamese": 0.01
@@ -208,8 +208,8 @@
         "French": 0.08,
         "German": 0.06,
         "Dutch": 0.04,
-        "Spanish, Portuguese or Italian": 0.1,
-        "English (UK, Australia, Canada, NZ)": 0.04
+        "Spanish, Portuguese or Italian": 0.09,
+        "English (UK, Australia, Canada, NZ)": 0.03
       }
     },
     {
@@ -260,7 +260,7 @@
         "Swedish": 0.02,
         "Norwegian": 0.03,
         "Finnish or Icelandic": 0.05,
-        "Estonian, Latvian or Lithuanian": 0.07
+        "Estonian, Latvian or Lithuanian": 0.08
       }
     },
     {
@@ -307,8 +307,8 @@
         }
       ],
       "coverage": {
-        "Polish, Czech or Hungarian": 0.07,
-        "Serbian, Croatian, Slovenian, Montenegrin or Albanian": 0.1,
+        "Polish, Czech or Hungarian": 0.08,
+        "Serbian, Croatian, Slovenian, Montenegrin or Albanian": 0.09,
         "Romanian, Bulgarian or Greek": 0.06,
         "Ukrainian or Russian": 0.04
       }
@@ -343,7 +343,7 @@
         }
       ],
       "coverage": {
-        "Arabic": 0.02,
+        "Arabic": 0.03,
         "Turkish": 0.05,
         "Georgian": 0.01
       }
@@ -386,8 +386,8 @@
         }
       ],
       "coverage": {
-        "Standard Business Central": 0.69,
-        "LS Central (retail / hospitality)": 0.27,
+        "Standard Business Central": 0.7,
+        "LS Central (retail / hospitality)": 0.26,
         "Yaveon ProBatch 365": 0.03,
         "EQM 365 Rental or Wisefish": 0.02
       }

@@ -8,45 +8,46 @@
     "publisher": "Theta Systems Limited",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.advanced_landed_cost%7CPAPPID.8ebdc541-0ea9-415e-9532-b25b8ebdc541",
-    "lastModified": "2026-09-02T01:29:34.8230255+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T02:36:47.0095083+00:00",
+    "appVersion": "28.1.2.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.365extensions.com/docs/LC",
-    "sourceHash": "sha256:9336d87cf2b4a14abe94535f344d5aaf792411d830a308a2b7ce111f5408260d",
+    "sourceHash": "sha256:542f9188227b284830e26d5b8716d5e294d5bcd247d0d758da6b1edbb24aa7ec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9336d87cf2b4a14abe94535f344d5aaf792411d830a308a2b7ce111f5408260d",
-    "mappedOn": null,
-    "summary": "Landed cost calculation for imported goods",
+    "sourceHash": "sha256:542f9188227b284830e26d5b8716d5e294d5bcd247d0d758da6b1edbb24aa7ec",
+    "mappedOn": "2026-10-30",
+    "summary": "Estimates and posts landed costs at purchase order time and allocates item charges.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-purchase-orders",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-receiving-putaway",
+        "need": "ng-cost-allocation",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-inventory-analysis",
-      "ng-accruals-deferrals"
+      "ng-receiving-putaway",
+      "ng-freight-cost-audit"
     ],
     "claims": [
-      "Estimates landed costs at purchase order time using configurable rules",
-      "Automatically calculates expected costs when raising a purchase order",
-      "Automatically posts anticipated costs so margin is accurate from the start",
-      "Ties one or several purchase orders to a planned delivery",
-      "Creates inbound documents on its own when goods can be received",
-      "Automatically assigns and apportions item charges",
-      "Associates purchase lines to shipping containers",
-      "Custom fields to store consignment information",
-      "Receipt by individual container or whole consignment",
-      "Extra apportionment options: Quantity, Duty, Amount including Duty",
-      "Covers freight, customs, tariffs, insurance and duty costs"
+      "Calculates expected landed costs when the purchase order is raised, using configurable rules",
+      "Posts anticipated costs upfront so margins are right from the start",
+      "Links several purchase orders to one planned delivery",
+      "Creates inbound documents when goods are ready to receive",
+      "Assigns and apportions item charges automatically",
+      "Purchase lines tied to shipping containers",
+      "Custom fields for consignment information",
+      "Receive by container or full consignment in one click",
+      "Extra apportionment by quantity, duty and amount including duty",
+      "Works with Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -54,12 +55,12 @@
     ],
     "industries": [
       "Distribution",
-      "Manufacturing"
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

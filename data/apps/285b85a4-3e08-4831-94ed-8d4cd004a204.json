@@ -8,40 +8,46 @@
     "publisher": "Inventio.IT",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartaccountant%7CPAPPID.285b85a4-3e08-4831-94ed-8d4cd004a204",
-    "lastModified": "2026-08-14T06:15:56.9164504+00:00",
-    "appVersion": "1.1.20260813.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T10:15:01.4276147+00:00",
+    "appVersion": "1.1.20261020.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/",
-    "sourceHash": "sha256:6cd412190ad4567481dce97889d22fbb1fc09f1e8e872adf87d05e0abf09e02f",
+    "sourceHash": "sha256:d74cfcb04341f99821990da95a7dc8ccb1ebc6b422fc0572ad0eb9f4b8eb57e8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6cd412190ad4567481dce97889d22fbb1fc09f1e8e872adf87d05e0abf09e02f",
-    "mappedOn": null,
-    "summary": "Bookkeeping and year-end tools for accountants",
+    "sourceHash": "sha256:d74cfcb04341f99821990da95a7dc8ccb1ebc6b422fc0572ad0eb9f4b8eb57e8",
+    "mappedOn": "2026-10-30",
+    "summary": "Tools for Danish accountants doing bookkeeping and year-end closing for clients in BC.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-professional-services",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-period-close",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-journals",
-      "ng-financial-statements"
+      "ng-financial-statements",
+      "ng-ux-import-excel"
     ],
     "claims": [
       "Simulates general journals before posting",
-      "Copies previous entries and reverses sign",
-      "Imports from Excel",
-      "Exports to Caseware via file and API/JSON",
-      "Prints balances and auditor's statement",
-      "Guided year-end close with closing sheet for adjusting entries"
+      "Copies earlier entries and reverses their sign",
+      "Imports from Excel and exports to Caseware by file or API/JSON",
+      "Prints trial balances and the auditor's statement",
+      "Guided year-end closing with sheets for adjusting entries",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "DK"
@@ -58,7 +64,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

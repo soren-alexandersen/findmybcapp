@@ -8,23 +8,25 @@
     "publisher": "NAVERTICA a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-handling-units%7CPAPPID.454f7467-66aa-4cec-91d4-bf46833c5f45",
-    "lastModified": "2026-01-29T14:20:02.9641301+00:00",
-    "appVersion": "26.1.283494.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:45:44.764539+00:00",
+    "appVersion": "27.2.373990.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Handling%20Units/Index/",
-    "sourceHash": "sha256:2793899fcc71c27f9921687080f34426b2e08b8b66815fbfbedf6bd662f9a4f1",
+    "sourceHash": "sha256:d8293ab0e4034a2dbb0c92d3362d75512fa9e5c85ff873aa9e52935df6a5543b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2793899fcc71c27f9921687080f34426b2e08b8b66815fbfbedf6bd662f9a4f1",
-    "mappedOn": null,
-    "summary": "Groups warehouse items into handling units",
+    "sourceHash": "sha256:d8293ab0e4034a2dbb0c92d3362d75512fa9e5c85ff873aa9e52935df6a5543b",
+    "mappedOn": "2026-10-30",
+    "summary": "Handling units that group mixed items into one scannable warehouse unit.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-packing-loading",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-stock-movements",
@@ -36,12 +38,12 @@
       "ng-lot-serial-traceability"
     ],
     "claims": [
-      "Combines different items into one handling unit handled without entering item, quantity, lot or serial per line",
-      "Handling units from small package to shipping container, configurable with many parameters",
-      "Handling Unit Journal to insert items, merge, split and move handling units",
-      "Integrates with Navertica Warehouse Mobile App",
-      "Barcodes for entire handling units",
-      "Supports Essentials and Premium editions; Premium not required"
+      "Combines different items into one unit handled without re-entering item, quantity, lot or serial details",
+      "Units range from a small package to a shipping container, with configurable parameters",
+      "Handling unit journal to add items, merge, split and move units",
+      "Barcodes for whole handling units",
+      "Integrates with Navertica Warehouse Mobile",
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -51,8 +53,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

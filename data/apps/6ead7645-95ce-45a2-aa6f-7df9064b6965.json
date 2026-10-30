@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex053_inventoryvaluationandcosting%7CPAPPID.6ead7645-95ce-45a2-aa6f-7df9064b6965",
-    "lastModified": "2026-10-05T13:10:29.814296+00:00",
-    "appVersion": "29.0.8.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T18:42:46.0048525+00:00",
+    "appVersion": "29.0.16.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/inventory-valuation-and-costing.html",
-    "sourceHash": "sha256:bb54ef03ee449edb8437d76be602c7aaeb3864dd49c3f85fe719e856ea6c2369",
+    "sourceHash": "sha256:cd635a66f5243b71635c6721dbd332f40720352888ebb47d8ecc71ec9429a8f9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bb54ef03ee449edb8437d76be602c7aaeb3864dd49c3f85fe719e856ea6c2369",
-    "mappedOn": null,
-    "summary": "Inventory valuation scenarios with different costing methods",
+    "sourceHash": "sha256:cd635a66f5243b71635c6721dbd332f40720352888ebb47d8ecc71ec9429a8f9",
+    "mappedOn": "2026-10-30",
+    "summary": "Inventory valuation scenarios with average cost, weighted average or LIFO and cost drill-down.",
     "shape": "process",
     "primary": [
       {
@@ -28,23 +30,20 @@
       },
       {
         "need": "ng-inventory-analysis",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-period-close"
-    ],
+    "secondary": [],
     "claims": [
-      "Inventory valuation scenarios with different costing configurations",
-      "Freely defined calculation periods and parameters",
-      "Values inventory by weighted average, average operating cost or LIFO",
-      "LIFO by article or cross-article LIFO categories",
-      "Valuation per item/variant, item/lot, item/serial",
-      "Additional costs for full costing",
-      "Archive historical items, BOMs and routings",
-      "Drill down to capacity, component and subcontracting costs",
-      "WIP cost evaluation",
-      "Load pre-go-live cost data"
+      "Define valuation scenarios with own periods and parameters",
+      "Valuation at average operating cost, weighted average or LIFO",
+      "LIFO by item or by LIFO category across items",
+      "Valuation per item/variant, item/lot or item/serial number",
+      "Additional costs included for full costing",
+      "Archives historical items, BOMs and routings for reuse",
+      "Drill-down to capacity, component and subcontracting cost",
+      "Evaluates WIP cost",
+      "Loads pre-go-live cost data for first-year valuation"
     ],
     "countries": [],
     "languages": [
@@ -55,14 +54,17 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

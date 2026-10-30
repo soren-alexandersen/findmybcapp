@@ -8,21 +8,21 @@
     "publisher": "NetPro",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1578958156065%7CAID.netpro_japanese_language_kit%7CPAPPID.33bb190e-270a-44f7-9d13-65dfd5177019",
-    "lastModified": "2026-08-13T12:26:57.5022436+00:00",
-    "appVersion": "28.4.53241.53589",
+    "lastModified": "2026-10-21T08:40:12.6944122+00:00",
+    "appVersion": "29.0.54011.566099",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://www.365bc.jp/extension/japanese-language-kit/",
-    "sourceHash": "sha256:43dfb8ad35fff132a6ef474ee080e4ddc03a3ab02d32fa1f0f822c6123b0b2fe",
+    "sourceHash": "sha256:8dcd0a72c784c3bad8c8f7659a1ca591314f4a60e8e6bad9e7b4090c7bfa2dd5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:43dfb8ad35fff132a6ef474ee080e4ddc03a3ab02d32fa1f0f822c6123b0b2fe",
-    "mappedOn": null,
-    "summary": "Translates the Business Central UI into Japanese",
+    "sourceHash": "sha256:8dcd0a72c784c3bad8c8f7659a1ca591314f4a60e8e6bad9e7b4090c7bfa2dd5",
+    "mappedOn": "2026-10-30",
+    "summary": "Japanese translation of the Business Central base application user interface.",
     "shape": "language",
     "primary": [
       {
@@ -32,13 +32,13 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates the BC base application UI (menus, field names, descriptions) into Japanese",
+      "Translates field names and descriptions on screen into Japanese",
       "Works in browser, app, phone and tablet clients",
+      "Domestic version for companies trading only in Japan",
+      "Priced per user per month or per year",
       "Supports Essentials and Premium editions",
-      "Standard report layouts translated into Japanese",
-      "Shopify extension translated into Japanese",
-      "Domestic edition for companies trading only within Japan",
-      "Annual plan available per user"
+      "Translates standard report layouts into Japanese",
+      "Translates the Shopify connector into Japanese"
     ],
     "countries": [
       "JP"
@@ -49,7 +49,7 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "per_user",
     "hide": false,
     "hideReason": "",

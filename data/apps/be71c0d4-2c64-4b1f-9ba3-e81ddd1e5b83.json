@@ -8,18 +8,20 @@
     "publisher": "OPEXIS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.opexis%7CAID.uscheduler-production%7CPAPPID.be71c0d4-2c64-4b1f-9ba3-e81ddd1e5b83",
-    "lastModified": "2026-10-01T09:04:56.2365229+00:00",
-    "appVersion": "1.11.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T14:30:11.7794584+00:00",
+    "appVersion": "1.26.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://opexis.nl/",
-    "sourceHash": "sha256:e0e6e13b6a1af39be116788cfcf57e7fbfa02c056018372b47fa17779446bf55",
+    "sourceHash": "sha256:3fff46a70d13facdbb3c7a4dec5f6a472e3fb017926989366a7849830326cda3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e0e6e13b6a1af39be116788cfcf57e7fbfa02c056018372b47fa17779446bf55",
-    "mappedOn": null,
-    "summary": "Drag-and-drop production planning board",
+    "sourceHash": "sha256:3fff46a70d13facdbb3c7a4dec5f6a472e3fb017926989366a7849830326cda3",
+    "mappedOn": "2026-10-30",
+    "summary": "Drag-and-drop production scheduling board that writes operation dates back to BC.",
     "shape": "process",
     "primary": [
       {
@@ -28,32 +30,37 @@
       }
     ],
     "secondary": [
-      "ng-routings-workcenters"
+      "ng-routings-workcenters",
+      "ng-production-planning"
     ],
     "claims": [
-      "Visual planning board with day grid, Gantt and full-year capacity overview",
-      "Drag operations onto work centers and days; schedule written straight to the production order",
-      "Production orders that are released land in a backlog that is not yet planned",
-      "Capacity calculated from operator rosters, absences and breaks",
-      "Shop-calendar holidays close the day",
-      "Backlog search and filter by work center and due window, showing overdue",
-      "Order context including BOM, drawings and shop floor activity log from the board",
-      "Saved views per planner",
-      "Closed loop with uShopfloor showing execution status on the board",
-      "No separate planning database beside BC",
-      "Requires uTools Base Application and uTools subscription"
+      "Board offers a weekly day grid, a Gantt chart and a full-year capacity overview",
+      "Released production orders land in an unplanned backlog for the planner",
+      "Dragging an operation to a work center and day commits the schedule to BC immediately",
+      "Moving an operation updates its schedule status and start date and time in BC",
+      "Work center capacity per day is derived from operator rosters, absences and breaks",
+      "Shop calendar holidays close the day and show the reason",
+      "Backlog can be searched by order, item or description and filtered by work center and due window",
+      "Overdue work is flagged in the backlog",
+      "Order lines, operations, BOM, drawings and shop floor activity log are viewable from the board",
+      "Each planner keeps their own saved filters and default view",
+      "Execution status from uShopfloor flows back onto the planning board",
+      "No separate planning database; BC stays the system of record",
+      "Needs the uTools Base Application and a uTools subscription"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Manufacturing"
     ],
-    "connectsTo": [],
+    "connectsTo": [
+      "uShopfloor"
+    ],
     "requires": [
-      "uTools Base Application"
+      "uTools Base Application (OPEXIS)"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

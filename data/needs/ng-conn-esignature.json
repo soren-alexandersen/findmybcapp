@@ -20,7 +20,9 @@
     "Adobe Sign for sales quotes",
     "Sign rental contracts electronically",
     "Qualified electronic signatures for legal documents",
-    "Who signed what and when, for the auditors"
+    "Who signed what and when, for the auditors",
+    "We want the signed copy saved on the order automatically",
+    "We want to see who has signed and who has not"
   ],
   "questions": [
     {
@@ -77,10 +79,10 @@
         }
       ],
       "coverage": {
-        "DocuSign": 0.28,
-        "Adobe, Dropbox Sign, Box Sign or PandaDoc": 0.14,
-        "Another service (Signicat, Visma Sign, Smart-ID, Signhost, eversign...)": 0.31,
-        "No, signing should happen inside Business Central": 0.28
+        "DocuSign": 0.29,
+        "Adobe, Dropbox Sign, Box Sign or PandaDoc": 0.13,
+        "Another service (Signicat, Visma Sign, Smart-ID, Signhost, eversign...)": 0.29,
+        "No, signing should happen inside Business Central": 0.26
       }
     },
     {
@@ -117,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Remotely, from an email link": 0.59,
-        "In person on a tablet or phone (e.g. at delivery)": 0.14
+        "Remotely, from an email link": 0.58,
+        "In person on a tablet or phone (e.g. at delivery)": 0.13
       }
     },
     {
@@ -164,9 +166,9 @@
         }
       ],
       "coverage": {
-        "Sales quotes and orders": 0.41,
-        "Purchase documents": 0.14,
-        "Service orders and contracts": 0.55,
+        "Sales quotes and orders": 0.39,
+        "Purchase documents": 0.16,
+        "Service orders and contracts": 0.58,
         "Deliveries, shipments or warehouse documents": 0.1
       }
     },
@@ -191,7 +193,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.24
+        "Yes": 0.29
       }
     },
     {
@@ -217,7 +219,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.31
+        "Yes": 0.29
       }
     },
     {
@@ -241,8 +243,70 @@
         }
       ],
       "coverage": {
-        "Yes": 0.34
+        "Yes": 0.32
       }
+    },
+    {
+      "id": "what-should-happen-in-bc-while",
+      "text": "What should happen in BC while and after a document is signed?",
+      "multi": true,
+      "options": [
+        {
+          "label": "See where each document stands (sent, viewed, signed)",
+          "patterns": [
+            "\\bstatus\\b",
+            "viewed",
+            "tracks (sent|status|the signature)",
+            "outstanding documents",
+            "cancel",
+            "\\bvoid"
+          ]
+        },
+        {
+          "label": "Signed copy saved back on the record",
+          "patterns": [
+            "attached to (the )?source",
+            "signed [^;]{0,25}(stored|attached|returned|saved)",
+            "stor\\w* signed",
+            "downloads? (the )?(signed|completed)",
+            "links them back"
+          ]
+        },
+        {
+          "label": "Next step starts by itself (release, quote to order)",
+          "patterns": [
+            "convert\\w* (a |signed )?(sales )?quotes? to (an )?orders?",
+            "release the document",
+            "power automate",
+            "triggers bc workflows"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "See where each document stands (sent, viewed, signed)": 0.58,
+        "Signed copy saved back on the record": 0.55,
+        "Next step starts by itself (release, quote to order)": 0.06
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "layout, template and version prerequisites",
+      "terms": [
+        "layout",
+        "uses",
+        "different",
+        "individual",
+        "instead",
+        "later",
+        "selection",
+        "type"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

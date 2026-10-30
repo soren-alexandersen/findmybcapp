@@ -8,43 +8,55 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foundation_bundle_life_sciences_app%7CPAPPID.8b05d11b-d65f-494a-8321-48de0acd96a4",
-    "lastModified": "2026-09-23T12:01:52.804842+00:00",
-    "appVersion": "2601.8.344968.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T14:15:46.5488022+00:00",
+    "appVersion": "2602.0.351759.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:352184c9ece4d42a07768ec630b5aba4436c88b8f32189c6e5efde2c3e6ce6f1",
+    "sourceHash": "sha256:451cd00a501011c8a0d0da481e5248bbdb5a1a58d92184646de03872de68d24b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:352184c9ece4d42a07768ec630b5aba4436c88b8f32189c6e5efde2c3e6ce6f1",
-    "mappedOn": null,
-    "summary": "Compliance and traceability bundle for life sciences manufacturers",
+    "sourceHash": "sha256:451cd00a501011c8a0d0da481e5248bbdb5a1a58d92184646de03872de68d24b",
+    "mappedOn": "2026-10-30",
+    "summary": "Life sciences bundle for supplement and cosmetics makers: traceability, quality, GMP compliance.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-life-sciences",
         "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-lot-serial-traceability",
       "ng-quality-hold",
-      "ng-product-compliance",
-      "ng-production-planning"
+      "ng-admin-devices",
+      "ng-ux-data-quality",
+      "ng-sales-pricing"
     ],
     "claims": [
-      "Lot track and trace from receipt to shipment",
+      "For nutraceutical, supplement, cosmetics and personal care manufacturers",
+      "Lot tracing from receipt to shipment",
       "Links compliance documents and manages non-conformances",
-      "Electronic signatures for GMP adherence",
-      "Mobile scanning, license plating and label printing",
-      "Potency-based production quantity adjustment",
-      "Connects to weigh scales and shop floor systems",
-      "Quarantine control, retention and stability tracking, batch records",
-      "Configurable item attributes and status-controlled master data workflows",
+      "Enforces electronic signatures for GMP",
+      "Mobile scanning, license plating and label printing in the warehouse",
+      "Adjusts production quantities to ingredient potency",
+      "Integrates with shop floor systems and weigh scales",
+      "Quarantine status, retention and stability tracking, testing and batch records",
+      "Configurable item attributes with status-controlled setup workflows",
       "Approved supplier management",
       "Customer-specific pricing and promotions",
-      "Requires BC Premium"
+      "Free for 30 days, then a paid subscription",
+      "Requires Premium edition"
     ],
     "countries": [
       "AU",
@@ -78,10 +90,8 @@
       "fr"
     ],
     "industries": [
-      "Cosmetics",
-      "Dietary supplements",
-      "Nutraceuticals",
-      "Personal care"
+      "Healthcare",
+      "Manufacturing & Mobility"
     ],
     "connectsTo": [],
     "requires": [],

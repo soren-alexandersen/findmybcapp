@@ -8,39 +8,39 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.serviceprovisioning%7CPAPPID.18b39c33-4352-475c-a243-bce1178800bb",
-    "lastModified": "2026-07-22T05:04:46.0184961+00:00",
-    "appVersion": "2603.0.333071.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T02:24:50.2087391+00:00",
+    "appVersion": "2604.0.351467.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SPR/",
-    "sourceHash": "sha256:9993619bb91466132ce693bca8708b43169e174cca32a6d6c9867bcc5d5ddfad",
+    "sourceHash": "sha256:1f61de66e25599e6483c36401c01fcf7fb83e7697bf618b75bceda25242d99bd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9993619bb91466132ce693bca8708b43169e174cca32a6d6c9867bcc5d5ddfad",
-    "mappedOn": null,
-    "summary": "Manages third-party ownership of goods across processes",
-    "shape": "addon",
+    "sourceHash": "sha256:1f61de66e25599e6483c36401c01fcf7fb83e7697bf618b75bceda25242d99bd",
+    "mappedOn": "2026-10-30",
+    "summary": "Tracks third-party ownership of items, lots and locations in receiving, production and shipping.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-vendor-consignment",
         "confidence": "medium"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-subcontracting",
-      "ng-lot-serial-traceability"
+      "ng-lot-serial-traceability",
+      "ng-ux-data-quality",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Classifies vendors, customers, items and locations as own or third-party",
-      "Prevents price entry for third-party items on purchase, sales and item journals",
-      "Makes sure production picks the right lot for items owned by third parties",
+      "Vendors, customers, items and locations can be marked as own or third-party",
+      "Blocks price entry for third-party items on purchase, sales and item journal lines",
+      "Picks only lots tied to the right third-party vendor in production",
       "Keeps ownership consistent between source documents and warehouse activities",
-      "Supports drop shipments, toll manufacturing and third-party warehousing"
+      "Covers drop shipments, toll manufacturing and third-party warehousing",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",
@@ -72,7 +72,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",

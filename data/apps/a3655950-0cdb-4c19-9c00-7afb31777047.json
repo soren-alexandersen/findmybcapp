@@ -1,0 +1,121 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-bom-change-control|PAPPID.a3655950-0cdb-4c19-9c00-7afb31777047",
+  "guid": "a3655950-0cdb-4c19-9c00-7afb31777047",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-bom-change-control",
+  "source": {
+    "name": "BOM Change Control",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-bom-change-control%7CPAPPID.a3655950-0cdb-4c19-9c00-7afb31777047",
+    "lastModified": "2026-10-19T12:02:17.6326233+00:00",
+    "appVersion": "2.29.2.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/bom-change-control/docs/",
+    "sourceHash": "sha256:41b056d49d439bef96283f90404136a65a44d701ef5f807f73cbb054950dadd2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:41b056d49d439bef96283f90404136a65a44d701ef5f807f73cbb054950dadd2",
+    "mappedOn": "2026-10-30",
+    "summary": "Controlled BOM changes: staged worksheets, approvals, cost what-ifs, revisions and CAD import.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing",
+      "ng-admin-approval-workflows",
+      "ng-product-phase-out",
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Changes are drafted on a worksheet; the live BOM is untouched until applied",
+      "Line-level change tracking and comparison with cost impact",
+      "Multi-level approval with auto-approval below a threshold",
+      "Approval delegation, mandatory rejection reasons and email notifications",
+      "Multi-level explosion with bottom-up cost roll-up",
+      "Where-used lookup across one or many BOM levels",
+      "Change impact rated low, medium or high risk",
+      "Revision history with snapshots, comparison and restore",
+      "Tracks obsolescence with end-of-life and last-time-buy dates",
+      "Mass component replacement across BOMs with cost preview",
+      "Rule-based configurable BOMs with a wizard",
+      "Imports BOMs from CAD/PDM exports in Excel, CSV, XML or JSON",
+      "Import API for PLM, PDM or ERP systems; imports never overwrite certified BOMs",
+      "Needs BC online 29.0 or later with Premium manufacturing",
+      "Licensed per user in tiered plans"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "el",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

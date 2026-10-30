@@ -8,18 +8,20 @@
     "publisher": "Telos Team ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.telosteamprebenrasmussen%7CAID.telosteam_wim%7CPAPPID.a9d9e9a4-3b49-48ca-97c5-b1ab7096d2e2",
-    "lastModified": "2026-09-22T13:35:52.0748027+00:00",
-    "appVersion": "2.0.16.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T12:47:33.5721871+00:00",
+    "appVersion": "2.0.17.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://telosteam.dk/apps/wim/#helppage",
-    "sourceHash": "sha256:b478b759a725db4694bad93572f9e20a7b881a9513447ed982bdcdec81500c66",
+    "sourceHash": "sha256:2aaa05ee17b1d6c59c64c3a11b08108871c0dd6557a1e67d65ae12f352d2cf47",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b478b759a725db4694bad93572f9e20a7b881a9513447ed982bdcdec81500c66",
-    "mappedOn": null,
-    "summary": "Handheld scanner and truck terminal warehouse operations",
+    "sourceHash": "sha256:2aaa05ee17b1d6c59c64c3a11b08108871c0dd6557a1e67d65ae12f352d2cf47",
+    "mappedOn": "2026-10-30",
+    "summary": "Browser-based BC client for scanners, truck terminals and kiosks for warehouse and time registration.",
     "shape": "process",
     "primary": [
       {
@@ -28,16 +30,18 @@
       }
     ],
     "secondary": [
+      "ng-receiving-putaway",
+      "ng-allocation-picking",
       "ng-shop-floor-reporting",
-      "ng-stock-movements"
+      "ng-proj-time"
     ],
     "claims": [
-      "Handheld devices with laser scanners",
-      "Kiosk PCs and truck terminals with touch interface",
+      "Runs on handhelds with laser scanners",
+      "Supports truck terminals and kiosk PCs with touch",
       "Online registration of warehouse transactions and inventory",
-      "Time registration on jobs and production orders",
-      "Runs on any device with a browser",
-      "Built-in or bluetooth barcode scanners"
+      "Records time on jobs and production orders",
+      "Works in any browser",
+      "Built-in or Bluetooth barcode scanners"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

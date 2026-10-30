@@ -8,42 +8,38 @@
     "publisher": "Novaterrae B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novaterraebusinessengines1588944710709%7CAID.businessprocessmining%7CPAPPID.58e492f3-59bb-4a41-8d72-45b24da62332",
-    "lastModified": "2025-10-30T12:04:19.4011603+00:00",
-    "appVersion": "26.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:25:30.6133767+00:00",
+    "appVersion": "26.0.309.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.novaterrae.nl/process-mining-installation/",
-    "sourceHash": "sha256:055d5f48c1584350060a2c080655639089a537218f7b760a784e2d8a7d030651",
+    "sourceHash": "sha256:0862a38b2cd4341ce134df823beab93a144f0727a816edb9cab4ac2f77ce364f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:055d5f48c1584350060a2c080655639089a537218f7b760a784e2d8a7d030651",
-    "mappedOn": null,
-    "summary": "Process mining to analyze BC business processes",
-    "shape": "usability",
+    "sourceHash": "sha256:0862a38b2cd4341ce134df823beab93a144f0727a816edb9cab4ac2f77ce364f",
+    "mappedOn": "2026-10-30",
+    "summary": "Process mining on BC data via Power Automate, built on Aptean Advanced Workflow",
+    "shape": "addon",
     "primary": [
       {
-        "need": "ng-lean-production",
-        "confidence": "low"
-      },
-      {
-        "need": "ng-bi-dashboards",
-        "confidence": "low"
+        "need": "ng-ux-automation",
+        "confidence": "high"
       }
     ],
     "secondary": [
-      "ng-ux-automation",
       "ng-admin-change-log"
     ],
     "claims": [
-      "Visualizes how business processes are actually executed in BC using real-time data",
-      "Identifies bottlenecks, inefficiencies and delays",
+      "Shows how processes really run in BC using real-time process data",
+      "Finds bottlenecks in processes",
       "Uncovers hidden process variants",
-      "Finds where manual steps can be automated",
-      "Displays the people, timing and method behind each step in every process",
-      "Enables Microsoft Process Mining in Power Automate for BC",
+      "Highlights where manual steps could be automated",
+      "Enables Microsoft Process Mining in Power Automate for BC data",
       "Requires a valid Aptean Advanced Workflow license",
-      "Available to Team Members with limited functionality"
+      "Usable by Team Members with limited functionality"
     ],
     "countries": [],
     "languages": [

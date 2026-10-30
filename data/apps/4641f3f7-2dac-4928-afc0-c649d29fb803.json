@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.32072d95-61c5-437b-9927-311ee7f418b5%7CPAPPID.4641f3f7-2dac-4928-afc0-c649d29fb803",
-    "lastModified": "2026-07-02T13:36:13.0689539+00:00",
-    "appVersion": "28.1.0.123",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:02:39.6766213+00:00",
+    "appVersion": "29.0.0.132",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:137693de848a6fff760f4217b4eb4de8ca444dbdaacf9df69b0ae8c0eed86322",
+    "sourceHash": "sha256:6c09f889972f5dc0b1a9ee5511c8b39074fd143e0236b7da631a21b2ab5603c5",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:137693de848a6fff760f4217b4eb4de8ca444dbdaacf9df69b0ae8c0eed86322",
-    "mappedOn": null,
-    "summary": "Romanian language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:6c09f889972f5dc0b1a9ee5511c8b39074fd143e0236b7da631a21b2ab5603c5",
+    "mappedOn": "2026-10-30",
+    "summary": "Romanian user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Romanian",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Romanian",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "RO"
@@ -39,14 +41,15 @@
       "ro"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

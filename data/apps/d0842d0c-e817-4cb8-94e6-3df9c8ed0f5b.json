@@ -8,19 +8,21 @@
     "publisher": "MODUS Consult GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.modusconsultag1587973875105%7CAID.modus_m365_document_automation%7CPAPPID.d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b",
-    "lastModified": "2026-07-23T09:21:16.37726+00:00",
+    "lastModified": "2026-10-22T09:37:34.2510548+00:00",
     "appVersion": "27.0.26070802.26070802",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.modusconsult.de/d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b/M365dox42DocumentAutomation/",
-    "sourceHash": "sha256:93796ec66860e734da50893bc6e29866907a299c7b897660881332278db4bff1",
+    "sourceHash": "sha256:cbe514eb1bea510b0a7de1d3b79d1462425dc115fe646a01812b6dbcc1825017",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:93796ec66860e734da50893bc6e29866907a299c7b897660881332278db4bff1",
-    "mappedOn": null,
-    "summary": "Document generation with dox42 templates",
-    "shape": "connector",
+    "sourceHash": "sha256:cbe514eb1bea510b0a7de1d3b79d1462425dc115fe646a01812b6dbcc1825017",
+    "mappedOn": "2026-10-30",
+    "summary": "Designs BC documents as Word, Excel or PowerPoint templates via dox42.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-document-layouts",
@@ -28,18 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-admin-document-storage",
-      "ng-ux-email-sending"
+      "ng-ux-email-sending",
+      "ng-ux-printing",
+      "ng-admin-document-storage"
     ],
     "claims": [
-      "Designs document templates in Word, PowerPoint and Excel",
-      "Drag-and-drop template creation",
-      "Aggregates content from multiple data sources",
-      "Outputs PDF, Office, email, HTML or print",
-      "Tables, charts, images, barcodes and text modules with conditions",
-      "Forwards to printer and Exchange, archives to SharePoint"
+      "Drag-and-drop template design for simple and complex documents",
+      "Combines content from several data sources into one document",
+      "Templates can include tables, charts, images, barcodes and text blocks with conditions",
+      "Outputs PDF, Word, Excel, PowerPoint, email, HTML or print",
+      "Templates designed in Word, PowerPoint and Excel",
+      "Archives generated documents in SharePoint",
+      "Works with Premium and Essentials"
     ],
-    "countries": [],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
     "languages": [
       "de",
       "en"
@@ -52,7 +60,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

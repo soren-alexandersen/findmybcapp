@@ -8,74 +8,47 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_sscc_management%7CPAPPID.a46d5b1f-9650-4c9c-9cf4-b61a3b0f7e3b",
-    "lastModified": "2026-09-02T12:02:09.0666938+00:00",
-    "appVersion": "28.0.0.5",
+    "lastModified": "2026-10-23T11:50:10.164809+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://central-solutions.nl/cs-sscc-management-help-en/",
-    "sourceHash": "sha256:1a9a38025d92a75df0cc97a3317673b9afebe727847b9be046d78ebbd09fa45e",
+    "sourceHash": "sha256:949e600a70cbc3594cbf4b1ffd442010ef2f477b3e6959d3e1acc3ab639927a9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1a9a38025d92a75df0cc97a3317673b9afebe727847b9be046d78ebbd09fa45e",
-    "mappedOn": null,
-    "summary": "Creates GS1 SSCC labels for shipments and receipts",
+    "sourceHash": "sha256:949e600a70cbc3594cbf4b1ffd442010ef2f477b3e6959d3e1acc3ab639927a9",
+    "mappedOn": "2026-10-30",
+    "summary": "Assigns GS1 SSCC numbers and labels to packages on receipts, shipments, picks and put-aways.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-barcode-labels",
         "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-packing-loading",
+      "ng-lot-serial-traceability",
       "ng-receiving-putaway"
     ],
     "claims": [
       "GS1-compliant SSCC numbers and labels",
-      "SSCC on parcels, pallet layers, pallets, crates, containers",
-      "SSCC on receipts, shipments, picks and put-aways",
-      "Package types with individual number series",
+      "Applies to receipts, shipments, inventory picks and put-aways",
+      "Package types like roll containers, pallets, parcels and pallet layers, each with own number series",
+      "Package contents shown on packing slips, delivery notes and orders",
       "Enable per location",
-      "Use supplier SSCC labels or create own",
+      "Reuse supplier SSCC data or create your own labels",
       "API for scanners and external platforms",
-      "Package details on packing slips and delivery notes"
+      "Per-user subscription with 30-day trial"
     ],
-    "countries": [
-      "AR",
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "CO",
-      "DE",
-      "DK",
-      "DO",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "IE",
-      "IS",
-      "IT",
-      "LT",
-      "LU",
-      "LV",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PE",
-      "PL",
-      "SE",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "de",
       "en",
@@ -83,14 +56,11 @@
       "fr",
       "nl"
     ],
-    "industries": [
-      "Distribution",
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

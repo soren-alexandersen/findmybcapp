@@ -8,23 +8,25 @@
     "publisher": "Powerblox",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-vertical-storage%7CPAPPID.13a4061a-87f7-4047-b660-5fcf02816dd6",
-    "lastModified": "2026-08-03T07:25:19.7934087+00:00",
-    "appVersion": "20.0.17.66656",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T00:20:07.2378573+00:00",
+    "appVersion": "20.0.19.71623",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.powerblox.io/apps/vertical_storage_connector",
-    "sourceHash": "sha256:32a41d06d014649849bdc9f0338630968cbfa2411f8e2177e12a99a23fda3b3b",
+    "sourceHash": "sha256:288c46cb7d094703f3b10d0d061ca4d998c3825816ce727ded8a24f91c38b450",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:32a41d06d014649849bdc9f0338630968cbfa2411f8e2177e12a99a23fda3b3b",
-    "mappedOn": null,
-    "summary": "Integrates Kardex or Hänel vertical storage systems",
+    "sourceHash": "sha256:288c46cb7d094703f3b10d0d061ca4d998c3825816ce727ded8a24f91c38b450",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way link between BC and Kardex or Hänel vertical storage machines for picks and put-aways.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-allocation-picking",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-receiving-putaway",
@@ -32,16 +34,14 @@
       }
     ],
     "secondary": [
-      "ng-admin-devices",
-      "ng-warehouse-setup"
+      "ng-admin-integration-sync"
     ],
     "claims": [
-      "Integrates Kardex Remstar and Hänel Rotomat vertical storage systems with BC",
-      "Supports Vertical Lift, Vertical Buffer and Vertical Carousel Modules",
-      "Two-way message exchange between storage systems and BC",
-      "Real-time monitoring of put-away and picking transactions",
-      "Supports Essentials and Premium editions",
-      "Available in all countries"
+      "Connects Kardex Remstar and Hänel Rotomat vertical storage systems to BC",
+      "Supports vertical lift, buffer and carousel modules",
+      "Two-way messaging between the storage system and BC",
+      "Monitors put-away and pick transactions in real time",
+      "Available in English, Dutch and French"
     ],
     "countries": [],
     "languages": [
@@ -49,16 +49,14 @@
       "fr",
       "nl"
     ],
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [
       "Kardex Remstar",
       "Hänel Rotomat"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

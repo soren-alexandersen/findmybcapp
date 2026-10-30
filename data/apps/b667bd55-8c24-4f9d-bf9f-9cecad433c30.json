@@ -8,18 +8,20 @@
     "publisher": "applative GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applativegmbh1651490084042%7CAID.bill-to%7CPAPPID.b667bd55-8c24-4f9d-bf9f-9cecad433c30",
-    "lastModified": "2026-10-06T19:12:58.2399682+00:00",
-    "appVersion": "20.53.1889.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T11:21:41.725892+00:00",
+    "appVersion": "20.54.1963.7",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.bill-to.com/produkt/uebersicht/",
-    "sourceHash": "sha256:0145767289daff2aa8adc5dfaa03543b450d2ef8501b1e8712eab0a22dda7e05",
+    "sourceHash": "sha256:db60633a3b1db0a08b8b006f08c1d021882731179eb3a6ad658c8aefb155f0b2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0145767289daff2aa8adc5dfaa03543b450d2ef8501b1e8712eab0a22dda7e05",
-    "mappedOn": null,
-    "summary": "Subscriptions and recurring invoicing",
+    "sourceHash": "sha256:db60633a3b1db0a08b8b006f08c1d021882731179eb3a6ad658c8aefb155f0b2",
+    "mappedOn": "2026-10-30",
+    "summary": "Subscription and recurring invoicing from templates with combinable billing models and contract terms.",
     "shape": "process",
     "primary": [
       {
@@ -31,12 +33,14 @@
       "ng-sales-invoicing"
     ],
     "claims": [
-      "Invoice templates generating recurring invoice documents",
-      "Different billing models combined in the same subscription",
-      "Texts are generated automatically by conditions, for example floating holidays",
-      "Trial, grace and cancellation periods, bundles, auto-renewals and one-off services",
-      "Subscription requests for communication with customers, distributors or licensors",
-      "Where-used queries on subscriptions"
+      "Generates recurring invoice documents from invoice templates",
+      "Several billing models can be combined in one subscription",
+      "Invoice texts can be added automatically based on conditions like moving holidays",
+      "Handles trial, cancellation and grace periods, auto-renewal, bundles and one-off items",
+      "Subscription requests coordinate with customers, distributors or licensors",
+      "Where-used queries show who uses what and how much",
+      "30-day free trial",
+      "Available in German and English"
     ],
     "countries": [
       "AT",

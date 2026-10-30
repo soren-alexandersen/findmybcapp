@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.18e1896f-e5ce-483a-b7f5-58e99249f208%7CPAPPID.e178713d-b766-49f0-85f0-15081ad1f154",
-    "lastModified": "2026-07-02T13:34:33.0600211+00:00",
-    "appVersion": "28.1.0.139",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:03:46.1711787+00:00",
+    "appVersion": "29.0.0.148",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:a94bb329cae4bdc95f670851c769cf2a85e2b3e892adb9b3400a4bc276b0f0fb",
+    "sourceHash": "sha256:507ccba4aad9f3d15dbdd0a4424283c85cca6a063efc2a32eed69e30226a9a74",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:a94bb329cae4bdc95f670851c769cf2a85e2b3e892adb9b3400a4bc276b0f0fb",
-    "mappedOn": null,
-    "summary": "Spanish (Mexico) language for LS Central",
+    "sourceHash": "sha256:507ccba4aad9f3d15dbdd0a4424283c85cca6a063efc2a32eed69e30226a9a74",
+    "mappedOn": "2026-10-30",
+    "summary": "Spanish user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Spanish",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Spanish",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "MX"
@@ -39,14 +41,15 @@
       "es"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

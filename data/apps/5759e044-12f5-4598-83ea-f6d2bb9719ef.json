@@ -8,18 +8,20 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.29d495ae-547c-4671-a525-6e4b3cd0e3e1%7CPAPPID.5759e044-12f5-4598-83ea-f6d2bb9719ef",
-    "lastModified": "2026-07-02T13:34:10.5506501+00:00",
-    "appVersion": "28.1.0.139",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:03:44.6941381+00:00",
+    "appVersion": "29.0.0.148",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:4604da1d9a0a8e013ffe0340ea3ad81beece682c2926c34f84750677992411d3",
+    "sourceHash": "sha256:f15484c4f565d7e15f2c1f222e50bebb60bb4eaec67d910b325a1a0cd5328d0f",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:4604da1d9a0a8e013ffe0340ea3ad81beece682c2926c34f84750677992411d3",
-    "mappedOn": null,
-    "summary": "French language for LS Central POS in Canada",
+    "sourceHash": "sha256:f15484c4f565d7e15f2c1f222e50bebb60bb4eaec67d910b325a1a0cd5328d0f",
+    "mappedOn": "2026-10-30",
+    "summary": "French user interface translation for LS Central retail and hospitality.",
     "shape": "language",
     "primary": [
       {
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into French",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into French",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "CA"
@@ -39,14 +41,15 @@
       "fr"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

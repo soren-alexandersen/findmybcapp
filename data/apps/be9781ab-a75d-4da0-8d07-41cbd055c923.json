@@ -8,35 +8,35 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.supply_chain_management%7CPAPPID.be9781ab-a75d-4da0-8d07-41cbd055c923",
-    "lastModified": "2026-04-22T08:58:35.2879502+00:00",
-    "appVersion": "2601.2.312794.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T14:17:52.0400569+00:00",
+    "appVersion": "2602.0.351757.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:d38ed4d846a4355a87c0b045eed76de4dbb84f8ab52032e13b7cfab65c5a85c6",
+    "sourceHash": "sha256:91df9bfca51f96a97bbccdaf8f4d7b874cb7cb3dae0540e6f5759b5b2ea12a12",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d38ed4d846a4355a87c0b045eed76de4dbb84f8ab52032e13b7cfab65c5a85c6",
-    "mappedOn": null,
-    "summary": "Supply chain management bundle for distribution companies",
+    "sourceHash": "sha256:91df9bfca51f96a97bbccdaf8f4d7b874cb7cb3dae0540e6f5759b5b2ea12a12",
+    "mappedOn": "2026-10-30",
+    "summary": "Bundle for distribution companies: license plating, transport, trade management and pricing.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-wholesale-trading",
         "confidence": "medium"
-      },
-      {
-        "need": "ng-transport-planning",
-        "confidence": "low"
       }
     ],
     "secondary": [
+      "ng-transport-planning",
       "ng-sales-pricing"
     ],
     "claims": [
-      "Contains Advanced Pricing, Trade Management, Transport Management and License Plating",
-      "Tailored for small to mid-sized supply chain businesses"
+      "Bundles License Plating, Transport Management, Trade Management and Advanced Pricing apps",
+      "Aimed at small and mid-sized supply chain companies",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",

@@ -8,41 +8,42 @@
     "publisher": "dc AG",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamic_commerce_gmbh%7CAID.dynamic_commerce_shipping_cost%7CPAPPID.7cb284ca-05da-482a-b331-ff82c42956e6",
-    "lastModified": "2026-07-30T08:19:53.5965402+00:00",
-    "appVersion": "24.0.20260730.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:59:44.7652005+00:00",
+    "appVersion": "24.0.20261030.398564",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.dc.ag/docs/en/bc-shipping-costs/user-guide/overview",
-    "sourceHash": "sha256:fd64898a48d233421ef35ac5aeb29b2e8be6886791dc4cac1e68ad2d50b0f3b9",
+    "sourceHash": "sha256:92951c9ad135312acd6f5b73e74db45f1f3aa9a1162de9c145fa6604156fe368",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fd64898a48d233421ef35ac5aeb29b2e8be6886791dc4cac1e68ad2d50b0f3b9",
-    "mappedOn": null,
-    "summary": "Automatically calculates and assigns shipping costs to sales",
+    "sourceHash": "sha256:92951c9ad135312acd6f5b73e74db45f1f3aa9a1162de9c145fa6604156fe368",
+    "mappedOn": "2026-10-30",
+    "summary": "Free app that calculates and adds shipping charges to sales documents using zone rules.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-pricing",
         "confidence": "high"
-      },
-      {
-        "need": "ng-shipping-carriers",
-        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-shipping-carriers",
+      "ng-sales-order-entry"
+    ],
     "claims": [
-      "Shipping zones filtered by postal codes, regions or countries",
-      "Calculate Shipping Costs button adds correct cost to orders",
-      "Selects the most suitable shipping option from order details",
-      "Customer-group-specific shipping rates",
-      "Cost calculated from net material value, volume or weight",
-      "Percentage of order value with minimum amount",
-      "Shipping costs shown on quotes, orders and invoices",
-      "Posting types are item, resource, charge and G/L account",
-      "Setup wizard",
-      "Also available for NAV 2016-2018"
+      "Shipping zones filtered by postal code, region or country",
+      "One button adds the right shipping charge to an order and picks the best shipping option",
+      "Customer group specific shipping rates and options",
+      "Charges based on weight, volume or net material value",
+      "Combines several rules for complex scenarios",
+      "Shows calculated shipping costs on quotes, orders and invoices",
+      "Setup wizard for configuration",
+      "Percentage of order value with a minimum amount",
+      "Charge can post as G/L account, resource, item or item charge",
+      "Free for both cloud and on-premises"
     ],
     "countries": [
       "AT",

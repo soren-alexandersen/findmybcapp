@@ -8,18 +8,20 @@
     "publisher": "Horsa Way",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_intercompany%7CPAPPID.0896a434-a813-410e-890d-88ca9094d773",
-    "lastModified": "2026-10-06T08:32:55.7281934+00:00",
-    "appVersion": "5.5.10001.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:11:34.5820004+00:00",
+    "appVersion": "5.6.10000.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://blog.horsaway.it/app-intercompany/",
-    "sourceHash": "sha256:99c8d751185abab078e938958fdd9c8bfa4b79362701acde35a3c782efebfdde",
+    "sourceHash": "sha256:f3248b3c74f7e7519f3386b36e62f3ab6300bd10128b37722f56a20e4b41f4a5",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:99c8d751185abab078e938958fdd9c8bfa4b79362701acde35a3c782efebfdde",
-    "mappedOn": null,
-    "summary": "Intercompany communication between companies via OData",
+    "sourceHash": "sha256:f3248b3c74f7e7519f3386b36e62f3ab6300bd10128b37722f56a20e4b41f4a5",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges intercompany documents and syncs any table between companies and databases.",
     "shape": "process",
     "primary": [
       {
@@ -31,15 +33,19 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
     "claims": [
-      "Intercompany communication via OData API, also across databases",
-      "Synchronize any table, even between different localizations",
-      "Master company model replicating changes to all companies",
-      "Send IC purchase or sales documents with automatic posting",
-      "Non-overlapping intercompany number series",
-      "Traceability of EDI queue communications",
-      "60-day free trial"
+      "Uses OData APIs to exchange data between legal entities",
+      "Works between companies in different databases",
+      "Syncs any table, even across databases with different localizations",
+      "Master company acts as the model for other companies",
+      "Sends intercompany purchase and sales documents with automatic posting",
+      "Shared number series that avoid overlap between companies",
+      "Traceable queue of exchanged messages",
+      "Paid Horsa subscription licence needed for some functions, with a 60-day trial",
+      "Works on Essential and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -48,7 +54,9 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [],
+    "requires": [
+      "Horsa Network"
+    ],
     "deployment": "not_stated",
     "pricing": "subscription",
     "hide": false,

@@ -8,18 +8,20 @@
     "publisher": "Xenatus Global",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xenatusglobal%7CAID.xgl_maritime_365%7CPAPPID.5c47ba67-0d2d-48f1-9068-26efac7ffbdb",
-    "lastModified": "2026-08-17T11:10:41.0392039+00:00",
-    "appVersion": "28.4.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T11:24:33.7866151+00:00",
+    "appVersion": "28.6.3.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.xenatusglobal.com/marine-service-providers",
-    "sourceHash": "sha256:9a5d5eaf45b01ac00b640a77c0dc83a9cf1fbe4901a5c7543cd91d1b016bc027",
+    "sourceHash": "sha256:7252aea4b3bf8088710e239be40ebaa5d64dea9905979baacfb7fa07ed2712ec",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9a5d5eaf45b01ac00b640a77c0dc83a9cf1fbe4901a5c7543cd91d1b016bc027",
-    "mappedOn": null,
-    "summary": "Solution for the maritime industry",
+    "sourceHash": "sha256:7252aea4b3bf8088710e239be40ebaa5d64dea9905979baacfb7fa07ed2712ec",
+    "mappedOn": "2026-10-30",
+    "summary": "Industry solution for maritime service firms: vessels, ports, sales cases and service orders.",
     "shape": "vertical",
     "primary": [
       {
@@ -27,42 +29,48 @@
         "confidence": "low"
       },
       {
-        "need": "ng-svc-field-execution",
-        "confidence": "low"
+        "need": "ng-svc-dispatch",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-svc-assets",
-      "ng-sales-pipeline"
+      "ng-customer-credit-holds",
+      "ng-admin-document-storage",
+      "ng-svc-offerings-pricing"
     ],
     "claims": [
-      "Port and vessel management",
-      "Sales case cycle starting from ERP or Outlook",
-      "Sales case documents in SharePoint folder structures",
-      "Sales linked to purchase documents",
-      "Credit control process",
-      "Case profitability monitoring",
-      "Vessel equipment service log",
-      "Service price lists and resource assignment to service orders",
-      "Not available in Norway"
+      "Registers ports, vessels, ownership and vessel equipment",
+      "Sales cases can start in BC or Outlook",
+      "Case documents stored in SharePoint folders",
+      "Generates and manages case emails",
+      "Sales cases link to purchase documents",
+      "Credit control process on sales cases",
+      "Workflow and reminders per case",
+      "Profitability monitoring for sales and service cases",
+      "Service history log per vessel equipment",
+      "Manages internal and subcontracted resources",
+      "Service price lists",
+      "Resources are assigned to service orders"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
     "industries": [
-      "Maritime services"
+      "Distribution",
+      "Maritime"
     ],
     "connectsTo": [
-      "SharePoint",
-      "Outlook"
+      "Outlook",
+      "SharePoint"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
-    "noFit": "No maritime services vertical group; mapped to transport/logistics and service at low confidence"
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

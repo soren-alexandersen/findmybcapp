@@ -8,39 +8,44 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.quick_production%7CPAPPID.434fbde0-590b-4a67-a7e1-96078522aab7",
-    "lastModified": "2026-08-26T05:38:22.8248535+00:00",
-    "appVersion": "2601.4.339330.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:20.4661684+00:00",
+    "appVersion": "2602.0.351450.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/QPR/",
-    "sourceHash": "sha256:b9be73bbab31b8504deca08eb0e7b1a7881fd6856b9e71fd183ad98c23942aa1",
+    "sourceHash": "sha256:a6b6850bd188afcfbf83d8d43fb037781ffb1f956eb0b7babd0b83f527d62e72",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:b9be73bbab31b8504deca08eb0e7b1a7881fd6856b9e71fd183ad98c23942aa1",
-    "mappedOn": null,
-    "summary": "Quick production orders for repacking, regrading, relabeling",
-    "shape": "vertical",
+    "sourceHash": "sha256:a6b6850bd188afcfbf83d8d43fb037781ffb1f956eb0b7babd0b83f527d62e72",
+    "mappedOn": "2026-10-30",
+    "summary": "One-screen production orders for repacking, regrading and relabeling stock.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
-        "confidence": "medium"
+        "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-production-planning",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-production-planning"
+      "ng-ux-data-entry",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Simplified production orders for repacking, regrading and relabeling",
-      "Single page to set from/to, post consumption and output and finish the order",
+      "Handles repacking, regrading and relabeling as simplified production orders",
       "Uses standard production order posting and application logic",
-      "Assign production BOMs and routings to inventory production orders",
-      "Additional packaging consumption posted manually or automatically with output",
-      "Integrates with Aptean License Plating, Labeling, Advanced Attributes and Production Scenarios"
+      "Set from and to details, post consumption and output, and finish on one page",
+      "Can attach production BOMs and routings so component and capacity costs are right",
+      "Extra packaging components can be consumed manually or automatically with output",
+      "Records origin, destination and extra packaging details",
+      "Works with other Aptean apps such as Labeling and License Plating",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",
@@ -75,7 +80,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",

@@ -8,42 +8,50 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-general-ledger-app%7CPAPPID.8a2984e5-448e-4192-a698-1136a6487a61",
-    "lastModified": "2026-10-06T23:20:03.5678836+00:00",
-    "appVersion": "28.0.261006.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T00:36:44.7323289+00:00",
+    "appVersion": "28.0.261009.2",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/advanced-general-ledger/docs/",
-    "sourceHash": "sha256:d8ae34153e334f2e29a5e7b23960585730c18f7d041ad6c80dbe33a865afb511",
+    "sourceHash": "sha256:68c1fc5395f493a1f6f8d1e36e91ece0b5496b29dd7439589ae966f804c44850",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d8ae34153e334f2e29a5e7b23960585730c18f7d041ad6c80dbe33a865afb511",
-    "mappedOn": null,
-    "summary": "General ledger access restrictions, traceability and journal tools",
-    "shape": "process",
+    "sourceHash": "sha256:68c1fc5395f493a1f6f8d1e36e91ece0b5496b29dd7439589ae966f804c44850",
+    "mappedOn": "2026-10-30",
+    "summary": "General ledger add-ons: G/L entry application, Excel journals, posting date and document number checks.",
+    "shape": "usability",
     "primary": [
       {
-        "need": "ng-journals",
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
         "confidence": "medium"
       },
       {
-        "need": "ng-gl-reconciliation",
+        "need": "ng-journals",
         "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-admin-permissions",
-      "ng-ux-data-quality",
-      "ng-ux-import-excel"
+      "ng-ux-import-excel",
+      "ng-ux-search-navigation"
     ],
     "claims": [
-      "Restricts viewing of the chart of accounts",
-      "Bulk disables direct posting on G/L accounts",
+      "Can restrict who views the chart of accounts",
+      "Turns off direct posting on many G/L accounts at once",
       "Shows all dimension fields on G/L entries",
-      "Applies G/L entries to reconcile clearing and suspense accounts",
-      "Exports general journals to Excel and imports them back for posting",
-      "Posting date controls: Always Allow Posting Today and Posting Date Posting Action",
-      "Checks for duplicate external document numbers / vendor invoice numbers"
+      "Adds extra traceability fields to G/L entries",
+      "Applies G/L entries against each other to clear clearing and suspense accounts",
+      "General journals can be exported to Excel, filled in and imported for posting",
+      "Adds two posting date controls to validate document posting dates",
+      "Checks for duplicate external document numbers on sales and vendor invoice numbers on purchases",
+      "English only"
     ],
     "countries": [],
     "languages": [
@@ -53,7 +61,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

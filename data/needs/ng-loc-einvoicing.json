@@ -78,7 +78,7 @@
       ],
       "coverage": {
         "Through BC's standard E-Documents module": 0.14,
-        "Via a provider or access point I subscribe to": 0.36,
+        "Via a provider or access point I subscribe to": 0.38,
         "Directly, with no middleman or extra subscription": 0.08
       }
     },
@@ -147,10 +147,10 @@
         }
       ],
       "coverage": {
-        "Peppol (BIS, EHF, InvoiceNow...)": 0.32,
+        "Peppol (BIS, EHF, InvoiceNow...)": 0.33,
         "OIOUBL / NemHandel / EAN (Denmark)": 0.14,
         "ZUGFeRD, XRechnung or Factur-X": 0.1,
-        "A national clearance system (ZATCA, SDI, KSeF, CFDI, VeriFactu...)": 0.35
+        "A national clearance system (ZATCA, SDI, KSeF, CFDI, VeriFactu...)": 0.38
       }
     },
     {
@@ -206,9 +206,9 @@
         }
       ],
       "coverage": {
-        "Receive supplier e-invoices into BC": 0.51,
-        "Create purchase invoices automatically": 0.13,
-        "Send accept/reject replies to the supplier": 0.15
+        "Receive supplier e-invoices into BC": 0.5,
+        "Create purchase invoices automatically": 0.1,
+        "Send accept/reject replies to the supplier": 0.13
       }
     },
     {
@@ -263,9 +263,9 @@
         }
       ],
       "coverage": {
-        "Show delivery or acceptance status in BC": 0.46,
-        "Check for errors before sending": 0.23,
-        "Include a PDF copy or attachments": 0.23
+        "Show delivery or acceptance status in BC": 0.47,
+        "Check for errors before sending": 0.24,
+        "Include a PDF copy or attachments": 0.21
       }
     },
     {
@@ -308,10 +308,19 @@
         }
       ],
       "coverage": {
-        "Credit notes": 0.34,
-        "Orders and delivery notes": 0.09,
-        "Service invoices": 0.09
+        "Credit notes": 0.36,
+        "Orders and delivery notes": 0.07,
+        "Service invoices": 0.08
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "interface languages",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

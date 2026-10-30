@@ -135,9 +135,9 @@
         }
       ],
       "coverage": {
-        "Email": 0.4,
-        "Web or mobile form": 0.3,
-        "A helpdesk tool (e.g. Zendesk)": 0.2
+        "Email": 0.45,
+        "Web or mobile form": 0.18,
+        "A helpdesk tool (e.g. Zendesk)": 0.18
       }
     },
     {
@@ -170,8 +170,8 @@
         }
       ],
       "coverage": {
-        "Complaints and quality issues": 0.7,
-        "General customer questions/support": 0.5
+        "Complaints and quality issues": 0.64,
+        "General customer questions/support": 0.55
       }
     },
     {
@@ -197,7 +197,7 @@
         }
       ],
       "coverage": {
-        "Yes, SLAs and escalation": 0.4
+        "Yes, SLAs and escalation": 0.36
       }
     },
     {
@@ -224,7 +224,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.3
+        "Yes": 0.27
       }
     }
   ]

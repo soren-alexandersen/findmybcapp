@@ -8,18 +8,18 @@
     "publisher": "Velosio",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbs-group%7CAID.change_tracking%7CPAPPID.000bf0fe-6c33-4fdc-a71e-7338f13fd1da",
-    "lastModified": "2026-07-29T23:27:32.8083753+00:00",
+    "lastModified": "2026-10-14T13:23:57.1549839+00:00",
     "appVersion": "1.11.10011.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://www.plumblineconsulting.com/dynamics-365-business-central/change-tracking/",
-    "sourceHash": "sha256:8fd0ecdf7aa7a4ece86780b4a0cc91d6635e8ac2862f6a9a61e1621d92ea219b",
+    "sourceHash": "sha256:cf909c7765d9e06e5ea4af6563e1d3408cb150d5f472497cf779eb21e1032700",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:8fd0ecdf7aa7a4ece86780b4a0cc91d6635e8ac2862f6a9a61e1621d92ea219b",
-    "mappedOn": null,
-    "summary": "Audit history of record changes",
+    "sourceHash": "sha256:cf909c7765d9e06e5ea4af6563e1d3408cb150d5f472497cf779eb21e1032700",
+    "mappedOn": "2026-10-30",
+    "summary": "Full change history per record showing who changed what, when, and previous values.",
     "shape": "usability",
     "primary": [
       {
@@ -28,17 +28,18 @@
       }
     ],
     "secondary": [
-      "ng-audit-compliance"
+      "ng-audit-compliance",
+      "ng-ux-data-entry"
     ],
     "claims": [
-      "Shows who changed a record, when and the previous value",
-      "Drill into line item changes",
-      "Compare relationships between a record and its source record",
-      "Conditional filtering of records",
+      "Shows who edited a record, when, and the previous value",
+      "Tracks changes down to line items",
+      "Links and compares a record to its source record",
       "Search changes by primary key",
-      "Full change history per record",
-      "Basic tier: up to 25 tracked tables",
-      "Advanced tier: unlimited tracked tables"
+      "Batch updates of records",
+      "30-day free trial",
+      "Basic plan covers up to 25 tracked tables for 360 USD a year",
+      "Advanced plan has unlimited tracked tables for 600 USD a year"
     ],
     "countries": [
       "AT",
@@ -65,7 +66,9 @@
     "languages": [
       "en"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

@@ -1,0 +1,61 @@
+{
+  "appId": "xplus_sa.testing_byxplus",
+  "guid": null,
+  "publisherId": "xplus_sa",
+  "offerId": "testing_byxplus",
+  "source": {
+    "name": "Testing by XPLUS",
+    "publisher": "XPLUS SA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/xplus_sa.testing_byxplus",
+    "lastModified": "2026-10-21T10:15:33.5674341+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:09d062809e460f19bffe1e4dadb00ebdffbdc188510ceda4a2ab7be1189c650a",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:09d062809e460f19bffe1e4dadb00ebdffbdc188510ceda4a2ab7be1189c650a",
+    "mappedOn": "2026-10-30",
+    "summary": "Codeless automated regression and performance testing for Business Central updates",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-updates-testing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-performance"
+    ],
+    "claims": [
+      "Records, maintains and runs automated regression tests of key processes",
+      "Tests are built without programming",
+      "Performance testing under realistic load",
+      "Helps keep business process documentation current",
+      "Provides testing evidence for go/no-go decisions",
+      "Also covers Dynamics 365 Finance & Supply Chain Management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Finance & Supply Chain Management"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

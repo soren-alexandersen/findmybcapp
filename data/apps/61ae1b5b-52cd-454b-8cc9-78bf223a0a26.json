@@ -8,19 +8,21 @@
     "publisher": "SignUp Software AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.travel_and_expense_management%7CPAPPID.61ae1b5b-52cd-454b-8cc9-78bf223a0a26",
-    "lastModified": "2026-10-05T13:33:25.0147938+00:00",
-    "appVersion": "4.6.1.4",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T09:21:57.6646732+00:00",
+    "appVersion": "4.6.1.6",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.signupsoftware.com/tem",
-    "sourceHash": "sha256:1aa897e6c7b4c0c73ce6de3d98dd5ad525020f6e5667f2d12d5dc8e34d373c8a",
+    "sourceHash": "sha256:f4082a0c7d0750e92c20dedc336073398e995a329dc74d4e4702b600d698c9b0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1aa897e6c7b4c0c73ce6de3d98dd5ad525020f6e5667f2d12d5dc8e34d373c8a",
-    "mappedOn": null,
-    "summary": "Expense, mileage and per diem reporting app",
-    "shape": "connector",
+    "sourceHash": "sha256:f4082a0c7d0750e92c20dedc336073398e995a329dc74d4e4702b600d698c9b0",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile expense app for receipts and mileage with approval, posted in BC.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-hr-employee-expenses",
@@ -28,53 +30,22 @@
       }
     ],
     "secondary": [
-      "ng-proj-costs"
+      "ng-proj-costs",
+      "ng-admin-approval-workflows"
     ],
     "claims": [
-      "Employees snap receipts in a mobile app",
-      "Mileage registration in the app",
-      "Per diem reporting",
-      "Split an expense between colleagues or assign to a customer",
-      "Built-in approval flow with email notification",
-      "Approval of expenses and mileage via web portal",
-      "Approved expenses become available for posting in BC",
-      "PDF receipts in a mailbox can be forwarded into the app",
-      "Expenses can be assigned to customer projects",
-      "Digital archive of documents"
+      "Employees photograph receipts in the mobile app",
+      "Records mileage directly in the app",
+      "Splits an expense across colleagues or assigns it to a customer",
+      "Built-in approval flow routes expenses to the right approver",
+      "Approvers get email notification and approve in a web portal",
+      "Approved expenses and mileage become ready to post in BC",
+      "PDF receipts from email can be moved into the app",
+      "Expenses can be tied to customer projects in BC",
+      "Keeps documents in a digital archive",
+      "Covers per diem reporting as well as expenses and mileage"
     ],
-    "countries": [
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "GL",
-      "IE",
-      "IS",
-      "IT",
-      "LT",
-      "LU",
-      "LV",
-      "MT",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PL",
-      "PT",
-      "SE",
-      "SG",
-      "TH",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -89,8 +60,8 @@
       "Truvio"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

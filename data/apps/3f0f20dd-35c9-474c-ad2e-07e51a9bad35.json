@@ -8,18 +8,20 @@
     "publisher": "Bluefort",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluefort%7CAID.bluefort_bc_dataverse_integrator%7CPAPPID.3f0f20dd-35c9-474c-ad2e-07e51a9bad35",
-    "lastModified": "2026-10-01T11:28:46.3089325+00:00",
-    "appVersion": "26.8.0.8",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T14:09:12.2964424+00:00",
+    "appVersion": "26.8.1.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://learn.bluefort.eu/article-categories/smb/",
-    "sourceHash": "sha256:d35dba04f6c026deb4a9fd1dc1234e545de9380bf707ba2a509ac21f4263c4b8",
+    "sourceHash": "sha256:c984f691f0e33e430b0cb4fe11421f7032a1a93972c0c28f95c04047ffec21ab",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d35dba04f6c026deb4a9fd1dc1234e545de9380bf707ba2a509ac21f4263c4b8",
-    "mappedOn": null,
-    "summary": "Bi-directional real-time sync between BC and Dataverse",
+    "sourceHash": "sha256:c984f691f0e33e430b0cb4fe11421f7032a1a93972c0c28f95c04047ffec21ab",
+    "mappedOn": "2026-10-30",
+    "summary": "Two-way near-real-time sync between BC and Dataverse, including custom tables.",
     "shape": "connector",
     "primary": [
       {
@@ -35,29 +37,29 @@
       "ng-admin-data-migration"
     ],
     "claims": [
-      "Bi-directional near-real-time sync between BC and Dataverse",
-      "Exposes standard, custom and ISV tables and fields",
-      "Ready-made mappings, and AI-suggested mappings for custom entities",
-      "Configuration controls default values, transformations, filters and triggers",
+      "Exposes standard, custom and ISV tables to Dataverse",
+      "Works with Dynamics 365 Customer Engagement and Power Platform",
+      "Ready-made mappings plus AI-suggested mappings for custom tables",
+      "Field, option set and data type mapping configured in BC",
+      "Triggers, filters, transformations and defaults by configuration",
       "One-way or two-way sync",
-      "Initial data load for migrations",
-      "Webhook-driven events on create, update and delete",
-      "Runs as Azure Function in customer's own Azure subscription"
+      "Webhook-driven change sync on create, update and delete",
+      "Runs as an Azure Function in the customer's Azure subscription",
+      "Secured with Azure App Registration and BC Isolated Storage",
+      "Requires a Dataverse environment and an Azure subscription"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "Dataverse",
+      "Microsoft Dataverse",
       "Dynamics 365 Customer Engagement",
-      "Power Platform"
+      "Power Platform",
+      "Azure Functions"
     ],
-    "requires": [
-      "Microsoft Dataverse environment",
-      "Azure subscription"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -151,12 +151,12 @@
         }
       ],
       "coverage": {
-        "Getting overhead and indirect costs onto products": 0.48,
-        "Seeing variances between expected and actual cost": 0.25,
-        "Calculating cost before we produce or quote": 0.25,
-        "Correcting costs after posting": 0.2,
-        "Splitting cost across co-products or by-products": 0.07,
-        "Landed cost of purchased items": 0.09
+        "Getting overhead and indirect costs onto products": 0.53,
+        "Seeing variances between expected and actual cost": 0.27,
+        "Calculating cost before we produce or quote": 0.24,
+        "Correcting costs after posting": 0.22,
+        "Splitting cost across co-products or by-products": 0.09,
+        "Landed cost of purchased items": 0.07
       }
     },
     {
@@ -192,7 +192,11 @@
             "machine hours",
             "labor hours",
             "work center usage",
-            "capacity (ledger|cost)"
+            "capacity (ledger|cost)",
+            "work center rate",
+            "machine centers?\\b",
+            "work and machine center",
+            "cost per machine center"
           ]
         },
         {
@@ -201,9 +205,9 @@
         }
       ],
       "coverage": {
-        "Actual amounts posted in the general ledger": 0.2,
-        "Budgets or predetermined rates": 0.11,
-        "Time spent at work or machine centers": 0.25
+        "Actual amounts posted in the general ledger": 0.18,
+        "Budgets or predetermined rates": 0.13,
+        "Time spent at work or machine centers": 0.33
       }
     },
     {
@@ -228,13 +232,21 @@
           ]
         },
         {
+          "label": "Our own valuation rules or parallel valuations (e.g. statutory and operational)",
+          "patterns": [
+            "parallel valuation",
+            "valuation (scenarios|series|rules|logic)"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Standard cost": 0.14,
-        "Average, FIFO or LIFO with costing periods": 0.07
+        "Standard cost": 0.13,
+        "Average, FIFO or LIFO with costing periods": 0.07,
+        "Our own valuation rules or parallel valuations (e.g. statutory and operational)": 0.09
       }
     },
     {
@@ -269,6 +281,29 @@
         "Workers clock operations on touch or mobile": 0.11,
         "From routings and output journals in BC": 0.27
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "allocation already covered by overhead and co-product options",
+      "terms": [
+        "allocation"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "available languages",
+      "terms": [
+        "english"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic quantity wording",
+      "terms": [
+        "quantity"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

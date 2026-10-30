@@ -124,7 +124,7 @@
         }
       ],
       "coverage": {
-        "Customers, vendors and contacts only": 0.5,
+        "Customers, vendors and contacts only": 0.6,
         "Any table, including custom or app tables": 0.4
       }
     },

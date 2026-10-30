@@ -8,18 +8,20 @@
     "publisher": "Insight Works",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.d04cb6c5-68c8-41d7-8e25-824b48e14f04%7CPAPPID.d04cb6c5-68c8-41d7-8e25-824b48e14f04",
-    "lastModified": "2026-09-24T22:11:46.7726962+00:00",
-    "appVersion": "2.16.9762.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T20:12:51.8969288+00:00",
+    "appVersion": "2.16.9790.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://app.dmsiworks.com/warehouse-insight/product-help/",
-    "sourceHash": "sha256:4e3d3a2be4392c72bffeaa9123450b0f583347f3aa8d44588160876b82f08b90",
+    "sourceHash": "sha256:0a5d0fad9ce5b57609d271a1b1761abc02571c27405d44c0def01fb78d55a7dd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4e3d3a2be4392c72bffeaa9123450b0f583347f3aa8d44588160876b82f08b90",
-    "mappedOn": null,
-    "summary": "Mobile barcode warehouse management with real-time posting",
+    "sourceHash": "sha256:0a5d0fad9ce5b57609d271a1b1761abc02571c27405d44c0def01fb78d55a7dd",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile barcode WMS in BC for receiving, picking, counting, moves and production.",
     "shape": "process",
     "primary": [
       {
@@ -32,41 +34,59 @@
       },
       {
         "need": "ng-admin-devices",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-stock-counting",
-      "ng-shop-floor-reporting",
+      "ng-lot-serial-traceability",
       "ng-barcode-labels",
-      "ng-lot-serial-traceability"
+      "ng-shop-floor-reporting"
     ],
     "claims": [
-      "Real-time posting with no separate database or middleware",
-      "Directed picking with bin verification and wrong-item rejection",
-      "Tote, wave and batch picking",
-      "Receiving with photo capture and lot/serial capture",
-      "Prints barcode labels for pallets, lots, bins and items",
-      "License plating of pallets and cartons",
-      "FIFO/FEFO lot picking and expiry date validation",
-      "Cycle, physical and blind counts with multiple counters",
-      "Production consumption, output and picks on device",
-      "Runs on Android scanners and Windows vehicle-mount terminals",
-      "Voice picking and OCR barcode-free scanning via add-ons",
-      "No-code App Designer for custom apps",
+      "Posts every transaction directly in BC in real time without middleware",
+      "Rejects a wrong item at scan time during directed picks",
+      "Supports tote, wave and batch picking",
+      "Receiving with lot/serial capture and photos of damaged goods",
+      "Prints labels to any networked printer",
+      "License plating for pallets and cartons",
+      "FIFO and FEFO lot picking with expiry validation",
+      "Cycle, physical and blind counts with several counters and recount sheets",
+      "Production consumption, output and picks on the handheld",
+      "Three interface modes: card, grid and tile",
+      "Runs on Android scanners, tablets and Windows vehicle-mount terminals",
+      "Voice picking and OCR scanning via add-ons",
+      "No-code App Designer for custom mobile apps",
       "Concurrent device licensing",
-      "Dynamic Ship integration for carrier labels"
+      "Builds license plates at shipping and integrates Dynamic Ship for carrier labels",
+      "Ad hoc and directed bin-to-bin movements",
+      "Offline mode with automatic sync",
+      "Free WMS Express version for core functions"
     ],
     "countries": [],
-    "languages": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
     "industries": [
       "Distribution",
-      "Retail"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_user",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

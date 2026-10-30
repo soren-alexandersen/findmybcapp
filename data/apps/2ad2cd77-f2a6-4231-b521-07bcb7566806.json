@@ -8,40 +8,46 @@
     "publisher": "mse Software GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msesoftwaregmbh1653230793499%7CAID.autoflow%7CPAPPID.2ad2cd77-f2a6-4231-b521-07bcb7566806",
-    "lastModified": "2026-10-01T19:53:16.1580638+00:00",
-    "appVersion": "27.0.38.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T13:39:20.958035+00:00",
+    "appVersion": "27.0.40.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.autoflow365.app/",
-    "sourceHash": "sha256:2f4d3c785171c677af6d74fb5cb997d59571a9ce9100b1842ee9f5d50c422f5d",
+    "sourceHash": "sha256:07737b4920c33341aaec00c701207f0883e003f6443227f821c59ab6e8bf5bc0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:2f4d3c785171c677af6d74fb5cb997d59571a9ce9100b1842ee9f5d50c422f5d",
-    "mappedOn": null,
-    "summary": "Visual no-code workflow automation",
+    "sourceHash": "sha256:07737b4920c33341aaec00c701207f0883e003f6443227f821c59ab6e8bf5bc0",
+    "mappedOn": "2026-10-30",
+    "summary": "Visual no-code workflow builder in BC for automations, API calls and webhooks.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-automation",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-integration-sync",
-      "ng-admin-approval-workflows"
+      "ng-admin-approval-workflows",
+      "ng-admin-alerts"
     ],
     "claims": [
-      "Graphical flow editor inside BC to design, run and monitor workflows",
+      "Graphical flow editor inside BC built from configurable blocks",
       "Triggers follow-up actions from any BC event",
-      "Connects to REST APIs, SharePoint, webhooks and third-party services with credentials managed in BC",
-      "Reacts to external events such as webshop orders, IoT signals and support tickets",
-      "Live execution view and full run history",
+      "Calls REST APIs, SharePoint and webhooks with credentials managed in BC",
+      "Reacts to external events such as webshop orders, IoT signals and tickets",
+      "Live step-by-step execution view with run history",
       "Power users build flows without AL code",
-      "Example: automatic purchase order on low stock with duplicate check",
+      "Example: auto purchase order on low stock with duplicate check",
       "Example: posted invoices filed as PDF in SharePoint by year and customer",
       "Ships with a library of example flows",
-      "Runs inside the tenant"
+      "Works with Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -50,13 +56,11 @@
     ],
     "industries": [],
     "connectsTo": [
-      "SharePoint",
-      "REST APIs",
-      "webhooks"
+      "SharePoint"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

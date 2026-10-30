@@ -8,18 +8,20 @@
     "publisher": "d365.Global Pty Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_rebates_management_v2%7CPAPPID.598dd303-bf52-4103-ae4a-1f3543490ceb",
-    "lastModified": "2026-09-24T17:43:32.3628934+00:00",
-    "appVersion": "25.0.0.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T04:13:11.9878461+00:00",
+    "appVersion": "25.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://d365.global/help",
-    "sourceHash": "sha256:079008be11e3358f787bc6455860096c96b847699456d9d93732aaf785814d4d",
+    "sourceHash": "sha256:0e0cc4068d3fb705a223e2d73bbfcc122359f4ab21301d7d25b78bcaa00fba52",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:079008be11e3358f787bc6455860096c96b847699456d9d93732aaf785814d4d",
-    "mappedOn": null,
-    "summary": "Volume-based rebates for customers and suppliers",
+    "sourceHash": "sha256:0e0cc4068d3fb705a223e2d73bbfcc122359f4ab21301d7d25b78bcaa00fba52",
+    "mappedOn": "2026-10-30",
+    "summary": "Calculates volume rebates for customers and suppliers and issues credit notes",
     "shape": "process",
     "primary": [
       {
@@ -35,15 +37,18 @@
       "ng-accruals-deferrals"
     ],
     "claims": [
-      "Customer sales volume targets by retailer and item group",
-      "Automatically issues sales credit notes when targets met",
-      "Applies credits to open retailer invoices",
-      "Supplier rebate agreements with purchase volume targets",
-      "Automatically issues purchase credit notes to suppliers",
-      "Monthly, quarterly or annual targets",
-      "Tiered or stepped rebate structures",
-      "Accrues rebates during the period and posts to G/L",
-      "Rebate reports by period, partner, item or type with audit logs"
+      "Sales volume targets per retailer and/or item group for a set period",
+      "Tracks sales against rebate thresholds",
+      "Creates sales credit notes automatically when customer targets are reached",
+      "Applies rebate credits to open customer invoices",
+      "Supplier rebate agreements with purchase volume targets per item or item group",
+      "Calculates expected supplier rebates during the period",
+      "Creates purchase credit notes for earned supplier rebates and offsets vendor invoices",
+      "Monthly, quarterly or annual target periods",
+      "Targets by item, item group, customer or vendor",
+      "Supports tiered or stepped rebates",
+      "Accrues rebates over the qualifying period and posts to the G/L",
+      "Reports by period, partner, item or rebate type with audit logs"
     ],
     "countries": [],
     "languages": [],
@@ -54,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Yaveon GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365pda%7CPAPPID.6caba8b4-bd85-4b16-92bd-cba4e4e9094d",
-    "lastModified": "2026-09-16T17:02:46.8183657+00:00",
-    "appVersion": "13.5.131.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:44:08.2250807+00:00",
+    "appVersion": "14.0.24.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/pda/index.html",
-    "sourceHash": "sha256:806378eb64d0ad2d42a8ce15813f841f530ba0b7d9633ef9a2291de6f8c33946",
+    "sourceHash": "sha256:672f3c3aa5f0379d3112477e23ffc800868495e7ef45a1d86678c7c557ae207e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:806378eb64d0ad2d42a8ce15813f841f530ba0b7d9633ef9a2291de6f8c33946",
-    "mappedOn": null,
-    "summary": "Paperless shop floor data acquisition",
+    "sourceHash": "sha256:672f3c3aa5f0379d3112477e23ffc800868495e7ef45a1d86678c7c557ae207e",
+    "mappedOn": "2026-10-30",
+    "summary": "Digital shop floor time recording for setup and run times on production operations.",
     "shape": "process",
     "primary": [
       {
@@ -28,16 +30,19 @@
       }
     ],
     "secondary": [
+      "ng-production-costing",
       "ng-admin-devices"
     ],
     "claims": [
-      "Record setup and processing times digitally on site",
-      "PDA control area for central time tracking",
+      "Setup and processing times are posted directly on the shop floor",
+      "Central control area for all production operations and time tracking",
+      "Workers report operation data from the production site",
       "Optional check before times are posted",
-      "Start/end time recording",
-      "Tracks interruptions",
-      "Automatic break times from calendar",
-      "Times for parallel operations"
+      "Start and end times recorded",
+      "Interruptions are tracked",
+      "Break times deducted automatically",
+      "Times for parallel operations can be recorded",
+      "Usually paired with Yaveon 365 Mobile for mobile reporting"
     ],
     "countries": [
       "AD",
@@ -135,11 +140,13 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

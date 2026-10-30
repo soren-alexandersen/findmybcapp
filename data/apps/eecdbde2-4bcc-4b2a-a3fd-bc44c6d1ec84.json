@@ -8,18 +8,20 @@
     "publisher": "Business Dynamics Pro Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_documentq%7CPAPPID.eecdbde2-4bcc-4b2a-a3fd-bc44c6d1ec84",
-    "lastModified": "2026-09-30T03:46:45.6615723+00:00",
+    "lastModified": "2026-10-29T08:34:16.3516063+00:00",
     "appVersion": "1.2.0.124",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://dynamicspro.ca/help/documentq",
-    "sourceHash": "sha256:6ca6338e6e278f31f8e2999c66cd2b5c8dba1081d52ef327645257f0791a27fd",
+    "sourceHash": "sha256:a714e5ef677d7faddb1ae9a59d20f0dd9fdd85f4de9ef33b2600945889beda6d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6ca6338e6e278f31f8e2999c66cd2b5c8dba1081d52ef327645257f0791a27fd",
-    "mappedOn": null,
-    "summary": "AI captures supplier invoices and reconciles them into purchase documents",
+    "sourceHash": "sha256:a714e5ef677d7faddb1ae9a59d20f0dd9fdd85f4de9ef33b2600945889beda6d",
+    "mappedOn": "2026-10-30",
+    "summary": "AI vendor invoice capture that reconciles against POs and receipts before posting.",
     "shape": "process",
     "primary": [
       {
@@ -27,17 +29,19 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
     "claims": [
-      "LLM reads vendor invoices",
-      "Reconciles PO invoices against PO and posted receipt",
-      "Builds invoice via Get Receipt Lines: quantities from receipt, prices from PO",
-      "Non-PO invoices require manual G/L coding and approval",
-      "No per-vendor templates or coordinate zones",
-      "Exceptions carry documented reason codes",
-      "Handles PO-backed, recurring-contract, prepayments, credit memos and non-PO invoices",
-      "Prepaid monthly document packages; unused documents do not roll over",
-      "Usage against package visible in product"
+      "LLM reads the invoice; AL code checks it against PO and posted receipt",
+      "Builds the invoice with Get Receipt Lines: quantities from receipt, prices from PO",
+      "Misreads raise exceptions instead of posting wrong amounts",
+      "Non-PO invoices need manual G/L coding and approval and are flagged separately",
+      "No vendor templates or coordinate zones needed",
+      "Exceptions carry documented reason codes and the arithmetic",
+      "Handles PO invoices, recurring-contract invoices, prepayments and credit memos",
+      "Free to install; capture needs a prepaid monthly document package",
+      "Unused monthly document allowance does not roll over"
     ],
     "countries": [],
     "languages": [],
@@ -45,7 +49,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "per_transaction",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

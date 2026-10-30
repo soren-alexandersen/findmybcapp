@@ -8,38 +8,46 @@
     "publisher": "K3 Business Technology Group",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3businesstechnologygroup%7CAID.k3pebblestone%7CPAPPID.4a91e8e3-eb85-4a1a-9544-4e68b32c5547",
-    "lastModified": "2026-09-12T17:24:00.266972+00:00",
-    "appVersion": "28.1.1.54",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T10:46:39.3093137+00:00",
+    "appVersion": "28.2.0.65",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
-    "sourceHash": "sha256:5ca021fcd478544b57efc3c65d7f8985d7c95442da3cd50a51ae47753d823d57",
+    "sourceHash": "sha256:48abe8356600b1067cfa205d8ecb7dd417728a730eabea54f6e2173a977a307b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:5ca021fcd478544b57efc3c65d7f8985d7c95442da3cd50a51ae47753d823d57",
-    "mappedOn": null,
-    "summary": "Fashion industry solution for styles, inventory and wholesale",
+    "sourceHash": "sha256:48abe8356600b1067cfa205d8ecb7dd417728a730eabea54f6e2173a977a307b",
+    "mappedOn": "2026-10-30",
+    "summary": "Fashion and apparel ERP on BC: size/colour matrices, season planning, pre-sales and NOOS ordering.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-fashion",
         "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-sales-order-entry",
-      "ng-item-master-data"
+      "ng-product-portfolio-launch",
+      "ng-replenishment-planning"
     ],
     "claims": [
-      "Fully integrated fashion ERP embedded in BC",
-      "For brand owners, wholesalers, private label and CMT companies",
-      "2D and 3D size and colour matrices",
+      "For brand owners, wholesalers, private label and CMT companies in fashion",
+      "2D and 3D matrices for sizes and colours",
       "Pre-season collection planning against planned price points",
       "Controls availability of items and variants across processes",
-      "Pre-sales orders with seasons attached to order types",
-      "Never-out-of-stock (NOOS) ordering",
-      "Product data management as single version of truth"
+      "Pre-sales orders linked to a season and order type",
+      "Never-out-of-stock (NOOS) ordering with availability check",
+      "Central product data management",
+      "Works out of the box without extensive configuration",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AE",
@@ -86,14 +94,13 @@
       "sv"
     ],
     "industries": [
-      "Apparel",
       "Fashion",
       "Wholesale"
     ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "deployment": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

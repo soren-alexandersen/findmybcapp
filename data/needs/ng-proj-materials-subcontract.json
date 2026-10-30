@@ -99,10 +99,10 @@
         }
       ],
       "coverage": {
-        "Buying materials for a project": 0.5,
-        "Producing or assembling items for a project": 0.42,
-        "Picking stock from the warehouse to the site": 0.42,
-        "Paying subcontractors": 0.33
+        "Buying materials for a project": 0.45,
+        "Producing or assembling items for a project": 0.36,
+        "Picking stock from the warehouse to the site": 0.36,
+        "Paying subcontractors": 0.36
       }
     },
     {
@@ -131,8 +131,8 @@
         }
       ],
       "coverage": {
-        "From hours they log on the project": 0.17,
-        "Per contract or fixed price": 0.17
+        "From hours they log on the project": 0.18,
+        "Per contract or fixed price": 0.18
       }
     },
     {
@@ -154,7 +154,7 @@
         }
       ],
       "coverage": {
-        "Yes, foremen or workers order or withdraw materials": 0.17
+        "Yes, foremen or workers order or withdraw materials": 0.18
       }
     },
     {
@@ -174,8 +174,17 @@
         }
       ],
       "coverage": {
-        "Yes, requests need approval": 0.17
+        "Yes, requests need approval": 0.18
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "base-product dependencies named by publisher",
+      "terms": [
+        "advanc"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

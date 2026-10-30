@@ -8,28 +8,31 @@
     "publisher": "BEYONDIT GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-serviceworksheetfixedpricebridge%7CPAPPID.5c2b85d6-cc34-4d63-b93a-8f09112bc522",
-    "lastModified": "2026-08-13T12:12:33.588836+00:00",
-    "appVersion": "2026.8.104.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T17:15:01.6274805+00:00",
+    "appVersion": "2026.10.117.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
-    "sourceHash": "sha256:f8aa6f048a0876e88c84db97a657bf523032a7a4ea57caab487d32d0d92f1892",
+    "sourceHash": "sha256:2e2c89ed94df56f7046763d62025335895b58468630579dc1498df93673ef749",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f8aa6f048a0876e88c84db97a657bf523032a7a4ea57caab487d32d0d92f1892",
-    "mappedOn": null,
-    "summary": "Bridges BeyondServiceWorksheet and BeyondFixedPrices",
-    "shape": "addon",
+    "sourceHash": "sha256:2e2c89ed94df56f7046763d62025335895b58468630579dc1498df93673ef749",
+    "mappedOn": "2026-10-30",
+    "summary": "Bridge app linking BeyondServiceWorksheet and BeyondFixedPrice for service invoice lines.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-svc-offerings-pricing",
+        "need": "ng-svc-close-invoice",
         "confidence": "low"
       }
     ],
     "secondary": [],
     "claims": [
-      "Adds fixed price support to service invoice and credit memo lines"
+      "Connects BeyondServiceWorksheet with BeyondFixedPrices",
+      "Adds fixed price fields to service invoice and credit memo lines"
     ],
     "countries": [
       "AT",
@@ -65,9 +68,9 @@
       "BeyondFixedPrice"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "hideReason": "Dependency/bridge app that only links two other BEYONDIT apps",
     "noFit": ""
   },
   "curated": {

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.rhythmsoft-global_consulting_pvt_ltd|AID.order_to_delivery_workspace|PAPPID.80638247-6f6c-43c0-8680-6f54217d7acf",
+  "guid": "80638247-6f6c-43c0-8680-6f54217d7acf",
+  "publisherId": "rhythmsoft-global_consulting_pvt_ltd",
+  "offerId": "order_to_delivery_workspace",
+  "source": {
+    "name": "Order-to Delivery Workspace flow diagram for Microsoft Dynamics 365 Business Central",
+    "publisher": "Rhythmsoft-Global Consulting Pvt Ltd",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.rhythmsoft-global_consulting_pvt_ltd%7CAID.order_to_delivery_workspace%7CPAPPID.80638247-6f6c-43c0-8680-6f54217d7acf",
+    "lastModified": "2026-10-15T06:54:50.0693433+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://rhythmsoft-global.com/contact",
+    "sourceHash": "sha256:b63c877f9b9f605d02bfc30990128cc6e7ad102381b0bdacf039040b28d98f6c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:b63c877f9b9f605d02bfc30990128cc6e7ad102381b0bdacf039040b28d98f6c",
+    "mappedOn": "2026-10-30",
+    "summary": "Single-screen visual flow of manufacturing orders, stock, sales and purchasing status.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-rolecenters",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Built for discrete and repetitive manufacturers",
+      "Shows subcontracting and planning worksheets together with capacity and machine center load",
+      "Tracks production orders through all statuses",
+      "Shows material consumption and output against the item",
+      "Separates receipts, put-away, picking and shipments in the warehouse map",
+      "Sales and purchase orders grouped by status",
+      "Flags missing labels, stock discrepancies and routing errors",
+      "Requires BC Premium manufacturing",
+      "Monthly plan"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

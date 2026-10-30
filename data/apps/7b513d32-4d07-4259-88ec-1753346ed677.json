@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.gmsoft-shelf-life-replenishment|PAPPID.7b513d32-4d07-4259-88ec-1753346ed677",
+  "guid": "7b513d32-4d07-4259-88ec-1753346ed677",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "gmsoft-shelf-life-replenishment",
+  "source": {
+    "name": "Shelf-Life Aware Replenishment",
+    "publisher": "GMSOFT LIMITED",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.gmsoft-shelf-life-replenishment%7CPAPPID.7b513d32-4d07-4259-88ec-1753346ed677",
+    "lastModified": "2026-10-21T15:06:35.6470495+00:00",
+    "appVersion": "2.29.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://gmsoftdynamics.com/apps/manufacturing-suite/shelf-life-aware-replenishment/docs/",
+    "sourceHash": "sha256:2d4838cc9d1bfb85befb11f022e98167ea2e3376e72c97c20152df5378a23c28",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d4838cc9d1bfb85befb11f022e98167ea2e3376e72c97c20152df5378a23c28",
+    "mappedOn": "2026-10-30",
+    "summary": "Plans, reserves and ships lots by remaining shelf life per customer requirements.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold",
+      "ng-quality-inspection",
+      "ng-sales-pricing",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Planning ignores stock that expires before it can be used and replans in time",
+      "Minimum remaining shelf life per customer, ship-to, item or category in days or percent",
+      "Shelf life checked at reservation, picking and posting",
+      "One-off exceptions with reason and end date",
+      "Block a lot for a customer or destination country",
+      "Batch status with reason code and insert-only history",
+      "Retest dates return lots to quarantine automatically",
+      "Lot release when all mandatory tests pass",
+      "Markdown suggestions create draft sales price lists",
+      "Availability page explains what can be sold to a customer per lot",
+      "Industry packs for food, dairy, pharma and chemicals",
+      "All changes to standard behaviour are behind setup switches off by default",
+      "BC online Essentials and Premium; production features need Premium",
+      "Per-user tiers with one-month free trial"
+    ],
+    "countries": [
+      "GB",
+      "GR",
+      "IT"
+    ],
+    "languages": [
+      "el",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Chemicals",
+      "Dairy",
+      "Food and beverage",
+      "Pharmaceuticals"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

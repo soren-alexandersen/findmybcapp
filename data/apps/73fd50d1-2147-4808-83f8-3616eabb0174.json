@@ -8,41 +8,47 @@
     "publisher": "Northern Dynamic GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.northerndynamic%7CAID.ndydtvconnector%7CPAPPID.73fd50d1-2147-4808-83f8-3616eabb0174",
-    "lastModified": "2026-07-29T11:45:24.0137244+00:00",
-    "appVersion": "1.1.168.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:49:39.3177505+00:00",
+    "appVersion": "1.1.193.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.northerndynamic.de/Northern%20Dynamic%20Datev%20Connector/",
-    "sourceHash": "sha256:32f359e5d2ff0998ca78868e2b556e47a06b64a45eccebd643d3b456046e250d",
+    "sourceHash": "sha256:8168d8a6113589d4598082aded2ac7df25342300ad2b71011a39598f5737e9aa",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:32f359e5d2ff0998ca78868e2b556e47a06b64a45eccebd643d3b456046e250d",
-    "mappedOn": null,
-    "summary": "Exports financial data to DATEV format for tax advisors",
+    "sourceHash": "sha256:8168d8a6113589d4598082aded2ac7df25342300ad2b71011a39598f5737e9aa",
+    "mappedOn": "2026-10-30",
+    "summary": "Exports BC accounting and master data to DATEV for German tax advisors, and imports back.",
     "shape": "localization",
     "primary": [
       {
-        "need": "ng-loc-tax-reporting",
+        "need": "ng-loc-country-pack",
         "confidence": "high"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-loc-country-pack"
+      "ng-loc-tax-reporting",
+      "ng-period-close"
     ],
     "claims": [
-      "Exports financial accounting data in latest DATEV format",
+      "Exports financial accounting data in the current DATEV format",
       "Imports accounting data from DATEV Kanzlei-Rechnungswesen",
-      "Exports master data: vendors, customers, G/L accounts",
-      "Custom filters and period selection",
-      "Exports archived documents for tax advisor software",
-      "Flexible VAT handling with automatic accounts or BC data",
+      "Exports vendor, customer and G/L account master data",
+      "Filters and period selection for exports",
+      "Exports archived documents for the tax advisor's software",
+      "VAT via DATEV automatic accounts or BC VAT postings",
       "Exports fixed assets",
-      "Movement logs per export run"
+      "Log for every export run",
+      "Available in German and English"
     ],
     "countries": [
-      "AT",
-      "CH",
       "DE"
     ],
     "languages": [
@@ -54,8 +60,8 @@
       "DATEV"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

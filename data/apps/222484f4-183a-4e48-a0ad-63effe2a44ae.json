@@ -17,7 +17,8 @@
     "freeTrial": "1 Month",
     "helpLink": "https://www.sbcdynamicserp.com/acumens-customer-portal/",
     "sourceHash": "sha256:ef7aa65a8e588b6e8c95269ee36f046f9fe778f1dc8bf0b5557432c7b39463ac",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:ef7aa65a8e588b6e8c95269ee36f046f9fe778f1dc8bf0b5557432c7b39463ac",

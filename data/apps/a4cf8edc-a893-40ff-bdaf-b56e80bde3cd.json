@@ -8,19 +8,21 @@
     "publisher": "CentralPath Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralpathsolutions%7CAID.c7d03c8a-b72c-4f1a-a306-eec208654dff%7CPAPPID.a4cf8edc-a893-40ff-bdaf-b56e80bde3cd",
-    "lastModified": "2026-10-01T17:00:10.5556607+00:00",
-    "appVersion": "28.0.10058.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T17:51:33.7819089+00:00",
+    "appVersion": "29.0.10059.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.centralpath.com/dimensionpath/",
-    "sourceHash": "sha256:07d88801d9f07565250954902dab62794e7692cc47171b9c13df4242157ee142",
+    "sourceHash": "sha256:990962e25476f1362b7aa48d962a2333b4876dff09cb4c86283b89b35463a358",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:07d88801d9f07565250954902dab62794e7692cc47171b9c13df4242157ee142",
-    "mappedOn": null,
-    "summary": "Extends dimensions with relationships and analysis",
-    "shape": "process",
+    "sourceHash": "sha256:990962e25476f1362b7aa48d962a2333b4876dff09cb4c86283b89b35463a358",
+    "mappedOn": "2026-10-30",
+    "summary": "Makes all eight dimensions filterable, adds dimension relations, subsets, sync and segmented accounts.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-dimensions",
@@ -28,19 +30,20 @@
       }
     ],
     "secondary": [
+      "ng-coa-company-setup",
       "ng-financial-statements",
       "ng-ux-data-quality"
     ],
     "claims": [
-      "Shortcut dimensions 3-8 act like global dimensions",
-      "All 8 dimensions available as row/column filters in Financial Reports",
-      "Dimension relations where one value dictates others, cascading",
-      "Dimension subsets limit valid values based on other dimensions",
-      "Replaces BC dimension combinations with tighter controls",
-      "Synchronizes master data (e.g. projects) to dimension values automatically",
-      "Multi-level item category hierarchy linked to dimensions",
-      "Segmented chart of accounts view",
-      "Segmented Account No. field on journals and document lines",
+      "Shortcut dimensions 3-8 behave like global dimensions for filtering",
+      "All eight dimensions usable in financial report rows and columns without analysis views",
+      "One dimension value can force values of others, cascading over levels",
+      "Dimension subsets hide invalid values based on other dimensions",
+      "Restrictions can depend on multiple other dimension values",
+      "Replaces standard dimension combinations with tighter control",
+      "Auto-creates dimension values from master records like projects",
+      "Each item category level can map to its own dimension through to the G/L",
+      "Segmented account number field fills account and dimensions in one step",
       "Segmented trial balance reports"
     ],
     "countries": [],
@@ -49,7 +52,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

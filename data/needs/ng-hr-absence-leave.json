@@ -38,7 +38,9 @@
     "Employees ask HR how many vacation days they have left all the time",
     "Request half a day off for a personal errand",
     "Planned holidays don't show in resource planning so we book consultants who are away",
-    "holiday approval workflow"
+    "holiday approval workflow",
+    "Our employees should see their remaining holiday balance themselves",
+    "Leave rules must follow our union agreement"
   ],
   "questions": [
     {
@@ -55,7 +57,10 @@
             "time entr",
             "time registration",
             "attendance",
-            "punch"
+            "punch",
+            "ordinary hours",
+            "overtime",
+            "hour balances"
           ]
         },
         {
@@ -75,8 +80,8 @@
         }
       ],
       "coverage": {
-        "Yes, hours and absence": 0.68,
-        "Absence and leave only": 0.32
+        "Yes, hours and absence": 0.7,
+        "Absence and leave only": 0.33
       }
     },
     {
@@ -127,10 +132,10 @@
         }
       ],
       "coverage": {
-        "Web portal or self-service site": 0.71,
-        "Mobile app": 0.25,
-        "Inside Business Central": 0.18,
-        "HR registers it for them": 0.14
+        "Web portal or self-service site": 0.78,
+        "Mobile app": 0.3,
+        "Inside Business Central": 0.15,
+        "HR registers it for them": 0.15
       }
     },
     {
@@ -149,7 +154,7 @@
         }
       ],
       "coverage": {
-        "Yes, with approval workflow": 0.61
+        "Yes, with approval workflow": 0.67
       }
     },
     {
@@ -169,7 +174,7 @@
         }
       ],
       "coverage": {
-        "Yes, export or link to payroll": 0.57
+        "Yes, export or link to payroll": 0.56
       }
     },
     {
@@ -184,7 +189,11 @@
             "apprais",
             "qualification",
             "competenc",
-            "business trip"
+            "business trip",
+            "expense claim",
+            "expenses add-on",
+            "org(ani[sz]ational)? structure",
+            "company structure"
           ]
         },
         {
@@ -204,8 +213,8 @@
         }
       ],
       "coverage": {
-        "Yes, a fuller HR solution": 0.36,
-        "No, leave and time only": 0.54
+        "Yes, a fuller HR solution": 0.56,
+        "No, leave and time only": 0.56
       }
     },
     {
@@ -218,7 +227,12 @@
             "entitlement",
             "seniority",
             "vacation polic",
-            "accru"
+            "accru",
+            "carried.over",
+            "allowances",
+            "labou?r law",
+            "union agreement",
+            "rules in \\d+ countries"
           ]
         },
         {
@@ -227,8 +241,74 @@
         }
       ],
       "coverage": {
-        "Yes, accrue from rules or seniority": 0.14
+        "Yes, accrue from rules or seniority": 0.26
       }
+    },
+    {
+      "id": "should-employees-also-log-thei",
+      "text": "Should employees also log their hours against projects or tasks?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, project and task time too",
+          "patterns": [
+            "projects\\b",
+            "project time",
+            "task and project"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, project and task time too": 0.19
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "licensing editions and user license types",
+      "terms": [
+        "licens"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "custom fields and branding, setup detail",
+      "terms": [
+        "custom"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'integration' wording",
+      "terms": [
+        "integration"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'monthly' wording",
+      "terms": [
+        "monthly"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "mixed 'plan' wording, pricing plans and benefits",
+      "terms": [
+        "plan"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "data sync mechanics",
+      "terms": [
+        "sync"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

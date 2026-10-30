@@ -8,18 +8,20 @@
     "publisher": "bisting license AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bistinglicenseab1588086837069%7CAID.bisting%7CPAPPID.a6282db0-64d7-4f2e-bc68-823459b14914",
-    "lastModified": "2026-10-05T11:44:18.4191387+00:00",
-    "appVersion": "26.0.2638.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T09:05:36.7512155+00:00",
+    "appVersion": "26.0.2641.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.adbriq.com/bisting_core_bc/Help.pdf",
-    "sourceHash": "sha256:c5a972b5716610c54c8a9b6004afb8b0e0d4851eeb624a7579a8d124f78025e2",
+    "sourceHash": "sha256:37d267d32e71e16c1d3d9824501c26705b8dcc743ec82265bd508dacc856617a",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:c5a972b5716610c54c8a9b6004afb8b0e0d4851eeb624a7579a8d124f78025e2",
-    "mappedOn": null,
-    "summary": "Toolbox for data import/export and integration monitoring",
+    "sourceHash": "sha256:37d267d32e71e16c1d3d9824501c26705b8dcc743ec82265bd508dacc856617a",
+    "mappedOn": "2026-10-30",
+    "summary": "Toolbox for file and API integrations with monitoring, plus some sales and shipping helpers.",
     "shape": "usability",
     "primary": [
       {
@@ -32,21 +34,22 @@
       }
     ],
     "secondary": [
-      "ng-conn-edi",
-      "ng-admin-integration-failures",
-      "ng-stock-movements"
+      "ng-admin-alerts",
+      "ng-conn-webshop",
+      "ng-conn-3pl",
+      "ng-conn-marketplaces"
     ],
     "claims": [
-      "Imports and exports Text, Excel, XML/SOAP, JSON, EDIFACT",
-      "Connects to SMTP, (S)FTP, folder/UNC and web services",
-      "Connects with REST APIs",
-      "Centralized monitoring, logging and proactive alerts",
+      "Import and export Text, Excel, XML/SOAP, JSON and EDIFACT files",
+      "Connects via SMTP, SFTP, folders/UNC and web services",
+      "REST API connections",
+      "Central monitoring, logging and alerts for integrations",
       "Use a sales order instead of a transfer order",
-      "Shipment queue for delivery order",
-      "Exports product, price and inventory data for retailers",
-      "Syncs data between BC and a WMS",
-      "Creates data feeds for marketplaces",
-      "Supports Essential edition"
+      "Shipment queue controls delivery order",
+      "Exports product, price and stock data for retailers",
+      "Syncs data with a WMS",
+      "Data feeds for marketplaces",
+      "Supports Essentials edition, Sweden, English"
     ],
     "countries": [
       "SE"
@@ -58,7 +61,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_logitone_connector%7CPAPPID.1c0d958e-d69f-4462-9b84-76b9ec2ef46c",
-    "lastModified": "2026-09-30T20:02:21.234468+00:00",
-    "appVersion": "28.5.0.80063",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:16:45.5450797+00:00",
+    "appVersion": "29.0.0.80845",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:e8c13784d94e2e0f4b7f746c319030cdf1c41eed86169219c02e3c1aebab13e1",
+    "sourceHash": "sha256:8e54bebb4c5c1a18484181b9f024044f8918a9b4e5b813924f04d8a69d937c91",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e8c13784d94e2e0f4b7f746c319030cdf1c41eed86169219c02e3c1aebab13e1",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 with LogitOne",
+    "sourceHash": "sha256:8e54bebb4c5c1a18484181b9f024044f8918a9b4e5b813924f04d8a69d937c91",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects the Navitrans 365 transport system with LogitOne.",
     "shape": "addon",
     "primary": [
       {
@@ -27,16 +29,13 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS covering order registration to invoicing",
-      "FTL and LTL transport orders created from templates",
-      "Planning tools with capacity, combination and qualification checks",
-      "Prices automatically, either from fixed prices or from tariff tables",
-      "Works with subcontractors and charters",
-      "Automatic invoicing combining orders on invoices",
-      "Supports Essentials and Premium"
+      "Links Navitrans 365 with LogitOne",
+      "Part of the Navitrans 365 transport management suite",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -72,7 +71,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

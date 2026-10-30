@@ -8,46 +8,46 @@
     "publisher": "Elite IT ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eliteitaps1650537265871%7CAID.maintenance_solution%7CPAPPID.ce13439d-6427-4d96-8b40-ee0e5a3b1010",
-    "lastModified": "2026-06-16T08:11:07.2530118+00:00",
-    "appVersion": "23.2.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T12:29:32.9972032+00:00",
+    "appVersion": "23.2.1.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://eliteit.dk/mobil-vedligeholdelses-app/",
-    "sourceHash": "sha256:0b0982a80c9879702fc85f14bf29200f3d202ced60876ef3b4dd5d7fdcd5f4f5",
+    "sourceHash": "sha256:9c1a6904d3680252df4f7e53734c0186d3e2fdd76b7b2f9c3f13eb01e57b53b7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0b0982a80c9879702fc85f14bf29200f3d202ced60876ef3b4dd5d7fdcd5f4f5",
-    "mappedOn": null,
-    "summary": "Maintenance and resource management for biogas facilities",
+    "sourceHash": "sha256:9c1a6904d3680252df4f7e53734c0186d3e2fdd76b7b2f9c3f13eb01e57b53b7",
+    "mappedOn": "2026-10-30",
+    "summary": "BC-based operations and maintenance solution for biogas plants.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
-        "confidence": "high"
-      },
-      {
-        "need": "ng-maintenance-planned",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-maintenance-planned"
+    ],
     "claims": [
-      "Maintenance solution for biogas plants",
-      "Integrates additional systems for logistics and daily plant operations",
-      "Modular and scalable in price and function",
-      "Delivered to small farm plants up to very large biogas plants"
+      "Built with biogas companies and farmers over five years",
+      "Adds systems for logistics and daily plant operation routines",
+      "Modular, priced by modules needed",
+      "Used by plants from small farm plants to very large ones"
     ],
     "countries": [],
     "languages": [],
     "industries": [
       "Biogas",
-      "Energy"
+      "Energy & Resources"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -74,10 +74,10 @@
         }
       ],
       "coverage": {
-        "Dynamics 365 Sales / Dataverse": 0.28,
-        "Salesforce": 0.24,
-        "HubSpot or Pipedrive": 0.14,
-        "A field sales or order-taking app": 0.21
+        "Dynamics 365 Sales / Dataverse": 0.27,
+        "Salesforce": 0.27,
+        "HubSpot or Pipedrive": 0.13,
+        "A field sales or order-taking app": 0.2
       }
     },
     {
@@ -122,15 +122,23 @@
           ]
         },
         {
+          "label": "Stock levels",
+          "patterns": [
+            "\\bstock\\b",
+            "inventory (data|levels)"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Customers and contacts": 0.83,
-        "Opportunities, deals and leads": 0.41,
-        "Sales orders": 0.38,
-        "Invoices, balances or credit": 0.28
+        "Customers and contacts": 0.8,
+        "Opportunities, deals and leads": 0.4,
+        "Sales orders": 0.4,
+        "Invoices, balances or credit": 0.3,
+        "Stock levels": 0.1
       }
     },
     {
@@ -156,7 +164,7 @@
         }
       ],
       "coverage": {
-        "Yes, two-way sync": 0.31
+        "Yes, two-way sync": 0.3
       }
     },
     {
@@ -173,7 +181,9 @@
             "no-code",
             "custom entit",
             "custom .* fields",
-            "remap"
+            "remap",
+            "custom tables",
+            "low-code"
           ]
         },
         {
@@ -182,8 +192,88 @@
         }
       ],
       "coverage": {
-        "Yes, configurable field mapping": 0.34
+        "Yes, configurable field mapping": 0.37
       }
+    },
+    {
+      "id": "how-quickly-must-changes-reach",
+      "text": "How quickly must changes reach the other system?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Within seconds (real time)",
+          "patterns": [
+            "webhook",
+            "real-?time"
+          ]
+        },
+        {
+          "label": "On a schedule is fine (e.g. hourly or nightly)",
+          "patterns": [
+            "job queues?",
+            "scheduled"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Within seconds (real time)": 0.2,
+        "On a schedule is fine (e.g. hourly or nightly)": 0.23
+      }
+    },
+    {
+      "id": "do-you-want-to-be-alerted-and-",
+      "text": "Do you want to be alerted and able to retry when a sync fails?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, error alerts and easy retry",
+          "patterns": [
+            "error (alert|log|management)",
+            "sync errors",
+            "retry",
+            "dead-letter"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, error alerts and easy retry": 0.17
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "pricing and licensing terms",
+      "terms": [
+        "plus",
+        "annual",
+        "fees",
+        "installation",
+        "renewal"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "demo login availability",
+      "terms": [
+        "demo",
+        "login"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "Azure hosting and authentication detail",
+      "terms": [
+        "azur"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

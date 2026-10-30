@@ -8,41 +8,43 @@
     "publisher": "ERPgruppen",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.serviceplan-app%7CPAPPID.e1442459-618f-4fb6-9eff-79831c7c03e3",
-    "lastModified": "2026-05-04T10:45:36.8615695+00:00",
-    "appVersion": "2800.0.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T04:48:58.2431636+00:00",
+    "appVersion": "2800.0.3.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.erpgruppen.dk/kontakt/",
-    "sourceHash": "sha256:23def4c98af4b525adbe0535df73a85e29243b1b8661250a9eec8f37b531f579",
+    "sourceHash": "sha256:890909016f3b8520af0d8456345703545d8c7a1d63fc9aa7a4c56f282d11328e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:23def4c98af4b525adbe0535df73a85e29243b1b8661250a9eec8f37b531f579",
-    "mappedOn": null,
-    "summary": "Extends service and support management",
-    "shape": "process",
+    "sourceHash": "sha256:890909016f3b8520af0d8456345703545d8c7a1d63fc9aa7a4c56f282d11328e",
+    "mappedOn": "2026-10-30",
+    "summary": "Partner support app: news, critical notices and support tickets inside BC.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-support",
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-admin-updates-testing"
-    ],
+    "secondary": [],
     "claims": [
-      "Read news and information about your BC application",
-      "Critical information shown in the role center",
-      "Create and view support tickets inside BC",
-      "Links to help and knowledge portal"
+      "Create and view support tickets from within BC",
+      "Critical information shown on the role center",
+      "News about your BC application",
+      "Links to a help and knowledge portal"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.edi-electronic-data-interchange%7CPAPPID.135c854f-4f7a-4d00-a5c2-4da28fbdef78",
-    "lastModified": "2026-07-16T12:20:19.099313+00:00",
+    "lastModified": "2026-10-13T05:52:11.8883448+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://knowledgebase.hubbroker.net/article/ci4o5w16ob-hub-broker",
-    "sourceHash": "sha256:dae4868de615445739d3df64a8f79f6829487433ec816af20b3d9c7046a7a4a2",
+    "sourceHash": "sha256:5c93aca8d5ff5713469a93cc8ba509a10b41ffefaa0216410eb5f8d6c914af2e",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:dae4868de615445739d3df64a8f79f6829487433ec816af20b3d9c7046a7a4a2",
-    "mappedOn": null,
-    "summary": "EDI integration service for orders and invoices",
+    "sourceHash": "sha256:5c93aca8d5ff5713469a93cc8ba509a10b41ffefaa0216410eb5f8d6c914af2e",
+    "mappedOn": "2026-10-30",
+    "summary": "HubBroker EDI service for exchanging orders, invoices and shipping notices with trading partners.",
     "shape": "connector",
     "primary": [
       {
@@ -27,16 +29,23 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-integration-failures"
+    ],
     "claims": [
-      "Exchanges purchase orders, credit memos, invoices and shipping notices via EDI",
-      "Connects with suppliers, customers and logistics partners",
+      "Exchanges purchase orders, invoices, shipping notices and credit memos electronically",
+      "Connects to suppliers, customers and logistics partners",
       "Supports EDIFACT, X12, XML, CSV and JSON",
-      "Error monitoring for mapping and transmission errors"
+      "Monitors and reports mapping and transmission errors",
+      "Available in any country where partners require EDI"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Financial Services",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

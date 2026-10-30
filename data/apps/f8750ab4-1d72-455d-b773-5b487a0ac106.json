@@ -8,18 +8,20 @@
     "publisher": "Lanham Associates",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.e-ship_and_e-receive%7CPAPPID.f8750ab4-1d72-455d-b773-5b487a0ac106",
-    "lastModified": "2026-08-28T15:37:22.4097457+00:00",
-    "appVersion": "28.1.23.6",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T23:04:41.662458+00:00",
+    "appVersion": "29.1.24.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://ebchelplanhamassoc.helpdocsonline.com/home",
-    "sourceHash": "sha256:a2426afbe144b970cc435ef732d8b2c6f9634c4c45039db91ab6f51b37b83ba9",
+    "sourceHash": "sha256:8283bfb3011a47877c84e2b8292e209bec0215d82c81c263306f6ce91f63fc5d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a2426afbe144b970cc435ef732d8b2c6f9634c4c45039db91ab6f51b37b83ba9",
-    "mappedOn": null,
-    "summary": "Packing, shipping and barcode receiving",
+    "sourceHash": "sha256:8283bfb3011a47877c84e2b8292e209bec0215d82c81c263306f6ce91f63fc5d",
+    "mappedOn": "2026-10-30",
+    "summary": "Packing and carrier shipping inside BC plus barcode scanning for receiving.",
     "shape": "process",
     "primary": [
       {
@@ -32,20 +34,21 @@
       },
       {
         "need": "ng-receiving-putaway",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-barcode-labels"
+      "ng-barcode-labels",
+      "ng-conn-edi"
     ],
     "claims": [
-      "Packing and shipping inside Business Central",
-      "Pack line scanning for shipping accuracy",
-      "Rate shopping for package carriers and LTL (addressed need)",
-      "Barcode scanning in receiving",
-      "Updates PO receipts and inventory automatically from scans",
-      "Generates item barcodes on receipt",
-      "Works without full warehouse management structure"
+      "Packing and shipping run inside BC with customer and shipping data",
+      "Scanning at the pack line to check what is packed",
+      "Handles parcel carriers and LTL freight",
+      "Barcode scanning in receiving updates purchase receipts and inventory",
+      "Generates item barcodes during receiving",
+      "Works without full warehouse management structure",
+      "Supports Essentials and Premium"
     ],
     "countries": [
       "AU",
@@ -65,7 +68,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

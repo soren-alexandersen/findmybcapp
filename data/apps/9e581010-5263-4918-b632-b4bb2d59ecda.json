@@ -8,37 +8,42 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex08903_powerwmsforoverandunderdelivery%7CPAPPID.9e581010-5263-4918-b632-b4bb2d59ecda",
-    "lastModified": "2026-04-13T08:53:40.7021586+00:00",
-    "appVersion": "28.0.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T14:28:32.3366026+00:00",
+    "appVersion": "29.0.5.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
-    "sourceHash": "sha256:7d8da38aa907c1a931768600e8bc8355116bd9fbaf60efe7cdc5d06fbead20ea",
+    "sourceHash": "sha256:17057076ba328dc17e32bce7fe7e4abc39f5e385ec2e04c8e815574f61944118",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7d8da38aa907c1a931768600e8bc8355116bd9fbaf60efe7cdc5d06fbead20ea",
-    "mappedOn": null,
-    "summary": "Quantity tolerances for over- and under-delivery in warehouse",
-    "shape": "process",
+    "sourceHash": "sha256:17057076ba328dc17e32bce7fe7e4abc39f5e385ec2e04c8e815574f61944118",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds over- and under-delivery quantity tolerances to EOS Power WMS receipts and shipments.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-receiving-putaway",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-packing-loading",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-admin-devices"
+    ],
     "claims": [
-      "General or detailed tolerance setups on shipped/received quantities",
-      "Tolerance as quantity or percentage",
-      "Optional alerts when excessive quantity reached",
-      "Barcodes on warehouse activities",
-      "Depends on EOS Power WMS along with EOS Over- and Under-Delivery Quantities",
-      "Premium edition only"
+      "Tolerance for excess or short quantities when shipping or receiving",
+      "Tolerances can be general or detailed",
+      "Tolerance expressed as a quantity or a percentage",
+      "Optional alert when quantity goes over the limit",
+      "Barcode scanning on warehouse activities",
+      "Free app, but EOS Power WMS and Over- and Under-Delivery subscriptions are needed",
+      "Requires the Premium edition"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +51,10 @@
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Power WMS",

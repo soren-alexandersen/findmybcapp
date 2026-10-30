@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.dynalogic|AID.0e119a2f-d3ae-4981-9695-6e83bb8c46da|PAPPID.921f299c-8c46-4208-b24c-8c0a0da9b431",
+  "guid": "921f299c-8c46-4208-b24c-8c0a0da9b431",
+  "publisherId": "dynalogic",
+  "offerId": "0e119a2f-d3ae-4981-9695-6e83bb8c46da",
+  "source": {
+    "name": "Birds Document Warehouse - JobManager Integration",
+    "publisher": "dynalogic",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynalogic%7CAID.0e119a2f-d3ae-4981-9695-6e83bb8c46da%7CPAPPID.921f299c-8c46-4208-b24c-8c0a0da9b431",
+    "lastModified": "2026-10-28T12:55:36.0136078+00:00",
+    "appVersion": "23.6.378.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.9altitudes.com/contact",
+    "sourceHash": "sha256:126d6929819cacfcacd4476e4debbb403fd48f8cdef922e82df880a8560a923f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:126d6929819cacfcacd4476e4debbb403fd48f8cdef922e82df880a8560a923f",
+    "mappedOn": "2026-10-30",
+    "summary": "Shows related Birds Document Warehouse files inside JobManager tasks and journals.",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Document access inside JobManager Tasks and JobManager Journals",
+      "Shows documents linked to the related production, project, service or assembly order",
+      "Needs both JobManager and Document Warehouse installed"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "JobManager",
+      "Birds Document Warehouse"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

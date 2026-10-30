@@ -95,11 +95,11 @@
         }
       ],
       "coverage": {
-        "Food: allergens, ingredients, nutrition": 0.14,
-        "Hazardous goods and safety data sheets": 0.29,
-        "Export control, customs and origin": 0.19,
-        "EU green rules: EUDR, packaging (PPWR), product passport": 0.24,
-        "Certificates and audit documents (ISO, IFS, FSC...)": 0.14
+        "Food: allergens, ingredients, nutrition": 0.16,
+        "Hazardous goods and safety data sheets": 0.26,
+        "Export control, customs and origin": 0.26,
+        "EU green rules: EUDR, packaging (PPWR), product passport": 0.21,
+        "Certificates and audit documents (ISO, IFS, FSC...)": 0.16
       }
     },
     {
@@ -122,7 +122,10 @@
             "supplier surveys?",
             "supplier answers",
             "vendor eudr",
-            "single supplier"
+            "single supplier",
+            "supplier role cent",
+            "reminders to suppliers",
+            "suppliers working directly"
           ]
         },
         {
@@ -144,9 +147,9 @@
         }
       ],
       "coverage": {
-        "Rolled up from our own BOMs and recipes": 0.24,
-        "Declarations or answers from suppliers": 0.19,
-        "A specialist external system or registry": 0.24
+        "Rolled up from our own BOMs and recipes": 0.26,
+        "Declarations or answers from suppliers": 0.16,
+        "A specialist external system or registry": 0.26
       }
     },
     {
@@ -194,10 +197,10 @@
         }
       ],
       "coverage": {
-        "Sales quotes, orders and invoices": 0.24,
-        "Purchases and goods receipts": 0.14,
-        "Shipping documents and labels": 0.24,
-        "Production orders": 0.14
+        "Sales quotes, orders and invoices": 0.26,
+        "Purchases and goods receipts": 0.21,
+        "Shipping documents and labels": 0.26,
+        "Production orders": 0.21
       }
     },
     {
@@ -246,10 +249,10 @@
         }
       ],
       "coverage": {
-        "Safety data sheets": 0.14,
-        "Declarations, statements or certificates": 0.24,
-        "Filings to an authority database": 0.1,
-        "Product labels or passports": 0.19
+        "Safety data sheets": 0.11,
+        "Declarations, statements or certificates": 0.16,
+        "Filings to an authority database": 0.11,
+        "Product labels or passports": 0.21
       }
     },
     {
@@ -281,9 +284,25 @@
         }
       ],
       "coverage": {
-        "Yes, per lot or batch": 0.19,
-        "No, per item is enough": 0.38
+        "Yes, per lot or batch": 0.16,
+        "No, per item is enough": 0.47
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'level' wording",
+      "terms": [
+        "level"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'mandatory' wording",
+      "terms": [
+        "mandatory"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

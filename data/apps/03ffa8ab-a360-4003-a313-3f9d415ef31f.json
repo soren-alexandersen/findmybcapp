@@ -8,37 +8,34 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_document_capture_connector%7CPAPPID.03ffa8ab-a360-4003-a313-3f9d415ef31f",
-    "lastModified": "2026-09-30T20:02:32.9423533+00:00",
-    "appVersion": "28.5.0.80056",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:17:14.3351853+00:00",
+    "appVersion": "29.0.0.80862",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:472c67e874e4a166b0ec06018d97df287607a38736c808711740dfeb9436884d",
+    "sourceHash": "sha256:5bb5ace1285d3501e5837022b30484bcf866751a3bb6194c94784971933702a7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:472c67e874e4a166b0ec06018d97df287607a38736c808711740dfeb9436884d",
-    "mappedOn": null,
-    "summary": "Connects Navitrans 365 with document capture",
-    "shape": "addon",
+    "sourceHash": "sha256:5bb5ace1285d3501e5837022b30484bcf866751a3bb6194c94784971933702a7",
+    "mappedOn": "2026-10-30",
+    "summary": "Navitrans 365 document capture link; listing text only describes the general transport suite.",
+    "shape": "connector",
     "primary": [
       {
         "need": "ng-vert-transport-logistics",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
-    "secondary": [
-      "ng-ap-invoice-capture"
-    ],
+    "secondary": [],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS covering order registration to invoicing",
-      "FTL and LTL transport orders created from templates",
-      "Planning tools with capacity, combination and qualification checks",
-      "Prices set by fixed prices or tariff tables, applied automatically",
-      "Works with subcontractors and charters",
-      "Automatic invoicing combining orders on invoices",
-      "Supports Essentials and Premium"
+      "Navitrans suite: FTL and LTL transport orders from templates",
+      "Navitrans suite: capacity, combination and qualification checks when planning",
+      "Navitrans suite: automatic pricing from tariff tables or fixed prices",
+      "Navitrans suite: works with subcontractors and charters",
+      "Runs on BC Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -66,15 +63,15 @@
     "languages": [
       "en"
     ],
-    "industries": [],
-    "connectsTo": [
-      "Document Capture"
+    "industries": [
+      "Transport & logistics"
     ],
+    "connectsTo": [],
     "requires": [
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

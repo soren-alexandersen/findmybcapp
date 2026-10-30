@@ -218,5 +218,14 @@
         "No, we plan inside BC": 0.56
       }
     }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'level' wording",
+      "terms": [
+        "level"
+      ],
+      "on": "2026-10-30"
+    }
   ]
 }

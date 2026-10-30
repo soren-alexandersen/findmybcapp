@@ -8,18 +8,20 @@
     "publisher": "Experlogix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.experlogix%7CAID.experlogix_digital_commerce-for-bus_central%7CPAPPID.bb6d8d5d-6b6f-43e0-9c24-0f0059c69c0f",
-    "lastModified": "2026-07-20T14:47:22.3803961+00:00",
-    "appVersion": "26.7.7.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T12:07:09.1075993+00:00",
+    "appVersion": "26.10.21.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://experlogix.com/products/digital-commerce/",
-    "sourceHash": "sha256:ddcf0946802615c5e2f342f88640354f80f8efd3f5d1c599dee056a2528d9c90",
+    "sourceHash": "sha256:0c677e5a774a523cc4087b639ac869ad28b6eae0e66b59a2577dee9d4f9a6042",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ddcf0946802615c5e2f342f88640354f80f8efd3f5d1c599dee056a2528d9c90",
-    "mappedOn": null,
-    "summary": "B2B/B2C e-commerce storefront integrated with BC",
+    "sourceHash": "sha256:0c677e5a774a523cc4087b639ac869ad28b6eae0e66b59a2577dee9d4f9a6042",
+    "mappedOn": "2026-10-30",
+    "summary": "Webshop platform with real-time data exchange with Business Central.",
     "shape": "connector",
     "primary": [
       {
@@ -27,10 +29,12 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
     "claims": [
-      "Streamlines and automates online order-taking",
-      "Real-time data flow between web shop and BC"
+      "Automates online order taking",
+      "Real-time data flow between the web shop and the ERP"
     ],
     "countries": [],
     "languages": [],
@@ -43,7 +47,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

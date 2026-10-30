@@ -8,18 +8,20 @@
     "publisher": "BoSch Data GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-bauind-app%7CPAPPID.22ba60ce-29c1-43c6-95bd-6f9243cd8095",
-    "lastModified": "2026-10-05T15:41:06.144017+00:00",
-    "appVersion": "27.24.3896.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T17:12:01.2453474+00:00",
+    "appVersion": "27.26.4064.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.bosch-data.de/bauind/",
-    "sourceHash": "sha256:f9e2fb0cc2f9ac01a5d40f5de0f3e274b05c9b788ef25320ea829de1db21f5d4",
+    "sourceHash": "sha256:c666c396427a2ab72798c1ea1b420c320ab9a2adcccb495158cde6c19f3ad773",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f9e2fb0cc2f9ac01a5d40f5de0f3e274b05c9b788ef25320ea829de1db21f5d4",
-    "mappedOn": null,
-    "summary": "Industry solution for sand, gravel and building materials companies",
+    "sourceHash": "sha256:c666c396427a2ab72798c1ea1b420c320ab9a2adcccb495158cde6c19f3ad773",
+    "mappedOn": "2026-10-30",
+    "summary": "Industry solution for producers and traders of aggregates, concrete products and building materials.",
     "shape": "vertical",
     "primary": [
       {
@@ -29,33 +31,34 @@
     ],
     "secondary": [
       "ng-transport-planning",
-      "ng-customer-credit-holds"
+      "ng-customer-credit-holds",
+      "ng-admin-devices"
     ],
     "claims": [
-      "For concrete products, sand, gravel, aggregates, aerated concrete, sand-lime bricks",
-      "Auto-populates documents with construction sites, logistics partners and vehicles",
-      "Automatic credit limit checks",
-      "Dispatcher and truck driver apps",
-      "Automated processing of factory collections",
-      "Digital loading processes",
-      "Complies with GoBD and works offline",
-      "Drag-and-drop dashboard planning",
-      "Order app, driver app, digital loading with pallet return, self-service terminal",
-      "Field service connection"
+      "Targets firms dealing in sand, gravel, chippings, aggregates, aerated concrete and sand-lime bricks",
+      "Fills sales documents with data on customers, contractors, construction sites, logistics partners and vehicles",
+      "Runs automatic credit limit checks during sales",
+      "Optional apps for dispatchers and truck drivers with status updates",
+      "Automates handling of factory collections",
+      "Digital loading process including pallet returns",
+      "Works offline",
+      "Complies with German GoBD bookkeeping rules",
+      "Drag-and-drop planning and dashboards for dispatch and production",
+      "Self-service terminal and order app",
+      "Field service connection for mobile processing",
+      "Uses Microsoft Copilot"
     ],
     "countries": [
       "DE"
     ],
     "languages": [],
     "industries": [
-      "Aggregates",
-      "Building materials",
-      "Concrete products"
+      "Building materials"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

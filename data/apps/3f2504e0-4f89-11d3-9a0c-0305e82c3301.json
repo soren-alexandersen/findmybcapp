@@ -8,18 +8,20 @@
     "publisher": "TueTech",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tuetech1695034641774%7CAID.claimlane_integration%7CPAPPID.3f2504e0-4f89-11d3-9a0c-0305e82c3301",
-    "lastModified": "2026-10-05T05:17:25.2870551+00:00",
-    "appVersion": "1.2.8.2",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T13:26:08.9558455+00:00",
+    "appVersion": "1.2.8.4",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://tuetech.io/claimlane/documentation/",
-    "sourceHash": "sha256:ef9be0ecd1b4be7ab4b8e82b2be94961a8568d9ded92412856dd311b3ab4053d",
+    "sourceHash": "sha256:dff100eaa3804fb42b0ab97163ae03aeb076bd8cb21411f24816000b96e631c8",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ef9be0ecd1b4be7ab4b8e82b2be94961a8568d9ded92412856dd311b3ab4053d",
-    "mappedOn": null,
-    "summary": "Automates returns and claims via Claimlane",
+    "sourceHash": "sha256:dff100eaa3804fb42b0ab97163ae03aeb076bd8cb21411f24816000b96e631c8",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects BC to Claimlane to automate returns, claims and resulting credit notes.",
     "shape": "connector",
     "primary": [
       {
@@ -28,15 +30,16 @@
       }
     ],
     "secondary": [
-      "ng-ux-correct-posted"
+      "ng-ux-correct-posted",
+      "ng-vert-retail"
     ],
     "claims": [
-      "Separate workflows for claims and returns",
-      "Automates B2B credit notes by matching claims against posted invoices",
-      "Price reductions via item charges",
-      "Updates product data in Claimlane B2B module",
-      "Setup in under 10 minutes",
-      "Requires active Claimlane subscription"
+      "Separate workflows for claims and for returns",
+      "Credit notes for B2B partners are created by matching claims and returns to posted invoices",
+      "Price reductions are applied through item charges",
+      "Product data is pushed to the Claimlane B2B module",
+      "Setup takes under 10 minutes",
+      "Needs an active Claimlane subscription and is billed through Claimlane"
     ],
     "countries": [],
     "languages": [],
@@ -47,7 +50,7 @@
       "Claimlane"
     ],
     "requires": [
-      "Claimlane"
+      "Claimlane subscription"
     ],
     "deployment": "not_stated",
     "pricing": "subscription",

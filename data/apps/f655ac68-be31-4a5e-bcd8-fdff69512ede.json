@@ -8,18 +8,18 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0033%7CPAPPID.f655ac68-be31-4a5e-bcd8-fdff69512ede",
-    "lastModified": "2026-10-05T10:02:51.3585548+00:00",
+    "lastModified": "2026-10-14T13:07:55.2321945+00:00",
     "appVersion": "26.2.0.28468",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://duveka.de/",
-    "sourceHash": "sha256:ca115793d47c17bca9ef8a53573281039cfe09ad43f621332cc54e5fcfda811e",
+    "sourceHash": "sha256:68823061d2308b18037a50ac2a378d36d49719813aba9e775b990f35f731b096",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ca115793d47c17bca9ef8a53573281039cfe09ad43f621332cc54e5fcfda811e",
-    "mappedOn": "2026-10-07",
-    "summary": "Requests and collects EU PPWR packaging declarations from suppliers via a portal",
+    "sourceHash": "sha256:68823061d2308b18037a50ac2a378d36d49719813aba9e775b990f35f731b096",
+    "mappedOn": "2026-10-30",
+    "summary": "Supplier web portal add-on that collects PPWR packaging declarations and evidence into BC.",
     "shape": "addon",
     "primary": [
       {
@@ -35,12 +35,16 @@
       "ng-admin-portals"
     ],
     "claims": [
-      "Request a supplier declaration from the packaging type, pre-filled",
-      "Proposes the main material supplier automatically",
-      "Supplier portal answers are written back as data",
-      "Uploaded supplier documents filed as compliance documents",
-      "Optional automatic adoption as new version and compliance check",
-      "Reports whether declaration is signed, binding and has material lines"
+      "Suppliers enter material composition per line including weight, recycled content, coating and origin",
+      "Suppliers answer the Article 5 to 12 questions including heavy metals and PFAS",
+      "Suppliers upload evidence and sign declarations as legally binding",
+      "Portal available in German and English",
+      "Declaration requests start from the packaging type, pre-filled with known materials",
+      "Supplier of the main material is suggested automatically",
+      "Portal answers are written back into BC as data, replacing reported material lines",
+      "Uploaded evidence is stored as a compliance document on the packaging type",
+      "Optional switches adopt answers as a new packaging version and run the compliance check",
+      "Reports whether a declaration came back signed and complete"
     ],
     "countries": [],
     "languages": [

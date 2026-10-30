@@ -8,23 +8,25 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex07003_mesforhandlingunits%7CPAPPID.b58719bf-b1c7-4f0d-a482-860c557d3883",
-    "lastModified": "2026-04-13T17:23:21.4828689+00:00",
-    "appVersion": "28.0.1.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-12T15:24:36.5274764+00:00",
+    "appVersion": "29.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mes-manufacturing-execution-system.html",
-    "sourceHash": "sha256:64e8d85d222a61ede4ddafec442b8875a923dbb67fa1848627df8227e3a7a1bb",
+    "sourceHash": "sha256:7cd536af44412497bce912e8f81621d0ff430ac8d93ff726707cc7519e49f6ea",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:64e8d85d222a61ede4ddafec442b8875a923dbb67fa1848627df8227e3a7a1bb",
-    "mappedOn": null,
-    "summary": "Packaging instructions and handling units from PowerMES on production orders",
-    "shape": "connector",
+    "sourceHash": "sha256:7cd536af44412497bce912e8f81621d0ff430ac8d93ff726707cc7519e49f6ea",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds packaging instructions and handling unit assignment to EOS Power MES output.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
         "need": "ng-packing-loading",
@@ -33,10 +35,11 @@
     ],
     "secondary": [],
     "claims": [
-      "Assign packaging material or a handling unit while posting output",
-      "Packaging instructions on production orders",
-      "Packaging instructions entered from department workstations",
-      "Needs EOS Power MES plus EOS Handling Units Management"
+      "Packaging instructions are defined on the production order",
+      "Handling units or packaging material are assigned when output is reported",
+      "Entry happens from shop floor workstations",
+      "The app is free but needs paid EOS Power MES and Handling Units Management",
+      "Works with Essentials and Premium editions"
     ],
     "countries": [],
     "languages": [
@@ -44,7 +47,10 @@
       "en",
       "it"
     ],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Professional Services"
+    ],
     "connectsTo": [],
     "requires": [
       "EOS Power MES",

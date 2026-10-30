@@ -8,34 +8,37 @@
     "publisher": "Elbek & Vejrup A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evintegrationtoolbox%7CPAPPID.d2f7572e-2cb3-4d61-a96f-f02b8ad74702",
-    "lastModified": "2026-04-14T12:02:24.4134276+00:00",
-    "appVersion": "1.19.3.2600",
-    "pricingTypes": [],
+    "lastModified": "2026-10-09T07:06:21.2526926+00:00",
+    "appVersion": "1.20.0.2600",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
-    "sourceHash": "sha256:1e0f78dc7cd7e5520bb21e333f3ce9593713fbbb444b5010ca3bf4c5d926a8b9",
+    "sourceHash": "sha256:cd7ca45ac11064267079855203ad8d1a8e7094a38bb3d9cb3bdd198a143ce765",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1e0f78dc7cd7e5520bb21e333f3ce9593713fbbb444b5010ca3bf4c5d926a8b9",
-    "mappedOn": null,
-    "summary": "Integration toolbox for third-party systems",
+    "sourceHash": "sha256:cd7ca45ac11064267079855203ad8d1a8e7094a38bb3d9cb3bdd198a143ce765",
+    "mappedOn": "2026-10-30",
+    "summary": "Helper toolkit to connect BC with Azure Blob Storage and external APIs.",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-integration-sync",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-admin-document-storage",
-      "ng-ux-developer-tools"
-    ],
+    "secondary": [],
     "claims": [
-      "Ships with integration for Azure Blob Storage",
-      "Manage files in Azure Blob Store with helper functions",
-      "Connect to external API endpoints with OAuth 2.0 and Basic Auth",
-      "Retrieve data from external endpoints"
+      "Integrates BC with Azure Blob Storage",
+      "Helper functions for managing blob files",
+      "Connects to external API endpoints with OAuth 2.0 or Basic Auth",
+      "Retrieves data from external endpoints"
     ],
     "countries": [
       "BE",
@@ -67,7 +70,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

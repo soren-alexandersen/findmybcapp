@@ -8,18 +8,20 @@
     "publisher": "BEYONDIT GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-fixedprice%7CPAPPID.c158eef1-955b-4ce7-9b02-87edaff0c637",
-    "lastModified": "2025-10-17T13:59:11.1339476+00:00",
-    "appVersion": "2025.5.104.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T12:50:14.3463264+00:00",
+    "appVersion": "2026.10.152.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.beyond365.de/en-US/fixedprice/index.html",
-    "sourceHash": "sha256:08740b226d171f378a908479f7ba8685913a7d7a259f559ffe04d9957db8489b",
+    "sourceHash": "sha256:0441f9c304a8fef55bd992d653f5654700713c49969c73da29c1e72ae5c03eb0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:08740b226d171f378a908479f7ba8685913a7d7a259f559ffe04d9957db8489b",
-    "mappedOn": null,
-    "summary": "Fixed prices for resources and items on sales and service documents",
+    "sourceHash": "sha256:0441f9c304a8fef55bd992d653f5654700713c49969c73da29c1e72ae5c03eb0",
+    "mappedOn": "2026-10-30",
+    "summary": "Sets a fixed price for lines or a fixed total on sales and service documents.",
     "shape": "process",
     "primary": [
       {
@@ -31,8 +33,11 @@
       "ng-svc-offerings-pricing"
     ],
     "claims": [
-      "Fixed price for items, resources or a fixed document total on sales and service documents",
-      "Difference to fixed price kept as a G/L line"
+      "Fixed price for one or more items or resources",
+      "Fixed total for a whole sales or service document",
+      "Difference to the calculated amount kept as a G/L line",
+      "Free demo on request",
+      "Available in English and German"
     ],
     "countries": [
       "AT",
@@ -65,7 +70,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "SucceedIT B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.rma_app%7CPAPPID.2746bdf6-647e-4e79-9c02-625ffdade188",
-    "lastModified": "2026-07-29T08:54:21.7153865+00:00",
-    "appVersion": "27.0.20260728.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T12:55:16.0057478+00:00",
+    "appVersion": "27.0.20261020.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.succeedit.nl/en/business-central-apps/RMA",
-    "sourceHash": "sha256:906789e7eb21433c3c0bdc0c830497b945d87987184727283cf534ef8340d5ee",
+    "sourceHash": "sha256:e6ab7ccf10c5b77419fafe6e88d1b64d4df2d19c18a2c0840ec50447f33d7b25",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:906789e7eb21433c3c0bdc0c830497b945d87987184727283cf534ef8340d5ee",
-    "mappedOn": null,
-    "summary": "Tracks complaints, returns and backorders as cases",
+    "sourceHash": "sha256:e6ab7ccf10c5b77419fafe6e88d1b64d4df2d19c18a2c0840ec50447f33d7b25",
+    "mappedOn": "2026-10-30",
+    "summary": "Return and complaint cases that create return orders, credit memos and replacement orders.",
     "shape": "process",
     "primary": [
       {
@@ -28,17 +30,17 @@
       }
     ],
     "secondary": [
-      "ng-case-resolve",
-      "ng-supplier-returns-credits"
+      "ng-supplier-returns-credits",
+      "ng-case-intake"
     ],
     "claims": [
-      "Create sales order, return order, credit memo, purchase order or purchase return order from posted sales invoice",
-      "Reason codes on RMA cases",
-      "Approve or reject RMAs",
-      "Shows which related documents are posted",
-      "Posted lines from sales orders can be tied to an RMA that already exists",
-      "Email the employee assigned to the RMA",
-      "30-day free trial"
+      "Creates sales, return, credit, purchase and purchase return documents from a posted invoice",
+      "Reason codes on each case",
+      "Accept or reject status per RMA",
+      "Links posted sales lines to an existing RMA",
+      "Emails the employee assigned to the RMA",
+      "One overview of cases and related documents",
+      "€69 per month after trial"
     ],
     "countries": [],
     "languages": [
@@ -49,7 +51,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

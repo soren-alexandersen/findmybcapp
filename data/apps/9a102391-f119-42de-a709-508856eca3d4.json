@@ -8,34 +8,42 @@
     "publisher": "IDYN B.V.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.shipit_tasklet%7CPAPPID.9a102391-f119-42de-a709-508856eca3d4",
-    "lastModified": "2026-10-02T10:42:52.9587265+00:00",
-    "appVersion": "28.2.5.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-24T13:32:52.3588612+00:00",
+    "appVersion": "29.1.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/overview?homepageId=22053055",
-    "sourceHash": "sha256:84017cef5a607672e005dc4c55e5b9bf866e174487677d2d525b0c388a3ab72a",
+    "sourceHash": "sha256:f9d92c735d05fe7d0fca036ec47e96466a5ba52cac7ac881f80f2735091eb856",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:84017cef5a607672e005dc4c55e5b9bf866e174487677d2d525b0c388a3ab72a",
-    "mappedOn": null,
-    "summary": "Ships orders via ShipIT 365 from Tasklet Mobile WMS",
+    "sourceHash": "sha256:f9d92c735d05fe7d0fca036ec47e96466a5ba52cac7ac881f80f2735091eb856",
+    "mappedOn": "2026-10-30",
+    "summary": "Lets Tasklet Mobile WMS users book shipments and print carrier labels via ShipIT 365.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-shipping-carriers",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-devices"
+      "ng-packing-loading"
     ],
     "claims": [
-      "Book shipments and print labels from mobile device",
+      "Books shipments and prints labels from a mobile device",
       "Maps internal package types to carrier package types",
-      "One-click shipping in warehouse flow",
-      "Works with nShift, Sendcloud, EasyPost or Cargoson",
-      "3,000+ carriers"
+      "One-click shipping inside the warehouse flow",
+      "Carriers include DHL, DPD, FedEx, UPS, PostNL, TNT and GLS",
+      "Requires a contract with nShift, Sendcloud, EasyPost or Cargoson",
+      "Over 3,000 carriers available",
+      "Adds freight charges to sales orders automatically"
     ],
     "countries": [],
     "languages": [
@@ -44,7 +52,10 @@
       "fr",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "Tasklet Factory Mobile WMS",
       "nShift",
@@ -57,7 +68,7 @@
       "Tasklet Factory Mobile WMS"
     ],
     "deployment": "not_stated",
-    "pricing": "contact",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

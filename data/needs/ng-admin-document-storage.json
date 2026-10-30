@@ -122,10 +122,10 @@
         }
       ],
       "coverage": {
-        "SharePoint / Microsoft 365": 0.45,
+        "SharePoint / Microsoft 365": 0.44,
         "Azure storage": 0.23,
-        "Other cloud or own servers (AWS S3, Wasabi, FTP, file server)": 0.09,
-        "A dedicated DMS (ELO, DocuWare, M-Files, d.velop...)": 0.28
+        "Other cloud or own servers (AWS S3, Wasabi, FTP, file server)": 0.1,
+        "A dedicated DMS (ELO, DocuWare, M-Files, d.velop...)": 0.29
       }
     },
     {
@@ -169,7 +169,7 @@
       ],
       "coverage": {
         "Yes, outgoing documents when posted, printed or emailed": 0.22,
-        "Yes, incoming documents and emails": 0.24
+        "Yes, incoming documents and emails": 0.22
       }
     },
     {
@@ -205,7 +205,7 @@
       ],
       "coverage": {
         "Audit-proof archive with retention rules (GoBD, bookkeeping act)": 0.14,
-        "Version history": 0.1
+        "Version history": 0.11
       }
     },
     {
@@ -217,7 +217,9 @@
           "label": "Drag and drop files onto a record",
           "patterns": [
             "drag(-| and | & |&)drop",
-            "drop ?zone"
+            "drop ?zone",
+            "one-click upload",
+            "upload (single or )?multiple files"
           ]
         },
         {
@@ -253,10 +255,10 @@
         }
       ],
       "coverage": {
-        "Drag and drop files onto a record": 0.23,
-        "Straight from Outlook emails": 0.12,
+        "Drag and drop files onto a record": 0.25,
+        "Straight from Outlook emails": 0.11,
         "Photos from a phone or tablet": 0.07,
-        "Scanning paper with barcodes": 0.06
+        "Scanning paper with barcodes": 0.07
       }
     },
     {
@@ -308,7 +310,7 @@
       "coverage": {
         "People without a BC licence": 0.06,
         "Search by content or tags": 0.34,
-        "Strict access rights per document": 0.2
+        "Strict access rights per document": 0.21
       }
     },
     {
@@ -349,7 +351,7 @@
         }
       ],
       "coverage": {
-        "Yes, move existing attachments out of BC": 0.07,
+        "Yes, move existing attachments out of BC": 0.06,
         "Yes, keep new files outside the BC database": 0.17
       }
     }

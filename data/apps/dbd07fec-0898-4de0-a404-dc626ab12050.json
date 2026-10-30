@@ -8,18 +8,20 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.accelerate_drinkit%7CPAPPID.dbd07fec-0898-4de0-a404-dc626ab12050",
-    "lastModified": "2026-08-26T09:57:48.7460666+00:00",
-    "appVersion": "2601.6.339605.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T16:20:16.8515207+00:00",
+    "appVersion": "2602.0.351795.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/",
-    "sourceHash": "sha256:196f8eb4dcb04f83f360002d100b67b21cc36a035572b46836267b92c6cc3d07",
+    "sourceHash": "sha256:6703d60e9ee0e95b38b8011993b6fe980e2a4f0edab9eee17a25351850970cce",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:196f8eb4dcb04f83f360002d100b67b21cc36a035572b46836267b92c6cc3d07",
-    "mappedOn": null,
-    "summary": "Industry bundle for beverage manufacturers",
+    "sourceHash": "sha256:6703d60e9ee0e95b38b8011993b6fe980e2a4f0edab9eee17a25351850970cce",
+    "mappedOn": "2026-10-30",
+    "summary": "Aptean Drink-IT beverage ERP bundle for breweries, distilleries and drink producers.",
     "shape": "vertical",
     "primary": [
       {
@@ -29,69 +31,35 @@
       {
         "need": "ng-vat-tax",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-customer-rebates",
-      "ng-loc-tax-reporting"
+      "ng-loc-tax-reporting",
+      "ng-transport-planning"
     ],
     "claims": [
-      "Excise tax calculation and reporting on bonded location movements",
-      "Empties and deposit tracking for kegs, bottles, crates and pallets",
-      "Deposit balances by type for customers and vendors",
-      "Multi-level charges, promotions and discounts with volume commitment",
-      "Outlet/pub contracts including rent, loans and loan-in-use items",
-      "Alcohol balance reporting per warehouse",
-      "Bonded warehouse tax support",
-      "Order planning with in-house fleet or third-party shipper"
+      "Calculates and reports excise tax on movements in and out of bonded locations",
+      "Tracks kegs, bottles, crates and pallets with deposit balances per customer and vendor",
+      "Multi-level charges, promotional items and discounts tied to volume commitments",
+      "Contracts with outlets and pubs covering rent, loans and loaned items",
+      "Supports bonded warehouse tax calculations by location",
+      "Plans orders for an in-house fleet or third-party shipper",
+      "For breweries, distilleries, cider and soft drink producers",
+      "Reports alcohol volume balances per warehouse and explains losses",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "EE",
-      "ET",
-      "FI",
-      "FR",
-      "GB",
-      "GH",
-      "GR",
-      "HR",
-      "ID",
-      "IE",
-      "KE",
-      "LT",
-      "LU",
-      "LV",
-      "MA",
-      "MY",
-      "MZ",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "RS",
-      "SE",
-      "SG",
-      "SI",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "de",
       "en",
       "fr"
     ],
-    "industries": [
-      "Beverage manufacturing",
-      "Breweries",
-      "Distilleries"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

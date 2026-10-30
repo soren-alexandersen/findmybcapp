@@ -8,43 +8,47 @@
     "publisher": "Pagero AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pagero-4798327%7CAID.pagero%7CPAPPID.92b90d1d-ecde-4d26-a95b-1d57720e79c6",
-    "lastModified": "2026-10-06T16:42:09.5599885+00:00",
-    "appVersion": "29.1.138.48551",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T11:46:26.7262495+00:00",
+    "appVersion": "29.1.138.48994",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.thomsonreuters.com/en-us/help/pagero",
-    "sourceHash": "sha256:e43b692a7017ce065f3b2d0ceb95b2c811357956b0c3a6e7abaeb9c3631f9390",
+    "sourceHash": "sha256:0a1041b0cce96d5cfe98ad4c54a79743d261dc67b2507b751d8d3c4b5d1951f4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e43b692a7017ce065f3b2d0ceb95b2c811357956b0c3a6e7abaeb9c3631f9390",
-    "mappedOn": null,
-    "summary": "Sends and receives compliant e-invoices in many countries",
+    "sourceHash": "sha256:0a1041b0cce96d5cfe98ad4c54a79743d261dc67b2507b751d8d3c4b5d1951f4",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends and receives e-invoices from BC through the Pagero network with live statuses.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-loc-einvoicing",
         "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture",
-      "ng-ux-email-sending",
-      "ng-ux-printing",
-      "ng-loc-tax-reporting"
+      "ng-sales-invoicing",
+      "ng-collections"
     ],
     "claims": [
-      "Send customer invoices and invoice reminders",
-      "Receive and send Application Responses and receipts",
-      "Receive supplier invoices",
-      "Send Italian invoice report",
-      "PDF invoices via email and print distribution for AR",
-      "Data capture/OCR for AP",
-      "Reaches B2B and B2G e.g. Peppol, Chorus Pro, FACe",
-      "Integration with ExFlow workflow",
-      "Automatic format conversion to EU standards and customer-specific formats",
+      "Sends customer invoices and invoice reminders",
+      "Receives supplier invoices and sends application responses",
+      "Sends the Italian invoice report",
+      "Supports Peppol, Chorus Pro and FACe for B2B and B2G",
+      "Falls back to PDF invoices by email and print distribution for receivables",
+      "Captures data from incoming invoices with OCR",
+      "Integrates with ExFlow workflow",
+      "Converts formats automatically to EU standards and customer-specific formats",
       "Cloud archiving of invoices",
-      "Instant statuses in BC"
+      "Shows document statuses instantly in BC",
+      "Supports Essentials and Premium editions"
     ],
     "countries": [
       "AT",
@@ -79,7 +83,7 @@
       "es",
       "fi",
       "fr",
-      "nb",
+      "no",
       "sv"
     ],
     "industries": [],
@@ -92,7 +96,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

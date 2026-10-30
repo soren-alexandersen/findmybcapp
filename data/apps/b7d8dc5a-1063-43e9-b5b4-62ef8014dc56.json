@@ -8,14 +8,14 @@
     "publisher": "NAVCore Development",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navcoredevelopment1768755880289%7CAID.dgk2%7CPAPPID.b7d8dc5a-1063-43e9-b5b4-62ef8014dc56",
-    "lastModified": "2026-10-02T23:45:02.417171+00:00",
-    "appVersion": "2.0.2.0",
+    "lastModified": "2026-10-12T11:37:07.0854169+00:00",
+    "appVersion": "3.0.0.0",
     "pricingTypes": [
       "Free",
       "Payg"
     ],
     "freeTrial": null,
-    "helpLink": "https://navcoredev.com/Help/FAQ",
+    "helpLink": "https://navcoredev.com/help/DGKUserGuide",
     "sourceHash": "sha256:6000d176cf76c5736ac33a25cb5c5e3b211cb72db7461478a8f8085019f37912",
     "mentionsBC": true
   },

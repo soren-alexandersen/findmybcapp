@@ -56,7 +56,9 @@
     "promotion approval workflow",
     "We want a history of each employee's titles and promotions",
     "Annual promotion round for 40 people, all done in spreadsheets",
-    "Who was promoted this year and into which roles?"
+    "Who was promoted this year and into which roles?",
+    "We need to track vacation balances and sick leave for every employee",
+    "Employees should see their payslips and leave balance themselves"
   ],
   "questions": [
     {
@@ -68,7 +70,15 @@
           "patterns": [
             "payroll",
             "salary calc",
-            "wages"
+            "wages",
+            "payslip",
+            "deduction",
+            "earnings",
+            "salary entr",
+            "insurance fund",
+            "compensation calculation",
+            "pay in any currency",
+            "tax-free minimum"
           ]
         },
         {
@@ -77,7 +87,7 @@
         }
       ],
       "coverage": {
-        "Yes, payroll too": 0.59
+        "Yes, payroll too": 0.64
       }
     },
     {
@@ -112,8 +122,8 @@
         }
       ],
       "coverage": {
-        "Yes, connect it to BC": 0.19,
-        "No, keep HR inside BC": 0.41
+        "Yes, connect it to BC": 0.18,
+        "No, keep HR inside BC": 0.43
       }
     },
     {
@@ -136,7 +146,7 @@
         }
       ],
       "coverage": {
-        "Yes, employee self-service": 0.52
+        "Yes, employee self-service": 0.54
       }
     },
     {
@@ -193,17 +203,75 @@
           ]
         },
         {
+          "label": "Leave, vacation and absence",
+          "patterns": [
+            "vacation",
+            "absenc",
+            "holiday",
+            "sick leave",
+            "leave (types|plans|journal|balance)",
+            "time-off",
+            "allowances and carried"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Recruitment": 0.33,
-        "Appraisals and performance": 0.22,
-        "Shifts, timesheets, attendance": 0.63,
-        "Employee loans and end-of-service": 0.15,
-        "Org chart and positions": 0.41
+        "Recruitment": 0.32,
+        "Appraisals and performance": 0.21,
+        "Shifts, timesheets, attendance": 0.61,
+        "Employee loans and end-of-service": 0.14,
+        "Org chart and positions": 0.39,
+        "Leave, vacation and absence": 0.46
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic dashboards and Power Platform wording",
+      "terms": [
+        "dashboard",
+        "power"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic access and permissions wording",
+      "terms": [
+        "acces"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'configurable' wording",
+      "terms": [
+        "configurabl"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "dependents data detail, mixed payroll-localization and connector claims",
+      "terms": [
+        "dependent"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'integration' wording",
+      "terms": [
+        "integration"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "role centers and role-based access, UI/security trivia",
+      "terms": [
+        "role"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

@@ -8,21 +8,21 @@
     "publisher": "NetPro",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1578958156065%7CAID.netpro_japanese_language_kit_global%7CPAPPID.33bb190e-270a-44f7-9d13-65dfd5177021",
-    "lastModified": "2026-08-13T12:04:41.3556782+00:00",
-    "appVersion": "28.4.53241.53589",
+    "lastModified": "2026-10-21T08:50:59.6358398+00:00",
+    "appVersion": "29.0.54011.566099",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://www.365bc.jp/extension/japanese-language-kit/",
-    "sourceHash": "sha256:dd5fcedcc55b0ad202e0958292f67c663b7637f074499a90e1ed3e13d946cfbd",
+    "sourceHash": "sha256:fbfb62eff2050c817dc8d725ccb7c7c1cfe532bb657be8f33485d873f7547ee4",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:dd5fcedcc55b0ad202e0958292f67c663b7637f074499a90e1ed3e13d946cfbd",
-    "mappedOn": null,
-    "summary": "Japanese UI translation of Business Central, global edition",
+    "sourceHash": "sha256:fbfb62eff2050c817dc8d725ccb7c7c1cfe532bb657be8f33485d873f7547ee4",
+    "mappedOn": "2026-10-30",
+    "summary": "Japanese translation of the Business Central base application user interface.",
     "shape": "language",
     "primary": [
       {
@@ -32,13 +32,13 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates the BC base application UI (menus, field names, descriptions) into Japanese",
+      "Translates field names and descriptions on screen into Japanese",
       "Works in browser, app, phone and tablet clients",
+      "International version for companies trading abroad",
+      "Priced per user per month or per year",
       "Supports Essentials and Premium editions",
-      "Standard report layouts translated into Japanese",
-      "Shopify extension translated into Japanese",
-      "International edition for companies with overseas transactions",
-      "Annual plan available per user"
+      "Translates standard report layouts into Japanese",
+      "Translates the Shopify connector into Japanese"
     ],
     "countries": [
       "JP"
@@ -49,7 +49,7 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "per_user",
     "hide": false,
     "hideReason": "",

@@ -8,37 +8,38 @@
     "publisher": "Navitrans",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_printnode%7CPAPPID.82d6dcc7-736a-4fc4-92d5-dbe3c6ab9f8b",
-    "lastModified": "2026-09-30T20:01:51.029942+00:00",
-    "appVersion": "28.5.0.80066",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T14:16:29.7355825+00:00",
+    "appVersion": "29.0.0.80853",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.navitrans.eu/our-services/tms/",
-    "sourceHash": "sha256:6b9d0a9b996128621bd699fcaa3046e59bc2543397c05472fa19814f42514e32",
+    "sourceHash": "sha256:a921b07cfc0b2a6486fecb08e10b8cdb2f17ac0217b307bf18247d05251e5401",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:6b9d0a9b996128621bd699fcaa3046e59bc2543397c05472fa19814f42514e32",
-    "mappedOn": null,
-    "summary": "PrintNode printing for Navitrans 365",
+    "sourceHash": "sha256:a921b07cfc0b2a6486fecb08e10b8cdb2f17ac0217b307bf18247d05251e5401",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects Navitrans 365 with the PrintNode printing service.",
     "shape": "addon",
     "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "low"
+      },
       {
         "need": "ng-vert-transport-logistics",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-ux-printing"
+      "ng-admin-integration-sync"
     ],
     "claims": [
-      "Navitrans 365 module/connector named in listing",
-      "Part of Navitrans 365 TMS covering order registration to invoicing",
-      "FTL and LTL transport orders created from templates",
-      "Planning tools with capacity, combination and qualification checks",
-      "Prices are set automatically from tariff tables or fixed prices",
-      "Works with subcontractors and charters",
-      "Automatic invoicing combining orders on invoices",
-      "Supports Essentials and Premium"
+      "Links Navitrans 365 with PrintNode",
+      "Part of the Navitrans 365 transport management suite",
+      "Supports Business Central Essentials and Premium"
     ],
     "countries": [
       "AT",
@@ -74,7 +75,7 @@
       "Navitrans 365"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

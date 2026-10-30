@@ -8,19 +8,21 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.311700d4-0f11-408b-ac54-61726fa4a98e%7CPAPPID.c63f05d4-355b-4eed-a88f-30aebccac147",
-    "lastModified": "2026-07-02T14:16:35.8863849+00:00",
-    "appVersion": "28.1.0.128",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T20:27:12.6821489+00:00",
+    "appVersion": "29.0.0.137",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:3feb80e793eb7eee3ffbee4e1f93504bc968c299044a2b7f65f8efc52d415592",
+    "sourceHash": "sha256:411c24d2abae0aff94ccccc26df827ef3a7105ecf636a55a0c04efb32c4416a8",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:3feb80e793eb7eee3ffbee4e1f93504bc968c299044a2b7f65f8efc52d415592",
-    "mappedOn": null,
-    "summary": "Czech language for LS Central",
-    "shape": "addon",
+    "sourceHash": "sha256:411c24d2abae0aff94ccccc26df827ef3a7105ecf636a55a0c04efb32c4416a8",
+    "mappedOn": "2026-10-30",
+    "summary": "Czech user interface translation for LS Central retail and hospitality.",
+    "shape": "language",
     "primary": [
       {
         "need": "ng-lang-ui-language",
@@ -29,8 +31,8 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates LS Central base application UI into Czech",
-      "For users of LS Central SaaS"
+      "Translates the LS Central base application into Czech",
+      "For customers running LS Central SaaS"
     ],
     "countries": [
       "CZ"
@@ -39,14 +41,15 @@
       "cs"
     ],
     "industries": [
-      "Retail"
+      "Hospitality & Travel",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [
       "LS Central"
     ],
     "deployment": "online",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

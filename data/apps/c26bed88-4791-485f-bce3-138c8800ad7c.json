@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.tecvia1783463147579|AID.bee-solved-ai-assistant|PAPPID.c26bed88-4791-485f-bce3-138c8800ad7c",
+  "guid": "c26bed88-4791-485f-bce3-138c8800ad7c",
+  "publisherId": "tecvia1783463147579",
+  "offerId": "bee-solved-ai-assistant",
+  "source": {
+    "name": "Bee Solved AI Assistant",
+    "publisher": "Bee Solved",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecvia1783463147579%7CAID.bee-solved-ai-assistant%7CPAPPID.c26bed88-4791-485f-bce3-138c8800ad7c",
+    "lastModified": "2026-10-28T23:13:30.3370836+00:00",
+    "appVersion": "2.11.55.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://beesolved.ai/docs/ai-assistant/",
+    "sourceHash": "sha256:1171965d9a9f7c7f702268b193bc61f4bad4a9b8adb419e9f090ae4bb9fc61f3",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:1171965d9a9f7c7f702268b193bc61f4bad4a9b8adb419e9f090ae4bb9fc61f3",
+    "mappedOn": "2026-10-30",
+    "summary": "Ask BC questions in plain English from Copilot, ChatGPT or Claude; changes need confirmation.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents",
+      "ng-admin-alerts",
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Answers questions on live sales, finance, inventory and purchasing data, for one or all companies",
+      "AI drafts orders, journal lines and record updates that a person must confirm",
+      "Respects each user's BC permissions plus admin-set data areas, tables and fields",
+      "Every request and change is written to an audit log in BC",
+      "Shared definitions for terms like overdue or margin",
+      "Charts in chat, Excel and Power BI downloads, daily briefing and alerts",
+      "No Azure subscription, app registration or code required",
+      "Requires BC online and an AI plan that allows connectors or agents",
+      "Customer data is not used to train AI models",
+      "30-day free trial, then a Bee Solved subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365 Copilot",
+      "ChatGPT",
+      "Claude"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -18,19 +18,21 @@
   },
   "mapping": {
     "sourceHash": "sha256:0630593370fb1054c1f220b9b30e3f6c15fce01e5a13622dc239b8a2edac2ec1",
-    "mappedOn": null,
-    "summary": "Bonded warehouse customs clearance data exchange",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges data with customs service partners for bonded warehouse and customs clearance.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-shipping-carriers",
-        "confidence": "low"
+        "need": "ng-import-export-customs",
+        "confidence": "high"
       }
     ],
     "secondary": [],
     "claims": [
-      "Integrates with customs service partners",
-      "Exchanges information and data with customs partners"
+      "Handles goods held in a bonded warehouse",
+      "Integrates BC with customs service partners",
+      "Exchanges information and data with customs partners",
+      "Runs on Essentials and Premium editions"
     ],
     "countries": [
       "BE",
@@ -53,11 +55,11 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Customs clearance / bonded warehouse integration has no dedicated group."
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

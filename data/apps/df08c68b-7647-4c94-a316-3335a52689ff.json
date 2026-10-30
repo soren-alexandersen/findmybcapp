@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.techtrade_essentials%7CPAPPID.df08c68b-7647-4c94-a316-3335a52689ff",
-    "lastModified": "2026-07-24T18:48:10.972385+00:00",
-    "appVersion": "1.72.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T10:05:56.3644242+00:00",
+    "appVersion": "1.74.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.priceitemmanagement.apportunix.com/",
-    "sourceHash": "sha256:35358e675b9a7bbaca0d40cb94c3bea6baaa5a5526472a4086075ff4452af964",
+    "sourceHash": "sha256:f3403314edeb49b982650c16b7dc89423ee7d1330c98dc32501d325b79067a94",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:35358e675b9a7bbaca0d40cb94c3bea6baaa5a5526472a4086075ff4452af964",
-    "mappedOn": null,
-    "summary": "Imports items and prices, flags price deviations on orders",
+    "sourceHash": "sha256:f3403314edeb49b982650c16b7dc89423ee7d1330c98dc32501d325b79067a94",
+    "mappedOn": "2026-10-30",
+    "summary": "Imports supplier items and prices from CSV and flags outdated or manual prices.",
     "shape": "process",
     "primary": [
       {
@@ -27,23 +29,23 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-wholesale-trading",
+        "need": "ng-sales-pricing",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-sales-pricing",
-      "ng-ux-import-excel"
+      "ng-ux-import-excel",
+      "ng-item-master-data"
     ],
     "claims": [
-      "CSV import of items and prices; creates missing items, updates existing",
-      "Creates purchase and sales prices and discounts in one run",
-      "Up to five free fields in the import",
-      "Ends old price records automatically",
-      "Shows outdated sales prices in red on documents",
-      "Flags lines and orders with manually changed prices or discounts",
-      "Stores original calculated price and discount",
-      "Integrates with new sales pricing experience"
+      "CSV import avoids Excel number-format errors and handles tens of thousands of rows",
+      "Import creates missing items and updates existing ones",
+      "Superseded price records get an end date",
+      "Up to five extra fields can be mapped in the import",
+      "Prices older than a set age show in red on documents",
+      "Lines and documents with manually changed prices or discounts are flagged",
+      "The originally calculated price and discount are kept on the line",
+      "Works with the new BC sales pricing experience"
     ],
     "countries": [],
     "languages": [

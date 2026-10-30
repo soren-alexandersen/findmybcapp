@@ -8,51 +8,53 @@
     "publisher": "Fenwick",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.easy-wb-for-tegossuite%7CPAPPID.6bb75516-05b9-41cb-9dd6-41a9984b0e80",
-    "lastModified": "2026-05-21T07:41:28.3664725+00:00",
-    "appVersion": "27.0.260521.3",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T11:41:48.7798816+00:00",
+    "appVersion": "28.0.261029.4",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.fenwick.com.au/solutions/easy-weighbridge-for-tegossuite/",
-    "sourceHash": "sha256:99ce1f410d61914a14572dc5eecb2ebb74cfcd466f74c624f884ab8c20363738",
+    "sourceHash": "sha256:e35e3c050c005982a4be50301a14c09ae217bd5dc3ad048ba8cc61407172b829",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:99ce1f410d61914a14572dc5eecb2ebb74cfcd466f74c624f884ab8c20363738",
-    "mappedOn": null,
-    "summary": "Weighbridge operations and vehicle management for tegossuite",
+    "sourceHash": "sha256:e35e3c050c005982a4be50301a14c09ae217bd5dc3ad048ba8cc61407172b829",
+    "mappedOn": "2026-10-30",
+    "summary": "Weighbridge add-on for tegossuite: vehicle records, automatic tares and overweight blocking.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
-        "confidence": "high"
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-admin-devices"
-    ],
+    "secondary": [],
     "claims": [
-      "Create vehicles and manage them straight from the weighbridge",
-      "Links customer vehicles to customer accounts",
-      "Prevents overweight vehicle transactions for chain of responsibility (COR) compliance",
-      "Automatically applies vehicle tare weights",
-      "Add-on to tegossuite/enwis waste and recycling ERP"
+      "Creates and manages vehicles directly from the weighbridge with history",
+      "Links customer vehicles to customer accounts to avoid repeated selection",
+      "Blocks overweight vehicle transactions for chain of responsibility compliance",
+      "Applies vehicle tare weights to transactions automatically",
+      "Requires tegossuite to be installed",
+      "English only"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
     "industries": [
-      "Recycling",
-      "Waste management"
+      "Waste and recycling"
     ],
-    "connectsTo": [
-      "tegossuite"
-    ],
+    "connectsTo": [],
     "requires": [
       "tegossuite"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

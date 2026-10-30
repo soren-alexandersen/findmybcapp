@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.easy_purchasing%7CPAPPID.d12cc641-d724-4fd9-90fa-e564cdcede54",
-    "lastModified": "2026-06-25T09:54:38.4646264+00:00",
-    "appVersion": "1.12.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T11:04:38.2169901+00:00",
+    "appVersion": "1.14.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.easypurchasing.apportunix.com/",
-    "sourceHash": "sha256:ccd2578b5ae2787dc1907278f9956aeba052d1c7ca2cbdd2ac7bbb006b7f4e24",
+    "sourceHash": "sha256:b85f1e0c9943d97f724a4547c9bf85fc7ab4276249e72859a348c71e864f3268",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ccd2578b5ae2787dc1907278f9956aeba052d1c7ca2cbdd2ac7bbb006b7f4e24",
-    "mappedOn": null,
-    "summary": "Supply planning and requisition calculation",
+    "sourceHash": "sha256:b85f1e0c9943d97f724a4547c9bf85fc7ab4276249e72859a348c71e864f3268",
+    "mappedOn": "2026-10-30",
+    "summary": "Simplified requisition worksheet calculation for what to order per item and location.",
     "shape": "process",
     "primary": [
       {
@@ -31,12 +33,13 @@
       "ng-purchase-orders"
     ],
     "claims": [
-      "New option in Requisition Worksheet to calculate demand and supply",
-      "Shows whether demand comes from sales orders or inventory",
-      "One purchase supply line per location",
-      "Excludes SKUs, variants and non-base UOMs; considers item lead time",
-      "Inventory detail supporting the plan",
-      "Schedule Calculate Plan via job queue"
+      "Adds a new calculation option to the requisition worksheet",
+      "Shows whether demand comes from a sales order or from stock",
+      "Proposes one purchase line per location",
+      "Ignores SKUs, variants and non-base units of measure to keep the plan simple",
+      "Takes item lead time into account",
+      "Avoids cancelling orders, moving dates or creating several supply orders per demand",
+      "Plan calculation can run on the job queue after hours"
     ],
     "countries": [],
     "languages": [

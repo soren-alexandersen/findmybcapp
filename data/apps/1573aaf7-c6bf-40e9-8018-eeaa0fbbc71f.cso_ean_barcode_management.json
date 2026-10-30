@@ -8,26 +8,28 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_ean_barcode_management%7CPAPPID.1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
-    "lastModified": "2026-10-05T11:40:47.7443198+00:00",
+    "lastModified": "2026-10-23T12:17:45.9560123+00:00",
     "appVersion": "28.1.0.2",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-barcode-management-help-en/",
-    "sourceHash": "sha256:65f8e9d53ca72408a4b555e71143687366cebbc956414a0dad139296db4815cd",
+    "sourceHash": "sha256:393bc92afa0071956278f25d6e018d1e1d9cb9bd644270358f94ce24c6d9ecf0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:65f8e9d53ca72408a4b555e71143687366cebbc956414a0dad139296db4815cd",
-    "mappedOn": "2026-10-07",
-    "summary": "Enterprise edition: generates GS1 EAN/UPC-A item barcodes and enforces uniqueness on orders",
+    "sourceHash": "sha256:393bc92afa0071956278f25d6e018d1e1d9cb9bd644270358f94ce24c6d9ecf0",
+    "mappedOn": "2026-10-30",
+    "summary": "Generates GS1 EAN/UPC-A item barcodes and enforces they are unique and present on orders.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-barcode-labels",
-        "confidence": "medium"
+        "need": "ng-item-master-data",
+        "confidence": "high"
       },
       {
-        "need": "ng-item-master-data",
+        "need": "ng-barcode-labels",
         "confidence": "medium"
       }
     ],
@@ -35,13 +37,16 @@
       "ng-ux-data-quality"
     ],
     "claims": [
-      "Creates EAN and UPC-A barcodes with GS1 check digits",
-      "Number series assign barcodes to items, variants and units of measure",
-      "Checks uniqueness per item, variant and unit of measure",
-      "Blocks orders or shipments without unique, correct barcodes",
-      "Validity checks configurable per order type",
-      "Barcodes shown in factboxes on items, order lines and warehouse documents",
-      "Priced per production environment with unlimited sandboxes and users",
+      "Number series generate barcodes for items, variants and units of measure",
+      "Calculates GS1 check digits",
+      "Supports EAN and UPC-A barcodes",
+      "Several barcode lengths and check-digit methods",
+      "Checks barcodes are unique per item, variant and unit of measure",
+      "Blocks orders or shipments lacking valid unique barcodes",
+      "Uniqueness and presence checks configurable per order type",
+      "Shows barcodes in fact boxes on item pages, order lines and warehouse documents",
+      "Barcodes can be printed on documents via standard reports",
+      "Runs on Essentials and Premium editions",
       "30-day free trial"
     ],
     "countries": [
@@ -86,7 +91,10 @@
       "nl",
       "sv"
     ],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

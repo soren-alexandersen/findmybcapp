@@ -8,19 +8,21 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.warehousemanagementsystem%7CPAPPID.68fe566d-4b1e-421f-b6df-2a7d26efc630",
-    "lastModified": "2026-09-23T04:45:43.0405222+00:00",
-    "appVersion": "2602.2.344247.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T07:59:54.620192+00:00",
+    "appVersion": "2603.0.352749.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/WMS/",
-    "sourceHash": "sha256:f355dea79fedf0b8f28b3f21f44593b044dd2f8dd9568f7ac55eb97de9de18ea",
+    "sourceHash": "sha256:b31089875c094b74f16a21865e0240d68f540f828dc1ca1be6bd05a50ee3edd9",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:f355dea79fedf0b8f28b3f21f44593b044dd2f8dd9568f7ac55eb97de9de18ea",
-    "mappedOn": null,
-    "summary": "Warehouse management with handheld scanners for food ERP",
-    "shape": "addon",
+    "sourceHash": "sha256:b31089875c094b74f16a21865e0240d68f540f828dc1ca1be6bd05a50ee3edd9",
+    "mappedOn": "2026-10-30",
+    "summary": "Scanner-driven receiving, putaway, picking, labeling and license plating for food warehouses.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-allocation-picking",
@@ -29,19 +31,25 @@
       {
         "need": "ng-receiving-putaway",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
       "ng-barcode-labels",
-      "ng-admin-devices"
+      "ng-warehouse-setup",
+      "ng-vert-food-beverage"
     ],
     "claims": [
       "Handheld barcode scanners for receiving, putaway, labeling, license plating and picking",
-      "Prints labels for license plates and mixed content from the scanner",
-      "FEFO picking rules and bin designations",
-      "Warehouse entries tracked by license plate",
-      "Requires BC Premium edition"
+      "Prints mixed-content and license plate labels from the scanner",
+      "Picking rules with FEFO sequencing",
+      "Bins can be designated for specific purposes",
+      "Warehouse entries are tracked per license plate",
+      "Premium edition only",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",
@@ -72,7 +80,6 @@
     ],
     "languages": [
       "de",
-      "de-CH",
       "en",
       "fr",
       "nl"
@@ -81,9 +88,7 @@
       "Food and beverage"
     ],
     "connectsTo": [],
-    "requires": [
-      "Aptean Food & Beverage ERP"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "free_trial",
     "hide": false,

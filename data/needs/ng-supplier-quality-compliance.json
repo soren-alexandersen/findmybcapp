@@ -103,7 +103,11 @@
             "sentiment",
             "financial stability",
             "embargo",
-            "ofac"
+            "ofac",
+            "phonetic",
+            "public web",
+            "black ?list",
+            "listas-negras"
           ]
         },
         {
@@ -114,8 +118,8 @@
       "coverage": {
         "Delivery performance (on time, in full)": 0.32,
         "Product quality and complaints": 0.32,
-        "Certificates and compliance documents": 0.24,
-        "Sanctions and reputational risk": 0.16
+        "Certificates and compliance documents": 0.28,
+        "Sanctions and reputational risk": 0.2
       }
     },
     {
@@ -194,7 +198,7 @@
         }
       ],
       "coverage": {
-        "Weighted criteria and A/B/C classes": 0.24,
+        "Weighted criteria and A/B/C classes": 0.32,
         "A simple score or star rating": 0.12
       }
     },
@@ -213,7 +217,10 @@
             "only valid certificates",
             "notifications in purchase",
             "approved supplier",
-            "warehouse notified"
+            "warehouse notified",
+            "approved vendors per item",
+            "approved status",
+            "checks document approval"
           ]
         },
         {
@@ -231,9 +238,53 @@
         }
       ],
       "coverage": {
-        "Yes, block or warn on documents": 0.32,
+        "Yes, block or warn on documents": 0.28,
         "No, reports and dashboards are enough": 0.36
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic notification wording",
+      "terms": [
+        "notification"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "BC online / deployment detail",
+      "terms": [
+        "onlin"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "version and compatibility detail",
+      "terms": [
+        "version"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic approval workflow wording",
+      "terms": [
+        "workflow"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic approval status wording on documents",
+      "terms": [
+        "approv"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic approval workflow wording",
+      "terms": [
+        "approval"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

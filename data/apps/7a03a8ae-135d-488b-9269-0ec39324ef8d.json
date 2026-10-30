@@ -8,38 +8,46 @@
     "publisher": "Abakion",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.abakionlegal_dk%7CPAPPID.7a03a8ae-135d-488b-9269-0ec39324ef8d",
-    "lastModified": "2026-09-04T09:22:30.5213897+00:00",
-    "appVersion": "27.1.202636.6525",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:46:25.1104459+00:00",
+    "appVersion": "28.0.202643.6990",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://abakion.dk/advokat/app/#userguide",
-    "sourceHash": "sha256:0102bfa4e8053bbef5a3b357d4f49a94a94e7958739e3c490b4bdb2605edd47a",
+    "sourceHash": "sha256:c13d52ed798b6efda370f74a6564b7fbca075ba5929c0798a1c308beca1c6dbd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0102bfa4e8053bbef5a3b357d4f49a94a94e7958739e3c490b4bdb2605edd47a",
-    "mappedOn": null,
-    "summary": "Danish setup for Abakion Legal practice management",
-    "shape": "addon",
+    "sourceHash": "sha256:c13d52ed798b6efda370f74a6564b7fbca075ba5929c0798a1c308beca1c6dbd",
+    "mappedOn": "2026-10-30",
+    "summary": "Danish setup for Abakion Legal: Danish master data, EAN and Virk.dk company lookup.",
+    "shape": "localization",
     "primary": [
       {
         "need": "ng-vert-professional-services",
         "confidence": "high"
+      },
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-conn-company-data",
-      "ng-loc-einvoicing"
+      "ng-loc-einvoicing",
+      "ng-proj-time"
     ],
     "claims": [
       "Adds Danish master data to Abakion Legal",
-      "EAN integration",
-      "Create companies via data from Virk.dk",
-      "Requires Abakion Legal installed first",
-      "Case handling in Outlook and document management in SharePoint",
-      "Journalize documents via drag-and-drop in Outlook",
-      "Invoice time directly from Outlook",
-      "Mail merge documents"
+      "Adds EAN integration",
+      "Creates clients and parties from Virk.dk data",
+      "Requires Abakion Legal to be installed first",
+      "Lawyers file documents by drag and drop in Outlook",
+      "Invoices time directly from Outlook"
     ],
     "countries": [
       "DK"
@@ -60,7 +68,7 @@
       "Abakion Legal"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

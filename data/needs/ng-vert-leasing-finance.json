@@ -75,7 +75,7 @@
       "coverage": {
         "Vehicle leasing": 0.27,
         "Leasing contracts (any asset)": 0.62,
-        "Loans, credit or deposits": 0.42,
+        "Loans, credit or deposits": 0.46,
         "Investments and securities": 0.19
       }
     },
@@ -182,6 +182,103 @@
       "coverage": {
         "Yes, Power BI": 0.19
       }
+    },
+    {
+      "id": "do-interest-rates-on-your-cont",
+      "text": "Do interest rates on your contracts change over time (variable rates, indexation)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, variable rates or indexation",
+          "patterns": [
+            "interest rate change",
+            "changes interest rates",
+            "indexation",
+            "variable (interest|rate)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, variable rates or indexation": 0.19
+      }
+    },
+    {
+      "id": "must-contracts-or-payments-be-",
+      "text": "Must contracts or payments be approved before they go live?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, approval workflows",
+          "patterns": [
+            "approval workflow",
+            "contract approval",
+            "loan approval",
+            "contract workflow"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval workflows": 0.15
+      }
+    },
+    {
+      "id": "do-you-have-contracts-payments",
+      "text": "Do you have contracts, payments or holdings in foreign currencies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several currencies",
+          "patterns": [
+            "currenc",
+            "exchange rate"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several currencies": 0.15
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic banking and payment wording",
+      "terms": [
+        "bank"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "country availability and localisation notes",
+      "terms": [
+        "country"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'covers' wording; bonds already matched by investments option",
+      "terms": [
+        "cover"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "contract creation is basic to every app",
+      "terms": [
+        "creation"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

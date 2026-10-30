@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_loc%7CPAPPID.d4577bff-4073-4d6b-bca1-dbc3b53a59d2",
-    "lastModified": "2026-10-05T19:13:38.285641+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:42:11.3144227+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/06/app-turkey-localization-pdf.pdf",
-    "sourceHash": "sha256:714f2b0ee23d6163583c13db18bde9e9d92e33ac7511151721d9bacbfce1c8cc",
+    "sourceHash": "sha256:c1585247ebc98fd1eae40b9049d171027d9fce04d5648f6de0d5c9fe12e77e96",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:714f2b0ee23d6163583c13db18bde9e9d92e33ac7511151721d9bacbfce1c8cc",
-    "mappedOn": null,
-    "summary": "Turkish tax, accounting and e-invoicing requirements",
+    "sourceHash": "sha256:c1585247ebc98fd1eae40b9049d171027d9fce04d5648f6de0d5c9fe12e77e96",
+    "mappedOn": "2026-10-30",
+    "summary": "Turkish localization pack for accounting, VAT, cheques, promissory notes and legal reports.",
     "shape": "localization",
     "primary": [
       {
@@ -28,21 +30,28 @@
       },
       {
         "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-financial-statements",
+      "ng-currency",
+      "ng-period-close",
       "ng-customer-payments"
     ],
     "claims": [
-      "Turkish accounting and tax legislation compliance",
-      "VAT control and reverse charge",
-      "Separates G/L transactions by document dates and types",
-      "Exchange rate updating and voucher renumbering",
-      "Year closing activities",
-      "Check and promissory note transactions",
-      "Legal reports: inventory reports, VAT statements, trial balance, big sales/big purchases (BA-BS), legal printouts"
+      "Covers Turkish accounting and tax legislation",
+      "VAT control and reverse charge handling",
+      "Splits G/L transactions by document date and type",
+      "Exchange rate updates and voucher renumbering",
+      "Year-end closing routines",
+      "Cheque and promissory note handling",
+      "Legal reports including VAT statements, trial balance and big sales/big purchases reports",
+      "Specialised inventory reports",
+      "Available in English and Turkish"
     ],
     "countries": [
       "TR"
@@ -55,7 +64,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -20,7 +20,8 @@
     "Need tracking numbers from the 3PL on our sales orders",
     "AutoStore robot integration with BC",
     "Outsourced fulfilment for our webshop orders",
-    "Vertical lift system needs pick orders from BC"
+    "Vertical lift system needs pick orders from BC",
+    "We want to see in BC whether the warehouse has received or shipped an order"
   ],
   "questions": [
     {
@@ -71,7 +72,7 @@
         "Ongoing WMS": 0.12,
         "DSV": 0.08,
         "Bitlog": 0.08,
-        "Blue Water, Bring, Danske Fragtmænd or SmartPack": 0.16,
+        "Blue Water, Bring, Danske Fragtmænd or SmartPack": 0.15,
         "Fulfilment Crowd or Extensiv": 0.12
       }
     },
@@ -112,15 +113,26 @@
           ]
         },
         {
+          "label": "Items and product master data",
+          "patterns": [
+            "syncs? (items|product)",
+            "item (master|data)",
+            "product (information|data|master)",
+            "master data",
+            "item synchronization"
+          ]
+        },
+        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Sales orders and shipments": 0.72,
-        "Purchase orders and receipts": 0.68,
-        "Returns": 0.24,
-        "Transfers, assembly or production": 0.32
+        "Sales orders and shipments": 0.73,
+        "Purchase orders and receipts": 0.69,
+        "Returns": 0.23,
+        "Transfers, assembly or production": 0.35,
+        "Items and product master data": 0.27
       }
     },
     {
@@ -145,7 +157,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.4
+        "Yes": 0.42
       }
     },
     {
@@ -168,7 +180,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.16
+        "Yes": 0.15
       }
     },
     {
@@ -205,8 +217,8 @@
       ],
       "coverage": {
         "EDI (EDIFACT, AS2...)": 0.12,
-        "Via Power Automate": 0.2,
-        "Managed, monitored integration": 0.16
+        "Via Power Automate": 0.19,
+        "Managed, monitored integration": 0.15
       }
     },
     {
@@ -229,8 +241,56 @@
         }
       ],
       "coverage": {
-        "Yes, several": 0.24
+        "Yes, several": 0.23
       }
+    },
+    {
+      "id": "do-you-want-to-see-each-order-",
+      "text": "Do you want to see each order's warehouse status in BC?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, status shown on the order",
+          "patterns": [
+            "3pl status",
+            "status (shown|on (the )?document)",
+            "sync status",
+            "status updates?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, status shown on the order": 0.27
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "trial and invoicing wording",
+      "terms": [
+        "fully"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "setup wording",
+      "terms": [
+        "through"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI action wording",
+      "terms": [
+        "action",
+        "instruction",
+        "replac"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

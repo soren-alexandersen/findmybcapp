@@ -8,21 +8,21 @@
     "publisher": "Apptitude Solutions, Inc.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apptitudesolutionsinc1596042125495%7CAID.apptitude_multi_currency%7CPAPPID.6aaec0b8-6fd5-4232-bd92-cd486678022e",
-    "lastModified": "2026-07-21T22:10:07.0314404+00:00",
-    "appVersion": "2025.27.0.8",
+    "lastModified": "2026-10-22T17:06:55.8486368+00:00",
+    "appVersion": "2026.29.0.3",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://apptitude.solutions/support/",
-    "sourceHash": "sha256:e6b7a84dd7640b96f2cebb779f1f7e3bac6de646a4b189da37bf260b0bc5d3cb",
+    "sourceHash": "sha256:7be40578f260b26cc43acd540d06924e70ccee21851f587b991855563bffe33e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e6b7a84dd7640b96f2cebb779f1f7e3bac6de646a4b189da37bf260b0bc5d3cb",
-    "mappedOn": null,
-    "summary": "Transaction currency amounts in G/L and account revaluation",
+    "sourceHash": "sha256:7be40578f260b26cc43acd540d06924e70ccee21851f587b991855563bffe33e",
+    "mappedOn": "2026-10-30",
+    "summary": "Stores transaction currency on G/L entries and revalues any foreign-currency account at period end.",
     "shape": "process",
     "primary": [
       {
@@ -30,17 +30,20 @@
         "confidence": "high"
       }
     ],
-    "secondary": [],
+    "secondary": [
+      "ng-period-close",
+      "ng-financial-statements",
+      "ng-collections"
+    ],
     "claims": [
-      "Adds transaction currency amount to G/L entries",
-      "Revalues foreign currency balances on any balance sheet account",
+      "Adds a transaction currency amount to G/L entries",
+      "Revalues the balance sheet and optionally the income statement at month or quarter end",
       "Supports IAS 21 and ASC 830 compliance",
-      "Suppress revaluation flag per G/L account",
-      "Posts ACY exchange gains/losses to Other Comprehensive Income",
-      "Simplified exchange rates page",
-      "Currency exposure what-if report for exchange rate changes",
-      "Guided setup process",
-      "Optional paid 1-hour setup service"
+      "Shows foreign exchange exposure",
+      "Adds currency versions of aged payables, aged receivables and trial balance reports",
+      "Optional one-hour paid setup service for $250",
+      "Subscription per user, billed monthly or yearly",
+      "English only"
     ],
     "countries": [
       "CA",

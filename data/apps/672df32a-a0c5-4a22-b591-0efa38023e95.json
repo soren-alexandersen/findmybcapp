@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.origo|AID.origo_bifrost_attachments|PAPPID.672df32a-a0c5-4a22-b591-0efa38023e95",
+  "guid": "672df32a-a0c5-4a22-b591-0efa38023e95",
+  "publisherId": "origo",
+  "offerId": "origo_bifrost_attachments",
+  "source": {
+    "name": "Bifrost Attachments",
+    "publisher": "Origo",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_attachments%7CPAPPID.672df32a-a0c5-4a22-b591-0efa38023e95",
+    "lastModified": "2026-10-28T13:17:31.4954467+00:00",
+    "appVersion": "28.3.1.131",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bifrost.origo.is/en-us/attachments/",
+    "sourceHash": "sha256:c40b98540d7b7a585e5611b2172b291f969f6fdff8080de7a09ba12611d657ac",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c40b98540d7b7a585e5611b2172b291f969f6fdff8080de7a09ba12611d657ac",
+    "mappedOn": "2026-10-30",
+    "summary": "Moves BC attachments to Azure Blob, File Share or SharePoint and manages files there.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Offloads document and incoming document attachments to external storage to shrink the database",
+      "Offloaded files still open normally from BC",
+      "List, download, upload, copy, move and delete files and folders in storage",
+      "Links a stored file to a customer, vendor, fixed asset or document without re-uploading",
+      "Large files are uploaded in chunks",
+      "Uses BC's standard Azure Blob, File Share and SharePoint connector apps",
+      "Requires BC 28.3 or later and Bifrost Foundation",
+      "Pricing on request from Origo or partner"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure File Share",
+      "SharePoint"
+    ],
+    "requires": [
+      "Bifrost Foundation (Origo)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

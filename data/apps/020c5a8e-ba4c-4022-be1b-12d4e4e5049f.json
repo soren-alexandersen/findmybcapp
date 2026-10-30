@@ -8,18 +8,20 @@
     "publisher": "B2F",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_einv%7CPAPPID.020c5a8e-ba4c-4022-be1b-12d4e4e5049f",
-    "lastModified": "2026-10-05T19:07:01.5852867+00:00",
-    "appVersion": "28.0.22983.22983",
-    "pricingTypes": [],
+    "lastModified": "2026-10-20T10:42:07.0644194+00:00",
+    "appVersion": "28.0.23192.23192",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/app-e-invoice-help.pdf",
-    "sourceHash": "sha256:601c47ddebaf54263edff51bbb4787231a76c8f07cbf89de9cb628b9f55d06f9",
+    "sourceHash": "sha256:0ec79abb0ae54a0eaffb4773b0bf4ee2a37a1936e81a5f5f82e8769d88dde6c3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:601c47ddebaf54263edff51bbb4787231a76c8f07cbf89de9cb628b9f55d06f9",
-    "mappedOn": null,
-    "summary": "Turkish e-invoice sending and receiving through integrator",
+    "sourceHash": "sha256:0ec79abb0ae54a0eaffb4773b0bf4ee2a37a1936e81a5f5f82e8769d88dde6c3",
+    "mappedOn": "2026-10-30",
+    "summary": "Turkish e-invoicing via an integrator, for outgoing and incoming invoices with approval.",
     "shape": "localization",
     "primary": [
       {
@@ -28,14 +30,17 @@
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture"
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Sends e-invoices through an integrator company",
-      "Marks companies registered on the e-invoice portal",
-      "Branch-based separation and numbering of e-invoices",
-      "Posts incoming e-invoices with accept/reject process",
-      "Incoming e-invoices create purchase invoices with approval"
+      "Sends outgoing invoices as e-invoices through an integrator company",
+      "Flags companies registered on the e-invoice portal",
+      "Separate e-invoice numbering per branch",
+      "Incoming e-invoices can be accepted or rejected and posted in BC",
+      "Incoming e-invoices flow into purchase invoice pages with an approval step",
+      "Invoices are archived digitally",
+      "Available in English and Turkish"
     ],
     "countries": [
       "TR"
@@ -48,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

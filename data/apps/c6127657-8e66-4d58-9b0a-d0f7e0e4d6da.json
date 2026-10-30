@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.e-commerce-edi-integration%7CPAPPID.c6127657-8e66-4d58-9b0a-d0f7e0e4d6da",
-    "lastModified": "2026-07-16T12:13:15.4457405+00:00",
+    "lastModified": "2026-10-13T05:01:29.6499436+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/solutions/erp-edi-integration-services/",
-    "sourceHash": "sha256:975b18d13ddc5e37487c0856302eba33b1624a8519fce8176c032a793ebaf332",
+    "sourceHash": "sha256:2d5646bbb900cc9d6c12fabb743af4e3b3536fe781e00441c821eeb836d54402",
     "mentionsBC": false
   },
   "mapping": {
-    "sourceHash": "sha256:975b18d13ddc5e37487c0856302eba33b1624a8519fce8176c032a793ebaf332",
-    "mappedOn": null,
-    "summary": "EDI exchange with ecommerce platforms",
+    "sourceHash": "sha256:2d5646bbb900cc9d6c12fabb743af4e3b3536fe781e00441c821eeb836d54402",
+    "mappedOn": "2026-10-30",
+    "summary": "Exchanges orders, invoices and shipping notes between online stores and ERP via EDI.",
     "shape": "connector",
     "primary": [
       {
@@ -33,19 +35,22 @@
     ],
     "secondary": [
       "ng-conn-marketplaces",
-      "ng-sales-order-entry"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Imports customer orders from e-commerce platforms into ERP",
-      "Automatic generation of credit notes, shipping updates and invoices",
-      "Supports Shopify, BigCommerce, WooCommerce, Magento, Amazon and eBay",
-      "Supports EDIFACT, X12, XML and JSON",
-      "Real-time stock, pricing and order status sync",
-      "Configurable mapping rules per partner and platform"
+      "Customer orders from e-commerce platforms are imported into the ERP",
+      "Invoices, shipping updates and credit notes are generated automatically",
+      "Works with Shopify, BigCommerce, WooCommerce, Magento, Amazon and eBay",
+      "Supports EDIFACT, X12, XML and JSON standards",
+      "Syncs stock, pricing and order status",
+      "Mapping rules can be configured per trading partner and platform"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Manufacturing & Mobility",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "Shopify",
       "BigCommerce",

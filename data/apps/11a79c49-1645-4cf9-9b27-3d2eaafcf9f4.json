@@ -8,18 +8,20 @@
     "publisher": "DEXPRO Solutions GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.69471%7CPAPPID.11a79c49-1645-4cf9-9b27-3d2eaafcf9f4",
-    "lastModified": "2026-09-10T12:07:47.6812524+00:00",
-    "appVersion": "1.12.6.1",
-    "pricingTypes": [],
+    "lastModified": "2026-10-22T11:21:19.4533406+00:00",
+    "appVersion": "1.15.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.squeeze.one/books/advanced-workflow-for-dynamics-365-bc-de-de",
-    "sourceHash": "sha256:46fec8e77c4433f81bead4899fbf1bcfbf6197b091ab806c10b63e98bcca154a",
+    "sourceHash": "sha256:76fde4d350cd78fa0d37f284fd21ea55303a53510303263d7654cf6b8d5c233c",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:46fec8e77c4433f81bead4899fbf1bcfbf6197b091ab806c10b63e98bcca154a",
-    "mappedOn": null,
-    "summary": "Document approval workflows",
+    "sourceHash": "sha256:76fde4d350cd78fa0d37f284fd21ea55303a53510303263d7654cf6b8d5c233c",
+    "mappedOn": "2026-10-30",
+    "summary": "Rule-based approval workflow engine for routing documents through review to posting",
     "shape": "process",
     "primary": [
       {
@@ -28,16 +30,19 @@
       }
     ],
     "secondary": [
-      "ng-ap-invoice-capture"
+      "ng-ux-automation"
     ],
     "claims": [
-      "Rule-based if-then approval routing",
-      "Workflow templates for approval processes",
-      "Freely definable workflow steps",
-      "Live view of all documents in workflow with status",
-      "Free in sandbox; 50 runs with one template in production",
+      "Routes documents with if-then rules and conditions",
+      "Covers the approval process from document release to final posting",
+      "Live view of every document in the workflow and its status",
+      "Workflow templates for each approval process",
+      "Freely definable workflow steps for generic approvals",
+      "Unlimited free trial in a sandbox",
+      "Production trial limited to 50 runs and one active template",
+      "Billed per processed document",
       "Multilingual and multi-company",
-      "OnPrem and cloud"
+      "Available for on-premises and cloud"
     ],
     "countries": [],
     "languages": [

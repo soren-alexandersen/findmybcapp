@@ -117,7 +117,7 @@
         }
       ],
       "coverage": {
-        "Block it": 0.31,
+        "Block it": 0.23,
         "Send it for approval": 0.46,
         "Just warn the user": 0.23
       }
@@ -180,7 +180,7 @@
       ],
       "coverage": {
         "G/L accounts": 0.54,
-        "Departments, projects or other dimensions": 0.54,
+        "Departments, projects or other dimensions": 0.62,
         "Funds or grants": 0.08
       }
     },

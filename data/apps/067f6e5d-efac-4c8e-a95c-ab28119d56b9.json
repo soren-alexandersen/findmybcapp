@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.midtfactoringas1748344817147|AID.efactoring|PAPPID.067f6e5d-efac-4c8e-a95c-ab28119d56b9",
+  "guid": "067f6e5d-efac-4c8e-a95c-ab28119d56b9",
+  "publisherId": "midtfactoringas1748344817147",
+  "offerId": "efactoring",
+  "source": {
+    "name": "eFactoring",
+    "publisher": "Midt Factoring A/S",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.midtfactoringas1748344817147%7CAID.efactoring%7CPAPPID.067f6e5d-efac-4c8e-a95c-ab28119d56b9",
+    "lastModified": "2026-10-14T13:05:25.2875035+00:00",
+    "appVersion": "28.3.84.20261013",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.midtfactoring.dk/da-dk/online-services/support",
+    "sourceHash": "sha256:e59d5e3b63d909a9db43fa9e2618eeb8363c4ba04dbd0b3d80c988c95b6c2a09",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e59d5e3b63d909a9db43fa9e2618eeb8363c4ba04dbd0b3d80c988c95b6c2a09",
+    "mappedOn": "2026-10-30",
+    "summary": "Danish factoring integration for Midt Factoring clients: customer enrolment, invoice transfer, postings.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Only for Midt Factoring clients",
+      "Enrols customers for factoring",
+      "Provides factoring texts for printed invoices",
+      "Sends invoice assignment data to Midt Factoring",
+      "Imports security account postings with PDF vouchers into BC journals"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Financial services"
+    ],
+    "connectsTo": [
+      "Midt Factoring"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

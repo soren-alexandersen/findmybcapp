@@ -67,7 +67,7 @@
         }
       ],
       "coverage": {
-        "Yes, per pallet/box/container": 0.57
+        "Yes, per pallet/box/container": 0.54
       }
     },
     {
@@ -92,7 +92,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.14
+        "Yes": 0.15
       }
     },
     {
@@ -133,9 +133,9 @@
         }
       ],
       "coverage": {
-        "Pick routes and rules": 0.29,
-        "Expiry / shelf life control": 0.36,
-        "Automated storage (robots)": 0.07
+        "Pick routes and rules": 0.31,
+        "Expiry / shelf life control": 0.38,
+        "Automated storage (robots)": 0.08
       }
     },
     {
@@ -160,7 +160,7 @@
         }
       ],
       "coverage": {
-        "Yes, mobile scanning": 0.21
+        "Yes, mobile scanning": 0.23
       }
     },
     {
@@ -190,7 +190,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.29
+        "Yes": 0.31
       }
     }
   ]

@@ -52,7 +52,7 @@
         }
       ],
       "coverage": {
-        "Yes, track whole pallets/boxes": 0.6
+        "Yes, track whole pallets/boxes": 0.57
       }
     },
     {
@@ -76,7 +76,7 @@
         }
       ],
       "coverage": {
-        "Yes, scanners or mobile": 0.6
+        "Yes, scanners or mobile": 0.57
       }
     },
     {
@@ -125,15 +125,25 @@
           ]
         },
         {
+          "label": "Counting stock and correcting differences",
+          "patterns": [
+            "physical inventory counts?",
+            "stock counting",
+            "count, adjust",
+            "compares counts"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Transfers between locations": 0.6,
+        "Transfers between locations": 0.67,
         "Moves inside the warehouse (bins, zones)": 0.33,
-        "Inbound shipments and containers in transit": 0.4,
-        "Items sent out for repair or return": 0.13
+        "Inbound shipments and containers in transit": 0.33,
+        "Items sent out for repair or return": 0.1,
+        "Counting stock and correcting differences": 0.19
       }
     },
     {
@@ -154,8 +164,32 @@
         }
       ],
       "coverage": {
-        "Yes, approval or receipt confirmation": 0.2
+        "Yes, approval or receipt confirmation": 0.14
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "expected arrival and assembly wording; these apps already match the in-transit option",
+      "terms": [
+        "assembly",
+        "expect"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "balance sheet valuation along the chain is accounting detail; apps already match transfer options",
+      "terms": [
+        "balanc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'calculate' wording",
+      "terms": [
+        "calculat"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

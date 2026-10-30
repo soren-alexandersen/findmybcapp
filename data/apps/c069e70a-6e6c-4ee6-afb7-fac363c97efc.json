@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.custom_tiles%7CPAPPID.c069e70a-6e6c-4ee6-afb7-fac363c97efc",
-    "lastModified": "2026-09-22T10:58:31.6252951+00:00",
+    "lastModified": "2026-10-26T07:03:23.3788582+00:00",
     "appVersion": "1.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.customfields.apportunix.com/",
-    "sourceHash": "sha256:bf9a2d34300fa344a93d382890d90734af13147c5e119d1ce9a4e35d230c1f00",
+    "sourceHash": "sha256:6f90ad73813544227752e47bb7d8a0c2f2337eb6fe5ab66fdaf39622f1223de0",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bf9a2d34300fa344a93d382890d90734af13147c5e119d1ce9a4e35d230c1f00",
-    "mappedOn": null,
-    "summary": "Custom tiles on role centers and cards",
+    "sourceHash": "sha256:6f90ad73813544227752e47bb7d8a0c2f2337eb6fe5ab66fdaf39622f1223de0",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds user-defined calculated tiles to role centers and factboxes without coding.",
     "shape": "usability",
     "primary": [
       {
@@ -28,18 +30,20 @@
       }
     ],
     "secondary": [
-      "ng-ux-custom-fields",
-      "ng-ux-search-navigation"
+      "ng-ux-search-navigation",
+      "ng-ux-custom-fields"
     ],
     "claims": [
-      "Custom tiles with sums, averages and counts across related tables",
-      "Tiles in role centers and factboxes of customers, vendors, items and documents",
-      "Calculated fields without coding",
-      "Simulate Calculation action to check performance",
-      "Includes all Custom Fields app features"
+      "Tiles calculate sums, averages and counts across related tables",
+      "Tiles can sit in factboxes on customers, vendors, items, projects and sales, purchase and service documents",
+      "A simulation action checks calculation performance before use",
+      "Setup can be tried in an online sandbox first",
+      "Includes the features of the publisher's Custom Fields app",
+      "No development needed to configure tiles"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en",
       "nl"
     ],

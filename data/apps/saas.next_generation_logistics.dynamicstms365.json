@@ -1,0 +1,67 @@
+{
+  "appId": "next_generation_logistics.dynamicstms365",
+  "guid": null,
+  "publisherId": "next_generation_logistics",
+  "offerId": "dynamicstms365",
+  "source": {
+    "name": "Dynamics TMS 365",
+    "publisher": "Next Generation Logistics, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/next_generation_logistics.dynamicstms365",
+    "lastModified": "2026-07-22T20:03:13.7207797+00:00",
+    "appVersion": "Version 8.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fcce4d9d90182152b2ba61ce1866bf08016d16af6f975700b3781a2664ac2a5c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:fcce4d9d90182152b2ba61ce1866bf08016d16af6f975700b3781a2664ac2a5c",
+    "mappedOn": "2026-10-30",
+    "summary": "LTL freight rate shopping and dispatch platform for shippers on NAV/BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Real-time LTL rate shopping across domestic carriers on one screen",
+      "Connects to most domestic LTL carriers such as UPS Freight, FedEx Freight, YRC and ODFL",
+      "Order entry with stored ship-from and ship-to addresses",
+      "Saves and manages freight quotes",
+      "Dispatches loads electronically and prints bills of lading",
+      "Trial lets you request rates; live version adds dispatching",
+      "Can be expanded to a full TMS"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "UPS Freight",
+      "FedEx Freight",
+      "YRC",
+      "ODFL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

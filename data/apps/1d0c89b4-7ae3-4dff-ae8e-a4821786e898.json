@@ -8,53 +8,63 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_delivery_plans%7CPAPPID.1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
-    "lastModified": "2026-05-12T05:03:11.6633699+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-29T10:43:07.8266347+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-delivery-plans-help-en/",
-    "sourceHash": "sha256:fc15376504009b04ae8787d66a34e0bfa29d748bd89bba0f84b2de4f20c8af6c",
+    "sourceHash": "sha256:2bcea86f4c11339adce13f1fca4294bb2525ba87dc5c07be3ff41b6e6c1d1d13",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:fc15376504009b04ae8787d66a34e0bfa29d748bd89bba0f84b2de4f20c8af6c",
-    "mappedOn": null,
-    "summary": "Allocates available inventory to sales orders and combines deliveries",
+    "sourceHash": "sha256:2bcea86f4c11339adce13f1fca4294bb2525ba87dc5c07be3ff41b6e6c1d1d13",
+    "mappedOn": "2026-10-30",
+    "summary": "Delivery worksheet that allocates stock to sales orders by priority, checks credit and combines shipments.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-order-allocation",
         "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-customer-credit-holds",
-      "ng-allocation-picking",
       "ng-conn-3pl"
     ],
     "claims": [
-      "Delivery worksheet showing partial/complete deliverability",
-      "Automatic reservation by delivery date, customer priority or order date",
-      "One-click reservations per selected priority",
-      "Credit check with user authorization before shipment",
-      "Combines orders for the same delivery address into one warehouse document",
-      "3PL warehouse documents with extra source information",
-      "Separate view of reservations on inventory and planned receipts",
-      "Creates warehouse documents from the worksheet",
-      "Fixed per-tenant pricing based on minimum 100 users"
+      "Delivery worksheet shows availability and whether orders ship complete or partial",
+      "One-click reservations by priority: delivery date, customer priority or order date",
+      "Creates warehouse documents from the same worksheet",
+      "Credit check before shipment with authorised user approval",
+      "Combines orders to the same address into one warehouse document",
+      "Extra source information on documents for 3PL providers",
+      "Shows reservations on stock and on planned receipts separately",
+      "Per-user subscription, unlimited environments, 30-day trial",
+      "Entry version for under 10 users; Enterprise version above"
     ],
     "countries": [],
-    "languages": [],
-    "industries": [
-      "Distribution"
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
     ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

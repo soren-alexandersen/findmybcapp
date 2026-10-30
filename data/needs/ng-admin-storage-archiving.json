@@ -52,7 +52,9 @@
     "Search index and buffer tables seem huge, is it safe to purge them?",
     "Our posted e-document and incoming document blobs are filling the database",
     "We need to shrink the database before migrating to the cloud",
-    "What can safely be deleted from BC to get under the storage limit?"
+    "What can safely be deleted from BC to get under the storage limit?",
+    "Our Business Central storage costs keep growing",
+    "We want attachments out of the database but still one click away"
   ],
   "questions": [
     {
@@ -101,9 +103,9 @@
         }
       ],
       "coverage": {
-        "Move attachments and files out of BC": 0.59,
-        "Delete old records or files": 0.32,
-        "Archive or compress old entries": 0.14,
+        "Move attachments and files out of BC": 0.61,
+        "Delete old records or files": 0.35,
+        "Archive or compress old entries": 0.13,
         "Just hide old records from daily use": 0.09
       }
     },
@@ -129,8 +131,8 @@
         }
       ],
       "coverage": {
-        "SharePoint": 0.32,
-        "Azure Blob or Azure Files": 0.55
+        "SharePoint": 0.35,
+        "Azure Blob or Azure Files": 0.57
       }
     },
     {
@@ -176,7 +178,24 @@
             "transparent",
             "unchanged",
             "no change",
-            "seamless"
+            "seamless",
+            "open(s)? normally",
+            "open from the record",
+            "view pdfs inside bc",
+            "visible instantly in bc",
+            "fully accessible from bc",
+            "from within bc",
+            "one-click upload"
+          ]
+        },
+        {
+          "label": "Rules per file or document type",
+          "patterns": [
+            "file (size|type) (limits|rules)",
+            "allowed file type",
+            "storage rules",
+            "per document type",
+            "rules decide when"
           ]
         },
         {
@@ -185,11 +204,42 @@
         }
       ],
       "coverage": {
-        "Runs unattended on a schedule": 0.36,
-        "Audit, logs and legal retention": 0.32,
-        "Shows what is using the space first": 0.14,
-        "Users work exactly as before": 0.27
+        "Runs unattended on a schedule": 0.35,
+        "Audit, logs and legal retention": 0.3,
+        "Shows what is using the space first": 0.13,
+        "Users work exactly as before": 0.48,
+        "Rules per file or document type": 0.17
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "mixed 'store' wording (storage and retail stores)",
+      "terms": [
+        "stor"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "reducing database size is the need itself",
+      "terms": [
+        "reduc"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic file handling wording",
+      "terms": [
+        "file"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "upload mechanics, UI trivia",
+      "terms": [
+        "upload"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

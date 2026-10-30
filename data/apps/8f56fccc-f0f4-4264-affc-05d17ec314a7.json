@@ -14,7 +14,8 @@
     "freeTrial": null,
     "helpLink": "https://madhda.com/add-ons/portwise-365/",
     "sourceHash": "sha256:583be422477f6dbe2390dd94c90d665d03846e8fdaddf13ac8ef3f416ea1aab5",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:583be422477f6dbe2390dd94c90d665d03846e8fdaddf13ac8ef3f416ea1aab5",

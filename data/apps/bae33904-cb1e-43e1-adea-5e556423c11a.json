@@ -8,42 +8,45 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_shop_floor_control_production%7CPAPPID.bae33904-cb1e-43e1-adea-5e556423c11a",
-    "lastModified": "2026-09-29T10:03:13.0695654+00:00",
-    "appVersion": "2603.2.343894.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:20.9513729+00:00",
+    "appVersion": "2604.0.350905.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/SFPBC/",
-    "sourceHash": "sha256:a4d2b85bf9f6d5d65489fb1d18f21336173d8641da291e8545dc97bb7234841e",
+    "sourceHash": "sha256:c68f1f6e1830ccbf8c2a564a19c35d695f94e564e4aeba71c3ad033d820e7a5b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a4d2b85bf9f6d5d65489fb1d18f21336173d8641da291e8545dc97bb7234841e",
-    "mappedOn": null,
-    "summary": "Shop floor production data for food manufacturers",
-    "shape": "addon",
+    "sourceHash": "sha256:c68f1f6e1830ccbf8c2a564a19c35d695f94e564e4aeba71c3ad033d820e7a5b",
+    "mappedOn": "2026-10-30",
+    "summary": "Tablet shop floor screens for production status, time, failures, consumption and output.",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-shop-floor-reporting",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-food-beverage",
-        "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-admin-devices",
-      "ng-quality-inspection"
+      "ng-maintenance-breakdown",
+      "ng-quality-inspection",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Production orders shown on tablet or PC screens on the floor",
+      "Operators see production orders on tablets or PC screens instead of paper",
       "Operators change production order status in real time",
-      "Records labor time, machine time and failure time, with reasons",
-      "Consumption and output registered on floor and processed in BC",
-      "Over/under consumption limits and co-products",
-      "Production instructions, recipes and sales order info in one place",
-      "Integration with Aptean Quality Control for checks from shop floor",
-      "Multi-language shop floor screens"
+      "Records machine time, labour time, failure time and failure reasons",
+      "Consumption and output posted automatically in BC",
+      "Consumption checks against allowed over and under limits",
+      "Registers co-products as output",
+      "Shows recipes, instructions and sales order info at the station",
+      "Quality checks from the shop floor app when combined with Aptean Quality Control",
+      "Shop floor screens available in many languages",
+      "Free for 30 days, then a paid subscription",
+      "Runs on both Essentials and Premium editions"
     ],
     "countries": [
       "AU",
@@ -84,9 +87,7 @@
       "nl",
       "sv"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

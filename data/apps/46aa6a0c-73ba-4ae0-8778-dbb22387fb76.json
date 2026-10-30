@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.globeaccounting1579187614233|AID.globe_saf-t|PAPPID.46aa6a0c-73ba-4ae0-8778-dbb22387fb76",
+  "guid": "46aa6a0c-73ba-4ae0-8778-dbb22387fb76",
+  "publisherId": "globeaccounting1579187614233",
+  "offerId": "globe_saf-t",
+  "source": {
+    "name": "Globe SAF-T",
+    "publisher": "Globe Accounting",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.globeaccounting1579187614233%7CAID.globe_saf-t%7CPAPPID.46aa6a0c-73ba-4ae0-8778-dbb22387fb76",
+    "lastModified": "2026-10-08T04:57:17.6846484+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://globeaccounting.com/saft",
+    "sourceHash": "sha256:5a03e8b21812e918af2276aec28c519917366a050acb5aa6f611249b6178c321",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a03e8b21812e918af2276aec28c519917366a050acb5aa6f611249b6178c321",
+    "mappedOn": "2026-10-30",
+    "summary": "SAF-T export files for Lithuania, Poland, Romania, Norway and Denmark.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Produces SAF-T exports for LT, PL (JPK-CIT), RO, NO and DK",
+      "One app covers several countries, configured per country",
+      "Needs the matching Globe country apps for extra setup",
+      "Setup via country wizards",
+      "Paid; price on request"
+    ],
+    "countries": [
+      "DK",
+      "LT",
+      "NO",
+      "PL",
+      "RO"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Globe Accounting country apps"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

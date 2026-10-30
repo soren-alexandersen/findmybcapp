@@ -8,43 +8,41 @@
     "publisher": "Smart App Business Solutions Pty Ltd",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smartappbusinesssolutionsptyltd1582150654524%7CAID.insights_for_bc%7CPAPPID.5017f91a-e3fa-4c91-ab8a-451223cb9af8",
-    "lastModified": "2026-09-30T08:12:35.8673939+00:00",
+    "lastModified": "2026-10-30T10:04:05.2717835+00:00",
     "appVersion": "28.1.1.1",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.smartappbs.com.au/360-insights-for-business-central",
-    "sourceHash": "sha256:4d0345096dc111067f80831b88dfc2a23aee52dc710e32edd0b90e22b2225d34",
+    "sourceHash": "sha256:5b8c5f1baab398f5804f0bad5321ddbf6985bdb4cecd0ef12b33b2a78d106e32",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4d0345096dc111067f80831b88dfc2a23aee52dc710e32edd0b90e22b2225d34",
-    "mappedOn": null,
-    "summary": "Multi-company reporting and role-based dashboards",
+    "sourceHash": "sha256:5b8c5f1baab398f5804f0bad5321ddbf6985bdb4cecd0ef12b33b2a78d106e32",
+    "mappedOn": "2026-10-30",
+    "summary": "Views, compares and moves data from any table across multiple companies on one screen.",
     "shape": "usability",
     "primary": [
       {
-        "need": "ng-ux-search-navigation",
+        "need": "ng-ux-excel-reporting",
         "confidence": "high"
-      },
-      {
-        "need": "ng-financial-statements",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-inventory-analysis",
       "ng-ux-import-excel",
-      "ng-ux-master-data-sync"
+      "ng-ux-master-data-sync",
+      "ng-inventory-analysis"
     ],
     "claims": [
-      "View any table with selectable fields",
-      "Analyse data from multiple companies in one view",
-      "Compare records across companies without switching",
-      "Cross-company financial reports",
-      "Cross-company inventory review",
-      "Export to JSON and CSV",
-      "Import from JSON and CSV",
-      "Move data between companies"
+      "Shows any table with chosen fields and columns",
+      "Analyses one or several companies in a single view",
+      "Compares records across companies without switching",
+      "Builds financial reports across companies",
+      "Exports to JSON and CSV",
+      "Imports JSON and CSV files",
+      "Copies data between companies",
+      "Search and filter across records"
     ],
     "countries": [
       "AT",
@@ -62,7 +60,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

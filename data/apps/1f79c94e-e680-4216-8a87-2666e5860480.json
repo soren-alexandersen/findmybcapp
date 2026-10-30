@@ -8,41 +8,43 @@
     "publisher": "Exsion365",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.exsion365bv1743682306544%7CAID.exsiontime%7CPAPPID.1f79c94e-e680-4216-8a87-2666e5860480",
-    "lastModified": "2025-10-17T08:34:11.8467002+00:00",
-    "appVersion": "23.0.45947.0",
+    "lastModified": "2026-10-13T12:42:46.0719746+00:00",
+    "appVersion": "29.0.46294.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://exsion365.com/en/support",
-    "sourceHash": "sha256:066a927113dc989d96ca93f42ff770c17160a957b88d4a3f6700507d7c2745a8",
+    "sourceHash": "sha256:ef30fdffd5cc53dc0e71afbef81ba42129e98f81c5d9378954796bc131329702",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:066a927113dc989d96ca93f42ff770c17160a957b88d4a3f6700507d7c2745a8",
-    "mappedOn": null,
-    "summary": "Schedules execution of Exsion Excel reports",
+    "sourceHash": "sha256:ef30fdffd5cc53dc0e71afbef81ba42129e98f81c5d9378954796bc131329702",
+    "mappedOn": "2026-10-30",
+    "summary": "Schedules Exsion Excel reports to run automatically inside Business Central.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-ux-excel-reporting",
         "confidence": "high"
+      },
+      {
+        "need": "ng-admin-job-queue-setup",
+        "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-admin-job-queue-setup"
-    ],
+    "secondary": [],
     "claims": [
-      "Schedules Exsion Reporting reports to run automatically in BC",
-      "Automates recurring report runs across companies",
-      "Monitors report status with execution feedback",
-      "Users define execution times and receive notifications",
-      "Supports daily, weekly or monthly reports"
+      "Works with ExsionBC to run Exsion reports",
+      "Schedules report runs from inside Business Central",
+      "Runs recurring reports across multiple companies",
+      "Shows report run status and execution feedback",
+      "Users set execution times and receive notifications"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [],
     "requires": [
-      "Exsion Reporting in Excel"
+      "ExsionBC"
     ],
     "deployment": "not_stated",
     "pricing": "not_stated",

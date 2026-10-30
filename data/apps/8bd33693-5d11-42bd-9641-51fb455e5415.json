@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.vizier|AID.viz-chatbridge-365|PAPPID.8bd33693-5d11-42bd-9641-51fb455e5415",
+  "guid": "8bd33693-5d11-42bd-9641-51fb455e5415",
+  "publisherId": "vizier",
+  "offerId": "viz-chatbridge-365",
+  "source": {
+    "name": "VIZ ChatBridge 365",
+    "publisher": "Vizier",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vizier%7CAID.viz-chatbridge-365%7CPAPPID.8bd33693-5d11-42bd-9641-51fb455e5415",
+    "lastModified": "2026-10-12T12:32:56.4787141+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.vizier.it/viz-chatbridge-365",
+    "sourceHash": "sha256:17608e8c5ffb691300400a311d40a59fea479a7136f42f9e973d4766c66e85b0",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:17608e8c5ffb691300400a311d40a59fea479a7136f42f9e973d4766c66e85b0",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends BC document printouts to customers and contacts over WhatsApp.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends document printouts to a customer's or contact's phone number via WhatsApp",
+      "Requires an account with a supported WhatsApp provider",
+      "Provider fees and messaging charges are not included in the license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WhatsApp"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

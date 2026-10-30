@@ -35,7 +35,8 @@
             "data exchange",
             "multi-erp",
             "endpoint",
-            "api pages"
+            "api pages",
+            "azure key vault"
           ]
         },
         {
@@ -83,16 +84,26 @@
           ]
         },
         {
+          "label": "Automated testing of our apps",
+          "patterns": [
+            "test toolkit",
+            "test runner",
+            "data-driven test",
+            "unit test"
+          ]
+        },
+        {
           "label": "Not sure",
           "any": true
         }
       ],
       "coverage": {
-        "Building or testing APIs and integrations": 0.24,
+        "Building or testing APIs and integrations": 0.29,
         "Licensing and selling our own apps": 0.18,
         "Translating apps (XLIFF)": 0.06,
-        "Fixing data and support tasks": 0.09,
-        "AI / Copilot features": 0.18
+        "Fixing data and support tasks": 0.06,
+        "AI / Copilot features": 0.18,
+        "Automated testing of our apps": 0.03
       }
     },
     {
@@ -125,8 +136,8 @@
         }
       ],
       "coverage": {
-        "AL developers": 0.45,
-        "Consultants / super users (no code)": 0.18
+        "AL developers": 0.47,
+        "Consultants / super users (no code)": 0.15
       }
     },
     {
@@ -155,7 +166,7 @@
         }
       ],
       "coverage": {
-        "Yes, we are an app publisher": 0.24
+        "Yes, we are an app publisher": 0.21
       }
     },
     {
@@ -182,7 +193,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.12
+        "Yes": 0.09
       }
     },
     {
@@ -210,8 +221,38 @@
         }
       ],
       "coverage": {
-        "Yes": 0.12
+        "Yes": 0.09
       }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "access control for licensed apps, already covered by the licensing option",
+      "terms": [
+        "acces"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "licensing wording, already covered by the licensing option",
+      "terms": [
+        "licens"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'environment' wording",
+      "terms": [
+        "environment"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'against' wording",
+      "terms": [
+        "against"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

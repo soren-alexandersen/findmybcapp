@@ -8,39 +8,36 @@
     "publisher": "IM-PROJECTS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im_pos_connector_foundation%7CPAPPID.ba468edf-d03d-4232-bdb4-da0ad47e208c",
-    "lastModified": "2026-10-06T16:11:54.9735156+00:00",
-    "appVersion": "1.0.0.40",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T15:19:25.9554012+00:00",
+    "appVersion": "1.0.1.10",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://posconnectorfoundation.help.im-projects.com/",
-    "sourceHash": "sha256:28e3de838ee1615a2f02b1b78d9ee23249830737368d71fc56f926d668e7c5dd",
+    "sourceHash": "sha256:00e78571b763905c446c21c0384d0dea192c9cfbb36a9dc33be87983d6517029",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:28e3de838ee1615a2f02b1b78d9ee23249830737368d71fc56f926d668e7c5dd",
-    "mappedOn": null,
-    "summary": "Integrates external POS systems for sales and promotions",
+    "sourceHash": "sha256:00e78571b763905c446c21c0384d0dea192c9cfbb36a9dc33be87983d6517029",
+    "mappedOn": "2026-10-30",
+    "summary": "Links an external POS system to BC, which runs the back office.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-retail-pos",
         "confidence": "high"
-      },
-      {
-        "need": "ng-vert-hospitality",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-retail",
-      "ng-admin-integration-sync"
+      "ng-vert-hospitality",
+      "ng-vert-retail"
     ],
     "claims": [
-      "Sales-based integration between an external POS system and BC",
-      "Sales documents, promotions, loyalty and payments handled in the external POS",
-      "BC manages all back-office operations",
-      "Suitable for chains with multiple points of sale",
-      "Supports size and color products for fashion retailers",
+      "Sales, promotions, loyalty and payments run in the external POS while BC handles back office",
+      "Integration is driven by sales transactions",
+      "Suited to chains with many points of sale",
+      "Covers restaurants, bars, hotels, catering, supermarkets and size/colour fashion retail",
       "Supports Standard and Premium editions"
     ],
     "countries": [
@@ -60,17 +57,13 @@
       "pt"
     ],
     "industries": [
-      "Catering",
-      "Fashion",
       "Hospitality",
-      "Hotels",
-      "Restaurants",
-      "Retail"
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

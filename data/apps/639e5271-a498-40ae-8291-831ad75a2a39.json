@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.navitec|AID.ganttplanner|PAPPID.639e5271-a498-40ae-8291-831ad75a2a39",
+  "guid": "639e5271-a498-40ae-8291-831ad75a2a39",
+  "publisherId": "navitec",
+  "offerId": "ganttplanner",
+  "source": {
+    "name": "Gantt Planner",
+    "publisher": "Navitec systems s.r.o.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.ganttplanner%7CPAPPID.639e5271-a498-40ae-8291-831ad75a2a39",
+    "lastModified": "2026-10-27T17:51:49.1828512+00:00",
+    "appVersion": "29.0.25.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://dokumentace.navitec.cz/GPL",
+    "sourceHash": "sha256:bcd5b053a98dc50ea374bcc3397cd1687a04dd65f5514b6be36d7f7515c60ba7",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:bcd5b053a98dc50ea374bcc3397cd1687a04dd65f5514b6be36d7f7515c60ba7",
+    "mappedOn": "2026-10-30",
+    "summary": "Interactive Gantt chart for BC projects and resource load, with drag-and-drop planning.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-capacity",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shows all projects and planned people on one Gantt chart inside BC",
+      "Daily resource load in percent of capacity, respecting base calendar holidays",
+      "Highlights overloaded days and the tasks causing them",
+      "Drag to move or resize tasks; hand tasks to resources with free capacity",
+      "Finish-to-start and start-to-start dependencies with lag days and move preview",
+      "Changes are written to standard project planning lines; posted lines untouched",
+      "No data migration; uses standard projects, tasks, planning lines and resources",
+      "Two-week, month or quarter views",
+      "Licensed per planner; viewing is free; first month free",
+      "Available in English, Czech, German and Spanish"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

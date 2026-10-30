@@ -1,0 +1,72 @@
+{
+  "appId": "vsd.verovia",
+  "guid": null,
+  "publisherId": "vsd",
+  "offerId": "verovia",
+  "source": {
+    "name": "Verovia",
+    "publisher": "Verosoft Design INC. (VSD)",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/vsd.verovia",
+    "lastModified": "2026-10-23T19:48:10.7924245+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:7b2a0d7a322fcd69fa238d78f8a7b657edd3308ab1e4486f3de8227fe06a1421",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:7b2a0d7a322fcd69fa238d78f8a7b657edd3308ab1e4486f3de8227fe06a1421",
+    "mappedOn": "2026-10-30",
+    "summary": "AI agent and app platform that automates work on Dynamics 365 and Microsoft 365 data",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "AI agents monitor systems around the clock and route approvals with human sign-off",
+      "Agents use computer use to operate browser and legacy apps without an API",
+      "Generates working apps from a one-sentence description",
+      "Connectors for Dynamics 365, Microsoft 365, Azure SQL, Fabric and SCADA/IoT",
+      "Entra ID sign-in, role-based access, Teams approvals and tamper-evident audit trail",
+      "Can start in monitor-only mode",
+      "Supports Business Central Essentials and Premium",
+      "Free start; Starter from $750 per month billed annually"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365",
+      "Microsoft Teams",
+      "Microsoft Entra ID",
+      "Azure SQL",
+      "Microsoft Fabric",
+      "Copilot"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

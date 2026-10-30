@@ -8,20 +8,20 @@
     "publisher": "SIMTEQ A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simteq1604560163290%7CAID.revinav%7CPAPPID.c39c1c0a-a856-4d9a-bb25-d7045c5dc6f8",
-    "lastModified": "2026-10-05T10:44:26.9194326+00:00",
-    "appVersion": "28.0.80.0",
+    "lastModified": "2026-10-20T14:58:46.2135883+00:00",
+    "appVersion": "28.0.87.0",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://2clickaccounting.support/",
-    "sourceHash": "sha256:7c68f43947566a6bab145c8f9e9e117478c8b788d494b67fd7ff7a8d52c0858b",
+    "sourceHash": "sha256:ec703ea9d3c914e72610b14b779bb2098512290e4e82c519f63daab856778912",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7c68f43947566a6bab145c8f9e9e117478c8b788d494b67fd7ff7a8d52c0858b",
-    "mappedOn": null,
-    "summary": "OCR capture of purchase invoices and expenses with payments",
+    "sourceHash": "sha256:ec703ea9d3c914e72610b14b779bb2098512290e4e82c519f63daab856778912",
+    "mappedOn": "2026-10-30",
+    "summary": "Danish finance automation: invoice OCR, accounting robot, bank reconciliation and expenses.",
     "shape": "process",
     "primary": [
       {
@@ -30,38 +30,28 @@
       },
       {
         "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-hr-employee-expenses"
+      "ng-ap-payments"
     ],
     "claims": [
-      "Embedded OCR document scanning service",
-      "Accounting robot automates postings",
-      "Bank integration with almost all Danish banks and some international banks",
-      "Daily automatic bank reconciliation",
-      "Expense management for travel receipts and cash purchases",
+      "Includes an OCR scanning service for incoming invoices",
+      "Accounting robot automates bookkeeping",
+      "Bank integration with most Danish banks and some international ones",
+      "Bank is reconciled automatically every day",
+      "Handles travel receipts and cash purchases for employees",
       "Mobile apps for iOS and Android",
-      "External accountant/adviser can be given access"
+      "Your accountant can be given access for year-end and audit",
+      "Supports Basic Financials, Essentials and Premium editions"
     ],
     "countries": [
-      "AT",
-      "BE",
-      "CH",
-      "CZ",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "IE",
-      "IT",
-      "NL",
-      "NO",
-      "PT",
-      "SE",
-      "US"
+      "DK"
     ],
     "languages": [
       "da",
@@ -70,7 +60,7 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "contact",
     "hide": false,
     "hideReason": "",

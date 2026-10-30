@@ -8,18 +8,20 @@
     "publisher": "HubBroker ApS",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.opencart-integration%7CPAPPID.5aa1d8fd-2f41-4303-bfcf-c739cd933783",
-    "lastModified": "2026-07-16T09:03:59.2567427+00:00",
+    "lastModified": "2026-10-13T04:20:57.6338213+00:00",
     "appVersion": "5.7.7.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://hubbroker.com/integrations/opencart-edi-integration/",
-    "sourceHash": "sha256:9c813adf4c97b762f44cf6c9def4b70bbea36a5d51472845834e4a606c46fea2",
+    "sourceHash": "sha256:d86ea8c434407925dd67b892c781c77d94e35c47e9923b783de08ad4c80437a7",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:9c813adf4c97b762f44cf6c9def4b70bbea36a5d51472845834e4a606c46fea2",
-    "mappedOn": null,
-    "summary": "Integrates OpenCart store with BC",
+    "sourceHash": "sha256:d86ea8c434407925dd67b892c781c77d94e35c47e9923b783de08ad4c80437a7",
+    "mappedOn": "2026-10-30",
+    "summary": "Syncs an OpenCart store with Business Central via HubBroker's integration service.",
     "shape": "connector",
     "primary": [
       {
@@ -28,19 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Imports OpenCart orders into BC",
-      "Real-time stock level sync",
-      "Syncs customer profiles and purchase history",
-      "Aligns invoices, payments and balances",
-      "Error handling and monitoring",
-      "Supports multi-store operations"
+      "OpenCart orders are transferred into Business Central",
+      "Stock levels are updated in real time in both systems",
+      "Customer profiles and purchase history are synchronised",
+      "Invoices, payments and balances are aligned",
+      "Integration errors are tracked and monitored",
+      "Supports multi-store setups",
+      "Available in all countries"
     ],
     "countries": [],
     "languages": [],
-    "industries": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
     "connectsTo": [
       "OpenCart"
     ],

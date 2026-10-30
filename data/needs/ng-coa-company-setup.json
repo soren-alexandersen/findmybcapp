@@ -113,11 +113,11 @@
         }
       ],
       "coverage": {
-        "Copying a company for testing or training": 0.2,
-        "Running several businesses inside one BC company": 0.2,
-        "Quickly creating setup data (number series, accounts)": 0.2,
-        "Checking an existing setup for mistakes": 0.2,
-        "Reporting under a local or group chart of accounts": 0.1
+        "Copying a company for testing or training": 0.18,
+        "Running several businesses inside one BC company": 0.18,
+        "Quickly creating setup data (number series, accounts)": 0.18,
+        "Checking an existing setup for mistakes": 0.18,
+        "Reporting under a local or group chart of accounts": 0.09
       }
     },
     {
@@ -142,7 +142,7 @@
         }
       ],
       "coverage": {
-        "Several, and we want them in one BC company": 0.2
+        "Several, and we want them in one BC company": 0.18
       }
     },
     {
@@ -165,7 +165,7 @@
         }
       ],
       "coverage": {
-        "Yes": 0.1
+        "Yes": 0.09
       }
     },
     {
@@ -202,8 +202,8 @@
         }
       ],
       "coverage": {
-        "Setting up a new company": 0.4,
-        "Reviewing or understanding an existing setup": 0.2
+        "Setting up a new company": 0.36,
+        "Reviewing or understanding an existing setup": 0.18
       }
     }
   ]

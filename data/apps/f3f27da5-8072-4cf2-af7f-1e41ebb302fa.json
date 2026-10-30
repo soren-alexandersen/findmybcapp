@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.azets|AID.azetssandboxrefreshmanager|PAPPID.f3f27da5-8072-4cf2-af7f-1e41ebb302fa",
+  "guid": "f3f27da5-8072-4cf2-af7f-1e41ebb302fa",
+  "publisherId": "azets",
+  "offerId": "azetssandboxrefreshmanager",
+  "source": {
+    "name": "Azets Sandbox Refresh Manager",
+    "publisher": "Azets Insight Oy",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.azets%7CAID.azetssandboxrefreshmanager%7CPAPPID.f3f27da5-8072-4cf2-af7f-1e41ebb302fa",
+    "lastModified": "2026-10-26T11:05:08.3193075+00:00",
+    "appVersion": "1.0.78.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.azetsops.com/",
+    "sourceHash": "sha256:882c6e73a65b1be8817e4e95e94451f26b2b4e90b9930d5acf4db22a00517152",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:882c6e73a65b1be8817e4e95e94451f26b2b4e90b9930d5acf4db22a00517152",
+    "mappedOn": "2026-10-30",
+    "summary": "Reapplies a saved clean-up configuration to a sandbox after it is copied from production.",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-updates-testing",
+      "ng-admin-users-signin"
+    ],
+    "claims": [
+      "Define once which tables, records and field values to change after a sandbox copy",
+      "Tables are processed in a sequence you choose",
+      "Restores app connections, disables users who should not have access and allows outbound HTTP per extension",
+      "Rules can insert, modify, delete or rename records",
+      "Field-level replacement values with masking of sensitive data",
+      "Entra app, user and outbound HTTP actions are blocked in production",
+      "Logs every processed record together with any error message",
+      "Safe to re-run without duplicate-key errors",
+      "Configuration can be copied between environments and companies or exported as a file",
+      "Manual checklist records who completed each remaining step and when",
+      "Works in cloud sandbox environments and is started manually from a hub page",
+      "Does not create the sandbox copy itself; it runs after the refresh"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

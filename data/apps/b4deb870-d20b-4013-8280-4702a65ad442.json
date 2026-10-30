@@ -8,43 +8,47 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.weigh_scale%7CPAPPID.b4deb870-d20b-4013-8280-4702a65ad442",
-    "lastModified": "2026-09-23T03:41:14.9963615+00:00",
-    "appVersion": "2603.2.344321.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:35.9484348+00:00",
+    "appVersion": "2604.0.351175.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/WSC/",
-    "sourceHash": "sha256:bd42fc393f73c287424c8f62917842b51dbbe1aa70601631bbd27c0ffd8e2a50",
+    "sourceHash": "sha256:7b5d2bf2628579bb60952be35905cef8a08a496c306438378b49489f3617aa31",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:bd42fc393f73c287424c8f62917842b51dbbe1aa70601631bbd27c0ffd8e2a50",
-    "mappedOn": null,
-    "summary": "Integrates weigh scales for catch weight capture",
-    "shape": "addon",
+    "sourceHash": "sha256:7b5d2bf2628579bb60952be35905cef8a08a496c306438378b49489f3617aa31",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects electronic weigh scales to receiving, production and shipping, recording weights and tare.",
+    "shape": "process",
     "primary": [
       {
-        "need": "ng-receiving-putaway",
-        "confidence": "medium"
+        "need": "ng-admin-devices",
+        "confidence": "high"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-shop-floor-reporting",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-devices",
-      "ng-shop-floor-reporting"
+      "ng-receiving-putaway",
+      "ng-barcode-labels",
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Integrates electronic weigh scales at receipt, production and shipping",
-      "Supports catch weight items",
-      "Tare weight entered manually or auto-calculated from default packaging",
-      "Each weighing creates a weigh scale entry with scale code, weight, tare, date, time and operator",
-      "Default weigh scale codes per receiving, consumption, output and shipping",
-      "Fast keys trigger printing and weighing with one button",
-      "Prints labels during weight registration via Aptean Labeling",
-      "Switch between imperial and metric units",
-      "Works with Business Central Online"
+      "Captures weights from scales at receipt, production and shipping",
+      "Supports catch weight items and items stocked in weight units",
+      "Tare can be entered by hand or calculated from default packaging",
+      "Each weighing creates an entry with scale code, gross and tare weight, time and operator",
+      "Default scale codes per receiving, consumption, output and shipping, overridable on documents",
+      "One-button fast keys trigger weighing and printing",
+      "Prints labels while weighing via Aptean Labeling",
+      "Switches between imperial and metric units",
+      "Works with various scale models and Business Central online",
+      "30-day free trial, then paid subscription"
     ],
     "countries": [
       "AU",
@@ -76,7 +80,6 @@
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",

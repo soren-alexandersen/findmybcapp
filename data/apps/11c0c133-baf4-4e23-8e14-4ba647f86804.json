@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.bc_mirroring_fabric|PAPPID.11c0c133-baf4-4e23-8e14-4ba647f86804",
+  "guid": "11c0c133-baf4-4e23-8e14-4ba647f86804",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "bc_mirroring_fabric",
+  "source": {
+    "name": "Business Central Mirroring to Fabric",
+    "publisher": "Microsoft",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.bc_mirroring_fabric%7CPAPPID.11c0c133-baf4-4e23-8e14-4ba647f86804",
+    "lastModified": "2026-10-30T11:13:11.2167719+00:00",
+    "appVersion": "29.1.0.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?LinkId=2386618",
+    "sourceHash": "sha256:5ac41c5370a0c2eab4280dd74795b8e0d4f360083b20d76ad1ae76233f5ae845",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ac41c5370a0c2eab4280dd74795b8e0d4f360083b20d76ad1ae76233f5ae845",
+    "mappedOn": "2026-10-30",
+    "summary": "Mirrors chosen BC companies and tables into Microsoft Fabric OneLake for analytics.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Makes BC data available in OneLake without separate pipelines",
+      "Admins pick which companies and tables are mirrored",
+      "Mirrored data usable in Power BI, Data Factory and other Fabric workloads",
+      "Logging to monitor and troubleshoot the mirroring",
+      "Requires Business Central 29.1 or later",
+      "Needs an Open Mirroring database in Fabric as destination"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Fabric",
+      "OneLake",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

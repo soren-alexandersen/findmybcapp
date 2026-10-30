@@ -1,0 +1,58 @@
+{
+  "appId": "techminds.tax365",
+  "guid": null,
+  "publisherId": "techminds",
+  "offerId": "tax365",
+  "source": {
+    "name": "AutoTax API Solution",
+    "publisher": "Techminds Group",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/techminds.tax365",
+    "lastModified": "2026-02-03T02:30:08.7051494+00:00",
+    "appVersion": "16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fe2dc9b73001e744995e64e336a43d3bf289de7f29b960b44745ddffa78cce44",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:fe2dc9b73001e744995e64e336a43d3bf289de7f29b960b44745ddffa78cce44",
+    "mappedOn": "2026-10-30",
+    "summary": "Supplies US sales and use tax rates to BC quotes, orders and invoices",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Delivers sales tax rates into quotes, sales orders and invoices",
+      "Tax liability reports by state, city, county and municipality",
+      "Removes manual upkeep of tax rate tables",
+      "Tax rates updated monthly as part of the service",
+      "Works with cloud, hosted or on-premises BC and NAV"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

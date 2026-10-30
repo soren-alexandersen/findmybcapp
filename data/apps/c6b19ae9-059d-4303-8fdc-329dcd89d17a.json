@@ -8,56 +8,55 @@
     "publisher": "LS Retail",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.f6c8d1ec-9d8f-4fe2-97b7-cc62349364a4%7CPAPPID.c6b19ae9-059d-4303-8fdc-329dcd89d17a",
-    "lastModified": "2026-04-15T16:59:58.1487803+00:00",
-    "appVersion": "28.0.0.48",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T21:04:46.211392+00:00",
+    "appVersion": "29.0.0.66",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Diller%20Integration%20for%20LS%20Central.htm?Highlight=diller",
-    "sourceHash": "sha256:97790fa0f36c040bdab39478fae857d260602d817daf01f1fc2c5d1918ac2983",
+    "sourceHash": "sha256:3bd251b85bab90a7b872498cbeef33e5eb6da7b6b2fd0c46f37eea1cf80cef3e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:97790fa0f36c040bdab39478fae857d260602d817daf01f1fc2c5d1918ac2983",
-    "mappedOn": null,
-    "summary": "Connects Diller loyalty platform to LS Central",
+    "sourceHash": "sha256:3bd251b85bab90a7b872498cbeef33e5eb6da7b6b2fd0c46f37eea1cf80cef3e",
+    "mappedOn": "2026-10-30",
+    "summary": "Connects LS Central to the Diller loyalty and marketing platform.",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-loyalty",
         "confidence": "high"
-      },
-      {
-        "need": "ng-mkt-campaigns",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-retail"
+      "ng-mkt-campaigns",
+      "ng-retail-pos"
     ],
     "claims": [
-      "Connects Diller loyalty and marketing platform to LS Central",
-      "Targeted campaigns and segmentation",
-      "Handles digital loyalty cards, coupons, discounts and bonus programs",
-      "Identifies and creates Diller members at the POS",
+      "Registers and identifies Diller loyalty members at the POS",
       "Sends sales and refund transactions to Diller",
-      "Promotions as store coupons and points-to-currency in advanced package",
+      "Targeted campaigns and customer segmentation",
+      "Bonus programs, discounts, coupons and digital loyalty cards",
+      "Promotions can be issued as store coupons (advanced package)",
+      "Points can be converted to currency (advanced package)",
       "Supports SaaS, hybrid and offline setups",
       "Requires Business Central 26.1 or later"
     ],
     "countries": [],
     "languages": [],
     "industries": [
+      "Hospitality",
       "Retail"
     ],
     "connectsTo": [
       "Diller"
     ],
     "requires": [
-      "LS Central",
-      "Diller"
+      "LS Central"
     ],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

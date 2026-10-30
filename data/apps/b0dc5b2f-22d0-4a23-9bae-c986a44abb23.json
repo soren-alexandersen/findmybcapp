@@ -8,60 +8,46 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_surcharges%7CPAPPID.b0dc5b2f-22d0-4a23-9bae-c986a44abb23",
-    "lastModified": "2026-02-25T08:47:12.6674679+00:00",
-    "appVersion": "2601.1.299344.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T06:24:38.3516661+00:00",
+    "appVersion": "2602.0.351507.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://erpdocs.apteancloud.com/bc/docs/SUR",
-    "sourceHash": "sha256:34190abdf6cac649bd47e85248c32bd5c0ac4d24bf5859501de05a630dc25df6",
+    "sourceHash": "sha256:a051d5470f53ba21694b4956b2e20acf68604377a7138aa00aa94da0d55c1049",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:34190abdf6cac649bd47e85248c32bd5c0ac4d24bf5859501de05a630dc25df6",
-    "mappedOn": null,
-    "summary": "Calculates surcharges and allowances on documents",
+    "sourceHash": "sha256:a051d5470f53ba21694b4956b2e20acf68604377a7138aa00aa94da0d55c1049",
+    "mappedOn": "2026-10-30",
+    "summary": "Automatic surcharges and allowances on sales and purchase documents, flat or by weight.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-pricing",
-        "confidence": "high"
+        "confidence": "medium"
       },
       {
-        "need": "ng-vert-food-beverage",
+        "need": "ng-supplier-pricing",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-supplier-pricing",
-      "ng-shipping-carriers"
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "Surcharges and allowances are added to purchase and sales documents automatically",
-      "Calculated on release or manually",
-      "Surcharge groups for customers and vendors",
-      "Surcharges per customer/vendor, ship-to/order address or group",
-      "Flat-rate or weight-based surcharges",
-      "Surcharges as item charges or direct G/L postings",
-      "Recalculates at invoice posting based on invoiced quantities",
-      "Bypass surcharge calculation on specific documents"
+      "Calculates surcharges on document release or manually",
+      "Surcharge groups for customers or vendors",
+      "Applies surcharges per customer, vendor, ship-to or order address, or group",
+      "Surcharges as flat rates or by weight",
+      "Posts surcharges as item charges or directly to G/L accounts",
+      "Recalculates surcharges at invoice posting on invoiced quantities",
+      "Can bypass surcharges on specific documents",
+      "Rules can depend on shipment method or carrier",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "CA",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "ID",
-      "IE",
-      "MY",
-      "NL",
-      "NZ",
-      "PH",
-      "SG",
-      "US"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -70,9 +56,7 @@
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

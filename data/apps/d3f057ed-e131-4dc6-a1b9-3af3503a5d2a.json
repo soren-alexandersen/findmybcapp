@@ -8,18 +8,20 @@
     "publisher": "EOS Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex003datasecurity%7CPAPPID.d3f057ed-e131-4dc6-a1b9-3af3503a5d2a",
-    "lastModified": "2026-09-25T10:09:17.9704227+00:00",
-    "appVersion": "28.0.22.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T16:26:05.533215+00:00",
+    "appVersion": "29.0.10.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/data-security.html",
-    "sourceHash": "sha256:a0f111793114f9648e8693c30e872167e2e3e57c57dc31b77cf4ab6934d13b30",
+    "sourceHash": "sha256:445862e2cc9c231bedde8753b656c3ed034daaff94dc8547761bbe2b35c3e796",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a0f111793114f9648e8693c30e872167e2e3e57c57dc31b77cf4ab6934d13b30",
-    "mappedOn": null,
-    "summary": "Mandatory fields, validation rules, record status and workflow on data",
+    "sourceHash": "sha256:445862e2cc9c231bedde8753b656c3ed034daaff94dc8547761bbe2b35c3e796",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds record statuses, mandatory-field blocks, approvals and notifications to BC records.",
     "shape": "usability",
     "primary": [
       {
@@ -36,13 +38,14 @@
       "ng-admin-alerts"
     ],
     "claims": [
-      "Mandatory fields and validation rules on records",
-      "Automatic blocking of incompletely qualified records (e.g. customer without VAT No.)",
-      "Only granted users or groups can change record status",
-      "Email notification on record status change, no coding",
-      "Different approval paths per entity",
-      "Filter records by admin-defined status, e.g. not approved or obsolete",
-      "Custom functions and tables to extend workflows"
+      "Automatically blocks records that are incomplete, such as customers without VAT number",
+      "Only granted users or groups may change a record's status",
+      "Email notification on record status change, without code",
+      "Different approval paths per entity, such as quick or detailed order approval",
+      "Filter records by admin-defined status like not approved or obsolete",
+      "Custom functions and sample code to extend workflows",
+      "Mentions AI agent processing",
+      "Free trial, then yearly subscription"
     ],
     "countries": [],
     "languages": [
@@ -54,10 +57,13 @@
       "it",
       "nl"
     ],
-    "industries": [],
+    "industries": [
+      "Healthcare",
+      "Manufacturing"
+    ],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "subscription",
     "hide": false,
     "hideReason": "",

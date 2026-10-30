@@ -8,18 +8,20 @@
     "publisher": "duveka GmbH",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0001%7CPAPPID.8b53cec0-b6ad-4361-b842-ee8e59c1302c",
-    "lastModified": "2026-10-06T17:42:48.1660285+00:00",
-    "appVersion": "26.2.65.31405",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T08:06:10.0825326+00:00",
+    "appVersion": "26.2.66.34732",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://duveka.net/DMS",
-    "sourceHash": "sha256:4fb3a384a216c2954353c4772298c0b831452f9143393a3358cbe1bc0e80467c",
+    "sourceHash": "sha256:4a0aa60c1756f05352b0c75813e53979a280eb8c29e9b3387334f6c4c1b6748e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:4fb3a384a216c2954353c4772298c0b831452f9143393a3358cbe1bc0e80467c",
-    "mappedOn": null,
-    "summary": "Document management for emails, files and PDFs integrated in BC",
+    "sourceHash": "sha256:4a0aa60c1756f05352b0c75813e53979a280eb8c29e9b3387334f6c4c1b6748e",
+    "mappedOn": "2026-10-30",
+    "summary": "Stores emails, PDFs and Office files on BC records, with expected documents and OCR",
     "shape": "usability",
     "primary": [
       {
@@ -35,15 +37,16 @@
       "ng-ap-invoice-capture"
     ],
     "claims": [
-      "Stores PDF, Excel, Word, pictures, mails and other files",
-      "Drag and drop to add documents",
-      "Expected documents created manually and automatically",
-      "Import files via ZIP file",
-      "Saves printed documents automatically",
+      "Stores PDF, Excel, Word, images, emails and other file types",
+      "Files are added by drag and drop",
+      "Expected documents from partners, created manually or automatically",
+      "Received documents can be edited and signed",
+      "Imports files from ZIP archives",
+      "Can save printed documents automatically",
+      "Setup controls which document types are saved",
       "Document preview",
-      "AI-enhanced OCR document import",
-      "Setup to choose which document types are saved",
-      "Edit and sign receipts"
+      "AI-enhanced OCR on import",
+      "Works on Essentials and Premium"
     ],
     "countries": [],
     "languages": [
@@ -56,7 +59,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

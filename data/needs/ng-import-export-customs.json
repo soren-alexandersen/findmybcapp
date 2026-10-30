@@ -1,0 +1,22 @@
+{
+  "id": "ng-import-export-customs",
+  "order": 225,
+  "label": "Importing and exporting goods: customs, containers and landed cost",
+  "description": "Customs declarations and clearance, commercial invoices for export, bonded goods, tracking containers in transit and spreading freight, duty and insurance onto the real cost of imported items.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "medium",
+  "statements": [
+    "Importing and exporting goods: customs, containers and landed cost",
+    "Customs declarations and clearance, commercial invoices for export, bonded goods, tracking containers in transit and spreading freight, duty and insurance onto the real cost of imported items.",
+    "Our goods cross borders and customs paperwork is done outside BC.",
+    "We retype order data into the customs broker's system for every shipment.",
+    "Each export needs a commercial invoice that meets the destination country's rules.",
+    "We use a bonded warehouse and must exchange data with our customs agent.",
+    "We need to know which purchase orders are on which container and when it lands.",
+    "Freight, duty and insurance are not on the item cost until the invoices arrive months later.",
+    "We cannot see what an imported item really cost us once everything is added.",
+    "Our margins are wrong because landed cost is estimated in a spreadsheet."
+  ],
+  "questions": []
+}

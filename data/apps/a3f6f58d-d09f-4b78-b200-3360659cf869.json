@@ -8,18 +8,20 @@
     "publisher": "Build Dynamics Pty Ltd.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_licensemanagement%7CPAPPID.a3f6f58d-d09f-4b78-b200-3360659cf869",
-    "lastModified": "2026-08-02T10:17:04.4070925+00:00",
-    "appVersion": "28.0.1.10",
-    "pricingTypes": [],
+    "lastModified": "2026-10-29T21:19:48.2391892+00:00",
+    "appVersion": "28.0.1.14",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://builddynamics.com.au/support/",
-    "sourceHash": "sha256:36b1332929147f00ac80226aebf2c6dc47ccc344947d96c853aefcec4e272b6a",
+    "sourceHash": "sha256:102b40b8f7b88e2ae0573f3781a466036f7c24fe4d1dd5ff42f996263b48384d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:36b1332929147f00ac80226aebf2c6dc47ccc344947d96c853aefcec4e272b6a",
-    "mappedOn": null,
-    "summary": "License management for Build Dynamics extensions",
+    "sourceHash": "sha256:102b40b8f7b88e2ae0573f3781a466036f7c24fe4d1dd5ff42f996263b48384d",
+    "mappedOn": "2026-10-30",
+    "summary": "Licensing host app required by other Build Dynamics extensions; registers tenant and tracks subscriptions.",
     "shape": "other",
     "primary": [
       {
@@ -29,10 +31,11 @@
     ],
     "secondary": [],
     "claims": [
-      "One-time tenant registration for Build Dynamics apps",
-      "Shows trial, active, overdue, expired status per extension",
-      "Start trial and Subscribe & Pay per extension",
-      "Renewal notifications at sign-in"
+      "One-time tenant registration with the publisher's licensing service",
+      "Shows trial, active, overdue and expired status per dependent extension",
+      "Start trials and subscribe per extension",
+      "Sign-in notifications when registration or renewal is due",
+      "Grace period when payment is overdue or service unreachable"
     ],
     "countries": [],
     "languages": [],
@@ -40,9 +43,9 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free",
     "hide": true,
-    "hideReason": "Licensing dependency app for Build Dynamics extensions",
+    "hideReason": "Dependency/licensing app required by the publisher's other extensions, not a business solution.",
     "noFit": ""
   },
   "curated": {

@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2mirakl%7CPAPPID.b9e8a634-63e7-47be-9e48-a71f5967134d",
-    "lastModified": "2025-06-12T09:35:21.8405316+00:00",
+    "lastModified": "2026-10-19T10:34:55.8229241+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:23cadecfaec1926a619c2c6668bb4633a3d4bcd3ec09a40381f5b76e4a2a7519",
+    "sourceHash": "sha256:71b8c663c0526905c9730f3fae882d86774b260f2a72776d4af33271bdae3f11",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:23cadecfaec1926a619c2c6668bb4633a3d4bcd3ec09a40381f5b76e4a2a7519",
-    "mappedOn": null,
-    "summary": "Integrates Mirakl marketplace platform with Business Central",
+    "sourceHash": "sha256:71b8c663c0526905c9730f3fae882d86774b260f2a72776d4af33271bdae3f11",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with Mirakl-based online marketplaces.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Mirakl",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Mirakl account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Mirakl"
     ],
-    "requires": [
-      "Mirakl"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

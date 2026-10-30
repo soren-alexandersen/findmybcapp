@@ -16,7 +16,8 @@
     "freeTrial": null,
     "helpLink": "https://github.com/Softextend/public-docs/blob/main/Document%20Currency/documentation-document-currency-en.adoc",
     "sourceHash": "sha256:1194fcbd6c742b3ec8e3d79fb5a18ecc4d3a87b970e038770ceda05dc7b55d8f",
-    "mentionsBC": true
+    "mentionsBC": true,
+    "removedOn": "2026-10-30"
   },
   "mapping": {
     "sourceHash": "sha256:1194fcbd6c742b3ec8e3d79fb5a18ecc4d3a87b970e038770ceda05dc7b55d8f",

@@ -8,49 +8,102 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_fashion_central_premium%7CPAPPID.067a81b9-82b0-4391-b530-d2ea1ed27ad3",
-    "lastModified": "2026-10-04T10:32:18.6353138+00:00",
+    "lastModified": "2026-10-23T12:19:53.5509048+00:00",
     "appVersion": "28.2.0.2",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-fashion-central-premium-help-en/",
-    "sourceHash": "sha256:031b4b3d5cbcd0803f501655338b20660a8170ae07a73fcf1970b31f723a706b",
+    "sourceHash": "sha256:d4b8ed4c242c5de9b85fdcb16c6e1f90906dd0ca52dd738561d5d7d2d1989ec3",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:031b4b3d5cbcd0803f501655338b20660a8170ae07a73fcf1970b31f723a706b",
-    "mappedOn": null,
-    "summary": "Fashion items with color and size variants and matrix orders",
+    "sourceHash": "sha256:d4b8ed4c242c5de9b85fdcb16c6e1f90906dd0ca52dd738561d5d7d2d1989ec3",
+    "mappedOn": "2026-10-30",
+    "summary": "Fashion item setup with colour/size variants, model templates, fashion dimensions and matrix order entry.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-fashion",
         "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-item-master-data",
-      "ng-sales-order-entry"
+      "ng-ux-dimensions",
+      "ng-sales-pricing",
+      "ng-purchase-orders"
     ],
     "claims": [
-      "Enterprise version",
-      "Smart templates create items and variants by color and size",
-      "Templates for attributes, compositions, units, prices, discounts",
-      "Fashion dimensions: target group, product line, theme, season, brand and collection",
-      "Connects attributes to BC dimensions for Power BI",
-      "Colors and sizes as items or variants",
-      "Sales and purchase price list maintenance from model templates",
-      "Model assistant for sales, purchase, transfer and assembly orders"
+      "Creates items and variants from smart templates per model",
+      "Templates cover extended texts, translations, units, colours, sizes, attributes, compositions, status, prices and discounts",
+      "Adds fashion dimensions such as collection, brand, season and theme",
+      "Links item attributes to standard BC dimensions for Power BI reporting",
+      "Colours and sizes can be set up as separate items or as variants",
+      "Maintains sales and purchase prices and discounts from model templates",
+      "Model assistant enters sales, purchase, transfer and assembly lines per model on one page",
+      "Model assistant shows availability, prices, discounts and dates",
+      "Runs on Essentials and Premium editions",
+      "30-day free trial"
     ],
-    "countries": [],
-    "languages": [],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
     "industries": [
-      "Apparel",
-      "Fashion"
+      "Distribution",
+      "Retail & Consumer Goods"
     ],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Rand Group, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.user_sentiment_tracker%7CPAPPID.e37c9253-5810-41c7-8439-7516f74a7aaa",
-    "lastModified": "2026-05-20T16:16:03.1511331+00:00",
-    "appVersion": "26.14.90.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T16:58:42.5738975+00:00",
+    "appVersion": "26.16.94.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/user-sentiment-tracker/",
-    "sourceHash": "sha256:baa0d2c2123b6fc65b2c35d383f8c8f1ca4589333c9f29b52d35d0ac05202454",
+    "sourceHash": "sha256:3c1f012fc1bd3bbad4ab93668c12dc409e0a3283bf865d3321a03305658b5686",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:baa0d2c2123b6fc65b2c35d383f8c8f1ca4589333c9f29b52d35d0ac05202454",
-    "mappedOn": null,
-    "summary": "Collects user sentiment feedback on BC",
+    "sourceHash": "sha256:3c1f012fc1bd3bbad4ab93668c12dc409e0a3283bf865d3321a03305658b5686",
+    "mappedOn": "2026-10-30",
+    "summary": "Collects staff feedback on working in BC and reports sentiment to management.",
     "shape": "usability",
     "primary": [
       {
@@ -28,13 +30,13 @@
       }
     ],
     "secondary": [
-      "ng-mkt-research-surveys"
+      "ng-hr-performance"
     ],
     "claims": [
-      "Collects staff feedback they might not voice directly",
-      "Identifies users struggling with Business Central",
-      "Ad-hoc or scheduled quarterly reports for management",
-      "Available globally except Czechia"
+      "Gathers staff feedback they may not voice directly",
+      "Identifies users struggling with BC for targeted training",
+      "Ad hoc or scheduled quarterly sentiment reports for management",
+      "Free to use"
     ],
     "countries": [],
     "languages": [

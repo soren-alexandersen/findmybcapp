@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.banking720_dk|PAPPID.2ae66b00-5c2f-4098-b97b-7965671df30f",
+  "guid": "2ae66b00-5c2f-4098-b97b-7965671df30f",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "banking720_dk",
+  "source": {
+    "name": "Banking720 (DK)",
+    "publisher": "ON720.COM",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.banking720_dk%7CPAPPID.2ae66b00-5c2f-4098-b97b-7965671df30f",
+    "lastModified": "2026-10-21T12:08:40.8851377+00:00",
+    "appVersion": "29.0.261021.1",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/da/banking720",
+    "sourceHash": "sha256:66586ed1f40399649743132f01e3620855d8475b4e82ac0960fa8f909d30ca08",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:66586ed1f40399649743132f01e3620855d8475b4e82ac0960fa8f909d30ca08",
+    "mappedOn": "2026-10-30",
+    "summary": "Direct Danish bank integration for payments, statement import and bank reconciliation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends payments from standard payment journals without exporting files",
+      "Supports bank transfer, FIK, NemKonto and card-based payment services",
+      "Payment status shown in BC: approved, processed, completed or rejected",
+      "Bank status and error messages returned into BC",
+      "Fetches statements and transactions automatically",
+      "Imports history for a chosen period or syncs continuously",
+      "Feeds standard BC bank reconciliation",
+      "Overview of reconciled and open transactions",
+      "Needs a Bank Connect agreement to execute payments"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bank Connect"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -8,49 +8,53 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2akeneo%7CPAPPID.28590fd4-23ee-4923-b1aa-7cb347e46db1",
-    "lastModified": "2026-08-24T09:19:33.8500131+00:00",
+    "lastModified": "2026-10-19T12:03:11.8379054+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:ee6321f3d0ea74cd685c80916cf27e3c8c61983cc033ffeffd93b73427f31504",
+    "sourceHash": "sha256:e487d241e6e91bc46740b73e6ca21ea252af46cfa79f1ab3d2dd02cfebf0f660",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ee6321f3d0ea74cd685c80916cf27e3c8c61983cc033ffeffd93b73427f31504",
-    "mappedOn": null,
-    "summary": "Syncs products, variants, attributes and images to Akeneo PIM",
+    "sourceHash": "sha256:e487d241e6e91bc46740b73e6ca21ea252af46cfa79f1ab3d2dd02cfebf0f660",
+    "mappedOn": "2026-10-30",
+    "summary": "Pushes BC items, variants and attribute options to Akeneo PIM; pulls images back.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-item-master-data",
         "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-assortment-catalogs"
+      "ng-admin-integration-failures"
     ],
     "claims": [
-      "Creates/updates Akeneo products from BC items with attribute values, locales and channel scope",
-      "Supports flat-product and product-model modes with default family",
-      "Maintains Akeneo product models and variant products automatically",
-      "Creates missing single/multi-select attribute options automatically",
-      "Transfers product images from Akeneo to BC on demand by streaming",
-      "Insert-only attributes protect existing Akeneo enrichments",
-      "Configurable default attribute values for new products",
-      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+      "BC items created or updated as Akeneo products with attributes, locales and channel scope",
+      "Flat-product and product-model modes",
+      "Configurable default family for new products",
+      "Maintains Akeneo product models and variants automatically",
+      "Creates missing single- and multi-select attribute options in Akeneo",
+      "Akeneo product images streamed to BC on demand",
+      "Insert-only attributes protect Akeneo enrichments",
+      "OmniConnect Portal for monitoring, alerts and resubmitting failed transactions"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Akeneo"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

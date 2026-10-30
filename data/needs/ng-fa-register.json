@@ -147,9 +147,9 @@
         }
       ],
       "coverage": {
-        "Vehicles and fleet": 0.33,
-        "Tools and equipment": 0.13,
-        "Fixed assets on the balance sheet": 0.53
+        "Vehicles and fleet": 0.29,
+        "Tools and equipment": 0.07,
+        "Fixed assets on the balance sheet": 0.64
       }
     },
     {
@@ -198,10 +198,10 @@
         }
       ],
       "coverage": {
-        "Moving assets between sites, people or companies": 0.33,
-        "Counting assets and checking they exist": 0.2,
-        "Approving new assets before use": 0.13,
-        "Fuel, mileage and running costs": 0.27
+        "Moving assets between sites, people or companies": 0.36,
+        "Counting assets and checking they exist": 0.21,
+        "Approving new assets before use": 0.14,
+        "Fuel, mileage and running costs": 0.21
       }
     },
     {
@@ -226,7 +226,7 @@
         }
       ],
       "coverage": {
-        "Yes, track the responsible person": 0.67
+        "Yes, track the responsible person": 0.64
       }
     },
     {
@@ -249,7 +249,7 @@
         }
       ],
       "coverage": {
-        "Yes, with an audit trail": 0.33
+        "Yes, with an audit trail": 0.36
       }
     },
     {
@@ -272,7 +272,7 @@
         }
       ],
       "coverage": {
-        "Yes, track inspections and maintenance": 0.27
+        "Yes, track inspections and maintenance": 0.21
       }
     }
   ]

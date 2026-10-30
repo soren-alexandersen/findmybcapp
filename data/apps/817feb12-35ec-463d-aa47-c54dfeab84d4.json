@@ -8,47 +8,45 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2resourced%7CPAPPID.817feb12-35ec-463d-aa47-c54dfeab84d4",
-    "lastModified": "2025-06-12T09:19:49.3032352+00:00",
+    "lastModified": "2026-10-19T10:38:31.9129042+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:46ae525b0a66ef260e11e4a03cad4b4b064422367dd5b5ceaea9ac17003f999c",
+    "sourceHash": "sha256:d2fd270a88b0311b156fa1150dac8a0216cd77ba4379eaa6b2042abf1bba418e",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:46ae525b0a66ef260e11e4a03cad4b4b064422367dd5b5ceaea9ac17003f999c",
-    "mappedOn": null,
-    "summary": "Integrates Resourced PLM product data with Business Central",
+    "sourceHash": "sha256:d2fd270a88b0311b156fa1150dac8a0216cd77ba4379eaa6b2042abf1bba418e",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Resourced product lifecycle management system.",
     "shape": "connector",
     "primary": [
       {
         "need": "ng-conn-cad-plm",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Resourced",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Resourced account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Resourced"
     ],
-    "requires": [
-      "Resourced"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

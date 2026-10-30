@@ -8,41 +8,48 @@
     "publisher": "TRIMIT Development A/S",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trimitdevelopmentas1583754646521%7CAID.trimit%7CPAPPID.94927c12-6061-4e3f-b07d-ce1b66584585",
-    "lastModified": "2026-10-06T22:21:31.3212304+00:00",
-    "appVersion": "26.1.68.838",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T23:54:59.6373371+00:00",
+    "appVersion": "26.2.1.865",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://documentation.trimit.com/",
-    "sourceHash": "sha256:ae1007bd8a1a65f84749c7e8b5994e122062a21944c6238e763321884f2ba5ed",
+    "sourceHash": "sha256:6b8e95eafc47a42f9cf67160170bbf0e8761b54245569d97a2ec091164093c11",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:ae1007bd8a1a65f84749c7e8b5994e122062a21944c6238e763321884f2ba5ed",
-    "mappedOn": null,
-    "summary": "ERP for fashion, apparel and furniture companies",
+    "sourceHash": "sha256:6b8e95eafc47a42f9cf67160170bbf0e8761b54245569d97a2ec091164093c11",
+    "mappedOn": "2026-10-30",
+    "summary": "Industry solution for fashion, apparel and furniture companies, built around style-level variants.",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-fashion",
         "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-item-master-data",
       "ng-product-portfolio-launch",
-      "ng-conn-cpq"
+      "ng-order-allocation",
+      "ng-conn-cpq",
+      "ng-production-costing"
     ],
     "claims": [
-      "Unlimited variants updated at style level instead of SKU",
+      "Unlimited variants maintained at style or product level instead of per SKU",
       "Built-in product data management for product development",
-      "Price and margin calculation for products or collections",
-      "Allocate inventory to customers",
+      "Price and margin calculation per product or collection",
+      "Allocates stock to customers",
       "Real-time statistics",
-      "Configure and sell products based on business rules (furniture)",
+      "Rule-based product configuration for furniture",
       "Manufacturing with pre- and post-calculation",
       "Multi-level BOMs",
-      "Combines with TRIMIT e-commerce suite incl. visual online configuration",
-      "Available in cloud and on-premise, Essential and Premium"
+      "Combines with the TRIMIT e-commerce suite, including visual online configuration",
+      "Available in cloud and on-premises on both editions"
     ],
     "countries": [
       "AT",
@@ -106,7 +113,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "both",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

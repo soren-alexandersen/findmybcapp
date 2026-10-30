@@ -8,77 +8,53 @@
     "publisher": "Aptean",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_advanced_comments%7CPAPPID.589ac63d-1c85-455d-abcd-03eb4f110463",
-    "lastModified": "2026-07-22T01:05:12.3423738+00:00",
-    "appVersion": "2601.0.332291.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T05:54:48.4800417+00:00",
+    "appVersion": "2602.0.350887.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://fnbdocs.apteancloud.com/bc/ACM/",
-    "sourceHash": "sha256:57fcbfbf7ba49309337daf3e5ee50bfa068e30a29161c304e1619cd8d567f53a",
+    "sourceHash": "sha256:117c1d908a1221b5a5dbdced1539125b19262c6a1a1ac9cf346e850c2fbd09dd",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:57fcbfbf7ba49309337daf3e5ee50bfa068e30a29161c304e1619cd8d567f53a",
-    "mappedOn": null,
-    "summary": "Comments on warehouse and sales documents",
-    "shape": "addon",
+    "sourceHash": "sha256:117c1d908a1221b5a5dbdced1539125b19262c6a1a1ac9cf346e850c2fbd09dd",
+    "mappedOn": "2026-10-30",
+    "summary": "Standard comment texts per customer or item copied onto sales and warehouse documents.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-notes-collaboration",
-        "confidence": "medium"
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-sales-order-entry"
+      "ng-ux-document-layouts"
     ],
     "claims": [
-      "Standard comments per customer, item, item category or all",
-      "Choose which documents and reports include comments",
-      "Starting and ending dates on comment assignment",
+      "Sets up comment lines for one customer or all customers",
+      "Assigns comments to specific items, item categories or all items",
+      "Chooses which documents and reports show each comment",
+      "Uses start and end dates to control comment assignment",
       "Copies sales order comments to warehouse documents and production orders",
-      "Notification when comments get copied onto sales documents",
-      "Prints comments on reports"
+      "Shows a notification when important comments are copied",
+      "30-day free trial, then paid subscription"
     ],
-    "countries": [
-      "AU",
-      "BE",
-      "BG",
-      "CA",
-      "CH",
-      "DE",
-      "DK",
-      "ES",
-      "FR",
-      "GB",
-      "GH",
-      "ID",
-      "IE",
-      "IN",
-      "MX",
-      "MY",
-      "NG",
-      "NL",
-      "NO",
-      "NZ",
-      "PH",
-      "PL",
-      "SE",
-      "SG",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
-      "de-CH",
       "en",
       "es",
       "fr",
       "nl"
     ],
-    "industries": [
-      "Food and beverage"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

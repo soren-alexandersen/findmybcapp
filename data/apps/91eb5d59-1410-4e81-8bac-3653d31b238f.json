@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.bcadvancedgmbh1764449970288|AID.bagdms|PAPPID.91eb5d59-1410-4e81-8bac-3653d31b238f",
+  "guid": "91eb5d59-1410-4e81-8bac-3653d31b238f",
+  "publisherId": "bcadvancedgmbh1764449970288",
+  "offerId": "bagdms",
+  "source": {
+    "name": "BCAdvanced d.velop Integration",
+    "publisher": "BCAdvanced GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcadvancedgmbh1764449970288%7CAID.bagdms%7CPAPPID.91eb5d59-1410-4e81-8bac-3653d31b238f",
+    "lastModified": "2026-10-27T20:33:45.0191056+00:00",
+    "appVersion": "2.2.0.4",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bcadvanced.de/",
+    "sourceHash": "sha256:8415e7aa01e331503d792d525f099c76bfbe7592fdecfd5aba786e9f823882a7",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8415e7aa01e331503d792d525f099c76bfbe7592fdecfd5aba786e9f823882a7",
+    "mappedOn": "2026-10-30",
+    "summary": "Archives BC documents automatically in d.velop Documents and shows them in context.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Automatic archiving of BC documents to d.velop",
+      "Archives EDI and e-invoice originals in an audit-proof way",
+      "Shows context-relevant archived documents inside BC",
+      "Dossiers by item, serial number, variant or lot",
+      "Versioning of archived quotes, orders and confirmations",
+      "Duplicate checking",
+      "Works across companies",
+      "Drag-and-drop area for manual documents",
+      "Barcode-based scanning of documents",
+      "Configurable without AL programming",
+      "Available in English and German"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "d.velop Documents"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

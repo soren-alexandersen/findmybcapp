@@ -8,18 +8,20 @@
     "publisher": "SystemConnect",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.docuattach%7CPAPPID.b6f1a8d4-2e3c-4a7b-9c5e-1f8a3d6b7c90",
-    "lastModified": "2026-09-25T07:44:17.8720142+00:00",
-    "appVersion": "28.0.0.8",
-    "pricingTypes": [],
+    "lastModified": "2026-10-27T11:36:10.532208+00:00",
+    "appVersion": "28.0.0.10",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://systemconnect.dk/docuattachhelp",
-    "sourceHash": "sha256:1b36a65d868f4819376fb37fb830ac395ea9810537699f8a54b6b7f8fb183a8b",
+    "sourceHash": "sha256:03762045f9bd65e6103050022494bc45564255a8ba2d324ef3b1895335bdf46b",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1b36a65d868f4819376fb37fb830ac395ea9810537699f8a54b6b7f8fb183a8b",
-    "mappedOn": null,
-    "summary": "Attach and preview documents on journals, documents and entries",
+    "sourceHash": "sha256:03762045f9bd65e6103050022494bc45564255a8ba2d324ef3b1895335bdf46b",
+    "mappedOn": "2026-10-30",
+    "summary": "Drag-and-drop attachments with preview pane on journals, documents and posted entries.",
     "shape": "usability",
     "primary": [
       {
@@ -28,19 +30,22 @@
       }
     ],
     "secondary": [
-      "ng-journals"
+      "ng-journals",
+      "ng-audit-compliance"
     ],
     "claims": [
-      "Attach documents to journal lines, purchase/sales documents and posted entries",
+      "Attach invoices, delivery notes and receipts to journal lines, purchase and sales documents and posted entries",
+      "Works on all journal types, including general, cash, payment, purchase, sales, recurring, IC and job journals",
+      "Covers orders, invoices, credit memos, quotes and return orders",
       "Built-in side panel preview of PDFs, images and text files",
-      "Drag and drop upload into preview",
-      "Works on all journal types incl. general, cash receipt, payment, purchase, sales, recurring, IC and job",
-      "Works on posted G/L, VAT, customer and vendor entries",
-      "Admins enable or disable attachments per page type",
-      "Optional posting check warns on more than one attachment per journal line",
+      "Upload by dragging a file onto the preview",
+      "Admins switch the feature on or off per page type",
+      "Optional warning when a journal line has more than one attachment before posting",
       "Control whether attachments may be deleted from posted entries"
     ],
-    "countries": [],
+    "countries": [
+      "DK"
+    ],
     "languages": [
       "da"
     ],
@@ -48,7 +53,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

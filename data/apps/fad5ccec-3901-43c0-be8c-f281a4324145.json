@@ -4,22 +4,24 @@
   "publisherId": "sk-global-software",
   "offerId": "199fb153-7c3b-4e20-8fac-156291e5cf73",
   "source": {
-    "name": "Vendor Payment Automation for Dynamics 365 Business Central",
+    "name": "Truvio Vendor Payment Automation",
     "publisher": "SK Global Software, LLC",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sk-global-software%7CAID.199fb153-7c3b-4e20-8fac-156291e5cf73%7CPAPPID.fad5ccec-3901-43c0-be8c-f281a4324145",
-    "lastModified": "2026-09-03T18:52:39.1825055+00:00",
-    "appVersion": "4.0.5.592",
-    "pricingTypes": [],
+    "lastModified": "2026-10-21T07:23:59.8397808+00:00",
+    "appVersion": "4.1.0.602",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
-    "helpLink": "https://www.manula.com/manuals/sksoft/banking-automation-suite/3.0/en/topic/introduction?key=Zf37uufViTzz1R0HpYDvkwZtJvAyVY9K41HnlM0uwyTmgTUvHn",
-    "sourceHash": "sha256:d3d73b4ed83c326b0d1715ee6f78cf7ddf52504ee3ac15ee481533a97288ec0c",
+    "helpLink": "https://truvio.com/contact",
+    "sourceHash": "sha256:ac4a996aabddbcf6788d6dc21c9f7c1a08c327ffbdbbccbba23d5d5732b60e1d",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d3d73b4ed83c326b0d1715ee6f78cf7ddf52504ee3ac15ee481533a97288ec0c",
-    "mappedOn": null,
-    "summary": "Sends vendor payments directly to banks with fraud controls",
+    "sourceHash": "sha256:ac4a996aabddbcf6788d6dc21c9f7c1a08c327ffbdbbccbba23d5d5732b60e1d",
+    "mappedOn": "2026-10-30",
+    "summary": "Sends vendor payments from BC directly to the bank through the BankFabric platform.",
     "shape": "process",
     "primary": [
       {
@@ -27,34 +29,30 @@
         "confidence": "high"
       }
     ],
-    "secondary": [
-      "ng-bank-reconciliation"
-    ],
+    "secondary": [],
     "claims": [
-      "Sends vendor payments directly to the bank from BC",
-      "Access to 170+ banks and 2400+ payment formats incl. ACH, wires, virtual cards, outsourced checks",
-      "Automates bank communication without manual file upload",
+      "Transmits payments directly to the bank, no portal uploads",
       "Payment files stored encrypted on Azure-based BankFabric",
-      "Easily void and correct payments",
-      "Choose which vendors and bank accounts use electronic payments",
-      "Multiple payment types from one payment journal"
+      "Library of 170+ banks and 2,400+ payment formats including ACH, wires, virtual cards and outsourced checks",
+      "Bank communication automated without manual file handling",
+      "Flexible data fields avoid hard-coded bank formats",
+      "Payments are sent before remittance advice goes out",
+      "Payments can be voided and corrected",
+      "Controls which vendors and bank accounts may use electronic payment",
+      "Several payment types from one payment journal"
     ],
-    "countries": [
-      "US"
-    ],
+    "countries": [],
     "languages": [],
     "industries": [
-      "Construction",
       "Distribution",
-      "Professional services"
+      "Professional Services"
     ],
     "connectsTo": [
-      "BankFabric",
-      "banks"
+      "BankFabric"
     ],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

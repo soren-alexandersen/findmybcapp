@@ -8,18 +8,20 @@
     "publisher": "BrightCom Solutions AB",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_risk%7CPAPPID.f8a5c3e7-2d91-4b6f-9a3e-1c7f8d4e2a9b",
-    "lastModified": "2026-10-06T17:06:25.7600583+00:00",
-    "appVersion": "28.0.36077.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-28T16:14:28.6407268+00:00",
+    "appVersion": "28.0.37757.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.brightcom.se/sv/Products/BRCRisk",
-    "sourceHash": "sha256:a03e3c96805f99e8c429c8a66514b48d04401795999ce4fa76d0f721fffb0b85",
+    "sourceHash": "sha256:99e1919ab1fbe4456ba5120d088da30d5d93ffd994679b92d5d8364da35ada81",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:a03e3c96805f99e8c429c8a66514b48d04401795999ce4fa76d0f721fffb0b85",
-    "mappedOn": null,
-    "summary": "Monitors customer and vendor credit risk via TIC data",
+    "sourceHash": "sha256:99e1919ab1fbe4456ba5120d088da30d5d93ffd994679b92d5d8364da35ada81",
+    "mappedOn": "2026-10-30",
+    "summary": "Daily credit and risk monitoring of Swedish customers and vendors via TIC data.",
     "shape": "connector",
     "primary": [
       {
@@ -28,21 +30,20 @@
       },
       {
         "need": "ng-customer-credit-holds",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [
       "ng-supplier-quality-compliance"
     ],
     "claims": [
-      "Daily automated risk monitoring of customers and vendors",
-      "Displays credit scores from 0 to 100 and the debt balance",
-      "Company search by name, VAT or organization number",
-      "Shows risk indicators on the lists of customers and vendors",
-      "Watchlists with automated notifications",
-      "Integrates with TIC (The Intelligence Company)",
-      "Shows payment marks",
-      "Role-based permissions and audit trails"
+      "Daily automatic risk checks on customers and vendors",
+      "Credit scores from 0 to 100 plus debt balance tracking",
+      "Company search by name, VAT or organisation number",
+      "Risk indicators shown on customer and vendor lists",
+      "Watchlists with automatic notifications",
+      "Shows payment remarks",
+      "Role-based permissions and audit trail"
     ],
     "countries": [
       "SE"
@@ -54,7 +55,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

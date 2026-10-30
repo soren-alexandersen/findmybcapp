@@ -8,18 +8,20 @@
     "publisher": "Apportunix",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.document_mail_queue%7CPAPPID.383c27fd-525c-4bc8-b7ec-e8d777b02e0b",
-    "lastModified": "2026-09-21T15:05:33.1219542+00:00",
-    "appVersion": "1.110.0.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-26T05:06:28.4219459+00:00",
+    "appVersion": "1.112.0.0",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.documentmailqueue.apportunix.com/",
-    "sourceHash": "sha256:7a7671f8a0a62774591a472ee332cfcd85e9e7d5d927b0facc4812cde4bd9b69",
+    "sourceHash": "sha256:787192434d8e7f805112c62a9de3fe7c11fba4c8cd17c2cc637fd41e1dafe073",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:7a7671f8a0a62774591a472ee332cfcd85e9e7d5d927b0facc4812cde4bd9b69",
-    "mappedOn": null,
-    "summary": "Batch email queue for outgoing documents",
+    "sourceHash": "sha256:787192434d8e7f805112c62a9de3fe7c11fba4c8cd17c2cc637fd41e1dafe073",
+    "mappedOn": "2026-10-30",
+    "summary": "Queues posted documents and emails them in batches with logging and attachments.",
     "shape": "usability",
     "primary": [
       {
@@ -28,22 +30,24 @@
       }
     ],
     "secondary": [
-      "ng-sales-invoicing",
-      "ng-admin-job-queue-setup"
+      "ng-sales-invoicing"
     ],
     "claims": [
-      "Processes all posted outgoing documents in one go, manually or via job queue",
-      "Documents added to the queue automatically after posting",
-      "Full log of outgoing documents and emails",
-      "11 document types incl. sales invoices, service invoices, reminders, orders and shipments",
-      "Output as PDF and/or electronic document",
-      "CC and BCC addresses",
-      "Sends attachments linked to the document",
-      "Default attachment per language code (e.g. terms and conditions)",
-      "Circuit breaker functionality"
+      "Queue can be processed by hand or on a job queue schedule",
+      "Documents enter the queue automatically when posted",
+      "Logs every outgoing document and email",
+      "Supports 11 document types including invoices, reminders, orders and shipments",
+      "Sends as PDF, electronic document or both",
+      "CC and BCC addresses supported",
+      "Attachments on the document are sent with the email",
+      "A fixed attachment such as terms and conditions can be added per language",
+      "Queue entries show status with colour indicators",
+      "Includes a circuit breaker",
+      "Can be extended to own report selections"
     ],
     "countries": [],
     "languages": [
+      "de",
       "en",
       "nl"
     ],

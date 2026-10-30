@@ -8,19 +8,21 @@
     "publisher": "NAVERTICA a.s.",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.navertica_business_case%7CPAPPID.6ce0b65f-bc3e-497b-95bf-c7538ad8a5e4",
-    "lastModified": "2026-06-05T07:22:21.2675925+00:00",
-    "appVersion": "27.0.333310.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-30T13:39:46.7078948+00:00",
+    "appVersion": "27.2.373988.0",
+    "pricingTypes": [
+      "ExternalFree"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.navertica.com/en-us/Business%20Case/",
-    "sourceHash": "sha256:0e1ddbce35430e728a1d960ea3f55a9cecbbeb6f60f010fdda7c219469f55765",
+    "sourceHash": "sha256:87dc39c6b117cf22a097bbc9f99dadffcdc5732dde9367c77f8ebae3828a6100",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0e1ddbce35430e728a1d960ea3f55a9cecbbeb6f60f010fdda7c219469f55765",
-    "mappedOn": null,
-    "summary": "Groups related sales and purchase documents under a business case",
-    "shape": "process",
+    "sourceHash": "sha256:87dc39c6b117cf22a097bbc9f99dadffcdc5732dde9367c77f8ebae3828a6100",
+    "mappedOn": "2026-10-30",
+    "summary": "Groups related sales and purchase documents under one business case for tracking.",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-search-navigation",
@@ -28,19 +30,18 @@
       }
     ],
     "secondary": [
-      "ng-sales-pipeline",
-      "ng-ux-dimensions"
+      "ng-sales-analytics",
+      "ng-sales-pipeline"
     ],
     "claims": [
-      "Groups related purchase and sales documents under a Business Case umbrella document",
-      "Tracks status/stages of a Business Case",
-      "Copies Business Case description text to new documents",
-      "Creates documents centrally from the Business Case",
-      "Assigns a Business Case to an existing document",
-      "Number series for Business Case cards",
-      "Dimension assignment on Business Case card",
-      "Business Case reporting",
-      "Supports Essentials and Premium editions"
+      "Groups purchase and sales documents under a business case record",
+      "Tracks status or stage of each business case",
+      "Copies business case description text to new documents",
+      "Existing documents can be assigned to a business case",
+      "Business case numbers come from a number series",
+      "Dimensions can be assigned on the business case card",
+      "Reporting per business case",
+      "Available in English and Czech"
     ],
     "countries": [],
     "languages": [
@@ -50,8 +51,8 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
-    "pricing": "not_stated",
+    "deployment": "online",
+    "pricing": "free",
     "hide": false,
     "hideReason": "",
     "noFit": ""

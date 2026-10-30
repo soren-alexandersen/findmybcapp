@@ -8,73 +8,47 @@
     "publisher": "Central Solutions",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_transfer_management%7CPAPPID.b46b4568-c063-40d8-878d-d52041718b0d",
-    "lastModified": "2026-07-21T22:26:17.4133452+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-29T11:48:53.6432929+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-transfer-management-help-en/",
-    "sourceHash": "sha256:297070e6d945fa60d682f2b06d9b2b8110fcae232e9fd6ad4e6e28ad4d34696d",
+    "sourceHash": "sha256:d83e52b4069a4a0e34fa93e008dfbe4e6c972a1931742f10345af91f7171bccc",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:297070e6d945fa60d682f2b06d9b2b8110fcae232e9fd6ad4e6e28ad4d34696d",
-    "mappedOn": null,
-    "summary": "Creates combined purchase, assembly and transfer orders from templates",
+    "sourceHash": "sha256:d83e52b4069a4a0e34fa93e008dfbe4e6c972a1931742f10345af91f7171bccc",
+    "mappedOn": "2026-10-30",
+    "summary": "Multi-leg supply chain transfers from purchase or assembly orders abroad via transshipment locations.",
     "shape": "process",
     "primary": [
       {
         "need": "ng-stock-movements",
         "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-purchase-orders",
-      "ng-lot-serial-traceability"
+      "ng-lot-serial-traceability",
+      "ng-transport-planning"
     ],
     "claims": [
-      "Initiates the full supply chain from purchase or assembly orders via templates and transfer routes",
-      "Auto-moves posted receipts in transshipment locations to next transfer orders",
-      "Posts inventory ownership value at any point in the supply chain",
-      "Records original source numbers on item ledger entries",
-      "Shipment info on transfers: container number, bill of lading, customs invoice",
-      "Expected receipt dates at final destination on purchase orders",
-      "Container assembly from multiple purchase orders and suppliers"
+      "Templates and transfer routes set up the whole chain from PO or assembly order",
+      "Receipts at transshipment locations move automatically to the next transfer order",
+      "Posts ownership value to the balance sheet anywhere in the chain",
+      "Shows expected arrival at final destination on POs and assembly orders",
+      "Original source numbers kept on each item ledger entry",
+      "Records container number, bill of lading and customs invoice on transfers",
+      "Build containers from several POs, even from different suppliers",
+      "Per-user subscription with 30-day trial"
     ],
-    "countries": [
-      "AR",
-      "AT",
-      "AU",
-      "BE",
-      "CA",
-      "CH",
-      "CO",
-      "DE",
-      "DK",
-      "DO",
-      "EE",
-      "ES",
-      "FI",
-      "FR",
-      "GB",
-      "IE",
-      "IS",
-      "IT",
-      "LT",
-      "LU",
-      "LV",
-      "MX",
-      "NL",
-      "NO",
-      "NZ",
-      "PE",
-      "PL",
-      "SE",
-      "US",
-      "ZA"
-    ],
+    "countries": [],
     "languages": [
       "da",
       "de",
@@ -85,13 +59,11 @@
       "nl",
       "sv"
     ],
-    "industries": [
-      "Distribution"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

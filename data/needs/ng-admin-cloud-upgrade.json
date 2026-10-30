@@ -40,7 +40,113 @@
     "Old customizations should become standard features or apps where possible",
     "We have dataports and old integrations that will stop working after the upgrade",
     "Upgrade from BC 21 on-prem to latest version",
-    "How do we test that the migrated data matches the old system?"
+    "How do we test that the migrated data matches the old system?",
+    "We are still on an old NAV version and want to move to BC online",
+    "We want our on-premises data copied to the cloud",
+    "We want to know which customizations will break before we migrate"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "which-system-are-you-moving-fr",
+      "text": "Which system are you moving from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "An older NAV version",
+          "patterns": [
+            "\\bnav\\b",
+            "navision"
+          ]
+        },
+        {
+          "label": "Business Central on-premises",
+          "patterns": [
+            "on-premises",
+            "on-prem\\b"
+          ]
+        },
+        {
+          "label": "Dynamics GP or C5",
+          "patterns": [
+            "dynamics gp",
+            "\\bc5\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "An older NAV version": 0.38,
+        "Business Central on-premises": 0.62,
+        "Dynamics GP or C5": 0.25
+      }
+    },
+    {
+      "id": "what-help-do-you-need-with-the",
+      "text": "What help do you need with the move?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Moving our data across",
+          "patterns": [
+            "migrat\\w* data",
+            "replicat",
+            "moves data",
+            "migrates"
+          ]
+        },
+        {
+          "label": "Reviewing our customizations first",
+          "patterns": [
+            "code review",
+            "customizations",
+            "code modifications"
+          ]
+        },
+        {
+          "label": "Helping users get used to BC",
+          "patterns": [
+            "training",
+            "gp-style",
+            "c5-like"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Moving our data across": 0.62,
+        "Reviewing our customizations first": 0.12,
+        "Helping users get used to BC": 0.25
+      }
+    },
+    {
+      "id": "do-you-need-the-old-and-new-sy",
+      "text": "Do you need the old and new system to run side by side for a while?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, keep data in sync during the switch",
+          "patterns": [
+            "parallel running",
+            "two-way sync",
+            "live sync",
+            "replicat",
+            "delta (runs?|migration)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, keep data in sync during the switch": 0.38
+      }
+    }
+  ]
 }

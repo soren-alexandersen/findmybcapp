@@ -4,30 +4,32 @@
   "publisherId": "naviona_4717541",
   "offerId": "naviona_business_central_mobile_solutions",
   "source": {
-    "name": "Naviona Mobile Solutions",
+    "name": "Naviona Shop Floor & Warehouse Mobile",
     "publisher": "Naviona",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviona_4717541%7CAID.naviona_business_central_mobile_solutions%7CPAPPID.ab4e4e44-ea1e-41a7-8b66-eb87dab277e4",
-    "lastModified": "2026-09-10T01:34:19.7636485+00:00",
-    "appVersion": "2.3.0.15",
-    "pricingTypes": [],
+    "lastModified": "2026-10-19T12:07:02.9915705+00:00",
+    "appVersion": "2.4.0.1",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://naviona.com/docs/mobile-solutions/",
-    "sourceHash": "sha256:3bb1eb02689f5d0e007d2882ba780fe2ba1d43c0cbbcd31549cacb737bc95a85",
+    "sourceHash": "sha256:ce6a7db961dd4414b0e92be3aecb15a976a2436330ce964a5001b61ddc8c8ede",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:3bb1eb02689f5d0e007d2882ba780fe2ba1d43c0cbbcd31549cacb737bc95a85",
-    "mappedOn": null,
-    "summary": "Mobile execution of warehouse and manufacturing tasks",
+    "sourceHash": "sha256:ce6a7db961dd4414b0e92be3aecb15a976a2436330ce964a5001b61ddc8c8ede",
+    "mappedOn": "2026-10-30",
+    "summary": "Mobile scanning for production reporting, warehouse transactions and label printing.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-admin-devices",
+        "need": "ng-shop-floor-reporting",
         "confidence": "high"
       },
       {
-        "need": "ng-shop-floor-reporting",
+        "need": "ng-admin-devices",
         "confidence": "high"
       },
       {
@@ -36,32 +38,31 @@
       }
     ],
     "secondary": [
+      "ng-receiving-putaway",
       "ng-barcode-labels",
       "ng-stock-counting",
-      "ng-receiving-putaway"
+      "ng-stock-movements"
     ],
     "claims": [
-      "Captures production, inventory and warehouse transactions on barcode scanners, tablets and smartphones",
-      "Reports production output and operations",
-      "Records labor and machine activity",
+      "Reports production output and operations from mobile devices",
+      "Records labour and machine activity",
       "Processes receiving, picking, transfers and movements",
-      "Prints labels through BarTender Cloud",
-      "Inventory, shipping and manufacturing labels",
+      "Works on barcode scanners, tablets and smartphones",
+      "Label printing via BarTender Cloud for inventory, shipping and manufacturing labels",
       "Supports cycle counts and inventory audits",
-      "Supports Essentials and Premium"
+      "Two-month free trial",
+      "English only"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": [],
     "connectsTo": [
       "BarTender Cloud"
     ],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "free_trial",
     "hide": false,
     "hideReason": "",

@@ -8,19 +8,21 @@
     "publisher": "K3 Business Technology Group",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3businesstechnologygroup%7CAID.k3pebblestone_manufacturing%7CPAPPID.48841992-5fd4-4543-bf76-14724c66b6ab",
-    "lastModified": "2026-09-12T18:15:52.1183234+00:00",
-    "appVersion": "28.1.1.44",
-    "pricingTypes": [],
+    "lastModified": "2026-10-23T11:57:40.0843774+00:00",
+    "appVersion": "28.2.0.85",
+    "pricingTypes": [
+      "ExternalFreeTrial"
+    ],
     "freeTrial": null,
     "helpLink": "https://k3fashionsolutions.com/resources/k3-pebblestone-manufacturing/",
-    "sourceHash": "sha256:aef055afca976ece9f5769ab2b41432e2e5352c97e514bb27957e91b077dd15b",
+    "sourceHash": "sha256:e95dda0acb9c60aa1f75fd7126a7c4cced877810c223b09066d86948614c6bf2",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:aef055afca976ece9f5769ab2b41432e2e5352c97e514bb27957e91b077dd15b",
-    "mappedOn": null,
-    "summary": "Manufacturing for fashion businesses",
-    "shape": "vertical",
+    "sourceHash": "sha256:e95dda0acb9c60aa1f75fd7126a7c4cced877810c223b09066d86948614c6bf2",
+    "mappedOn": "2026-10-30",
+    "summary": "Adds colour and size matrices to BC manufacturing for fashion producers.",
+    "shape": "addon",
     "primary": [
       {
         "need": "ng-vert-fashion",
@@ -32,13 +34,15 @@
       }
     ],
     "secondary": [
-      "ng-bom-formula-engineering"
+      "ng-bom-formula-engineering",
+      "ng-subcontracting"
     ],
     "claims": [
-      "Production BOM matrix by colour and size",
-      "Material and master production scheduling",
-      "Matrix view of production orders, production journals, planning worksheets and subcontracting worksheets",
-      "Supports Premium edition"
+      "Adds a matrix to standard BC manufacturing to handle many item variants",
+      "Production BOM matrix shows colours and sizes in rows and columns",
+      "Material requirements planning and master production schedule",
+      "Production orders, planning worksheets, production journals and subcontracting worksheets shown in the matrix",
+      "Premium edition only"
     ],
     "countries": [
       "AE",
@@ -85,14 +89,15 @@
       "sv"
     ],
     "industries": [
-      "Fashion"
+      "Fashion",
+      "Manufacturing"
     ],
     "connectsTo": [],
     "requires": [
       "K3 Pebblestone"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "free_trial",
     "hide": false,
     "hideReason": "",
     "noFit": ""

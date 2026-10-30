@@ -124,11 +124,11 @@
         }
       ],
       "coverage": {
-        "Tracking leads and opportunities": 0.22,
-        "Planning sales visits and calls": 0.17,
+        "Tracking leads and opportunities": 0.24,
+        "Planning sales visits and calls": 0.14,
         "Clean, controlled customer records": 0.33,
-        "Customer service and support": 0.11,
-        "Selling more to existing customers": 0.22
+        "Customer service and support": 0.14,
+        "Selling more to existing customers": 0.19
       }
     },
     {
@@ -152,7 +152,7 @@
         }
       ],
       "coverage": {
-        "Yes, keep a contact history": 0.33
+        "Yes, keep a contact history": 0.29
       }
     },
     {
@@ -194,10 +194,10 @@
         }
       ],
       "coverage": {
-        "Zendesk or Jira support desk": 0.11,
-        "Microsoft Teams": 0.06,
-        "Maps (Bing or Google)": 0.11,
-        "Your mail inbox": 0.11
+        "Zendesk or Jira support desk": 0.1,
+        "Microsoft Teams": 0.1,
+        "Maps (Bing or Google)": 0.1,
+        "Your mail inbox": 0.1
       }
     },
     {
@@ -218,8 +218,61 @@
         }
       ],
       "coverage": {
-        "Yes, require approval": 0.11
+        "Yes, require approval": 0.1
       }
+    },
+    {
+      "id": "would-you-like-ai-to-summarise",
+      "text": "Would you like AI to summarise conversations and draft emails?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, AI summaries and drafts",
+          "patterns": [
+            "\\bai\\b",
+            "openai",
+            "ai-generated",
+            "ai-written"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, AI summaries and drafts": 0.14
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'custom' wording",
+      "terms": [
+        "custom"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "UI detail: role centres",
+      "terms": [
+        "role"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "shared-login licensing detail",
+      "terms": [
+        "shar"
+      ],
+      "on": "2026-10-30"
+    },
+    {
+      "label": "generic 'store' wording with mixed meanings",
+      "terms": [
+        "stor"
+      ],
+      "on": "2026-10-30"
     }
   ]
 }

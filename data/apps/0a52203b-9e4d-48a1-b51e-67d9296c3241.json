@@ -18,19 +18,21 @@
   },
   "mapping": {
     "sourceHash": "sha256:5e384973ae5a2cf336a2a686cd34619ba56e537cefc4d7b41479be28d161c8fc",
-    "mappedOn": null,
-    "summary": "Commercial invoices for bonded shipments",
+    "mappedOn": "2026-10-30",
+    "summary": "Creates commercial invoices and customs documents for exporting and bonded shipments.",
     "shape": "process",
     "primary": [
       {
-        "need": "ng-shipping-carriers",
-        "confidence": "medium"
+        "need": "ng-import-export-customs",
+        "confidence": "high"
       }
     ],
     "secondary": [],
     "claims": [
-      "Creates customs documentation for international shipments",
-      "Supports customs standards of Norway, Great Britain and USA among others"
+      "Produces commercial invoices for bonded shipments",
+      "Generates customs paperwork for selling and shipping goods abroad",
+      "Helps meet customs standards of individual countries such as Norway, UK and USA",
+      "Runs on Essentials and Premium editions"
     ],
     "countries": [
       "BE",
@@ -58,11 +60,11 @@
     "industries": [],
     "connectsTo": [],
     "requires": [],
-    "deployment": "not_stated",
+    "deployment": "online",
     "pricing": "not_stated",
     "hide": false,
     "hideReason": "",
-    "noFit": "Customs/commercial invoice documentation for export has no dedicated group; closest is shipping documents."
+    "noFit": ""
   },
   "curated": {
     "overrides": {},

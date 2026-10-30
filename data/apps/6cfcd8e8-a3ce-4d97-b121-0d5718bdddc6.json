@@ -8,18 +8,20 @@
     "publisher": "saglobal",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.saglobal%7CAID.purchaserequest%7CPAPPID.6cfcd8e8-a3ce-4d97-b121-0d5718bdddc6",
-    "lastModified": "2026-05-19T06:42:12.0915646+00:00",
-    "appVersion": "28.0.6.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-25T19:48:56.1064855+00:00",
+    "appVersion": "28.5.24.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://saglobalsupport.microsoftcrmportals.com/",
-    "sourceHash": "sha256:84c163720d0edef3397b90607bdd4bac17c3398e06f35c39771de929dbcdb28b",
+    "sourceHash": "sha256:bbdd380f7f724d371b9d39dcf1c0f1069340adcbc7257b51954d108b0b516797",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:84c163720d0edef3397b90607bdd4bac17c3398e06f35c39771de929dbcdb28b",
-    "mappedOn": null,
-    "summary": "Purchase requests and approval consultation",
+    "sourceHash": "sha256:bbdd380f7f724d371b9d39dcf1c0f1069340adcbc7257b51954d108b0b516797",
+    "mappedOn": "2026-10-30",
+    "summary": "Purchase requests with approval, vendor offer comparison and PO creation per vendor.",
     "shape": "process",
     "primary": [
       {
@@ -35,10 +37,10 @@
       "ng-purchase-orders"
     ],
     "claims": [
-      "Purchase request creation with workflow approval",
-      "Compares vendor offers and selects best offer",
-      "Creates purchase orders per vendor",
-      "RFQ process to identify vendor and price for requisitioned products"
+      "Create purchase requests and approve them via workflow",
+      "Compare vendor offers and select the best one",
+      "Creates purchase orders per selected vendor",
+      "Runs an RFQ process to find vendor and price for requested items"
     ],
     "countries": [],
     "languages": [],
@@ -46,7 +48,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -8,18 +8,20 @@
     "publisher": "Codeunit",
     "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2voyadoelevate%7CPAPPID.676e5ae1-053c-411e-988b-ec859dc86d02",
-    "lastModified": "2025-06-12T09:26:35.8778292+00:00",
+    "lastModified": "2026-10-19T10:47:38.6944456+00:00",
     "appVersion": "25.0.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.codeunit.io/get-in-touch",
-    "sourceHash": "sha256:00cc7276b8380c348a7591e6c31f21f9f3dcbfbf87440f6306d1b96cbab97043",
+    "sourceHash": "sha256:dba6e6a7a088f372cc8b6d28325f7dfb15c38fb6ddfaa490a26a0842c6e7349f",
     "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:00cc7276b8380c348a7591e6c31f21f9f3dcbfbf87440f6306d1b96cbab97043",
-    "mappedOn": null,
-    "summary": "Sends product data to Voyado Elevate product discovery engine",
+    "sourceHash": "sha256:dba6e6a7a088f372cc8b6d28325f7dfb15c38fb6ddfaa490a26a0842c6e7349f",
+    "mappedOn": "2026-10-30",
+    "summary": "Links BC with the Voyado Elevate ecommerce search and product discovery engine.",
     "shape": "connector",
     "primary": [
       {
@@ -29,26 +31,22 @@
     ],
     "secondary": [],
     "claims": [
-      "Includes fully managed and monitored data flows",
-      "Fully functional free trial before buying",
-      "Setup through BC Assisted Setup with Plug-n-Sell verification",
-      "Also supports Microsoft Dynamics NAV",
-      "Requires Voyado Elevate",
-      "Built on Codeunit OmniConnect integration platform"
+      "Sold as a managed service where Codeunit deploys and monitors the data flows",
+      "Account is created through BC's Assisted Setup",
+      "Fully functional trial before buying",
+      "Works with BC Essentials and Premium",
+      "Interface in English only",
+      "Needs an existing Voyado Elevate account and runs on Codeunit's OmniConnect integration platform"
     ],
     "countries": [],
-    "languages": [
-      "en"
-    ],
+    "languages": [],
     "industries": [],
     "connectsTo": [
       "Voyado Elevate"
     ],
-    "requires": [
-      "Voyado Elevate"
-    ],
+    "requires": [],
     "deployment": "not_stated",
-    "pricing": "subscription",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""
