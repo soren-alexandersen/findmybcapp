@@ -15,7 +15,12 @@ permissions:
 
 jobs:
   comment:
-    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion != 'cancelled'
+    # Skipped runs (the owner's own PRs) have no result to post.
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion != 'cancelled' &&
+      github.event.workflow_run.conclusion != 'skipped' &&
+      github.event.workflow_run.actor.login != github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - name: Find the pull request
