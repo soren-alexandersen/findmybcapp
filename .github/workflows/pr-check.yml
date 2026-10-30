@@ -19,6 +19,8 @@ concurrency:
 
 jobs:
   check:
+    # The site owner's own PRs (catalog refreshes, site changes) are checked by data-check.yml instead.
+    if: github.event.pull_request.user.login != github.repository_owner
     runs-on: ubuntu-latest
     steps:
       - name: Check out the base branch (rules and script)

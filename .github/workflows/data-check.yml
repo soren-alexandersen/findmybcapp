@@ -1,0 +1,29 @@
+# Validates the catalog on pull requests that change data, schemas, scripts or the site
+# (catalog refreshes and site changes). Publisher PRs only touch publisher-data/ and are
+# checked by pr-check.yml. Same check the publish job runs before deploying.
+name: Data check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths: ["data/**", "schema/**", "scripts/**", "site/**"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "jsonschema>=4.18"
+      - run: python scripts/validate.py
